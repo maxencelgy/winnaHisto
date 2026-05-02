@@ -162,8 +162,16 @@ def scrape_sport(sport, start_d, end_d, max_workers=30):
                 eta = (len(all_events) - i) / max(rate, 0.1)
                 print(f"  [{sport}] odds : {i}/{len(all_events)} ({rate:.0f}/s, ETA {eta:.0f}s), {len(rows)} ok")
 
-    # Sauvegarde
+    # SAFETY : refuse d'écraser le CSV existant si on a < 100 matchs (probable ban/challenge)
     out_path = os.path.join(OUT_DIR, f"{sport}.csv")
+    if len(rows) < 100 and os.path.exists(out_path):
+        existing_lines = sum(1 for _ in open(out_path)) - 1
+        if existing_lines > len(rows):
+            print(f"[{sport}] ⚠️ ABORT WRITE : seulement {len(rows)} matchs scrapés, "
+                  f"existing CSV a {existing_lines} matchs → préservé. Vérifie ban/challenge Sofascore.")
+            return
+
+    # Écriture vers fichier temp puis rename atomique (pas de wipe partiel)
     fields = ["date", "sport", "league", "category", "home", "away", "hs", "as",
               "home_won", "total_score", "btts",
               "odds_1", "odds_x", "odds_2",
@@ -172,11 +180,13 @@ def scrape_sport(sport, start_d, end_d, max_workers=30):
               "odds_over_2_5", "odds_under_2_5",
               "odds_over_3_5", "odds_under_3_5",
               "odds_btts_y", "odds_btts_n"]
-    with open(out_path, "w", encoding="utf-8") as f:
+    tmp_path = out_path + ".tmp"
+    with open(tmp_path, "w", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=fields)
         w.writeheader()
         for r in sorted(rows, key=lambda x: x["date"]):
             w.writerow({k: r.get(k, "") for k in fields})
+    os.replace(tmp_path, out_path)
     print(f"[{sport}] Sauvé {len(rows)} matchs en {time.time()-t0:.0f}s → {out_path}")
 
 
