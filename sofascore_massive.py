@@ -11,30 +11,71 @@ Output : /Users/maxenceleguay/Sites/winnaHisto/datasets/sofascore_massive/
 import csv
 import json
 import os
-import ssl
+import threading
 import time
-import urllib.request
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import date, timedelta
 from pathlib import Path
 
+from curl_cffi import requests as cf_requests
+
 OUT_DIR = "/Users/maxenceleguay/Sites/winnaHisto/datasets/sofascore_massive"
-ctx = ssl.create_default_context()
-ctx.check_hostname = False
-ctx.verify_mode = ssl.CERT_NONE
-HEADERS = {"User-Agent": "Mozilla/5.0"}
+
+# Session curl_cffi initialisée via Camoufox (bootstrap cookies + fingerprint Firefox)
+_session = None
+_session_lock = threading.Lock()
+
+
+def _bootstrap_session():
+    """Lance Camoufox une fois pour récupérer cookies + UA, puis crée une session curl_cffi
+    qui peut faire des centaines de requêtes/sec en imitant Firefox."""
+    from camoufox.sync_api import Camoufox
+    print("  [auth] Bootstrap Camoufox (cookies sofascore)...")
+    with Camoufox(headless=True, geoip=True) as browser:
+        ctx = browser.contexts[0] if browser.contexts else browser.new_context()
+        page = ctx.new_page()
+        page.goto("https://www.sofascore.com", wait_until="domcontentloaded", timeout=30000)
+        time.sleep(2)
+        cookies = ctx.cookies()
+        ua = page.evaluate("navigator.userAgent")
+    s = cf_requests.Session()
+    for c in cookies:
+        if 'sofascore' in c.get('domain', ''):
+            s.cookies.update({c['name']: c['value']})
+    s.headers.update({"User-Agent": ua})
+    return s
+
+
+def _get_session():
+    global _session
+    with _session_lock:
+        if _session is None:
+            _session = _bootstrap_session()
+        return _session
+
+
+def _reset_session():
+    global _session
+    with _session_lock:
+        _session = None
 
 
 def fetch(url, retries=2):
+    s = _get_session()
     for i in range(retries + 1):
         try:
-            req = urllib.request.Request(url, headers=HEADERS)
-            with urllib.request.urlopen(req, context=ctx, timeout=15) as r:
-                return json.loads(r.read())
+            r = s.get(url, impersonate="firefox135", timeout=15)
+            if r.status_code == 200:
+                return r.json()
+            if r.status_code == 403:
+                # Cookies probablement expirés → re-bootstrap au prochain appel
+                _reset_session()
+                s = _get_session()
         except Exception:
-            if i == retries:
-                return None
-            time.sleep(0.3)
+            pass
+        if i < retries:
+            time.sleep(0.5)
+    return None
 
 
 def frac_to_dec(s):
