@@ -1,0 +1,2071 @@
+date,league,home,away,hs,as,home_odds,away_odds,home_won
+2024-10-08,NHL,Florida Panthers,Boston Bruins,6,4,1.61,2.4,1
+2024-10-08,NHL,Utah Mammoth,Chicago Blackhawks,5,2,1.56,2.5,1
+2024-10-08,NHL,Seattle Kraken,St. Louis Blues,2,3,1.61,2.4,0
+2024-10-09,NHL,Seattle Kraken,St. Louis Blues,2,3,1.61,2.4,0
+2024-10-09,NHL,Florida Panthers,Boston Bruins,6,4,1.61,2.4,1
+2024-10-09,NHL,Utah Mammoth,Chicago Blackhawks,5,2,1.56,2.5,1
+2024-10-09,NHL,Vegas Golden Knights,Colorado Avalanche,8,4,1.91,1.91,1
+2024-10-09,NHL,Edmonton Oilers,Winnipeg Jets,0,6,1.53,2.6,0
+2024-10-09,NHL,Pittsburgh Penguins,New York Rangers,0,6,2.25,1.67,0
+2024-10-09,NHL,Montréal Canadiens,Toronto Maple Leafs,1,0,2.65,1.5,1
+2024-10-10,NHL,Edmonton Oilers,Winnipeg Jets,0,6,1.53,2.6,0
+2024-10-10,NHL,Pittsburgh Penguins,New York Rangers,0,6,2.25,1.67,0
+2024-10-10,NHL,Montréal Canadiens,Toronto Maple Leafs,1,0,2.65,1.5,1
+2024-10-10,NHL,Vegas Golden Knights,Colorado Avalanche,8,4,1.91,1.91,1
+2024-10-10,NHL,Minnesota Wild,Columbus Blue Jackets,3,2,1.36,3.25,1
+2024-10-10,NHL,Buffalo Sabres,Los Angeles Kings,1,3,1.91,1.91,0
+2024-10-10,NHL,Boston Bruins,Montréal Canadiens,6,4,1.33,3.4,1
+2024-10-10,NHL,Ottawa Senators,Florida Panthers,3,1,2.15,1.74,1
+2024-10-10,NHL,New Jersey Devils,Toronto Maple Leafs,2,4,1.67,2.25,0
+2024-10-10,NHL,Nashville Predators,Dallas Stars,3,4,2.15,1.74,0
+2024-10-11,NHL,Buffalo Sabres,Los Angeles Kings,1,3,1.91,1.91,0
+2024-10-11,NHL,Nashville Predators,Dallas Stars,3,4,2.15,1.74,0
+2024-10-11,NHL,New Jersey Devils,Toronto Maple Leafs,2,4,1.67,2.25,0
+2024-10-11,NHL,Minnesota Wild,Columbus Blue Jackets,3,2,1.36,3.25,1
+2024-10-11,NHL,Boston Bruins,Montréal Canadiens,6,4,1.33,3.4,1
+2024-10-11,NHL,Ottawa Senators,Florida Panthers,3,1,2.15,1.74,1
+2024-10-11,NHL,Carolina Hurricanes,Tampa Bay Lightning,1,4,1.67,2.25,0
+2024-10-11,NHL,Vegas Golden Knights,St. Louis Blues,4,3,1.44,2.85,1
+2024-10-12,NHL,Carolina Hurricanes,Tampa Bay Lightning,1,4,1.67,2.25,0
+2024-10-12,NHL,Vegas Golden Knights,St. Louis Blues,4,3,1.44,2.85,1
+2024-10-12,NHL,Toronto Maple Leafs,Pittsburgh Penguins,4,2,1.53,2.6,1
+2024-10-12,NHL,Detroit Red Wings,Nashville Predators,3,0,2.2,1.71,1
+2024-10-12,NHL,Montréal Canadiens,Ottawa Senators,4,1,2.35,1.63,1
+2024-10-12,NHL,Buffalo Sabres,Florida Panthers,5,2,1.95,1.87,1
+2024-10-12,NHL,Dallas Stars,New York Islanders,3,0,1.59,2.45,1
+2024-10-12,NHL,Washington Capitals,New Jersey Devils,3,5,2.15,1.74,0
+2024-10-12,NHL,Colorado Avalanche,Columbus Blue Jackets,4,6,1.29,3.7,0
+2024-10-12,NHL,Calgary Flames,Philadelphia Flyers,6,3,1.77,2.1,1
+2024-10-12,NHL,San Jose Sharks,Anaheim Ducks,0,2,2.15,1.74,0
+2024-10-12,NHL,Edmonton Oilers,Chicago Blackhawks,2,5,1.28,3.8,0
+2024-10-13,NHL,Montréal Canadiens,Ottawa Senators,4,1,2.35,1.63,1
+2024-10-13,NHL,Colorado Avalanche,Columbus Blue Jackets,4,6,1.29,3.7,0
+2024-10-13,NHL,Toronto Maple Leafs,Pittsburgh Penguins,4,2,1.53,2.6,1
+2024-10-13,NHL,Detroit Red Wings,Nashville Predators,3,0,2.2,1.71,1
+2024-10-13,NHL,Washington Capitals,New Jersey Devils,3,5,2.15,1.74,0
+2024-10-13,NHL,Dallas Stars,New York Islanders,3,0,1.59,2.45,1
+2024-10-13,NHL,Buffalo Sabres,Florida Panthers,5,2,1.95,1.87,1
+2024-10-13,NHL,Edmonton Oilers,Calgary Flames,1,4,1.37,3.2,0
+2024-10-13,NHL,Vegas Golden Knights,Anaheim Ducks,3,1,1.33,3.4,1
+2024-10-13,NHL,Dallas Stars,Seattle Kraken,2,0,1.59,2.45,1
+2024-10-13,NHL,Calgary Flames,Philadelphia Flyers,6,3,1.77,2.1,1
+2024-10-13,NHL,Edmonton Oilers,Chicago Blackhawks,2,5,1.28,3.8,0
+2024-10-13,NHL,San Jose Sharks,Anaheim Ducks,0,2,2.15,1.74,0
+2024-10-14,NHL,New York Rangers,Detroit Red Wings,4,1,1.42,2.95,1
+2024-10-14,NHL,Montréal Canadiens,Pittsburgh Penguins,3,6,2.25,1.67,0
+2024-10-14,NHL,New Jersey Devils,Utah Mammoth,3,0,1.63,2.35,1
+2024-10-14,NHL,Boston Bruins,Florida Panthers,3,4,1.74,2.15,0
+2024-10-14,NHL,Colorado Avalanche,New York Islanders,2,6,1.63,2.35,0
+2024-10-14,NHL,Dallas Stars,Seattle Kraken,2,0,1.59,2.45,1
+2024-10-14,NHL,Edmonton Oilers,Calgary Flames,1,4,1.37,3.2,0
+2024-10-14,NHL,Vegas Golden Knights,Anaheim Ducks,3,1,1.33,3.4,1
+2024-10-15,NHL,Washington Capitals,Vegas Golden Knights,4,2,2.1,1.77,1
+2024-10-15,NHL,St. Louis Blues,Minnesota Wild,1,4,1.95,1.87,0
+2024-10-15,NHL,Carolina Hurricanes,New Jersey Devils,4,2,1.61,2.4,1
+2024-10-15,NHL,Nashville Predators,Seattle Kraken,3,7,1.53,2.6,0
+2024-10-15,NHL,Montréal Canadiens,Pittsburgh Penguins,3,6,2.25,1.67,0
+2024-10-15,NHL,New York Rangers,Detroit Red Wings,4,1,1.42,2.95,1
+2024-10-15,NHL,Colorado Avalanche,New York Islanders,2,6,1.63,2.35,0
+2024-10-15,NHL,Boston Bruins,Florida Panthers,3,4,1.74,2.15,0
+2024-10-15,NHL,Tampa Bay Lightning,Vancouver Canucks,4,1,1.74,2.15,1
+2024-10-15,NHL,New Jersey Devils,Utah Mammoth,3,0,1.63,2.35,1
+2024-10-15,NHL,Calgary Flames,Chicago Blackhawks,3,1,1.65,2.3,1
+2024-10-15,NHL,Columbus Blue Jackets,Florida Panthers,3,4,2.2,1.71,0
+2024-10-16,NHL,Carolina Hurricanes,New Jersey Devils,4,2,1.61,2.4,1
+2024-10-16,NHL,St. Louis Blues,Minnesota Wild,1,4,1.95,1.87,0
+2024-10-16,NHL,Nashville Predators,Seattle Kraken,3,7,1.53,2.6,0
+2024-10-16,NHL,Columbus Blue Jackets,Florida Panthers,3,4,2.2,1.71,0
+2024-10-16,NHL,Washington Capitals,Vegas Golden Knights,4,2,2.1,1.77,1
+2024-10-16,NHL,Calgary Flames,Chicago Blackhawks,3,1,1.65,2.3,1
+2024-10-16,NHL,Tampa Bay Lightning,Vancouver Canucks,4,1,1.74,2.15,1
+2024-10-16,NHL,Toronto Maple Leafs,Los Angeles Kings,6,2,1.5,2.65,1
+2024-10-16,NHL,Colorado Avalanche,Boston Bruins,3,5,1.71,2.2,0
+2024-10-17,NHL,Toronto Maple Leafs,Los Angeles Kings,6,2,1.5,2.65,1
+2024-10-17,NHL,Colorado Avalanche,Boston Bruins,3,5,1.71,2.2,0
+2024-10-17,NHL,Columbus Blue Jackets,Buffalo Sabres,6,4,2.2,1.71,1
+2024-10-17,NHL,Washington Capitals,Dallas Stars,3,2,2.3,1.65,1
+2024-10-17,NHL,Seattle Kraken,Philadelphia Flyers,6,4,1.71,2.2,1
+2024-10-17,NHL,Montréal Canadiens,Los Angeles Kings,1,4,2.2,1.71,0
+2024-10-17,NHL,Chicago Blackhawks,San Jose Sharks,4,2,1.53,2.6,1
+2024-10-17,NHL,Tampa Bay Lightning,Vegas Golden Knights,4,3,1.65,2.3,1
+2024-10-17,NHL,Ottawa Senators,New Jersey Devils,1,3,2.2,1.71,0
+2024-10-17,NHL,Nashville Predators,Edmonton Oilers,2,4,2.1,1.77,0
+2024-10-17,NHL,Detroit Red Wings,New York Rangers,2,5,2.25,1.67,0
+2024-10-18,NHL,Washington Capitals,Dallas Stars,3,2,2.3,1.65,1
+2024-10-18,NHL,Montréal Canadiens,Los Angeles Kings,1,4,2.2,1.71,0
+2024-10-18,NHL,Ottawa Senators,New Jersey Devils,1,3,2.2,1.71,0
+2024-10-18,NHL,Columbus Blue Jackets,Buffalo Sabres,6,4,2.2,1.71,1
+2024-10-18,NHL,Tampa Bay Lightning,Vegas Golden Knights,4,3,1.65,2.3,1
+2024-10-18,NHL,Detroit Red Wings,New York Rangers,2,5,2.25,1.67,0
+2024-10-18,NHL,Nashville Predators,Edmonton Oilers,2,4,2.1,1.77,0
+2024-10-18,NHL,Chicago Blackhawks,San Jose Sharks,4,2,1.53,2.6,1
+2024-10-18,NHL,Seattle Kraken,Philadelphia Flyers,6,4,1.71,2.2,1
+2024-10-18,NHL,Pittsburgh Penguins,Carolina Hurricanes,1,4,2.45,1.59,0
+2024-10-18,NHL,Winnipeg Jets,San Jose Sharks,8,3,1.25,4.2,1
+2024-10-19,NHL,Winnipeg Jets,San Jose Sharks,8,3,1.25,4.2,1
+2024-10-19,NHL,Pittsburgh Penguins,Carolina Hurricanes,1,4,2.45,1.59,0
+2024-10-19,NHL,Dallas Stars,Edmonton Oilers,4,1,1.95,1.87,1
+2024-10-19,NHL,Ottawa Senators,Tampa Bay Lightning,5,4,2.15,1.74,1
+2024-10-19,NHL,Nashville Predators,Detroit Red Wings,2,5,1.5,2.65,0
+2024-10-19,NHL,Philadelphia Flyers,Vancouver Canucks,0,3,2.25,1.67,0
+2024-10-19,NHL,Columbus Blue Jackets,Minnesota Wild,1,3,2.5,1.56,0
+2024-10-19,NHL,St. Louis Blues,Carolina Hurricanes,4,3,2.45,1.59,1
+2024-10-19,NHL,Toronto Maple Leafs,New York Rangers,1,4,1.77,2.1,0
+2024-10-19,NHL,Chicago Blackhawks,Buffalo Sabres,2,4,2.2,1.71,0
+2024-10-20,NHL,Ottawa Senators,Tampa Bay Lightning,5,4,2.15,1.74,1
+2024-10-20,NHL,Columbus Blue Jackets,Minnesota Wild,1,3,2.5,1.56,0
+2024-10-20,NHL,Nashville Predators,Detroit Red Wings,2,5,1.5,2.65,0
+2024-10-20,NHL,Dallas Stars,Edmonton Oilers,4,1,1.95,1.87,1
+2024-10-20,NHL,Winnipeg Jets,Pittsburgh Penguins,6,3,1.71,2.2,1
+2024-10-20,NHL,Philadelphia Flyers,Vancouver Canucks,0,3,2.25,1.67,0
+2024-10-20,NHL,San Jose Sharks,Colorado Avalanche,1,4,3.3,1.36,0
+2024-10-20,NHL,Anaheim Ducks,Los Angeles Kings,1,4,2.5,1.56,0
+2024-10-20,NHL,Toronto Maple Leafs,New York Rangers,1,4,1.77,2.1,0
+2024-10-20,NHL,St. Louis Blues,Carolina Hurricanes,4,3,2.45,1.59,1
+2024-10-20,NHL,Chicago Blackhawks,Buffalo Sabres,2,4,2.2,1.71,0
+2024-10-21,NHL,Toronto Maple Leafs,Tampa Bay Lightning,5,2,1.74,2.15,1
+2024-10-21,NHL,San Jose Sharks,Colorado Avalanche,1,4,3.3,1.36,0
+2024-10-21,NHL,Winnipeg Jets,Pittsburgh Penguins,6,3,1.71,2.2,1
+2024-10-21,NHL,Anaheim Ducks,Los Angeles Kings,1,4,2.5,1.56,0
+2024-10-22,NHL,Florida Panthers,Minnesota Wild,1,5,1.67,2.25,0
+2024-10-22,NHL,Columbus Blue Jackets,Toronto Maple Leafs,6,2,2.7,1.49,1
+2024-10-22,NHL,Montréal Canadiens,New York Rangers,2,7,3.05,1.4,0
+2024-10-22,NHL,New York Islanders,Detroit Red Wings,0,1,1.59,2.45,0
+2024-10-22,NHL,Philadelphia Flyers,Washington Capitals,1,4,1.71,2.2,0
+2024-10-22,NHL,Buffalo Sabres,Dallas Stars,4,2,2.25,1.67,1
+2024-10-22,NHL,Seattle Kraken,Colorado Avalanche,2,3,2.05,1.8,0
+2024-10-22,NHL,Toronto Maple Leafs,Tampa Bay Lightning,5,2,1.74,2.15,1
+2024-10-22,NHL,St. Louis Blues,Winnipeg Jets,2,3,2.2,1.71,0
+2024-10-22,NHL,Chicago Blackhawks,Vancouver Canucks,3,6,2.5,1.56,0
+2024-10-22,NHL,New Jersey Devils,Tampa Bay Lightning,5,8,1.63,2.35,0
+2024-10-22,NHL,Nashville Predators,Boston Bruins,4,0,1.71,2.2,1
+2024-10-22,NHL,Anaheim Ducks,San Jose Sharks,3,1,1.63,2.35,1
+2024-10-22,NHL,Vegas Golden Knights,Los Angeles Kings,6,1,1.8,2.05,1
+2024-10-22,NHL,Utah Mammoth,Ottawa Senators,0,4,1.83,2.0,0
+2024-10-23,NHL,Philadelphia Flyers,Washington Capitals,1,4,1.71,2.2,0
+2024-10-23,NHL,Buffalo Sabres,Dallas Stars,4,2,2.25,1.67,1
+2024-10-23,NHL,New Jersey Devils,Tampa Bay Lightning,5,8,1.63,2.35,0
+2024-10-23,NHL,Chicago Blackhawks,Vancouver Canucks,3,6,2.5,1.56,0
+2024-10-23,NHL,St. Louis Blues,Winnipeg Jets,2,3,2.2,1.71,0
+2024-10-23,NHL,New York Islanders,Detroit Red Wings,0,1,1.59,2.45,0
+2024-10-23,NHL,Montréal Canadiens,New York Rangers,2,7,3.05,1.4,0
+2024-10-23,NHL,Florida Panthers,Minnesota Wild,1,5,1.67,2.25,0
+2024-10-23,NHL,Nashville Predators,Boston Bruins,4,0,1.71,2.2,1
+2024-10-23,NHL,Columbus Blue Jackets,Toronto Maple Leafs,6,2,2.7,1.49,1
+2024-10-23,NHL,Seattle Kraken,Colorado Avalanche,2,3,2.05,1.8,0
+2024-10-23,NHL,Anaheim Ducks,San Jose Sharks,3,1,1.63,2.35,1
+2024-10-23,NHL,Vegas Golden Knights,Los Angeles Kings,6,1,1.8,2.05,1
+2024-10-23,NHL,Utah Mammoth,Ottawa Senators,0,4,1.83,2.0,0
+2024-10-23,NHL,Washington Capitals,Philadelphia Flyers,6,3,1.67,2.25,1
+2024-10-24,NHL,Washington Capitals,Philadelphia Flyers,6,3,1.67,2.25,1
+2024-10-24,NHL,Detroit Red Wings,New Jersey Devils,5,3,2.5,1.56,1
+2024-10-24,NHL,Los Angeles Kings,San Jose Sharks,3,2,1.31,3.6,1
+2024-10-24,NHL,Tampa Bay Lightning,Minnesota Wild,2,4,1.63,2.35,0
+2024-10-24,NHL,Boston Bruins,Dallas Stars,2,5,1.83,2.0,0
+2024-10-24,NHL,Toronto Maple Leafs,St. Louis Blues,1,5,1.41,3.0,0
+2024-10-24,NHL,Utah Mammoth,Colorado Avalanche,1,5,2.3,1.65,0
+2024-10-24,NHL,Calgary Flames,Carolina Hurricanes,2,4,2.65,1.5,0
+2024-10-24,NHL,New York Rangers,Florida Panthers,1,3,1.63,2.35,0
+2024-10-25,NHL,Boston Bruins,Dallas Stars,2,5,1.83,2.0,0
+2024-10-25,NHL,Detroit Red Wings,New Jersey Devils,5,3,2.5,1.56,1
+2024-10-25,NHL,New York Rangers,Florida Panthers,1,3,1.63,2.35,0
+2024-10-25,NHL,Tampa Bay Lightning,Minnesota Wild,2,4,1.63,2.35,0
+2024-10-25,NHL,Toronto Maple Leafs,St. Louis Blues,1,5,1.41,3.0,0
+2024-10-25,NHL,Los Angeles Kings,San Jose Sharks,3,2,1.31,3.6,1
+2024-10-25,NHL,Utah Mammoth,Colorado Avalanche,1,5,2.3,1.65,0
+2024-10-25,NHL,Calgary Flames,Carolina Hurricanes,2,4,2.65,1.5,0
+2024-10-25,NHL,Edmonton Oilers,Pittsburgh Penguins,4,0,1.42,2.95,1
+2024-10-25,NHL,Chicago Blackhawks,Nashville Predators,2,3,2.5,1.56,0
+2024-10-25,NHL,Vegas Golden Knights,Ottawa Senators,6,4,1.71,2.2,1
+2024-10-26,NHL,Vegas Golden Knights,Ottawa Senators,6,4,1.71,2.2,1
+2024-10-26,NHL,Chicago Blackhawks,Nashville Predators,2,3,2.5,1.56,0
+2024-10-26,NHL,Edmonton Oilers,Pittsburgh Penguins,4,0,1.42,2.95,1
+2024-10-26,NHL,Buffalo Sabres,Detroit Red Wings,5,3,1.67,2.25,1
+2024-10-26,NHL,Calgary Flames,Winnipeg Jets,3,5,2.15,1.74,0
+2024-10-26,NHL,Los Angeles Kings,Utah Mammoth,3,2,1.67,2.25,1
+2024-10-26,NHL,Philadelphia Flyers,Minnesota Wild,7,5,2.15,1.74,1
+2024-10-26,NHL,Montréal Canadiens,St. Louis Blues,5,2,2.05,1.8,1
+2024-10-26,NHL,Tampa Bay Lightning,Washington Capitals,3,0,1.61,2.4,1
+2024-10-26,NHL,Seattle Kraken,Carolina Hurricanes,1,4,2.6,1.53,0
+2024-10-26,NHL,New York Islanders,Florida Panthers,3,6,2.2,1.71,0
+2024-10-26,NHL,New York Rangers,Anaheim Ducks,2,1,1.32,3.5,1
+2024-10-26,NHL,Dallas Stars,Chicago Blackhawks,4,2,1.28,3.8,1
+2024-10-26,NHL,Vancouver Canucks,Pittsburgh Penguins,4,3,1.48,2.75,1
+2024-10-26,NHL,Vegas Golden Knights,San Jose Sharks,7,3,1.32,3.5,1
+2024-10-27,NHL,New Jersey Devils,Anaheim Ducks,6,2,1.28,3.8,1
+2024-10-27,NHL,Philadelphia Flyers,Montréal Canadiens,3,4,1.56,2.5,0
+2024-10-27,NHL,Colorado Avalanche,Ottawa Senators,5,4,1.56,2.5,1
+2024-10-27,NHL,Philadelphia Flyers,Minnesota Wild,7,5,2.15,1.74,1
+2024-10-27,NHL,Calgary Flames,Winnipeg Jets,3,5,2.15,1.74,0
+2024-10-27,NHL,Buffalo Sabres,Detroit Red Wings,5,3,1.67,2.25,1
+2024-10-27,NHL,Montréal Canadiens,St. Louis Blues,5,2,2.05,1.8,1
+2024-10-27,NHL,New York Rangers,Anaheim Ducks,2,1,1.32,3.5,1
+2024-10-27,NHL,Tampa Bay Lightning,Washington Capitals,3,0,1.61,2.4,1
+2024-10-27,NHL,Los Angeles Kings,Utah Mammoth,3,2,1.67,2.25,1
+2024-10-27,NHL,Vancouver Canucks,Pittsburgh Penguins,4,3,1.48,2.75,1
+2024-10-27,NHL,Seattle Kraken,Carolina Hurricanes,1,4,2.6,1.53,0
+2024-10-27,NHL,New York Islanders,Florida Panthers,3,6,2.2,1.71,0
+2024-10-27,NHL,Vegas Golden Knights,San Jose Sharks,7,3,1.32,3.5,1
+2024-10-27,NHL,Dallas Stars,Chicago Blackhawks,4,2,1.28,3.8,1
+2024-10-28,NHL,Colorado Avalanche,Ottawa Senators,5,4,1.56,2.5,1
+2024-10-28,NHL,Philadelphia Flyers,Montréal Canadiens,3,4,1.56,2.5,0
+2024-10-28,NHL,New Jersey Devils,Anaheim Ducks,6,2,1.28,3.8,1
+2024-10-28,NHL,Buffalo Sabres,Florida Panthers,2,5,2.25,1.67,0
+2024-10-28,NHL,Vegas Golden Knights,Calgary Flames,5,0,1.63,2.35,1
+2024-10-28,NHL,Winnipeg Jets,Toronto Maple Leafs,4,6,1.95,1.87,0
+2024-10-28,NHL,Columbus Blue Jackets,Edmonton Oilers,6,1,3.05,1.4,1
+2024-10-28,NHL,Colorado Avalanche,Chicago Blackhawks,2,5,1.5,2.65,0
+2024-10-29,NHL,Vegas Golden Knights,Calgary Flames,5,0,1.63,2.35,1
+2024-10-29,NHL,Colorado Avalanche,Chicago Blackhawks,2,5,1.5,2.65,0
+2024-10-29,NHL,Montréal Canadiens,Seattle Kraken,2,8,2.5,1.56,0
+2024-10-29,NHL,Winnipeg Jets,Toronto Maple Leafs,4,6,1.95,1.87,0
+2024-10-29,NHL,Boston Bruins,Philadelphia Flyers,0,2,1.63,2.35,0
+2024-10-29,NHL,Pittsburgh Penguins,Minnesota Wild,3,5,2.0,1.83,0
+2024-10-29,NHL,Buffalo Sabres,Florida Panthers,2,5,2.25,1.67,0
+2024-10-29,NHL,Ottawa Senators,St. Louis Blues,8,1,1.54,2.55,1
+2024-10-29,NHL,Columbus Blue Jackets,Edmonton Oilers,6,1,3.05,1.4,1
+2024-10-29,NHL,New York Islanders,Anaheim Ducks,1,3,1.4,3.05,0
+2024-10-29,NHL,Washington Capitals,New York Rangers,5,3,2.35,1.63,1
+2024-10-29,NHL,San Jose Sharks,Los Angeles Kings,4,2,3.6,1.31,1
+2024-10-30,NHL,Boston Bruins,Philadelphia Flyers,0,2,1.63,2.35,0
+2024-10-30,NHL,New York Islanders,Anaheim Ducks,1,3,1.4,3.05,0
+2024-10-30,NHL,Montréal Canadiens,Seattle Kraken,2,8,2.5,1.56,0
+2024-10-30,NHL,Ottawa Senators,St. Louis Blues,8,1,1.54,2.55,1
+2024-10-30,NHL,Pittsburgh Penguins,Minnesota Wild,3,5,2.0,1.83,0
+2024-10-30,NHL,Washington Capitals,New York Rangers,5,3,2.35,1.63,1
+2024-10-30,NHL,Detroit Red Wings,Winnipeg Jets,2,6,2.45,1.59,0
+2024-10-30,NHL,Columbus Blue Jackets,New York Islanders,2,0,2.15,1.74,1
+2024-10-30,NHL,Utah Mammoth,Calgary Flames,5,1,1.8,2.05,1
+2024-10-30,NHL,Colorado Avalanche,Tampa Bay Lightning,2,5,1.95,1.87,0
+2024-10-30,NHL,San Jose Sharks,Los Angeles Kings,4,2,3.6,1.31,1
+2024-10-30,NHL,Vancouver Canucks,New Jersey Devils,0,6,1.83,2.0,0
+2024-10-30,NHL,Los Angeles Kings,Vegas Golden Knights,6,3,2.15,1.74,1
+2024-10-31,NHL,Columbus Blue Jackets,New York Islanders,2,0,2.15,1.74,1
+2024-10-31,NHL,Colorado Avalanche,Tampa Bay Lightning,2,5,1.95,1.87,0
+2024-10-31,NHL,Detroit Red Wings,Winnipeg Jets,2,6,2.45,1.59,0
+2024-10-31,NHL,Philadelphia Flyers,St. Louis Blues,2,1,1.65,2.3,1
+2024-10-31,NHL,Vancouver Canucks,New Jersey Devils,0,6,1.83,2.0,0
+2024-10-31,NHL,Carolina Hurricanes,Boston Bruins,8,2,1.53,2.6,1
+2024-10-31,NHL,Utah Mammoth,Calgary Flames,5,1,1.8,2.05,1
+2024-10-31,NHL,Washington Capitals,Montréal Canadiens,6,3,1.44,2.9,1
+2024-10-31,NHL,Los Angeles Kings,Vegas Golden Knights,6,3,2.15,1.74,1
+2024-10-31,NHL,Toronto Maple Leafs,Seattle Kraken,4,1,1.48,2.75,1
+2024-10-31,NHL,San Jose Sharks,Chicago Blackhawks,3,2,2.35,1.63,1
+2024-10-31,NHL,Nashville Predators,Edmonton Oilers,1,5,1.74,2.15,0
+2024-11-01,NHL,Carolina Hurricanes,Boston Bruins,8,2,1.53,2.6,1
+2024-11-01,NHL,Toronto Maple Leafs,Seattle Kraken,4,1,1.48,2.75,1
+2024-11-01,NHL,Philadelphia Flyers,St. Louis Blues,2,1,1.65,2.3,1
+2024-11-01,NHL,Washington Capitals,Montréal Canadiens,6,3,1.44,2.9,1
+2024-11-01,NHL,San Jose Sharks,Chicago Blackhawks,3,2,2.35,1.63,1
+2024-11-01,NHL,Nashville Predators,Edmonton Oilers,1,5,1.74,2.15,0
+2024-11-01,NHL,Dallas Stars,Florida Panthers,4,6,2.05,1.8,0
+2024-11-01,NHL,Columbus Blue Jackets,Winnipeg Jets,2,6,2.3,1.65,0
+2024-11-01,NHL,New York Rangers,Ottawa Senators,2,1,1.5,2.65,1
+2024-11-01,NHL,Buffalo Sabres,New York Islanders,3,4,1.87,1.95,0
+2024-11-01,NHL,Minnesota Wild,Tampa Bay Lightning,5,3,1.87,1.95,1
+2024-11-01,NHL,Calgary Flames,New Jersey Devils,3,0,2.5,1.56,1
+2024-11-02,NHL,Dallas Stars,Florida Panthers,4,6,2.05,1.8,0
+2024-11-02,NHL,New York Rangers,Ottawa Senators,2,1,1.5,2.65,1
+2024-11-02,NHL,Columbus Blue Jackets,Winnipeg Jets,2,6,2.3,1.65,0
+2024-11-02,NHL,Buffalo Sabres,New York Islanders,3,4,1.87,1.95,0
+2024-11-02,NHL,Minnesota Wild,Tampa Bay Lightning,5,3,1.87,1.95,1
+2024-11-02,NHL,Calgary Flames,New Jersey Devils,3,0,2.5,1.56,1
+2024-11-02,NHL,Detroit Red Wings,Buffalo Sabres,2,1,1.87,1.95,1
+2024-11-02,NHL,Philadelphia Flyers,Boston Bruins,0,3,2.15,1.74,0
+2024-11-02,NHL,Washington Capitals,Columbus Blue Jackets,7,2,1.36,3.25,1
+2024-11-02,NHL,St. Louis Blues,Toronto Maple Leafs,4,2,2.75,1.48,1
+2024-11-02,NHL,Ottawa Senators,Seattle Kraken,3,0,1.8,2.05,1
+2024-11-02,NHL,Pittsburgh Penguins,Montréal Canadiens,3,1,1.54,2.55,1
+2024-11-02,NHL,Florida Panthers,Dallas Stars,4,2,1.91,1.91,1
+2024-11-02,NHL,Nashville Predators,Colorado Avalanche,5,2,1.77,2.1,1
+2024-11-02,NHL,San Jose Sharks,Vancouver Canucks,2,3,3.35,1.35,0
+2024-11-03,NHL,New York Rangers,New York Islanders,5,2,1.53,2.6,1
+2024-11-03,NHL,Winnipeg Jets,Tampa Bay Lightning,7,4,1.77,2.1,1
+2024-11-03,NHL,Washington Capitals,Columbus Blue Jackets,7,2,1.36,3.25,1
+2024-11-03,NHL,Florida Panthers,Dallas Stars,4,2,1.91,1.91,1
+2024-11-03,NHL,Philadelphia Flyers,Boston Bruins,0,3,2.15,1.74,0
+2024-11-03,NHL,Pittsburgh Penguins,Montréal Canadiens,3,1,1.54,2.55,1
+2024-11-03,NHL,Detroit Red Wings,Buffalo Sabres,2,1,1.87,1.95,1
+2024-11-03,NHL,Ottawa Senators,Seattle Kraken,3,0,1.8,2.05,1
+2024-11-03,NHL,Anaheim Ducks,Chicago Blackhawks,2,4,1.77,2.1,0
+2024-11-03,NHL,Calgary Flames,Edmonton Oilers,2,4,2.35,1.63,0
+2024-11-03,NHL,Boston Bruins,Seattle Kraken,2,0,1.56,2.5,1
+2024-11-03,NHL,Nashville Predators,Colorado Avalanche,5,2,1.77,2.1,1
+2024-11-03,NHL,Carolina Hurricanes,Washington Capitals,4,2,1.36,3.25,1
+2024-11-03,NHL,St. Louis Blues,Toronto Maple Leafs,4,2,2.75,1.48,1
+2024-11-03,NHL,San Jose Sharks,Vancouver Canucks,2,3,3.35,1.35,0
+2024-11-04,NHL,Nashville Predators,Los Angeles Kings,0,3,1.71,2.2,0
+2024-11-04,NHL,Edmonton Oilers,New Jersey Devils,0,3,2.15,1.74,0
+2024-11-04,NHL,Winnipeg Jets,Tampa Bay Lightning,7,4,1.77,2.1,1
+2024-11-04,NHL,Boston Bruins,Seattle Kraken,2,0,1.56,2.5,1
+2024-11-04,NHL,Calgary Flames,Edmonton Oilers,2,4,2.35,1.63,0
+2024-11-04,NHL,Anaheim Ducks,Chicago Blackhawks,2,4,1.77,2.1,0
+2024-11-04,NHL,Carolina Hurricanes,Washington Capitals,4,2,1.36,3.25,1
+2024-11-04,NHL,New York Rangers,New York Islanders,5,2,1.53,2.6,1
+2024-11-05,NHL,Nashville Predators,Los Angeles Kings,0,3,1.71,2.2,0
+2024-11-05,NHL,Carolina Hurricanes,Philadelphia Flyers,6,4,1.31,3.6,1
+2024-11-05,NHL,Colorado Avalanche,Seattle Kraken,6,3,1.54,2.55,1
+2024-11-05,NHL,Buffalo Sabres,Ottawa Senators,5,1,1.95,1.87,1
+2024-11-05,NHL,Edmonton Oilers,New Jersey Devils,0,3,2.15,1.74,0
+2024-11-05,NHL,Anaheim Ducks,Vancouver Canucks,1,5,3.05,1.4,0
+2024-11-05,NHL,St. Louis Blues,Tampa Bay Lightning,3,2,2.45,1.59,1
+2024-11-05,NHL,Winnipeg Jets,Utah Mammoth,3,0,1.44,2.85,1
+2024-11-05,NHL,Minnesota Wild,Los Angeles Kings,1,5,1.56,2.5,0
+2024-11-05,NHL,Toronto Maple Leafs,Boston Bruins,4,0,1.8,2.05,1
+2024-11-06,NHL,Carolina Hurricanes,Philadelphia Flyers,6,4,1.31,3.6,1
+2024-11-06,NHL,Buffalo Sabres,Ottawa Senators,5,1,1.95,1.87,1
+2024-11-06,NHL,Toronto Maple Leafs,Boston Bruins,4,0,1.8,2.05,1
+2024-11-06,NHL,Minnesota Wild,Los Angeles Kings,1,5,1.56,2.5,0
+2024-11-06,NHL,St. Louis Blues,Tampa Bay Lightning,3,2,2.45,1.59,1
+2024-11-06,NHL,Winnipeg Jets,Utah Mammoth,3,0,1.44,2.85,1
+2024-11-06,NHL,Colorado Avalanche,Seattle Kraken,6,3,1.54,2.55,1
+2024-11-06,NHL,Anaheim Ducks,Vancouver Canucks,1,5,3.05,1.4,0
+2024-11-06,NHL,Edmonton Oilers,Vegas Golden Knights,2,4,1.63,2.35,0
+2024-11-06,NHL,Washington Capitals,Nashville Predators,3,2,1.83,2.0,1
+2024-11-06,NHL,Chicago Blackhawks,Detroit Red Wings,1,4,1.95,1.87,0
+2024-11-07,NHL,Washington Capitals,Nashville Predators,3,2,1.83,2.0,1
+2024-11-07,NHL,Edmonton Oilers,Vegas Golden Knights,2,4,1.63,2.35,0
+2024-11-07,NHL,Chicago Blackhawks,Detroit Red Wings,1,4,1.95,1.87,0
+2024-11-07,NHL,New Jersey Devils,Montréal Canadiens,5,3,1.29,3.75,1
+2024-11-07,NHL,Florida Panthers,Nashville Predators,6,2,1.44,2.9,1
+2024-11-07,NHL,Carolina Hurricanes,Pittsburgh Penguins,5,1,1.37,3.2,1
+2024-11-07,NHL,Dallas Stars,Chicago Blackhawks,3,1,1.29,3.75,1
+2024-11-07,NHL,Ottawa Senators,New York Islanders,2,4,1.67,2.25,0
+2024-11-07,NHL,New York Rangers,Buffalo Sabres,1,6,1.5,2.65,0
+2024-11-07,NHL,Los Angeles Kings,Vancouver Canucks,2,4,2.1,1.77,0
+2024-11-07,NHL,Winnipeg Jets,Colorado Avalanche,1,0,1.67,2.25,1
+2024-11-07,NHL,San Jose Sharks,Minnesota Wild,2,5,3.25,1.36,0
+2024-11-07,NHL,St. Louis Blues,Utah Mammoth,2,4,1.91,1.91,0
+2024-11-08,NHL,Carolina Hurricanes,Pittsburgh Penguins,5,1,1.37,3.2,1
+2024-11-08,NHL,New Jersey Devils,Montréal Canadiens,5,3,1.29,3.75,1
+2024-11-08,NHL,Florida Panthers,Nashville Predators,6,2,1.44,2.9,1
+2024-11-08,NHL,Ottawa Senators,New York Islanders,2,4,1.67,2.25,0
+2024-11-08,NHL,San Jose Sharks,Minnesota Wild,2,5,3.25,1.36,0
+2024-11-08,NHL,St. Louis Blues,Utah Mammoth,2,4,1.91,1.91,0
+2024-11-08,NHL,Dallas Stars,Chicago Blackhawks,3,1,1.29,3.75,1
+2024-11-08,NHL,Los Angeles Kings,Vancouver Canucks,2,4,2.1,1.77,0
+2024-11-08,NHL,Winnipeg Jets,Colorado Avalanche,1,0,1.67,2.25,1
+2024-11-08,NHL,New York Rangers,Buffalo Sabres,1,6,1.5,2.65,0
+2024-11-08,NHL,Toronto Maple Leafs,Detroit Red Wings,3,1,1.5,2.65,1
+2024-11-08,NHL,Washington Capitals,Pittsburgh Penguins,2,4,1.53,2.6,0
+2024-11-08,NHL,Anaheim Ducks,Minnesota Wild,2,5,2.75,1.48,0
+2024-11-09,NHL,Washington Capitals,Pittsburgh Penguins,2,4,1.53,2.6,0
+2024-11-09,NHL,Toronto Maple Leafs,Detroit Red Wings,3,1,1.5,2.65,1
+2024-11-09,NHL,Detroit Red Wings,New York Rangers,0,4,2.8,1.46,0
+2024-11-09,NHL,Winnipeg Jets,Dallas Stars,4,1,1.91,1.91,1
+2024-11-09,NHL,St. Louis Blues,Washington Capitals,1,8,2.15,1.74,0
+2024-11-09,NHL,Anaheim Ducks,Minnesota Wild,2,5,2.75,1.48,0
+2024-11-09,NHL,Toronto Maple Leafs,Montréal Canadiens,4,1,1.46,2.8,1
+2024-11-09,NHL,Nashville Predators,Utah Mammoth,4,0,1.59,2.35,1
+2024-11-09,NHL,Los Angeles Kings,Columbus Blue Jackets,5,2,1.49,2.7,1
+2024-11-09,NHL,Colorado Avalanche,Carolina Hurricanes,6,4,2.1,1.77,1
+2024-11-09,NHL,Vancouver Canucks,Edmonton Oilers,3,7,2.05,1.8,0
+2024-11-10,NHL,Anaheim Ducks,Columbus Blue Jackets,4,2,1.87,1.95,1
+2024-11-10,NHL,New Jersey Devils,San Jose Sharks,0,1,1.29,3.7,0
+2024-11-10,NHL,St. Louis Blues,Washington Capitals,1,8,2.15,1.74,0
+2024-11-10,NHL,Winnipeg Jets,Dallas Stars,4,1,1.91,1.91,1
+2024-11-10,NHL,Detroit Red Wings,New York Rangers,0,4,2.8,1.46,0
+2024-11-10,NHL,Toronto Maple Leafs,Montréal Canadiens,4,1,1.46,2.8,1
+2024-11-10,NHL,Los Angeles Kings,Columbus Blue Jackets,5,2,1.49,2.7,1
+2024-11-10,NHL,Nashville Predators,Utah Mammoth,4,0,1.59,2.35,1
+2024-11-10,NHL,Vancouver Canucks,Edmonton Oilers,3,7,2.05,1.8,0
+2024-11-10,NHL,Colorado Avalanche,Carolina Hurricanes,6,4,2.1,1.77,1
+2024-11-11,NHL,Buffalo Sabres,Montréal Canadiens,5,7,1.44,2.9,0
+2024-11-11,NHL,Pittsburgh Penguins,Dallas Stars,1,7,2.4,1.61,0
+2024-11-11,NHL,Calgary Flames,Los Angeles Kings,3,1,2.15,1.74,1
+2024-11-11,NHL,Anaheim Ducks,Columbus Blue Jackets,4,2,1.87,1.95,1
+2024-11-11,NHL,New Jersey Devils,San Jose Sharks,0,1,1.29,3.7,0
+2024-11-11,NHL,Vegas Golden Knights,Carolina Hurricanes,2,5,2.25,1.67,0
+2024-11-12,NHL,Buffalo Sabres,Montréal Canadiens,5,7,1.44,2.9,0
+2024-11-12,NHL,Pittsburgh Penguins,Dallas Stars,1,7,2.4,1.61,0
+2024-11-12,NHL,Calgary Flames,Los Angeles Kings,3,1,2.15,1.74,1
+2024-11-12,NHL,Vegas Golden Knights,Carolina Hurricanes,2,5,2.25,1.67,0
+2024-11-12,NHL,Seattle Kraken,Columbus Blue Jackets,5,2,1.65,2.3,1
+2024-11-12,NHL,St. Louis Blues,Boston Bruins,2,3,2.5,1.56,0
+2024-11-12,NHL,New York Rangers,Winnipeg Jets,3,6,1.83,2.0,0
+2024-11-12,NHL,Toronto Maple Leafs,Ottawa Senators,0,3,1.8,2.05,0
+2024-11-12,NHL,Florida Panthers,New Jersey Devils,1,4,1.83,2.0,0
+2024-11-12,NHL,Vancouver Canucks,Calgary Flames,3,1,1.44,2.9,1
+2024-11-13,NHL,Toronto Maple Leafs,Ottawa Senators,0,3,1.8,2.05,0
+2024-11-13,NHL,New York Rangers,Winnipeg Jets,3,6,1.83,2.0,0
+2024-11-13,NHL,Florida Panthers,New Jersey Devils,1,4,1.83,2.0,0
+2024-11-13,NHL,St. Louis Blues,Boston Bruins,2,3,2.5,1.56,0
+2024-11-13,NHL,Seattle Kraken,Columbus Blue Jackets,5,2,1.65,2.3,1
+2024-11-13,NHL,Vancouver Canucks,Calgary Flames,3,1,1.44,2.9,1
+2024-11-13,NHL,Utah Mammoth,Carolina Hurricanes,4,1,2.8,1.46,1
+2024-11-13,NHL,Anaheim Ducks,Vegas Golden Knights,2,3,2.9,1.44,0
+2024-11-13,NHL,Colorado Avalanche,Los Angeles Kings,4,2,1.74,2.15,1
+2024-11-14,NHL,Anaheim Ducks,Vegas Golden Knights,2,3,2.9,1.44,0
+2024-11-14,NHL,Utah Mammoth,Carolina Hurricanes,4,1,2.8,1.46,1
+2024-11-14,NHL,Colorado Avalanche,Los Angeles Kings,4,2,1.74,2.15,1
+2024-11-14,NHL,Minnesota Wild,Montréal Canadiens,3,0,1.39,3.1,1
+2024-11-14,NHL,New York Rangers,San Jose Sharks,3,2,1.24,4.25,1
+2024-11-14,NHL,Tampa Bay Lightning,Winnipeg Jets,4,1,1.67,2.25,1
+2024-11-14,NHL,Dallas Stars,Boston Bruins,7,2,1.56,2.5,1
+2024-11-14,NHL,Seattle Kraken,Chicago Blackhawks,3,1,1.63,2.35,1
+2024-11-14,NHL,Florida Panthers,New Jersey Devils,2,6,1.63,2.35,0
+2024-11-14,NHL,Vancouver Canucks,New York Islanders,2,5,1.53,2.6,0
+2024-11-15,NHL,New York Rangers,San Jose Sharks,3,2,1.24,4.25,1
+2024-11-15,NHL,Florida Panthers,New Jersey Devils,2,6,1.63,2.35,0
+2024-11-15,NHL,Dallas Stars,Boston Bruins,7,2,1.56,2.5,1
+2024-11-15,NHL,Tampa Bay Lightning,Winnipeg Jets,4,1,1.67,2.25,1
+2024-11-15,NHL,Seattle Kraken,Chicago Blackhawks,3,1,1.63,2.35,1
+2024-11-15,NHL,Vancouver Canucks,New York Islanders,2,5,1.53,2.6,0
+2024-11-15,NHL,Minnesota Wild,Montréal Canadiens,3,0,1.39,3.1,1
+2024-11-15,NHL,Calgary Flames,Nashville Predators,2,0,2.05,1.8,1
+2024-11-15,NHL,Columbus Blue Jackets,Pittsburgh Penguins,6,2,2.1,1.77,1
+2024-11-15,NHL,Utah Mammoth,Vegas Golden Knights,2,4,2.1,1.77,0
+2024-11-15,NHL,Colorado Avalanche,Washington Capitals,2,5,1.54,2.55,0
+2024-11-15,NHL,Anaheim Ducks,Detroit Red Wings,6,4,2.3,1.65,1
+2024-11-16,NHL,Colorado Avalanche,Washington Capitals,2,5,1.54,2.55,0
+2024-11-16,NHL,Columbus Blue Jackets,Pittsburgh Penguins,6,2,2.1,1.77,1
+2024-11-16,NHL,Calgary Flames,Nashville Predators,2,0,2.05,1.8,1
+2024-11-16,NHL,Utah Mammoth,Vegas Golden Knights,2,4,2.1,1.77,0
+2024-11-16,NHL,Seattle Kraken,New York Islanders,3,2,1.91,1.91,1
+2024-11-16,NHL,Florida Panthers,Winnipeg Jets,5,0,1.74,2.15,1
+2024-11-16,NHL,Anaheim Ducks,Detroit Red Wings,6,4,2.3,1.65,1
+2024-11-16,NHL,Carolina Hurricanes,Ottawa Senators,4,0,1.59,2.45,1
+2024-11-16,NHL,Montréal Canadiens,Columbus Blue Jackets,5,1,1.87,1.95,1
+2024-11-16,NHL,Philadelphia Flyers,Buffalo Sabres,5,2,1.87,1.95,1
+2024-11-16,NHL,Tampa Bay Lightning,New Jersey Devils,4,0,1.95,1.87,1
+2024-11-16,NHL,Vancouver Canucks,Chicago Blackhawks,4,1,1.4,3.05,1
+2024-11-16,NHL,Minnesota Wild,Dallas Stars,1,2,2.3,1.65,0
+2024-11-16,NHL,Los Angeles Kings,Detroit Red Wings,4,1,1.5,2.65,1
+2024-11-17,NHL,Carolina Hurricanes,Ottawa Senators,4,0,1.59,2.45,1
+2024-11-17,NHL,Florida Panthers,Winnipeg Jets,5,0,1.74,2.15,1
+2024-11-17,NHL,Vegas Golden Knights,Washington Capitals,2,5,1.77,2.1,0
+2024-11-17,NHL,Montréal Canadiens,Columbus Blue Jackets,5,1,1.87,1.95,1
+2024-11-17,NHL,Carolina Hurricanes,St. Louis Blues,4,1,1.32,3.5,1
+2024-11-17,NHL,Seattle Kraken,New York Islanders,3,2,1.91,1.91,1
+2024-11-17,NHL,Tampa Bay Lightning,New Jersey Devils,4,0,1.95,1.87,1
+2024-11-17,NHL,Seattle Kraken,New York Rangers,0,2,2.55,1.54,0
+2024-11-17,NHL,Vancouver Canucks,Nashville Predators,3,5,2.0,1.83,0
+2024-11-17,NHL,Minnesota Wild,Dallas Stars,1,2,2.3,1.65,0
+2024-11-17,NHL,Vancouver Canucks,Chicago Blackhawks,4,1,1.4,3.05,1
+2024-11-17,NHL,Los Angeles Kings,Detroit Red Wings,4,1,1.5,2.65,1
+2024-11-17,NHL,Philadelphia Flyers,Buffalo Sabres,5,2,1.87,1.95,1
+2024-11-18,NHL,Seattle Kraken,New York Rangers,0,2,2.55,1.54,0
+2024-11-18,NHL,Vegas Golden Knights,Washington Capitals,2,5,1.77,2.1,0
+2024-11-18,NHL,Carolina Hurricanes,St. Louis Blues,4,1,1.32,3.5,1
+2024-11-18,NHL,Philadelphia Flyers,Colorado Avalanche,2,3,2.7,1.49,0
+2024-11-18,NHL,Boston Bruins,Columbus Blue Jackets,1,5,1.53,2.6,0
+2024-11-18,NHL,Vancouver Canucks,Nashville Predators,3,5,2.0,1.83,0
+2024-11-18,NHL,Montréal Canadiens,Edmonton Oilers,3,0,3.3,1.36,1
+2024-11-18,NHL,Dallas Stars,Anaheim Ducks,2,4,1.22,4.5,0
+2024-11-18,NHL,Utah Mammoth,Washington Capitals,2,6,1.83,2.0,0
+2024-11-19,NHL,Boston Bruins,Columbus Blue Jackets,1,5,1.53,2.6,0
+2024-11-19,NHL,Dallas Stars,Anaheim Ducks,2,4,1.22,4.5,0
+2024-11-19,NHL,Montréal Canadiens,Edmonton Oilers,3,0,3.3,1.36,1
+2024-11-19,NHL,Philadelphia Flyers,Colorado Avalanche,2,3,2.7,1.49,0
+2024-11-19,NHL,St. Louis Blues,Minnesota Wild,2,4,2.4,1.61,0
+2024-11-19,NHL,Ottawa Senators,Edmonton Oilers,2,5,1.91,1.91,0
+2024-11-19,NHL,Utah Mammoth,Washington Capitals,2,6,1.83,2.0,0
+2024-11-19,NHL,Chicago Blackhawks,Anaheim Ducks,2,3,1.54,2.55,0
+2024-11-19,NHL,Winnipeg Jets,Florida Panthers,6,3,1.83,2.0,1
+2024-11-19,NHL,Vancouver Canucks,New York Rangers,3,4,2.15,1.74,0
+2024-11-20,NHL,Winnipeg Jets,Florida Panthers,6,3,1.83,2.0,1
+2024-11-20,NHL,Chicago Blackhawks,Anaheim Ducks,2,3,1.54,2.55,0
+2024-11-20,NHL,Ottawa Senators,Edmonton Oilers,2,5,1.91,1.91,0
+2024-11-20,NHL,St. Louis Blues,Minnesota Wild,2,4,2.4,1.61,0
+2024-11-20,NHL,Vancouver Canucks,New York Rangers,3,4,2.15,1.74,0
+2024-11-20,NHL,Philadelphia Flyers,Carolina Hurricanes,1,4,2.9,1.44,0
+2024-11-20,NHL,Seattle Kraken,Nashville Predators,3,0,2.25,1.67,1
+2024-11-20,NHL,Toronto Maple Leafs,Vegas Golden Knights,3,0,1.95,1.87,1
+2024-11-20,NHL,Dallas Stars,San Jose Sharks,5,2,1.19,4.9,1
+2024-11-20,NHL,Los Angeles Kings,Buffalo Sabres,0,1,1.56,2.5,0
+2024-11-21,NHL,Philadelphia Flyers,Carolina Hurricanes,1,4,2.9,1.44,0
+2024-11-21,NHL,Toronto Maple Leafs,Vegas Golden Knights,3,0,1.95,1.87,1
+2024-11-21,NHL,Seattle Kraken,Nashville Predators,3,0,2.25,1.67,1
+2024-11-21,NHL,Dallas Stars,San Jose Sharks,5,2,1.19,4.9,1
+2024-11-21,NHL,Los Angeles Kings,Buffalo Sabres,0,1,1.56,2.5,0
+2024-11-21,NHL,Boston Bruins,Utah Mammoth,1,0,1.74,2.15,1
+2024-11-21,NHL,Detroit Red Wings,New York Islanders,2,1,2.2,1.71,1
+2024-11-21,NHL,Calgary Flames,New York Rangers,3,2,2.4,1.61,1
+2024-11-21,NHL,Washington Capitals,Colorado Avalanche,1,2,2.4,1.61,0
+2024-11-21,NHL,Ottawa Senators,Vegas Golden Knights,2,3,1.63,2.35,0
+2024-11-21,NHL,Edmonton Oilers,Minnesota Wild,3,5,1.61,2.4,0
+2024-11-21,NHL,New Jersey Devils,Carolina Hurricanes,4,2,1.87,1.95,1
+2024-11-21,NHL,Chicago Blackhawks,Florida Panthers,3,1,2.95,1.42,1
+2024-11-22,NHL,Boston Bruins,Utah Mammoth,1,0,1.74,2.15,1
+2024-11-22,NHL,New Jersey Devils,Carolina Hurricanes,4,2,1.87,1.95,1
+2024-11-22,NHL,Ottawa Senators,Vegas Golden Knights,2,3,1.63,2.35,0
+2024-11-22,NHL,Detroit Red Wings,New York Islanders,2,1,2.2,1.71,1
+2024-11-22,NHL,Chicago Blackhawks,Florida Panthers,3,1,2.95,1.42,1
+2024-11-22,NHL,Washington Capitals,Colorado Avalanche,1,2,2.4,1.61,0
+2024-11-22,NHL,Calgary Flames,New York Rangers,3,2,2.4,1.61,1
+2024-11-22,NHL,Edmonton Oilers,Minnesota Wild,3,5,1.61,2.4,0
+2024-11-22,NHL,Pittsburgh Penguins,Winnipeg Jets,1,4,2.65,1.5,0
+2024-11-23,NHL,Pittsburgh Penguins,Winnipeg Jets,1,4,2.65,1.5,0
+2024-11-23,NHL,Los Angeles Kings,Seattle Kraken,2,1,1.61,2.4,1
+2024-11-23,NHL,Detroit Red Wings,Boston Bruins,1,2,2.2,1.71,0
+2024-11-23,NHL,Florida Panthers,Colorado Avalanche,4,7,1.83,2.0,0
+2024-11-23,NHL,Nashville Predators,Winnipeg Jets,4,1,1.74,2.15,1
+2024-11-23,NHL,Montréal Canadiens,Vegas Golden Knights,2,6,2.4,1.61,0
+2024-11-23,NHL,Ottawa Senators,Vancouver Canucks,3,4,1.71,2.2,0
+2024-11-23,NHL,Pittsburgh Penguins,Utah Mammoth,1,6,2.15,1.74,0
+2024-11-23,NHL,Tampa Bay Lightning,Dallas Stars,2,4,1.95,1.87,0
+2024-11-23,NHL,New York Islanders,St. Louis Blues,3,1,1.61,2.4,1
+2024-11-23,NHL,Washington Capitals,New Jersey Devils,2,3,2.25,1.67,0
+2024-11-23,NHL,San Jose Sharks,Buffalo Sabres,2,4,2.3,1.65,0
+2024-11-23,NHL,Edmonton Oilers,New York Rangers,6,2,1.71,2.2,1
+2024-11-24,NHL,Toronto Maple Leafs,Utah Mammoth,3,2,1.53,2.6,1
+2024-11-24,NHL,Los Angeles Kings,Seattle Kraken,2,1,1.61,2.4,1
+2024-11-24,NHL,Florida Panthers,Colorado Avalanche,4,7,1.83,2.0,0
+2024-11-24,NHL,Montréal Canadiens,Vegas Golden Knights,2,6,2.4,1.61,0
+2024-11-24,NHL,Nashville Predators,Winnipeg Jets,4,1,1.74,2.15,1
+2024-11-24,NHL,Detroit Red Wings,Boston Bruins,1,2,2.2,1.71,0
+2024-11-24,NHL,Ottawa Senators,Vancouver Canucks,3,4,1.71,2.2,0
+2024-11-24,NHL,Washington Capitals,New Jersey Devils,2,3,2.25,1.67,0
+2024-11-24,NHL,New York Islanders,St. Louis Blues,3,1,1.61,2.4,1
+2024-11-24,NHL,Pittsburgh Penguins,Utah Mammoth,1,6,2.15,1.74,0
+2024-11-24,NHL,San Jose Sharks,Buffalo Sabres,2,4,2.3,1.65,0
+2024-11-24,NHL,Edmonton Oilers,New York Rangers,6,2,1.71,2.2,1
+2024-11-24,NHL,Tampa Bay Lightning,Dallas Stars,2,4,1.95,1.87,0
+2024-11-25,NHL,Carolina Hurricanes,Dallas Stars,6,4,1.77,2.1,1
+2024-11-25,NHL,New York Rangers,St. Louis Blues,2,5,1.48,2.75,0
+2024-11-25,NHL,Florida Panthers,Washington Capitals,1,4,1.59,2.45,0
+2024-11-25,NHL,New Jersey Devils,Nashville Predators,5,2,1.67,2.25,1
+2024-11-25,NHL,Tampa Bay Lightning,Colorado Avalanche,8,2,1.87,1.95,1
+2024-11-25,NHL,New York Islanders,Detroit Red Wings,2,4,1.65,2.3,0
+2024-11-25,NHL,Toronto Maple Leafs,Utah Mammoth,3,2,1.53,2.6,1
+2024-11-25,NHL,Anaheim Ducks,Seattle Kraken,2,3,2.3,1.65,0
+2024-11-25,NHL,San Jose Sharks,Los Angeles Kings,7,2,3.0,1.41,1
+2024-11-25,NHL,Ottawa Senators,Calgary Flames,4,3,1.63,2.35,1
+2024-11-25,NHL,Minnesota Wild,Winnipeg Jets,1,4,1.95,1.87,0
+2024-11-26,NHL,Carolina Hurricanes,Dallas Stars,6,4,1.77,2.1,1
+2024-11-26,NHL,New York Rangers,St. Louis Blues,2,5,1.48,2.75,0
+2024-11-26,NHL,New Jersey Devils,Nashville Predators,5,2,1.67,2.25,1
+2024-11-26,NHL,Tampa Bay Lightning,Colorado Avalanche,8,2,1.87,1.95,1
+2024-11-26,NHL,Florida Panthers,Washington Capitals,1,4,1.59,2.45,0
+2024-11-26,NHL,New York Islanders,Detroit Red Wings,2,4,1.65,2.3,0
+2024-11-26,NHL,Ottawa Senators,Calgary Flames,4,3,1.63,2.35,1
+2024-11-26,NHL,San Jose Sharks,Los Angeles Kings,7,2,3.0,1.41,1
+2024-11-26,NHL,Anaheim Ducks,Seattle Kraken,2,3,2.3,1.65,0
+2024-11-26,NHL,Boston Bruins,Vancouver Canucks,0,2,1.83,2.0,0
+2024-11-26,NHL,Minnesota Wild,Winnipeg Jets,1,4,1.95,1.87,0
+2024-11-27,NHL,Boston Bruins,Vancouver Canucks,0,2,1.83,2.0,0
+2024-11-27,NHL,Carolina Hurricanes,New York Rangers,4,3,1.53,2.6,1
+2024-11-27,NHL,Buffalo Sabres,Minnesota Wild,0,1,2.2,1.71,0
+2024-11-27,NHL,New Jersey Devils,St. Louis Blues,0,3,1.42,2.95,0
+2024-11-27,NHL,New York Islanders,Boston Bruins,3,6,1.74,2.15,0
+2024-11-27,NHL,Pittsburgh Penguins,Vancouver Canucks,5,4,2.0,1.83,1
+2024-11-27,NHL,Florida Panthers,Toronto Maple Leafs,5,1,1.65,2.3,1
+2024-11-27,NHL,Chicago Blackhawks,Dallas Stars,6,2,2.95,1.42,1
+2024-11-27,NHL,Tampa Bay Lightning,Washington Capitals,4,5,1.63,2.35,0
+2024-11-27,NHL,Los Angeles Kings,Winnipeg Jets,4,1,1.91,1.91,1
+2024-11-27,NHL,San Jose Sharks,Ottawa Senators,3,4,2.95,1.42,0
+2024-11-27,NHL,Seattle Kraken,Anaheim Ducks,2,5,1.5,2.65,0
+2024-11-28,NHL,Carolina Hurricanes,New York Rangers,4,3,1.53,2.6,1
+2024-11-28,NHL,Buffalo Sabres,Minnesota Wild,0,1,2.2,1.71,0
+2024-11-28,NHL,New Jersey Devils,St. Louis Blues,0,3,1.42,2.95,0
+2024-11-28,NHL,Florida Panthers,Toronto Maple Leafs,5,1,1.65,2.3,1
+2024-11-28,NHL,Pittsburgh Penguins,Vancouver Canucks,5,4,2.0,1.83,1
+2024-11-28,NHL,Tampa Bay Lightning,Washington Capitals,4,5,1.63,2.35,0
+2024-11-28,NHL,Chicago Blackhawks,Dallas Stars,6,2,2.95,1.42,1
+2024-11-28,NHL,New York Islanders,Boston Bruins,3,6,1.74,2.15,0
+2024-11-28,NHL,Los Angeles Kings,Winnipeg Jets,4,1,1.91,1.91,1
+2024-11-28,NHL,Seattle Kraken,Anaheim Ducks,2,5,1.5,2.65,0
+2024-11-28,NHL,San Jose Sharks,Ottawa Senators,3,4,2.95,1.42,0
+2024-11-29,NHL,Philadelphia Flyers,New York Rangers,3,1,2.3,1.65,1
+2024-11-29,NHL,Carolina Hurricanes,Florida Panthers,3,6,1.63,2.35,0
+2024-11-29,NHL,Minnesota Wild,Chicago Blackhawks,3,2,1.36,3.25,1
+2024-11-29,NHL,Columbus Blue Jackets,Calgary Flames,5,2,1.91,1.91,1
+2024-11-29,NHL,Boston Bruins,Pittsburgh Penguins,1,2,1.59,2.45,0
+2024-11-29,NHL,Detroit Red Wings,New Jersey Devils,4,5,2.65,1.5,0
+2024-11-29,NHL,San Jose Sharks,Seattle Kraken,8,5,2.3,1.65,1
+2024-11-29,NHL,Anaheim Ducks,Los Angeles Kings,1,2,2.8,1.46,0
+2024-11-29,NHL,Dallas Stars,Colorado Avalanche,5,3,1.74,2.15,1
+2024-11-29,NHL,Vegas Golden Knights,Winnipeg Jets,4,3,1.91,1.91,1
+2024-11-30,NHL,Minnesota Wild,Chicago Blackhawks,3,2,1.36,3.25,1
+2024-11-30,NHL,Philadelphia Flyers,New York Rangers,3,1,2.3,1.65,1
+2024-11-30,NHL,Columbus Blue Jackets,Calgary Flames,5,2,1.91,1.91,1
+2024-11-30,NHL,Carolina Hurricanes,Florida Panthers,3,6,1.63,2.35,0
+2024-11-30,NHL,Detroit Red Wings,New Jersey Devils,4,5,2.65,1.5,0
+2024-11-30,NHL,San Jose Sharks,Seattle Kraken,8,5,2.3,1.65,1
+2024-11-30,NHL,Anaheim Ducks,Los Angeles Kings,1,2,2.8,1.46,0
+2024-11-30,NHL,Boston Bruins,Pittsburgh Penguins,1,2,1.59,2.45,0
+2024-11-30,NHL,Vegas Golden Knights,Winnipeg Jets,4,3,1.91,1.91,1
+2024-11-30,NHL,Florida Panthers,Carolina Hurricanes,6,0,2.05,1.8,1
+2024-11-30,NHL,Pittsburgh Penguins,Calgary Flames,6,2,1.83,2.0,1
+2024-11-30,NHL,New York Rangers,Montréal Canadiens,4,3,1.54,2.55,1
+2024-11-30,NHL,New Jersey Devils,Washington Capitals,5,6,1.61,2.4,0
+2024-11-30,NHL,Dallas Stars,Colorado Avalanche,5,3,1.74,2.15,1
+2024-11-30,NHL,Los Angeles Kings,Ottawa Senators,5,2,1.83,2.0,1
+2024-11-30,NHL,Colorado Avalanche,Edmonton Oilers,1,4,1.77,2.1,0
+2024-11-30,NHL,Tampa Bay Lightning,Toronto Maple Leafs,3,5,2.2,1.71,0
+2024-11-30,NHL,New York Islanders,Buffalo Sabres,3,0,1.77,2.1,1
+2024-11-30,NHL,Seattle Kraken,San Jose Sharks,2,4,1.44,2.85,0
+2024-11-30,NHL,Vegas Golden Knights,Utah Mammoth,0,6,1.65,2.3,0
+2024-12-01,NHL,New Jersey Devils,Washington Capitals,5,6,1.61,2.4,0
+2024-12-01,NHL,New York Rangers,Montréal Canadiens,4,3,1.54,2.55,1
+2024-12-01,NHL,Florida Panthers,Carolina Hurricanes,6,0,2.05,1.8,1
+2024-12-01,NHL,Los Angeles Kings,Ottawa Senators,5,2,1.83,2.0,1
+2024-12-01,NHL,Seattle Kraken,San Jose Sharks,2,4,1.44,2.85,0
+2024-12-01,NHL,Colorado Avalanche,Edmonton Oilers,1,4,1.77,2.1,0
+2024-12-01,NHL,Boston Bruins,Montréal Canadiens,6,3,1.39,3.1,1
+2024-12-01,NHL,Tampa Bay Lightning,Toronto Maple Leafs,3,5,2.2,1.71,0
+2024-12-01,NHL,Chicago Blackhawks,Columbus Blue Jackets,3,6,2.2,1.71,0
+2024-12-01,NHL,Dallas Stars,Winnipeg Jets,3,1,1.63,2.35,1
+2024-12-01,NHL,Pittsburgh Penguins,Calgary Flames,6,2,1.83,2.0,1
+2024-12-01,NHL,New York Islanders,Buffalo Sabres,3,0,1.77,2.1,1
+2024-12-01,NHL,Vegas Golden Knights,Utah Mammoth,0,6,1.65,2.3,0
+2024-12-02,NHL,New York Rangers,New Jersey Devils,1,5,2.05,1.8,0
+2024-12-02,NHL,Chicago Blackhawks,Columbus Blue Jackets,3,6,2.2,1.71,0
+2024-12-02,NHL,Dallas Stars,Winnipeg Jets,3,1,1.63,2.35,1
+2024-12-02,NHL,Toronto Maple Leafs,Chicago Blackhawks,4,1,1.22,4.5,1
+2024-12-02,NHL,Boston Bruins,Montréal Canadiens,6,3,1.39,3.1,1
+2024-12-02,NHL,Utah Mammoth,Dallas Stars,1,2,2.05,1.8,0
+2024-12-03,NHL,New York Rangers,New Jersey Devils,1,5,2.05,1.8,0
+2024-12-03,NHL,Toronto Maple Leafs,Chicago Blackhawks,4,1,1.22,4.5,1
+2024-12-03,NHL,Utah Mammoth,Dallas Stars,1,2,2.05,1.8,0
+2024-12-03,NHL,Buffalo Sabres,Colorado Avalanche,4,5,2.35,1.63,0
+2024-12-03,NHL,Vegas Golden Knights,Edmonton Oilers,1,0,2.2,1.71,1
+2024-12-03,NHL,Carolina Hurricanes,Seattle Kraken,2,4,1.33,3.45,0
+2024-12-03,NHL,Winnipeg Jets,St. Louis Blues,1,4,1.48,2.75,0
+2024-12-03,NHL,Calgary Flames,Columbus Blue Jackets,3,0,1.74,2.15,1
+2024-12-04,NHL,Buffalo Sabres,Colorado Avalanche,4,5,2.35,1.63,0
+2024-12-04,NHL,Carolina Hurricanes,Seattle Kraken,2,4,1.33,3.45,0
+2024-12-04,NHL,Winnipeg Jets,St. Louis Blues,1,4,1.48,2.75,0
+2024-12-04,NHL,Calgary Flames,Columbus Blue Jackets,3,0,1.74,2.15,1
+2024-12-04,NHL,Vegas Golden Knights,Edmonton Oilers,1,0,2.2,1.71,1
+2024-12-04,NHL,Chicago Blackhawks,Boston Bruins,2,4,2.25,1.67,0
+2024-12-04,NHL,Anaheim Ducks,Vegas Golden Knights,1,4,2.25,1.67,0
+2024-12-04,NHL,Toronto Maple Leafs,Nashville Predators,3,2,1.67,2.25,1
+2024-12-04,NHL,Los Angeles Kings,Dallas Stars,3,2,1.95,1.87,1
+2024-12-05,NHL,Chicago Blackhawks,Boston Bruins,2,4,2.25,1.67,0
+2024-12-05,NHL,Anaheim Ducks,Vegas Golden Knights,1,4,2.25,1.67,0
+2024-12-05,NHL,Toronto Maple Leafs,Nashville Predators,3,2,1.67,2.25,1
+2024-12-05,NHL,Ottawa Senators,Detroit Red Wings,2,1,1.54,2.55,1
+2024-12-05,NHL,Los Angeles Kings,Dallas Stars,3,2,1.95,1.87,1
+2024-12-05,NHL,Carolina Hurricanes,Colorado Avalanche,5,3,1.65,2.3,1
+2024-12-05,NHL,Tampa Bay Lightning,San Jose Sharks,8,1,1.36,3.25,1
+2024-12-05,NHL,Philadelphia Flyers,Florida Panthers,5,7,2.6,1.53,0
+2024-12-05,NHL,New York Islanders,Seattle Kraken,2,5,1.77,2.1,0
+2024-12-05,NHL,Montréal Canadiens,Nashville Predators,3,0,2.15,1.74,1
+2024-12-05,NHL,Edmonton Oilers,Columbus Blue Jackets,6,3,1.35,3.35,1
+2024-12-06,NHL,Carolina Hurricanes,Colorado Avalanche,5,3,1.65,2.3,1
+2024-12-06,NHL,Tampa Bay Lightning,San Jose Sharks,8,1,1.36,3.25,1
+2024-12-06,NHL,Philadelphia Flyers,Florida Panthers,5,7,2.6,1.53,0
+2024-12-06,NHL,Ottawa Senators,Detroit Red Wings,2,1,1.54,2.55,1
+2024-12-06,NHL,Montréal Canadiens,Nashville Predators,3,0,2.15,1.74,1
+2024-12-06,NHL,New York Islanders,Seattle Kraken,2,5,1.77,2.1,0
+2024-12-06,NHL,Edmonton Oilers,Columbus Blue Jackets,6,3,1.35,3.35,1
+2024-12-06,NHL,Toronto Maple Leafs,Washington Capitals,1,3,1.67,2.25,0
+2024-12-06,NHL,Anaheim Ducks,Minnesota Wild,1,5,2.7,1.49,0
+2024-12-06,NHL,New Jersey Devils,Seattle Kraken,3,2,1.37,3.2,1
+2024-12-06,NHL,Vancouver Canucks,Columbus Blue Jackets,5,2,1.44,2.85,1
+2024-12-06,NHL,New York Rangers,Pittsburgh Penguins,4,2,1.5,2.65,1
+2024-12-06,NHL,Vegas Golden Knights,Dallas Stars,3,2,2.25,1.67,1
+2024-12-07,NHL,New Jersey Devils,Seattle Kraken,3,2,1.37,3.2,1
+2024-12-07,NHL,Toronto Maple Leafs,Washington Capitals,1,3,1.67,2.25,0
+2024-12-07,NHL,New York Rangers,Pittsburgh Penguins,4,2,1.5,2.65,1
+2024-12-07,NHL,Anaheim Ducks,Minnesota Wild,1,5,2.7,1.49,0
+2024-12-07,NHL,Vegas Golden Knights,Dallas Stars,3,2,2.25,1.67,1
+2024-12-07,NHL,Vancouver Canucks,Columbus Blue Jackets,5,2,1.44,2.85,1
+2024-12-07,NHL,Buffalo Sabres,Utah Mammoth,2,5,1.83,2.0,0
+2024-12-07,NHL,Florida Panthers,San Jose Sharks,3,1,1.24,4.25,1
+2024-12-07,NHL,Chicago Blackhawks,Winnipeg Jets,2,4,2.65,1.5,0
+2024-12-07,NHL,Montréal Canadiens,Washington Capitals,2,4,2.25,1.67,0
+2024-12-07,NHL,Detroit Red Wings,Colorado Avalanche,1,2,2.75,1.48,0
+2024-12-07,NHL,Ottawa Senators,Nashville Predators,3,1,1.8,2.05,1
+2024-12-07,NHL,Los Angeles Kings,Minnesota Wild,4,1,1.61,2.4,1
+2024-12-07,NHL,New York Islanders,Carolina Hurricanes,4,3,2.65,1.5,1
+2024-12-07,NHL,Pittsburgh Penguins,Toronto Maple Leafs,5,2,2.4,1.61,1
+2024-12-07,NHL,Edmonton Oilers,St. Louis Blues,4,2,1.36,3.3,1
+2024-12-08,NHL,Buffalo Sabres,Utah Mammoth,2,5,1.83,2.0,0
+2024-12-08,NHL,Florida Panthers,San Jose Sharks,3,1,1.24,4.25,1
+2024-12-08,NHL,Detroit Red Wings,Colorado Avalanche,1,2,2.75,1.48,0
+2024-12-08,NHL,New York Islanders,Carolina Hurricanes,4,3,2.65,1.5,1
+2024-12-08,NHL,Chicago Blackhawks,Winnipeg Jets,2,4,2.65,1.5,0
+2024-12-08,NHL,Ottawa Senators,Nashville Predators,3,1,1.8,2.05,1
+2024-12-08,NHL,Montréal Canadiens,Washington Capitals,2,4,2.25,1.67,0
+2024-12-08,NHL,Los Angeles Kings,Minnesota Wild,4,1,1.61,2.4,1
+2024-12-08,NHL,Pittsburgh Penguins,Toronto Maple Leafs,5,2,2.4,1.61,1
+2024-12-08,NHL,New York Rangers,Seattle Kraken,5,7,1.59,2.45,0
+2024-12-08,NHL,Edmonton Oilers,St. Louis Blues,4,2,1.36,3.3,1
+2024-12-08,NHL,Philadelphia Flyers,Utah Mammoth,2,4,1.91,1.91,0
+2024-12-08,NHL,Dallas Stars,Calgary Flames,6,2,1.44,2.9,1
+2024-12-08,NHL,New Jersey Devils,Colorado Avalanche,0,4,1.63,2.35,0
+2024-12-08,NHL,Ottawa Senators,New York Islanders,2,4,1.71,2.2,0
+2024-12-08,NHL,Vancouver Canucks,Tampa Bay Lightning,2,4,2.0,1.83,0
+2024-12-08,NHL,Winnipeg Jets,Columbus Blue Jackets,1,4,1.61,2.4,0
+2024-12-09,NHL,New York Rangers,Chicago Blackhawks,1,2,1.39,3.1,0
+2024-12-09,NHL,Ottawa Senators,New York Islanders,2,4,1.71,2.2,0
+2024-12-09,NHL,New York Rangers,Seattle Kraken,5,7,1.59,2.45,0
+2024-12-09,NHL,Vancouver Canucks,Tampa Bay Lightning,2,4,2.0,1.83,0
+2024-12-09,NHL,Philadelphia Flyers,Utah Mammoth,2,4,1.91,1.91,0
+2024-12-09,NHL,New Jersey Devils,Colorado Avalanche,0,4,1.63,2.35,0
+2024-12-09,NHL,Dallas Stars,Calgary Flames,6,2,1.44,2.9,1
+2024-12-09,NHL,Winnipeg Jets,Columbus Blue Jackets,1,4,1.61,2.4,0
+2024-12-10,NHL,Carolina Hurricanes,San Jose Sharks,3,2,1.18,5.0,1
+2024-12-10,NHL,Columbus Blue Jackets,Philadelphia Flyers,3,5,2.05,1.8,0
+2024-12-10,NHL,New York Rangers,Chicago Blackhawks,1,2,1.39,3.1,0
+2024-12-10,NHL,New York Islanders,Los Angeles Kings,1,3,2.1,1.77,0
+2024-12-10,NHL,Pittsburgh Penguins,Colorado Avalanche,2,6,2.5,1.56,0
+2024-12-10,NHL,Winnipeg Jets,Boston Bruins,8,1,1.77,2.1,1
+2024-12-10,NHL,Edmonton Oilers,Tampa Bay Lightning,2,1,1.65,2.3,1
+2024-12-10,NHL,Nashville Predators,Calgary Flames,3,4,1.54,2.55,0
+2024-12-11,NHL,Carolina Hurricanes,San Jose Sharks,3,2,1.18,5.0,1
+2024-12-11,NHL,Columbus Blue Jackets,Philadelphia Flyers,3,5,2.05,1.8,0
+2024-12-11,NHL,New York Islanders,Los Angeles Kings,1,3,2.1,1.77,0
+2024-12-11,NHL,Pittsburgh Penguins,Colorado Avalanche,2,6,2.5,1.56,0
+2024-12-11,NHL,Winnipeg Jets,Boston Bruins,8,1,1.77,2.1,1
+2024-12-11,NHL,Nashville Predators,Calgary Flames,3,4,1.54,2.55,0
+2024-12-11,NHL,Edmonton Oilers,Tampa Bay Lightning,2,1,1.65,2.3,1
+2024-12-11,NHL,Buffalo Sabres,New York Rangers,2,3,2.25,1.67,0
+2024-12-11,NHL,Ottawa Senators,Anaheim Ducks,5,1,1.41,3.0,1
+2024-12-12,NHL,Buffalo Sabres,New York Rangers,2,3,2.25,1.67,0
+2024-12-12,NHL,Ottawa Senators,Anaheim Ducks,5,1,1.41,3.0,1
+2024-12-12,NHL,Toronto Maple Leafs,Anaheim Ducks,3,2,1.22,4.5,1
+2024-12-12,NHL,Philadelphia Flyers,Detroit Red Wings,4,1,1.83,2.0,1
+2024-12-12,NHL,Dallas Stars,Nashville Predators,1,4,1.44,2.9,0
+2024-12-12,NHL,St. Louis Blues,San Jose Sharks,3,4,1.54,2.55,0
+2024-12-12,NHL,Montréal Canadiens,Pittsburgh Penguins,2,9,2.0,1.83,0
+2024-12-12,NHL,New Jersey Devils,Los Angeles Kings,3,1,1.67,2.25,1
+2024-12-12,NHL,New York Islanders,Chicago Blackhawks,5,4,1.5,2.65,1
+2024-12-12,NHL,Calgary Flames,Tampa Bay Lightning,3,8,2.3,1.65,0
+2024-12-12,NHL,Minnesota Wild,Edmonton Oilers,1,7,2.2,1.71,0
+2024-12-12,NHL,Seattle Kraken,Boston Bruins,5,1,2.0,1.83,1
+2024-12-12,NHL,Colorado Avalanche,Utah Mammoth,1,4,1.54,2.55,0
+2024-12-12,NHL,Vancouver Canucks,Florida Panthers,4,0,2.5,1.56,1
+2024-12-13,NHL,Philadelphia Flyers,Detroit Red Wings,4,1,1.83,2.0,1
+2024-12-13,NHL,New Jersey Devils,Los Angeles Kings,3,1,1.67,2.25,1
+2024-12-13,NHL,Montréal Canadiens,Pittsburgh Penguins,2,9,2.0,1.83,0
+2024-12-13,NHL,New York Islanders,Chicago Blackhawks,5,4,1.5,2.65,1
+2024-12-13,NHL,Toronto Maple Leafs,Anaheim Ducks,3,2,1.22,4.5,1
+2024-12-13,NHL,St. Louis Blues,San Jose Sharks,3,4,1.54,2.55,0
+2024-12-13,NHL,Dallas Stars,Nashville Predators,1,4,1.44,2.9,0
+2024-12-13,NHL,Minnesota Wild,Edmonton Oilers,1,7,2.2,1.71,0
+2024-12-13,NHL,Calgary Flames,Tampa Bay Lightning,3,8,2.3,1.65,0
+2024-12-13,NHL,Seattle Kraken,Boston Bruins,5,1,2.0,1.83,1
+2024-12-13,NHL,Vancouver Canucks,Florida Panthers,4,0,2.5,1.56,1
+2024-12-13,NHL,Colorado Avalanche,Utah Mammoth,1,4,1.54,2.55,0
+2024-12-13,NHL,Carolina Hurricanes,Ottawa Senators,0,3,1.48,2.75,0
+2024-12-14,NHL,Carolina Hurricanes,Ottawa Senators,0,3,1.48,2.75,0
+2024-12-14,NHL,New York Rangers,Los Angeles Kings,1,5,1.91,1.91,0
+2024-12-14,NHL,New Jersey Devils,Chicago Blackhawks,4,1,1.28,3.8,1
+2024-12-14,NHL,Minnesota Wild,Philadelphia Flyers,4,1,1.65,2.3,1
+2024-12-14,NHL,Washington Capitals,Buffalo Sabres,4,2,1.53,2.6,1
+2024-12-14,NHL,Colorado Avalanche,Nashville Predators,5,2,1.59,2.45,1
+2024-12-14,NHL,Winnipeg Jets,Montréal Canadiens,4,2,1.4,3.05,1
+2024-12-14,NHL,Detroit Red Wings,Toronto Maple Leafs,4,2,2.55,1.54,1
+2024-12-14,NHL,Edmonton Oilers,Vegas Golden Knights,6,3,1.67,2.25,1
+2024-12-14,NHL,Calgary Flames,Florida Panthers,3,0,2.65,1.5,1
+2024-12-14,NHL,San Jose Sharks,Utah Mammoth,3,4,2.6,1.53,0
+2024-12-14,NHL,Seattle Kraken,Tampa Bay Lightning,1,5,2.1,1.77,0
+2024-12-14,NHL,Vancouver Canucks,Boston Bruins,1,5,1.74,2.15,0
+2024-12-15,NHL,New Jersey Devils,Chicago Blackhawks,4,1,1.28,3.8,1
+2024-12-15,NHL,New York Rangers,Los Angeles Kings,1,5,1.91,1.91,0
+2024-12-15,NHL,Minnesota Wild,Philadelphia Flyers,4,1,1.65,2.3,1
+2024-12-15,NHL,Edmonton Oilers,Vegas Golden Knights,6,3,1.67,2.25,1
+2024-12-15,NHL,Detroit Red Wings,Toronto Maple Leafs,4,2,2.55,1.54,1
+2024-12-15,NHL,Colorado Avalanche,Nashville Predators,5,2,1.59,2.45,1
+2024-12-15,NHL,Washington Capitals,Buffalo Sabres,4,2,1.53,2.6,1
+2024-12-15,NHL,Winnipeg Jets,Montréal Canadiens,4,2,1.4,3.05,1
+2024-12-15,NHL,Calgary Flames,Florida Panthers,3,0,2.65,1.5,1
+2024-12-15,NHL,Carolina Hurricanes,Columbus Blue Jackets,4,1,1.27,3.9,1
+2024-12-15,NHL,Vancouver Canucks,Boston Bruins,1,5,1.74,2.15,0
+2024-12-15,NHL,Seattle Kraken,Tampa Bay Lightning,1,5,2.1,1.77,0
+2024-12-15,NHL,Chicago Blackhawks,New York Islanders,5,3,2.65,1.5,1
+2024-12-15,NHL,San Jose Sharks,Utah Mammoth,3,4,2.6,1.53,0
+2024-12-15,NHL,Toronto Maple Leafs,Buffalo Sabres,5,3,1.53,2.6,1
+2024-12-15,NHL,Minnesota Wild,Vegas Golden Knights,2,3,1.91,1.91,0
+2024-12-15,NHL,St. Louis Blues,New York Rangers,3,2,2.15,1.74,1
+2024-12-16,NHL,Chicago Blackhawks,New York Islanders,5,3,2.65,1.5,1
+2024-12-16,NHL,Toronto Maple Leafs,Buffalo Sabres,5,3,1.53,2.6,1
+2024-12-16,NHL,Dallas Stars,Washington Capitals,3,1,1.63,2.35,1
+2024-12-16,NHL,Edmonton Oilers,Florida Panthers,5,6,1.74,2.15,0
+2024-12-16,NHL,Vancouver Canucks,Colorado Avalanche,3,1,2.2,1.71,1
+2024-12-16,NHL,Carolina Hurricanes,Columbus Blue Jackets,4,1,1.27,3.9,1
+2024-12-16,NHL,St. Louis Blues,New York Rangers,3,2,2.15,1.74,1
+2024-12-16,NHL,Minnesota Wild,Vegas Golden Knights,2,3,1.91,1.91,0
+2024-12-17,NHL,Montréal Canadiens,Buffalo Sabres,6,1,2.1,1.77,1
+2024-12-17,NHL,Edmonton Oilers,Florida Panthers,5,6,1.74,2.15,0
+2024-12-17,NHL,Vancouver Canucks,Colorado Avalanche,3,1,2.2,1.71,1
+2024-12-17,NHL,Dallas Stars,Washington Capitals,3,1,1.63,2.35,1
+2024-12-17,NHL,Tampa Bay Lightning,Columbus Blue Jackets,5,3,1.37,3.2,1
+2024-12-17,NHL,St. Louis Blues,New Jersey Devils,1,4,2.6,1.53,0
+2024-12-17,NHL,Nashville Predators,New York Rangers,2,0,1.67,2.25,1
+2024-12-17,NHL,Chicago Blackhawks,Washington Capitals,3,2,2.65,1.5,1
+2024-12-17,NHL,Carolina Hurricanes,New York Islanders,4,0,1.41,3.0,1
+2024-12-17,NHL,Seattle Kraken,Ottawa Senators,0,3,2.15,1.74,0
+2024-12-17,NHL,San Jose Sharks,Winnipeg Jets,3,4,2.9,1.44,0
+2024-12-18,NHL,Montréal Canadiens,Buffalo Sabres,6,1,2.1,1.77,1
+2024-12-18,NHL,Tampa Bay Lightning,Columbus Blue Jackets,5,3,1.37,3.2,1
+2024-12-18,NHL,Carolina Hurricanes,New York Islanders,4,0,1.41,3.0,1
+2024-12-18,NHL,Nashville Predators,New York Rangers,2,0,1.67,2.25,1
+2024-12-18,NHL,St. Louis Blues,New Jersey Devils,1,4,2.6,1.53,0
+2024-12-18,NHL,Chicago Blackhawks,Washington Capitals,3,2,2.65,1.5,1
+2024-12-18,NHL,Seattle Kraken,Ottawa Senators,0,3,2.15,1.74,0
+2024-12-18,NHL,San Jose Sharks,Winnipeg Jets,3,4,2.9,1.44,0
+2024-12-18,NHL,Dallas Stars,Toronto Maple Leafs,3,5,1.74,2.15,0
+2024-12-18,NHL,Minnesota Wild,Florida Panthers,1,6,2.35,1.63,0
+2024-12-18,NHL,Anaheim Ducks,Winnipeg Jets,3,2,2.3,1.65,1
+2024-12-18,NHL,Detroit Red Wings,Philadelphia Flyers,6,4,1.91,1.91,1
+2024-12-19,NHL,Dallas Stars,Toronto Maple Leafs,3,5,1.74,2.15,0
+2024-12-19,NHL,Minnesota Wild,Florida Panthers,1,6,2.35,1.63,0
+2024-12-19,NHL,Anaheim Ducks,Winnipeg Jets,3,2,2.3,1.65,1
+2024-12-19,NHL,Columbus Blue Jackets,New Jersey Devils,4,2,2.85,1.44,1
+2024-12-19,NHL,Vegas Golden Knights,Vancouver Canucks,3,1,1.63,2.35,1
+2024-12-19,NHL,Chicago Blackhawks,Seattle Kraken,3,1,2.25,1.67,1
+2024-12-19,NHL,Philadelphia Flyers,Los Angeles Kings,3,7,2.35,1.63,0
+2024-12-19,NHL,Detroit Red Wings,Philadelphia Flyers,6,4,1.91,1.91,1
+2024-12-19,NHL,San Jose Sharks,Colorado Avalanche,2,4,3.2,1.37,0
+2024-12-19,NHL,Tampa Bay Lightning,St. Louis Blues,3,1,1.46,2.8,1
+2024-12-20,NHL,Philadelphia Flyers,Los Angeles Kings,3,7,2.35,1.63,0
+2024-12-20,NHL,Tampa Bay Lightning,St. Louis Blues,3,1,1.46,2.8,1
+2024-12-20,NHL,Columbus Blue Jackets,New Jersey Devils,4,2,2.85,1.44,1
+2024-12-20,NHL,Chicago Blackhawks,Seattle Kraken,3,1,2.25,1.67,1
+2024-12-20,NHL,Vegas Golden Knights,Vancouver Canucks,3,1,1.63,2.35,1
+2024-12-20,NHL,San Jose Sharks,Colorado Avalanche,2,4,3.2,1.37,0
+2024-12-20,NHL,Buffalo Sabres,Toronto Maple Leafs,3,6,2.3,1.65,0
+2024-12-20,NHL,Detroit Red Wings,Montréal Canadiens,3,4,1.63,2.35,0
+2024-12-20,NHL,Washington Capitals,Carolina Hurricanes,3,1,2.35,1.63,1
+2024-12-20,NHL,Anaheim Ducks,Colorado Avalanche,2,4,2.8,1.46,0
+2024-12-20,NHL,Dallas Stars,New York Rangers,1,3,1.54,2.55,0
+2024-12-20,NHL,Minnesota Wild,Utah Mammoth,1,2,1.8,2.05,0
+2024-12-21,NHL,Detroit Red Wings,Montréal Canadiens,3,4,1.63,2.35,0
+2024-12-21,NHL,Buffalo Sabres,Toronto Maple Leafs,3,6,2.3,1.65,0
+2024-12-21,NHL,Dallas Stars,New York Rangers,1,3,1.54,2.55,0
+2024-12-21,NHL,Washington Capitals,Carolina Hurricanes,3,1,2.35,1.63,1
+2024-12-21,NHL,Minnesota Wild,Utah Mammoth,1,2,1.8,2.05,0
+2024-12-21,NHL,Anaheim Ducks,Colorado Avalanche,2,4,2.8,1.46,0
+2024-12-21,NHL,Calgary Flames,Chicago Blackhawks,6,4,1.56,2.5,1
+2024-12-21,NHL,Boston Bruins,Buffalo Sabres,3,1,1.59,2.45,1
+2024-12-21,NHL,Montréal Canadiens,Detroit Red Wings,5,1,1.95,1.87,1
+2024-12-21,NHL,New Jersey Devils,Pittsburgh Penguins,3,0,1.39,3.1,1
+2024-12-21,NHL,Winnipeg Jets,Minnesota Wild,5,0,1.59,2.45,1
+2024-12-21,NHL,Toronto Maple Leafs,New York Islanders,3,6,1.74,2.15,0
+2024-12-21,NHL,Vegas Golden Knights,Seattle Kraken,6,2,1.5,2.65,1
+2024-12-22,NHL,Tampa Bay Lightning,Florida Panthers,2,4,2.05,1.8,0
+2024-12-22,NHL,New York Rangers,Carolina Hurricanes,1,3,2.25,1.67,0
+2024-12-22,NHL,Colorado Avalanche,Seattle Kraken,5,2,1.33,3.4,1
+2024-12-22,NHL,Edmonton Oilers,Ottawa Senators,3,1,1.54,2.55,1
+2024-12-22,NHL,Calgary Flames,Chicago Blackhawks,6,4,1.56,2.5,1
+2024-12-22,NHL,Boston Bruins,Buffalo Sabres,3,1,1.59,2.45,1
+2024-12-22,NHL,Vegas Golden Knights,Seattle Kraken,6,2,1.5,2.65,1
+2024-12-22,NHL,Montréal Canadiens,Detroit Red Wings,5,1,1.95,1.87,1
+2024-12-22,NHL,Washington Capitals,Los Angeles Kings,3,1,1.61,2.4,1
+2024-12-22,NHL,Toronto Maple Leafs,New York Islanders,3,6,1.74,2.15,0
+2024-12-22,NHL,New Jersey Devils,Pittsburgh Penguins,3,0,1.39,3.1,1
+2024-12-22,NHL,Winnipeg Jets,Minnesota Wild,5,0,1.59,2.45,1
+2024-12-23,NHL,New Jersey Devils,New York Rangers,5,0,1.4,3.05,1
+2024-12-23,NHL,Toronto Maple Leafs,Winnipeg Jets,2,5,1.77,2.1,0
+2024-12-23,NHL,Boston Bruins,Washington Capitals,4,1,1.74,2.15,1
+2024-12-23,NHL,Columbus Blue Jackets,Montréal Canadiens,5,4,1.77,2.1,1
+2024-12-23,NHL,Florida Panthers,Tampa Bay Lightning,0,4,1.63,2.35,0
+2024-12-23,NHL,Detroit Red Wings,St. Louis Blues,0,4,1.87,1.95,0
+2024-12-23,NHL,Colorado Avalanche,Seattle Kraken,5,2,1.33,3.4,1
+2024-12-23,NHL,New York Rangers,Carolina Hurricanes,1,3,2.25,1.67,0
+2024-12-23,NHL,Tampa Bay Lightning,Florida Panthers,2,4,2.05,1.8,0
+2024-12-23,NHL,Edmonton Oilers,Ottawa Senators,3,1,1.54,2.55,1
+2024-12-23,NHL,New York Islanders,Buffalo Sabres,1,7,1.63,2.35,0
+2024-12-23,NHL,Minnesota Wild,Chicago Blackhawks,4,3,1.44,2.85,1
+2024-12-23,NHL,Pittsburgh Penguins,Philadelphia Flyers,7,3,1.91,1.91,1
+2024-12-23,NHL,Nashville Predators,Carolina Hurricanes,5,2,2.05,1.8,1
+2024-12-23,NHL,Utah Mammoth,Dallas Stars,2,3,2.45,1.59,0
+2024-12-23,NHL,Vegas Golden Knights,Anaheim Ducks,3,1,1.32,3.55,1
+2024-12-23,NHL,Vancouver Canucks,San Jose Sharks,4,3,1.42,2.95,1
+2024-12-23,NHL,Washington Capitals,Los Angeles Kings,3,1,1.61,2.4,1
+2024-12-24,NHL,New Jersey Devils,New York Rangers,5,0,1.4,3.05,1
+2024-12-24,NHL,Boston Bruins,Washington Capitals,4,1,1.74,2.15,1
+2024-12-24,NHL,Toronto Maple Leafs,Winnipeg Jets,2,5,1.77,2.1,0
+2024-12-24,NHL,Columbus Blue Jackets,Montréal Canadiens,5,4,1.77,2.1,1
+2024-12-24,NHL,Vegas Golden Knights,Anaheim Ducks,3,1,1.32,3.55,1
+2024-12-24,NHL,Detroit Red Wings,St. Louis Blues,0,4,1.87,1.95,0
+2024-12-24,NHL,Florida Panthers,Tampa Bay Lightning,0,4,1.63,2.35,0
+2024-12-24,NHL,Nashville Predators,Carolina Hurricanes,5,2,2.05,1.8,1
+2024-12-24,NHL,Utah Mammoth,Dallas Stars,2,3,2.45,1.59,0
+2024-12-24,NHL,Minnesota Wild,Chicago Blackhawks,4,3,1.44,2.85,1
+2024-12-24,NHL,Vancouver Canucks,San Jose Sharks,4,3,1.42,2.95,1
+2024-12-24,NHL,Pittsburgh Penguins,Philadelphia Flyers,7,3,1.91,1.91,1
+2024-12-24,NHL,New York Islanders,Buffalo Sabres,1,7,1.63,2.35,0
+2024-12-27,NHL,Columbus Blue Jackets,Boston Bruins,6,2,2.25,1.67,1
+2024-12-27,NHL,Buffalo Sabres,Chicago Blackhawks,6,2,1.65,2.3,1
+2024-12-27,NHL,New Jersey Devils,Carolina Hurricanes,4,2,1.74,2.15,1
+2024-12-27,NHL,St. Louis Blues,Nashville Predators,7,4,2.15,1.74,1
+2024-12-27,NHL,San Jose Sharks,Vegas Golden Knights,3,6,3.1,1.39,0
+2024-12-27,NHL,Detroit Red Wings,Toronto Maple Leafs,2,5,2.15,1.74,0
+2024-12-27,NHL,Utah Mammoth,Colorado Avalanche,1,4,2.2,1.71,0
+2024-12-28,NHL,Buffalo Sabres,Chicago Blackhawks,6,2,1.65,2.3,1
+2024-12-28,NHL,Columbus Blue Jackets,Boston Bruins,6,2,2.25,1.67,1
+2024-12-28,NHL,Detroit Red Wings,Toronto Maple Leafs,2,5,2.15,1.74,0
+2024-12-28,NHL,St. Louis Blues,Nashville Predators,7,4,2.15,1.74,1
+2024-12-28,NHL,New Jersey Devils,Carolina Hurricanes,4,2,1.74,2.15,1
+2024-12-28,NHL,San Jose Sharks,Vegas Golden Knights,3,6,3.1,1.39,0
+2024-12-28,NHL,Utah Mammoth,Colorado Avalanche,1,4,2.2,1.71,0
+2024-12-28,NHL,Anaheim Ducks,Philadelphia Flyers,1,3,2.25,1.67,0
+2024-12-28,NHL,Carolina Hurricanes,New Jersey Devils,5,2,1.74,2.15,1
+2024-12-28,NHL,Florida Panthers,Montréal Canadiens,0,4,1.29,3.75,0
+2024-12-28,NHL,San Jose Sharks,Calgary Flames,1,3,2.45,1.59,0
+2024-12-28,NHL,Tampa Bay Lightning,New York Rangers,6,2,1.63,2.35,1
+2024-12-28,NHL,Boston Bruins,Columbus Blue Jackets,4,0,1.48,2.75,1
+2024-12-28,NHL,New York Islanders,Pittsburgh Penguins,6,3,1.63,2.35,1
+2024-12-28,NHL,Winnipeg Jets,Ottawa Senators,4,2,1.59,2.45,1
+2024-12-28,NHL,Toronto Maple Leafs,Washington Capitals,2,5,2.1,1.77,0
+2024-12-29,NHL,Anaheim Ducks,Philadelphia Flyers,1,3,2.25,1.67,0
+2024-12-29,NHL,Florida Panthers,Montréal Canadiens,0,4,1.29,3.75,0
+2024-12-29,NHL,Carolina Hurricanes,New Jersey Devils,5,2,1.74,2.15,1
+2024-12-29,NHL,Boston Bruins,Columbus Blue Jackets,4,0,1.48,2.75,1
+2024-12-29,NHL,Tampa Bay Lightning,New York Rangers,6,2,1.63,2.35,1
+2024-12-29,NHL,Toronto Maple Leafs,Washington Capitals,2,5,2.1,1.77,0
+2024-12-29,NHL,Winnipeg Jets,Ottawa Senators,4,2,1.59,2.45,1
+2024-12-29,NHL,San Jose Sharks,Calgary Flames,1,3,2.45,1.59,0
+2024-12-29,NHL,St. Louis Blues,Buffalo Sabres,2,4,1.8,2.05,0
+2024-12-29,NHL,New York Islanders,Pittsburgh Penguins,6,3,1.63,2.35,1
+2024-12-29,NHL,Pittsburgh Penguins,New York Islanders,3,2,2.1,1.77,1
+2024-12-29,NHL,Tampa Bay Lightning,Montréal Canadiens,2,5,1.46,2.8,0
+2024-12-29,NHL,Anaheim Ducks,Edmonton Oilers,5,3,3.35,1.35,1
+2024-12-29,NHL,Minnesota Wild,Ottawa Senators,1,3,1.61,2.4,0
+2024-12-29,NHL,Detroit Red Wings,Washington Capitals,4,2,2.2,1.71,1
+2024-12-29,NHL,Vegas Golden Knights,Calgary Flames,3,0,1.44,2.85,1
+2024-12-29,NHL,Chicago Blackhawks,Dallas Stars,1,5,3.3,1.36,0
+2024-12-29,NHL,Los Angeles Kings,Philadelphia Flyers,5,4,1.65,2.3,1
+2024-12-30,NHL,Anaheim Ducks,Edmonton Oilers,5,3,3.35,1.35,1
+2024-12-30,NHL,St. Louis Blues,Buffalo Sabres,2,4,1.8,2.05,0
+2024-12-30,NHL,Detroit Red Wings,Washington Capitals,4,2,2.2,1.71,1
+2024-12-30,NHL,Tampa Bay Lightning,Montréal Canadiens,2,5,1.46,2.8,0
+2024-12-30,NHL,Pittsburgh Penguins,New York Islanders,3,2,2.1,1.77,1
+2024-12-30,NHL,Minnesota Wild,Ottawa Senators,1,3,1.61,2.4,0
+2024-12-30,NHL,Florida Panthers,New York Rangers,5,3,1.49,2.7,1
+2024-12-30,NHL,Vegas Golden Knights,Calgary Flames,3,0,1.44,2.85,1
+2024-12-30,NHL,Chicago Blackhawks,Dallas Stars,1,5,3.3,1.36,0
+2024-12-30,NHL,Los Angeles Kings,Philadelphia Flyers,5,4,1.65,2.3,1
+2024-12-30,NHL,Winnipeg Jets,Nashville Predators,3,0,1.8,2.05,1
+2024-12-30,NHL,Seattle Kraken,Utah Mammoth,5,2,2.3,1.65,1
+2024-12-31,NHL,Florida Panthers,New York Rangers,5,3,1.49,2.7,1
+2024-12-31,NHL,Washington Capitals,Boston Bruins,3,1,1.67,2.25,1
+2024-12-31,NHL,Toronto Maple Leafs,New York Islanders,3,1,1.67,2.25,1
+2024-12-31,NHL,Vegas Golden Knights,Montréal Canadiens,2,3,1.4,3.05,0
+2024-12-31,NHL,Winnipeg Jets,Nashville Predators,3,0,1.8,2.05,1
+2024-12-31,NHL,Chicago Blackhawks,St. Louis Blues,2,6,2.3,1.65,0
+2024-12-31,NHL,Colorado Avalanche,Winnipeg Jets,5,2,1.46,2.8,1
+2024-12-31,NHL,Anaheim Ducks,New Jersey Devils,3,2,3.35,1.35,1
+2024-12-31,NHL,San Jose Sharks,Philadelphia Flyers,0,4,2.45,1.59,0
+2024-12-31,NHL,Minnesota Wild,Nashville Predators,5,3,1.83,2.0,1
+2024-12-31,NHL,Detroit Red Wings,Pittsburgh Penguins,4,2,1.8,2.05,1
+2024-12-31,NHL,Edmonton Oilers,Utah Mammoth,4,1,1.49,2.7,1
+2024-12-31,NHL,Calgary Flames,Vancouver Canucks,3,1,1.71,2.2,1
+2024-12-31,NHL,Seattle Kraken,Utah Mammoth,5,2,2.3,1.65,1
+2024-12-31,NHL,Dallas Stars,Buffalo Sabres,4,2,1.46,2.8,1
+2025-01-01,NHL,Washington Capitals,Boston Bruins,3,1,1.67,2.25,1
+2025-01-01,NHL,Minnesota Wild,Nashville Predators,5,3,1.83,2.0,1
+2025-01-01,NHL,Chicago Blackhawks,St. Louis Blues,2,6,2.3,1.65,0
+2025-01-01,NHL,Anaheim Ducks,New Jersey Devils,3,2,3.35,1.35,1
+2025-01-01,NHL,Vegas Golden Knights,Montréal Canadiens,2,3,1.4,3.05,0
+2025-01-01,NHL,Toronto Maple Leafs,New York Islanders,3,1,1.67,2.25,1
+2025-01-01,NHL,Detroit Red Wings,Pittsburgh Penguins,4,2,1.8,2.05,1
+2025-01-01,NHL,Dallas Stars,Buffalo Sabres,4,2,1.46,2.8,1
+2025-01-01,NHL,Colorado Avalanche,Winnipeg Jets,5,2,1.46,2.8,1
+2025-01-01,NHL,San Jose Sharks,Philadelphia Flyers,0,4,2.45,1.59,0
+2025-01-01,NHL,Calgary Flames,Vancouver Canucks,3,1,1.71,2.2,1
+2025-01-01,NHL,Edmonton Oilers,Utah Mammoth,4,1,1.49,2.7,1
+2025-01-01,NHL,Los Angeles Kings,New Jersey Devils,3,0,2.0,1.83,1
+2025-01-02,NHL,Los Angeles Kings,New Jersey Devils,3,0,2.0,1.83,1
+2025-01-02,NHL,Columbus Blue Jackets,Detroit Red Wings,4,5,1.87,1.95,0
+2025-01-02,NHL,Florida Panthers,Carolina Hurricanes,1,3,1.77,2.1,0
+2025-01-02,NHL,New York Rangers,Boston Bruins,2,1,1.91,1.91,1
+2025-01-02,NHL,New York Islanders,Toronto Maple Leafs,1,2,1.95,1.87,0
+2025-01-02,NHL,Dallas Stars,Ottawa Senators,4,2,1.5,2.65,1
+2025-01-02,NHL,San Jose Sharks,Tampa Bay Lightning,2,1,3.35,1.35,1
+2025-01-02,NHL,Calgary Flames,Utah Mammoth,3,5,2.05,1.8,0
+2025-01-02,NHL,Vegas Golden Knights,Philadelphia Flyers,5,2,1.5,2.65,1
+2025-01-03,NHL,Florida Panthers,Carolina Hurricanes,1,3,1.77,2.1,0
+2025-01-03,NHL,Columbus Blue Jackets,Detroit Red Wings,4,5,1.87,1.95,0
+2025-01-03,NHL,New York Rangers,Boston Bruins,2,1,1.91,1.91,1
+2025-01-03,NHL,Vegas Golden Knights,Philadelphia Flyers,5,2,1.5,2.65,1
+2025-01-03,NHL,Dallas Stars,Ottawa Senators,4,2,1.5,2.65,1
+2025-01-03,NHL,Calgary Flames,Utah Mammoth,3,5,2.05,1.8,0
+2025-01-03,NHL,New York Islanders,Toronto Maple Leafs,1,2,1.95,1.87,0
+2025-01-03,NHL,San Jose Sharks,Tampa Bay Lightning,2,1,3.35,1.35,1
+2025-01-03,NHL,Vancouver Canucks,Nashville Predators,0,3,2.65,1.5,0
+2025-01-03,NHL,Edmonton Oilers,Anaheim Ducks,3,2,1.2,4.75,1
+2025-01-03,NHL,Chicago Blackhawks,Montréal Canadiens,4,2,2.3,1.65,1
+2025-01-03,NHL,St. Louis Blues,Ottawa Senators,4,0,1.8,2.05,1
+2025-01-04,NHL,St. Louis Blues,Ottawa Senators,4,0,1.8,2.05,1
+2025-01-04,NHL,Edmonton Oilers,Anaheim Ducks,3,2,1.2,4.75,1
+2025-01-04,NHL,Vancouver Canucks,Nashville Predators,0,3,2.65,1.5,0
+2025-01-04,NHL,Chicago Blackhawks,Montréal Canadiens,4,2,2.3,1.65,1
+2025-01-04,NHL,San Jose Sharks,New Jersey Devils,3,2,3.9,1.27,1
+2025-01-04,NHL,Washington Capitals,New York Rangers,7,4,1.61,2.4,1
+2025-01-04,NHL,Carolina Hurricanes,Minnesota Wild,0,4,1.44,2.9,0
+2025-01-04,NHL,Winnipeg Jets,Detroit Red Wings,2,4,1.46,2.8,0
+2025-01-04,NHL,Toronto Maple Leafs,Boston Bruins,6,4,1.63,2.35,1
+2025-01-04,NHL,Columbus Blue Jackets,St. Louis Blues,6,4,2.0,1.83,1
+2025-01-04,NHL,Calgary Flames,Nashville Predators,1,4,1.83,2.0,0
+2025-01-04,NHL,Los Angeles Kings,Tampa Bay Lightning,2,1,1.8,2.05,1
+2025-01-04,NHL,Vegas Golden Knights,Buffalo Sabres,3,1,1.48,2.75,1
+2025-01-04,NHL,Seattle Kraken,Edmonton Oilers,2,4,2.6,1.53,0
+2025-01-05,NHL,Washington Capitals,New York Rangers,7,4,1.61,2.4,1
+2025-01-05,NHL,Chicago Blackhawks,New York Rangers,2,6,2.1,1.77,0
+2025-01-05,NHL,San Jose Sharks,New Jersey Devils,3,2,3.9,1.27,1
+2025-01-05,NHL,Anaheim Ducks,Tampa Bay Lightning,4,1,2.55,1.54,1
+2025-01-05,NHL,Columbus Blue Jackets,St. Louis Blues,6,4,2.0,1.83,1
+2025-01-05,NHL,Carolina Hurricanes,Minnesota Wild,0,4,1.44,2.9,0
+2025-01-05,NHL,Toronto Maple Leafs,Boston Bruins,6,4,1.63,2.35,1
+2025-01-05,NHL,Winnipeg Jets,Detroit Red Wings,2,4,1.46,2.8,0
+2025-01-05,NHL,Los Angeles Kings,Tampa Bay Lightning,2,1,1.8,2.05,1
+2025-01-05,NHL,Calgary Flames,Nashville Predators,1,4,1.83,2.0,0
+2025-01-05,NHL,Seattle Kraken,Edmonton Oilers,2,4,2.6,1.53,0
+2025-01-05,NHL,Vegas Golden Knights,Buffalo Sabres,3,1,1.48,2.75,1
+2025-01-06,NHL,Colorado Avalanche,Florida Panthers,3,1,1.83,2.0,1
+2025-01-06,NHL,Seattle Kraken,New Jersey Devils,2,3,3.0,1.41,0
+2025-01-06,NHL,Chicago Blackhawks,New York Rangers,2,6,2.1,1.77,0
+2025-01-06,NHL,Anaheim Ducks,Tampa Bay Lightning,4,1,2.55,1.54,1
+2025-01-07,NHL,Seattle Kraken,New Jersey Devils,2,3,3.0,1.41,0
+2025-01-07,NHL,Colorado Avalanche,Florida Panthers,3,1,1.83,2.0,1
+2025-01-07,NHL,Boston Bruins,Edmonton Oilers,0,4,2.25,1.67,0
+2025-01-07,NHL,Tampa Bay Lightning,Carolina Hurricanes,3,2,2.0,1.83,1
+2025-01-07,NHL,San Jose Sharks,Vegas Golden Knights,2,4,3.1,1.39,0
+2025-01-07,NHL,Minnesota Wild,St. Louis Blues,6,4,1.74,2.15,1
+2025-01-07,NHL,Philadelphia Flyers,Toronto Maple Leafs,2,3,2.2,1.71,0
+2025-01-07,NHL,Winnipeg Jets,Nashville Predators,5,2,1.67,2.25,1
+2025-01-08,NHL,Boston Bruins,Edmonton Oilers,0,4,2.25,1.67,0
+2025-01-08,NHL,Tampa Bay Lightning,Carolina Hurricanes,3,2,2.0,1.83,1
+2025-01-08,NHL,Philadelphia Flyers,Toronto Maple Leafs,2,3,2.2,1.71,0
+2025-01-08,NHL,Winnipeg Jets,Nashville Predators,5,2,1.67,2.25,1
+2025-01-08,NHL,Minnesota Wild,St. Louis Blues,6,4,1.74,2.15,1
+2025-01-08,NHL,San Jose Sharks,Vegas Golden Knights,2,4,3.1,1.39,0
+2025-01-08,NHL,Chicago Blackhawks,Colorado Avalanche,3,1,3.05,1.4,1
+2025-01-08,NHL,Utah Mammoth,Florida Panthers,1,4,2.35,1.63,0
+2025-01-09,NHL,Chicago Blackhawks,Colorado Avalanche,3,1,3.05,1.4,1
+2025-01-09,NHL,Utah Mammoth,Florida Panthers,1,4,2.35,1.63,0
+2025-01-09,NHL,Columbus Blue Jackets,Seattle Kraken,6,2,2.05,1.8,1
+2025-01-09,NHL,Ottawa Senators,Buffalo Sabres,0,4,1.65,2.3,0
+2025-01-09,NHL,Philadelphia Flyers,Dallas Stars,1,4,2.3,1.65,0
+2025-01-09,NHL,Pittsburgh Penguins,Edmonton Oilers,5,3,2.9,1.44,1
+2025-01-09,NHL,Tampa Bay Lightning,Boston Bruins,4,1,1.61,2.4,1
+2025-01-09,NHL,St. Louis Blues,Anaheim Ducks,6,2,1.5,2.65,1
+2025-01-09,NHL,Vegas Golden Knights,New York Islanders,0,4,1.54,2.55,0
+2025-01-09,NHL,Carolina Hurricanes,Toronto Maple Leafs,6,3,1.56,2.5,1
+2025-01-09,NHL,Minnesota Wild,Colorado Avalanche,1,6,2.3,1.65,0
+2025-01-10,NHL,Columbus Blue Jackets,Seattle Kraken,6,2,2.05,1.8,1
+2025-01-10,NHL,Ottawa Senators,Buffalo Sabres,0,4,1.65,2.3,0
+2025-01-10,NHL,Philadelphia Flyers,Dallas Stars,1,4,2.3,1.65,0
+2025-01-10,NHL,Pittsburgh Penguins,Edmonton Oilers,5,3,2.9,1.44,1
+2025-01-10,NHL,Carolina Hurricanes,Toronto Maple Leafs,6,3,1.56,2.5,1
+2025-01-10,NHL,Tampa Bay Lightning,Boston Bruins,4,1,1.61,2.4,1
+2025-01-10,NHL,Minnesota Wild,Colorado Avalanche,1,6,2.3,1.65,0
+2025-01-10,NHL,Vegas Golden Knights,New York Islanders,0,4,1.54,2.55,0
+2025-01-10,NHL,St. Louis Blues,Anaheim Ducks,6,2,1.5,2.65,1
+2025-01-10,NHL,Utah Mammoth,San Jose Sharks,2,1,1.36,3.25,1
+2025-01-10,NHL,Detroit Red Wings,Chicago Blackhawks,5,3,1.54,2.55,1
+2025-01-10,NHL,Carolina Hurricanes,Vancouver Canucks,2,0,1.56,2.5,1
+2025-01-11,NHL,Carolina Hurricanes,Vancouver Canucks,2,0,1.56,2.5,1
+2025-01-11,NHL,Detroit Red Wings,Chicago Blackhawks,5,3,1.54,2.55,1
+2025-01-11,NHL,Utah Mammoth,San Jose Sharks,2,1,1.36,3.25,1
+2025-01-11,NHL,Buffalo Sabres,Seattle Kraken,2,6,1.74,2.15,0
+2025-01-11,NHL,Pittsburgh Penguins,Ottawa Senators,0,5,1.95,1.87,0
+2025-01-11,NHL,Chicago Blackhawks,Edmonton Oilers,3,4,4.2,1.25,0
+2025-01-11,NHL,St. Louis Blues,Columbus Blue Jackets,1,2,1.49,2.7,0
+2025-01-11,NHL,Philadelphia Flyers,Anaheim Ducks,6,0,1.5,2.65,1
+2025-01-11,NHL,Toronto Maple Leafs,Vancouver Canucks,0,3,1.54,2.55,0
+2025-01-11,NHL,Winnipeg Jets,Colorado Avalanche,3,0,2.1,1.77,1
+2025-01-11,NHL,Utah Mammoth,New York Islanders,1,2,1.91,1.91,0
+2025-01-11,NHL,Nashville Predators,Washington Capitals,1,4,1.71,2.2,0
+2025-01-11,NHL,San Jose Sharks,Minnesota Wild,1,3,2.6,1.53,0
+2025-01-11,NHL,Calgary Flames,Los Angeles Kings,2,1,1.77,2.1,1
+2025-01-11,NHL,Vegas Golden Knights,New York Rangers,1,2,1.67,2.25,0
+2025-01-12,NHL,Buffalo Sabres,Seattle Kraken,2,6,1.74,2.15,0
+2025-01-12,NHL,Chicago Blackhawks,Edmonton Oilers,3,4,4.2,1.25,0
+2025-01-12,NHL,Pittsburgh Penguins,Ottawa Senators,0,5,1.95,1.87,0
+2025-01-12,NHL,Detroit Red Wings,Seattle Kraken,6,2,1.56,2.5,1
+2025-01-12,NHL,St. Louis Blues,Columbus Blue Jackets,1,2,1.49,2.7,0
+2025-01-12,NHL,Philadelphia Flyers,Anaheim Ducks,6,0,1.5,2.65,1
+2025-01-12,NHL,Toronto Maple Leafs,Vancouver Canucks,0,3,1.54,2.55,0
+2025-01-12,NHL,Ottawa Senators,Dallas Stars,3,2,2.3,1.65,1
+2025-01-12,NHL,Pittsburgh Penguins,Tampa Bay Lightning,2,5,2.25,1.67,0
+2025-01-12,NHL,Vegas Golden Knights,Minnesota Wild,4,1,1.5,2.65,1
+2025-01-12,NHL,Nashville Predators,Washington Capitals,1,4,1.71,2.2,0
+2025-01-12,NHL,Winnipeg Jets,Colorado Avalanche,3,0,2.1,1.77,1
+2025-01-12,NHL,Utah Mammoth,New York Islanders,1,2,1.91,1.91,0
+2025-01-12,NHL,Vegas Golden Knights,New York Rangers,1,2,1.67,2.25,0
+2025-01-12,NHL,San Jose Sharks,Minnesota Wild,1,3,2.6,1.53,0
+2025-01-12,NHL,Calgary Flames,Los Angeles Kings,2,1,1.77,2.1,1
+2025-01-13,NHL,Chicago Blackhawks,Calgary Flames,2,5,2.35,1.63,0
+2025-01-13,NHL,Edmonton Oilers,Los Angeles Kings,1,0,1.48,2.75,1
+2025-01-13,NHL,Philadelphia Flyers,Florida Panthers,4,3,2.55,1.54,1
+2025-01-13,NHL,Detroit Red Wings,Seattle Kraken,6,2,1.56,2.5,1
+2025-01-13,NHL,Ottawa Senators,Dallas Stars,3,2,2.3,1.65,1
+2025-01-13,NHL,Pittsburgh Penguins,Tampa Bay Lightning,2,5,2.25,1.67,0
+2025-01-13,NHL,Vegas Golden Knights,Minnesota Wild,4,1,1.5,2.65,1
+2025-01-14,NHL,Boston Bruins,Tampa Bay Lightning,6,2,2.25,1.67,1
+2025-01-14,NHL,Detroit Red Wings,San Jose Sharks,3,6,1.53,2.6,0
+2025-01-14,NHL,Pittsburgh Penguins,Seattle Kraken,2,4,1.8,2.05,0
+2025-01-14,NHL,Washington Capitals,Anaheim Ducks,3,0,1.37,3.2,1
+2025-01-14,NHL,Toronto Maple Leafs,Dallas Stars,1,4,2.05,1.8,0
+2025-01-14,NHL,New York Islanders,Ottawa Senators,0,2,1.83,2.0,0
+2025-01-14,NHL,St. Louis Blues,Calgary Flames,2,1,1.56,2.5,1
+2025-01-14,NHL,Winnipeg Jets,Vancouver Canucks,6,1,1.61,2.4,1
+2025-01-14,NHL,Nashville Predators,Vegas Golden Knights,5,3,2.15,1.74,1
+2025-01-14,NHL,Utah Mammoth,Montréal Canadiens,3,5,1.67,2.25,0
+2025-01-14,NHL,Edmonton Oilers,Los Angeles Kings,1,0,1.48,2.75,1
+2025-01-14,NHL,Chicago Blackhawks,Calgary Flames,2,5,2.35,1.63,0
+2025-01-14,NHL,Philadelphia Flyers,Florida Panthers,4,3,2.55,1.54,1
+2025-01-15,NHL,New York Islanders,Ottawa Senators,0,2,1.83,2.0,0
+2025-01-15,NHL,Detroit Red Wings,San Jose Sharks,3,6,1.53,2.6,0
+2025-01-15,NHL,Boston Bruins,Tampa Bay Lightning,6,2,2.25,1.67,1
+2025-01-15,NHL,Pittsburgh Penguins,Seattle Kraken,2,4,1.8,2.05,0
+2025-01-15,NHL,Washington Capitals,Anaheim Ducks,3,0,1.37,3.2,1
+2025-01-15,NHL,Toronto Maple Leafs,Dallas Stars,1,4,2.05,1.8,0
+2025-01-15,NHL,Winnipeg Jets,Vancouver Canucks,6,1,1.61,2.4,1
+2025-01-15,NHL,St. Louis Blues,Calgary Flames,2,1,1.56,2.5,1
+2025-01-15,NHL,Utah Mammoth,Montréal Canadiens,3,5,1.67,2.25,0
+2025-01-15,NHL,Nashville Predators,Vegas Golden Knights,5,3,2.15,1.74,1
+2025-01-15,NHL,Buffalo Sabres,Carolina Hurricanes,4,2,2.6,1.53,1
+2025-01-15,NHL,Minnesota Wild,Edmonton Oilers,3,5,2.85,1.44,0
+2025-01-16,NHL,Buffalo Sabres,Carolina Hurricanes,4,2,2.6,1.53,1
+2025-01-16,NHL,Minnesota Wild,Edmonton Oilers,3,5,2.85,1.44,0
+2025-01-16,NHL,New York Islanders,Philadelphia Flyers,3,5,1.71,2.2,0
+2025-01-16,NHL,Dallas Stars,Montréal Canadiens,1,3,1.46,2.8,0
+2025-01-16,NHL,Florida Panthers,Detroit Red Wings,2,5,1.37,3.2,0
+2025-01-16,NHL,Winnipeg Jets,Seattle Kraken,2,1,1.46,2.8,1
+2025-01-16,NHL,St. Louis Blues,Calgary Flames,4,1,1.74,2.15,1
+2025-01-16,NHL,Columbus Blue Jackets,San Jose Sharks,4,1,1.54,2.55,1
+2025-01-16,NHL,Utah Mammoth,New York Rangers,3,5,2.0,1.83,0
+2025-01-16,NHL,Colorado Avalanche,Edmonton Oilers,3,4,1.83,2.0,0
+2025-01-16,NHL,Vancouver Canucks,Los Angeles Kings,1,5,1.95,1.87,0
+2025-01-17,NHL,Columbus Blue Jackets,San Jose Sharks,4,1,1.54,2.55,1
+2025-01-17,NHL,New York Islanders,Philadelphia Flyers,3,5,1.71,2.2,0
+2025-01-17,NHL,Florida Panthers,Detroit Red Wings,2,5,1.37,3.2,0
+2025-01-17,NHL,Dallas Stars,Montréal Canadiens,1,3,1.46,2.8,0
+2025-01-17,NHL,St. Louis Blues,Calgary Flames,4,1,1.74,2.15,1
+2025-01-17,NHL,Winnipeg Jets,Seattle Kraken,2,1,1.46,2.8,1
+2025-01-17,NHL,Colorado Avalanche,Edmonton Oilers,3,4,1.83,2.0,0
+2025-01-17,NHL,Utah Mammoth,New York Rangers,3,5,2.0,1.83,0
+2025-01-17,NHL,Vancouver Canucks,Los Angeles Kings,1,5,1.95,1.87,0
+2025-01-17,NHL,Buffalo Sabres,Pittsburgh Penguins,2,5,1.87,1.95,0
+2025-01-17,NHL,Carolina Hurricanes,Vegas Golden Knights,3,2,1.67,2.25,1
+2025-01-18,NHL,Buffalo Sabres,Pittsburgh Penguins,2,5,1.87,1.95,0
+2025-01-18,NHL,Carolina Hurricanes,Vegas Golden Knights,3,2,1.67,2.25,1
+2025-01-18,NHL,New Jersey Devils,Philadelphia Flyers,1,3,1.54,2.55,0
+2025-01-18,NHL,Colorado Avalanche,Dallas Stars,6,3,1.77,2.1,1
+2025-01-18,NHL,Chicago Blackhawks,Vegas Golden Knights,5,3,3.05,1.4,1
+2025-01-18,NHL,Utah Mammoth,St. Louis Blues,4,2,1.87,1.95,1
+2025-01-18,NHL,Tampa Bay Lightning,Detroit Red Wings,5,1,1.5,2.65,1
+2025-01-18,NHL,Washington Capitals,Pittsburgh Penguins,4,1,1.53,2.6,1
+2025-01-18,NHL,Nashville Predators,Minnesota Wild,6,2,1.53,2.6,1
+2025-01-18,NHL,Florida Panthers,Anaheim Ducks,3,0,1.24,4.25,1
+2025-01-18,NHL,Vancouver Canucks,Edmonton Oilers,3,2,2.45,1.59,1
+2025-01-18,NHL,Winnipeg Jets,Calgary Flames,1,3,1.61,2.4,0
+2025-01-18,NHL,Montréal Canadiens,Toronto Maple Leafs,3,7,2.2,1.71,0
+2025-01-18,NHL,New York Islanders,San Jose Sharks,4,1,1.44,2.85,1
+2025-01-18,NHL,Seattle Kraken,Los Angeles Kings,4,2,2.3,1.65,1
+2025-01-19,NHL,Montréal Canadiens,Toronto Maple Leafs,3,7,2.2,1.71,0
+2025-01-19,NHL,Florida Panthers,Anaheim Ducks,3,0,1.24,4.25,1
+2025-01-19,NHL,Colorado Avalanche,Dallas Stars,6,3,1.77,2.1,1
+2025-01-19,NHL,New Jersey Devils,Philadelphia Flyers,1,3,1.54,2.55,0
+2025-01-19,NHL,Washington Capitals,Pittsburgh Penguins,4,1,1.53,2.6,1
+2025-01-19,NHL,Tampa Bay Lightning,Detroit Red Wings,5,1,1.5,2.65,1
+2025-01-19,NHL,Winnipeg Jets,Calgary Flames,1,3,1.61,2.4,0
+2025-01-19,NHL,New York Islanders,San Jose Sharks,4,1,1.44,2.85,1
+2025-01-19,NHL,New Jersey Devils,Ottawa Senators,1,2,1.53,2.6,0
+2025-01-19,NHL,Dallas Stars,Detroit Red Wings,4,1,1.42,2.95,1
+2025-01-19,NHL,Seattle Kraken,Los Angeles Kings,4,2,2.3,1.65,1
+2025-01-19,NHL,Nashville Predators,Minnesota Wild,6,2,1.53,2.6,1
+2025-01-19,NHL,Utah Mammoth,St. Louis Blues,4,2,1.87,1.95,1
+2025-01-19,NHL,Chicago Blackhawks,Vegas Golden Knights,5,3,3.05,1.4,1
+2025-01-19,NHL,Vancouver Canucks,Edmonton Oilers,3,2,2.45,1.59,1
+2025-01-20,NHL,Boston Bruins,San Jose Sharks,6,3,1.46,2.8,1
+2025-01-20,NHL,New York Islanders,Columbus Blue Jackets,3,1,1.54,2.55,1
+2025-01-20,NHL,Toronto Maple Leafs,Tampa Bay Lightning,5,3,1.71,2.2,1
+2025-01-20,NHL,Seattle Kraken,Buffalo Sabres,6,4,1.8,2.05,1
+2025-01-20,NHL,Colorado Avalanche,Minnesota Wild,1,3,1.4,3.05,0
+2025-01-20,NHL,Utah Mammoth,Winnipeg Jets,5,2,2.5,1.56,1
+2025-01-20,NHL,Los Angeles Kings,Pittsburgh Penguins,1,5,1.53,2.6,0
+2025-01-20,NHL,Dallas Stars,Detroit Red Wings,4,1,1.42,2.95,1
+2025-01-20,NHL,New Jersey Devils,Ottawa Senators,1,2,1.53,2.6,0
+2025-01-21,NHL,Colorado Avalanche,Minnesota Wild,1,3,1.4,3.05,0
+2025-01-21,NHL,New York Islanders,Columbus Blue Jackets,3,1,1.54,2.55,1
+2025-01-21,NHL,Boston Bruins,San Jose Sharks,6,3,1.46,2.8,1
+2025-01-21,NHL,Los Angeles Kings,Pittsburgh Penguins,1,5,1.53,2.6,0
+2025-01-21,NHL,Seattle Kraken,Buffalo Sabres,6,4,1.8,2.05,1
+2025-01-21,NHL,Toronto Maple Leafs,Tampa Bay Lightning,5,3,1.71,2.2,1
+2025-01-21,NHL,Utah Mammoth,Winnipeg Jets,5,2,2.5,1.56,1
+2025-01-21,NHL,New York Rangers,Ottawa Senators,5,0,1.77,2.05,1
+2025-01-21,NHL,Montréal Canadiens,Tampa Bay Lightning,3,2,2.2,1.68,1
+2025-01-21,NHL,Dallas Stars,Carolina Hurricanes,1,2,1.8,2.05,0
+2025-01-21,NHL,Anaheim Ducks,Florida Panthers,2,5,3.25,1.36,0
+2025-01-21,NHL,Nashville Predators,San Jose Sharks,7,5,1.25,4.2,1
+2025-01-21,NHL,Edmonton Oilers,Washington Capitals,2,3,1.65,2.3,0
+2025-01-21,NHL,Vancouver Canucks,Buffalo Sabres,2,3,1.53,2.6,0
+2025-01-22,NHL,New York Rangers,Ottawa Senators,5,0,1.77,2.05,1
+2025-01-22,NHL,Nashville Predators,San Jose Sharks,7,5,1.25,4.2,1
+2025-01-22,NHL,Dallas Stars,Carolina Hurricanes,1,2,1.8,2.05,0
+2025-01-22,NHL,Montréal Canadiens,Tampa Bay Lightning,3,2,2.2,1.68,1
+2025-01-22,NHL,Edmonton Oilers,Washington Capitals,2,3,1.65,2.3,0
+2025-01-22,NHL,Anaheim Ducks,Florida Panthers,2,5,3.25,1.36,0
+2025-01-22,NHL,Vancouver Canucks,Buffalo Sabres,2,3,1.53,2.6,0
+2025-01-22,NHL,Los Angeles Kings,Florida Panthers,2,1,1.77,2.1,1
+2025-01-22,NHL,Toronto Maple Leafs,Columbus Blue Jackets,1,5,1.49,2.7,0
+2025-01-22,NHL,New Jersey Devils,Boston Bruins,5,1,1.46,2.8,1
+2025-01-23,NHL,Los Angeles Kings,Florida Panthers,2,1,1.77,2.1,1
+2025-01-23,NHL,Toronto Maple Leafs,Columbus Blue Jackets,1,5,1.49,2.7,0
+2025-01-23,NHL,New Jersey Devils,Boston Bruins,5,1,1.46,2.8,1
+2025-01-23,NHL,New York Rangers,Philadelphia Flyers,6,1,1.67,2.25,1
+2025-01-23,NHL,San Jose Sharks,Nashville Predators,5,6,2.8,1.46,0
+2025-01-23,NHL,Carolina Hurricanes,Columbus Blue Jackets,7,4,1.25,4.2,1
+2025-01-23,NHL,Seattle Kraken,Washington Capitals,0,3,2.2,1.71,0
+2025-01-23,NHL,St. Louis Blues,Vegas Golden Knights,2,4,2.2,1.71,0
+2025-01-23,NHL,Anaheim Ducks,Pittsburgh Penguins,5,1,2.4,1.61,1
+2025-01-23,NHL,Edmonton Oilers,Vancouver Canucks,6,2,1.56,2.5,1
+2025-01-23,NHL,Detroit Red Wings,Montréal Canadiens,4,2,1.83,2.0,1
+2025-01-23,NHL,Minnesota Wild,Utah Mammoth,0,4,1.65,2.3,0
+2025-01-23,NHL,Boston Bruins,Ottawa Senators,2,0,2.4,1.61,1
+2025-01-23,NHL,Calgary Flames,Buffalo Sabres,5,2,1.71,2.2,1
+2025-01-24,NHL,Boston Bruins,Ottawa Senators,2,0,2.4,1.61,1
+2025-01-24,NHL,Carolina Hurricanes,Columbus Blue Jackets,7,4,1.25,4.2,1
+2025-01-24,NHL,Minnesota Wild,Utah Mammoth,0,4,1.65,2.3,0
+2025-01-24,NHL,St. Louis Blues,Vegas Golden Knights,2,4,2.2,1.71,0
+2025-01-24,NHL,New York Rangers,Philadelphia Flyers,6,1,1.67,2.25,1
+2025-01-24,NHL,Detroit Red Wings,Montréal Canadiens,4,2,1.83,2.0,1
+2025-01-24,NHL,Calgary Flames,Buffalo Sabres,5,2,1.71,2.2,1
+2025-01-24,NHL,Edmonton Oilers,Vancouver Canucks,6,2,1.56,2.5,1
+2025-01-24,NHL,Anaheim Ducks,Pittsburgh Penguins,5,1,2.4,1.61,1
+2025-01-24,NHL,Seattle Kraken,Washington Capitals,0,3,2.2,1.71,0
+2025-01-24,NHL,San Jose Sharks,Nashville Predators,5,6,2.8,1.46,0
+2025-01-24,NHL,Dallas Stars,Vegas Golden Knights,4,3,1.67,2.25,1
+2025-01-24,NHL,Winnipeg Jets,Utah Mammoth,5,2,1.44,2.9,1
+2025-01-24,NHL,New York Islanders,Philadelphia Flyers,3,1,1.63,2.35,1
+2025-01-25,NHL,Dallas Stars,Vegas Golden Knights,4,3,1.67,2.25,1
+2025-01-25,NHL,New York Islanders,Philadelphia Flyers,3,1,1.63,2.35,1
+2025-01-25,NHL,Boston Bruins,Colorado Avalanche,3,1,2.2,1.71,1
+2025-01-25,NHL,Winnipeg Jets,Utah Mammoth,5,2,1.44,2.9,1
+2025-01-25,NHL,Detroit Red Wings,Tampa Bay Lightning,2,0,2.1,1.77,1
+2025-01-25,NHL,Minnesota Wild,Calgary Flames,4,5,1.67,2.25,0
+2025-01-25,NHL,Ottawa Senators,Toronto Maple Leafs,2,1,1.91,1.91,1
+2025-01-25,NHL,Seattle Kraken,Pittsburgh Penguins,4,1,1.87,1.95,1
+2025-01-25,NHL,Edmonton Oilers,Buffalo Sabres,3,2,1.39,3.1,1
+2025-01-25,NHL,St. Louis Blues,Dallas Stars,0,2,2.15,1.74,0
+2025-01-25,NHL,Anaheim Ducks,Nashville Predators,5,2,2.6,1.53,1
+2025-01-25,NHL,Vancouver Canucks,Washington Capitals,2,1,2.1,1.77,1
+2025-01-25,NHL,San Jose Sharks,Florida Panthers,2,7,3.6,1.31,0
+2025-01-26,NHL,Edmonton Oilers,Buffalo Sabres,3,2,1.39,3.1,1
+2025-01-26,NHL,New York Rangers,Colorado Avalanche,4,5,1.74,2.15,0
+2025-01-26,NHL,Boston Bruins,Colorado Avalanche,3,1,2.2,1.71,1
+2025-01-26,NHL,Ottawa Senators,Utah Mammoth,3,1,1.83,2.0,1
+2025-01-26,NHL,Seattle Kraken,Pittsburgh Penguins,4,1,1.87,1.95,1
+2025-01-26,NHL,Minnesota Wild,Calgary Flames,4,5,1.67,2.25,0
+2025-01-26,NHL,Ottawa Senators,Toronto Maple Leafs,2,1,1.91,1.91,1
+2025-01-26,NHL,Winnipeg Jets,Calgary Flames,5,2,1.4,3.05,1
+2025-01-26,NHL,Detroit Red Wings,Tampa Bay Lightning,2,0,2.1,1.77,1
+2025-01-26,NHL,Anaheim Ducks,Nashville Predators,5,2,2.6,1.53,1
+2025-01-26,NHL,Vancouver Canucks,Washington Capitals,2,1,2.1,1.77,1
+2025-01-26,NHL,Chicago Blackhawks,Minnesota Wild,2,4,2.65,1.5,0
+2025-01-26,NHL,Vegas Golden Knights,Florida Panthers,4,1,1.74,2.15,1
+2025-01-26,NHL,San Jose Sharks,Florida Panthers,2,7,3.6,1.31,0
+2025-01-26,NHL,St. Louis Blues,Dallas Stars,0,2,2.15,1.74,0
+2025-01-27,NHL,Ottawa Senators,Utah Mammoth,3,1,1.83,2.0,1
+2025-01-27,NHL,New York Rangers,Colorado Avalanche,4,5,1.74,2.15,0
+2025-01-27,NHL,Winnipeg Jets,Calgary Flames,5,2,1.4,3.05,1
+2025-01-27,NHL,Chicago Blackhawks,Minnesota Wild,2,4,2.65,1.5,0
+2025-01-27,NHL,Edmonton Oilers,Seattle Kraken,4,2,1.32,3.5,1
+2025-01-27,NHL,St. Louis Blues,Vancouver Canucks,2,5,1.77,2.1,0
+2025-01-27,NHL,San Jose Sharks,Pittsburgh Penguins,2,1,2.5,1.56,1
+2025-01-27,NHL,Philadelphia Flyers,New Jersey Devils,4,2,2.3,1.65,1
+2025-01-27,NHL,Detroit Red Wings,Los Angeles Kings,5,2,2.25,1.67,1
+2025-01-27,NHL,Vegas Golden Knights,Florida Panthers,4,1,1.74,2.15,1
+2025-01-28,NHL,San Jose Sharks,Pittsburgh Penguins,2,1,2.5,1.56,1
+2025-01-28,NHL,Edmonton Oilers,Seattle Kraken,4,2,1.32,3.5,1
+2025-01-28,NHL,St. Louis Blues,Vancouver Canucks,2,5,1.77,2.1,0
+2025-01-28,NHL,Philadelphia Flyers,New Jersey Devils,4,2,2.3,1.65,1
+2025-01-28,NHL,Detroit Red Wings,Los Angeles Kings,5,2,2.25,1.67,1
+2025-01-28,NHL,Buffalo Sabres,Boston Bruins,7,2,1.91,1.91,1
+2025-01-28,NHL,New York Rangers,Carolina Hurricanes,0,4,2.15,1.74,0
+2025-01-28,NHL,Tampa Bay Lightning,Chicago Blackhawks,1,4,1.24,4.25,0
+2025-01-28,NHL,Calgary Flames,Washington Capitals,1,3,2.25,1.67,0
+2025-01-28,NHL,New York Islanders,Colorado Avalanche,5,2,2.15,1.74,1
+2025-01-28,NHL,Seattle Kraken,Anaheim Ducks,4,6,1.8,2.05,0
+2025-01-28,NHL,Montréal Canadiens,Winnipeg Jets,1,4,2.45,1.59,0
+2025-01-29,NHL,Montréal Canadiens,Winnipeg Jets,1,4,2.45,1.59,0
+2025-01-29,NHL,Tampa Bay Lightning,Chicago Blackhawks,1,4,1.24,4.25,0
+2025-01-29,NHL,Buffalo Sabres,Boston Bruins,7,2,1.91,1.91,1
+2025-01-29,NHL,New York Rangers,Carolina Hurricanes,0,4,2.15,1.74,0
+2025-01-29,NHL,New York Islanders,Colorado Avalanche,5,2,2.15,1.74,1
+2025-01-29,NHL,Seattle Kraken,Anaheim Ducks,4,6,1.8,2.05,0
+2025-01-29,NHL,Florida Panthers,Los Angeles Kings,3,0,1.67,2.25,1
+2025-01-29,NHL,New Jersey Devils,Philadelphia Flyers,5,0,1.54,2.55,1
+2025-01-29,NHL,Nashville Predators,Vancouver Canucks,1,3,1.71,2.2,0
+2025-01-29,NHL,Toronto Maple Leafs,Minnesota Wild,1,3,1.63,2.35,0
+2025-01-29,NHL,Calgary Flames,Washington Capitals,1,3,2.25,1.67,0
+2025-01-30,NHL,New Jersey Devils,Philadelphia Flyers,5,0,1.54,2.55,1
+2025-01-30,NHL,Florida Panthers,Los Angeles Kings,3,0,1.67,2.25,1
+2025-01-30,NHL,Nashville Predators,Vancouver Canucks,1,3,1.71,2.2,0
+2025-01-30,NHL,Toronto Maple Leafs,Minnesota Wild,1,3,1.63,2.35,0
+2025-01-30,NHL,Carolina Hurricanes,Chicago Blackhawks,3,2,1.22,4.5,1
+2025-01-30,NHL,Montréal Canadiens,Minnesota Wild,0,4,1.67,2.25,0
+2025-01-30,NHL,Boston Bruins,Winnipeg Jets,2,6,2.35,1.63,0
+2025-01-30,NHL,Philadelphia Flyers,New York Islanders,0,3,2.25,1.67,0
+2025-01-30,NHL,Seattle Kraken,San Jose Sharks,6,2,1.53,2.6,1
+2025-01-30,NHL,Tampa Bay Lightning,Los Angeles Kings,3,0,1.65,2.3,1
+2025-01-30,NHL,Calgary Flames,Anaheim Ducks,4,1,1.54,2.55,1
+2025-01-31,NHL,Montréal Canadiens,Minnesota Wild,0,4,1.67,2.25,0
+2025-01-31,NHL,Boston Bruins,Winnipeg Jets,2,6,2.35,1.63,0
+2025-01-31,NHL,Carolina Hurricanes,Chicago Blackhawks,3,2,1.22,4.5,1
+2025-01-31,NHL,Philadelphia Flyers,New York Islanders,0,3,2.25,1.67,0
+2025-01-31,NHL,Tampa Bay Lightning,Los Angeles Kings,3,0,1.65,2.3,1
+2025-01-31,NHL,Calgary Flames,Anaheim Ducks,4,1,1.54,2.55,1
+2025-01-31,NHL,Seattle Kraken,San Jose Sharks,6,2,1.53,2.6,1
+2025-01-31,NHL,Dallas Stars,Vancouver Canucks,5,3,1.61,2.4,1
+2025-01-31,NHL,Buffalo Sabres,Nashville Predators,4,3,2.1,1.77,1
+2025-01-31,NHL,Colorado Avalanche,St. Louis Blues,5,0,1.54,2.55,1
+2025-02-01,NHL,Colorado Avalanche,St. Louis Blues,5,0,1.54,2.55,1
+2025-02-01,NHL,Florida Panthers,Chicago Blackhawks,5,1,1.22,4.5,1
+2025-02-01,NHL,Buffalo Sabres,Nashville Predators,4,3,2.1,1.77,1
+2025-02-01,NHL,Dallas Stars,Vancouver Canucks,5,3,1.61,2.4,1
+2025-02-01,NHL,Boston Bruins,New York Rangers,6,3,2.2,1.71,1
+2025-02-01,NHL,Ottawa Senators,Minnesota Wild,6,0,1.71,2.2,1
+2025-02-01,NHL,Edmonton Oilers,Toronto Maple Leafs,3,4,1.65,2.3,0
+2025-02-01,NHL,Calgary Flames,Detroit Red Wings,1,3,1.87,1.95,0
+2025-02-01,NHL,Carolina Hurricanes,Los Angeles Kings,2,4,1.61,2.4,0
+2025-02-01,NHL,Pittsburgh Penguins,Nashville Predators,3,0,2.0,1.83,1
+2025-02-02,NHL,Boston Bruins,New York Rangers,6,3,2.2,1.71,1
+2025-02-02,NHL,Florida Panthers,Chicago Blackhawks,5,1,1.22,4.5,1
+2025-02-02,NHL,Edmonton Oilers,Toronto Maple Leafs,3,4,1.65,2.3,0
+2025-02-02,NHL,Carolina Hurricanes,Los Angeles Kings,2,4,1.61,2.4,0
+2025-02-02,NHL,Buffalo Sabres,New Jersey Devils,4,3,2.15,1.74,1
+2025-02-02,NHL,Florida Panthers,New York Islanders,6,3,1.37,3.2,1
+2025-02-02,NHL,Anaheim Ducks,Montréal Canadiens,3,2,2.15,1.74,1
+2025-02-02,NHL,New York Rangers,Vegas Golden Knights,4,2,2.2,1.71,1
+2025-02-02,NHL,Dallas Stars,Columbus Blue Jackets,5,3,1.39,3.1,1
+2025-02-02,NHL,Seattle Kraken,Calgary Flames,2,3,1.59,2.45,0
+2025-02-02,NHL,Colorado Avalanche,Philadelphia Flyers,2,0,1.48,2.75,1
+2025-02-02,NHL,Utah Mammoth,St. Louis Blues,1,2,1.83,2.0,0
+2025-02-02,NHL,Calgary Flames,Detroit Red Wings,1,3,1.87,1.95,0
+2025-02-02,NHL,Ottawa Senators,Minnesota Wild,6,0,1.71,2.2,1
+2025-02-02,NHL,Pittsburgh Penguins,Nashville Predators,3,0,2.0,1.83,1
+2025-02-03,NHL,Buffalo Sabres,New Jersey Devils,4,3,2.15,1.74,1
+2025-02-03,NHL,New York Rangers,Vegas Golden Knights,4,2,2.2,1.71,1
+2025-02-03,NHL,Florida Panthers,New York Islanders,6,3,1.37,3.2,1
+2025-02-03,NHL,Colorado Avalanche,Philadelphia Flyers,2,0,1.48,2.75,1
+2025-02-03,NHL,Dallas Stars,Columbus Blue Jackets,5,3,1.39,3.1,1
+2025-02-03,NHL,Anaheim Ducks,Montréal Canadiens,3,2,2.15,1.74,1
+2025-02-03,NHL,Seattle Kraken,Calgary Flames,2,3,1.59,2.45,0
+2025-02-03,NHL,Utah Mammoth,St. Louis Blues,1,2,1.83,2.0,0
+2025-02-03,NHL,Nashville Predators,Ottawa Senators,2,5,1.71,2.15,0
+2025-02-04,NHL,Nashville Predators,Ottawa Senators,2,5,1.71,2.15,0
+2025-02-04,NHL,Boston Bruins,Minnesota Wild,3,0,1.74,2.15,1
+2025-02-04,NHL,Buffalo Sabres,Columbus Blue Jackets,3,2,1.56,2.5,1
+2025-02-04,NHL,Tampa Bay Lightning,Ottawa Senators,4,3,1.54,2.55,1
+2025-02-04,NHL,New York Islanders,Vegas Golden Knights,2,1,2.25,1.67,1
+2025-02-04,NHL,Washington Capitals,Florida Panthers,6,3,2.1,1.77,1
+2025-02-04,NHL,Winnipeg Jets,Carolina Hurricanes,3,0,2.3,1.65,1
+2025-02-04,NHL,Vancouver Canucks,Colorado Avalanche,3,0,2.3,1.65,1
+2025-02-04,NHL,Calgary Flames,Toronto Maple Leafs,3,6,2.2,1.71,0
+2025-02-04,NHL,Anaheim Ducks,Dallas Stars,2,1,3.1,1.39,1
+2025-02-04,NHL,San Jose Sharks,Montréal Canadiens,3,4,2.4,1.61,0
+2025-02-05,NHL,Buffalo Sabres,Columbus Blue Jackets,3,2,1.56,2.5,1
+2025-02-05,NHL,Washington Capitals,Florida Panthers,6,3,2.1,1.77,1
+2025-02-05,NHL,Tampa Bay Lightning,Ottawa Senators,4,3,1.54,2.55,1
+2025-02-05,NHL,New York Islanders,Vegas Golden Knights,2,1,2.25,1.67,1
+2025-02-05,NHL,Winnipeg Jets,Carolina Hurricanes,3,0,2.3,1.65,1
+2025-02-05,NHL,Calgary Flames,Toronto Maple Leafs,3,6,2.2,1.71,0
+2025-02-05,NHL,Vancouver Canucks,Colorado Avalanche,3,0,2.3,1.65,1
+2025-02-05,NHL,San Jose Sharks,Montréal Canadiens,3,4,2.4,1.61,0
+2025-02-05,NHL,Boston Bruins,Minnesota Wild,3,0,1.74,2.15,1
+2025-02-05,NHL,Anaheim Ducks,Dallas Stars,2,1,3.1,1.39,1
+2025-02-05,NHL,New York Rangers,Boston Bruins,3,2,1.46,2.8,1
+2025-02-05,NHL,Los Angeles Kings,Montréal Canadiens,6,3,1.4,3.05,1
+2025-02-06,NHL,New York Rangers,Boston Bruins,3,2,1.46,2.8,1
+2025-02-06,NHL,Minnesota Wild,Carolina Hurricanes,2,1,2.6,1.53,1
+2025-02-06,NHL,Tampa Bay Lightning,Ottawa Senators,5,1,1.59,2.45,1
+2025-02-06,NHL,New Jersey Devils,Vegas Golden Knights,1,3,1.95,1.87,0
+2025-02-06,NHL,Los Angeles Kings,Montréal Canadiens,6,3,1.4,3.05,1
+2025-02-06,NHL,Philadelphia Flyers,Washington Capitals,3,4,2.45,1.59,0
+2025-02-06,NHL,Seattle Kraken,Toronto Maple Leafs,1,3,2.4,1.61,0
+2025-02-06,NHL,St. Louis Blues,Florida Panthers,2,3,2.45,1.59,0
+2025-02-06,NHL,Calgary Flames,Colorado Avalanche,2,4,2.3,1.65,0
+2025-02-07,NHL,Minnesota Wild,Carolina Hurricanes,2,1,2.6,1.53,1
+2025-02-07,NHL,New Jersey Devils,Vegas Golden Knights,1,3,1.95,1.87,0
+2025-02-07,NHL,Philadelphia Flyers,Washington Capitals,3,4,2.45,1.59,0
+2025-02-07,NHL,Tampa Bay Lightning,Ottawa Senators,5,1,1.59,2.45,1
+2025-02-07,NHL,St. Louis Blues,Florida Panthers,2,3,2.45,1.59,0
+2025-02-07,NHL,Calgary Flames,Colorado Avalanche,2,4,2.3,1.65,0
+2025-02-07,NHL,Seattle Kraken,Toronto Maple Leafs,1,3,2.4,1.61,0
+2025-02-07,NHL,Winnipeg Jets,New York Islanders,4,3,1.5,2.65,1
+2025-02-07,NHL,Edmonton Oilers,Colorado Avalanche,4,5,1.54,2.55,0
+2025-02-07,NHL,New York Rangers,Pittsburgh Penguins,2,3,1.46,2.8,0
+2025-02-07,NHL,Chicago Blackhawks,Nashville Predators,6,2,2.75,1.48,1
+2025-02-08,NHL,Winnipeg Jets,New York Islanders,4,3,1.5,2.65,1
+2025-02-08,NHL,Edmonton Oilers,Colorado Avalanche,4,5,1.54,2.55,0
+2025-02-08,NHL,New York Rangers,Pittsburgh Penguins,2,3,1.46,2.8,0
+2025-02-08,NHL,Chicago Blackhawks,Nashville Predators,6,2,2.75,1.48,1
+2025-02-08,NHL,Detroit Red Wings,Tampa Bay Lightning,3,6,2.25,1.67,0
+2025-02-08,NHL,Carolina Hurricanes,Utah Mammoth,7,3,1.48,2.75,1
+2025-02-08,NHL,Montréal Canadiens,New Jersey Devils,0,4,2.3,1.65,0
+2025-02-08,NHL,Boston Bruins,Vegas Golden Knights,3,4,2.35,1.59,0
+2025-02-08,NHL,Columbus Blue Jackets,New York Rangers,3,4,2.25,1.67,0
+2025-02-08,NHL,Florida Panthers,Ottawa Senators,5,1,1.54,2.55,1
+2025-02-08,NHL,Philadelphia Flyers,Pittsburgh Penguins,3,2,1.61,2.4,1
+2025-02-08,NHL,San Jose Sharks,Dallas Stars,3,8,2.95,1.42,0
+2025-02-08,NHL,Nashville Predators,Buffalo Sabres,6,4,1.83,2.0,1
+2025-02-08,NHL,Vancouver Canucks,Toronto Maple Leafs,2,1,2.25,1.67,1
+2025-02-08,NHL,Minnesota Wild,New York Islanders,6,3,1.65,2.3,1
+2025-02-09,NHL,Carolina Hurricanes,Utah Mammoth,7,3,1.48,2.75,1
+2025-02-09,NHL,Florida Panthers,Ottawa Senators,5,1,1.54,2.55,1
+2025-02-09,NHL,Boston Bruins,Vegas Golden Knights,3,4,2.35,1.59,0
+2025-02-09,NHL,Detroit Red Wings,Tampa Bay Lightning,3,6,2.25,1.67,0
+2025-02-09,NHL,Columbus Blue Jackets,New York Rangers,3,4,2.25,1.67,0
+2025-02-09,NHL,Philadelphia Flyers,Pittsburgh Penguins,3,2,1.61,2.4,1
+2025-02-09,NHL,Montréal Canadiens,New Jersey Devils,0,4,2.3,1.65,0
+2025-02-09,NHL,San Jose Sharks,Dallas Stars,3,8,2.95,1.42,0
+2025-02-09,NHL,Montréal Canadiens,Tampa Bay Lightning,3,5,2.45,1.59,0
+2025-02-09,NHL,Nashville Predators,Buffalo Sabres,6,4,1.83,2.0,1
+2025-02-09,NHL,Minnesota Wild,New York Islanders,6,3,1.65,2.3,1
+2025-02-09,NHL,Vancouver Canucks,Toronto Maple Leafs,2,1,2.25,1.67,1
+2025-02-10,NHL,Montréal Canadiens,Tampa Bay Lightning,3,5,2.45,1.59,0
+2025-02-22,NHL,Philadelphia Flyers,Edmonton Oilers,6,3,2.65,1.5,1
+2025-02-22,NHL,Pittsburgh Penguins,Washington Capitals,3,8,2.15,1.74,0
+2025-02-22,NHL,Buffalo Sabres,New York Rangers,8,2,2.05,1.8,1
+2025-02-22,NHL,Florida Panthers,Seattle Kraken,1,2,1.41,3.0,0
+2025-02-22,NHL,Ottawa Senators,Montréal Canadiens,2,5,1.65,2.3,0
+2025-02-22,NHL,Nashville Predators,Colorado Avalanche,2,1,2.2,1.71,1
+2025-02-22,NHL,Columbus Blue Jackets,Chicago Blackhawks,5,1,1.61,2.4,1
+2025-02-22,NHL,Toronto Maple Leafs,Carolina Hurricanes,6,3,2.05,1.8,1
+2025-02-22,NHL,New Jersey Devils,Dallas Stars,2,4,1.83,2.0,0
+2025-02-22,NHL,Los Angeles Kings,Utah Mammoth,5,3,1.59,2.45,1
+2025-02-22,NHL,Vegas Golden Knights,Vancouver Canucks,3,1,1.44,2.85,1
+2025-02-23,NHL,Pittsburgh Penguins,Washington Capitals,3,8,2.15,1.74,0
+2025-02-23,NHL,Buffalo Sabres,New York Rangers,8,2,2.05,1.8,1
+2025-02-23,NHL,Florida Panthers,Seattle Kraken,1,2,1.41,3.0,0
+2025-02-23,NHL,New Jersey Devils,Dallas Stars,2,4,1.83,2.0,0
+2025-02-23,NHL,Nashville Predators,Colorado Avalanche,2,1,2.2,1.71,1
+2025-02-23,NHL,Toronto Maple Leafs,Carolina Hurricanes,6,3,2.05,1.8,1
+2025-02-23,NHL,Philadelphia Flyers,Edmonton Oilers,6,3,2.65,1.5,1
+2025-02-23,NHL,Ottawa Senators,Montréal Canadiens,2,5,1.65,2.3,0
+2025-02-23,NHL,Los Angeles Kings,Utah Mammoth,5,3,1.59,2.45,1
+2025-02-23,NHL,Vegas Golden Knights,Vancouver Canucks,3,1,1.44,2.85,1
+2025-02-23,NHL,Washington Capitals,Edmonton Oilers,7,3,2.15,1.74,1
+2025-02-23,NHL,Pittsburgh Penguins,New York Rangers,3,5,2.25,1.67,0
+2025-02-23,NHL,Nashville Predators,New Jersey Devils,0,5,2.05,1.8,0
+2025-02-23,NHL,New York Islanders,Dallas Stars,3,4,2.1,1.77,0
+2025-02-23,NHL,Chicago Blackhawks,Toronto Maple Leafs,2,5,3.2,1.37,0
+2025-02-23,NHL,Calgary Flames,San Jose Sharks,3,2,1.42,2.95,1
+2025-02-23,NHL,Tampa Bay Lightning,Seattle Kraken,4,1,1.36,3.25,1
+2025-02-23,NHL,St. Louis Blues,Colorado Avalanche,3,1,2.3,1.65,1
+2025-02-23,NHL,Utah Mammoth,Vancouver Canucks,2,1,1.61,2.4,1
+2025-02-23,NHL,Columbus Blue Jackets,Chicago Blackhawks,5,1,1.61,2.4,1
+2025-02-24,NHL,Tampa Bay Lightning,Seattle Kraken,4,1,1.36,3.25,1
+2025-02-24,NHL,Washington Capitals,Edmonton Oilers,7,3,2.15,1.74,1
+2025-02-24,NHL,Pittsburgh Penguins,New York Rangers,3,5,2.25,1.67,0
+2025-02-24,NHL,Nashville Predators,New Jersey Devils,0,5,2.05,1.8,0
+2025-02-24,NHL,Los Angeles Kings,Vegas Golden Knights,5,2,1.95,1.87,1
+2025-02-24,NHL,St. Louis Blues,Colorado Avalanche,3,1,2.3,1.65,1
+2025-02-24,NHL,Chicago Blackhawks,Toronto Maple Leafs,2,5,3.2,1.37,0
+2025-02-24,NHL,Calgary Flames,San Jose Sharks,3,2,1.42,2.95,1
+2025-02-24,NHL,New York Islanders,Dallas Stars,3,4,2.1,1.77,0
+2025-02-24,NHL,Utah Mammoth,Vancouver Canucks,2,1,1.61,2.4,1
+2025-02-25,NHL,Columbus Blue Jackets,Dallas Stars,6,4,2.6,1.53,1
+2025-02-25,NHL,Los Angeles Kings,Vegas Golden Knights,5,2,1.95,1.87,1
+2025-02-25,NHL,Buffalo Sabres,Anaheim Ducks,3,2,1.49,2.7,1
+2025-02-25,NHL,Philadelphia Flyers,Pittsburgh Penguins,6,1,1.83,2.0,1
+2025-02-25,NHL,Montréal Canadiens,Carolina Hurricanes,4,0,2.8,1.46,1
+2025-02-25,NHL,Washington Capitals,Calgary Flames,1,3,1.5,2.65,0
+2025-02-25,NHL,New York Islanders,New York Rangers,1,5,2.0,1.83,0
+2025-02-25,NHL,Minnesota Wild,Detroit Red Wings,2,3,1.87,1.95,0
+2025-02-25,NHL,Utah Mammoth,Chicago Blackhawks,2,1,1.36,3.25,1
+2025-02-25,NHL,Nashville Predators,Florida Panthers,1,4,2.35,1.63,0
+2025-02-25,NHL,St. Louis Blues,Seattle Kraken,7,2,1.71,2.2,1
+2025-02-25,NHL,Tampa Bay Lightning,Edmonton Oilers,4,1,1.87,1.95,1
+2025-02-26,NHL,Buffalo Sabres,Anaheim Ducks,3,2,1.49,2.7,1
+2025-02-26,NHL,Columbus Blue Jackets,Dallas Stars,6,4,2.6,1.53,1
+2025-02-26,NHL,Montréal Canadiens,Carolina Hurricanes,4,0,2.8,1.46,1
+2025-02-26,NHL,Philadelphia Flyers,Pittsburgh Penguins,6,1,1.83,2.0,1
+2025-02-26,NHL,Washington Capitals,Calgary Flames,1,3,1.5,2.65,0
+2025-02-26,NHL,Tampa Bay Lightning,Edmonton Oilers,4,1,1.87,1.95,1
+2025-02-26,NHL,New York Islanders,New York Rangers,1,5,2.0,1.83,0
+2025-02-26,NHL,Minnesota Wild,Detroit Red Wings,2,3,1.87,1.95,0
+2025-02-26,NHL,St. Louis Blues,Seattle Kraken,7,2,1.71,2.2,1
+2025-02-26,NHL,Ottawa Senators,Winnipeg Jets,1,4,2.3,1.65,0
+2025-02-26,NHL,Colorado Avalanche,New Jersey Devils,5,1,1.63,2.35,1
+2025-02-26,NHL,Nashville Predators,Florida Panthers,1,4,2.35,1.63,0
+2025-02-26,NHL,Utah Mammoth,Chicago Blackhawks,2,1,1.36,3.25,1
+2025-02-27,NHL,Nashville Predators,Winnipeg Jets,2,1,2.15,1.74,1
+2025-02-27,NHL,Boston Bruins,New York Islanders,1,2,1.95,1.87,0
+2025-02-27,NHL,Tampa Bay Lightning,Calgary Flames,3,0,1.48,2.75,1
+2025-02-27,NHL,Detroit Red Wings,Columbus Blue Jackets,2,5,1.67,2.25,0
+2025-02-27,NHL,Washington Capitals,St. Louis Blues,2,5,1.61,2.4,0
+2025-02-27,NHL,Florida Panthers,Edmonton Oilers,4,3,1.71,2.2,1
+2025-02-27,NHL,Carolina Hurricanes,Buffalo Sabres,5,2,1.46,2.8,1
+2025-02-27,NHL,Ottawa Senators,Winnipeg Jets,1,4,2.3,1.65,0
+2025-02-27,NHL,Colorado Avalanche,New Jersey Devils,5,1,1.63,2.35,1
+2025-02-27,NHL,Utah Mammoth,Minnesota Wild,6,1,1.56,2.5,1
+2025-02-27,NHL,Anaheim Ducks,Vancouver Canucks,5,2,2.05,1.8,1
+2025-02-27,NHL,Vegas Golden Knights,Chicago Blackhawks,7,5,1.25,4.2,1
+2025-02-28,NHL,Boston Bruins,New York Islanders,1,2,1.95,1.87,0
+2025-02-28,NHL,Carolina Hurricanes,Buffalo Sabres,5,2,1.46,2.8,1
+2025-02-28,NHL,Detroit Red Wings,Columbus Blue Jackets,2,5,1.67,2.25,0
+2025-02-28,NHL,Florida Panthers,Edmonton Oilers,4,3,1.71,2.2,1
+2025-02-28,NHL,Tampa Bay Lightning,Calgary Flames,3,0,1.48,2.75,1
+2025-02-28,NHL,Nashville Predators,Winnipeg Jets,2,1,2.15,1.74,1
+2025-02-28,NHL,Washington Capitals,St. Louis Blues,2,5,1.61,2.4,0
+2025-02-28,NHL,Utah Mammoth,Minnesota Wild,6,1,1.56,2.5,1
+2025-02-28,NHL,Vegas Golden Knights,Chicago Blackhawks,7,5,1.25,4.2,1
+2025-02-28,NHL,Anaheim Ducks,Vancouver Canucks,5,2,2.05,1.8,1
+2025-02-28,NHL,Colorado Avalanche,Minnesota Wild,5,2,1.29,3.7,1
+2025-02-28,NHL,Dallas Stars,Los Angeles Kings,6,2,1.77,2.1,1
+2025-02-28,NHL,New York Rangers,Toronto Maple Leafs,2,3,2.0,1.83,0
+2025-03-01,NHL,Dallas Stars,Los Angeles Kings,6,2,1.77,2.1,1
+2025-03-01,NHL,New York Rangers,Toronto Maple Leafs,2,3,2.0,1.83,0
+2025-03-01,NHL,Colorado Avalanche,Minnesota Wild,5,2,1.29,3.7,1
+2025-03-01,NHL,New York Islanders,Nashville Predators,7,4,1.67,2.25,1
+2025-03-01,NHL,Washington Capitals,Tampa Bay Lightning,1,3,2.0,1.83,0
+2025-03-01,NHL,Florida Panthers,Calgary Flames,3,0,1.37,3.2,1
+2025-03-01,NHL,Columbus Blue Jackets,Detroit Red Wings,5,3,2.0,1.83,1
+2025-03-01,NHL,Ottawa Senators,San Jose Sharks,5,3,1.33,3.45,1
+2025-03-01,NHL,Buffalo Sabres,Montréal Canadiens,2,4,1.67,2.25,0
+2025-03-01,NHL,Pittsburgh Penguins,Boston Bruins,2,3,1.77,2.1,0
+2025-03-01,NHL,Carolina Hurricanes,Edmonton Oilers,1,3,1.59,2.45,0
+2025-03-01,NHL,St. Louis Blues,Los Angeles Kings,4,1,1.83,2.0,1
+2025-03-01,NHL,Anaheim Ducks,Chicago Blackhawks,3,6,1.65,2.3,0
+2025-03-01,NHL,Seattle Kraken,Vancouver Canucks,6,3,1.91,1.91,1
+2025-03-01,NHL,Utah Mammoth,New Jersey Devils,1,3,1.91,1.91,0
+2025-03-02,NHL,New York Islanders,Nashville Predators,7,4,1.67,2.25,1
+2025-03-02,NHL,New York Rangers,Nashville Predators,4,0,1.56,2.5,1
+2025-03-02,NHL,Dallas Stars,St. Louis Blues,6,3,1.44,2.85,1
+2025-03-02,NHL,Washington Capitals,Tampa Bay Lightning,1,3,2.0,1.83,0
+2025-03-02,NHL,Buffalo Sabres,Montréal Canadiens,2,4,1.67,2.25,0
+2025-03-02,NHL,Pittsburgh Penguins,Boston Bruins,2,3,1.77,2.1,0
+2025-03-02,NHL,Minnesota Wild,Boston Bruins,1,0,1.65,2.3,1
+2025-03-02,NHL,Ottawa Senators,San Jose Sharks,5,3,1.33,3.45,1
+2025-03-02,NHL,Florida Panthers,Calgary Flames,3,0,1.37,3.2,1
+2025-03-02,NHL,Columbus Blue Jackets,Detroit Red Wings,5,3,2.0,1.83,1
+2025-03-02,NHL,Seattle Kraken,Vancouver Canucks,6,3,1.91,1.91,1
+2025-03-02,NHL,Utah Mammoth,New Jersey Devils,1,3,1.91,1.91,0
+2025-03-02,NHL,Anaheim Ducks,Chicago Blackhawks,3,6,1.65,2.3,0
+2025-03-02,NHL,St. Louis Blues,Los Angeles Kings,4,1,1.83,2.0,1
+2025-03-02,NHL,Carolina Hurricanes,Edmonton Oilers,1,3,1.59,2.45,0
+2025-03-02,NHL,Vegas Golden Knights,New Jersey Devils,2,0,1.63,2.35,1
+2025-03-03,NHL,Chicago Blackhawks,Los Angeles Kings,5,1,3.1,1.39,1
+2025-03-03,NHL,New York Rangers,New York Islanders,4,0,1.91,1.91,1
+2025-03-03,NHL,Florida Panthers,Tampa Bay Lightning,2,1,1.63,2.35,1
+2025-03-03,NHL,Minnesota Wild,Boston Bruins,1,0,1.65,2.3,1
+2025-03-03,NHL,Dallas Stars,St. Louis Blues,6,3,1.44,2.85,1
+2025-03-03,NHL,New York Rangers,Nashville Predators,4,0,1.56,2.5,1
+2025-03-03,NHL,Vegas Golden Knights,New Jersey Devils,2,0,1.63,2.35,1
+2025-03-04,NHL,New York Rangers,New York Islanders,4,0,1.91,1.91,1
+2025-03-04,NHL,Philadelphia Flyers,Calgary Flames,3,6,1.67,2.25,0
+2025-03-04,NHL,Colorado Avalanche,Pittsburgh Penguins,4,1,1.35,3.35,1
+2025-03-04,NHL,Florida Panthers,Tampa Bay Lightning,2,1,1.63,2.35,1
+2025-03-04,NHL,Detroit Red Wings,Carolina Hurricanes,1,2,2.7,1.49,0
+2025-03-04,NHL,Tampa Bay Lightning,Columbus Blue Jackets,6,2,1.67,2.25,1
+2025-03-04,NHL,New York Islanders,Winnipeg Jets,3,2,2.7,1.49,1
+2025-03-04,NHL,Buffalo Sabres,San Jose Sharks,2,6,1.44,2.85,0
+2025-03-04,NHL,Dallas Stars,New Jersey Devils,4,3,1.63,2.35,1
+2025-03-04,NHL,Chicago Blackhawks,Los Angeles Kings,5,1,3.1,1.39,1
+2025-03-04,NHL,Boston Bruins,Nashville Predators,3,6,1.74,2.15,0
+2025-03-04,NHL,Seattle Kraken,Minnesota Wild,3,4,1.83,2.0,0
+2025-03-04,NHL,Edmonton Oilers,Anaheim Ducks,2,6,1.28,3.8,0
+2025-03-05,NHL,Buffalo Sabres,San Jose Sharks,2,6,1.44,2.85,0
+2025-03-05,NHL,Philadelphia Flyers,Calgary Flames,3,6,1.67,2.25,0
+2025-03-05,NHL,Boston Bruins,Nashville Predators,3,6,1.74,2.15,0
+2025-03-05,NHL,New York Islanders,Winnipeg Jets,3,2,2.7,1.49,1
+2025-03-05,NHL,Tampa Bay Lightning,Columbus Blue Jackets,6,2,1.67,2.25,1
+2025-03-05,NHL,Colorado Avalanche,Pittsburgh Penguins,4,1,1.35,3.35,1
+2025-03-05,NHL,Detroit Red Wings,Carolina Hurricanes,1,2,2.7,1.49,0
+2025-03-05,NHL,Dallas Stars,New Jersey Devils,4,3,1.63,2.35,1
+2025-03-05,NHL,Edmonton Oilers,Anaheim Ducks,2,6,1.28,3.8,0
+2025-03-05,NHL,Seattle Kraken,Minnesota Wild,3,4,1.83,2.0,0
+2025-03-05,NHL,Vancouver Canucks,Anaheim Ducks,3,2,1.49,2.7,1
+2025-03-05,NHL,Vegas Golden Knights,Toronto Maple Leafs,5,2,1.63,2.35,1
+2025-03-06,NHL,Detroit Red Wings,Utah Mammoth,2,4,2.15,1.74,0
+2025-03-06,NHL,Philadelphia Flyers,Winnipeg Jets,1,4,2.25,1.67,0
+2025-03-06,NHL,Vegas Golden Knights,Toronto Maple Leafs,5,2,1.63,2.35,1
+2025-03-06,NHL,Carolina Hurricanes,Boston Bruins,3,2,1.3,3.65,1
+2025-03-06,NHL,Vancouver Canucks,Anaheim Ducks,3,2,1.49,2.7,1
+2025-03-06,NHL,Florida Panthers,Columbus Blue Jackets,3,0,1.32,3.55,1
+2025-03-06,NHL,Tampa Bay Lightning,Buffalo Sabres,6,5,1.39,3.1,1
+2025-03-06,NHL,Nashville Predators,Seattle Kraken,5,3,1.77,2.1,1
+2025-03-06,NHL,Colorado Avalanche,San Jose Sharks,7,3,1.22,4.5,1
+2025-03-07,NHL,Carolina Hurricanes,Boston Bruins,3,2,1.3,3.65,1
+2025-03-07,NHL,Detroit Red Wings,Utah Mammoth,2,4,2.15,1.74,0
+2025-03-07,NHL,Florida Panthers,Columbus Blue Jackets,3,0,1.32,3.55,1
+2025-03-07,NHL,Tampa Bay Lightning,Buffalo Sabres,6,5,1.39,3.1,1
+2025-03-07,NHL,Philadelphia Flyers,Winnipeg Jets,1,4,2.25,1.67,0
+2025-03-07,NHL,Nashville Predators,Seattle Kraken,5,3,1.77,2.1,1
+2025-03-07,NHL,Colorado Avalanche,San Jose Sharks,7,3,1.22,4.5,1
+2025-03-07,NHL,Washington Capitals,Detroit Red Wings,5,2,1.44,2.9,1
+2025-03-07,NHL,Anaheim Ducks,St. Louis Blues,3,4,2.45,1.59,0
+2025-03-07,NHL,New Jersey Devils,Winnipeg Jets,1,6,2.05,1.8,0
+2025-03-07,NHL,Vegas Golden Knights,Pittsburgh Penguins,4,0,1.42,2.95,1
+2025-03-07,NHL,Vancouver Canucks,Minnesota Wild,3,1,1.74,2.15,1
+2025-03-08,NHL,New Jersey Devils,Winnipeg Jets,1,6,2.05,1.8,0
+2025-03-08,NHL,Washington Capitals,Detroit Red Wings,5,2,1.44,2.9,1
+2025-03-08,NHL,Anaheim Ducks,St. Louis Blues,3,4,2.45,1.59,0
+2025-03-08,NHL,Florida Panthers,Buffalo Sabres,4,0,1.37,3.2,1
+2025-03-08,NHL,Philadelphia Flyers,Seattle Kraken,1,4,1.67,2.25,0
+2025-03-08,NHL,Calgary Flames,Montréal Canadiens,1,0,1.74,2.15,1
+2025-03-08,NHL,Vegas Golden Knights,Pittsburgh Penguins,4,0,1.42,2.95,1
+2025-03-08,NHL,Colorado Avalanche,Toronto Maple Leafs,7,4,1.63,2.35,1
+2025-03-08,NHL,Vancouver Canucks,Minnesota Wild,3,1,1.74,2.15,1
+2025-03-08,NHL,Tampa Bay Lightning,Boston Bruins,0,4,1.32,3.5,0
+2025-03-08,NHL,Edmonton Oilers,Dallas Stars,5,4,1.95,1.87,1
+2025-03-08,NHL,San Jose Sharks,New York Islanders,2,4,2.35,1.63,0
+2025-03-09,NHL,Philadelphia Flyers,Seattle Kraken,1,4,1.67,2.25,0
+2025-03-09,NHL,Philadelphia Flyers,New Jersey Devils,1,3,2.25,1.67,0
+2025-03-09,NHL,Minnesota Wild,Pittsburgh Penguins,1,3,1.74,2.15,0
+2025-03-09,NHL,New York Rangers,Columbus Blue Jackets,3,7,1.77,2.1,0
+2025-03-09,NHL,Vegas Golden Knights,Los Angeles Kings,5,6,1.53,2.6,0
+2025-03-09,NHL,Carolina Hurricanes,Winnipeg Jets,4,2,1.77,2.1,1
+2025-03-09,NHL,Anaheim Ducks,New York Islanders,4,1,1.95,1.87,1
+2025-03-09,NHL,Washington Capitals,Seattle Kraken,4,2,1.39,3.1,1
+2025-03-09,NHL,Vancouver Canucks,Dallas Stars,1,4,2.15,1.74,0
+2025-03-09,NHL,Florida Panthers,Buffalo Sabres,4,0,1.37,3.2,1
+2025-03-09,NHL,Tampa Bay Lightning,Boston Bruins,0,4,1.32,3.5,0
+2025-03-09,NHL,Colorado Avalanche,Toronto Maple Leafs,7,4,1.63,2.35,1
+2025-03-09,NHL,Calgary Flames,Montréal Canadiens,1,0,1.74,2.15,1
+2025-03-09,NHL,Edmonton Oilers,Dallas Stars,5,4,1.95,1.87,1
+2025-03-09,NHL,San Jose Sharks,New York Islanders,2,4,2.35,1.63,0
+2025-03-10,NHL,New York Rangers,Columbus Blue Jackets,3,7,1.77,2.1,0
+2025-03-10,NHL,Vegas Golden Knights,Los Angeles Kings,5,6,1.53,2.6,0
+2025-03-10,NHL,Minnesota Wild,Pittsburgh Penguins,1,3,1.74,2.15,0
+2025-03-10,NHL,Carolina Hurricanes,Winnipeg Jets,4,2,1.77,2.1,1
+2025-03-10,NHL,Washington Capitals,Seattle Kraken,4,2,1.39,3.1,1
+2025-03-10,NHL,Philadelphia Flyers,New Jersey Devils,1,3,2.25,1.67,0
+2025-03-10,NHL,Vancouver Canucks,Dallas Stars,1,4,2.15,1.74,0
+2025-03-10,NHL,Buffalo Sabres,Edmonton Oilers,3,2,2.6,1.53,1
+2025-03-10,NHL,Anaheim Ducks,New York Islanders,4,1,1.95,1.87,1
+2025-03-10,NHL,Ottawa Senators,Detroit Red Wings,2,1,1.56,2.5,1
+2025-03-10,NHL,Colorado Avalanche,Chicago Blackhawks,3,0,1.18,5.0,1
+2025-03-11,NHL,Buffalo Sabres,Edmonton Oilers,3,2,2.6,1.53,1
+2025-03-11,NHL,Ottawa Senators,Detroit Red Wings,2,1,1.56,2.5,1
+2025-03-11,NHL,Colorado Avalanche,Chicago Blackhawks,3,0,1.18,5.0,1
+2025-03-11,NHL,Boston Bruins,Florida Panthers,3,2,2.75,1.48,1
+2025-03-11,NHL,Carolina Hurricanes,Tampa Bay Lightning,4,1,1.71,2.2,1
+2025-03-11,NHL,Winnipeg Jets,New York Rangers,2,1,1.53,2.6,1
+2025-03-11,NHL,Anaheim Ducks,Washington Capitals,4,7,2.7,1.49,0
+2025-03-11,NHL,Los Angeles Kings,New York Islanders,4,1,1.53,2.6,1
+2025-03-11,NHL,San Jose Sharks,Nashville Predators,2,3,2.4,1.61,0
+2025-03-11,NHL,New Jersey Devils,Columbus Blue Jackets,5,3,1.63,2.35,1
+2025-03-11,NHL,Vancouver Canucks,Montréal Canadiens,2,4,1.67,2.25,0
+2025-03-11,NHL,Philadelphia Flyers,Ottawa Senators,2,5,2.0,1.83,0
+2025-03-12,NHL,Boston Bruins,Florida Panthers,3,2,2.75,1.48,1
+2025-03-12,NHL,Carolina Hurricanes,Tampa Bay Lightning,4,1,1.71,2.2,1
+2025-03-12,NHL,Winnipeg Jets,New York Rangers,2,1,1.53,2.6,1
+2025-03-12,NHL,Anaheim Ducks,Washington Capitals,4,7,2.7,1.49,0
+2025-03-12,NHL,New Jersey Devils,Columbus Blue Jackets,5,3,1.63,2.35,1
+2025-03-12,NHL,Philadelphia Flyers,Ottawa Senators,2,5,2.0,1.83,0
+2025-03-12,NHL,Los Angeles Kings,New York Islanders,4,1,1.53,2.6,1
+2025-03-12,NHL,San Jose Sharks,Nashville Predators,2,3,2.4,1.61,0
+2025-03-12,NHL,Vancouver Canucks,Montréal Canadiens,2,4,1.67,2.25,0
+2025-03-12,NHL,Detroit Red Wings,Buffalo Sabres,7,3,1.67,2.25,1
+2025-03-12,NHL,Utah Mammoth,Anaheim Ducks,3,2,1.33,3.4,1
+2025-03-13,NHL,Utah Mammoth,Anaheim Ducks,3,2,1.33,3.4,1
+2025-03-13,NHL,Columbus Blue Jackets,Vegas Golden Knights,0,4,2.6,1.53,0
+2025-03-13,NHL,Detroit Red Wings,Buffalo Sabres,7,3,1.67,2.25,1
+2025-03-13,NHL,New Jersey Devils,Edmonton Oilers,3,2,2.15,1.74,1
+2025-03-13,NHL,San Jose Sharks,Chicago Blackhawks,4,2,1.8,2.05,1
+2025-03-13,NHL,Pittsburgh Penguins,St. Louis Blues,5,3,2.05,1.8,1
+2025-03-13,NHL,Ottawa Senators,Boston Bruins,6,3,1.5,2.65,1
+2025-03-13,NHL,Los Angeles Kings,Washington Capitals,3,0,1.71,2.2,1
+2025-03-13,NHL,Toronto Maple Leafs,Florida Panthers,2,3,2.1,1.77,0
+2025-03-14,NHL,Columbus Blue Jackets,Vegas Golden Knights,0,4,2.6,1.53,0
+2025-03-14,NHL,Ottawa Senators,Boston Bruins,6,3,1.5,2.65,1
+2025-03-14,NHL,Pittsburgh Penguins,St. Louis Blues,5,3,2.05,1.8,1
+2025-03-14,NHL,Toronto Maple Leafs,Florida Panthers,2,3,2.1,1.77,0
+2025-03-14,NHL,New Jersey Devils,Edmonton Oilers,3,2,2.15,1.74,1
+2025-03-14,NHL,Los Angeles Kings,Washington Capitals,3,0,1.71,2.2,1
+2025-03-14,NHL,San Jose Sharks,Chicago Blackhawks,4,2,1.8,2.05,1
+2025-03-14,NHL,Winnipeg Jets,Dallas Stars,4,1,1.77,2.1,1
+2025-03-14,NHL,Calgary Flames,Colorado Avalanche,2,4,2.75,1.48,0
+2025-03-14,NHL,Carolina Hurricanes,Detroit Red Wings,4,2,1.36,3.25,1
+2025-03-14,NHL,Anaheim Ducks,Nashville Predators,2,1,2.4,1.61,1
+2025-03-14,NHL,Seattle Kraken,Utah Mammoth,4,2,2.25,1.67,1
+2025-03-15,NHL,Winnipeg Jets,Dallas Stars,4,1,1.77,2.1,1
+2025-03-15,NHL,Carolina Hurricanes,Detroit Red Wings,4,2,1.36,3.25,1
+2025-03-15,NHL,Calgary Flames,Colorado Avalanche,2,4,2.75,1.48,0
+2025-03-15,NHL,Seattle Kraken,Utah Mammoth,4,2,2.25,1.67,1
+2025-03-15,NHL,Anaheim Ducks,Nashville Predators,2,1,2.4,1.61,1
+2025-03-15,NHL,Pittsburgh Penguins,New Jersey Devils,7,3,2.25,1.67,1
+2025-03-15,NHL,San Jose Sharks,Washington Capitals,1,5,3.1,1.39,0
+2025-03-15,NHL,Columbus Blue Jackets,New York Rangers,0,4,2.25,1.67,0
+2025-03-15,NHL,Philadelphia Flyers,Carolina Hurricanes,0,5,2.45,1.59,0
+2025-03-15,NHL,Montréal Canadiens,Florida Panthers,3,1,2.75,1.48,1
+2025-03-15,NHL,Boston Bruins,Tampa Bay Lightning,2,6,2.55,1.54,0
+2025-03-15,NHL,Minnesota Wild,St. Louis Blues,1,5,1.91,1.91,0
+2025-03-15,NHL,Toronto Maple Leafs,Ottawa Senators,2,4,1.8,2.05,0
+2025-03-15,NHL,Vancouver Canucks,Chicago Blackhawks,6,2,1.35,3.35,1
+2025-03-16,NHL,San Jose Sharks,Washington Capitals,1,5,3.1,1.39,0
+2025-03-16,NHL,Pittsburgh Penguins,New Jersey Devils,7,3,2.25,1.67,1
+2025-03-16,NHL,New York Rangers,Edmonton Oilers,1,3,2.25,1.67,0
+2025-03-16,NHL,Detroit Red Wings,Vegas Golden Knights,3,0,2.05,1.8,1
+2025-03-16,NHL,New York Islanders,Florida Panthers,4,2,2.25,1.67,1
+2025-03-16,NHL,St. Louis Blues,Anaheim Ducks,7,2,1.56,2.5,1
+2025-03-16,NHL,Boston Bruins,Tampa Bay Lightning,2,6,2.55,1.54,0
+2025-03-16,NHL,Vancouver Canucks,Utah Mammoth,1,3,2.15,1.74,0
+2025-03-16,NHL,Columbus Blue Jackets,New York Rangers,0,4,2.25,1.67,0
+2025-03-16,NHL,Philadelphia Flyers,Carolina Hurricanes,0,5,2.45,1.59,0
+2025-03-16,NHL,Minnesota Wild,St. Louis Blues,1,5,1.91,1.91,0
+2025-03-16,NHL,Toronto Maple Leafs,Ottawa Senators,2,4,1.8,2.05,0
+2025-03-16,NHL,Montréal Canadiens,Florida Panthers,3,1,2.75,1.48,1
+2025-03-16,NHL,Vancouver Canucks,Chicago Blackhawks,6,2,1.35,3.35,1
+2025-03-17,NHL,Detroit Red Wings,Vegas Golden Knights,3,0,2.05,1.8,1
+2025-03-17,NHL,Tampa Bay Lightning,Philadelphia Flyers,2,0,1.27,3.65,1
+2025-03-17,NHL,Toronto Maple Leafs,Calgary Flames,6,2,1.49,2.7,1
+2025-03-17,NHL,Minnesota Wild,Los Angeles Kings,3,1,2.3,1.65,1
+2025-03-17,NHL,Columbus Blue Jackets,New Jersey Devils,1,2,2.25,1.63,0
+2025-03-17,NHL,New York Rangers,Edmonton Oilers,1,3,2.25,1.67,0
+2025-03-17,NHL,New York Islanders,Florida Panthers,4,2,2.25,1.67,1
+2025-03-17,NHL,St. Louis Blues,Anaheim Ducks,7,2,1.56,2.5,1
+2025-03-17,NHL,Vancouver Canucks,Utah Mammoth,1,3,2.15,1.74,0
+2025-03-18,NHL,Columbus Blue Jackets,New Jersey Devils,1,2,2.25,1.63,0
+2025-03-18,NHL,Toronto Maple Leafs,Calgary Flames,6,2,1.49,2.7,1
+2025-03-18,NHL,Pittsburgh Penguins,New York Islanders,2,4,1.91,1.91,0
+2025-03-18,NHL,Minnesota Wild,Los Angeles Kings,3,1,2.3,1.65,1
+2025-03-18,NHL,Tampa Bay Lightning,Philadelphia Flyers,2,0,1.27,3.65,1
+2025-03-18,NHL,Montréal Canadiens,Ottawa Senators,6,3,2.2,1.71,1
+2025-03-18,NHL,New York Rangers,Calgary Flames,1,2,1.39,3.1,0
+2025-03-18,NHL,Nashville Predators,St. Louis Blues,1,4,1.95,1.87,0
+2025-03-18,NHL,Chicago Blackhawks,Seattle Kraken,2,6,2.3,1.65,0
+2025-03-18,NHL,Washington Capitals,Detroit Red Wings,4,1,1.61,2.4,1
+2025-03-18,NHL,Vancouver Canucks,Winnipeg Jets,6,2,2.45,1.59,1
+2025-03-18,NHL,Edmonton Oilers,Utah Mammoth,7,1,1.65,2.3,1
+2025-03-19,NHL,Washington Capitals,Detroit Red Wings,4,1,1.61,2.4,1
+2025-03-19,NHL,New York Rangers,Calgary Flames,1,2,1.39,3.1,0
+2025-03-19,NHL,Pittsburgh Penguins,New York Islanders,2,4,1.91,1.91,0
+2025-03-19,NHL,Montréal Canadiens,Ottawa Senators,6,3,2.2,1.71,1
+2025-03-19,NHL,Nashville Predators,St. Louis Blues,1,4,1.95,1.87,0
+2025-03-19,NHL,Chicago Blackhawks,Seattle Kraken,2,6,2.3,1.65,0
+2025-03-19,NHL,Edmonton Oilers,Utah Mammoth,7,1,1.65,2.3,1
+2025-03-19,NHL,Vancouver Canucks,Winnipeg Jets,6,2,2.45,1.59,1
+2025-03-19,NHL,Minnesota Wild,Seattle Kraken,4,0,1.59,2.45,1
+2025-03-19,NHL,Toronto Maple Leafs,Colorado Avalanche,2,1,2.1,1.77,1
+2025-03-20,NHL,New Jersey Devils,Calgary Flames,3,5,1.56,2.5,0
+2025-03-20,NHL,Ottawa Senators,Colorado Avalanche,1,5,1.91,1.91,0
+2025-03-20,NHL,Minnesota Wild,Seattle Kraken,4,0,1.59,2.45,1
+2025-03-20,NHL,Washington Capitals,Philadelphia Flyers,3,2,1.42,2.95,1
+2025-03-20,NHL,New York Rangers,Toronto Maple Leafs,3,4,1.74,2.15,0
+2025-03-20,NHL,Toronto Maple Leafs,Colorado Avalanche,2,1,2.1,1.77,1
+2025-03-20,NHL,Chicago Blackhawks,Los Angeles Kings,1,3,3.2,1.37,0
+2025-03-20,NHL,Utah Mammoth,Buffalo Sabres,5,2,1.56,2.5,1
+2025-03-20,NHL,San Jose Sharks,Carolina Hurricanes,1,3,3.75,1.29,0
+2025-03-20,NHL,Nashville Predators,Anaheim Ducks,1,4,1.59,2.45,0
+2025-03-20,NHL,Vegas Golden Knights,Boston Bruins,5,1,1.33,3.4,1
+2025-03-21,NHL,New York Rangers,Toronto Maple Leafs,3,4,1.74,2.15,0
+2025-03-21,NHL,New Jersey Devils,Calgary Flames,3,5,1.56,2.5,0
+2025-03-21,NHL,Ottawa Senators,Colorado Avalanche,1,5,1.91,1.91,0
+2025-03-21,NHL,Chicago Blackhawks,Los Angeles Kings,1,3,3.2,1.37,0
+2025-03-21,NHL,Washington Capitals,Philadelphia Flyers,3,2,1.42,2.95,1
+2025-03-21,NHL,Nashville Predators,Anaheim Ducks,1,4,1.59,2.45,0
+2025-03-21,NHL,Utah Mammoth,Buffalo Sabres,5,2,1.56,2.5,1
+2025-03-21,NHL,Vegas Golden Knights,Boston Bruins,5,1,1.33,3.4,1
+2025-03-21,NHL,San Jose Sharks,Carolina Hurricanes,1,3,3.75,1.29,0
+2025-03-21,NHL,Pittsburgh Penguins,Columbus Blue Jackets,6,3,1.87,1.95,1
+2025-03-22,NHL,Pittsburgh Penguins,Columbus Blue Jackets,6,3,1.87,1.95,1
+2025-03-22,NHL,New York Rangers,Vancouver Canucks,5,3,1.63,2.35,1
+2025-03-22,NHL,Nashville Predators,Toronto Maple Leafs,5,2,2.45,1.59,1
+2025-03-22,NHL,Minnesota Wild,Buffalo Sabres,4,1,1.74,2.15,1
+2025-03-22,NHL,New Jersey Devils,Ottawa Senators,2,3,1.8,2.05,0
+2025-03-22,NHL,St. Louis Blues,Chicago Blackhawks,4,1,1.3,3.65,1
+2025-03-22,NHL,Utah Mammoth,Tampa Bay Lightning,6,4,1.87,1.95,1
+2025-03-22,NHL,Los Angeles Kings,Carolina Hurricanes,7,2,1.95,1.87,1
+2025-03-22,NHL,Washington Capitals,Florida Panthers,6,3,1.95,1.87,1
+2025-03-22,NHL,Vegas Golden Knights,Detroit Red Wings,6,3,1.44,2.9,1
+2025-03-22,NHL,San Jose Sharks,Boston Bruins,3,1,1.95,1.87,1
+2025-03-22,NHL,Edmonton Oilers,Seattle Kraken,5,4,1.67,2.25,1
+2025-03-23,NHL,Winnipeg Jets,Buffalo Sabres,3,5,1.29,3.75,0
+2025-03-23,NHL,New York Rangers,Vancouver Canucks,5,3,1.63,2.35,1
+2025-03-23,NHL,Vegas Golden Knights,Detroit Red Wings,6,3,1.44,2.9,1
+2025-03-23,NHL,St. Louis Blues,Nashville Predators,4,1,1.56,2.5,1
+2025-03-23,NHL,Chicago Blackhawks,Philadelphia Flyers,7,4,2.2,1.71,1
+2025-03-23,NHL,Los Angeles Kings,Carolina Hurricanes,7,2,1.95,1.87,1
+2025-03-23,NHL,St. Louis Blues,Chicago Blackhawks,4,1,1.3,3.65,1
+2025-03-23,NHL,Minnesota Wild,Buffalo Sabres,4,1,1.74,2.15,1
+2025-03-23,NHL,Utah Mammoth,Tampa Bay Lightning,6,4,1.87,1.95,1
+2025-03-23,NHL,Nashville Predators,Toronto Maple Leafs,5,2,2.45,1.59,1
+2025-03-23,NHL,New Jersey Devils,Ottawa Senators,2,3,1.8,2.05,0
+2025-03-23,NHL,Washington Capitals,Florida Panthers,6,3,1.95,1.87,1
+2025-03-23,NHL,San Jose Sharks,Boston Bruins,3,1,1.95,1.87,1
+2025-03-23,NHL,Los Angeles Kings,Boston Bruins,7,2,1.35,3.35,1
+2025-03-23,NHL,Anaheim Ducks,Carolina Hurricanes,2,5,2.85,1.44,0
+2025-03-23,NHL,Vegas Golden Knights,Tampa Bay Lightning,4,2,1.83,2.0,1
+2025-03-23,NHL,Edmonton Oilers,Seattle Kraken,5,4,1.67,2.25,1
+2025-03-24,NHL,Dallas Stars,Minnesota Wild,3,0,1.46,2.8,1
+2025-03-24,NHL,Chicago Blackhawks,Philadelphia Flyers,7,4,2.2,1.71,1
+2025-03-24,NHL,St. Louis Blues,Nashville Predators,4,1,1.56,2.5,1
+2025-03-24,NHL,Utah Mammoth,Detroit Red Wings,1,5,1.59,2.45,0
+2025-03-24,NHL,Winnipeg Jets,Buffalo Sabres,3,5,1.29,3.75,0
+2025-03-24,NHL,Anaheim Ducks,Carolina Hurricanes,2,5,2.85,1.44,0
+2025-03-24,NHL,Vegas Golden Knights,Tampa Bay Lightning,4,2,1.83,2.0,1
+2025-03-24,NHL,Los Angeles Kings,Boston Bruins,7,2,1.35,3.35,1
+2025-03-25,NHL,Dallas Stars,Minnesota Wild,3,0,1.46,2.8,1
+2025-03-25,NHL,Minnesota Wild,Vegas Golden Knights,1,5,2.85,1.44,0
+2025-03-25,NHL,Tampa Bay Lightning,Pittsburgh Penguins,6,1,1.36,3.3,1
+2025-03-25,NHL,Toronto Maple Leafs,Philadelphia Flyers,7,2,1.37,3.2,1
+2025-03-25,NHL,Carolina Hurricanes,Nashville Predators,1,3,1.37,3.2,0
+2025-03-25,NHL,Buffalo Sabres,Ottawa Senators,3,2,2.45,1.59,1
+2025-03-25,NHL,St. Louis Blues,Montréal Canadiens,6,1,1.65,2.3,1
+2025-03-25,NHL,Colorado Avalanche,Detroit Red Wings,5,2,1.25,3.75,1
+2025-03-25,NHL,Los Angeles Kings,New York Rangers,3,1,1.54,2.55,1
+2025-03-25,NHL,Utah Mammoth,Detroit Red Wings,1,5,1.59,2.45,0
+2025-03-26,NHL,Tampa Bay Lightning,Pittsburgh Penguins,6,1,1.36,3.3,1
+2025-03-26,NHL,Buffalo Sabres,Ottawa Senators,3,2,2.45,1.59,1
+2025-03-26,NHL,Carolina Hurricanes,Nashville Predators,1,3,1.37,3.2,0
+2025-03-26,NHL,Toronto Maple Leafs,Philadelphia Flyers,7,2,1.37,3.2,1
+2025-03-26,NHL,Minnesota Wild,Vegas Golden Knights,1,5,2.85,1.44,0
+2025-03-26,NHL,St. Louis Blues,Montréal Canadiens,6,1,1.65,2.3,1
+2025-03-26,NHL,Los Angeles Kings,New York Rangers,3,1,1.54,2.55,1
+2025-03-26,NHL,Colorado Avalanche,Detroit Red Wings,5,2,1.25,3.75,1
+2025-03-26,NHL,Chicago Blackhawks,New Jersey Devils,3,5,2.95,1.42,0
+2025-03-26,NHL,Edmonton Oilers,Dallas Stars,3,4,2.2,1.71,0
+2025-03-26,NHL,Anaheim Ducks,Boston Bruins,6,2,1.74,2.15,1
+2025-03-26,NHL,New York Islanders,Vancouver Canucks,2,5,1.87,1.95,0
+2025-03-27,NHL,Edmonton Oilers,Dallas Stars,3,4,2.2,1.71,0
+2025-03-27,NHL,Anaheim Ducks,Boston Bruins,6,2,1.74,2.15,1
+2025-03-27,NHL,Chicago Blackhawks,New Jersey Devils,3,5,2.95,1.42,0
+2025-03-27,NHL,New York Islanders,Vancouver Canucks,2,5,1.87,1.95,0
+2025-03-27,NHL,Buffalo Sabres,Pittsburgh Penguins,7,3,1.74,2.15,1
+2025-03-27,NHL,Minnesota Wild,Washington Capitals,4,2,2.2,1.71,1
+2025-03-27,NHL,Detroit Red Wings,Ottawa Senators,3,4,2.15,1.74,0
+2025-03-27,NHL,Tampa Bay Lightning,Utah Mammoth,8,0,1.49,2.7,1
+2025-03-27,NHL,Philadelphia Flyers,Montréal Canadiens,6,4,2.1,1.77,1
+2025-03-27,NHL,Nashville Predators,St. Louis Blues,2,3,2.2,1.71,0
+2025-03-27,NHL,Calgary Flames,Dallas Stars,2,5,2.15,1.74,0
+2025-03-27,NHL,Colorado Avalanche,Los Angeles Kings,4,0,1.61,2.4,1
+2025-03-27,NHL,Seattle Kraken,Edmonton Oilers,6,1,2.0,1.83,1
+2025-03-28,NHL,Minnesota Wild,Washington Capitals,4,2,2.2,1.71,1
+2025-03-28,NHL,Tampa Bay Lightning,Utah Mammoth,8,0,1.49,2.7,1
+2025-03-28,NHL,Nashville Predators,St. Louis Blues,2,3,2.2,1.71,0
+2025-03-28,NHL,Buffalo Sabres,Pittsburgh Penguins,7,3,1.74,2.15,1
+2025-03-28,NHL,Colorado Avalanche,Los Angeles Kings,4,0,1.61,2.4,1
+2025-03-28,NHL,Calgary Flames,Dallas Stars,2,5,2.15,1.74,0
+2025-03-28,NHL,Philadelphia Flyers,Montréal Canadiens,6,4,2.1,1.77,1
+2025-03-28,NHL,Detroit Red Wings,Ottawa Senators,3,4,2.15,1.74,0
+2025-03-28,NHL,Seattle Kraken,Edmonton Oilers,6,1,2.0,1.83,1
+2025-03-28,NHL,Winnipeg Jets,New Jersey Devils,4,0,1.5,2.65,1
+2025-03-28,NHL,Carolina Hurricanes,Montréal Canadiens,4,1,1.28,3.8,1
+2025-03-28,NHL,Chicago Blackhawks,Vegas Golden Knights,3,5,3.8,1.28,0
+2025-03-29,NHL,Chicago Blackhawks,Vegas Golden Knights,3,5,3.8,1.28,0
+2025-03-29,NHL,Carolina Hurricanes,Montréal Canadiens,4,1,1.28,3.8,1
+2025-03-29,NHL,Winnipeg Jets,New Jersey Devils,4,0,1.5,2.65,1
+2025-03-29,NHL,Tampa Bay Lightning,New York Islanders,5,3,1.42,2.95,1
+2025-03-29,NHL,Colorado Avalanche,St. Louis Blues,1,2,1.53,2.6,0
+2025-03-29,NHL,Philadelphia Flyers,Buffalo Sabres,7,4,1.87,1.95,1
+2025-03-29,NHL,Minnesota Wild,New Jersey Devils,2,5,1.83,2.0,0
+2025-03-29,NHL,Nashville Predators,Vegas Golden Knights,1,3,2.45,1.59,0
+2025-03-29,NHL,Los Angeles Kings,Toronto Maple Leafs,1,3,1.67,2.25,0
+2025-03-29,NHL,San Jose Sharks,New York Rangers,1,6,2.35,1.63,0
+2025-03-29,NHL,Detroit Red Wings,Boston Bruins,2,1,1.5,2.65,1
+2025-03-29,NHL,Seattle Kraken,Dallas Stars,1,5,2.3,1.65,0
+2025-03-29,NHL,Ottawa Senators,Columbus Blue Jackets,3,2,1.5,2.65,1
+2025-03-30,NHL,Florida Panthers,Montréal Canadiens,2,4,1.33,3.45,0
+2025-03-30,NHL,Washington Capitals,Buffalo Sabres,5,8,1.29,3.75,0
+2025-03-30,NHL,Winnipeg Jets,Vancouver Canucks,3,1,1.44,2.85,1
+2025-03-30,NHL,Chicago Blackhawks,Utah Mammoth,2,5,2.8,1.46,0
+2025-03-30,NHL,Tampa Bay Lightning,New York Islanders,5,3,1.42,2.95,1
+2025-03-30,NHL,Ottawa Senators,Columbus Blue Jackets,3,2,1.5,2.65,1
+2025-03-30,NHL,Carolina Hurricanes,New York Islanders,6,4,1.28,3.8,1
+2025-03-30,NHL,Colorado Avalanche,St. Louis Blues,1,2,1.53,2.6,0
+2025-03-30,NHL,Philadelphia Flyers,Buffalo Sabres,7,4,1.87,1.95,1
+2025-03-30,NHL,Detroit Red Wings,Boston Bruins,2,1,1.5,2.65,1
+2025-03-30,NHL,Minnesota Wild,New Jersey Devils,2,5,1.83,2.0,0
+2025-03-30,NHL,Los Angeles Kings,San Jose Sharks,8,1,1.27,3.9,1
+2025-03-30,NHL,Nashville Predators,Vegas Golden Knights,1,3,2.45,1.59,0
+2025-03-30,NHL,San Jose Sharks,New York Rangers,1,6,2.35,1.63,0
+2025-03-30,NHL,Los Angeles Kings,Toronto Maple Leafs,1,3,1.67,2.25,0
+2025-03-30,NHL,Seattle Kraken,Dallas Stars,1,5,2.3,1.65,0
+2025-03-30,NHL,Anaheim Ducks,Toronto Maple Leafs,2,3,2.45,1.59,0
+2025-03-31,NHL,Chicago Blackhawks,Utah Mammoth,2,5,2.8,1.46,0
+2025-03-31,NHL,Carolina Hurricanes,New York Islanders,6,4,1.28,3.8,1
+2025-03-31,NHL,Winnipeg Jets,Vancouver Canucks,3,1,1.44,2.85,1
+2025-03-31,NHL,Florida Panthers,Montréal Canadiens,2,4,1.33,3.45,0
+2025-03-31,NHL,Washington Capitals,Buffalo Sabres,5,8,1.29,3.75,0
+2025-03-31,NHL,Anaheim Ducks,Toronto Maple Leafs,2,3,2.45,1.59,0
+2025-03-31,NHL,Philadelphia Flyers,Nashville Predators,2,1,1.77,2.1,1
+2025-03-31,NHL,Seattle Kraken,Dallas Stars,1,3,2.5,1.56,0
+2025-03-31,NHL,Los Angeles Kings,San Jose Sharks,8,1,1.27,3.9,1
+2025-04-01,NHL,Philadelphia Flyers,Nashville Predators,2,1,1.77,2.1,1
+2025-04-01,NHL,Columbus Blue Jackets,Nashville Predators,8,4,1.5,2.65,1
+2025-04-01,NHL,Boston Bruins,Washington Capitals,3,4,2.85,1.44,0
+2025-04-01,NHL,Ottawa Senators,Buffalo Sabres,2,5,1.53,2.6,0
+2025-04-01,NHL,Utah Mammoth,Calgary Flames,3,1,1.54,2.55,1
+2025-04-01,NHL,New York Islanders,Tampa Bay Lightning,1,4,2.45,1.59,0
+2025-04-01,NHL,Los Angeles Kings,Winnipeg Jets,4,1,1.83,2.0,1
+2025-04-01,NHL,Vegas Golden Knights,Edmonton Oilers,2,3,1.61,2.4,0
+2025-04-01,NHL,Seattle Kraken,Dallas Stars,1,3,2.5,1.56,0
+2025-04-02,NHL,Boston Bruins,Washington Capitals,3,4,2.85,1.44,0
+2025-04-02,NHL,Columbus Blue Jackets,Nashville Predators,8,4,1.5,2.65,1
+2025-04-02,NHL,Ottawa Senators,Buffalo Sabres,2,5,1.53,2.6,0
+2025-04-02,NHL,Utah Mammoth,Calgary Flames,3,1,1.54,2.55,1
+2025-04-02,NHL,New York Islanders,Tampa Bay Lightning,1,4,2.45,1.59,0
+2025-04-02,NHL,Vegas Golden Knights,Edmonton Oilers,2,3,1.61,2.4,0
+2025-04-02,NHL,Los Angeles Kings,Winnipeg Jets,4,1,1.83,2.0,1
+2025-04-02,NHL,Vancouver Canucks,Seattle Kraken,0,5,1.67,2.25,0
+2025-04-02,NHL,Carolina Hurricanes,Washington Capitals,5,1,1.44,2.85,1
+2025-04-02,NHL,Toronto Maple Leafs,Florida Panthers,3,2,1.77,2.1,1
+2025-04-03,NHL,Toronto Maple Leafs,Florida Panthers,3,2,1.77,2.1,1
+2025-04-03,NHL,Carolina Hurricanes,Washington Capitals,5,1,1.44,2.85,1
+2025-04-03,NHL,Vancouver Canucks,Seattle Kraken,0,5,1.67,2.25,0
+2025-04-03,NHL,Columbus Blue Jackets,Colorado Avalanche,3,7,2.25,1.67,0
+2025-04-03,NHL,Dallas Stars,Nashville Predators,5,1,1.33,3.4,1
+2025-04-03,NHL,Montréal Canadiens,Boston Bruins,4,1,1.46,2.8,1
+2025-04-03,NHL,Calgary Flames,Anaheim Ducks,4,1,1.61,2.4,1
+2025-04-03,NHL,Utah Mammoth,Los Angeles Kings,2,4,2.2,1.71,0
+2025-04-03,NHL,San Jose Sharks,Edmonton Oilers,2,3,3.25,1.36,0
+2025-04-03,NHL,Vegas Golden Knights,Winnipeg Jets,0,4,1.61,2.4,0
+2025-04-03,NHL,Ottawa Senators,Tampa Bay Lightning,2,1,2.25,1.67,1
+2025-04-04,NHL,Columbus Blue Jackets,Colorado Avalanche,3,7,2.25,1.67,0
+2025-04-04,NHL,Dallas Stars,Nashville Predators,5,1,1.33,3.4,1
+2025-04-04,NHL,Calgary Flames,Anaheim Ducks,4,1,1.61,2.4,1
+2025-04-04,NHL,Montréal Canadiens,Boston Bruins,4,1,1.46,2.8,1
+2025-04-04,NHL,Utah Mammoth,Los Angeles Kings,2,4,2.2,1.71,0
+2025-04-04,NHL,Vegas Golden Knights,Winnipeg Jets,0,4,1.61,2.4,0
+2025-04-04,NHL,Ottawa Senators,Tampa Bay Lightning,2,1,2.25,1.67,1
+2025-04-04,NHL,San Jose Sharks,Edmonton Oilers,2,3,3.25,1.36,0
+2025-04-04,NHL,Washington Capitals,Chicago Blackhawks,5,3,1.26,4.1,1
+2025-04-04,NHL,Detroit Red Wings,Carolina Hurricanes,5,3,2.65,1.5,1
+2025-04-04,NHL,New York Islanders,Minnesota Wild,3,1,1.8,2.05,1
+2025-04-05,NHL,Detroit Red Wings,Carolina Hurricanes,5,3,2.65,1.5,1
+2025-04-05,NHL,New York Islanders,Minnesota Wild,3,1,1.8,2.05,1
+2025-04-05,NHL,Washington Capitals,Chicago Blackhawks,5,3,1.26,4.1,1
+2025-04-05,NHL,Boston Bruins,Carolina Hurricanes,5,1,3.1,1.39,1
+2025-04-05,NHL,Vancouver Canucks,Anaheim Ducks,6,2,1.54,2.55,1
+2025-04-05,NHL,New Jersey Devils,New York Rangers,4,0,1.77,2.1,1
+2025-04-05,NHL,St. Louis Blues,Colorado Avalanche,5,4,2.2,1.71,1
+2025-04-05,NHL,Los Angeles Kings,Edmonton Oilers,3,0,1.48,2.75,1
+2025-04-05,NHL,Montréal Canadiens,Philadelphia Flyers,3,2,1.56,2.5,1
+2025-04-05,NHL,Dallas Stars,Pittsburgh Penguins,3,5,1.36,3.25,0
+2025-04-05,NHL,Ottawa Senators,Florida Panthers,3,0,2.2,1.71,1
+2025-04-05,NHL,Toronto Maple Leafs,Columbus Blue Jackets,5,0,1.54,2.55,1
+2025-04-05,NHL,San Jose Sharks,Seattle Kraken,1,5,2.5,1.56,0
+2025-04-05,NHL,Utah Mammoth,Winnipeg Jets,4,1,2.0,1.83,1
+2025-04-06,NHL,Los Angeles Kings,Edmonton Oilers,3,0,1.48,2.75,1
+2025-04-06,NHL,Ottawa Senators,Florida Panthers,3,0,2.2,1.71,1
+2025-04-06,NHL,Dallas Stars,Pittsburgh Penguins,3,5,1.36,3.25,0
+2025-04-06,NHL,New Jersey Devils,New York Rangers,4,0,1.77,2.1,1
+2025-04-06,NHL,Boston Bruins,Carolina Hurricanes,5,1,3.1,1.39,1
+2025-04-06,NHL,Montréal Canadiens,Philadelphia Flyers,3,2,1.56,2.5,1
+2025-04-06,NHL,Vancouver Canucks,Anaheim Ducks,6,2,1.54,2.55,1
+2025-04-06,NHL,St. Louis Blues,Colorado Avalanche,5,4,2.2,1.71,1
+2025-04-06,NHL,Utah Mammoth,Winnipeg Jets,4,1,2.0,1.83,1
+2025-04-06,NHL,Toronto Maple Leafs,Columbus Blue Jackets,5,0,1.54,2.55,1
+2025-04-06,NHL,New York Islanders,Washington Capitals,4,1,2.25,1.67,1
+2025-04-06,NHL,San Jose Sharks,Seattle Kraken,1,5,2.5,1.56,0
+2025-04-06,NHL,Ottawa Senators,Columbus Blue Jackets,4,0,1.67,2.25,1
+2025-04-06,NHL,Detroit Red Wings,Florida Panthers,2,1,1.8,2.05,1
+2025-04-06,NHL,Buffalo Sabres,Boston Bruins,6,3,1.5,2.65,1
+2025-04-06,NHL,Nashville Predators,Montréal Canadiens,1,2,1.91,1.91,0
+2025-04-06,NHL,Chicago Blackhawks,Pittsburgh Penguins,3,1,2.15,1.74,1
+2025-04-06,NHL,Vancouver Canucks,Vegas Golden Knights,2,3,2.45,1.59,0
+2025-04-07,NHL,Buffalo Sabres,Boston Bruins,6,3,1.5,2.65,1
+2025-04-07,NHL,Detroit Red Wings,Florida Panthers,2,1,1.8,2.05,1
+2025-04-07,NHL,Winnipeg Jets,St. Louis Blues,3,1,1.53,2.6,1
+2025-04-07,NHL,Vancouver Canucks,Vegas Golden Knights,2,3,2.45,1.59,0
+2025-04-07,NHL,Nashville Predators,Montréal Canadiens,1,2,1.91,1.91,0
+2025-04-07,NHL,Ottawa Senators,Columbus Blue Jackets,4,0,1.67,2.25,1
+2025-04-07,NHL,Chicago Blackhawks,Pittsburgh Penguins,3,1,2.15,1.74,1
+2025-04-07,NHL,Anaheim Ducks,Edmonton Oilers,3,2,2.25,1.67,1
+2025-04-07,NHL,Los Angeles Kings,Seattle Kraken,1,2,1.42,2.95,0
+2025-04-07,NHL,New York Islanders,Washington Capitals,4,1,2.25,1.67,1
+2025-04-07,NHL,San Jose Sharks,Calgary Flames,2,3,2.8,1.46,0
+2025-04-07,NHL,New York Rangers,Tampa Bay Lightning,1,5,2.3,1.65,0
+2025-04-08,NHL,Winnipeg Jets,St. Louis Blues,3,1,1.53,2.6,1
+2025-04-08,NHL,New York Rangers,Tampa Bay Lightning,1,5,2.3,1.65,0
+2025-04-08,NHL,Anaheim Ducks,Edmonton Oilers,3,2,2.25,1.67,1
+2025-04-08,NHL,Los Angeles Kings,Seattle Kraken,1,2,1.42,2.95,0
+2025-04-08,NHL,San Jose Sharks,Calgary Flames,2,3,2.8,1.46,0
+2025-04-08,NHL,Buffalo Sabres,Carolina Hurricanes,3,0,3.05,1.4,1
+2025-04-08,NHL,Columbus Blue Jackets,Ottawa Senators,5,2,1.95,1.87,1
+2025-04-08,NHL,Utah Mammoth,Seattle Kraken,7,1,1.44,2.85,1
+2025-04-08,NHL,New Jersey Devils,Boston Bruins,2,7,1.41,3.0,0
+2025-04-08,NHL,Florida Panthers,Toronto Maple Leafs,3,1,1.61,2.4,1
+2025-04-08,NHL,Pittsburgh Penguins,Chicago Blackhawks,5,0,1.46,2.8,1
+2025-04-08,NHL,Montréal Canadiens,Detroit Red Wings,4,1,1.67,2.25,1
+2025-04-09,NHL,Columbus Blue Jackets,Ottawa Senators,5,2,1.95,1.87,1
+2025-04-09,NHL,New Jersey Devils,Boston Bruins,2,7,1.41,3.0,0
+2025-04-09,NHL,Florida Panthers,Toronto Maple Leafs,3,1,1.61,2.4,1
+2025-04-09,NHL,Buffalo Sabres,Carolina Hurricanes,3,0,3.05,1.4,1
+2025-04-09,NHL,Montréal Canadiens,Detroit Red Wings,4,1,1.67,2.25,1
+2025-04-09,NHL,Pittsburgh Penguins,Chicago Blackhawks,5,0,1.46,2.8,1
+2025-04-09,NHL,Utah Mammoth,Seattle Kraken,7,1,1.44,2.85,1
+2025-04-09,NHL,New York Rangers,Philadelphia Flyers,5,8,1.53,2.6,0
+2025-04-09,NHL,Edmonton Oilers,St. Louis Blues,4,3,1.77,2.1,1
+2025-04-10,NHL,New York Rangers,Philadelphia Flyers,5,8,1.53,2.6,0
+2025-04-10,NHL,Boston Bruins,Chicago Blackhawks,2,5,1.56,2.5,0
+2025-04-10,NHL,Edmonton Oilers,St. Louis Blues,4,3,1.77,2.1,1
+2025-04-10,NHL,Columbus Blue Jackets,Buffalo Sabres,3,2,1.74,2.15,1
+2025-04-10,NHL,Florida Panthers,Detroit Red Wings,4,1,1.46,2.8,1
+2025-04-10,NHL,New York Islanders,New York Rangers,2,9,1.8,2.05,0
+2025-04-10,NHL,Los Angeles Kings,Anaheim Ducks,6,1,1.27,3.9,1
+2025-04-10,NHL,Dallas Stars,Winnipeg Jets,0,4,1.8,2.05,0
+2025-04-10,NHL,Colorado Avalanche,Vancouver Canucks,1,4,1.46,2.8,0
+2025-04-10,NHL,Vegas Golden Knights,Seattle Kraken,2,1,1.36,3.3,1
+2025-04-11,NHL,Boston Bruins,Chicago Blackhawks,2,5,1.56,2.5,0
+2025-04-11,NHL,Columbus Blue Jackets,Buffalo Sabres,3,2,1.74,2.15,1
+2025-04-11,NHL,Florida Panthers,Detroit Red Wings,4,1,1.46,2.8,1
+2025-04-11,NHL,Dallas Stars,Winnipeg Jets,0,4,1.8,2.05,0
+2025-04-11,NHL,Colorado Avalanche,Vancouver Canucks,1,4,1.46,2.8,0
+2025-04-11,NHL,Los Angeles Kings,Anaheim Ducks,6,1,1.27,3.9,1
+2025-04-11,NHL,Vegas Golden Knights,Seattle Kraken,2,1,1.36,3.3,1
+2025-04-11,NHL,New York Islanders,New York Rangers,2,9,1.8,2.05,0
+2025-04-11,NHL,New Jersey Devils,Pittsburgh Penguins,2,4,1.5,2.65,0
+2025-04-11,NHL,Ottawa Senators,Montréal Canadiens,5,2,1.71,2.2,1
+2025-04-11,NHL,Edmonton Oilers,San Jose Sharks,4,2,1.24,4.25,1
+2025-04-11,NHL,Calgary Flames,Minnesota Wild,4,2,2.05,1.8,1
+2025-04-12,NHL,Ottawa Senators,Montréal Canadiens,5,2,1.71,2.2,1
+2025-04-12,NHL,New Jersey Devils,Pittsburgh Penguins,2,4,1.5,2.65,0
+2025-04-12,NHL,Calgary Flames,Minnesota Wild,4,2,2.05,1.8,1
+2025-04-12,NHL,Edmonton Oilers,San Jose Sharks,4,2,1.24,4.25,1
+2025-04-12,NHL,Columbus Blue Jackets,Washington Capitals,7,0,1.77,2.1,1
+2025-04-12,NHL,Carolina Hurricanes,New York Rangers,7,3,1.5,2.65,1
+2025-04-12,NHL,Los Angeles Kings,Colorado Avalanche,5,4,1.54,2.55,1
+2025-04-12,NHL,Vegas Golden Knights,Nashville Predators,5,3,1.37,3.2,1
+2025-04-12,NHL,Dallas Stars,Utah Mammoth,3,5,1.74,2.15,0
+2025-04-13,NHL,New Jersey Devils,New York Islanders,0,1,1.44,2.85,0
+2025-04-13,NHL,Carolina Hurricanes,Toronto Maple Leafs,1,4,1.46,2.8,0
+2025-04-13,NHL,Tampa Bay Lightning,Buffalo Sabres,7,4,1.4,3.05,1
+2025-04-13,NHL,Pittsburgh Penguins,Boston Bruins,1,4,1.63,2.35,0
+2025-04-13,NHL,Washington Capitals,Columbus Blue Jackets,1,4,1.61,2.4,0
+2025-04-13,NHL,Carolina Hurricanes,New York Rangers,7,3,1.5,2.65,1
+2025-04-13,NHL,Los Angeles Kings,Colorado Avalanche,5,4,1.54,2.55,1
+2025-04-13,NHL,Columbus Blue Jackets,Washington Capitals,7,0,1.77,2.1,1
+2025-04-13,NHL,Dallas Stars,Utah Mammoth,3,5,1.74,2.15,0
+2025-04-13,NHL,Anaheim Ducks,Colorado Avalanche,2,4,2.15,1.74,0
+2025-04-13,NHL,Winnipeg Jets,Edmonton Oilers,1,4,1.91,1.91,0
+2025-04-13,NHL,Calgary Flames,San Jose Sharks,5,2,1.29,3.7,1
+2025-04-13,NHL,Vegas Golden Knights,Nashville Predators,5,3,1.37,3.2,1
+2025-04-14,NHL,New Jersey Devils,New York Islanders,0,1,1.44,2.85,0
+2025-04-14,NHL,Pittsburgh Penguins,Boston Bruins,1,4,1.63,2.35,0
+2025-04-14,NHL,Carolina Hurricanes,Toronto Maple Leafs,1,4,1.46,2.8,0
+2025-04-14,NHL,Detroit Red Wings,Dallas Stars,6,4,1.92,1.84,1
+2025-04-14,NHL,Florida Panthers,New York Rangers,3,5,1.52,2.5,0
+2025-04-14,NHL,Edmonton Oilers,Los Angeles Kings,0,5,2.55,1.54,0
+2025-04-14,NHL,Nashville Predators,Utah Mammoth,3,7,2.3,1.65,0
+2025-04-14,NHL,Washington Capitals,Columbus Blue Jackets,1,4,1.61,2.4,0
+2025-04-14,NHL,Tampa Bay Lightning,Buffalo Sabres,7,4,1.4,3.05,1
+2025-04-14,NHL,Winnipeg Jets,Edmonton Oilers,1,4,1.91,1.91,0
+2025-04-14,NHL,Anaheim Ducks,Colorado Avalanche,2,4,2.15,1.74,0
+2025-04-14,NHL,Calgary Flames,San Jose Sharks,5,2,1.29,3.7,1
+2025-04-15,NHL,Detroit Red Wings,Dallas Stars,6,4,1.92,1.84,1
+2025-04-15,NHL,Florida Panthers,New York Rangers,3,5,1.52,2.5,0
+2025-04-15,NHL,Edmonton Oilers,Los Angeles Kings,0,5,2.55,1.54,0
+2025-04-15,NHL,Buffalo Sabres,Toronto Maple Leafs,0,4,2.2,1.71,0
+2025-04-15,NHL,Philadelphia Flyers,Columbus Blue Jackets,0,3,2.25,1.67,0
+2025-04-15,NHL,New York Islanders,Washington Capitals,1,3,1.91,1.91,0
+2025-04-15,NHL,Nashville Predators,Utah Mammoth,3,7,2.3,1.65,0
+2025-04-15,NHL,Tampa Bay Lightning,Florida Panthers,5,1,1.48,2.75,1
+2025-04-15,NHL,Seattle Kraken,Los Angeles Kings,5,6,1.87,1.95,0
+2025-04-15,NHL,St. Louis Blues,Utah Mammoth,6,1,1.65,2.3,1
+2025-04-16,NHL,Philadelphia Flyers,Columbus Blue Jackets,0,3,2.25,1.67,0
+2025-04-16,NHL,New York Islanders,Washington Capitals,1,3,1.91,1.91,0
+2025-04-16,NHL,Tampa Bay Lightning,Florida Panthers,5,1,1.48,2.75,1
+2025-04-16,NHL,Buffalo Sabres,Toronto Maple Leafs,0,4,2.2,1.71,0
+2025-04-16,NHL,St. Louis Blues,Utah Mammoth,6,1,1.65,2.3,1
+2025-04-16,NHL,Seattle Kraken,Los Angeles Kings,5,6,1.87,1.95,0
+2025-04-16,NHL,Montréal Canadiens,Carolina Hurricanes,4,2,1.67,2.25,1
+2025-04-16,NHL,Vancouver Canucks,Vegas Golden Knights,1,4,1.87,1.95,0
+2025-04-16,NHL,New Jersey Devils,Detroit Red Wings,2,5,2.35,1.63,0
+2025-04-16,NHL,Nashville Predators,Dallas Stars,5,1,2.45,1.59,1
+2025-04-16,NHL,San Jose Sharks,Edmonton Oilers,0,3,2.9,1.44,0
+2025-04-17,NHL,Montréal Canadiens,Carolina Hurricanes,4,2,1.67,2.25,1
+2025-04-17,NHL,New Jersey Devils,Detroit Red Wings,2,5,2.35,1.63,0
+2025-04-17,NHL,Nashville Predators,Dallas Stars,5,1,2.45,1.59,1
+2025-04-17,NHL,Vancouver Canucks,Vegas Golden Knights,1,4,1.87,1.95,0
+2025-04-17,NHL,Columbus Blue Jackets,New York Islanders,6,1,1.5,2.65,1
+2025-04-17,NHL,Buffalo Sabres,Philadelphia Flyers,5,4,1.61,2.4,1
+2025-04-17,NHL,Ottawa Senators,Carolina Hurricanes,7,5,1.63,2.35,1
+2025-04-17,NHL,San Jose Sharks,Edmonton Oilers,0,3,2.9,1.44,0
+2025-04-17,NHL,Los Angeles Kings,Calgary Flames,1,5,1.5,2.65,0
+2025-04-17,NHL,New York Rangers,Tampa Bay Lightning,4,0,1.91,1.91,1
+2025-04-17,NHL,Pittsburgh Penguins,Washington Capitals,5,2,1.87,1.95,1

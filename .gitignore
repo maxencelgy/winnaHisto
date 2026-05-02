@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# Node
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Logs / temp
+*.log
+/tmp/
+
+# Backups locaux (on garde le repo propre, backup via git history)
+datasets/_backup_*/
+
+# Sous-projets avec leur propre git (à cloner séparément si besoin)
+OddsHarvester/
+edge-scanner/
+
+# Locks Claude
+.claude/scheduled_tasks.lock

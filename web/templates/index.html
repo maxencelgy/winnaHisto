@@ -1,0 +1,1246 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Combos Magiques</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, system-ui, sans-serif; background: #0e0f12; color: #e6e8ec; line-height: 1.5; padding: 24px; }
+.container { max-width: 1100px; margin: 0 auto; }
+h1 { font-weight: 600; margin-bottom: 4px; font-size: 28px; }
+.sub { color: #8b909a; font-size: 14px; margin-bottom: 28px; }
+.card { background: #15171c; border: 1px solid #23262e; border-radius: 12px; padding: 20px; margin-bottom: 20px; }
+.controls { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+.controls input, .controls select { background: #0e0f12; color: #e6e8ec; border: 1px solid #2a2d36; border-radius: 8px; padding: 8px 12px; font-size: 14px; }
+.controls button { background: #4ade80; color: #0e0f12; border: 0; border-radius: 8px; padding: 9px 18px; font-weight: 600; cursor: pointer; font-size: 14px; }
+.controls button:hover { background: #22c55e; }
+.controls button:disabled { background: #2a2d36; color: #8b909a; cursor: not-allowed; }
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 12px; margin: 16px 0; }
+.stat { background: #0e0f12; border: 1px solid #23262e; border-radius: 8px; padding: 12px 16px; }
+.stat-label { color: #8b909a; font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px; }
+.stat-value { font-size: 22px; font-weight: 600; margin-top: 2px; }
+.combo { background: #0e0f12; border: 1px solid #2a2d36; border-radius: 10px; padding: 16px; margin-bottom: 12px; }
+.combo-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; }
+.combo-title { font-weight: 600; }
+.combo-stats { display: flex; gap: 14px; font-size: 13px; }
+.combo-stat { color: #8b909a; }
+.combo-stat strong { color: #e6e8ec; }
+.combo-stat .green { color: #4ade80; }
+.leg { padding: 8px 0; border-bottom: 1px dashed #23262e; font-size: 14px; }
+.leg:last-child { border-bottom: 0; }
+.leg-sport { display: inline-block; background: #2a2d36; padding: 2px 8px; border-radius: 4px; font-size: 11px; margin-right: 8px; text-transform: uppercase; }
+.leg-team { font-weight: 600; color: #4ade80; }
+.leg-meta { color: #8b909a; font-size: 12px; margin-top: 2px; }
+.tab-bar { display: flex; gap: 6px; margin-bottom: 16px; }
+.tab { background: #15171c; border: 1px solid #23262e; padding: 8px 16px; border-radius: 8px; cursor: pointer; font-size: 13px; }
+.tab.active { background: #2a2d36; color: #4ade80; border-color: #4ade80; }
+.magic-table { width: 100%; border-collapse: collapse; }
+.magic-table th, .magic-table td { padding: 8px 12px; text-align: left; border-bottom: 1px solid #23262e; font-size: 13px; }
+.magic-table th { color: #8b909a; font-weight: 500; text-transform: uppercase; font-size: 11px; }
+.magic-cote { color: #4ade80; font-weight: 600; }
+.empty { text-align: center; padding: 40px; color: #8b909a; }
+.loader { display: inline-block; width: 14px; height: 14px; border: 2px solid #23262e; border-top-color: #4ade80; border-radius: 50%; animation: spin 0.8s linear infinite; vertical-align: middle; margin-right: 8px; }
+@keyframes spin { to { transform: rotate(360deg); } }
+.pick { display: grid; grid-template-columns: 80px 1fr 70px 70px 70px; gap: 10px; padding: 8px; border-bottom: 1px solid #23262e; font-size: 13px; align-items: center; }
+.pick:last-child { border: 0; }
+.pick-sport { background: #2a2d36; padding: 2px 6px; border-radius: 4px; font-size: 10px; text-transform: uppercase; text-align: center; }
+.pick-cote { font-weight: 600; color: #4ade80; }
+.pick-wr { color: #8b909a; }
+.pick-ev { font-weight: 600; }
+.pick-ev.pos { color: #4ade80; }
+.pick-ev.neg { color: #ef4444; }
+.progress-row { margin-bottom: 12px; font-size: 13px; }
+.progress-label { display: flex; justify-content: space-between; margin-bottom: 4px; }
+.progress-bar { background: #23262e; height: 8px; border-radius: 4px; overflow: hidden; }
+.progress-fill { height: 100%; background: #4ade80; transition: width 0.3s; }
+.progress-fill.listing { background: #fbbf24; }
+.progress-meta { color: #8b909a; font-size: 11px; margin-top: 2px; }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>🎯 Combos Magiques</h1>
+  <div class="sub">Sofascore live × cotes magiques calibrées sur 130k+ obs historiques</div>
+
+  <div class="card" id="scrape-status-card">
+    <div style="font-weight:600;margin-bottom:10px">⏳ Scrape Sofascore en cours</div>
+    <div id="scrape-status">Chargement…</div>
+  </div>
+
+  <div class="card">
+    <div class="controls">
+      <input type="date" id="date" />
+      <select id="cote_min">
+        <option value="1.2">Cote totale min 1.2</option>
+        <option value="1.5">Cote totale min 1.5</option>
+        <option value="2.0" selected>Cote totale min 2.0</option>
+        <option value="3.0">Cote totale min 3.0</option>
+        <option value="5.0">Cote totale min 5.0</option>
+      </select>
+      <select id="cote_max">
+        <option value="3">Cote totale max 3</option>
+        <option value="5" selected>Cote totale max 5</option>
+        <option value="8">Cote totale max 8</option>
+        <option value="15">Cote totale max 15</option>
+        <option value="50">Cote totale max 50</option>
+      </select>
+      <select id="max_legs">
+        <option value="2">Max 2 jambes</option>
+        <option value="3" selected>Max 3 jambes</option>
+        <option value="4">Max 4 jambes</option>
+      </select>
+      <select id="sort_by" title="Stratégie de tri">
+        <option value="ev" selected>🎯 Meilleur EV</option>
+        <option value="wr">🛡️ Plus safe (max WR)</option>
+        <option value="cote">💰 Plus gros payout</option>
+      </select>
+      <button id="loadBtn">Charger les combos</button>
+    </div>
+    <div class="stats" id="stats" style="display:none">
+      <div class="stat"><div class="stat-label">Matchs</div><div class="stat-value" id="s_total">-</div></div>
+      <div class="stat"><div class="stat-label">Avec cotes</div><div class="stat-value" id="s_odds">-</div></div>
+      <div class="stat"><div class="stat-label">Picks magiques</div><div class="stat-value" id="s_picks">-</div></div>
+      <div class="stat"><div class="stat-label">Combos générés</div><div class="stat-value" id="s_combos">-</div></div>
+    </div>
+  </div>
+
+  <div class="tab-bar">
+    <div class="tab active" data-tab="live">🔴 Live Combos</div>
+    <div class="tab" data-tab="combos">Combos (legacy)</div>
+    <div class="tab" data-tab="picks">Picks individuels</div>
+    <div class="tab" data-tab="magic">Cotes magiques</div>
+    <div class="tab" data-tab="datasets">Datasets</div>
+    <div class="tab" data-tab="backtest">Backtest</div>
+  </div>
+
+  <div id="tab-live" class="card">
+    <div style="font-weight:600;margin-bottom:10px">🔴 Combos du jour — preset backtest + sizing bankroll réelle</div>
+
+    <div class="controls" style="margin-bottom:10px;background:#0e0f12;border:1px solid #2a2d36;border-radius:6px;padding:10px 12px;flex-wrap:wrap">
+      <span style="font-size:12px;color:#4ade80;font-weight:600">⚙️ Stratégie</span>
+      <select id="lv_preset" style="min-width:340px"></select>
+      <select id="lv_magic_source" title="Source des cotes magiques">
+        <option value="smart" selected>📊 Smart (bucket)</option>
+        <option value="by_league">🎯 By-league (granulaire)</option>
+      </select>
+      <select id="lv_bookmaker" title="Filtre leagues">
+        <option value="winamax_fr" selected>🇫🇷 Winamax/Betclic/Unibet</option>
+        <option value="all">🌍 Toutes leagues (Sofascore)</option>
+      </select>
+      <select id="lv_dedup" title="Dédup inter-composantes">
+        <option value="none">🔁 Pas de dédup</option>
+        <option value="max2">🔂 Max 2× même pick</option>
+        <option value="max1" selected>🚫 Aucun pick partagé</option>
+        <option value="disjoint">🎯 Aucun match en commun</option>
+      </select>
+    </div>
+
+    <div class="controls" style="margin-bottom:10px;background:#0e0f12;border:1px solid #2a2d36;border-radius:6px;padding:10px 12px;flex-wrap:wrap">
+      <span style="font-size:12px;color:#4ade80;font-weight:600">💰 Bankroll</span>
+      <label style="font-size:12px;color:#8b909a">Bankroll de départ</label>
+      <input type="number" id="lv_bankroll0" value="100" min="1" step="10" style="width:80px" />€
+      <label style="font-size:12px;color:#8b909a">Bankroll actuelle</label>
+      <input type="number" id="lv_bankroll" value="100" min="0.1" step="1" style="width:80px" />€
+      <input type="date" id="lv_date" />
+      <button type="button" id="btLvToday" style="background:#2a2d36;color:#e6e8ec;font-size:12px;padding:5px 10px">Aujourd'hui</button>
+      <button type="button" id="btLvTomorrow" style="background:#2a2d36;color:#e6e8ec;font-size:12px;padding:5px 10px">Demain</button>
+      <button id="btLive" style="background:#ef4444;color:#fff;font-weight:600">🎯 Générer les combos</button>
+      <span style="font-size:11px;color:#8b909a;margin-left:8px">Mise auto = 10% de la BR · sizing adaptatif · ⚠️ génère pour la journée entière (cohérent backtest)</span>
+    </div>
+
+    <div id="lv_summary" style="margin-top:12px"></div>
+    <div id="lv_combos" style="margin-top:12px"></div>
+  </div>
+
+  <div id="tab-combos" class="card" style="display:none">
+    <div class="empty" id="empty-combos">Charge la date pour voir les combos</div>
+    <div id="combos-list"></div>
+  </div>
+
+  <div id="tab-picks" class="card" style="display:none">
+    <div class="empty" id="empty-picks">Charge la date pour voir les picks</div>
+    <div id="picks-list"></div>
+  </div>
+
+  <div id="tab-magic" class="card" style="display:none">
+    <div id="magic-list">Chargement…</div>
+  </div>
+
+  <div id="tab-datasets" class="card" style="display:none">
+    <div id="datasets-list">Chargement…</div>
+  </div>
+
+  <div id="tab-backtest" class="card" style="display:none">
+    <div style="font-weight:600;margin-bottom:10px">⏱️ Backtest — qu'aurais-tu gagné sur la période ?</div>
+
+    <!-- DATES & BANKROLL (commun aux deux modes) -->
+    <div class="controls" style="margin-bottom:10px">
+      <label style="font-size:13px;color:#8b909a">Du</label>
+      <input type="date" id="bt_date" value="2026-04-01" />
+      <label style="font-size:13px;color:#8b909a">au</label>
+      <input type="date" id="bt_end" value="2026-04-30" />
+      <select id="bt_period_quick" title="Période rapide">
+        <option value="">Custom</option>
+        <option value="7">7 derniers jours</option>
+        <option value="30" selected>30 derniers jours</option>
+        <option value="90">3 mois</option>
+        <option value="180">6 mois</option>
+        <option value="365">1 an</option>
+        <option value="850">28 mois (full)</option>
+      </select>
+    </div>
+    <div class="controls" style="margin-bottom:10px;background:#0e0f12;border:1px solid #2a2d36;border-radius:6px;padding:8px 12px;flex-wrap:wrap">
+      <span style="font-size:12px;color:#4ade80;font-weight:600">💰 Bankroll</span>
+      <label style="font-size:12px;color:#8b909a">Bankroll de départ</label>
+      <input type="number" id="bt_bankroll" value="100" min="1" step="10" style="width:80px" />€
+      <span style="font-size:11px;color:#8b909a;margin-left:8px">Mise auto = 10% de la BR · sizing adaptatif (compounding)</span>
+      <input type="hidden" id="bt_stake" value="10" />
+      <input type="hidden" id="bt_sizing" value="flat_pct" />
+      <input type="hidden" id="bt_stake_cap" value="0" />
+      <input type="hidden" id="bt_cap_pct" value="10" />
+      <input type="hidden" id="bt_kelly_div" value="4" />
+    </div>
+
+    <!-- Mode HYBRIDE -->
+    <div style="background:#0e0f12;border:1px solid #2a2d36;border-radius:8px;padding:12px;margin-bottom:12px">
+      <div style="font-size:13px;color:#4ade80;font-weight:600;margin-bottom:8px">
+        ⭐ Mode hybride <span style="color:#8b909a;font-weight:normal;font-size:11px;margin-left:6px">presets validés walk-forward · composantes éditables</span>
+      </div>
+      <div class="controls" style="margin-bottom:8px;flex-wrap:wrap">
+        <select id="bt_preset" style="min-width:340px">
+          <option value="">— Aucun (mode classique ↓) —</option>
+        </select>
+        <input type="hidden" id="bt_skip_loss" />
+        <select id="bt_magic_source" title="Magic source : smart = par bucket (optimum confirmé OOS). by_league = granulaire mais overfit en OOS strict (à éviter).">
+          <option value="smart" selected>📊 Smart (bucket) ⭐ optimum OOS</option>
+          <option value="by_league">🎯 By-league (granulaire) ⚠️ overfit en OOS strict</option>
+        </select>
+        <select id="bt_bookmaker" title="Filtre leagues : 'Toutes' = Sofascore complet (peut inclure des leagues non dispos en FR), 'Winamax FR' = uniquement les leagues réellement disponibles sur Winamax/Betclic/Unibet">
+          <option value="all">🌍 Toutes leagues (Sofascore)</option>
+          <option value="winamax_fr" selected>🇫🇷 Winamax/Betclic/Unibet only</option>
+        </select>
+        <select id="bt_dedup" title="Dédup inter-composantes : empêche un même pick d'être réutilisé dans plusieurs combos du jour">
+          <option value="none">🔁 Pas de dédup (picks réutilisables)</option>
+          <option value="max2">🔂 Max 2× même pick / jour</option>
+          <option value="max1">🚫 Aucun pick partagé (vraie diversification)</option>
+          <option value="disjoint">🎯 Aucun match en commun</option>
+        </select>
+        <span id="bt_modified_badge" style="display:none;font-size:11px;color:#fb923c;background:#2a1f15;padding:3px 8px;border-radius:4px;border:1px solid #fb923c">✏️ Composantes modifiées</span>
+        <button id="btRunHybrid" style="background:#4ade80;color:#0e0f12;font-weight:600">Lancer hybride</button>
+      </div>
+
+      <!-- Section composantes éditables -->
+      <div id="bt_components_wrapper" style="display:none">
+        <div style="font-size:12px;color:#8b909a;margin:10px 0 6px 0">Composantes (chacune génère ses combos puis on cumule) :</div>
+        <div id="bt_components_list"></div>
+        <button id="btAddComp" type="button" style="margin-top:6px;background:#2a2d36;color:#e6e8ec;font-size:12px;padding:5px 12px">+ Ajouter composante</button>
+      </div>
+
+      <div id="bt_hybrid_warning" style="font-size:12px;color:#fb923c;margin-top:6px;display:none">
+        ⚠️ Période &lt; 90 jours → résultat dominé par variance, préfère ≥ 6 mois pour juger un preset hybride.
+      </div>
+    </div>
+
+    <!-- Mode CLASSIQUE (caché quand preset hybride actif) -->
+    <div id="bt_classic_controls">
+      <div class="controls" style="margin-bottom:10px">
+        <select id="bt_n_combos" title="Combos par jour">
+          <option value="3">3 combos/jour</option>
+          <option value="5" selected>5 combos/jour</option>
+          <option value="10">10 combos/jour</option>
+        </select>
+        <select id="bt_max_legs">
+          <option value="2">2 jambes</option>
+          <option value="3" selected>3 jambes</option>
+          <option value="4">4 jambes</option>
+        </select>
+        <select id="bt_sort">
+          <option value="ev">Tri EV</option>
+          <option value="wr">Tri Safe</option>
+          <option value="cote">Tri Payout</option>
+        </select>
+        <select id="bt_cote_min">
+          <option value="1.2">Cote min 1.2</option>
+          <option value="1.5">Cote min 1.5</option>
+          <option value="2.0" selected>Cote min 2.0</option>
+          <option value="3.0">Cote min 3.0</option>
+          <option value="5.0">Cote min 5.0</option>
+        </select>
+        <select id="bt_cote_max">
+          <option value="3">Cote max 3</option>
+          <option value="5" selected>Cote max 5</option>
+          <option value="8">Cote max 8</option>
+          <option value="15">Cote max 15</option>
+          <option value="50">Cote max 50</option>
+        </select>
+      </div>
+      <div class="controls" style="margin-bottom:10px">
+        <label style="font-size:13px;color:#8b909a">Sports :</label>
+        <span id="bt_sports_avail">Chargement…</span>
+      </div>
+      <div class="controls" style="margin-bottom:10px">
+        <label style="font-size:13px;color:#8b909a">EV min</label>
+        <input type="number" id="bt_min_ev" value="0" step="0.01" min="-1" max="1" style="width:80px" />
+        <label style="font-size:13px;color:#8b909a">WR min</label>
+        <input type="number" id="bt_min_wr" value="0" step="0.05" min="0" max="1" style="width:80px" />
+        <button id="btRun">Lancer backtest</button>
+        <button id="btRunDay" style="background:#2a2d36;color:#e6e8ec">1 jour seul</button>
+        <label style="font-size:12px;color:#8b909a;margin-left:8px"><input type="checkbox" id="bt_rigorous"> Rigorous (lent, sans biais)</label>
+      </div>
+    </div>
+    <div id="bt_summary" style="margin-top:14px"></div>
+    <div id="bt_chart" style="margin-top:14px"></div>
+    <div id="bt_combos" style="margin-top:14px"></div>
+  </div>
+</div>
+
+<script>
+const today = new Date().toISOString().split('T')[0];
+document.getElementById('date').value = today;
+
+document.querySelectorAll('.tab').forEach(t => {
+  t.addEventListener('click', () => {
+    document.querySelectorAll('.tab').forEach(x => x.classList.remove('active'));
+    t.classList.add('active');
+    ['live','combos','picks','magic','datasets','backtest'].forEach(id => {
+      document.getElementById('tab-' + id).style.display = (id === t.dataset.tab) ? '' : 'none';
+    });
+    if (t.dataset.tab === 'datasets') loadDatasets();
+  });
+});
+
+function formatTime(ts) {
+  const d = new Date(ts * 1000);
+  const today = new Date();
+  const sameDay = d.toDateString() === today.toDateString();
+  const tomorrow = new Date(today.getTime() + 86400000);
+  const isTomorrow = d.toDateString() === tomorrow.toDateString();
+  const time = d.toLocaleTimeString('fr-FR', {hour: '2-digit', minute: '2-digit'});
+  if (sameDay) return time;
+  if (isTomorrow) return 'Demain ' + time;
+  return d.toLocaleDateString('fr-FR', {day: '2-digit', month: '2-digit'}) + ' ' + time;
+}
+
+async function loadCombos() {
+  const btn = document.getElementById('loadBtn');
+  btn.disabled = true;
+  btn.innerHTML = '<span class="loader"></span>Chargement…';
+  const sortBy = document.getElementById('sort_by').value;
+  const params = new URLSearchParams({
+    date: document.getElementById('date').value,
+    cote_min: document.getElementById('cote_min').value,
+    cote_max: document.getElementById('cote_max').value,
+    max_legs: document.getElementById('max_legs').value,
+    sort_by: sortBy,
+    rigorous: '0',
+  });
+  try {
+    const r = await fetch('/api/combos?' + params);
+    const data = await r.json();
+    renderResults(data);
+  } catch (e) {
+    alert('Erreur: ' + e.message);
+  }
+  btn.disabled = false;
+  btn.textContent = 'Charger les combos';
+}
+
+function renderResults(data) {
+  document.getElementById('stats').style.display = '';
+  document.getElementById('s_total').textContent = data.total_matches;
+  document.getElementById('s_odds').textContent = data.matches_with_odds;
+  document.getElementById('s_picks').textContent = data.picks.length;
+  document.getElementById('s_combos').textContent = data.combos.length;
+
+  // Combos
+  const combosHtml = data.combos.map((c, i) => `
+    <div class="combo">
+      <div class="combo-header">
+        <div class="combo-title">Combo #${i+1}</div>
+        <div class="combo-stats">
+          <span class="combo-stat">cote <strong>${c.cote_t.toFixed(2)}</strong></span>
+          <span class="combo-stat">wr <strong>${(c.wr_t*100).toFixed(0)}%</strong></span>
+          <span class="combo-stat green">EV <strong>+${(c.ev*100).toFixed(0)}%</strong></span>
+        </div>
+      </div>
+      ${c.legs.map(l => `
+        <div class="leg">
+          <span class="leg-sport">${l.sport}</span>
+          ${l.match} → <span class="leg-team">${l.selection}</span> @ <span class="pick-cote">${l.odds.toFixed(2)}</span>
+          <div class="leg-meta">${l.league} · wr ${(l.wr*100).toFixed(0)}%${l.start_time ? ' · 🕐 ' + formatTime(l.start_time) : ''}</div>
+        </div>
+      `).join('')}
+    </div>
+  `).join('');
+  document.getElementById('combos-list').innerHTML = combosHtml;
+  document.getElementById('empty-combos').style.display = data.combos.length ? 'none' : '';
+
+  // Picks
+  const picksHtml = data.picks.map(p => `
+    <div class="pick">
+      <span class="pick-sport">${p.sport}</span>
+      <span><strong>${p.selection}</strong> <span style="color:#8b909a">vs ${p.match.split(' vs ').filter(t => t !== p.selection).join('')}</span><br><span class="leg-meta">${p.league}${p.start_time ? ' · 🕐 ' + formatTime(p.start_time) : ''}</span></span>
+      <span class="pick-cote">${p.odds.toFixed(2)}</span>
+      <span class="pick-wr">${(p.wr*100).toFixed(0)}%</span>
+      <span class="pick-ev ${p.ev>0?'pos':'neg'}">${p.ev>0?'+':''}${(p.ev*100).toFixed(1)}%</span>
+    </div>
+  `).join('');
+  document.getElementById('picks-list').innerHTML = picksHtml;
+  document.getElementById('empty-picks').style.display = data.picks.length ? 'none' : '';
+}
+
+async function loadMagic() {
+  const [rFlat, rSmart] = await Promise.all([fetch('/api/magic-cotes'), fetch('/api/magic-cotes-smart')]);
+  const flat = await rFlat.json();
+  const smart = await rSmart.json();
+  let html = '<div style="display:flex;gap:8px;margin-bottom:16px">'
+    + '<button class="magic-mode-btn active" data-mode="flat" style="background:#2a2d36;color:#4ade80;border:1px solid #4ade80;padding:6px 14px;border-radius:6px;cursor:pointer">Par sport</button>'
+    + '<button class="magic-mode-btn" data-mode="smart" style="background:#15171c;color:#e6e8ec;border:1px solid #23262e;padding:6px 14px;border-radius:6px;cursor:pointer">Par sport × league</button>'
+    + '</div><div id="magic-content"></div>';
+  document.getElementById('magic-list').innerHTML = html;
+
+  function unpack(v) {
+    if (typeof v === 'object' && v !== null) return {wr: v.wr, n: v.n, ev: v.ev};
+    const wr = parseFloat(v);
+    return {wr, n: null, ev: null};
+  }
+
+  function renderFlat() {
+    let h = '';
+    for (const sport in flat) {
+      const cotes = Object.entries(flat[sport]).sort((a,b) => parseFloat(a[0]) - parseFloat(b[0]));
+      if (!cotes.length) continue;
+      h += `<h3 style="margin:16px 0 8px;color:#4ade80">${sport}</h3>`;
+      h += '<table class="magic-table"><tr><th>Cote</th><th>WR</th><th>n</th><th>EV</th></tr>';
+      cotes.forEach(([c, v]) => {
+        const cote = parseFloat(c);
+        const u = unpack(v);
+        const ev = (u.ev !== null ? u.ev : (u.wr * cote - 1)) * 100;
+        h += `<tr><td class="magic-cote">${cote.toFixed(2)}</td><td>${(u.wr*100).toFixed(0)}%</td><td>${u.n ?? '?'}</td><td class="${ev>=0?'pick-ev pos':'pick-ev neg'}">${ev>=0?'+':''}${ev.toFixed(1)}%</td></tr>`;
+      });
+      h += '</table>';
+    }
+    document.getElementById('magic-content').innerHTML = h;
+  }
+
+  function renderSmart() {
+    let h = '';
+    for (const sport in smart) {
+      h += `<h3 style="margin:18px 0 8px;color:#4ade80">${sport}</h3>`;
+      const buckets = Object.entries(smart[sport]);
+      buckets.forEach(([bucket, cotes]) => {
+        const sortedCotes = Object.entries(cotes).sort((a,b) => parseFloat(a[0]) - parseFloat(b[0]));
+        if (!sortedCotes.length) return;
+        const totalN = sortedCotes.reduce((s, [c,v]) => s + (unpack(v).n || 0), 0);
+        h += `<details style="margin-bottom:8px"><summary style="cursor:pointer;color:#fbbf24">${bucket} <span style="color:#8b909a;font-weight:normal;font-size:11px">(${sortedCotes.length} cotes · n total ${totalN})</span></summary>`;
+        h += '<table class="magic-table" style="margin-top:6px"><tr><th>Cote</th><th>WR</th><th>n</th><th>EV</th></tr>';
+        sortedCotes.forEach(([c, v]) => {
+          const cote = parseFloat(c);
+          const u = unpack(v);
+          const ev = (u.ev !== null ? u.ev : (u.wr * cote - 1)) * 100;
+          h += `<tr><td class="magic-cote">${cote.toFixed(2)}</td><td>${(u.wr*100).toFixed(0)}%</td><td>${u.n ?? '?'}</td><td class="${ev>=0?'pick-ev pos':'pick-ev neg'}">${ev>=0?'+':''}${ev.toFixed(1)}%</td></tr>`;
+        });
+        h += '</table></details>';
+      });
+    }
+    document.getElementById('magic-content').innerHTML = h;
+  }
+
+  document.querySelectorAll('.magic-mode-btn').forEach(b => {
+    b.addEventListener('click', () => {
+      document.querySelectorAll('.magic-mode-btn').forEach(x => {
+        x.classList.remove('active');
+        x.style.background = '#15171c'; x.style.color = '#e6e8ec'; x.style.borderColor = '#23262e';
+      });
+      b.classList.add('active');
+      b.style.background = '#2a2d36'; b.style.color = '#4ade80'; b.style.borderColor = '#4ade80';
+      if (b.dataset.mode === 'flat') renderFlat(); else renderSmart();
+    });
+  });
+  renderFlat();
+}
+
+document.getElementById('loadBtn').addEventListener('click', loadCombos);
+loadMagic();
+
+async function loadScrapeStatus() {
+  try {
+    const r = await fetch('/api/scrape-status');
+    const data = await r.json();
+    const el = document.getElementById('scrape-status');
+    const card = document.getElementById('scrape-status-card');
+
+    if (!data.running && Object.keys(data.sports || {}).length === 0) {
+      card.style.display = 'none';
+      return;
+    }
+
+    let html = '';
+    for (const [sport, s] of Object.entries(data.sports)) {
+      let pct, label, fillClass, meta;
+      const period = s.start_date && s.end_date ? ` <span style="color:#8b909a;font-weight:normal;font-size:11px">(${s.start_date} → ${s.end_date})</span>` : '';
+      if (s.phase_complete) {
+        pct = 100;
+        label = `✅ ${sport}${period}`;
+        fillClass = '';
+        meta = `${s.saved.toLocaleString()} matchs sauvegardés`;
+      } else if (s.phase === 'odds' && s.odds_total > 0) {
+        pct = (s.odds_done / s.odds_total * 100);
+        label = `🎯 ${sport} — odds${period}`;
+        fillClass = '';
+        const etaMin = Math.ceil(s.eta_sec / 60);
+        meta = `${s.odds_done.toLocaleString()} / ${s.odds_total.toLocaleString()} (${s.odds_ok.toLocaleString()} OK) · ${s.rate}/s · ETA ${etaMin} min`;
+      } else if (s.list_total > 0) {
+        pct = (s.list_done / s.list_total * 100);
+        label = `📋 ${sport} — liste events${period}`;
+        fillClass = 'listing';
+        meta = `${s.list_done} / ${s.list_total} jours, ${s.list_events.toLocaleString()} events`;
+      } else {
+        continue;
+      }
+      html += `
+        <div class="progress-row">
+          <div class="progress-label"><span>${label}</span><span>${pct.toFixed(1)}%</span></div>
+          <div class="progress-bar"><div class="progress-fill ${fillClass}" style="width:${pct}%"></div></div>
+          <div class="progress-meta">${meta}</div>
+        </div>`;
+    }
+
+    if (!data.running) {
+      html += `<div style="color:#4ade80;margin-top:10px">✅ Scrape terminé !</div>`;
+    }
+
+    el.innerHTML = html || 'En attente…';
+  } catch (e) {
+    document.getElementById('scrape-status').innerHTML = 'Erreur: ' + e.message;
+  }
+}
+
+loadScrapeStatus();
+setInterval(loadScrapeStatus, 5000);
+
+async function runBacktest(periodMode) {
+  const btn = periodMode ? document.getElementById('btRun') : document.getElementById('btRunDay');
+  btn.disabled = true;
+  btn.innerHTML = '<span class="loader"></span>Backtest…';
+  const sports = Array.from(document.querySelectorAll('.bt_sport:checked')).map(c => c.value);
+  const params = new URLSearchParams({
+    date: document.getElementById('bt_date').value,
+    top: document.getElementById('bt_n_combos').value,
+    max_legs: document.getElementById('bt_max_legs').value,
+    sort_by: document.getElementById('bt_sort').value,
+    stake: document.getElementById('bt_stake').value,
+    cote_min: document.getElementById('bt_cote_min').value,
+    cote_max: document.getElementById('bt_cote_max').value,
+    sports: sports.join(','),
+    min_ev: document.getElementById('bt_min_ev').value || '',
+    min_wr: document.getElementById('bt_min_wr').value || '',
+    rigorous: document.getElementById('bt_rigorous').checked ? '1' : '0',
+  });
+  if (periodMode) {
+    params.set('end_date', document.getElementById('bt_end').value);
+  }
+  try {
+    const r = await fetch('/api/backtest?' + params);
+    const data = await r.json();
+    if (data.mode === 'period') renderBacktestPeriod(data);
+    else renderBacktest(data);
+  } catch (e) {
+    alert('Erreur: ' + e.message);
+  }
+  btn.disabled = false;
+  btn.textContent = periodMode ? 'Lancer backtest' : '1 jour seul';
+}
+
+document.getElementById('btRun').addEventListener('click', () => runBacktest(true));
+document.getElementById('btRunDay').addEventListener('click', () => runBacktest(false));
+
+// ===== Mode hybride =====
+const ALL_SPORTS_HY = ['football','basketball','ice-hockey','baseball','tennis'];
+const SPORT_SHORT = {football:'Foot', basketball:'Basket', 'ice-hockey':'Hockey', baseball:'Baseball', tennis:'Tennis'};
+window._presetsCache = {};
+
+async function loadPresets() {
+  try {
+    const r = await fetch('/api/backtest-presets');
+    const presets = await r.json();
+    window._presetsCache = presets;
+    const sel = document.getElementById('bt_preset');
+    Object.entries(presets).forEach(([k, v]) => {
+      const opt = document.createElement('option');
+      opt.value = k;
+      opt.textContent = v.label;
+      sel.appendChild(opt);
+    });
+    // Default = Multi_full_BTTS_optimal (multipliers calibrés, série rouge -4j sur pires semestres)
+    const defaultPreset = presets['Foot_mix_3j_over15'] ? 'Foot_mix_3j_over15' : 'Multi_full_BTTS_optimal';
+    document.getElementById('bt_preset').value = defaultPreset;
+    if (presets[defaultPreset]) {
+      renderComponents(presets[defaultPreset].components);
+      document.getElementById('bt_dedup').value = presets[defaultPreset].dedup || 'none';
+    }
+    syncHybridUI();
+  } catch (e) { console.error('presets:', e); }
+}
+loadPresets();
+
+function renderComponents(comps) {
+  const list = document.getElementById('bt_components_list');
+  list.innerHTML = '';
+  comps.forEach((c, i) => list.appendChild(buildComponentRow(c, i)));
+  updateModifiedBadge();
+}
+
+function buildComponentRow(c, idx) {
+  const row = document.createElement('div');
+  row.className = 'bt-comp-row';
+  row.dataset.idx = idx;
+  row.style.cssText = 'background:#15171c;border:1px solid #23262e;border-radius:6px;padding:8px 12px;margin-bottom:6px;display:flex;align-items:center;gap:10px;flex-wrap:wrap;font-size:12px';
+  row.innerHTML = `
+    <span style="font-weight:600;color:#4ade80;min-width:24px">C${idx+1}</span>
+    <label>Jambes
+      <select class="bt-comp-legs">${[1,2,3,4,5,6].map(n => `<option value="${n}" ${c.max_legs===n?'selected':''}>${n}j</option>`).join('')}</select>
+    </label>
+    <label>Cote
+      <input type="number" class="bt-comp-cmin" value="${c.cote_min}" step="0.1" min="1.01" style="width:60px" />
+      –
+      <input type="number" class="bt-comp-cmax" value="${c.cote_max}" step="0.1" min="1.02" style="width:60px" />
+    </label>
+    <label>Tri
+      <select class="bt-comp-sort">
+        <option value="ev" ${c.sort_by==='ev'?'selected':''}>EV</option>
+        <option value="wr" ${c.sort_by==='wr'?'selected':''}>WR (safe)</option>
+        <option value="cote" ${c.sort_by==='cote'?'selected':''}>Cote (payout)</option>
+      </select>
+    </label>
+    <label>Sports
+      <span class="bt-comp-sports" style="display:inline-flex;gap:4px;flex-wrap:wrap">
+        ${ALL_SPORTS_HY.map(s => `<label style="font-size:11px;background:${(c.sports||[]).includes(s)?'#1a3a2a':'#0e0f12'};padding:2px 6px;border-radius:3px;cursor:pointer;border:1px solid #23262e"><input type="checkbox" value="${s}" ${(c.sports||[]).includes(s)?'checked':''} style="margin:0 3px 0 0;vertical-align:middle"/>${SPORT_SHORT[s]}</label>`).join('')}
+      </span>
+    </label>
+    <label>Combos/j
+      <input type="number" class="bt-comp-mc" value="${c.max_combos}" min="1" max="10" style="width:55px" />
+    </label>
+    <label title="Multiplicateur de mise pour cette composante (1.0=mise normale, 0.5=mi-mise, 1.5=1.5x)">×stake
+      <input type="number" class="bt-comp-sm" value="${c.stake_multiplier ?? 1.0}" min="0.1" max="3" step="0.1" style="width:55px" />
+    </label>
+    <button type="button" class="bt-comp-del" title="Supprimer composante" style="background:#3a2020;color:#ef4444;padding:3px 8px;border:1px solid #5a2030">🗑</button>
+  `;
+  // Listeners
+  row.querySelectorAll('input, select').forEach(el => {
+    const evt = el.tagName === 'SELECT' || el.type === 'checkbox' ? 'change' : 'input';
+    el.addEventListener(evt, () => { updateModifiedBadge(); refreshSportLabels(row); });
+  });
+  // Sport label color toggle
+  refreshSportLabels(row);
+  row.querySelector('.bt-comp-del').addEventListener('click', () => {
+    row.remove();
+    reindexComponents();
+    updateModifiedBadge();
+  });
+  return row;
+}
+
+function refreshSportLabels(row) {
+  row.querySelectorAll('.bt-comp-sports label').forEach(lbl => {
+    const cb = lbl.querySelector('input[type=checkbox]');
+    lbl.style.background = cb.checked ? '#1a3a2a' : '#0e0f12';
+  });
+}
+
+function reindexComponents() {
+  document.querySelectorAll('.bt-comp-row').forEach((r, i) => {
+    r.dataset.idx = i;
+    r.querySelector('span').textContent = `C${i+1}`;
+  });
+}
+
+function getComponents() {
+  return Array.from(document.querySelectorAll('.bt-comp-row')).map(row => ({
+    max_legs: parseInt(row.querySelector('.bt-comp-legs').value),
+    cote_min: parseFloat(row.querySelector('.bt-comp-cmin').value),
+    cote_max: parseFloat(row.querySelector('.bt-comp-cmax').value),
+    sort_by: row.querySelector('.bt-comp-sort').value,
+    sports: Array.from(row.querySelectorAll('.bt-comp-sports input:checked')).map(cb => cb.value),
+    max_combos: parseInt(row.querySelector('.bt-comp-mc').value),
+    stake_multiplier: parseFloat(row.querySelector('.bt-comp-sm').value) || 1.0,
+  }));
+}
+
+function componentsEqual(a, b) {
+  if (a.length !== b.length) return false;
+  for (let i = 0; i < a.length; i++) {
+    const x = a[i], y = b[i];
+    if (x.max_legs !== y.max_legs) return false;
+    if (x.cote_min !== y.cote_min) return false;
+    if (x.cote_max !== y.cote_max) return false;
+    if (x.sort_by !== y.sort_by) return false;
+    if (x.max_combos !== y.max_combos) return false;
+    const sx = [...x.sports].sort(), sy = [...y.sports].sort();
+    if (sx.length !== sy.length || sx.some((s, i) => s !== sy[i])) return false;
+  }
+  return true;
+}
+
+function updateModifiedBadge() {
+  const presetId = document.getElementById('bt_preset').value;
+  const badge = document.getElementById('bt_modified_badge');
+  if (!presetId || !window._presetsCache[presetId]) {
+    badge.style.display = 'none';
+    return;
+  }
+  const preset = window._presetsCache[presetId].components;
+  const current = getComponents();
+  badge.style.display = componentsEqual(preset, current) ? 'none' : '';
+}
+
+document.getElementById('btAddComp').addEventListener('click', () => {
+  const list = document.getElementById('bt_components_list');
+  if (list.children.length >= 8) { alert('Max 8 composantes.'); return; }
+  const newComp = {max_legs: 3, cote_min: 2.0, cote_max: 5.0, sort_by: 'ev',
+                   sports: ['football','basketball'], max_combos: 1};
+  list.appendChild(buildComponentRow(newComp, list.children.length));
+  updateModifiedBadge();
+});
+
+document.getElementById('bt_preset').addEventListener('change', (e) => {
+  const k = e.target.value;
+  if (k && window._presetsCache[k]) {
+    renderComponents(window._presetsCache[k].components);
+    document.getElementById('bt_dedup').value = window._presetsCache[k].dedup || 'none';
+  }
+  syncHybridUI();
+});
+
+function syncHybridUI() {
+  const preset = document.getElementById('bt_preset').value;
+  const classicEl = document.getElementById('bt_classic_controls');
+  const warning = document.getElementById('bt_hybrid_warning');
+  const btnHybrid = document.getElementById('btRunHybrid');
+  const compsWrapper = document.getElementById('bt_components_wrapper');
+  const nComps = document.querySelectorAll('.bt-comp-row').length;
+
+  // Mode hybride actif si preset choisi OU au moins 1 composante existe
+  const hybridActive = !!preset || nComps > 0;
+  classicEl.style.display = hybridActive ? 'none' : '';
+  compsWrapper.style.display = hybridActive ? '' : 'none';
+  btnHybrid.disabled = nComps === 0;
+  btnHybrid.style.opacity = nComps === 0 ? 0.4 : 1;
+
+  const sd = new Date(document.getElementById('bt_date').value);
+  const ed = new Date(document.getElementById('bt_end').value);
+  const days = (ed - sd) / 86400000;
+  warning.style.display = (hybridActive && days < 90) ? '' : 'none';
+}
+document.getElementById('bt_date').addEventListener('change', syncHybridUI);
+document.getElementById('bt_end').addEventListener('change', syncHybridUI);
+syncHybridUI();
+
+async function runHybrid() {
+  const components = getComponents();
+  if (components.length === 0) { alert('Ajoute au moins une composante.'); return; }
+  // Validation simple côté client
+  for (const c of components) {
+    if (c.cote_min >= c.cote_max) { alert(`Composante invalide : cote_min (${c.cote_min}) ≥ cote_max (${c.cote_max})`); return; }
+    if (c.sports.length === 0) { alert('Chaque composante doit avoir ≥ 1 sport coché.'); return; }
+  }
+  const btn = document.getElementById('btRunHybrid');
+  btn.disabled = true;
+  btn.innerHTML = '<span class="loader"></span>Backtest hybride…';
+  const br0 = parseFloat(document.getElementById('bt_bankroll').value) || 100;
+  const params = new URLSearchParams({
+    components: JSON.stringify(components),
+    date: document.getElementById('bt_date').value,
+    end_date: document.getElementById('bt_end').value,
+    sizing: 'flat_pct',
+    stake: br0 * 0.10,
+    bankroll: br0,
+    cap_pct: '10',
+    kelly_div: '4',
+    stake_cap: '0',
+    dedup: document.getElementById('bt_dedup').value,
+    bookmaker: document.getElementById('bt_bookmaker').value,
+    skip_after_loss: document.getElementById('bt_skip_loss').checked ? '1' : '0',
+    magic_source: document.getElementById('bt_magic_source').value,
+  });
+  try {
+    const r = await fetch('/api/backtest-hybrid?' + params);
+    const data = await r.json();
+    if (data.error) throw new Error(data.error);
+    // Override label si custom
+    const presetId = document.getElementById('bt_preset').value;
+    const isModified = document.getElementById('bt_modified_badge').style.display !== 'none';
+    if (presetId && !isModified && window._presetsCache[presetId]) {
+      data.preset_label = window._presetsCache[presetId].label;
+    } else if (isModified && presetId) {
+      data.preset_label = window._presetsCache[presetId].label + ' (modifié ✏️)';
+    } else {
+      data.preset_label = 'Configuration custom';
+    }
+    renderBacktestHybrid(data);
+  } catch (e) {
+    alert('Erreur: ' + e.message);
+  }
+  btn.disabled = false;
+  btn.textContent = 'Lancer hybride';
+}
+document.getElementById('btRunHybrid').addEventListener('click', runHybrid);
+
+function renderBacktestHybrid(data) {
+  const sum = document.getElementById('bt_summary');
+  const fmtEur = (v) => {
+    if (Math.abs(v) >= 1e9) return (v/1e9).toFixed(2) + ' Md€';
+    if (Math.abs(v) >= 1e6) return (v/1e6).toFixed(2) + ' M€';
+    if (Math.abs(v) >= 1e3) return (v/1e3).toFixed(1) + ' k€';
+    return v.toFixed(2) + '€';
+  };
+  const sizingLabel = {flat:'Flat fixe', flat_pct:'Flat % bankroll', kelly:'Kelly fractionnaire'}[data.sizing_mode];
+  sum.innerHTML = `
+    <div style="background:#0e0f12;border:1px solid #4ade80;border-radius:8px;padding:14px;margin-bottom:12px">
+      <div style="font-weight:600;color:#4ade80;font-size:15px;margin-bottom:6px">${data.preset_label}</div>
+      <div style="font-size:12px;color:#8b909a">Sizing: <strong>${sizingLabel}</strong> · Bankroll initiale: <strong>${data.bankroll0}€</strong>${data.stake_cap_abs>0?` · Cap mise: <strong>${data.stake_cap_abs}€</strong>`:''}</div>
+    </div>
+    <div class="stats">
+      <div class="stat"><div class="stat-label">Période</div><div class="stat-value" style="font-size:14px">${data.start_date} → ${data.end_date}</div></div>
+      <div class="stat"><div class="stat-label">Jours joués</div><div class="stat-value">${data.n_days_played}/${data.n_days_total}</div></div>
+      <div class="stat"><div class="stat-label">📅 Jours gagnants</div><div class="stat-value" style="color:#4ade80;font-size:14px">${data.n_days_green || 0}/${data.n_days_played} <span style="font-size:11px;opacity:0.8">(${((data.daily_win_rate||0)*100).toFixed(0)}%)</span></div><div style="font-size:10px;color:#ef4444">${data.n_days_red||0} perdus</div></div>
+      <div class="stat"><div class="stat-label">Combos</div><div class="stat-value">${data.n_combos_total}</div></div>
+      <div class="stat"><div class="stat-label">Gagnés</div><div class="stat-value">${data.n_won_total} (${(data.wr_combos*100).toFixed(0)}%)</div></div>
+      <div class="stat"><div class="stat-label">Bankroll finale</div><div class="stat-value" style="color:${data.bankroll_final>=data.bankroll0?'#4ade80':'#ef4444'};font-size:18px">${fmtEur(data.bankroll_final)}</div></div>
+      <div class="stat"><div class="stat-label">×Multiplier</div><div class="stat-value" style="color:#4ade80">${data.bankroll_multiplier.toFixed(1)}×</div></div>
+      <div class="stat"><div class="stat-label">Misé total</div><div class="stat-value">${fmtEur(data.stake_total)}</div></div>
+      <div class="stat"><div class="stat-label">PnL</div><div class="stat-value" style="color:${data.pnl_total>=0?'#4ade80':'#ef4444'}">${data.pnl_total>=0?'+':''}${fmtEur(data.pnl_total)}</div></div>
+      <div class="stat"><div class="stat-label">ROI</div><div class="stat-value" style="color:${data.roi>=0?'#4ade80':'#ef4444'}">${data.roi>=0?'+':''}${(data.roi*100).toFixed(1)}%</div></div>
+      <div class="stat"><div class="stat-label">Min / Max BR</div><div class="stat-value" style="font-size:12px">${fmtEur(data.bankroll_min)} / ${fmtEur(data.bankroll_max)}</div></div>
+      <div class="stat"><div class="stat-label">📉 Drawdown max</div><div class="stat-value" style="color:#ef4444;font-size:14px" title="Plus grosse chute peak→trough sur la période">${fmtEur(data.max_drawdown||0)} <span style="opacity:0.7;font-size:11px">(-${((data.max_drawdown_pct||0)*100).toFixed(1)}%)</span></div><div style="font-size:10px;color:#8b909a">${data.max_drawdown_date||''}</div></div>
+      <div class="stat"><div class="stat-label">Dédup</div><div class="stat-value" style="font-size:12px;color:${data.dedup_mode==='none'?'#8b909a':'#4ade80'}">${data.dedup_mode || 'none'}</div></div>
+      ${data.bust ? `<div class="stat"><div class="stat-label">⚠️ BUST</div><div class="stat-value" style="color:#ef4444;font-size:14px">${data.bust_date}</div></div>` : ''}
+    </div>
+
+    <div style="margin-top:14px">
+      <div style="font-size:13px;color:#8b909a;margin-bottom:6px">Breakdown par composante</div>
+      <table class="magic-table">
+        <tr><th>#</th><th>Cote</th><th>Jambes</th><th>Sports</th><th>Sort</th><th>Combos</th><th>WR</th><th>PnL</th><th>ROI</th></tr>
+        ${data.breakdown.map(b => `
+          <tr>
+            <td><strong>${b.component}</strong></td>
+            <td>${b.config.cote_min}-${b.config.cote_max}</td>
+            <td>${b.config.max_legs}j × ${b.config.max_combos}/j</td>
+            <td style="font-size:11px">${b.config.sports.join(',')}</td>
+            <td>${b.config.sort_by.toUpperCase()}</td>
+            <td>${b.n_combos}</td>
+            <td>${(b.wr*100).toFixed(0)}%</td>
+            <td style="color:${b.pnl>=0?'#4ade80':'#ef4444'}">${b.pnl>=0?'+':''}${fmtEur(b.pnl)}</td>
+            <td style="color:${b.roi>=0?'#4ade80':'#ef4444'}">${b.roi>=0?'+':''}${(b.roi*100).toFixed(1)}%</td>
+          </tr>
+        `).join('')}
+      </table>
+    </div>
+  `;
+
+  // Courbe bankroll log-scale si compounding (multiplier > 100)
+  const chart = document.getElementById('bt_chart');
+  const curve = data.bankroll_curve;
+  const useLog = data.bankroll_multiplier > 100;
+  const transformed = useLog ? curve.map(v => Math.log10(Math.max(0.01, v))) : curve;
+  const maxV = Math.max(...transformed);
+  const minV = Math.min(...transformed);
+  const range = maxV - minV || 1;
+  const w = 680;
+  const h = 140;
+  const points = transformed.map((v, i) => `${i * w / (transformed.length - 1)},${h - ((v - minV) / range) * h}`).join(' ');
+  chart.innerHTML = `
+    <div style="font-size:13px;color:#8b909a;margin-bottom:6px">
+      Évolution bankroll ${useLog?'<span style="color:#4ade80">(échelle log)</span>':''} — ${data.bankroll0}€ → ${fmtEur(data.bankroll_final)}
+    </div>
+    <svg width="${w}" height="${h}" style="background:#0e0f12;border:1px solid #23262e;border-radius:8px">
+      <polyline points="${points}" stroke="${data.pnl_total>=0?'#4ade80':'#ef4444'}" stroke-width="2" fill="none" />
+    </svg>
+  `;
+
+  // Tableau jour par jour
+  const br0 = data.bankroll0 || 100;
+  const list = document.getElementById('bt_combos');
+  list.innerHTML = '<div style="margin-bottom:10px;color:#4ade80;font-weight:600">Détail jour par jour (clique pour voir les combos)</div>'
+    + data.daily.map(d => {
+      const mult = d.bankroll_end / br0;
+      const brColor = d.bankroll_end >= br0 ? '#4ade80' : (d.bankroll_end >= br0*0.5 ? '#fb923c' : '#ef4444');
+      return `
+      <details style="margin-bottom:6px;background:#0e0f12;border:1px solid #23262e;border-radius:8px;padding:10px 14px">
+        <summary style="cursor:pointer;display:flex;justify-content:space-between;align-items:center;font-size:13px;gap:12px">
+          <span style="flex:1"><strong>${d.date}</strong> · ${d.n_combos} combos · ${d.n_won}/${d.n_combos} gagnés · misé ${fmtEur(d.stake)}</span>
+          <span style="color:${d.pnl>=0?'#4ade80':'#ef4444'};font-weight:600;min-width:90px;text-align:right">${d.pnl>=0?'+':''}${fmtEur(d.pnl)}</span>
+          <span style="color:${brColor};font-weight:700;background:#15171c;padding:3px 10px;border-radius:4px;border:1px solid ${brColor};min-width:140px;text-align:right;font-family:'SF Mono',monospace;font-size:12px">💰 BR: ${fmtEur(d.bankroll_end)} <span style="opacity:0.7;font-size:10px">×${mult.toFixed(2)}</span></span>
+        </summary>
+        <div style="margin-top:10px">
+          ${d.combos.map((c, i) => `
+            <div style="border:1px solid ${c.won?'#4ade80':'#ef4444'};border-radius:6px;padding:8px 12px;margin-bottom:6px;background:#15171c">
+              <div style="display:flex;justify-content:space-between;font-size:13px;margin-bottom:6px">
+                <span><span style="background:#2a2d36;padding:1px 6px;border-radius:3px;font-size:10px;margin-right:6px">C${c.component}</span><strong>${c.won?'✅':'❌'} #${i+1}</strong> · cote ${c.cote_t.toFixed(2)} · wr ${(c.wr_t*100).toFixed(0)}% · mise ${fmtEur(c.stake)}</span>
+                <span style="color:${c.won?'#4ade80':'#ef4444'};font-weight:600">${c.won?`+${fmtEur(c.stake*(c.cote_t-1))}`:`-${fmtEur(c.stake)}`}</span>
+              </div>
+              ${c.legs.map(l => `
+                <div style="font-size:12px;padding:3px 0;color:${l.won?'#e6e8ec':'#8b909a'}">
+                  <span style="background:#2a2d36;padding:1px 6px;border-radius:3px;font-size:10px">${l.sport}</span>
+                  ${l.match} → <strong style="color:${l.won?'#4ade80':'#ef4444'}">${l.selection}</strong> @ ${l.odds.toFixed(2)} ${l.won?'✓':'✗'} ${l.score}
+                </div>
+              `).join('')}
+            </div>
+          `).join('')}
+        </div>
+      </details>
+    `;
+    }).join('');
+}
+
+document.getElementById('bt_period_quick').addEventListener('change', (e) => {
+  const days = parseInt(e.target.value);
+  if (!days) return;
+  const end = new Date();
+  const start = new Date(end.getTime() - days*86400000);
+  document.getElementById('bt_date').value = start.toISOString().split('T')[0];
+  document.getElementById('bt_end').value = end.toISOString().split('T')[0];
+});
+document.getElementById('bt_period_quick').dispatchEvent(new Event('change'));
+
+let _btSportsRendered = false;
+async function loadBtSports() {
+  const ALL = ['football','basketball','ice-hockey','baseball','tennis'];
+  const LABELS = {football:'Foot', basketball:'Basket', 'ice-hockey':'Hockey', baseball:'Baseball', tennis:'Tennis'};
+  try {
+    const r = await fetch('/api/datasets');
+    const data = await r.json();
+    const avail = new Set(data.datasets.map(d => d.sport));
+
+    if (!_btSportsRendered) {
+      const html = ALL.map(s => {
+        const ok = avail.has(s);
+        const label = LABELS[s] + (ok ? ' ✅' : ' ⏳');
+        return `<label style="opacity:${ok?1:0.4}"><input type="checkbox" class="bt_sport" value="${s}" ${ok?'checked':'disabled'}> ${label}</label>`;
+      }).join(' ');
+      document.getElementById('bt_sports_avail').innerHTML = html;
+      _btSportsRendered = true;
+    } else {
+      // Mise à jour silencieuse : ré-active les checkboxes nouvellement disponibles SANS toucher l'état coché
+      ALL.forEach(s => {
+        const cb = document.querySelector(`.bt_sport[value="${s}"]`);
+        if (!cb) return;
+        const ok = avail.has(s);
+        cb.disabled = !ok;
+        const lbl = cb.parentElement;
+        lbl.style.opacity = ok ? 1 : 0.4;
+        lbl.innerHTML = lbl.innerHTML.replace(/[✅⏳]/, ok ? '✅' : '⏳');
+      });
+    }
+  } catch (e) {
+    if (!_btSportsRendered) document.getElementById('bt_sports_avail').innerHTML = 'Erreur';
+  }
+}
+loadBtSports();
+setInterval(loadBtSports, 30000);
+
+function renderBacktestPeriod(data) {
+  const sum = document.getElementById('bt_summary');
+  sum.innerHTML = `
+    <div class="stats">
+      <div class="stat"><div class="stat-label">Période</div><div class="stat-value" style="font-size:14px">${data.start_date} → ${data.end_date}</div></div>
+      <div class="stat"><div class="stat-label">Jours joués</div><div class="stat-value">${data.n_days_played}/${data.n_days_total}</div></div>
+      <div class="stat"><div class="stat-label">Combos</div><div class="stat-value">${data.n_combos_total}</div></div>
+      <div class="stat"><div class="stat-label">Gagnés</div><div class="stat-value">${data.n_won_total} (${(data.wr_combos*100).toFixed(0)}%)</div></div>
+      <div class="stat"><div class="stat-label">Misé</div><div class="stat-value">${data.stake_total.toFixed(0)}€</div></div>
+      <div class="stat"><div class="stat-label">PnL total</div><div class="stat-value" style="color:${data.pnl_total>=0?'#4ade80':'#ef4444'}">${data.pnl_total>=0?'+':''}${data.pnl_total.toFixed(2)}€</div></div>
+      <div class="stat"><div class="stat-label">ROI</div><div class="stat-value" style="color:${data.roi>=0?'#4ade80':'#ef4444'}">${data.roi>=0?'+':''}${(data.roi*100).toFixed(1)}%</div></div>
+      <div class="stat"><div class="stat-label">Meilleur jour</div><div class="stat-value" style="font-size:14px;color:#4ade80">${data.best_day} +${data.best_day_pnl.toFixed(0)}€</div></div>
+      <div class="stat"><div class="stat-label">Pire jour</div><div class="stat-value" style="font-size:14px;color:#ef4444">${data.worst_day} ${data.worst_day_pnl.toFixed(0)}€</div></div>
+      <div class="stat"><div class="stat-label">Série Win max</div><div class="stat-value">${data.max_streak_won}</div></div>
+      <div class="stat"><div class="stat-label">Série Lose max</div><div class="stat-value">${data.max_streak_lost}</div></div>
+    </div>
+  `;
+
+  // Tableau jour par jour AVEC dépliage des combos
+  const list = document.getElementById('bt_combos');
+  const daysWithCombos = data.daily.filter(d => d.n_combos > 0);
+  list.innerHTML = '<div style="margin-bottom:10px;color:#4ade80;font-weight:600">Détail jour par jour (clique sur une date pour voir les combos)</div>'
+    + daysWithCombos.map(d => `
+      <details style="margin-bottom:6px;background:#0e0f12;border:1px solid #23262e;border-radius:8px;padding:10px 14px">
+        <summary style="cursor:pointer;display:flex;justify-content:space-between;align-items:center;font-size:13px">
+          <span><strong>${d.date}</strong> · ${d.n_picks} picks · ${d.n_combos} combos · ${d.n_won}/${d.n_combos} gagnés</span>
+          <span style="color:${d.pnl>=0?'#4ade80':'#ef4444'};font-weight:600">${d.pnl>=0?'+':''}${d.pnl.toFixed(2)}€</span>
+        </summary>
+        <div style="margin-top:10px">
+          ${(d.combos || []).map((c, i) => `
+            <div style="border:1px solid ${c.won?'#4ade80':'#ef4444'};border-radius:6px;padding:8px 12px;margin-bottom:6px;background:#15171c">
+              <div style="display:flex;justify-content:space-between;font-size:13px;margin-bottom:6px">
+                <span><strong>${c.won?'✅':'❌'} #${i+1}</strong> · cote ${c.cote_t.toFixed(2)} · wr ${(c.wr_t*100).toFixed(0)}%</span>
+                <span style="color:${c.won?'#4ade80':'#ef4444'};font-weight:600">${c.won?`+${(data.stake*(c.cote_t-1)).toFixed(2)}€`:`-${data.stake}€`}</span>
+              </div>
+              ${c.legs.map(l => `
+                <div style="font-size:12px;padding:3px 0;color:${l.won?'#e6e8ec':'#8b909a'}">
+                  <span style="background:#2a2d36;padding:1px 6px;border-radius:3px;font-size:10px">${l.sport}</span>
+                  ${l.match} → <strong style="color:${l.won?'#4ade80':'#ef4444'}">${l.selection}</strong> @ ${l.odds.toFixed(2)} ${l.won?'✓':'✗'} ${l.score}
+                </div>
+              `).join('')}
+            </div>
+          `).join('')}
+        </div>
+      </details>
+    `).join('');
+
+  // Mini bankroll curve (texte ASCII pour rester simple)
+  const chart = document.getElementById('bt_chart');
+  const curve = data.bankroll_curve;
+  const maxV = Math.max(...curve);
+  const minV = Math.min(...curve);
+  const range = maxV - minV || 1;
+  const w = 600;
+  const h = 100;
+  const points = curve.map((v, i) => `${i * w / (curve.length - 1)},${h - ((v - minV) / range) * h}`).join(' ');
+  chart.innerHTML = `
+    <div style="font-size:13px;color:#8b909a;margin-bottom:6px">Courbe bankroll cumulée</div>
+    <svg width="${w}" height="${h}" style="background:#0e0f12;border:1px solid #23262e;border-radius:8px">
+      <polyline points="${points}" stroke="${data.pnl_total>=0?'#4ade80':'#ef4444'}" stroke-width="2" fill="none" />
+      <line x1="0" y1="${h-((-minV)/range)*h}" x2="${w}" y2="${h-((-minV)/range)*h}" stroke="#23262e" stroke-dasharray="3,3" />
+    </svg>
+  `;
+}
+
+function renderBacktest(data) {
+  const sum = document.getElementById('bt_summary');
+  const wonClass = data.pnl > 0 ? 'green' : 'pick-ev neg';
+  sum.innerHTML = `
+    <div class="stats">
+      <div class="stat"><div class="stat-label">Matchs ${data.date}</div><div class="stat-value">${data.n_matches}</div></div>
+      <div class="stat"><div class="stat-label">Picks magiques</div><div class="stat-value">${data.n_picks}</div></div>
+      <div class="stat"><div class="stat-label">Combos joués</div><div class="stat-value">${data.n_combos}</div></div>
+      <div class="stat"><div class="stat-label">Gagnés</div><div class="stat-value">${data.n_won}/${data.n_combos}</div></div>
+      <div class="stat"><div class="stat-label">Misé</div><div class="stat-value">${data.total_stake}€</div></div>
+      <div class="stat"><div class="stat-label">PnL</div><div class="stat-value" style="color:${data.pnl>=0?'#4ade80':'#ef4444'}">${data.pnl>=0?'+':''}${data.pnl.toFixed(2)}€</div></div>
+      <div class="stat"><div class="stat-label">ROI</div><div class="stat-value" style="color:${data.roi>=0?'#4ade80':'#ef4444'}">${data.roi>=0?'+':''}${(data.roi*100).toFixed(1)}%</div></div>
+    </div>
+  `;
+
+  const list = document.getElementById('bt_combos');
+  if (!data.combos.length) {
+    list.innerHTML = '<div class="empty">Aucun combo généré pour cette date.</div>';
+    return;
+  }
+  list.innerHTML = data.combos.map((c, i) => `
+    <div class="combo" style="border-color:${c.won?'#4ade80':'#ef4444'}">
+      <div class="combo-header">
+        <div class="combo-title">${c.won ? '✅' : '❌'} Combo #${i+1}</div>
+        <div class="combo-stats">
+          <span class="combo-stat">cote <strong>${c.cote_t.toFixed(2)}</strong></span>
+          <span class="combo-stat">wr <strong>${(c.wr_t*100).toFixed(0)}%</strong></span>
+          <span class="combo-stat ${c.won?'green':''}" style="color:${c.won?'#4ade80':'#ef4444'}">${c.won?`+${(data.stake*(c.cote_t-1)).toFixed(2)}€`:`-${data.stake}€`}</span>
+        </div>
+      </div>
+      ${c.legs.map(l => `
+        <div class="leg" style="opacity:${l.won?1:0.6}">
+          <span class="leg-sport">${l.sport}</span>
+          ${l.match} → <span class="leg-team">${l.selection}</span> @ <span class="pick-cote">${l.odds.toFixed(2)}</span>
+          <span style="color:${l.won?'#4ade80':'#ef4444'};font-weight:600;margin-left:8px">${l.won?'✓':'✗'} ${l.score}</span>
+          <div class="leg-meta">${l.league}</div>
+        </div>
+      `).join('')}
+    </div>
+  `).join('');
+}
+
+// ===== Live Combos =====
+function lvFmtEur(v) {
+  return v.toFixed(2) + '€';
+}
+
+async function lvLoadPresets() {
+  try {
+    const r = await fetch('/api/backtest-presets');
+    const presets = await r.json();
+    const sel = document.getElementById('lv_preset');
+    Object.entries(presets).forEach(([k, v]) => {
+      const opt = document.createElement('option');
+      opt.value = k;
+      opt.textContent = v.label;
+      sel.appendChild(opt);
+    });
+    const def = presets['Foot_mix_3j_over15'] ? 'Foot_mix_3j_over15' : Object.keys(presets)[0];
+    sel.value = def;
+    if (presets[def]) document.getElementById('lv_dedup').value = presets[def].dedup || 'none';
+    sel.addEventListener('change', () => {
+      const k = sel.value;
+      if (k && presets[k]) document.getElementById('lv_dedup').value = presets[k].dedup || 'none';
+    });
+  } catch (e) { console.error('lv presets:', e); }
+}
+document.getElementById('lv_date').value = new Date().toISOString().split('T')[0];
+document.getElementById('btLvToday').addEventListener('click', () => {
+  document.getElementById('lv_date').value = new Date().toISOString().split('T')[0];
+});
+document.getElementById('btLvTomorrow').addEventListener('click', () => {
+  const t = new Date(); t.setDate(t.getDate() + 1);
+  document.getElementById('lv_date').value = t.toISOString().split('T')[0];
+});
+lvLoadPresets();
+
+function formatStartTimeShort(ts) {
+  if (!ts) return '';
+  const d = new Date(ts * 1000);
+  return d.toLocaleString('fr-FR', {weekday:'short', hour:'2-digit', minute:'2-digit'});
+}
+
+function buildTelegramMessage(data) {
+  const lines = [];
+  lines.push(`🎯 *Combos du ${data.date}*`);
+  lines.push(`💰 BR ${data.bankroll}€ · ${data.n_combos} combos · mise totale ${data.total_stake}€`);
+  lines.push(`📈 Si tout passe : *+${data.total_potential_gain}€* → BR ${data.bankroll_after_all_win}€`);
+  lines.push(`📉 Si tout perd : BR ${data.bankroll_after_all_lose}€`);
+  lines.push('');
+  data.combos.forEach((c, i) => {
+    lines.push(`*Combo #${i+1}* — cote ${c.cote_t.toFixed(2)} · WR ${(c.wr_t*100).toFixed(0)}%`);
+    lines.push(`  💵 Mise *${c.stake}€* → potentiel +${c.potential_gain}€`);
+    c.legs.forEach(l => {
+      const t = l.start_time ? ' ⏰ ' + formatStartTimeShort(l.start_time) : '';
+      lines.push(`  • [${l.sport}] ${l.match} → *${l.selection}* @ ${l.odds.toFixed(2)}${t}`);
+    });
+    lines.push('');
+  });
+  return lines.join('\n');
+}
+
+async function runLive() {
+  const btn = document.getElementById('btLive');
+  btn.disabled = true;
+  btn.innerHTML = '<span class="loader"></span>Récupération events…';
+  const br0 = parseFloat(document.getElementById('lv_bankroll0').value) || 100;
+  const params = new URLSearchParams({
+    preset: document.getElementById('lv_preset').value,
+    date: document.getElementById('lv_date').value,
+    bankroll: document.getElementById('lv_bankroll').value,
+    bankroll0: br0,
+    stake: br0 * 0.10,
+    sizing: 'flat_pct',
+    stake_cap: '0',
+    dedup: document.getElementById('lv_dedup').value,
+    bookmaker: document.getElementById('lv_bookmaker').value,
+    magic_source: document.getElementById('lv_magic_source').value,
+  });
+  try {
+    const r = await fetch('/api/live-combos?' + params);
+    const data = await r.json();
+    if (data.error) throw new Error(data.error);
+    renderLive(data);
+  } catch (e) {
+    document.getElementById('lv_combos').innerHTML = '<div style="color:#ef4444">Erreur: ' + e.message + '</div>';
+  }
+  btn.disabled = false;
+  btn.textContent = '🎯 Générer les combos';
+}
+document.getElementById('btLive').addEventListener('click', runLive);
+
+function renderLive(data) {
+  const sum = document.getElementById('lv_summary');
+  const sizingLabel = {flat:'Flat fixe', flat_pct:'Adaptatif % BR'}[data.sizing_mode] || data.sizing_mode;
+  sum.innerHTML = `
+    <div style="background:#0e0f12;border:1px solid #4ade80;border-radius:8px;padding:14px;margin-bottom:12px">
+      <div style="font-weight:600;color:#4ade80;font-size:14px;margin-bottom:6px">${data.preset_label}</div>
+      <div style="font-size:12px;color:#8b909a">Sizing: <strong>${sizingLabel}</strong> · Bankroll: <strong>${data.bankroll}€</strong> · Mise nominale: <strong>${data.base_stake}€</strong>${data.stake_cap_abs>0?` · Cap: <strong>${data.stake_cap_abs}€</strong>`:''}</div>
+    </div>
+    <div class="stats">
+      <div class="stat"><div class="stat-label">Date</div><div class="stat-value" style="font-size:14px">${data.date}</div></div>
+      <div class="stat"><div class="stat-label">Events trouvés</div><div class="stat-value">${data.n_events}</div><div style="font-size:10px;color:#8b909a">${data.n_dropped_started||0} déjà commencés · ${data.n_dropped_other_date||0} autre date</div></div>
+      <div class="stat"><div class="stat-label">Après filtre league</div><div class="stat-value">${data.n_events_filtered}</div></div>
+      <div class="stat"><div class="stat-label">Combos générés</div><div class="stat-value" style="color:#4ade80">${data.n_combos}</div></div>
+      <div class="stat"><div class="stat-label">Mise totale</div><div class="stat-value" style="color:#fbbf24">${lvFmtEur(data.total_stake)}</div></div>
+      <div class="stat"><div class="stat-label">Gain max si tout passe</div><div class="stat-value" style="color:#4ade80">+${lvFmtEur(data.total_potential_gain)}</div></div>
+      <div class="stat"><div class="stat-label">BR si tout passe</div><div class="stat-value" style="color:#4ade80;font-size:16px">${lvFmtEur(data.bankroll_after_all_win)}</div></div>
+      <div class="stat"><div class="stat-label">BR si tout perd</div><div class="stat-value" style="color:#ef4444;font-size:16px">${lvFmtEur(data.bankroll_after_all_lose)}</div></div>
+    </div>
+  `;
+
+  const list = document.getElementById('lv_combos');
+  if (!data.combos.length) {
+    list.innerHTML = '<div class="empty">Aucun combo généré. Vérifie la date / bookmaker / events disponibles.</div>';
+    return;
+  }
+  const tgBtn = `<div style="margin-bottom:10px;display:flex;gap:8px;align-items:center">
+    <button id="btCopyTg" style="background:#0088cc;color:#fff;font-weight:600;border:0;padding:8px 14px;border-radius:6px;cursor:pointer">📋 Copier pour Telegram</button>
+    <span id="tgCopyStatus" style="font-size:12px;color:#4ade80"></span>
+  </div>`;
+  list.innerHTML = tgBtn + data.combos.map((c, i) => `
+    <div class="combo">
+      <div class="combo-header">
+        <div class="combo-title">
+          <span style="background:#2a2d36;padding:2px 8px;border-radius:4px;font-size:11px;margin-right:8px">C${c.component}</span>
+          Combo #${i+1}
+        </div>
+        <div class="combo-stats">
+          <span class="combo-stat">cote <strong>${c.cote_t.toFixed(2)}</strong></span>
+          <span class="combo-stat">wr <strong>${(c.wr_t*100).toFixed(0)}%</strong></span>
+          <span class="combo-stat green">EV <strong>${c.ev>=0?'+':''}${(c.ev*100).toFixed(0)}%</strong></span>
+          <span class="combo-stat" style="color:#fbbf24"><strong>Miser ${lvFmtEur(c.stake)}</strong>${c.stake_multiplier!==1?` <span style="font-size:11px;opacity:0.7">(×${c.stake_multiplier})</span>`:''}</span>
+          <span class="combo-stat" style="color:#4ade80">→ +${lvFmtEur(c.potential_gain)}</span>
+        </div>
+      </div>
+      ${c.legs.map(l => `
+        <div class="leg">
+          <span class="leg-sport">${l.sport}</span>
+          ${l.match} → <span class="leg-team">${l.selection}</span> @ <span class="pick-cote">${l.odds.toFixed(2)}</span>
+          <div class="leg-meta">${l.league} · wr ${(l.wr*100).toFixed(0)}%${l.start_time ? ' · 🕐 ' + formatTime(l.start_time) : ''}</div>
+        </div>
+      `).join('')}
+    </div>
+  `).join('');
+
+  const copyBtn = document.getElementById('btCopyTg');
+  if (copyBtn) {
+    copyBtn.addEventListener('click', async () => {
+      const msg = buildTelegramMessage(data);
+      try {
+        await navigator.clipboard.writeText(msg);
+        document.getElementById('tgCopyStatus').textContent = '✓ Copié dans le presse-papier — colle dans Telegram';
+        setTimeout(() => { document.getElementById('tgCopyStatus').textContent = ''; }, 4000);
+      } catch (e) {
+        const ta = document.createElement('textarea');
+        ta.value = msg; document.body.appendChild(ta); ta.select();
+        document.execCommand('copy'); ta.remove();
+        document.getElementById('tgCopyStatus').textContent = '✓ Copié (fallback)';
+      }
+    });
+  }
+}
+
+async function loadDatasets() {
+  const el = document.getElementById('datasets-list');
+  el.innerHTML = '<span class="loader"></span> Chargement…';
+  try {
+    const r = await fetch('/api/datasets');
+    const data = await r.json();
+    if (!data.datasets.length) {
+      el.innerHTML = '<div class="empty">Aucun dataset téléchargé pour l\'instant.</div>';
+      return;
+    }
+    let html = '<table class="magic-table"><tr><th>Sport</th><th>Période</th><th>Matchs</th><th>Leagues</th><th>Taille</th></tr>';
+    data.datasets.forEach(d => {
+      html += `<tr>
+        <td><strong>${d.sport}</strong></td>
+        <td>${d.first_date || '?'} → ${d.last_date || '?'}</td>
+        <td class="magic-cote">${d.n_matches.toLocaleString()}</td>
+        <td>${d.n_leagues.toLocaleString()}</td>
+        <td>${d.size_mb} MB</td>
+      </tr>`;
+    });
+    html += '</table>';
+
+    // Détail leagues par sport (collapsibles)
+    data.datasets.forEach(d => {
+      html += `<details style="margin-top:14px"><summary style="cursor:pointer;color:#4ade80;font-weight:600">${d.sport} — ${d.n_leagues} leagues (top 30)</summary>`;
+      html += '<div style="margin-top:8px;font-size:12px;color:#8b909a">' + d.leagues_sample.map(l => `<span style="display:inline-block;background:#15171c;border:1px solid #2a2d36;padding:3px 8px;margin:2px;border-radius:4px">${l}</span>`).join('') + '</div></details>';
+    });
+
+    el.innerHTML = html;
+  } catch (e) {
+    el.innerHTML = 'Erreur: ' + e.message;
+  }
+}
+</script>
+</body>
+</html>
