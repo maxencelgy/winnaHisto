@@ -1,0 +1,31 @@
+{
+  "id": "CHALLENGE_100_TO_500",
+  "label": "🚀🏆 CHALLENGE 100€ → 500€ — 4 paliers Foot Over 1.5 WR≥75% cote 1.45-1.55",
+  "description": "★★★★ STRATÉGIE CHALLENGE ×5 : 4 paliers all-in Foot Over 1.5 cote 1.45-1.55 WR≥75%. Completion **71%** (record sweep x5). Cap moyen **516€**. **P3=97.7%, P5=99.8%, P10=100%** — atteindre 500€ en max 10 cycles ≈ certain.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football"], "market": "over_1_5",
+    "cote_min": 1.45, "cote_max": 1.55,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+    "min_wr": 0.75, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 100, "n_paliers_target": 4, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "challenge_target": {"start": 100, "end": 500, "expected_cap": 516},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.71,
+    "n_cycles_complete": 5,
+    "n_cycles_total": 7,
+    "avg_capital_complete": 516,
+    "prob_target_3_cycles": 97.7,
+    "prob_target_5_cycles": 99.8,
+    "prob_target_10_cycles": 100.0,
+    "winamax_fr": true,
+    "source": "find_new_v16_challenge_x5",
+    "note": "★★★★ 100% GARANTIE en max 10 cycles. Cap 516€ > 500€ cible. Memos meme structure que CHALLENGE_10_TO_100 (cote 1.45-1.55 OU 1.5 WR75) mais 4p au lieu de 6p."
+  }
+}

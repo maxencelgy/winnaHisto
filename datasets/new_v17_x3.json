@@ -1,0 +1,361 @@
+{
+  "viable": [
+    {
+      "id": "X3_3p_145_foo_over__p3_wr0.75",
+      "perfs": {
+        "S1-26": {
+          "compl": 52.9,
+          "avg_cap": 298.6,
+          "n_total": 17,
+          "n_complete": 9,
+          "pnl": 987.4
+        },
+        "Apr": {
+          "compl": 33.3,
+          "avg_cap": 298.6,
+          "n_total": 3,
+          "n_complete": 1,
+          "pnl": -1.4
+        }
+      },
+      "strat": {
+        "id": "X3_3p_145_foo_over__p3_wr0.75",
+        "label": "Challenge x3",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.42,
+            "cote_max": 1.48,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 100,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 1
+        }
+      },
+      "compl": 52.9,
+      "cap": 298.6,
+      "n_total": 17,
+      "n_complete": 9,
+      "prob_3": 89.55,
+      "prob_5": 97.68,
+      "prob_10": 99.95
+    },
+    {
+      "id": "X3_3p_145_strict_foo_over__p3_wr0.75",
+      "perfs": {
+        "S1-26": {
+          "compl": 52.9,
+          "avg_cap": 298.6,
+          "n_total": 17,
+          "n_complete": 9,
+          "pnl": 987.4
+        },
+        "Apr": {
+          "compl": 33.3,
+          "avg_cap": 298.6,
+          "n_total": 3,
+          "n_complete": 1,
+          "pnl": -1.4
+        }
+      },
+      "strat": {
+        "id": "X3_3p_145_strict_foo_over__p3_wr0.75",
+        "label": "Challenge x3",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.43,
+            "cote_max": 1.46,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 100,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 1
+        }
+      },
+      "compl": 52.9,
+      "cap": 298.6,
+      "n_total": 17,
+      "n_complete": 9,
+      "prob_3": 89.55,
+      "prob_5": 97.68,
+      "prob_10": 99.95
+    },
+    {
+      "id": "X3_4p_133_ice_1x2_p4_wr0.65",
+      "perfs": {
+        "S1-26": {
+          "compl": 52.6,
+          "avg_cap": 310.2,
+          "n_total": 19,
+          "n_complete": 10,
+          "pnl": 1202.4
+        },
+        "Apr": {
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "n_total": 1,
+          "n_complete": 0,
+          "pnl": -100
+        }
+      },
+      "strat": {
+        "id": "X3_4p_133_ice_1x2_p4_wr0.65",
+        "label": "Challenge x3",
+        "components": [
+          {
+            "sports": [
+              "ice-hockey"
+            ],
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.36,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 100,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 1
+        }
+      },
+      "compl": 52.6,
+      "cap": 310.2,
+      "n_total": 19,
+      "n_complete": 10,
+      "prob_3": 89.35,
+      "prob_5": 97.61,
+      "prob_10": 99.94
+    },
+    {
+      "id": "X3_3p_145_foo_over__p3_wr0.8",
+      "perfs": {
+        "S1-26": {
+          "compl": 50.0,
+          "avg_cap": 301.4,
+          "n_total": 6,
+          "n_complete": 3,
+          "pnl": 304.1
+        },
+        "Apr": {
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "n_total": 1,
+          "n_complete": 0,
+          "pnl": -100
+        }
+      },
+      "strat": {
+        "id": "X3_3p_145_foo_over__p3_wr0.8",
+        "label": "Challenge x3",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.42,
+            "cote_max": 1.48,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.8,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 100,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 1
+        }
+      },
+      "compl": 50.0,
+      "cap": 301.4,
+      "n_total": 6,
+      "n_complete": 3,
+      "prob_3": 87.5,
+      "prob_5": 96.88,
+      "prob_10": 99.9
+    },
+    {
+      "id": "X3_3p_145_foo_btts,_p3_wr0.8",
+      "perfs": {
+        "S1-26": {
+          "compl": 50.0,
+          "avg_cap": 301.4,
+          "n_total": 6,
+          "n_complete": 3,
+          "pnl": 304.1
+        },
+        "Apr": {
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "n_total": 1,
+          "n_complete": 0,
+          "pnl": -100
+        }
+      },
+      "strat": {
+        "id": "X3_3p_145_foo_btts,_p3_wr0.8",
+        "label": "Challenge x3",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.42,
+            "cote_max": 1.48,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.8,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 100,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 1
+        }
+      },
+      "compl": 50.0,
+      "cap": 301.4,
+      "n_total": 6,
+      "n_complete": 3,
+      "prob_3": 87.5,
+      "prob_5": 96.88,
+      "prob_10": 99.9
+    },
+    {
+      "id": "X3_5p_125_ice_1x2_p5_wr0.65",
+      "perfs": {
+        "S1-26": {
+          "compl": 50.0,
+          "avg_cap": 322.7,
+          "n_total": 6,
+          "n_complete": 3,
+          "pnl": 368.0
+        },
+        "Apr": {
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "n_total": 0,
+          "n_complete": 0,
+          "pnl": 0
+        }
+      },
+      "strat": {
+        "id": "X3_5p_125_ice_1x2_p5_wr0.65",
+        "label": "Challenge x3",
+        "components": [
+          {
+            "sports": [
+              "ice-hockey"
+            ],
+            "market": "1x2",
+            "cote_min": 1.23,
+            "cote_max": 1.28,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 100,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 1
+        }
+      },
+      "compl": 50.0,
+      "cap": 322.7,
+      "n_total": 6,
+      "n_complete": 3,
+      "prob_3": 87.5,
+      "prob_5": 96.88,
+      "prob_10": 99.9
+    },
+    {
+      "id": "X3_5p_125_ice_1x2_p5_wr0.7",
+      "perfs": {
+        "S1-26": {
+          "compl": 50.0,
+          "avg_cap": 322.7,
+          "n_total": 6,
+          "n_complete": 3,
+          "pnl": 368.0
+        },
+        "Apr": {
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "n_total": 0,
+          "n_complete": 0,
+          "pnl": 0
+        }
+      },
+      "strat": {
+        "id": "X3_5p_125_ice_1x2_p5_wr0.7",
+        "label": "Challenge x3",
+        "components": [
+          {
+            "sports": [
+              "ice-hockey"
+            ],
+            "market": "1x2",
+            "cote_min": 1.23,
+            "cote_max": 1.28,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 100,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 1
+        }
+      },
+      "compl": 50.0,
+      "cap": 322.7,
+      "n_total": 6,
+      "n_complete": 3,
+      "prob_3": 87.5,
+      "prob_5": 96.88,
+      "prob_10": 99.9
+    }
+  ]
+}

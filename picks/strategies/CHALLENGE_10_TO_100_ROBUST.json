@@ -1,0 +1,30 @@
+{
+  "id": "CHALLENGE_10_TO_100_ROBUST",
+  "label": "🪜📊 CHALLENGE 10€ → 100€ ROBUST — 7 paliers Foot xmkt WR≥65% cote 1.36-1.45 — 88 cycles",
+  "description": "★★★★ STRATÉGIE CHALLENGE 10→100 STATISTIQUEMENT ROBUSTE : 7 paliers Foot xmkt (1x2+OU+BTTS) cote 1.36-1.45 WR≥65%. Completion **20% RÉELLE** sur **88 cycles testés** (au lieu des 60% sur 5 cycles surestimés du CHALLENGE_10_TO_100). Cap 102€. P5=68%, P10=89%.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football"], "market": "1x2,over_1_5,over_2_5,btts",
+    "cote_min": 1.36, "cote_max": 1.45,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+    "min_wr": 0.65, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 10, "n_paliers_target": 7, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "challenge_target": {"start": 10, "end": 100, "expected_cap": 102},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.20,
+    "n_cycles_complete": 18,
+    "n_cycles_total": 88,
+    "avg_capital_complete": 102,
+    "prob_target_5_cycles": 68.2,
+    "prob_target_10_cycles": 89.9,
+    "winamax_fr": true,
+    "source": "find_foot_xmkt_all_targets",
+    "note": "★★★★ ROBUST - VRAIE PROBA. 88 cycles testés vs 5 du CHALLENGE_10_TO_100 (60% surestimé). 7 paliers chaîne longue + foot xmkt = volume max. P10=89.9% — pas 100% mais réaliste."
+  }
+}

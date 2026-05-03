@@ -1,0 +1,28 @@
+{
+  "id": "MICRO_F_OU_x8p_wr80_LONG_APR",
+  "label": "🪜⚽🇫🇷🟣🟣 MICRO LONG Foot OU 1.5/2.5 ×8P WR≥80% cote 1.15-1.25 — +420€ S1 +359€ Apr",
+  "description": "★★★★ MICRO LONG découvert sweep dédié : 8 paliers OU foot cote 1.15-1.25 WR≥80%. Completion 35% mais cap moyen **44€**. PnL **+420€ S1 + Apr +359€** = égal du record EV 359 sur format ultra-long. EV pratique 145.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football"], "market": "over_1_5,over_2_5",
+    "cote_min": 1.15, "cote_max": 1.25,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+    "min_wr": 0.80, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 10, "n_paliers_target": 8, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.35,
+    "avg_capital_complete": 44,
+    "pnl_net_s1": 420,
+    "april_pnl": 359,
+    "ev_pratique": 145,
+    "winamax_fr": true,
+    "source": "find_microcote_montantes",
+    "note": "★★★★ MICRO LONG. 8 paliers ultra-safe (1.15-1.25^8 = ~4.4×). Apr record égalé."
+  }
+}

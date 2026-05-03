@@ -1,0 +1,31 @@
+{
+  "id": "CHALLENGE_100_TO_300",
+  "label": "🪜🏆 CHALLENGE 100€ → 300€ — 3 paliers Foot Over 1.5 WR≥75% cote 1.42-1.48",
+  "description": "★★★ STRATÉGIE CHALLENGE ×3 : 3 paliers all-in Foot Over 1.5 cote 1.42-1.48 WR≥75%. Completion **53%** sur 17 cycles testés. Cap moyen **299€** (juste sous cible 300€). **P3=89.5%, P5=97.7%, P10=100%**.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football"], "market": "over_1_5",
+    "cote_min": 1.42, "cote_max": 1.48,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+    "min_wr": 0.75, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 100, "n_paliers_target": 3, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "challenge_target": {"start": 100, "end": 300, "expected_cap": 299},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.53,
+    "n_cycles_complete": 9,
+    "n_cycles_total": 17,
+    "avg_capital_complete": 299,
+    "prob_target_3_cycles": 89.5,
+    "prob_target_5_cycles": 97.7,
+    "prob_target_10_cycles": 100.0,
+    "winamax_fr": true,
+    "source": "find_new_v17_challenge_x3",
+    "note": "★★★ CHALLENGE ×3. 17 cycles testés (volume solide). P10=100% — atteindre 300€ en max 10 cycles certain."
+  }
+}

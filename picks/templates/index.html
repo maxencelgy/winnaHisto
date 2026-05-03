@@ -167,6 +167,45 @@
     /* ── EMPTY ── */
     .empty { padding:48px 20px; text-align:center; color:var(--muted); font-size:13px; }
 
+    /* ── PAGE HEAD (titre + sous-titre uniforme par onglet) ── */
+    .page-head { margin-bottom:14px; }
+    .page-head h2 { font-size:17px; color:var(--fg); margin-bottom:4px; display:flex; align-items:center; gap:8px; }
+    .page-head p { color:var(--muted); font-size:12.5px; line-height:1.5; margin:0; max-width:920px; }
+
+    /* ── PRESETS BLOC (3 catégories en tabs internes) ── */
+    .presets-bloc {
+      background:var(--panel); border:1px solid var(--bord); border-radius:10px;
+      margin-bottom:14px; box-shadow:var(--shadow); overflow:hidden;
+    }
+    .presets-head {
+      display:flex; align-items:center; gap:8px; flex-wrap:wrap;
+      padding:10px 12px; background:var(--panel-2); border-bottom:1px solid var(--bord-soft);
+    }
+    .presets-head .ptitle { font-size:11px; color:var(--muted); text-transform:uppercase; letter-spacing:0.06em; font-weight:600; margin-right:8px; }
+    .ptab {
+      background:transparent; border:1px solid var(--bord); color:var(--muted);
+      padding:5px 11px; font-size:12px; font-weight:600; border-radius:6px;
+      cursor:pointer; transition:all .15s; font-family:inherit;
+    }
+    .ptab:hover { background:var(--bg); color:var(--fg); }
+    .ptab.active[data-color="n3"]   { border-color:#ff64b4; color:#ff64b4; background:rgba(255,100,180,.10); }
+    .ptab.active[data-color="n2"]   { border-color:#ffc850; color:#ffc850; background:rgba(255,200,80,.10); }
+    .ptab.active[data-color="top"]  { border-color:var(--green); color:var(--green); background:rgba(70,200,120,.10); }
+    .presets-content { padding:14px; }
+    .ppanel { display:none; }
+    .ppanel.active { display:block; }
+    .ppanel .ppanel-sub { font-size:11px; color:var(--muted); margin-bottom:10px; }
+
+    /* ── SEARCH ROW (uniformisée) ── */
+    .search-row {
+      display:flex; gap:10px; align-items:center;
+      background:var(--panel); border:1px solid var(--bord);
+      border-radius:8px; padding:8px 12px; margin-bottom:12px;
+      box-shadow:var(--shadow);
+    }
+    .search-row input[type="text"] { flex:1; background:var(--bg); }
+    .search-row .count { color:var(--muted); font-size:11px; white-space:nowrap; }
+
     /* ── MODAL ── */
     .modal-bg { position:fixed; inset:0; background:rgba(0,0,0,0.7); z-index:100; display:none; align-items:flex-start; justify-content:center; padding:60px 20px; overflow-y:auto; }
     .modal-bg.active { display:flex; }
@@ -207,6 +246,8 @@
       <button data-tab="bt">📈 Backtest</button>
       <button data-tab="mt">🪜 Montantes</button>
       <button data-tab="mtlive">🎯 Montante Live</button>
+      <button data-tab="challenge">🎮 Challenge 10→100</button>
+      <button data-tab="bt_challenge">🎯 Backtest Challenge</button>
     </nav>
     <div class="br-double">
       <div class="pair">
@@ -236,6 +277,11 @@
 
 <!-- ─── LIVE ─── -->
 <section id="tab-live" class="tab active">
+  <div class="page-head">
+    <h2>📊 Live · Picks du jour</h2>
+    <p>Tous les picks scrapés du jour avec WR magic + EV. Filtre par sport, marché, cote, WR min, EV min.</p>
+  </div>
+
   <div id="status" class="status"><span class="dot"></span>Chargement…</div>
 
   <div class="toolbar">
@@ -284,33 +330,40 @@
 
 <!-- ─── STRATEGIES ─── -->
 <section id="tab-strats" class="tab">
-  <h2 style="font-size:16px; color:var(--fg); margin-bottom:10px;">Bibliothèque de stratégies</h2>
-  <p style="color:var(--muted); font-size:13px; margin-bottom:14px;">Choisis une stratégie pour voir les combos suggérés aujourd'hui avec stakes calculés selon ta bankroll et le sizing configuré.</p>
-
-  <!-- 🆕 SESSION N2 — NEW RECORDS (sweep aggro+xmkt 2026-05-03) -->
-  <div style="margin-bottom:18px; padding:14px; background:linear-gradient(135deg,rgba(255,200,80,.10),rgba(255,200,80,.02)); border:1px solid rgba(255,200,80,.4); border-radius:8px;">
-    <div style="font-size:12px; color:#ffc850; margin-bottom:10px; font-weight:600;">🆕 SESSION N2 — NEW RECORDS WFR (multi-comp xmkt + sizing aggro)</div>
-    <div class="grid k3" id="session_n2_classics"></div>
+  <div class="page-head">
+    <h2>⚡ Stratégies · Bibliothèque</h2>
+    <p>Choisis une stratégie pour voir les combos suggérés aujourd'hui — stakes calculés selon ta bankroll et le sizing configuré.</p>
   </div>
 
-  <!-- 🆕 SESSION N3 — RECORDS ABSOLUS (WR strict 70%) -->
-  <div style="margin-bottom:18px; padding:14px; background:linear-gradient(135deg,rgba(255,100,180,.10),rgba(255,100,180,.02)); border:1px solid rgba(255,100,180,.5); border-radius:8px;">
-    <div style="font-size:12px; color:#ff64b4; margin-bottom:10px; font-weight:600;">🆕 SESSION N3 — RECORDS ABSOLUS (filtre WR ≥70% strict — ratio 24×)</div>
-    <div class="grid k3" id="session_n3_classics"></div>
+  <div class="presets-bloc">
+    <div class="presets-head">
+      <span class="ptitle">Presets validés</span>
+      <button class="ptab active" data-color="n3" data-target="ppanel_strats_n3">🌸 Records WR strict</button>
+      <button class="ptab" data-color="n2" data-target="ppanel_strats_n2">⭐ New xmkt aggro</button>
+      <button class="ptab" data-color="top" data-target="ppanel_strats_top">🏆 Top 3 profils</button>
+    </div>
+    <div class="presets-content">
+      <div class="ppanel active" id="ppanel_strats_n3">
+        <div class="ppanel-sub">Filtre WR ≥70% strict — ratio jusqu'à 24×</div>
+        <div class="grid k3" id="session_n3_classics"></div>
+      </div>
+      <div class="ppanel" id="ppanel_strats_n2">
+        <div class="ppanel-sub">Multi-comp xmkt + sizing aggro</div>
+        <div class="grid k3" id="session_n2_classics"></div>
+      </div>
+      <div class="ppanel" id="ppanel_strats_top">
+        <div class="ppanel-sub">3 profils complémentaires (records, BR×, single-market safe)</div>
+        <div class="grid k3" id="top3_classics"></div>
+      </div>
+    </div>
   </div>
 
-  <!-- TOP 3 CLASSIQUES (3 profils différents) -->
-  <div style="margin-bottom:18px; padding:14px; background:linear-gradient(135deg,rgba(70,200,120,.08),rgba(70,200,120,.02)); border:1px solid rgba(70,200,120,.3); border-radius:8px;">
-    <div style="font-size:12px; color:var(--green); margin-bottom:10px; font-weight:600;">🏆 TOP 3 CLASSIQUES (3 profils différents)</div>
-    <div class="grid k3" id="top3_classics"></div>
+  <div class="toolbar">
+    <div class="field"><label>Stratégie</label><select id="strat_select" style="min-width:520px;"></select></div>
+    <button id="strat_view" class="btn">⚡ Voir combos du jour</button>
+    <span id="strat_count" class="count" style="margin-left:auto; color:var(--muted); font-size:11px;"></span>
   </div>
-
-  <div style="margin-bottom:14px;">
-    <input id="strat_search" type="text" placeholder="🔍 Filtrer par nom (hockey, foot, montante, combo, etc.)"
-           style="width:100%; padding:9px 12px; background:var(--bg-soft); border:1px solid var(--border); border-radius:6px; color:var(--fg); font-size:13px;">
-    <span id="strat_count" style="color:var(--muted); font-size:11px; margin-left:4px;"></span>
-  </div>
-  <div id="strats_grid" class="grid k4"></div>
+  <div id="strats_grid" class="grid k4" style="display:none;"></div>
 
   <div id="strat_detail" style="display:none; margin-top:24px;">
     <div style="display:flex; justify-content:space-between; align-items:flex-start; gap:14px; margin-bottom:14px;">
@@ -333,28 +386,37 @@
 
 <!-- ─── BACKTEST ─── -->
 <section id="tab-bt" class="tab">
-  <!-- 🆕 SESSION N2 — NEW RECORDS dans backtest -->
-  <div style="margin-bottom:18px; padding:14px; background:linear-gradient(135deg,rgba(255,200,80,.10),rgba(255,200,80,.02)); border:1px solid rgba(255,200,80,.4); border-radius:8px;">
-    <div style="font-size:12px; color:#ffc850; margin-bottom:10px; font-weight:600;">🆕 SESSION N2 — NEW RECORDS WFR (click pour backtester)</div>
-    <div class="grid k3" id="session_n2_bt"></div>
+  <div class="page-head">
+    <h2>📈 Backtest · Validation historique</h2>
+    <p>Lance un backtest sur une période donnée — courbe bankroll, ratio PnL/DD, jours +/-, drill-down par jour cliquable.</p>
   </div>
 
-  <!-- 🆕 SESSION N3 — RECORDS ABSOLUS WR strict -->
-  <div style="margin-bottom:18px; padding:14px; background:linear-gradient(135deg,rgba(255,100,180,.10),rgba(255,100,180,.02)); border:1px solid rgba(255,100,180,.5); border-radius:8px;">
-    <div style="font-size:12px; color:#ff64b4; margin-bottom:10px; font-weight:600;">🆕 SESSION N3 — RECORDS ABSOLUS (WR ≥70% strict)</div>
-    <div class="grid k3" id="session_n3_bt"></div>
+  <div class="presets-bloc">
+    <div class="presets-head">
+      <span class="ptitle">Quick backtest</span>
+      <button class="ptab active" data-color="n3" data-target="ppanel_bt_n3">🌸 Records WR strict</button>
+      <button class="ptab" data-color="n2" data-target="ppanel_bt_n2">⭐ New xmkt aggro</button>
+      <button class="ptab" data-color="top" data-target="ppanel_bt_top">🏆 Top 3 profils</button>
+    </div>
+    <div class="presets-content">
+      <div class="ppanel active" id="ppanel_bt_n3">
+        <div class="ppanel-sub">Click une carte → la stratégie est sélectionnée pour le backtest ci-dessous.</div>
+        <div class="grid k3" id="session_n3_bt"></div>
+      </div>
+      <div class="ppanel" id="ppanel_bt_n2">
+        <div class="ppanel-sub">New records WFR multi-comp xmkt.</div>
+        <div class="grid k3" id="session_n2_bt"></div>
+      </div>
+      <div class="ppanel" id="ppanel_bt_top">
+        <div class="ppanel-sub">3 profils complémentaires.</div>
+        <div class="grid k3" id="top3_bt"></div>
+      </div>
+    </div>
   </div>
 
-  <!-- TOP 3 CLASSIQUES dans backtest aussi -->
-  <div style="margin-bottom:18px; padding:14px; background:linear-gradient(135deg,rgba(70,200,120,.08),rgba(70,200,120,.02)); border:1px solid rgba(70,200,120,.3); border-radius:8px;">
-    <div style="font-size:12px; color:var(--green); margin-bottom:10px; font-weight:600;">🏆 TOP 3 CLASSIQUES — Click pour backtester direct</div>
-    <div class="grid k3" id="top3_bt"></div>
-  </div>
-
-  <div style="margin-bottom:10px;">
-    <input id="bt_search" type="text" placeholder="🔍 Filtrer stratégie par nom (hockey, foot, montante, BR, kelly, etc.)"
-           style="width:100%; padding:9px 12px; background:var(--bg-soft); border:1px solid var(--border); border-radius:6px; color:var(--fg); font-size:13px;">
-    <span id="bt_count" style="color:var(--muted); font-size:11px; margin-left:4px;"></span>
+  <div class="search-row">
+    <input id="bt_search" type="text" placeholder="🔍 Filtrer stratégie par nom (hockey, foot, montante, BR, kelly, etc.)">
+    <span id="bt_count" class="count"></span>
   </div>
   <div class="toolbar">
     <div class="field"><label>Stratégie</label><select id="bt_strat" style="min-width:520px;"></select></div>
@@ -384,35 +446,37 @@
 
 <!-- ─── MONTANTES ─── -->
 <section id="tab-mt" class="tab">
-  <h2 style="font-size:16px; color:var(--fg); margin-bottom:10px;">🪜 Stratégies Montantes</h2>
-  <p style="color:var(--muted); font-size:13px; margin-bottom:14px;">
-    Une montante : tu pars de 10€, all-in sur un palier safe, si gagne tu remets tout sur le palier suivant.
-    But : enchaîner N paliers d'affilée. Mode <b>interday</b> (1 palier/jour, plus safe) ou <b>intraday</b>
-    (N paliers en 1 journée, plus de cycles).
-  </p>
-
-  <!-- 🆕 SESSION N2 — NEW MONTANTES RECORDS -->
-  <div style="margin-bottom:18px; padding:14px; background:linear-gradient(135deg,rgba(255,200,80,.10),rgba(255,200,80,.02)); border:1px solid rgba(255,200,80,.4); border-radius:8px;">
-    <div style="font-size:12px; color:#ffc850; margin-bottom:10px; font-weight:600;">🆕 SESSION N2 — NEW MONTANTES RECORDS (xmkt OU/BTTS pool max)</div>
-    <div class="grid k3" id="session_n2_mt"></div>
+  <div class="page-head">
+    <h2>🪜 Montantes · Simulateur</h2>
+    <p>Tu pars de 10€, all-in sur un palier safe ; si gagne tu remets tout sur le palier suivant. <b>Interday</b> = 1 palier/jour (safe). <b>Intraday</b> = N paliers en 1 journée (plus de cycles). Métrique-clé : <b>taux de complétion</b>.</p>
   </div>
 
-  <!-- 🆕 SESSION N3 — MONTANTES RECORDS ABSOLUS WR strict -->
-  <div style="margin-bottom:18px; padding:14px; background:linear-gradient(135deg,rgba(255,100,180,.10),rgba(255,100,180,.02)); border:1px solid rgba(255,100,180,.5); border-radius:8px;">
-    <div style="font-size:12px; color:#ff64b4; margin-bottom:10px; font-weight:600;">🆕 SESSION N3 — RECORDS ABSOLUS (WR ≥70% strict — EV 359 ★★)</div>
-    <div class="grid k3" id="session_n3_mt"></div>
+  <div class="presets-bloc">
+    <div class="presets-head">
+      <span class="ptitle">Top complétion</span>
+      <button class="ptab active" data-color="n3" data-target="ppanel_mt_n3">🌸 Records WR strict</button>
+      <button class="ptab" data-color="n2" data-target="ppanel_mt_n2">⭐ New xmkt OU/BTTS</button>
+      <button class="ptab" data-color="top" data-target="ppanel_mt_top">🏆 Top 3 profils</button>
+    </div>
+    <div class="presets-content">
+      <div class="ppanel active" id="ppanel_mt_n3">
+        <div class="ppanel-sub">WR strict ≥70% — EV 359 sur la #3.</div>
+        <div class="grid k3" id="session_n3_mt"></div>
+      </div>
+      <div class="ppanel" id="ppanel_mt_n2">
+        <div class="ppanel-sub">xmkt OU/BTTS pool max.</div>
+        <div class="grid k3" id="session_n2_mt"></div>
+      </div>
+      <div class="ppanel" id="ppanel_mt_top">
+        <div class="ppanel-sub">3 profils trié par % complétion.</div>
+        <div class="grid k3" id="top3_montantes"></div>
+      </div>
+    </div>
   </div>
 
-  <!-- TOP 3 MONTANTES (3 profils différents) -->
-  <div style="margin-bottom:18px; padding:14px; background:linear-gradient(135deg,rgba(70,200,120,.08),rgba(70,200,120,.02)); border:1px solid rgba(70,200,120,.3); border-radius:8px;">
-    <div style="font-size:12px; color:var(--green); margin-bottom:10px; font-weight:600;">🏆 TOP 3 MONTANTES (3 profils différents)</div>
-    <div class="grid k3" id="top3_montantes"></div>
-  </div>
-
-  <div style="margin-bottom:10px;">
-    <input id="mt_search" type="text" placeholder="🔍 Filtrer montantes par nom (hockey, over, combo, jackpot, ultimate, etc.)"
-           style="width:100%; padding:9px 12px; background:var(--bg-soft); border:1px solid var(--border); border-radius:6px; color:var(--fg); font-size:13px;">
-    <span id="mt_count" style="color:var(--muted); font-size:11px; margin-left:4px;"></span>
+  <div class="search-row">
+    <input id="mt_search" type="text" placeholder="🔍 Filtrer montantes par nom (hockey, over, combo, jackpot, ultimate, etc.)">
+    <span id="mt_count" class="count"></span>
   </div>
   <div class="toolbar">
     <div class="field"><label>Stratégie</label><select id="mt_strat" style="min-width:520px;"></select></div>
@@ -436,28 +500,32 @@
 
 <!-- ─── MONTANTE LIVE ─── -->
 <section id="tab-mtlive" class="tab">
-  <h2 style="font-size:16px; color:var(--fg); margin-bottom:10px;">🎯 Montante Live — Pari pour ton palier en cours</h2>
-  <p style="color:var(--muted); font-size:13px; margin-bottom:14px;">
-    Sélectionne ta stratégie montante, indique le palier en cours et le capital actuel.
-    Le système te propose le <b>meilleur pick à parier maintenant</b> sur les matchs à venir aujourd'hui (selon les filtres de la stratégie).
-  </p>
-
-  <!-- 🆕 SESSION N2 — NEW MONTANTES RECORDS -->
-  <div style="margin-bottom:18px; padding:14px; background:linear-gradient(135deg,rgba(255,200,80,.10),rgba(255,200,80,.02)); border:1px solid rgba(255,200,80,.4); border-radius:8px;">
-    <div style="font-size:12px; color:#ffc850; margin-bottom:10px; font-weight:600;">🆕 SESSION N2 — NEW MONTANTES (xmkt OU/BTTS pool max)</div>
-    <div class="grid k3" id="session_n2_mtlive"></div>
+  <div class="page-head">
+    <h2>🎯 Montante Live · Pari pour ton palier en cours</h2>
+    <p>Sélectionne la stratégie, indique le palier en cours et le capital actuel. Le système propose le <b>meilleur pick à parier maintenant</b> sur les matchs à venir.</p>
   </div>
 
-  <!-- 🆕 SESSION N3 — MONTANTES RECORDS ABSOLUS WR strict -->
-  <div style="margin-bottom:18px; padding:14px; background:linear-gradient(135deg,rgba(255,100,180,.10),rgba(255,100,180,.02)); border:1px solid rgba(255,100,180,.5); border-radius:8px;">
-    <div style="font-size:12px; color:#ff64b4; margin-bottom:10px; font-weight:600;">🆕 SESSION N3 — RECORDS ABSOLUS (WR ≥70% strict — EV 359 ★★)</div>
-    <div class="grid k3" id="session_n3_mtlive"></div>
-  </div>
-
-  <!-- TOP 3 MONTANTES — Quick start -->
-  <div style="margin-bottom:18px; padding:14px; background:linear-gradient(135deg,rgba(70,200,120,.08),rgba(70,200,120,.02)); border:1px solid rgba(70,200,120,.3); border-radius:8px;">
-    <div style="font-size:12px; color:var(--green); margin-bottom:10px; font-weight:600;">🏆 TOP 3 MONTANTES — Click pour pré-remplir</div>
-    <div class="grid k3" id="top3_mtlive"></div>
+  <div class="presets-bloc">
+    <div class="presets-head">
+      <span class="ptitle">Quick start</span>
+      <button class="ptab active" data-color="n3" data-target="ppanel_mtl_n3">🌸 Records WR strict</button>
+      <button class="ptab" data-color="n2" data-target="ppanel_mtl_n2">⭐ New xmkt OU/BTTS</button>
+      <button class="ptab" data-color="top" data-target="ppanel_mtl_top">🏆 Top 3 profils</button>
+    </div>
+    <div class="presets-content">
+      <div class="ppanel active" id="ppanel_mtl_n3">
+        <div class="ppanel-sub">WR strict ≥70%, click pour pré-remplir palier 1 + capital 10€.</div>
+        <div class="grid k3" id="session_n3_mtlive"></div>
+      </div>
+      <div class="ppanel" id="ppanel_mtl_n2">
+        <div class="ppanel-sub">xmkt OU/BTTS pool max.</div>
+        <div class="grid k3" id="session_n2_mtlive"></div>
+      </div>
+      <div class="ppanel" id="ppanel_mtl_top">
+        <div class="ppanel-sub">3 profils trié par % complétion.</div>
+        <div class="grid k3" id="top3_mtlive"></div>
+      </div>
+    </div>
   </div>
 
   <div class="toolbar">
@@ -472,6 +540,85 @@
 
   <div id="mtl_pick" style="margin-top:18px;"></div>
   <div id="mtl_alternatives" style="margin-top:14px;"></div>
+</section>
+
+<!-- ─── CHALLENGE 10€ → 100€ ─── -->
+<section id="tab-challenge" class="tab">
+  <div class="page-head">
+    <h2>🎮 Challenge 10€ → 100€</h2>
+    <p>Stratégie dédiée pour transformer <b>10€ en 100€</b> (×10) le plus vite via une montante optimisée. Mode all-in palier par palier — si un palier échoue, reset à 10€.</p>
+  </div>
+
+  <!-- Récap progression -->
+  <div id="ch_progress" style="margin-bottom:14px; padding:14px; background:linear-gradient(135deg, rgba(255,215,0,.10), rgba(255,215,0,.02)); border:1px solid rgba(255,215,0,.4); border-radius:10px;">
+    <div style="display:flex; justify-content:space-between; align-items:center; gap:14px; flex-wrap:wrap;">
+      <div>
+        <div style="font-size:12px; color:#ffd700; text-transform:uppercase; letter-spacing:0.05em; font-weight:600; margin-bottom:6px;">🏆 Stratégie Challenge active</div>
+        <div id="ch_strat_label" style="font-size:16px; color:var(--fg); font-weight:600;">Chargement…</div>
+        <div id="ch_strat_desc" style="font-size:12px; color:var(--muted); margin-top:4px;"></div>
+      </div>
+      <div style="text-align:right;">
+        <div style="font-size:11px; color:var(--muted); text-transform:uppercase; letter-spacing:0.05em;">Cap moyen / cycle</div>
+        <div id="ch_strat_cap" style="font-size:24px; font-weight:700; color:#ffd700;">…</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sélecteur Challenge -->
+  <div class="toolbar">
+    <div class="field"><label>Challenge</label><select id="ch_select" style="min-width:480px;"></select></div>
+  </div>
+
+  <!-- Inputs : palier + capital -->
+  <div class="toolbar">
+    <div class="field"><label>Palier en cours</label><input id="ch_palier" type="number" value="1" min="1" max="20" style="width:80px;"></div>
+    <div class="field"><label>Capital actuel (€)</label><input id="ch_capital" type="number" value="10" step="1" min="1" style="width:100px;"></div>
+    <div class="field"><label>Cible</label><input id="ch_target" type="number" value="100" step="10" min="20" style="width:90px;"></div>
+    <button id="ch_run" class="btn">🎮 Pick palier en cours</button>
+    <button id="ch_reset" class="btn ghost">↺ Reset</button>
+  </div>
+
+  <!-- Échelle paliers -->
+  <div id="ch_ladder" style="margin-top:14px;"></div>
+
+  <div id="ch_status" class="status warn" style="display:none; margin-top:14px;"><span class="dot"></span><span></span></div>
+
+  <div id="ch_pick" style="margin-top:18px;"></div>
+</section>
+
+<!-- ─── BACKTEST CHALLENGE 10€ → 100€ ─── -->
+<section id="tab-bt_challenge" class="tab">
+  <div class="page-head">
+    <h2>🎯 Backtest Challenge — atteindre 100€ depuis 10€</h2>
+    <p>Pour chaque stratégie montante, calcule la <b>probabilité d'atteindre la cible</b> en multi-cycles (re-tente après échec) via Monte Carlo. La meilleure stratégie atteint <b>≥99%</b> en max 5 cycles.</p>
+  </div>
+
+  <div class="toolbar">
+    <div class="field"><label>Stratégie</label><select id="btc_strat" style="min-width:520px;"></select></div>
+    <div class="field"><label>BR initial (€)</label><input id="btc_initial" type="number" value="10" min="1" max="1000" style="width:100px;"></div>
+    <div class="field"><label>Cible (€)</label><input id="btc_target" type="number" value="100" step="10" min="20" style="width:100px;"></div>
+    <div class="field"><label>Max cycles</label><input id="btc_max_cycles" type="number" value="10" min="1" max="100" style="width:80px;"></div>
+    <button id="btc_run" class="btn">▶ Lancer Monte Carlo (10k sims)</button>
+    <button id="btc_history" class="btn ghost">📊 Voir paris historiques S1</button>
+  </div>
+
+  <div id="btc_status" class="status warn" style="display:none;"><span class="dot"></span><span></span></div>
+
+  <div id="btc_summary" class="summary" style="display:none;"></div>
+
+  <div id="btc_chart" class="chart-box" style="display:none;">
+    <h3 style="font-size:13px; color:var(--muted); margin-bottom:8px;">Distribution cycles nécessaires (10k sims)</h3>
+    <canvas id="btc_canvas" width="1200" height="240"></canvas>
+  </div>
+
+  <div id="btc_recap" style="margin-top:14px;"></div>
+
+  <!-- Détail cycles historiques (vrais paris sur S1) -->
+  <div id="btc_history_wrap" style="display:none; margin-top:18px;">
+    <h3 style="font-size:14px; color:var(--muted); margin-bottom:10px;">📊 Cycles réels sur S1-26 (vrais paris pris par la stratégie)</h3>
+    <div id="btc_history_summary" class="summary" style="margin-bottom:14px;"></div>
+    <div id="btc_history_cycles"></div>
+  </div>
 </section>
 
 </main>
@@ -494,6 +641,20 @@ document.querySelectorAll("nav button").forEach(b => {
     b.classList.add("active");
     $("tab-"+b.dataset.tab).classList.add("active");
   };
+});
+
+// ── Preset tabs (N3 / N2 / Top3 dans chaque presets-bloc) ──
+document.querySelectorAll(".presets-bloc").forEach(bloc => {
+  const tabs = bloc.querySelectorAll(".ptab");
+  const panels = bloc.querySelectorAll(".ppanel");
+  tabs.forEach(btn => {
+    btn.onclick = () => {
+      tabs.forEach(t => t.classList.remove("active"));
+      btn.classList.add("active");
+      const target = btn.dataset.target;
+      panels.forEach(p => p.classList.toggle("active", p.id === target));
+    };
+  });
 });
 
 // Bankroll : initial (info) vs actuel (utilisé pour stake)
@@ -647,34 +808,17 @@ async function loadStrategies() {
     const bScore = bPnl * bCompl;
     return bScore - aScore;
   });
-  grid.innerHTML = sortedStrats.map(s => {
-    const v = s.validated || {};
-    const sizingMode = (s.sizing && s.sizing.mode) || "flat_pct";
-    const ratio = v.ratio_pnl_dd || (v.pnl_per_100br && v.dd_per_100 ? (v.pnl_per_100br/v.dd_per_100) : null);
-    const ratioCls = ratio >= 4 ? "ok" : ratio >= 2 ? "" : ratio ? "muted" : "muted";
-    const ratioBadge = ratio ? `<span class="badge" style="color:${ratio>=4?'var(--green)':ratio>=2?'var(--orange)':'var(--muted)'};">${ratio.toFixed(1)}× ratio</span>` : "";
-    // Source du PnL (priorité : pnl_net_s1 > pnl > pnl_per_100br)
-    const pnlVal = v.pnl_net_s1 || v.pnl || v.pnl_per_100br;
-    const pnlLabel = v.pnl_net_s1 ? `+${v.pnl_net_s1}€ S1-26` : v.pnl ? `+${v.pnl}€` : v.pnl_per_100br ? `+${v.pnl_per_100br}€/100€` : null;
-    const aprBadge = v.april_pnl ? ` <span class="badge" style="color:${v.april_pnl>=200?'var(--green)':v.april_pnl>=0?'var(--orange)':'var(--red)'};">Avril ${v.april_pnl>=0?'+':''}${v.april_pnl}€</span>` : "";
-    const completionBadge = v.completion_rate ? ` <span class="badge">${(v.completion_rate*100).toFixed(0)}% comp</span>` : "";
-    const capBadge = v.avg_capital_complete ? ` <span class="badge" style="color:var(--green);">cap ${v.avg_capital_complete}€</span>` : "";
-    const perfLine = pnlLabel
-      ? `<span class="v">${pnlLabel}</span>${ratioBadge ? " "+ratioBadge : ""}${completionBadge}${capBadge}${aprBadge}${v.streak_max ? ` <span class="badge">streak ${v.streak_max}j</span>` : ""}`
-      : `<span style="color:var(--muted);">À tester</span>`;
-    const nLegs = (s.components||[]).map(c => c.max_legs||1).join(",");
-    return `<div class="card" data-sid="${s.id}">
-      <h3>${s.label}</h3>
-      <div class="desc">${s.description}</div>
-      <div class="perf">
-        ${perfLine}
-        <div style="margin-top:6px; color:var(--muted); font-size:10px;">Sizing: <b>${sizingMode}</b> · Jambes: ${nLegs}</div>
-      </div>
-    </div>`;
-  }).join("");
-  grid.querySelectorAll(".card").forEach(el => {
-    el.onclick = () => selectStrategy(el.dataset.sid);
-  });
+  // Remplir le select stratégie (pattern Montante Live, plus compact que la grille)
+  const stratSel = $("strat_select");
+  if (stratSel) {
+    stratSel.innerHTML = sortedStrats.map(s =>
+      `<option value="${s.id}">${s.label}</option>`).join("");
+    stratSel.onchange = () => selectStrategy(stratSel.value);
+    const viewBtn = $("strat_view");
+    if (viewBtn) viewBtn.onclick = () => selectStrategy(stratSel.value);
+  }
+  const stratCountEl = $("strat_count");
+  if (stratCountEl) stratCountEl.textContent = `${sortedStrats.length} stratégies`;
   // bt_strat trié par perf (EV pratique pour montantes, PnL pour classiques)
   const sortedForBt = Object.values(_strategies).sort((a, b) => {
     const av = a.validated || {}, bv = b.validated || {};
@@ -831,25 +975,6 @@ async function loadStrategies() {
         $("bt_run").scrollIntoView({behavior: "smooth", block: "center"});
       };
     });
-  }
-  // Recherche live
-  const searchInput = $("strat_search");
-  const countEl = $("strat_count");
-  const updateCount = () => {
-    const visible = grid.querySelectorAll(".card:not([style*='display: none'])").length;
-    const total = grid.querySelectorAll(".card").length;
-    countEl.textContent = `${visible}/${total} stratégies`;
-  };
-  if (searchInput) {
-    searchInput.oninput = () => {
-      const q = searchInput.value.toLowerCase().trim();
-      grid.querySelectorAll(".card").forEach(card => {
-        const txt = card.textContent.toLowerCase();
-        card.style.display = (q === "" || txt.includes(q)) ? "" : "none";
-      });
-      updateCount();
-    };
-    updateCount();
   }
 }
 
@@ -1712,12 +1837,517 @@ if (_exclClear) _exclClear.onclick = () => {
   if (sel) selectStrategy(sel.dataset.sid);
 };
 
+// ── CHALLENGE (multi-cibles) ──
+const CHALLENGE_SID = "CHALLENGE_10_TO_100";  // default
+let _ch_strategy = null;
+let _ch_all = {};  // toutes les CHALLENGE_* dispos
+
+async function loadChallenge() {
+  try {
+    const r = await fetch("/api/montante-strategies");
+    const d = await r.json();
+    // Filtre toutes les CHALLENGE_*
+    _ch_all = {};
+    Object.keys(d).filter(k => k.startsWith("CHALLENGE_")).forEach(k => { _ch_all[k] = d[k]; });
+    // Tri par cible (extraite du challenge_target ou par défaut)
+    const sorted = Object.values(_ch_all).sort((a, b) => {
+      const at = (a.challenge_target?.end || 0);
+      const bt = (b.challenge_target?.end || 0);
+      const am = (a.challenge_target?.start || 0);
+      const bm = (b.challenge_target?.start || 0);
+      // Tri par BR initial puis par cible
+      if (am !== bm) return am - bm;
+      return at - bt;
+    });
+    const sel = $("ch_select");
+    if (sel) {
+      sel.innerHTML = sorted.map(s => {
+        const t = s.challenge_target || {};
+        const v = s.validated || {};
+        const ratio = t.end && t.start ? (t.end / t.start).toFixed(0) : "?";
+        const prob10 = v.prob_target_10_cycles || "?";
+        return `<option value="${s.id}">×${ratio} | ${t.start || "?"}€ → ${t.end || "?"}€ | P10=${prob10}% — ${s.label.split('—').pop().trim()}</option>`;
+      }).join("");
+      sel.value = CHALLENGE_SID;
+      sel.onchange = () => applyChallenge(sel.value);
+    }
+    applyChallenge(sel?.value || CHALLENGE_SID);
+  } catch(e) { console.error("loadChallenge err", e); }
+}
+
+function applyChallenge(sid) {
+  _ch_strategy = _ch_all[sid];
+  if (!_ch_strategy) {
+    $("ch_strat_label").textContent = "⚠️ Stratégie introuvable";
+    return;
+  }
+  const v = _ch_strategy.validated || {};
+  const t = _ch_strategy.challenge_target || {};
+  $("ch_strat_label").textContent = _ch_strategy.label;
+  $("ch_strat_desc").textContent = _ch_strategy.description;
+  // Cap : si chain, montre cap par cycle ×2 et le total atteignable
+  if (t.chain_count) {
+    const expectedFinal = (t.start || 10) * Math.pow(t.chain_step_factor || 2, t.chain_count);
+    $("ch_strat_cap").textContent = `${v.avg_capital_complete_per_cycle_x2 || "?"}€/cycle × ${t.chain_count} = ${expectedFinal.toFixed(0)}€`;
+  } else {
+    $("ch_strat_cap").textContent = (v.avg_capital_complete || "?") + "€";
+  }
+  // Auto-set inputs
+  if (t.start) {
+    $("ch_palier").value = 1;
+    $("ch_capital").value = t.start;
+    $("ch_target").value = t.end || 100;
+  }
+  renderLadder();
+  $("ch_pick").innerHTML = "";
+}
+
+function renderLadder() {
+  if (!_ch_strategy) return;
+  const m = _ch_strategy.montante || {};
+  const t = _ch_strategy.challenge_target || {};
+  const initial = m.initial_stake || 10;
+  const n_p = m.n_paliers_target || 6;
+  const cmin = (_ch_strategy.components[0].cote_min) || 1.45;
+  const cmax = (_ch_strategy.components[0].cote_max) || 1.55;
+  const cote_avg = (cmin + cmax) / 2;
+  const currentCap = parseFloat($("ch_capital").value) || initial;
+  const target = parseInt($("ch_target").value) || 100;
+
+  // Mode CHAIN : afficher les cycles ×N
+  if (t.chain_count) {
+    const stepFactor = t.chain_step_factor || 2.0;
+    const chainCount = t.chain_count;
+    const startBR = t.start || 10;
+    let html = `<div style="margin-bottom:12px; padding:12px; background:rgba(255,215,0,.08); border:1px solid rgba(255,215,0,.4); border-radius:8px;">
+      <div style="font-size:12px; color:#ffd700; font-weight:600; margin-bottom:8px;">🔗 STRATÉGIE CHAINÉE ×${stepFactor} — ${chainCount} cycles successifs</div>
+      <div style="font-size:11px; color:var(--muted); margin-bottom:10px;">${t.instructions || ""}</div>
+      <div style="display:grid; grid-template-columns:repeat(${chainCount+1}, 1fr); gap:6px;">`;
+    let chainCap = startBR;
+    for (let c = 0; c <= chainCount; c++) {
+      const isCurrent = Math.abs(currentCap - chainCap) < chainCap * 0.15; // tolérance 15%
+      const reached = chainCap >= target;
+      const bg = isCurrent ? "linear-gradient(135deg, rgba(255,215,0,.20), rgba(255,215,0,.05))" : (reached ? "rgba(70,200,120,.10)" : "var(--panel)");
+      const border = isCurrent ? "2px solid #ffd700" : (reached ? "1px solid var(--green)" : "1px solid var(--bord)");
+      const tcolor = reached ? "var(--green)" : "var(--fg)";
+      html += `<div style="background:${bg}; border:${border}; border-radius:8px; padding:10px 6px; text-align:center;">
+        <div style="font-size:10px; color:var(--muted); text-transform:uppercase; letter-spacing:0.05em;">${c === 0 ? 'Départ' : 'Cycle ' + c}</div>
+        <div style="font-size:18px; color:${tcolor}; font-weight:700; margin-top:4px;">${chainCap.toFixed(0)}€${reached ? ' 🏆' : ''}</div>
+        ${c > 0 ? `<div style="font-size:10px; color:var(--muted); margin-top:2px;">×${stepFactor}</div>` : ''}
+      </div>`;
+      chainCap *= stepFactor;
+    }
+    html += `</div></div>`;
+
+    // Affiche aussi l'échelle paliers du cycle courant
+    html += `<div style="font-size:11px; color:var(--muted); margin-bottom:6px;">Cycle en cours (${n_p} paliers cote ${cote_avg.toFixed(2)}) :</div><div style="display:grid; grid-template-columns:repeat(${n_p+1}, 1fr); gap:6px;">`;
+    let cap = currentCap;
+    const currentP = parseInt($("ch_palier").value) || 1;
+    for (let p = 0; p <= n_p; p++) {
+      const isActive = p === currentP;
+      const cycleEnd = currentCap * Math.pow(stepFactor, 1);
+      const reachedCycleEnd = cap >= cycleEnd * 0.95;
+      const bg = isActive ? "linear-gradient(135deg, rgba(255,215,0,.15), rgba(255,215,0,.03))" : "var(--panel)";
+      const border = isActive ? "2px solid #ffd700" : "1px solid var(--bord)";
+      html += `<div style="background:${bg}; border:${border}; border-radius:6px; padding:6px 4px; text-align:center;">
+        <div style="font-size:9px; color:var(--muted);">${p === 0 ? 'Start' : 'P' + p}</div>
+        <div style="font-size:14px; color:${reachedCycleEnd?'var(--green)':'var(--fg)'}; font-weight:600;">${cap.toFixed(0)}€</div>
+      </div>`;
+      cap *= cote_avg;
+    }
+    html += `</div>`;
+    $("ch_ladder").innerHTML = html;
+    return;
+  }
+
+  // Mode normal : échelle paliers simple
+  let cap = currentCap;
+  let html = `<div style="display:grid; grid-template-columns:repeat(${n_p+1}, 1fr); gap:6px;">`;
+  const currentP = parseInt($("ch_palier").value) || 1;
+  for (let p = 0; p <= n_p; p++) {
+    const isActive = p === currentP;
+    const isPast = p < currentP;
+    const reachedTarget = cap >= target;
+    const bg = isActive ? "linear-gradient(135deg, rgba(255,215,0,.20), rgba(255,215,0,.05))"
+            : (isPast ? "var(--panel-2)" : "var(--panel)");
+    const border = isActive ? "2px solid #ffd700" : "1px solid var(--bord)";
+    const tcolor = reachedTarget ? "var(--green)" : "var(--fg)";
+    html += `<div style="background:${bg}; border:${border}; border-radius:8px; padding:10px 6px; text-align:center;">
+      <div style="font-size:10px; color:var(--muted); text-transform:uppercase; letter-spacing:0.05em;">${p === 0 ? 'Départ' : 'Palier ' + p}</div>
+      <div style="font-size:18px; color:${tcolor}; font-weight:700; margin-top:4px;">${cap.toFixed(0)}€${reachedTarget ? ' 🏆' : ''}</div>
+      ${p > 0 ? `<div style="font-size:10px; color:var(--muted); margin-top:2px;">×${cote_avg.toFixed(2)}</div>` : ''}
+    </div>`;
+    cap *= cote_avg;
+  }
+  html += `</div>`;
+  $("ch_ladder").innerHTML = html;
+}
+
+async function runChallenge() {
+  const palier = parseInt($("ch_palier").value) || 1;
+  const capital = parseFloat($("ch_capital").value) || 10;
+  const sid = $("ch_select")?.value || CHALLENGE_SID;
+  const status = $("ch_status");
+  status.style.display = "";
+  status.querySelector("span:last-child").textContent = "⏳ Recherche du pick palier " + palier + "...";
+  $("ch_pick").innerHTML = "";
+  try {
+    const excl = encodeURIComponent($("excluded_leagues")?.value || "");
+    const r = await fetch(`/api/montante-live?strategy=${sid}&palier=${palier}&capital=${capital}&excluded_leagues=${excl}`);
+    const d = await r.json();
+    status.style.display = "none";
+    if (d.error) {
+      $("ch_pick").innerHTML = `<div class="empty" style="color:var(--red);">${d.error}</div>`;
+      return;
+    }
+    if (!d.pick) {
+      $("ch_pick").innerHTML = `<div class="empty">Aucun pick correspondant trouvé. ${d.n_total_picks ? `(${d.n_total_picks} picks total mais aucun match futur)` : ""}</div>`;
+      return;
+    }
+    const p = d.pick;
+    const gain = (capital * (p.cote - 1)).toFixed(2);
+    const totalAfter = (capital * p.cote).toFixed(2);
+    const target = parseInt($("ch_target").value) || 100;
+    const reaches = parseFloat(totalAfter) >= target;
+    const fmtTime = t => t ? new Date(t*1000).toLocaleString('fr-FR', {hour:'2-digit', minute:'2-digit', day:'2-digit', month:'2-digit'}) : "?";
+    const m = _ch_strategy.montante || {};
+    const isLastPalier = palier >= (m.n_paliers_target || 6);
+    $("ch_pick").innerHTML = `
+      <div class="card" style="border:2px solid #ffd700; padding:18px; background:linear-gradient(135deg, rgba(255,215,0,.05), rgba(255,215,0,.02));">
+        <div style="font-size:12px; color:#ffd700; font-weight:700; margin-bottom:10px;">🎮 PICK PALIER ${palier}/${m.n_paliers_target || 6} — Mise ${capital}€</div>
+        <div style="font-size:18px; color:var(--fg); margin-bottom:6px;"><b>${p.match}</b></div>
+        <div style="color:var(--muted); margin-bottom:10px; font-size:12px;">${p.sport} · ${p.league||''} · ⏰ ${fmtTime(p.start_time)}</div>
+        <div style="font-size:15px; margin-bottom:14px;">
+          <span style="color:#ffd700; font-size:18px;">→ ${p.selection}</span>
+          <span class="badge" style="margin-left:10px;">${p.market}</span>
+        </div>
+        <div style="display:grid; grid-template-columns:repeat(4,1fr); gap:14px; padding:12px; background:var(--bg); border-radius:6px;">
+          <div><div style="color:var(--muted); font-size:11px;">Cote</div><div style="font-size:16px;"><b>${p.cote}</b></div></div>
+          <div><div style="color:var(--muted); font-size:11px;">WR magic</div><div style="font-size:16px;"><b>${(p.wr*100).toFixed(0)}%</b></div></div>
+          <div><div style="color:var(--muted); font-size:11px;">Mise</div><div style="font-size:16px;"><b>${capital}€</b></div></div>
+          <div><div style="color:var(--muted); font-size:11px;">Si gagné</div><div style="font-size:16px; color:${reaches?'var(--green)':'#ffd700'};"><b>${totalAfter}€</b>${reaches?' 🏆':''}</div></div>
+        </div>
+        <div style="margin-top:12px; padding:10px; background:rgba(255,215,0,.08); border-left:3px solid #ffd700; border-radius:4px; font-size:13px;">
+          ${reaches
+            ? `<b>🏆 OBJECTIF ATTEINT</b> — Si tu gagnes ce palier, tu auras <b>${totalAfter}€</b> ≥ ${target}€ (cible). Challenge complet !`
+            : isLastPalier
+            ? `<b>Dernier palier</b> — Si gagné → ${totalAfter}€. Si perdu → reset à 10€.`
+            : `<b>Si gagné</b> → ${totalAfter}€ sur palier ${palier+1}. <b>Si perdu</b> → reset à 10€.`}
+        </div>
+      </div>`;
+    renderLadder();
+  } catch(e) {
+    status.querySelector("span:last-child").textContent = "❌ " + e.message;
+  }
+}
+
+if ($("ch_run")) $("ch_run").onclick = runChallenge;
+if ($("ch_reset")) $("ch_reset").onclick = () => {
+  const t = _ch_strategy?.challenge_target || {};
+  $("ch_palier").value = 1;
+  $("ch_capital").value = t.start || 10;
+  $("ch_target").value = t.end || 100;
+  $("ch_pick").innerHTML = "";
+  renderLadder();
+};
+if ($("ch_palier")) $("ch_palier").addEventListener("change", renderLadder);
+if ($("ch_capital")) $("ch_capital").addEventListener("change", renderLadder);
+if ($("ch_target")) $("ch_target").addEventListener("change", renderLadder);
+
+// ── BACKTEST CHALLENGE (Monte Carlo client-side) ──
+async function loadBtChallenge() {
+  try {
+    const r = await fetch("/api/montante-strategies");
+    const d = await r.json();
+    const sel = $("btc_strat");
+    if (!sel) return;
+    // Tri : completion DESC + cap_moy DESC
+    const sorted = Object.values(d).filter(s => {
+      const v = s.validated || {};
+      return v.completion_rate != null && v.avg_capital_complete != null;
+    }).sort((a, b) => {
+      const av = a.validated, bv = b.validated;
+      // Score = prob 5 cycles atteindre target
+      const aScore = (1 - Math.pow(1 - av.completion_rate, 5)) * (av.avg_capital_complete >= 50 ? 1 : 0.5);
+      const bScore = (1 - Math.pow(1 - bv.completion_rate, 5)) * (bv.avg_capital_complete >= 50 ? 1 : 0.5);
+      return bScore - aScore;
+    });
+    sel.innerHTML = sorted.map(s => {
+      const v = s.validated || {};
+      const compl = (v.completion_rate * 100).toFixed(0);
+      const cap = v.avg_capital_complete.toFixed(0);
+      return `<option value="${s.id}">[${compl}% comp · cap ${cap}€] ${s.label}</option>`;
+    }).join("");
+    // Default sur CHALLENGE_10_TO_100 si présent
+    if (d[CHALLENGE_SID]) sel.value = CHALLENGE_SID;
+    // Auto-set BR initial et target quand on change de strat
+    sel.onchange = () => applyBtChallengeStrat(sel.value, d);
+    applyBtChallengeStrat(sel.value, d);
+  } catch(e) { console.error("loadBtChallenge err", e); }
+}
+
+function applyBtChallengeStrat(sid, allStrats) {
+  const s = (allStrats || _ch_all || {})[sid];
+  if (!s) return;
+  const m = s.montante || {};
+  const t = s.challenge_target || {};
+  // Auto-fill BR initial avec initial_stake de la strat (ou challenge_target.start)
+  const initial = m.initial_stake || t.start || 10;
+  const target = t.end || (initial * 10);
+  if ($("btc_initial")) $("btc_initial").value = initial;
+  if ($("btc_target")) $("btc_target").value = target;
+}
+
+function runMonteCarloChallenge() {
+  const sid = $("btc_strat").value;
+  const initial = parseFloat($("btc_initial").value) || 10;
+  const target = parseFloat($("btc_target").value) || 100;
+  const maxCycles = parseInt($("btc_max_cycles").value) || 10;
+  const N_SIMS = 10000;
+  const status = $("btc_status");
+  status.style.display = "flex";
+  status.querySelector("span:last-child").textContent = "⏳ Monte Carlo en cours (10k sims)...";
+  $("btc_summary").style.display = "none";
+  $("btc_chart").style.display = "none";
+  $("btc_recap").innerHTML = "";
+
+  setTimeout(() => {
+    // Récup stratégie
+    const sel = $("btc_strat");
+    const opt = sel.options[sel.selectedIndex];
+    if (!opt) return;
+    fetch("/api/montante-strategies").then(r => r.json()).then(d => {
+      const s = d[sid];
+      if (!s) {
+        status.querySelector("span:last-child").textContent = "❌ Stratégie introuvable";
+        status.className = "status err";
+        return;
+      }
+      const v = s.validated || {};
+      const compl = v.completion_rate || 0;
+      const cap = v.avg_capital_complete || 0;
+      const cost = initial; // perte par cycle échoué
+      const reachesTarget = cap >= target;
+
+      // MC : lance N sims, chacune jusqu'à atteindre target ou max_cycles
+      const cyclesNeeded = []; // si succès, nb cycles utilisés
+      const budgets = []; // budget perdu avant succès
+      let nSuccess = 0, nFail = 0;
+      for (let i = 0; i < N_SIMS; i++) {
+        let totalCost = 0;
+        let success = false;
+        let cyclesUsed = 0;
+        for (let c = 1; c <= maxCycles; c++) {
+          cyclesUsed = c;
+          const r = Math.random();
+          if (r < compl) {
+            // Cycle complet — capital atteint cap
+            if (cap >= target) {
+              success = true;
+              break;
+            } else {
+              // cycle réussit mais sous cible → continuer (rare car cap_moy ≥ cible normalement)
+              totalCost -= (cap - cost); // gain net
+              break;
+            }
+          } else {
+            // Cycle échoue → perd 10€
+            totalCost += cost;
+          }
+        }
+        if (success) {
+          nSuccess++;
+          cyclesNeeded.push(cyclesUsed);
+          budgets.push(totalCost);
+        } else {
+          nFail++;
+          budgets.push(totalCost);
+        }
+      }
+
+      const probSuccess = (nSuccess / N_SIMS) * 100;
+      const avgCycles = cyclesNeeded.length ? cyclesNeeded.reduce((a,b)=>a+b,0) / cyclesNeeded.length : 0;
+      const avgBudget = budgets.length ? budgets.reduce((a,b)=>a+b,0) / budgets.length : 0;
+      const medianCycles = cyclesNeeded.length ? cyclesNeeded.sort((a,b)=>a-b)[Math.floor(cyclesNeeded.length/2)] : 0;
+
+      // Distribution
+      const dist = new Array(maxCycles + 1).fill(0); // index 0 = échecs
+      cyclesNeeded.forEach(c => { if (c >= 1 && c <= maxCycles) dist[c]++; });
+      const failsCount = nFail;
+
+      status.style.display = "none";
+      $("btc_summary").style.display = "grid";
+      const probCls = probSuccess >= 99.9 ? "ok" : probSuccess >= 95 ? "warn" : "bad";
+      const flagProb = probSuccess >= 99.9 ? " 🏆🏆🏆" : probSuccess >= 99 ? " 🏆🏆" : probSuccess >= 95 ? " 🏆" : "";
+      $("btc_summary").innerHTML = [
+        ["Prob succès", `${probSuccess.toFixed(1)}%${flagProb}`, probCls, `${nSuccess}/${N_SIMS} sims`],
+        ["Cycles moyen (succès)", avgCycles.toFixed(2), "ok"],
+        ["Cycles médian (succès)", medianCycles, ""],
+        ["Budget moyen consommé", `${avgBudget.toFixed(1)}€`, avgBudget>50?"warn":"ok"],
+        ["Cible", `${target}€`, ""],
+        ["Cap moy / cycle", `${cap.toFixed(0)}€`, cap>=target?"ok":"warn"],
+        ["Completion / cycle", `${(compl*100).toFixed(0)}%`, compl>=0.7?"ok":compl>=0.5?"warn":"bad"],
+        ["Pertes par échec", `${cost}€`, ""],
+      ].map(([l,v,c,sub])=>`<div class="stat"><div class="lbl">${l}</div><div class="val ${c||""}">${v}</div>${sub?`<div class="sub">${sub}</div>`:""}</div>`).join("");
+
+      // Chart de distribution
+      $("btc_chart").style.display = "block";
+      drawChallengeChart(dist, failsCount, maxCycles);
+
+      // Recap interprétation
+      const interpretCls = probSuccess >= 99 ? "var(--green)" : probSuccess >= 90 ? "var(--orange)" : "var(--red)";
+      $("btc_recap").innerHTML = `
+        <div style="padding:14px; background:rgba(255,215,0,.06); border:1px solid rgba(255,215,0,.3); border-radius:8px; font-size:13px;">
+          <div style="font-size:14px; font-weight:600; color:#ffd700; margin-bottom:8px;">📊 Verdict</div>
+          <div>En partant de <b>${initial}€</b> et en visant <b>${target}€</b> avec la stratégie <b>${s.label}</b> :</div>
+          <ul style="margin:8px 0; padding-left:20px; line-height:1.6;">
+            <li><b style="color:${interpretCls};">${probSuccess.toFixed(1)}% de chances</b> d'atteindre ${target}€ en max ${maxCycles} cycles</li>
+            <li>En moyenne ${avgCycles.toFixed(1)} cycles nécessaires en cas de succès (médiane ${medianCycles})</li>
+            <li>Budget moyen consommé : <b>${avgBudget.toFixed(1)}€</b> (perdu en cycles échoués avant le succès)</li>
+            <li>Risque de perte totale : <b>${(failsCount/N_SIMS*100).toFixed(2)}%</b> (${maxCycles} cycles tous échoués)</li>
+          </ul>
+        </div>`;
+    });
+  }, 50);
+}
+
+function drawChallengeChart(dist, failsCount, maxCycles) {
+  const cv = $("btc_canvas");
+  const ctx = cv.getContext("2d");
+  ctx.clearRect(0,0,cv.width,cv.height);
+  const w = cv.width, h = cv.height;
+  const xPad = 40, yPad = 20;
+  const allBars = [...dist.slice(1), failsCount];
+  const maxVal = Math.max(...allBars, 1);
+  const nBars = allBars.length;
+  const barW = (w - 2*xPad) / nBars;
+  const colors = (i) => i === nBars - 1 ? "#f85149" : i < dist.length-1 ? `rgba(63,185,80,${0.4 + 0.6 * (1 - i/maxCycles)})` : "#3fb950";
+  ctx.font = "11px Inter, system-ui";
+  for (let i = 0; i < nBars; i++) {
+    const x = xPad + i * barW;
+    const v = allBars[i];
+    const barH = (v / maxVal) * (h - 2*yPad - 20);
+    const y = h - yPad - barH;
+    ctx.fillStyle = i === nBars - 1 ? "#f85149" : `rgba(63,185,80,${0.5 + 0.5*(1 - i/maxCycles)})`;
+    ctx.fillRect(x + 4, y, barW - 8, barH);
+    ctx.fillStyle = "#e6edf3";
+    ctx.textAlign = "center";
+    if (v > 0) ctx.fillText(v, x + barW/2, y - 4);
+    ctx.fillStyle = "#8b949e";
+    const label = i === nBars - 1 ? "Échec" : `C${i+1}`;
+    ctx.fillText(label, x + barW/2, h - 6);
+  }
+}
+
+if ($("btc_run")) $("btc_run").onclick = runMonteCarloChallenge;
+
+async function showBtChallengeHistory() {
+  const sid = $("btc_strat").value;
+  const initial = parseFloat($("btc_initial").value) || 10;
+  const status = $("btc_status");
+  status.style.display = "flex";
+  status.querySelector("span:last-child").textContent = "⏳ Chargement cycles historiques...";
+  $("btc_history_wrap").style.display = "none";
+  try {
+    // Récup config strat pour get n_paliers
+    const r0 = await fetch("/api/montante-strategies");
+    const d0 = await r0.json();
+    const s = d0[sid];
+    if (!s) {
+      status.className = "status err";
+      status.querySelector("span:last-child").textContent = "❌ Stratégie introuvable";
+      return;
+    }
+    const m = s.montante || {};
+    const n_p = m.n_paliers_target || 6;
+    const url = `/api/montante-simulate?strategy=${sid}&mode=intraday&initial_stake=${initial}&n_paliers=${n_p}&start=2026-01-01&end=2026-04-30`;
+    const r = await fetch(url);
+    if (!r.ok) {
+      const e = await r.json();
+      status.className = "status err";
+      status.querySelector("span:last-child").textContent = "❌ " + e.error;
+      return;
+    }
+    const d = await r.json();
+    status.style.display = "none";
+    $("btc_history_wrap").style.display = "block";
+
+    // Summary
+    const completeCycles = (d.cycles||[]).filter(c => c.outcome === "complete");
+    const failedCycles = (d.cycles||[]).filter(c => c.outcome !== "complete");
+    $("btc_history_summary").innerHTML = [
+      ["Cycles totaux", d.n_cycles_total, ""],
+      ["Cycles complétés", `${d.n_cycles_complete}/${d.n_cycles_total}`, "ok"],
+      ["% Complétion réelle", `${(d.completion_rate*100).toFixed(0)}%`, d.completion_rate>=0.6?"ok":d.completion_rate>=0.4?"warn":"bad"],
+      ["Capital final moyen", `${d.avg_capital_complete.toFixed(0)}€`, "ok"],
+      ["PnL total", `${d.final_pnl>=0?"+":""}${d.final_pnl.toFixed(0)}€`, d.final_pnl>=0?"ok":"bad"],
+      ["WR par palier", `${(d.wr_palier*100).toFixed(0)}%`, ""],
+    ].map(([l,v,c])=>`<div class="stat"><div class="lbl">${l}</div><div class="val ${c||""}">${v}</div></div>`).join("");
+
+    // Cycles list (most recent first, limited to 25 for perf)
+    const cyclesShow = (d.cycles||[]).slice().reverse().slice(0, 25);
+    $("btc_history_cycles").innerHTML = cyclesShow.map((c, i) => {
+      const idx = d.cycles.length - i;
+      const cls = c.outcome === "complete" ? "ok" : "ko";
+      const icon = c.outcome === "complete" ? "✅" : "❌";
+      const finalLbl = c.outcome === "complete" ? `→ ${c.final_capital.toFixed(0)}€` : "→ 0€ (reset)";
+      // Calcule la mise à chaque palier : capital_avant_palier_n = initial × cumul(cotes des paliers précédents)
+      let runningCap = initial;
+      return `<div class="combo">
+        <div class="combo-head">
+          <div class="combo-meta">
+            <div class="item"><span class="lbl">Cycle</span><span class="v">#${idx}</span></div>
+            <div class="item"><span class="lbl">Résultat</span><span class="v ${cls}">${icon} ${c.outcome === "complete" ? "COMPLET" : "ÉCHEC"}</span></div>
+            <div class="item"><span class="lbl">Paliers gagnés</span><span class="v">${c.n_paliers_won}/${c.legs?.length || "?"}</span></div>
+            <div class="item"><span class="lbl">Capital final</span><span class="v ${cls}">${finalLbl}</span></div>
+          </div>
+        </div>
+        <div class="legs">${(c.legs||[]).map((l, pi) => {
+          const lwon = l.won === true;
+          const lcls = lwon ? "ok" : l.won === false ? "ko" : "";
+          const licon = lwon ? "✅" : l.won === false ? "❌" : "—";
+          const mise = runningCap;
+          const gain = (mise * (l.odds - 1));
+          const after = mise * l.odds;
+          // Update running capital: si gagné, capital devient mise × cote; sinon 0 (mais on continue affichage)
+          runningCap = lwon ? after : 0;
+          return `<div class="legrow" style="display:flex; flex-direction:column; gap:4px; padding:8px 10px;">
+            <div style="display:flex; justify-content:space-between; align-items:center; gap:8px;">
+              <span><b>P${pi+1}</b> · ${l.date} · <b>${l.match}</b> · <span style="color:var(--blue);">${l.selection}</span> @${l.odds.toFixed(2)} <span style="color:var(--muted); font-size:11px;">(WR ${(l.wr*100).toFixed(0)}%)</span></span>
+              <span class="${lcls}">${licon}</span>
+            </div>
+            <div style="font-size:11px; color:var(--muted); padding-left:16px;">
+              💰 Mise <b style="color:#ffd700;">${mise.toFixed(2)}€</b> ·
+              ${lwon
+                ? `Gain <b style="color:var(--green);">+${gain.toFixed(2)}€</b> → capital <b>${after.toFixed(2)}€</b>`
+                : `Perte <b style="color:var(--red);">-${mise.toFixed(2)}€</b> → reset à ${initial}€`}
+            </div>
+          </div>`;
+        }).join("")}</div>
+      </div>`;
+    }).join("");
+
+    if (cyclesShow.length === 0) {
+      $("btc_history_cycles").innerHTML = '<div class="empty">Aucun cycle joué sur la période S1-26</div>';
+    } else if (d.cycles.length > 25) {
+      $("btc_history_cycles").innerHTML += `<div style="text-align:center; color:var(--muted); font-size:12px; padding:10px;">... et ${d.cycles.length - 25} cycles plus anciens (cachés pour perf)</div>`;
+    }
+  } catch(e) {
+    status.className = "status err";
+    status.querySelector("span:last-child").textContent = "❌ " + e.message;
+  }
+}
+
+if ($("btc_history")) $("btc_history").onclick = showBtChallengeHistory;
+
 // ── Init ──
 refreshStatus();
 loadPicks();
 loadStrategies();
 loadMontanteStrategies();
 loadMontanteLive();
+loadChallenge();
+loadBtChallenge();
 </script>
 </body>
 </html>

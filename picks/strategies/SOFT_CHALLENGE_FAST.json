@@ -1,0 +1,29 @@
+{
+  "id": "SOFT_CHALLENGE_FAST",
+  "label": "🛡️🚀 SOFT CHALLENGE FAST 10→100 — GOAT pct10 sans all-in (37 jours)",
+  "description": "★★★ SOFT CHALLENGE rapide : foot xmkt + hockey 1x2 WR≥70% sizing 10% (PAS all-in). Atteint **100€ depuis 10€ en 37 jours** sur S1-26. Tu peux jamais perdre toute ta BR — DD relatif max ~30-40% pendant la phase 10→100.",
+  "components": [{
+    "sport": "football", "market": "btts,over_1_5,over_2_5",
+    "cote_min": 1.20, "cote_max": 1.40,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 3,
+    "min_wr": 0.70, "min_ev": null
+  }, {
+    "sport": "ice-hockey", "market": "1x2",
+    "cote_min": 1.20, "cote_max": 1.50,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 5,
+    "min_wr": 0.70, "min_ev": null
+  }],
+  "dedup": "max1",
+  "sizing": {"mode": "flat_pct", "pct": 0.10, "min_stake": 0.5},
+  "challenge_target": {"start": 10, "end": 100, "days_to_target": 37, "mode": "soft"},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "source": "find_soft_challenge",
+    "br_final_per_10": 3361,
+    "dd_total": 137,
+    "days_to_100_from_10": 37,
+    "n_combos": 558,
+    "winamax_fr": true,
+    "note": "★★★ SOFT CHALLENGE FAST. Atteindre 100€ en 37 jours sans risque de tout perdre. Idéal si tu veux un challenge rapide mais sécurisé."
+  }
+}

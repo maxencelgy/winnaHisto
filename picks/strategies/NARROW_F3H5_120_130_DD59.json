@@ -1,0 +1,29 @@
+{
+  "id": "NARROW_F3H5_120_130_DD59",
+  "label": "🏒⚽🇫🇷💎💎 NARROW F3+H5 cote 1.20-1.30 WR≥70% pct7 — Ratio 18.3× DD 59€ RECORD",
+  "description": "★★★★ NEW RECORD DD ULTRA-BAS : cote très étroite 1.20-1.30 multi-comp F3+H5, WR≥70%, sizing 7%. Ratio **18.3×** mais DD seulement **59€** (record le plus bas de la lib). PnL +1075€ S1 sur 364 combos. Pour qui veut compounding sans stress.",
+  "components": [{
+    "sport": "football", "market": "btts,over_1_5,over_2_5",
+    "cote_min": 1.20, "cote_max": 1.30,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 3,
+    "min_wr": 0.70, "min_ev": null
+  }, {
+    "sport": "ice-hockey", "market": "1x2",
+    "cote_min": 1.20, "cote_max": 1.30,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 5,
+    "min_wr": 0.70, "min_ev": null
+  }],
+  "dedup": "max1",
+  "sizing": {"mode": "flat_pct", "pct": 0.07, "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "source": "find_new_v9_over25_isolated",
+    "pnl": 1075,
+    "bankroll_multiplier": 11.8,
+    "dd": 59,
+    "ratio_pnl_dd": 18.3,
+    "n_combos": 364,
+    "winamax_fr": true,
+    "note": "★★★★ NEW RECORD DD le plus bas de la lib (59€ < 75€ ancien record). Cote ultra-étroite 1.20-1.30 + WR strict + sizing modéré 7%."
+  }
+}

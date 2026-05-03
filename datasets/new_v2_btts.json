@@ -1,0 +1,78 @@
+{
+  "classique": [
+    {
+      "id": "BTTS_1.6-1.9_mc5_wr0.55_pct5",
+      "strat": {
+        "id": "BTTS_1.6-1.9_mc5_wr0.55_pct5",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts",
+            "cote_min": 1.6,
+            "cote_max": 1.9,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.55,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 321.1,
+      "br_mult": 4.21,
+      "dd": 59.2,
+      "ratio": 5.42,
+      "n_combos": 469
+    }
+  ],
+  "montantes": [
+    {
+      "id": "BTTS_MT_1.4-1.7_p3_wr0.7",
+      "perfs": {
+        "S1-26": {
+          "compl": 44.1,
+          "avg_cap": 34.7,
+          "n_total": 34,
+          "pnl": 180.8
+        },
+        "Apr": {
+          "compl": 50.0,
+          "avg_cap": 35.6,
+          "n_total": 10,
+          "pnl": 78.1
+        }
+      },
+      "strat": {
+        "id": "BTTS_MT_1.4-1.7_p3_wr0.7",
+        "label": "BTTS isol\u00e9 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts",
+            "cote_min": 1.4,
+            "cote_max": 1.7,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 1
+        }
+      }
+    }
+  ]
+}

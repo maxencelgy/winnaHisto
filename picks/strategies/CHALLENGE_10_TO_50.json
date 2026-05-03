@@ -1,0 +1,30 @@
+{
+  "id": "CHALLENGE_10_TO_50",
+  "label": "🪜🏆 CHALLENGE 10€ → 50€ — 5 paliers Hockey 1x2 WR≥70% cote 1.36-1.42",
+  "description": "★★★ STRATÉGIE CHALLENGE ×5 (BR petit) : 5 paliers Hockey 1x2 cote 1.36-1.42 WR≥70%. Completion 62% sur 13 cycles testés. Cap moyen 52€ (au-dessus cible 50€). **P3=94.3%, P5=99.2%**.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["ice-hockey"], "market": "1x2",
+    "cote_min": 1.36, "cote_max": 1.42,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+    "min_wr": 0.70, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 10, "n_paliers_target": 5, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "challenge_target": {"start": 10, "end": 50, "expected_cap": 52},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.62,
+    "n_cycles_complete": 8,
+    "n_cycles_total": 13,
+    "avg_capital_complete": 52,
+    "prob_target_3_cycles": 94.3,
+    "prob_target_5_cycles": 99.2,
+    "winamax_fr": true,
+    "source": "find_ultra_safe_challenges",
+    "note": "★★★ CHALLENGE ×5 BR=10€. Hockey 1x2 favoris mid-cote. P5=99.2% atteindre 50€ en max 5 cycles."
+  }
+}

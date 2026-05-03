@@ -1,0 +1,171 @@
+{
+  "viable": [
+    {
+      "id": "SOFT_GOAT_pct20",
+      "pnl": 144832.7,
+      "br_final": 144842.7,
+      "br_mult": 14484.27,
+      "dd": 11590.3,
+      "n_days_total": 120,
+      "days_to_target": 12,
+      "reached_target": true,
+      "n_combos": 558
+    },
+    {
+      "id": "SOFT_GOAT_pct15",
+      "pnl": 30646.4,
+      "br_final": 30656.4,
+      "br_mult": 3065.64,
+      "dd": 1857.8,
+      "n_days_total": 120,
+      "days_to_target": 31,
+      "reached_target": true,
+      "n_combos": 558
+    },
+    {
+      "id": "SOFT_GOAT_pct10",
+      "pnl": 3351.0,
+      "br_final": 3361.0,
+      "br_mult": 336.1,
+      "dd": 137.3,
+      "n_days_total": 120,
+      "days_to_target": 37,
+      "reached_target": true,
+      "n_combos": 558
+    },
+    {
+      "id": "SOFT_GOAT_pct7",
+      "pnl": 696.4,
+      "br_final": 706.4,
+      "br_mult": 70.64,
+      "dd": 33.2,
+      "n_days_total": 120,
+      "days_to_target": 55,
+      "reached_target": true,
+      "n_combos": 558
+    },
+    {
+      "id": "SOFT_NARROW_DD24_pct20",
+      "pnl": 1910.5,
+      "br_final": 1920.5,
+      "br_mult": 192.05,
+      "dd": 222.0,
+      "n_days_total": 120,
+      "days_to_target": 57,
+      "reached_target": true,
+      "n_combos": 349
+    },
+    {
+      "id": "SOFT_NARROW_DD24_pct15",
+      "pnl": 672.0,
+      "br_final": 682.0,
+      "br_mult": 68.2,
+      "dd": 63.3,
+      "n_days_total": 120,
+      "days_to_target": 72,
+      "reached_target": true,
+      "n_combos": 349
+    },
+    {
+      "id": "SOFT_GOAT_pct5",
+      "pnl": 218.4,
+      "br_final": 228.4,
+      "br_mult": 22.84,
+      "dd": 11.9,
+      "n_days_total": 120,
+      "days_to_target": 93,
+      "reached_target": true,
+      "n_combos": 558
+    },
+    {
+      "id": "SOFT_NARROW_DD24_pct10",
+      "pnl": 189.9,
+      "br_final": 199.9,
+      "br_mult": 19.99,
+      "dd": 13.4,
+      "n_days_total": 120,
+      "days_to_target": 103,
+      "reached_target": true,
+      "n_combos": 349
+    },
+    {
+      "id": "SOFT_ISO_OU15_pct20",
+      "pnl": 545.5,
+      "br_final": 555.5,
+      "br_mult": 55.55,
+      "dd": 45.0,
+      "n_days_total": 120,
+      "days_to_target": 108,
+      "reached_target": true,
+      "n_combos": 652
+    },
+    {
+      "id": "SOFT_ISO_OU15_pct15",
+      "pnl": 332.0,
+      "br_final": 342.0,
+      "br_mult": 34.2,
+      "dd": 26.8,
+      "n_days_total": 120,
+      "days_to_target": 109,
+      "reached_target": true,
+      "n_combos": 652
+    },
+    {
+      "id": "SOFT_ISO_OU15_pct10",
+      "pnl": 135.0,
+      "br_final": 145.0,
+      "br_mult": 14.5,
+      "dd": 14.3,
+      "n_days_total": 120,
+      "days_to_target": 112,
+      "reached_target": true,
+      "n_combos": 652
+    }
+  ],
+  "fails": [
+    {
+      "id": "SOFT_NARROW_DD24_pct5",
+      "pnl": 38.8,
+      "br_final": 48.8,
+      "br_mult": 4.88,
+      "dd": 2.4,
+      "n_days_total": 120,
+      "days_to_target": null,
+      "reached_target": false,
+      "n_combos": 349
+    },
+    {
+      "id": "SOFT_NARROW_DD24_pct7",
+      "pnl": 77.7,
+      "br_final": 87.7,
+      "br_mult": 8.77,
+      "dd": 4.5,
+      "n_days_total": 120,
+      "days_to_target": null,
+      "reached_target": false,
+      "n_combos": 349
+    },
+    {
+      "id": "SOFT_ISO_OU15_pct5",
+      "pnl": 34.4,
+      "br_final": 44.4,
+      "br_mult": 4.44,
+      "dd": 5.4,
+      "n_days_total": 120,
+      "days_to_target": null,
+      "reached_target": false,
+      "n_combos": 652
+    },
+    {
+      "id": "SOFT_ISO_OU15_pct7",
+      "pnl": 64.0,
+      "br_final": 74.0,
+      "br_mult": 7.4,
+      "dd": 8.5,
+      "n_days_total": 120,
+      "days_to_target": null,
+      "reached_target": false,
+      "n_combos": 652
+    }
+  ]
+}

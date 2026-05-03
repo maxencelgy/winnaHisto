@@ -1,0 +1,30 @@
+{
+  "id": "MICRO_F_OU_x5p_wr85_63pct",
+  "label": "🪜⚽🇫🇷🟣 MICRO-COTE Foot OU 1.5/2.5 ×5P WR≥85% cote 1.12-1.22 — 63% completion 31/49",
+  "description": "★★★ MICRO-COTE découvert sweep dédié : 5 paliers OU foot cote 1.12-1.22 WR≥85% strict. Completion **63.3%** sur 49 cycles, PnL +191€ S1 + Apr +50€. Cap moyen 22€. Profil ULTRA-SAFE alternatif aux 4-paliers WR 70%.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football"], "market": "over_1_5,over_2_5",
+    "cote_min": 1.12, "cote_max": 1.22,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+    "min_wr": 0.85, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 10, "n_paliers_target": 5, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.633,
+    "n_cycles_complete": 31,
+    "n_cycles_total": 49,
+    "avg_capital_complete": 22,
+    "pnl_net_s1": 191,
+    "april_pnl": 50,
+    "ev_pratique": 121,
+    "winamax_fr": true,
+    "source": "find_microcote_montantes",
+    "note": "★★★ MICRO-COTE record completion. WR 85% strict + cote 1.12-1.22 + 5 paliers."
+  }
+}

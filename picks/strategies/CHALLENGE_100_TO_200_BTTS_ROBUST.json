@@ -1,0 +1,30 @@
+{
+  "id": "CHALLENGE_100_TO_200_BTTS_ROBUST",
+  "label": "⚽🏆 CHALLENGE 100€ → 200€ BTTS — 5 paliers cote 1.14-1.17 WR≥85% — 21 cycles testés ROBUSTE",
+  "description": "★★★★ Variante robuste statistiquement : 5 paliers Foot BTTS cote 1.14-1.17 WR≥85%. Completion 67% sur **21 cycles testés** (volume sérieux). Cap moyen 203€. P3=96.3%, P5=99.6%. Cycles longs mais paliers ultra-bas → chaque pari très probable.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football"], "market": "btts",
+    "cote_min": 1.14, "cote_max": 1.17,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+    "min_wr": 0.85, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 100, "n_paliers_target": 5, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "challenge_target": {"start": 100, "end": 200, "expected_cap": 203},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.67,
+    "n_cycles_complete": 14,
+    "n_cycles_total": 21,
+    "avg_capital_complete": 203,
+    "prob_target_3_cycles": 96.3,
+    "prob_target_5_cycles": 99.6,
+    "winamax_fr": true,
+    "source": "find_ultra_safe_challenges",
+    "note": "★★★★ ROBUSTE 21 cycles. 5 paliers BTTS ultra-bas WR≥85%. Plus de paliers mais chacun très probable."
+  }
+}

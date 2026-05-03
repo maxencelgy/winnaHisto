@@ -1,0 +1,30 @@
+{
+  "id": "CHALLENGE_100_TO_500_ROBUST",
+  "label": "🪜📊 CHALLENGE 100€ → 500€ ROBUST — 6 paliers Foot OU 1.5 WR≥75% cote 1.25-1.34 — 75 cycles",
+  "description": "★★★★ STRATÉGIE 100→500 ROBUSTE : 6 paliers Foot Over 1.5 cote 1.25-1.34 WR≥75%. Completion **41% RÉELLE sur 75 cycles** (vs 71% sur 7 du CHALLENGE_100_TO_500 surestimé). Cap 438€. P5=93%, P10=99.5%.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football"], "market": "over_1_5",
+    "cote_min": 1.25, "cote_max": 1.34,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+    "min_wr": 0.75, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 100, "n_paliers_target": 6, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "challenge_target": {"start": 100, "end": 500, "expected_cap": 438},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.41,
+    "n_cycles_complete": 31,
+    "n_cycles_total": 75,
+    "avg_capital_complete": 438,
+    "prob_target_5_cycles": 93.0,
+    "prob_target_10_cycles": 99.5,
+    "winamax_fr": true,
+    "source": "find_foot_xmkt_all_targets",
+    "note": "★★★★ ROBUST 75 cycles. Cote 1.25-1.34 plus basse que CHALLENGE_100_TO_500 → 6 paliers au lieu de 4 mais beaucoup plus de cycles testés. P5=93%."
+  }
+}

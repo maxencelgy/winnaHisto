@@ -1,0 +1,313 @@
+{
+  "classique": [],
+  "montantes": [
+    {
+      "id": "BWR_MT_B_1.2-1.4_p3_wr0.7",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 29,
+          "n_total": 60,
+          "compl": 48.3,
+          "avg_cap": 20.9,
+          "pnl": 5.1
+        },
+        "Apr": {
+          "n_complete": 3,
+          "n_total": 11,
+          "compl": 27.3,
+          "avg_cap": 22.0,
+          "pnl": -44.0
+        }
+      },
+      "strat": {
+        "id": "BWR_MT_B_1.2-1.4_p3_wr0.7",
+        "label": "Basket montante WR strict",
+        "components": [
+          {
+            "sports": [
+              "basketball"
+            ],
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "BWR_MT_B_1.2-1.5_p3_wr0.7",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 32,
+          "n_total": 71,
+          "compl": 45.1,
+          "avg_cap": 21.9,
+          "pnl": -10.1
+        },
+        "Apr": {
+          "n_complete": 4,
+          "n_total": 13,
+          "compl": 30.8,
+          "avg_cap": 23.3,
+          "pnl": -36.6
+        }
+      },
+      "strat": {
+        "id": "BWR_MT_B_1.2-1.5_p3_wr0.7",
+        "label": "Basket montante WR strict",
+        "components": [
+          {
+            "sports": [
+              "basketball"
+            ],
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "BWR_MT_B_1.2-1.4_p3_wr0.65",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 32,
+          "n_total": 72,
+          "compl": 44.4,
+          "avg_cap": 21.5,
+          "pnl": -32.2
+        },
+        "Apr": {
+          "n_complete": 3,
+          "n_total": 12,
+          "compl": 25.0,
+          "avg_cap": 21.9,
+          "pnl": -54.3
+        }
+      },
+      "strat": {
+        "id": "BWR_MT_B_1.2-1.4_p3_wr0.65",
+        "label": "Basket montante WR strict",
+        "components": [
+          {
+            "sports": [
+              "basketball"
+            ],
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "BWR_MT_B_1.2-1.5_p3_wr0.65",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 36,
+          "n_total": 81,
+          "compl": 44.4,
+          "avg_cap": 22.5,
+          "pnl": -1.4
+        },
+        "Apr": {
+          "n_complete": 4,
+          "n_total": 14,
+          "compl": 28.6,
+          "avg_cap": 23.2,
+          "pnl": -47.0
+        }
+      },
+      "strat": {
+        "id": "BWR_MT_B_1.2-1.5_p3_wr0.65",
+        "label": "Basket montante WR strict",
+        "components": [
+          {
+            "sports": [
+              "basketball"
+            ],
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "BWR_MT_B_1.2-1.4_p3_wr0.75",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 23,
+          "n_total": 52,
+          "compl": 44.2,
+          "avg_cap": 20.7,
+          "pnl": -44.3
+        },
+        "Apr": {
+          "n_complete": 3,
+          "n_total": 9,
+          "compl": 33.3,
+          "avg_cap": 21.9,
+          "pnl": -24.3
+        }
+      },
+      "strat": {
+        "id": "BWR_MT_B_1.2-1.4_p3_wr0.75",
+        "label": "Basket montante WR strict",
+        "components": [
+          {
+            "sports": [
+              "basketball"
+            ],
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "BWR_MT_B_1.3-1.6_p3_wr0.65",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 34,
+          "n_total": 78,
+          "compl": 43.6,
+          "avg_cap": 27.3,
+          "pnl": 147.6
+        },
+        "Apr": {
+          "n_complete": 4,
+          "n_total": 12,
+          "compl": 33.3,
+          "avg_cap": 28.8,
+          "pnl": -4.8
+        }
+      },
+      "strat": {
+        "id": "BWR_MT_B_1.3-1.6_p3_wr0.65",
+        "label": "Basket montante WR strict",
+        "components": [
+          {
+            "sports": [
+              "basketball"
+            ],
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.6,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "BWR_MT_B_1.2-1.5_p3_wr0.75",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 23,
+          "n_total": 54,
+          "compl": 42.6,
+          "avg_cap": 20.8,
+          "pnl": -62.6
+        },
+        "Apr": {
+          "n_complete": 3,
+          "n_total": 10,
+          "compl": 30.0,
+          "avg_cap": 21.9,
+          "pnl": -34.3
+        }
+      },
+      "strat": {
+        "id": "BWR_MT_B_1.2-1.5_p3_wr0.75",
+        "label": "Basket montante WR strict",
+        "components": [
+          {
+            "sports": [
+              "basketball"
+            ],
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 1
+        }
+      }
+    }
+  ]
+}

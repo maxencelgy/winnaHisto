@@ -1,0 +1,29 @@
+{
+  "id": "NARROW_F3H5_120_130_pct10_BR30",
+  "label": "🏒⚽🇫🇷💎 NARROW F3+H5 cote 1.20-1.30 WR≥70% pct10 — BR×30 Ratio 14.5×",
+  "description": "★★★ NARROW aggressive variant : même profil étroit cote 1.20-1.30 mais sizing 10%. BR×30 Ratio 14.5× DD 202€ PnL +2929€. Plus de compounding qu'avec pct7, ratio toujours élevé.",
+  "components": [{
+    "sport": "football", "market": "btts,over_1_5,over_2_5",
+    "cote_min": 1.20, "cote_max": 1.30,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 3,
+    "min_wr": 0.70, "min_ev": null
+  }, {
+    "sport": "ice-hockey", "market": "1x2",
+    "cote_min": 1.20, "cote_max": 1.30,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 5,
+    "min_wr": 0.70, "min_ev": null
+  }],
+  "dedup": "max1",
+  "sizing": {"mode": "flat_pct", "pct": 0.10, "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "source": "find_new_v9_over25_isolated",
+    "pnl": 2929,
+    "bankroll_multiplier": 30.3,
+    "dd": 202,
+    "ratio_pnl_dd": 14.5,
+    "n_combos": 364,
+    "winamax_fr": true,
+    "note": "★★★ NARROW aggressive. Sizing 10% au lieu de 7%, BR×30 (vs 11.8 du DD59), DD 202 (vs 59)."
+  }
+}

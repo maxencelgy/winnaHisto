@@ -1,0 +1,30 @@
+{
+  "id": "CHALLENGE_100_TO_200_HOCKEY_RECORD",
+  "label": "🏒🏆🏆 CHALLENGE 100€ → 200€ HOCKEY ULTRA — 2 paliers Hockey 1x2 WR≥75% cote 1.40-1.45 — 83% COMPLETION RECORD",
+  "description": "★★★★★ NEW RECORD COMPLETION : 2 paliers all-in Hockey 1x2 cote 1.40-1.45 WR≥75%. Completion **83%** (record absolu, vs 68% ancien top). Cap moyen 201€. **P3=99.5%, P5=100%**. Volume faible (6 cycles testés) mais structure mathématique imparable.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["ice-hockey"], "market": "1x2",
+    "cote_min": 1.40, "cote_max": 1.45,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+    "min_wr": 0.75, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 100, "n_paliers_target": 2, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "challenge_target": {"start": 100, "end": 200, "expected_cap": 201},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.83,
+    "n_cycles_complete": 5,
+    "n_cycles_total": 6,
+    "avg_capital_complete": 201,
+    "prob_target_3_cycles": 99.5,
+    "prob_target_5_cycles": 100.0,
+    "winamax_fr": true,
+    "source": "find_ultra_safe_challenges",
+    "note": "★★★★★ NEW RECORD COMPLETION 83%. Seulement 2 paliers — structure courte = moins d'opportunités d'échec. Volume 6 cycles."
+  }
+}

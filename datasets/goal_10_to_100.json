@@ -1,0 +1,5970 @@
+{
+  "viable_ev": [
+    {
+      "id": "GOAL100_6p_high_1.45-1.55_p6_wr0.75_over_1_5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 3,
+          "n_total": 5,
+          "compl": 60.0,
+          "avg_cap": 117.7,
+          "pnl": 303.2
+        },
+        "Apr": {
+          "n_complete": 0,
+          "n_total": 0,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "pnl": 0
+        }
+      },
+      "strat": {
+        "id": "GOAL100_6p_high_1.45-1.55_p6_wr0.75_over_1_5",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.45,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 6,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_6p_high_1.45-1.55_p6_wr0.8_over_1_5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 3,
+          "n_total": 5,
+          "compl": 60.0,
+          "avg_cap": 117.7,
+          "pnl": 303.2
+        },
+        "Apr": {
+          "n_complete": 0,
+          "n_total": 0,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "pnl": 0
+        }
+      },
+      "strat": {
+        "id": "GOAL100_6p_high_1.45-1.55_p6_wr0.8_over_1_5",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.45,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.8,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 6,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_6p_high_1.45-1.55_p6_wr0.7_over_1_5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 4,
+          "n_total": 16,
+          "compl": 25.0,
+          "avg_cap": 116.2,
+          "pnl": 304.8
+        },
+        "Apr": {
+          "n_complete": 0,
+          "n_total": 4,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "pnl": -40
+        }
+      },
+      "strat": {
+        "id": "GOAL100_6p_high_1.45-1.55_p6_wr0.7_over_1_5",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.45,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 6,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_6p_mid_1.4-1.55_p6_wr0.8_over_1_5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 5,
+          "n_total": 17,
+          "compl": 29.4,
+          "avg_cap": 91.6,
+          "pnl": 287.9
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 2,
+          "compl": 50.0,
+          "avg_cap": 83.0,
+          "pnl": 63.0
+        }
+      },
+      "strat": {
+        "id": "GOAL100_6p_mid_1.4-1.55_p6_wr0.8_over_1_5",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.8,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 6,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_7p_mid_1.35-1.45_p7_wr0.8_1x2,over",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 8,
+          "n_total": 31,
+          "compl": 25.8,
+          "avg_cap": 99.6,
+          "pnl": 487.1
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 8,
+          "compl": 12.5,
+          "avg_cap": 89.9,
+          "pnl": 9.9
+        }
+      },
+      "strat": {
+        "id": "GOAL100_7p_mid_1.35-1.45_p7_wr0.8_1x2,over",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "1x2,over_1_5,over_2_5,btts",
+            "cote_min": 1.35,
+            "cote_max": 1.45,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.8,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 7,
+          "combo_legs_per_palier": 1
+        }
+      }
+    }
+  ],
+  "all": [
+    {
+      "id": "GOAL100_5p_high_1.55-1.65_p5_wr0.65_over_1_5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 5,
+          "n_total": 56,
+          "compl": 8.9,
+          "avg_cap": 108.6,
+          "pnl": -17.1
+        },
+        "Apr": {
+          "n_complete": 3,
+          "n_total": 12,
+          "compl": 25.0,
+          "avg_cap": 109.0,
+          "pnl": 207.1
+        }
+      },
+      "strat": {
+        "id": "GOAL100_5p_high_1.55-1.65_p5_wr0.65_over_1_5",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.55,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_5p_high_1.55-1.65_p5_wr0.7_over_1_5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 4,
+          "n_total": 45,
+          "compl": 8.9,
+          "avg_cap": 108.0,
+          "pnl": -18.1
+        },
+        "Apr": {
+          "n_complete": 2,
+          "n_total": 10,
+          "compl": 20.0,
+          "avg_cap": 108.8,
+          "pnl": 117.6
+        }
+      },
+      "strat": {
+        "id": "GOAL100_5p_high_1.55-1.65_p5_wr0.7_over_1_5",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.55,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_5p_high_1.55-1.65_p5_wr0.75_over_1_5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 2,
+          "n_total": 27,
+          "compl": 7.4,
+          "avg_cap": 104.5,
+          "pnl": -61.0
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 7,
+          "compl": 14.3,
+          "avg_cap": 111.6,
+          "pnl": 41.6
+        }
+      },
+      "strat": {
+        "id": "GOAL100_5p_high_1.55-1.65_p5_wr0.75_over_1_5",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.55,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_5p_high_1.55-1.65_p5_wr0.65_btts,ove",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 5,
+          "n_total": 66,
+          "compl": 7.6,
+          "avg_cap": 107.2,
+          "pnl": -124.0
+        },
+        "Apr": {
+          "n_complete": 2,
+          "n_total": 15,
+          "compl": 13.3,
+          "avg_cap": 107.1,
+          "pnl": 64.3
+        }
+      },
+      "strat": {
+        "id": "GOAL100_5p_high_1.55-1.65_p5_wr0.65_btts,ove",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.55,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_5p_high_1.55-1.65_p5_wr0.7_btts,ove",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 5,
+          "n_total": 54,
+          "compl": 9.3,
+          "avg_cap": 107.9,
+          "pnl": -0.6
+        },
+        "Apr": {
+          "n_complete": 3,
+          "n_total": 13,
+          "compl": 23.1,
+          "avg_cap": 108.6,
+          "pnl": 195.8
+        }
+      },
+      "strat": {
+        "id": "GOAL100_5p_high_1.55-1.65_p5_wr0.7_btts,ove",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.55,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_5p_high_1.55-1.65_p5_wr0.75_btts,ove",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 4,
+          "n_total": 40,
+          "compl": 10.0,
+          "avg_cap": 105.6,
+          "pnl": 22.3
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 10,
+          "compl": 10.0,
+          "avg_cap": 111.6,
+          "pnl": 11.6
+        }
+      },
+      "strat": {
+        "id": "GOAL100_5p_high_1.55-1.65_p5_wr0.75_btts,ove",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.55,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_5p_high_1.55-1.65_p5_wr0.8_btts,ove",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 0,
+          "n_total": 9,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "pnl": -90
+        },
+        "Apr": {
+          "n_complete": 0,
+          "n_total": 1,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "pnl": -10
+        }
+      },
+      "strat": {
+        "id": "GOAL100_5p_high_1.55-1.65_p5_wr0.8_btts,ove",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.55,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.8,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_5p_high_1.55-1.65_p5_wr0.65_1x2,over",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 5,
+          "n_total": 72,
+          "compl": 6.9,
+          "avg_cap": 103.6,
+          "pnl": -202.0
+        },
+        "Apr": {
+          "n_complete": 3,
+          "n_total": 18,
+          "compl": 16.7,
+          "avg_cap": 103.5,
+          "pnl": 130.4
+        }
+      },
+      "strat": {
+        "id": "GOAL100_5p_high_1.55-1.65_p5_wr0.65_1x2,over",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "1x2,over_1_5,over_2_5,btts",
+            "cote_min": 1.55,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_5p_high_1.55-1.65_p5_wr0.7_1x2,over",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 6,
+          "n_total": 63,
+          "compl": 9.5,
+          "avg_cap": 105.1,
+          "pnl": 0.9
+        },
+        "Apr": {
+          "n_complete": 4,
+          "n_total": 17,
+          "compl": 23.5,
+          "avg_cap": 106.1,
+          "pnl": 254.5
+        }
+      },
+      "strat": {
+        "id": "GOAL100_5p_high_1.55-1.65_p5_wr0.7_1x2,over",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "1x2,over_1_5,over_2_5,btts",
+            "cote_min": 1.55,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_5p_high_1.55-1.65_p5_wr0.75_1x2,over",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 4,
+          "n_total": 44,
+          "compl": 9.1,
+          "avg_cap": 105.1,
+          "pnl": -19.8
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 11,
+          "compl": 9.1,
+          "avg_cap": 108.1,
+          "pnl": -1.9
+        }
+      },
+      "strat": {
+        "id": "GOAL100_5p_high_1.55-1.65_p5_wr0.75_1x2,over",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "1x2,over_1_5,over_2_5,btts",
+            "cote_min": 1.55,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_5p_high_1.55-1.65_p5_wr0.8_1x2,over",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 0,
+          "n_total": 13,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "pnl": -130
+        },
+        "Apr": {
+          "n_complete": 0,
+          "n_total": 2,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "pnl": -20
+        }
+      },
+      "strat": {
+        "id": "GOAL100_5p_high_1.55-1.65_p5_wr0.8_1x2,over",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "1x2,over_1_5,over_2_5,btts",
+            "cote_min": 1.55,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.8,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_6p_mid_1.4-1.55_p6_wr0.65_over_1_5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 10,
+          "n_total": 60,
+          "compl": 16.7,
+          "avg_cap": 87.9,
+          "pnl": 278.6
+        },
+        "Apr": {
+          "n_complete": 2,
+          "n_total": 12,
+          "compl": 16.7,
+          "avg_cap": 88.9,
+          "pnl": 57.9
+        }
+      },
+      "strat": {
+        "id": "GOAL100_6p_mid_1.4-1.55_p6_wr0.65_over_1_5",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 6,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_6p_mid_1.4-1.55_p6_wr0.7_over_1_5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 10,
+          "n_total": 57,
+          "compl": 17.5,
+          "avg_cap": 85.4,
+          "pnl": 283.7
+        },
+        "Apr": {
+          "n_complete": 3,
+          "n_total": 10,
+          "compl": 30.0,
+          "avg_cap": 83.9,
+          "pnl": 151.8
+        }
+      },
+      "strat": {
+        "id": "GOAL100_6p_mid_1.4-1.55_p6_wr0.7_over_1_5",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 6,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_6p_mid_1.4-1.55_p6_wr0.75_over_1_5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 7,
+          "n_total": 38,
+          "compl": 18.4,
+          "avg_cap": 85.6,
+          "pnl": 219.1
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 8,
+          "compl": 12.5,
+          "avg_cap": 85.3,
+          "pnl": 5.3
+        }
+      },
+      "strat": {
+        "id": "GOAL100_6p_mid_1.4-1.55_p6_wr0.75_over_1_5",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 6,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_6p_mid_1.4-1.55_p6_wr0.8_over_1_5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 5,
+          "n_total": 17,
+          "compl": 29.4,
+          "avg_cap": 91.6,
+          "pnl": 287.9
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 2,
+          "compl": 50.0,
+          "avg_cap": 83.0,
+          "pnl": 63.0
+        }
+      },
+      "strat": {
+        "id": "GOAL100_6p_mid_1.4-1.55_p6_wr0.8_over_1_5",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.8,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 6,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_6p_mid_1.4-1.55_p6_wr0.65_over_1_5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 13,
+          "n_total": 77,
+          "compl": 16.9,
+          "avg_cap": 89.1,
+          "pnl": 388.4
+        },
+        "Apr": {
+          "n_complete": 3,
+          "n_total": 16,
+          "compl": 18.8,
+          "avg_cap": 92.7,
+          "pnl": 118.2
+        }
+      },
+      "strat": {
+        "id": "GOAL100_6p_mid_1.4-1.55_p6_wr0.65_over_1_5",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.4,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 6,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_6p_mid_1.4-1.55_p6_wr0.7_over_1_5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 9,
+          "n_total": 60,
+          "compl": 15.0,
+          "avg_cap": 85.2,
+          "pnl": 166.4
+        },
+        "Apr": {
+          "n_complete": 0,
+          "n_total": 12,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "pnl": -120
+        }
+      },
+      "strat": {
+        "id": "GOAL100_6p_mid_1.4-1.55_p6_wr0.7_over_1_5",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.4,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 6,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_6p_mid_1.4-1.55_p6_wr0.75_over_1_5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 5,
+          "n_total": 36,
+          "compl": 13.9,
+          "avg_cap": 84.1,
+          "pnl": 60.6
+        },
+        "Apr": {
+          "n_complete": 0,
+          "n_total": 8,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "pnl": -80
+        }
+      },
+      "strat": {
+        "id": "GOAL100_6p_mid_1.4-1.55_p6_wr0.75_over_1_5",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.4,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 6,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_6p_mid_1.4-1.55_p6_wr0.8_over_1_5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 2,
+          "n_total": 10,
+          "compl": 20.0,
+          "avg_cap": 84.2,
+          "pnl": 68.5
+        },
+        "Apr": {
+          "n_complete": 0,
+          "n_total": 2,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "pnl": -20
+        }
+      },
+      "strat": {
+        "id": "GOAL100_6p_mid_1.4-1.55_p6_wr0.8_over_1_5",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.4,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.8,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 6,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_6p_mid_1.4-1.55_p6_wr0.65_btts,ove",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 13,
+          "n_total": 88,
+          "compl": 14.8,
+          "avg_cap": 90.9,
+          "pnl": 301.1
+        },
+        "Apr": {
+          "n_complete": 2,
+          "n_total": 19,
+          "compl": 10.5,
+          "avg_cap": 94.9,
+          "pnl": -0.2
+        }
+      },
+      "strat": {
+        "id": "GOAL100_6p_mid_1.4-1.55_p6_wr0.65_btts,ove",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.4,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 6,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_6p_mid_1.4-1.55_p6_wr0.7_btts,ove",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 10,
+          "n_total": 71,
+          "compl": 14.1,
+          "avg_cap": 87.4,
+          "pnl": 163.8
+        },
+        "Apr": {
+          "n_complete": 2,
+          "n_total": 15,
+          "compl": 13.3,
+          "avg_cap": 88.3,
+          "pnl": 26.6
+        }
+      },
+      "strat": {
+        "id": "GOAL100_6p_mid_1.4-1.55_p6_wr0.7_btts,ove",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.4,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 6,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_6p_mid_1.4-1.55_p6_wr0.75_btts,ove",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 4,
+          "n_total": 42,
+          "compl": 9.5,
+          "avg_cap": 84.4,
+          "pnl": -82.4
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 10,
+          "compl": 10.0,
+          "avg_cap": 81.9,
+          "pnl": -18.1
+        }
+      },
+      "strat": {
+        "id": "GOAL100_6p_mid_1.4-1.55_p6_wr0.75_btts,ove",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.4,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 6,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_6p_mid_1.4-1.55_p6_wr0.8_btts,ove",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 2,
+          "n_total": 11,
+          "compl": 18.2,
+          "avg_cap": 84.3,
+          "pnl": 58.5
+        },
+        "Apr": {
+          "n_complete": 0,
+          "n_total": 3,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "pnl": -30
+        }
+      },
+      "strat": {
+        "id": "GOAL100_6p_mid_1.4-1.55_p6_wr0.8_btts,ove",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.4,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.8,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 6,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_6p_mid_1.4-1.55_p6_wr0.65_1x2,over",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 12,
+          "n_total": 93,
+          "compl": 12.9,
+          "avg_cap": 88.8,
+          "pnl": 135.3
+        },
+        "Apr": {
+          "n_complete": 3,
+          "n_total": 21,
+          "compl": 14.3,
+          "avg_cap": 92.7,
+          "pnl": 68.1
+        }
+      },
+      "strat": {
+        "id": "GOAL100_6p_mid_1.4-1.55_p6_wr0.65_1x2,over",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "1x2,over_1_5,over_2_5,btts",
+            "cote_min": 1.4,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 6,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_6p_mid_1.4-1.55_p6_wr0.7_1x2,over",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 6,
+          "n_total": 76,
+          "compl": 7.9,
+          "avg_cap": 86.9,
+          "pnl": -238.8
+        },
+        "Apr": {
+          "n_complete": 0,
+          "n_total": 18,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "pnl": -180
+        }
+      },
+      "strat": {
+        "id": "GOAL100_6p_mid_1.4-1.55_p6_wr0.7_1x2,over",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "1x2,over_1_5,over_2_5,btts",
+            "cote_min": 1.4,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 6,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_6p_mid_1.4-1.55_p6_wr0.75_1x2,over",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 4,
+          "n_total": 48,
+          "compl": 8.3,
+          "avg_cap": 84.2,
+          "pnl": -143.1
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 13,
+          "compl": 7.7,
+          "avg_cap": 81.9,
+          "pnl": -48.1
+        }
+      },
+      "strat": {
+        "id": "GOAL100_6p_mid_1.4-1.55_p6_wr0.75_1x2,over",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "1x2,over_1_5,over_2_5,btts",
+            "cote_min": 1.4,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 6,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_6p_mid_1.4-1.55_p6_wr0.8_1x2,over",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 3,
+          "n_total": 15,
+          "compl": 20.0,
+          "avg_cap": 84.9,
+          "pnl": 104.6
+        },
+        "Apr": {
+          "n_complete": 0,
+          "n_total": 5,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "pnl": -50
+        }
+      },
+      "strat": {
+        "id": "GOAL100_6p_mid_1.4-1.55_p6_wr0.8_1x2,over",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "1x2,over_1_5,over_2_5,btts",
+            "cote_min": 1.4,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.8,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 6,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_6p_high_1.45-1.55_p6_wr0.65_over_1_5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 4,
+          "n_total": 21,
+          "compl": 19.0,
+          "avg_cap": 116.2,
+          "pnl": 254.8
+        },
+        "Apr": {
+          "n_complete": 0,
+          "n_total": 5,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "pnl": -50
+        }
+      },
+      "strat": {
+        "id": "GOAL100_6p_high_1.45-1.55_p6_wr0.65_over_1_5",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.45,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 6,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_6p_high_1.45-1.55_p6_wr0.7_over_1_5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 4,
+          "n_total": 16,
+          "compl": 25.0,
+          "avg_cap": 116.2,
+          "pnl": 304.8
+        },
+        "Apr": {
+          "n_complete": 0,
+          "n_total": 4,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "pnl": -40
+        }
+      },
+      "strat": {
+        "id": "GOAL100_6p_high_1.45-1.55_p6_wr0.7_over_1_5",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.45,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 6,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_6p_high_1.45-1.55_p6_wr0.75_over_1_5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 3,
+          "n_total": 5,
+          "compl": 60.0,
+          "avg_cap": 117.7,
+          "pnl": 303.2
+        },
+        "Apr": {
+          "n_complete": 0,
+          "n_total": 0,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "pnl": 0
+        }
+      },
+      "strat": {
+        "id": "GOAL100_6p_high_1.45-1.55_p6_wr0.75_over_1_5",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.45,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 6,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_6p_high_1.45-1.55_p6_wr0.8_over_1_5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 3,
+          "n_total": 5,
+          "compl": 60.0,
+          "avg_cap": 117.7,
+          "pnl": 303.2
+        },
+        "Apr": {
+          "n_complete": 0,
+          "n_total": 0,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "pnl": 0
+        }
+      },
+      "strat": {
+        "id": "GOAL100_6p_high_1.45-1.55_p6_wr0.8_over_1_5",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.45,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.8,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 6,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_6p_high_1.45-1.55_p6_wr0.65_over_1_5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 2,
+          "n_total": 44,
+          "compl": 4.5,
+          "avg_cap": 117.3,
+          "pnl": -205.3
+        },
+        "Apr": {
+          "n_complete": 0,
+          "n_total": 10,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "pnl": -100
+        }
+      },
+      "strat": {
+        "id": "GOAL100_6p_high_1.45-1.55_p6_wr0.65_over_1_5",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.45,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 6,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_6p_high_1.45-1.55_p6_wr0.7_over_1_5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 2,
+          "n_total": 27,
+          "compl": 7.4,
+          "avg_cap": 117.3,
+          "pnl": -35.3
+        },
+        "Apr": {
+          "n_complete": 0,
+          "n_total": 7,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "pnl": -70
+        }
+      },
+      "strat": {
+        "id": "GOAL100_6p_high_1.45-1.55_p6_wr0.7_over_1_5",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.45,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 6,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_6p_high_1.45-1.55_p6_wr0.75_over_1_5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 0,
+          "n_total": 9,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "pnl": -90
+        },
+        "Apr": {
+          "n_complete": 0,
+          "n_total": 2,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "pnl": -20
+        }
+      },
+      "strat": {
+        "id": "GOAL100_6p_high_1.45-1.55_p6_wr0.75_over_1_5",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.45,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 6,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_6p_high_1.45-1.55_p6_wr0.65_btts,ove",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 4,
+          "n_total": 59,
+          "compl": 6.8,
+          "avg_cap": 119.3,
+          "pnl": -112.8
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 14,
+          "compl": 7.1,
+          "avg_cap": 120.9,
+          "pnl": -19.1
+        }
+      },
+      "strat": {
+        "id": "GOAL100_6p_high_1.45-1.55_p6_wr0.65_btts,ove",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.45,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 6,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_6p_high_1.45-1.55_p6_wr0.7_btts,ove",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 4,
+          "n_total": 39,
+          "compl": 10.3,
+          "avg_cap": 118.0,
+          "pnl": 81.8
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 9,
+          "compl": 11.1,
+          "avg_cap": 120.9,
+          "pnl": 30.9
+        }
+      },
+      "strat": {
+        "id": "GOAL100_6p_high_1.45-1.55_p6_wr0.7_btts,ove",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.45,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 6,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_6p_high_1.45-1.55_p6_wr0.75_btts,ove",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 0,
+          "n_total": 15,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "pnl": -150
+        },
+        "Apr": {
+          "n_complete": 0,
+          "n_total": 3,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "pnl": -30
+        }
+      },
+      "strat": {
+        "id": "GOAL100_6p_high_1.45-1.55_p6_wr0.75_btts,ove",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.45,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 6,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_6p_high_1.45-1.55_p6_wr0.65_1x2,over",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 8,
+          "n_total": 70,
+          "compl": 11.4,
+          "avg_cap": 118.2,
+          "pnl": 245.5
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 16,
+          "compl": 6.2,
+          "avg_cap": 120.8,
+          "pnl": -39.2
+        }
+      },
+      "strat": {
+        "id": "GOAL100_6p_high_1.45-1.55_p6_wr0.65_1x2,over",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "1x2,over_1_5,over_2_5,btts",
+            "cote_min": 1.45,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 6,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_6p_high_1.45-1.55_p6_wr0.7_1x2,over",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 3,
+          "n_total": 48,
+          "compl": 6.2,
+          "avg_cap": 120.9,
+          "pnl": -117.3
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 13,
+          "compl": 7.7,
+          "avg_cap": 127.4,
+          "pnl": -2.6
+        }
+      },
+      "strat": {
+        "id": "GOAL100_6p_high_1.45-1.55_p6_wr0.7_1x2,over",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "1x2,over_1_5,over_2_5,btts",
+            "cote_min": 1.45,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 6,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_6p_high_1.45-1.55_p6_wr0.75_1x2,over",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 0,
+          "n_total": 24,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "pnl": -240
+        },
+        "Apr": {
+          "n_complete": 0,
+          "n_total": 5,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "pnl": -50
+        }
+      },
+      "strat": {
+        "id": "GOAL100_6p_high_1.45-1.55_p6_wr0.75_1x2,over",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "1x2,over_1_5,over_2_5,btts",
+            "cote_min": 1.45,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 6,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_7p_mid_1.35-1.45_p7_wr0.65_over_1_5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 12,
+          "n_total": 68,
+          "compl": 17.6,
+          "avg_cap": 98.9,
+          "pnl": 506.6
+        },
+        "Apr": {
+          "n_complete": 2,
+          "n_total": 16,
+          "compl": 12.5,
+          "avg_cap": 99.5,
+          "pnl": 39.0
+        }
+      },
+      "strat": {
+        "id": "GOAL100_7p_mid_1.35-1.45_p7_wr0.65_over_1_5",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.35,
+            "cote_max": 1.45,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 7,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_7p_mid_1.35-1.45_p7_wr0.7_over_1_5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 12,
+          "n_total": 66,
+          "compl": 18.2,
+          "avg_cap": 99.3,
+          "pnl": 531.9
+        },
+        "Apr": {
+          "n_complete": 2,
+          "n_total": 16,
+          "compl": 12.5,
+          "avg_cap": 99.5,
+          "pnl": 39.0
+        }
+      },
+      "strat": {
+        "id": "GOAL100_7p_mid_1.35-1.45_p7_wr0.7_over_1_5",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.35,
+            "cote_max": 1.45,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 7,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_7p_mid_1.35-1.45_p7_wr0.75_over_1_5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 8,
+          "n_total": 47,
+          "compl": 17.0,
+          "avg_cap": 98.2,
+          "pnl": 315.6
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 12,
+          "compl": 8.3,
+          "avg_cap": 93.8,
+          "pnl": -26.2
+        }
+      },
+      "strat": {
+        "id": "GOAL100_7p_mid_1.35-1.45_p7_wr0.75_over_1_5",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.35,
+            "cote_max": 1.45,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 7,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_7p_mid_1.35-1.45_p7_wr0.8_over_1_5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 3,
+          "n_total": 16,
+          "compl": 18.8,
+          "avg_cap": 102.3,
+          "pnl": 147.0
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 2,
+          "compl": 50.0,
+          "avg_cap": 102.3,
+          "pnl": 82.3
+        }
+      },
+      "strat": {
+        "id": "GOAL100_7p_mid_1.35-1.45_p7_wr0.8_over_1_5",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.35,
+            "cote_max": 1.45,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.8,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 7,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_7p_mid_1.35-1.45_p7_wr0.65_over_1_5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 14,
+          "n_total": 79,
+          "compl": 17.7,
+          "avg_cap": 100.9,
+          "pnl": 622.7
+        },
+        "Apr": {
+          "n_complete": 3,
+          "n_total": 19,
+          "compl": 15.8,
+          "avg_cap": 96.6,
+          "pnl": 99.8
+        }
+      },
+      "strat": {
+        "id": "GOAL100_7p_mid_1.35-1.45_p7_wr0.65_over_1_5",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.35,
+            "cote_max": 1.45,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 7,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_7p_mid_1.35-1.45_p7_wr0.7_over_1_5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 9,
+          "n_total": 68,
+          "compl": 13.2,
+          "avg_cap": 100.0,
+          "pnl": 220.3
+        },
+        "Apr": {
+          "n_complete": 2,
+          "n_total": 17,
+          "compl": 11.8,
+          "avg_cap": 96.6,
+          "pnl": 23.3
+        }
+      },
+      "strat": {
+        "id": "GOAL100_7p_mid_1.35-1.45_p7_wr0.7_over_1_5",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.35,
+            "cote_max": 1.45,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 7,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_7p_mid_1.35-1.45_p7_wr0.75_over_1_5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 10,
+          "n_total": 52,
+          "compl": 19.2,
+          "avg_cap": 98.0,
+          "pnl": 459.5
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 13,
+          "compl": 7.7,
+          "avg_cap": 91.2,
+          "pnl": -38.8
+        }
+      },
+      "strat": {
+        "id": "GOAL100_7p_mid_1.35-1.45_p7_wr0.75_over_1_5",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.35,
+            "cote_max": 1.45,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 7,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_7p_mid_1.35-1.45_p7_wr0.8_over_1_5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 5,
+          "n_total": 21,
+          "compl": 23.8,
+          "avg_cap": 97.9,
+          "pnl": 279.4
+        },
+        "Apr": {
+          "n_complete": 2,
+          "n_total": 4,
+          "compl": 50.0,
+          "avg_cap": 89.9,
+          "pnl": 139.8
+        }
+      },
+      "strat": {
+        "id": "GOAL100_7p_mid_1.35-1.45_p7_wr0.8_over_1_5",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.35,
+            "cote_max": 1.45,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.8,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 7,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_7p_mid_1.35-1.45_p7_wr0.65_btts,ove",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 14,
+          "n_total": 81,
+          "compl": 17.3,
+          "avg_cap": 102.7,
+          "pnl": 627.7
+        },
+        "Apr": {
+          "n_complete": 4,
+          "n_total": 19,
+          "compl": 21.1,
+          "avg_cap": 100.2,
+          "pnl": 210.8
+        }
+      },
+      "strat": {
+        "id": "GOAL100_7p_mid_1.35-1.45_p7_wr0.65_btts,ove",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.35,
+            "cote_max": 1.45,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 7,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_7p_mid_1.35-1.45_p7_wr0.7_btts,ove",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 10,
+          "n_total": 71,
+          "compl": 14.1,
+          "avg_cap": 100.3,
+          "pnl": 292.8
+        },
+        "Apr": {
+          "n_complete": 2,
+          "n_total": 18,
+          "compl": 11.1,
+          "avg_cap": 100.9,
+          "pnl": 21.9
+        }
+      },
+      "strat": {
+        "id": "GOAL100_7p_mid_1.35-1.45_p7_wr0.7_btts,ove",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.35,
+            "cote_max": 1.45,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 7,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_7p_mid_1.35-1.45_p7_wr0.75_btts,ove",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 10,
+          "n_total": 53,
+          "compl": 18.9,
+          "avg_cap": 99.7,
+          "pnl": 466.5
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 14,
+          "compl": 7.1,
+          "avg_cap": 108.2,
+          "pnl": -31.8
+        }
+      },
+      "strat": {
+        "id": "GOAL100_7p_mid_1.35-1.45_p7_wr0.75_btts,ove",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.35,
+            "cote_max": 1.45,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 7,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_7p_mid_1.35-1.45_p7_wr0.8_btts,ove",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 5,
+          "n_total": 21,
+          "compl": 23.8,
+          "avg_cap": 98.4,
+          "pnl": 282.0
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 4,
+          "compl": 25.0,
+          "avg_cap": 91.2,
+          "pnl": 51.2
+        }
+      },
+      "strat": {
+        "id": "GOAL100_7p_mid_1.35-1.45_p7_wr0.8_btts,ove",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.35,
+            "cote_max": 1.45,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.8,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 7,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_7p_mid_1.35-1.45_p7_wr0.65_1x2,over",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 18,
+          "n_total": 88,
+          "compl": 20.5,
+          "avg_cap": 101.5,
+          "pnl": 947.4
+        },
+        "Apr": {
+          "n_complete": 3,
+          "n_total": 23,
+          "compl": 13.0,
+          "avg_cap": 98.9,
+          "pnl": 66.8
+        }
+      },
+      "strat": {
+        "id": "GOAL100_7p_mid_1.35-1.45_p7_wr0.65_1x2,over",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "1x2,over_1_5,over_2_5,btts",
+            "cote_min": 1.35,
+            "cote_max": 1.45,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 7,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_7p_mid_1.35-1.45_p7_wr0.7_1x2,over",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 14,
+          "n_total": 77,
+          "compl": 18.2,
+          "avg_cap": 99.7,
+          "pnl": 625.0
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 21,
+          "compl": 4.8,
+          "avg_cap": 100.9,
+          "pnl": -109.1
+        }
+      },
+      "strat": {
+        "id": "GOAL100_7p_mid_1.35-1.45_p7_wr0.7_1x2,over",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "1x2,over_1_5,over_2_5,btts",
+            "cote_min": 1.35,
+            "cote_max": 1.45,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 7,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_7p_mid_1.35-1.45_p7_wr0.75_1x2,over",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 11,
+          "n_total": 58,
+          "compl": 19.0,
+          "avg_cap": 100.0,
+          "pnl": 520.6
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 16,
+          "compl": 6.2,
+          "avg_cap": 98.0,
+          "pnl": -62.0
+        }
+      },
+      "strat": {
+        "id": "GOAL100_7p_mid_1.35-1.45_p7_wr0.75_1x2,over",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "1x2,over_1_5,over_2_5,btts",
+            "cote_min": 1.35,
+            "cote_max": 1.45,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 7,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_7p_mid_1.35-1.45_p7_wr0.8_1x2,over",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 8,
+          "n_total": 31,
+          "compl": 25.8,
+          "avg_cap": 99.6,
+          "pnl": 487.1
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 8,
+          "compl": 12.5,
+          "avg_cap": 89.9,
+          "pnl": 9.9
+        }
+      },
+      "strat": {
+        "id": "GOAL100_7p_mid_1.35-1.45_p7_wr0.8_1x2,over",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "1x2,over_1_5,over_2_5,btts",
+            "cote_min": 1.35,
+            "cote_max": 1.45,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.8,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 7,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_8p_mid_1.28-1.4_p8_wr0.65_over_1_5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 19,
+          "n_total": 86,
+          "compl": 22.1,
+          "avg_cap": 98.5,
+          "pnl": 1012.2
+        },
+        "Apr": {
+          "n_complete": 5,
+          "n_total": 21,
+          "compl": 23.8,
+          "avg_cap": 99.1,
+          "pnl": 285.4
+        }
+      },
+      "strat": {
+        "id": "GOAL100_8p_mid_1.28-1.4_p8_wr0.65_over_1_5",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.28,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 8,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_8p_mid_1.28-1.4_p8_wr0.7_over_1_5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 19,
+          "n_total": 85,
+          "compl": 22.4,
+          "avg_cap": 98.3,
+          "pnl": 1017.0
+        },
+        "Apr": {
+          "n_complete": 5,
+          "n_total": 21,
+          "compl": 23.8,
+          "avg_cap": 99.1,
+          "pnl": 285.4
+        }
+      },
+      "strat": {
+        "id": "GOAL100_8p_mid_1.28-1.4_p8_wr0.7_over_1_5",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.28,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 8,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_8p_mid_1.28-1.4_p8_wr0.75_over_1_5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 15,
+          "n_total": 74,
+          "compl": 20.3,
+          "avg_cap": 95.0,
+          "pnl": 685.6
+        },
+        "Apr": {
+          "n_complete": 2,
+          "n_total": 17,
+          "compl": 11.8,
+          "avg_cap": 85.7,
+          "pnl": 1.4
+        }
+      },
+      "strat": {
+        "id": "GOAL100_8p_mid_1.28-1.4_p8_wr0.75_over_1_5",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.28,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 8,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_8p_mid_1.28-1.4_p8_wr0.8_over_1_5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 8,
+          "n_total": 43,
+          "compl": 18.6,
+          "avg_cap": 85.0,
+          "pnl": 249.6
+        },
+        "Apr": {
+          "n_complete": 2,
+          "n_total": 7,
+          "compl": 28.6,
+          "avg_cap": 83.7,
+          "pnl": 97.5
+        }
+      },
+      "strat": {
+        "id": "GOAL100_8p_mid_1.28-1.4_p8_wr0.8_over_1_5",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.28,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.8,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 8,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_8p_mid_1.28-1.4_p8_wr0.65_over_1_5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 15,
+          "n_total": 88,
+          "compl": 17.0,
+          "avg_cap": 102.0,
+          "pnl": 650.3
+        },
+        "Apr": {
+          "n_complete": 5,
+          "n_total": 22,
+          "compl": 22.7,
+          "avg_cap": 101.5,
+          "pnl": 287.6
+        }
+      },
+      "strat": {
+        "id": "GOAL100_8p_mid_1.28-1.4_p8_wr0.65_over_1_5",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.28,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 8,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_8p_mid_1.28-1.4_p8_wr0.7_over_1_5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 15,
+          "n_total": 87,
+          "compl": 17.2,
+          "avg_cap": 101.3,
+          "pnl": 649.5
+        },
+        "Apr": {
+          "n_complete": 5,
+          "n_total": 22,
+          "compl": 22.7,
+          "avg_cap": 101.7,
+          "pnl": 288.4
+        }
+      },
+      "strat": {
+        "id": "GOAL100_8p_mid_1.28-1.4_p8_wr0.7_over_1_5",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.28,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 8,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_8p_mid_1.28-1.4_p8_wr0.75_over_1_5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 13,
+          "n_total": 72,
+          "compl": 18.1,
+          "avg_cap": 100.0,
+          "pnl": 580.0
+        },
+        "Apr": {
+          "n_complete": 4,
+          "n_total": 17,
+          "compl": 23.5,
+          "avg_cap": 96.4,
+          "pnl": 215.6
+        }
+      },
+      "strat": {
+        "id": "GOAL100_8p_mid_1.28-1.4_p8_wr0.75_over_1_5",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.28,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 8,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_8p_mid_1.28-1.4_p8_wr0.8_over_1_5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 9,
+          "n_total": 51,
+          "compl": 17.6,
+          "avg_cap": 96.5,
+          "pnl": 358.0
+        },
+        "Apr": {
+          "n_complete": 3,
+          "n_total": 11,
+          "compl": 27.3,
+          "avg_cap": 92.1,
+          "pnl": 166.3
+        }
+      },
+      "strat": {
+        "id": "GOAL100_8p_mid_1.28-1.4_p8_wr0.8_over_1_5",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.28,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.8,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 8,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_8p_mid_1.28-1.4_p8_wr0.65_btts,ove",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 14,
+          "n_total": 90,
+          "compl": 15.6,
+          "avg_cap": 102.6,
+          "pnl": 537.0
+        },
+        "Apr": {
+          "n_complete": 5,
+          "n_total": 23,
+          "compl": 21.7,
+          "avg_cap": 101.5,
+          "pnl": 277.6
+        }
+      },
+      "strat": {
+        "id": "GOAL100_8p_mid_1.28-1.4_p8_wr0.65_btts,ove",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.28,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 8,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_8p_mid_1.28-1.4_p8_wr0.7_btts,ove",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 14,
+          "n_total": 89,
+          "compl": 15.7,
+          "avg_cap": 101.9,
+          "pnl": 536.2
+        },
+        "Apr": {
+          "n_complete": 5,
+          "n_total": 23,
+          "compl": 21.7,
+          "avg_cap": 101.7,
+          "pnl": 278.4
+        }
+      },
+      "strat": {
+        "id": "GOAL100_8p_mid_1.28-1.4_p8_wr0.7_btts,ove",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.28,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 8,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_8p_mid_1.28-1.4_p8_wr0.75_btts,ove",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 13,
+          "n_total": 73,
+          "compl": 17.8,
+          "avg_cap": 100.0,
+          "pnl": 570.0
+        },
+        "Apr": {
+          "n_complete": 4,
+          "n_total": 17,
+          "compl": 23.5,
+          "avg_cap": 96.4,
+          "pnl": 215.6
+        }
+      },
+      "strat": {
+        "id": "GOAL100_8p_mid_1.28-1.4_p8_wr0.75_btts,ove",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.28,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 8,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_8p_mid_1.28-1.4_p8_wr0.8_btts,ove",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 9,
+          "n_total": 51,
+          "compl": 17.6,
+          "avg_cap": 96.2,
+          "pnl": 356.1
+        },
+        "Apr": {
+          "n_complete": 3,
+          "n_total": 11,
+          "compl": 27.3,
+          "avg_cap": 91.4,
+          "pnl": 164.3
+        }
+      },
+      "strat": {
+        "id": "GOAL100_8p_mid_1.28-1.4_p8_wr0.8_btts,ove",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.28,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.8,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 8,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_8p_mid_1.28-1.4_p8_wr0.65_1x2,over",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 17,
+          "n_total": 94,
+          "compl": 18.1,
+          "avg_cap": 104.3,
+          "pnl": 833.2
+        },
+        "Apr": {
+          "n_complete": 7,
+          "n_total": 24,
+          "compl": 29.2,
+          "avg_cap": 101.2,
+          "pnl": 468.4
+        }
+      },
+      "strat": {
+        "id": "GOAL100_8p_mid_1.28-1.4_p8_wr0.65_1x2,over",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "1x2,over_1_5,over_2_5,btts",
+            "cote_min": 1.28,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 8,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_8p_mid_1.28-1.4_p8_wr0.7_1x2,over",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 14,
+          "n_total": 93,
+          "compl": 15.1,
+          "avg_cap": 103.5,
+          "pnl": 519.3
+        },
+        "Apr": {
+          "n_complete": 7,
+          "n_total": 24,
+          "compl": 29.2,
+          "avg_cap": 101.3,
+          "pnl": 469.1
+        }
+      },
+      "strat": {
+        "id": "GOAL100_8p_mid_1.28-1.4_p8_wr0.7_1x2,over",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "1x2,over_1_5,over_2_5,btts",
+            "cote_min": 1.28,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 8,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_8p_mid_1.28-1.4_p8_wr0.75_1x2,over",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 16,
+          "n_total": 79,
+          "compl": 20.3,
+          "avg_cap": 100.5,
+          "pnl": 818.2
+        },
+        "Apr": {
+          "n_complete": 6,
+          "n_total": 19,
+          "compl": 31.6,
+          "avg_cap": 97.4,
+          "pnl": 394.3
+        }
+      },
+      "strat": {
+        "id": "GOAL100_8p_mid_1.28-1.4_p8_wr0.75_1x2,over",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "1x2,over_1_5,over_2_5,btts",
+            "cote_min": 1.28,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 8,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_8p_mid_1.28-1.4_p8_wr0.8_1x2,over",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 10,
+          "n_total": 61,
+          "compl": 16.4,
+          "avg_cap": 96.5,
+          "pnl": 354.6
+        },
+        "Apr": {
+          "n_complete": 5,
+          "n_total": 15,
+          "compl": 33.3,
+          "avg_cap": 93.9,
+          "pnl": 319.4
+        }
+      },
+      "strat": {
+        "id": "GOAL100_8p_mid_1.28-1.4_p8_wr0.8_1x2,over",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "1x2,over_1_5,over_2_5,btts",
+            "cote_min": 1.28,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.8,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 8,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_8p_high_1.3-1.45_p8_wr0.65_over_1_5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 14,
+          "n_total": 77,
+          "compl": 18.2,
+          "avg_cap": 114.4,
+          "pnl": 831.0
+        },
+        "Apr": {
+          "n_complete": 3,
+          "n_total": 18,
+          "compl": 16.7,
+          "avg_cap": 114.5,
+          "pnl": 163.3
+        }
+      },
+      "strat": {
+        "id": "GOAL100_8p_high_1.3-1.45_p8_wr0.65_over_1_5",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.3,
+            "cote_max": 1.45,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 8,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_8p_high_1.3-1.45_p8_wr0.7_over_1_5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 13,
+          "n_total": 77,
+          "compl": 16.9,
+          "avg_cap": 114.7,
+          "pnl": 721.3
+        },
+        "Apr": {
+          "n_complete": 3,
+          "n_total": 18,
+          "compl": 16.7,
+          "avg_cap": 114.5,
+          "pnl": 163.3
+        }
+      },
+      "strat": {
+        "id": "GOAL100_8p_high_1.3-1.45_p8_wr0.7_over_1_5",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.3,
+            "cote_max": 1.45,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 8,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_8p_high_1.3-1.45_p8_wr0.75_over_1_5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 9,
+          "n_total": 63,
+          "compl": 14.3,
+          "avg_cap": 109.9,
+          "pnl": 359.4
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 15,
+          "compl": 6.7,
+          "avg_cap": 105.8,
+          "pnl": -44.2
+        }
+      },
+      "strat": {
+        "id": "GOAL100_8p_high_1.3-1.45_p8_wr0.75_over_1_5",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.3,
+            "cote_max": 1.45,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 8,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_8p_high_1.3-1.45_p8_wr0.8_over_1_5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 2,
+          "n_total": 32,
+          "compl": 6.2,
+          "avg_cap": 99.1,
+          "pnl": -121.7
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 6,
+          "compl": 16.7,
+          "avg_cap": 109.0,
+          "pnl": 49.0
+        }
+      },
+      "strat": {
+        "id": "GOAL100_8p_high_1.3-1.45_p8_wr0.8_over_1_5",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.3,
+            "cote_max": 1.45,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.8,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 8,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_8p_high_1.3-1.45_p8_wr0.65_over_1_5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 14,
+          "n_total": 88,
+          "compl": 15.9,
+          "avg_cap": 121.6,
+          "pnl": 822.4
+        },
+        "Apr": {
+          "n_complete": 3,
+          "n_total": 22,
+          "compl": 13.6,
+          "avg_cap": 115.7,
+          "pnl": 127.2
+        }
+      },
+      "strat": {
+        "id": "GOAL100_8p_high_1.3-1.45_p8_wr0.65_over_1_5",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.3,
+            "cote_max": 1.45,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 8,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_8p_high_1.3-1.45_p8_wr0.7_over_1_5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 13,
+          "n_total": 81,
+          "compl": 16.0,
+          "avg_cap": 117.3,
+          "pnl": 715.2
+        },
+        "Apr": {
+          "n_complete": 3,
+          "n_total": 19,
+          "compl": 15.8,
+          "avg_cap": 113.8,
+          "pnl": 151.4
+        }
+      },
+      "strat": {
+        "id": "GOAL100_8p_high_1.3-1.45_p8_wr0.7_over_1_5",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.3,
+            "cote_max": 1.45,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 8,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_8p_high_1.3-1.45_p8_wr0.75_over_1_5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 13,
+          "n_total": 71,
+          "compl": 18.3,
+          "avg_cap": 116.4,
+          "pnl": 803.1
+        },
+        "Apr": {
+          "n_complete": 3,
+          "n_total": 17,
+          "compl": 17.6,
+          "avg_cap": 103.8,
+          "pnl": 141.4
+        }
+      },
+      "strat": {
+        "id": "GOAL100_8p_high_1.3-1.45_p8_wr0.75_over_1_5",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.3,
+            "cote_max": 1.45,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 8,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_8p_high_1.3-1.45_p8_wr0.8_over_1_5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 10,
+          "n_total": 42,
+          "compl": 23.8,
+          "avg_cap": 108.8,
+          "pnl": 668.3
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 10,
+          "compl": 10.0,
+          "avg_cap": 105.3,
+          "pnl": 5.3
+        }
+      },
+      "strat": {
+        "id": "GOAL100_8p_high_1.3-1.45_p8_wr0.8_over_1_5",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.3,
+            "cote_max": 1.45,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.8,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 8,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_8p_high_1.3-1.45_p8_wr0.65_btts,ove",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 13,
+          "n_total": 91,
+          "compl": 14.3,
+          "avg_cap": 122.6,
+          "pnl": 683.6
+        },
+        "Apr": {
+          "n_complete": 3,
+          "n_total": 22,
+          "compl": 13.6,
+          "avg_cap": 115.7,
+          "pnl": 127.2
+        }
+      },
+      "strat": {
+        "id": "GOAL100_8p_high_1.3-1.45_p8_wr0.65_btts,ove",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.3,
+            "cote_max": 1.45,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 8,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_8p_high_1.3-1.45_p8_wr0.7_btts,ove",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 12,
+          "n_total": 85,
+          "compl": 14.1,
+          "avg_cap": 118.7,
+          "pnl": 574.5
+        },
+        "Apr": {
+          "n_complete": 2,
+          "n_total": 22,
+          "compl": 9.1,
+          "avg_cap": 112.6,
+          "pnl": 5.1
+        }
+      },
+      "strat": {
+        "id": "GOAL100_8p_high_1.3-1.45_p8_wr0.7_btts,ove",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.3,
+            "cote_max": 1.45,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 8,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_8p_high_1.3-1.45_p8_wr0.75_btts,ove",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 13,
+          "n_total": 72,
+          "compl": 18.1,
+          "avg_cap": 117.0,
+          "pnl": 801.0
+        },
+        "Apr": {
+          "n_complete": 2,
+          "n_total": 18,
+          "compl": 11.1,
+          "avg_cap": 103.0,
+          "pnl": 25.9
+        }
+      },
+      "strat": {
+        "id": "GOAL100_8p_high_1.3-1.45_p8_wr0.75_btts,ove",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.3,
+            "cote_max": 1.45,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 8,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_8p_high_1.3-1.45_p8_wr0.8_btts,ove",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 10,
+          "n_total": 42,
+          "compl": 23.8,
+          "avg_cap": 108.6,
+          "pnl": 666.0
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 10,
+          "compl": 10.0,
+          "avg_cap": 105.3,
+          "pnl": 5.3
+        }
+      },
+      "strat": {
+        "id": "GOAL100_8p_high_1.3-1.45_p8_wr0.8_btts,ove",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.3,
+            "cote_max": 1.45,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.8,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 8,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_8p_high_1.3-1.45_p8_wr0.65_1x2,over",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 17,
+          "n_total": 95,
+          "compl": 17.9,
+          "avg_cap": 117.9,
+          "pnl": 1054.7
+        },
+        "Apr": {
+          "n_complete": 5,
+          "n_total": 23,
+          "compl": 21.7,
+          "avg_cap": 111.4,
+          "pnl": 327.1
+        }
+      },
+      "strat": {
+        "id": "GOAL100_8p_high_1.3-1.45_p8_wr0.65_1x2,over",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "1x2,over_1_5,over_2_5,btts",
+            "cote_min": 1.3,
+            "cote_max": 1.45,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 8,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_8p_high_1.3-1.45_p8_wr0.7_1x2,over",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 16,
+          "n_total": 89,
+          "compl": 18.0,
+          "avg_cap": 117.2,
+          "pnl": 985.8
+        },
+        "Apr": {
+          "n_complete": 4,
+          "n_total": 23,
+          "compl": 17.4,
+          "avg_cap": 108.7,
+          "pnl": 205.0
+        }
+      },
+      "strat": {
+        "id": "GOAL100_8p_high_1.3-1.45_p8_wr0.7_1x2,over",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "1x2,over_1_5,over_2_5,btts",
+            "cote_min": 1.3,
+            "cote_max": 1.45,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 8,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_8p_high_1.3-1.45_p8_wr0.75_1x2,over",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 17,
+          "n_total": 77,
+          "compl": 22.1,
+          "avg_cap": 113.9,
+          "pnl": 1166.8
+        },
+        "Apr": {
+          "n_complete": 3,
+          "n_total": 20,
+          "compl": 15.0,
+          "avg_cap": 103.2,
+          "pnl": 109.6
+        }
+      },
+      "strat": {
+        "id": "GOAL100_8p_high_1.3-1.45_p8_wr0.75_1x2,over",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "1x2,over_1_5,over_2_5,btts",
+            "cote_min": 1.3,
+            "cote_max": 1.45,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 8,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_8p_high_1.3-1.45_p8_wr0.8_1x2,over",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 9,
+          "n_total": 55,
+          "compl": 16.4,
+          "avg_cap": 113.6,
+          "pnl": 472.2
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 13,
+          "compl": 7.7,
+          "avg_cap": 89.9,
+          "pnl": -40.1
+        }
+      },
+      "strat": {
+        "id": "GOAL100_8p_high_1.3-1.45_p8_wr0.8_1x2,over",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "1x2,over_1_5,over_2_5,btts",
+            "cote_min": 1.3,
+            "cote_max": 1.45,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.8,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 8,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_9p_low_1.25-1.35_p9_wr0.65_over_1_5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 18,
+          "n_total": 75,
+          "compl": 24.0,
+          "avg_cap": 92.0,
+          "pnl": 905.2
+        },
+        "Apr": {
+          "n_complete": 4,
+          "n_total": 16,
+          "compl": 25.0,
+          "avg_cap": 87.5,
+          "pnl": 189.8
+        }
+      },
+      "strat": {
+        "id": "GOAL100_9p_low_1.25-1.35_p9_wr0.65_over_1_5",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.25,
+            "cote_max": 1.35,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 9,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_9p_low_1.25-1.35_p9_wr0.7_over_1_5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 18,
+          "n_total": 74,
+          "compl": 24.3,
+          "avg_cap": 91.8,
+          "pnl": 912.9
+        },
+        "Apr": {
+          "n_complete": 4,
+          "n_total": 16,
+          "compl": 25.0,
+          "avg_cap": 87.5,
+          "pnl": 189.8
+        }
+      },
+      "strat": {
+        "id": "GOAL100_9p_low_1.25-1.35_p9_wr0.7_over_1_5",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.25,
+            "cote_max": 1.35,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 9,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_9p_low_1.25-1.35_p9_wr0.75_over_1_5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 14,
+          "n_total": 69,
+          "compl": 20.3,
+          "avg_cap": 91.9,
+          "pnl": 597.1
+        },
+        "Apr": {
+          "n_complete": 3,
+          "n_total": 16,
+          "compl": 18.8,
+          "avg_cap": 87.4,
+          "pnl": 102.1
+        }
+      },
+      "strat": {
+        "id": "GOAL100_9p_low_1.25-1.35_p9_wr0.75_over_1_5",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.25,
+            "cote_max": 1.35,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 9,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_9p_low_1.25-1.35_p9_wr0.8_over_1_5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 11,
+          "n_total": 53,
+          "compl": 20.8,
+          "avg_cap": 86.0,
+          "pnl": 416.3
+        },
+        "Apr": {
+          "n_complete": 4,
+          "n_total": 10,
+          "compl": 40.0,
+          "avg_cap": 82.1,
+          "pnl": 228.5
+        }
+      },
+      "strat": {
+        "id": "GOAL100_9p_low_1.25-1.35_p9_wr0.8_over_1_5",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.25,
+            "cote_max": 1.35,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.8,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 9,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_9p_low_1.25-1.35_p9_wr0.65_over_1_5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 11,
+          "n_total": 72,
+          "compl": 15.3,
+          "avg_cap": 98.7,
+          "pnl": 365.3
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 16,
+          "compl": 6.2,
+          "avg_cap": 101.0,
+          "pnl": -59.0
+        }
+      },
+      "strat": {
+        "id": "GOAL100_9p_low_1.25-1.35_p9_wr0.65_over_1_5",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.25,
+            "cote_max": 1.35,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 9,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_9p_low_1.25-1.35_p9_wr0.7_over_1_5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 11,
+          "n_total": 71,
+          "compl": 15.5,
+          "avg_cap": 98.3,
+          "pnl": 371.1
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 16,
+          "compl": 6.2,
+          "avg_cap": 101.0,
+          "pnl": -59.0
+        }
+      },
+      "strat": {
+        "id": "GOAL100_9p_low_1.25-1.35_p9_wr0.7_over_1_5",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.25,
+            "cote_max": 1.35,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 9,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_9p_low_1.25-1.35_p9_wr0.75_over_1_5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 10,
+          "n_total": 63,
+          "compl": 15.9,
+          "avg_cap": 97.7,
+          "pnl": 347.3
+        },
+        "Apr": {
+          "n_complete": 2,
+          "n_total": 13,
+          "compl": 15.4,
+          "avg_cap": 95.7,
+          "pnl": 61.3
+        }
+      },
+      "strat": {
+        "id": "GOAL100_9p_low_1.25-1.35_p9_wr0.75_over_1_5",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.25,
+            "cote_max": 1.35,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 9,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_9p_low_1.25-1.35_p9_wr0.8_over_1_5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 8,
+          "n_total": 49,
+          "compl": 16.3,
+          "avg_cap": 96.3,
+          "pnl": 280.1
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 10,
+          "compl": 10.0,
+          "avg_cap": 103.4,
+          "pnl": 3.4
+        }
+      },
+      "strat": {
+        "id": "GOAL100_9p_low_1.25-1.35_p9_wr0.8_over_1_5",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.25,
+            "cote_max": 1.35,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.8,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 9,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_9p_low_1.25-1.35_p9_wr0.65_btts,ove",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 10,
+          "n_total": 73,
+          "compl": 13.7,
+          "avg_cap": 98.3,
+          "pnl": 253.4
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 16,
+          "compl": 6.2,
+          "avg_cap": 101.0,
+          "pnl": -59.0
+        }
+      },
+      "strat": {
+        "id": "GOAL100_9p_low_1.25-1.35_p9_wr0.65_btts,ove",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.25,
+            "cote_max": 1.35,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 9,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_9p_low_1.25-1.35_p9_wr0.7_btts,ove",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 10,
+          "n_total": 72,
+          "compl": 13.9,
+          "avg_cap": 97.9,
+          "pnl": 259.2
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 16,
+          "compl": 6.2,
+          "avg_cap": 101.0,
+          "pnl": -59.0
+        }
+      },
+      "strat": {
+        "id": "GOAL100_9p_low_1.25-1.35_p9_wr0.7_btts,ove",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.25,
+            "cote_max": 1.35,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 9,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_9p_low_1.25-1.35_p9_wr0.75_btts,ove",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 10,
+          "n_total": 64,
+          "compl": 15.6,
+          "avg_cap": 97.5,
+          "pnl": 335.2
+        },
+        "Apr": {
+          "n_complete": 2,
+          "n_total": 13,
+          "compl": 15.4,
+          "avg_cap": 94.6,
+          "pnl": 59.2
+        }
+      },
+      "strat": {
+        "id": "GOAL100_9p_low_1.25-1.35_p9_wr0.75_btts,ove",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.25,
+            "cote_max": 1.35,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 9,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_9p_low_1.25-1.35_p9_wr0.8_btts,ove",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 8,
+          "n_total": 49,
+          "compl": 16.3,
+          "avg_cap": 96.0,
+          "pnl": 277.8
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 10,
+          "compl": 10.0,
+          "avg_cap": 101.0,
+          "pnl": 1.1
+        }
+      },
+      "strat": {
+        "id": "GOAL100_9p_low_1.25-1.35_p9_wr0.8_btts,ove",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.25,
+            "cote_max": 1.35,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.8,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 9,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_9p_low_1.25-1.35_p9_wr0.65_1x2,over",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 9,
+          "n_total": 83,
+          "compl": 10.8,
+          "avg_cap": 94.2,
+          "pnl": 17.6
+        },
+        "Apr": {
+          "n_complete": 3,
+          "n_total": 19,
+          "compl": 15.8,
+          "avg_cap": 100.2,
+          "pnl": 110.7
+        }
+      },
+      "strat": {
+        "id": "GOAL100_9p_low_1.25-1.35_p9_wr0.65_1x2,over",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "1x2,over_1_5,over_2_5,btts",
+            "cote_min": 1.25,
+            "cote_max": 1.35,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 9,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_9p_low_1.25-1.35_p9_wr0.7_1x2,over",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 9,
+          "n_total": 83,
+          "compl": 10.8,
+          "avg_cap": 94.2,
+          "pnl": 17.6
+        },
+        "Apr": {
+          "n_complete": 3,
+          "n_total": 19,
+          "compl": 15.8,
+          "avg_cap": 100.2,
+          "pnl": 110.7
+        }
+      },
+      "strat": {
+        "id": "GOAL100_9p_low_1.25-1.35_p9_wr0.7_1x2,over",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "1x2,over_1_5,over_2_5,btts",
+            "cote_min": 1.25,
+            "cote_max": 1.35,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 9,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_9p_low_1.25-1.35_p9_wr0.75_1x2,over",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 9,
+          "n_total": 76,
+          "compl": 11.8,
+          "avg_cap": 94.2,
+          "pnl": 88.2
+        },
+        "Apr": {
+          "n_complete": 4,
+          "n_total": 16,
+          "compl": 25.0,
+          "avg_cap": 98.3,
+          "pnl": 233.3
+        }
+      },
+      "strat": {
+        "id": "GOAL100_9p_low_1.25-1.35_p9_wr0.75_1x2,over",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "1x2,over_1_5,over_2_5,btts",
+            "cote_min": 1.25,
+            "cote_max": 1.35,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 9,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_9p_low_1.25-1.35_p9_wr0.8_1x2,over",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 9,
+          "n_total": 62,
+          "compl": 14.5,
+          "avg_cap": 95.0,
+          "pnl": 234.7
+        },
+        "Apr": {
+          "n_complete": 2,
+          "n_total": 13,
+          "compl": 15.4,
+          "avg_cap": 99.5,
+          "pnl": 69.0
+        }
+      },
+      "strat": {
+        "id": "GOAL100_9p_low_1.25-1.35_p9_wr0.8_1x2,over",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "1x2,over_1_5,over_2_5,btts",
+            "cote_min": 1.25,
+            "cote_max": 1.35,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.8,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 9,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_10p_low_1.22-1.32_p10_wr0.65_over_1_5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 14,
+          "n_total": 73,
+          "compl": 19.2,
+          "avg_cap": 92.9,
+          "pnl": 570.5
+        },
+        "Apr": {
+          "n_complete": 4,
+          "n_total": 18,
+          "compl": 22.2,
+          "avg_cap": 89.6,
+          "pnl": 178.4
+        }
+      },
+      "strat": {
+        "id": "GOAL100_10p_low_1.22-1.32_p10_wr0.65_over_1_5",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.22,
+            "cote_max": 1.32,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 10,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_10p_low_1.22-1.32_p10_wr0.7_over_1_5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 14,
+          "n_total": 73,
+          "compl": 19.2,
+          "avg_cap": 92.9,
+          "pnl": 570.5
+        },
+        "Apr": {
+          "n_complete": 4,
+          "n_total": 18,
+          "compl": 22.2,
+          "avg_cap": 89.6,
+          "pnl": 178.4
+        }
+      },
+      "strat": {
+        "id": "GOAL100_10p_low_1.22-1.32_p10_wr0.7_over_1_5",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.22,
+            "cote_max": 1.32,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 10,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_10p_low_1.22-1.32_p10_wr0.75_over_1_5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 16,
+          "n_total": 72,
+          "compl": 22.2,
+          "avg_cap": 93.1,
+          "pnl": 769.5
+        },
+        "Apr": {
+          "n_complete": 5,
+          "n_total": 18,
+          "compl": 27.8,
+          "avg_cap": 93.3,
+          "pnl": 286.4
+        }
+      },
+      "strat": {
+        "id": "GOAL100_10p_low_1.22-1.32_p10_wr0.75_over_1_5",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.22,
+            "cote_max": 1.32,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 10,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_10p_low_1.22-1.32_p10_wr0.8_over_1_5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 14,
+          "n_total": 62,
+          "compl": 22.6,
+          "avg_cap": 90.0,
+          "pnl": 640.2
+        },
+        "Apr": {
+          "n_complete": 6,
+          "n_total": 14,
+          "compl": 42.9,
+          "avg_cap": 89.4,
+          "pnl": 396.2
+        }
+      },
+      "strat": {
+        "id": "GOAL100_10p_low_1.22-1.32_p10_wr0.8_over_1_5",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.22,
+            "cote_max": 1.32,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.8,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 10,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_10p_low_1.22-1.32_p10_wr0.65_over_1_5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 9,
+          "n_total": 69,
+          "compl": 13.0,
+          "avg_cap": 95.0,
+          "pnl": 165.2
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 17,
+          "compl": 5.9,
+          "avg_cap": 93.6,
+          "pnl": -76.4
+        }
+      },
+      "strat": {
+        "id": "GOAL100_10p_low_1.22-1.32_p10_wr0.65_over_1_5",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.22,
+            "cote_max": 1.32,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 10,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_10p_low_1.22-1.32_p10_wr0.7_over_1_5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 11,
+          "n_total": 67,
+          "compl": 16.4,
+          "avg_cap": 97.5,
+          "pnl": 402.8
+        },
+        "Apr": {
+          "n_complete": 2,
+          "n_total": 17,
+          "compl": 11.8,
+          "avg_cap": 103.0,
+          "pnl": 36.0
+        }
+      },
+      "strat": {
+        "id": "GOAL100_10p_low_1.22-1.32_p10_wr0.7_over_1_5",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.22,
+            "cote_max": 1.32,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 10,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_10p_low_1.22-1.32_p10_wr0.75_over_1_5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 8,
+          "n_total": 57,
+          "compl": 14.0,
+          "avg_cap": 97.8,
+          "pnl": 212.2
+        },
+        "Apr": {
+          "n_complete": 2,
+          "n_total": 12,
+          "compl": 16.7,
+          "avg_cap": 97.0,
+          "pnl": 74.0
+        }
+      },
+      "strat": {
+        "id": "GOAL100_10p_low_1.22-1.32_p10_wr0.75_over_1_5",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.22,
+            "cote_max": 1.32,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 10,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_10p_low_1.22-1.32_p10_wr0.8_over_1_5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 9,
+          "n_total": 51,
+          "compl": 17.6,
+          "avg_cap": 97.2,
+          "pnl": 364.7
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 11,
+          "compl": 9.1,
+          "avg_cap": 88.5,
+          "pnl": -21.5
+        }
+      },
+      "strat": {
+        "id": "GOAL100_10p_low_1.22-1.32_p10_wr0.8_over_1_5",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.22,
+            "cote_max": 1.32,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.8,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 10,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_10p_low_1.22-1.32_p10_wr0.65_btts,ove",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 10,
+          "n_total": 69,
+          "compl": 14.5,
+          "avg_cap": 95.0,
+          "pnl": 260.4
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 17,
+          "compl": 5.9,
+          "avg_cap": 93.6,
+          "pnl": -76.4
+        }
+      },
+      "strat": {
+        "id": "GOAL100_10p_low_1.22-1.32_p10_wr0.65_btts,ove",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.22,
+            "cote_max": 1.32,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 10,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_10p_low_1.22-1.32_p10_wr0.7_btts,ove",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 12,
+          "n_total": 67,
+          "compl": 17.9,
+          "avg_cap": 97.3,
+          "pnl": 498.0
+        },
+        "Apr": {
+          "n_complete": 2,
+          "n_total": 17,
+          "compl": 11.8,
+          "avg_cap": 103.0,
+          "pnl": 36.0
+        }
+      },
+      "strat": {
+        "id": "GOAL100_10p_low_1.22-1.32_p10_wr0.7_btts,ove",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.22,
+            "cote_max": 1.32,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 10,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_10p_low_1.22-1.32_p10_wr0.75_btts,ove",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 9,
+          "n_total": 57,
+          "compl": 15.8,
+          "avg_cap": 99.0,
+          "pnl": 321.1
+        },
+        "Apr": {
+          "n_complete": 3,
+          "n_total": 12,
+          "compl": 25.0,
+          "avg_cap": 101.0,
+          "pnl": 182.9
+        }
+      },
+      "strat": {
+        "id": "GOAL100_10p_low_1.22-1.32_p10_wr0.75_btts,ove",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.22,
+            "cote_max": 1.32,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 10,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_10p_low_1.22-1.32_p10_wr0.8_btts,ove",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 9,
+          "n_total": 51,
+          "compl": 17.6,
+          "avg_cap": 97.2,
+          "pnl": 364.7
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 11,
+          "compl": 9.1,
+          "avg_cap": 88.5,
+          "pnl": -21.5
+        }
+      },
+      "strat": {
+        "id": "GOAL100_10p_low_1.22-1.32_p10_wr0.8_btts,ove",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.22,
+            "cote_max": 1.32,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.8,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 10,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_10p_low_1.22-1.32_p10_wr0.65_1x2,over",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 12,
+          "n_total": 79,
+          "compl": 15.2,
+          "avg_cap": 95.6,
+          "pnl": 357.2
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 20,
+          "compl": 5.0,
+          "avg_cap": 94.3,
+          "pnl": -105.7
+        }
+      },
+      "strat": {
+        "id": "GOAL100_10p_low_1.22-1.32_p10_wr0.65_1x2,over",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "1x2,over_1_5,over_2_5,btts",
+            "cote_min": 1.22,
+            "cote_max": 1.32,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 10,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_10p_low_1.22-1.32_p10_wr0.7_1x2,over",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 13,
+          "n_total": 77,
+          "compl": 16.9,
+          "avg_cap": 96.8,
+          "pnl": 488.9
+        },
+        "Apr": {
+          "n_complete": 2,
+          "n_total": 19,
+          "compl": 10.5,
+          "avg_cap": 103.3,
+          "pnl": 16.7
+        }
+      },
+      "strat": {
+        "id": "GOAL100_10p_low_1.22-1.32_p10_wr0.7_1x2,over",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "1x2,over_1_5,over_2_5,btts",
+            "cote_min": 1.22,
+            "cote_max": 1.32,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 10,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_10p_low_1.22-1.32_p10_wr0.75_1x2,over",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 12,
+          "n_total": 67,
+          "compl": 17.9,
+          "avg_cap": 98.7,
+          "pnl": 514.1
+        },
+        "Apr": {
+          "n_complete": 2,
+          "n_total": 15,
+          "compl": 13.3,
+          "avg_cap": 105.6,
+          "pnl": 61.3
+        }
+      },
+      "strat": {
+        "id": "GOAL100_10p_low_1.22-1.32_p10_wr0.75_1x2,over",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "1x2,over_1_5,over_2_5,btts",
+            "cote_min": 1.22,
+            "cote_max": 1.32,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 10,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_10p_low_1.22-1.32_p10_wr0.8_1x2,over",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 9,
+          "n_total": 60,
+          "compl": 15.0,
+          "avg_cap": 99.4,
+          "pnl": 294.7
+        },
+        "Apr": {
+          "n_complete": 2,
+          "n_total": 14,
+          "compl": 14.3,
+          "avg_cap": 106.1,
+          "pnl": 72.1
+        }
+      },
+      "strat": {
+        "id": "GOAL100_10p_low_1.22-1.32_p10_wr0.8_1x2,over",
+        "label": "10\u2192100 montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "1x2,over_1_5,over_2_5,btts",
+            "cote_min": 1.22,
+            "cote_max": 1.32,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.8,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 10,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_6p_FH_1.4-1.55_fw0.7_hw0.65",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 9,
+          "n_total": 60,
+          "compl": 15.0,
+          "avg_cap": 85.2,
+          "pnl": 166.4
+        },
+        "Apr": {
+          "n_complete": 0,
+          "n_total": 12,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "pnl": -120
+        }
+      },
+      "strat": {
+        "id": "GOAL100_6p_FH_1.4-1.55_fw0.7_hw0.65",
+        "label": "10\u2192100 cross-sport",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.4,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 1
+          },
+          {
+            "sports": [
+              "ice-hockey"
+            ],
+            "market": "1x2",
+            "cote_min": 1.4,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 6,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_6p_FH_1.4-1.55_fw0.7_hw0.7",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 9,
+          "n_total": 60,
+          "compl": 15.0,
+          "avg_cap": 85.2,
+          "pnl": 166.4
+        },
+        "Apr": {
+          "n_complete": 0,
+          "n_total": 12,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "pnl": -120
+        }
+      },
+      "strat": {
+        "id": "GOAL100_6p_FH_1.4-1.55_fw0.7_hw0.7",
+        "label": "10\u2192100 cross-sport",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.4,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 1
+          },
+          {
+            "sports": [
+              "ice-hockey"
+            ],
+            "market": "1x2",
+            "cote_min": 1.4,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 6,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_6p_FH_1.4-1.55_fw0.75_hw0.65",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 5,
+          "n_total": 36,
+          "compl": 13.9,
+          "avg_cap": 84.1,
+          "pnl": 60.6
+        },
+        "Apr": {
+          "n_complete": 0,
+          "n_total": 8,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "pnl": -80
+        }
+      },
+      "strat": {
+        "id": "GOAL100_6p_FH_1.4-1.55_fw0.75_hw0.65",
+        "label": "10\u2192100 cross-sport",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.4,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 1
+          },
+          {
+            "sports": [
+              "ice-hockey"
+            ],
+            "market": "1x2",
+            "cote_min": 1.4,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 6,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_6p_FH_1.4-1.55_fw0.75_hw0.7",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 5,
+          "n_total": 36,
+          "compl": 13.9,
+          "avg_cap": 84.1,
+          "pnl": 60.6
+        },
+        "Apr": {
+          "n_complete": 0,
+          "n_total": 8,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "pnl": -80
+        }
+      },
+      "strat": {
+        "id": "GOAL100_6p_FH_1.4-1.55_fw0.75_hw0.7",
+        "label": "10\u2192100 cross-sport",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.4,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 1
+          },
+          {
+            "sports": [
+              "ice-hockey"
+            ],
+            "market": "1x2",
+            "cote_min": 1.4,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 6,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_8p_FH_1.28-1.4_fw0.7_hw0.65",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 15,
+          "n_total": 87,
+          "compl": 17.2,
+          "avg_cap": 101.3,
+          "pnl": 649.5
+        },
+        "Apr": {
+          "n_complete": 5,
+          "n_total": 22,
+          "compl": 22.7,
+          "avg_cap": 101.7,
+          "pnl": 288.4
+        }
+      },
+      "strat": {
+        "id": "GOAL100_8p_FH_1.28-1.4_fw0.7_hw0.65",
+        "label": "10\u2192100 cross-sport",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.28,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 1
+          },
+          {
+            "sports": [
+              "ice-hockey"
+            ],
+            "market": "1x2",
+            "cote_min": 1.28,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 8,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_8p_FH_1.28-1.4_fw0.7_hw0.7",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 15,
+          "n_total": 87,
+          "compl": 17.2,
+          "avg_cap": 101.3,
+          "pnl": 649.5
+        },
+        "Apr": {
+          "n_complete": 5,
+          "n_total": 22,
+          "compl": 22.7,
+          "avg_cap": 101.7,
+          "pnl": 288.4
+        }
+      },
+      "strat": {
+        "id": "GOAL100_8p_FH_1.28-1.4_fw0.7_hw0.7",
+        "label": "10\u2192100 cross-sport",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.28,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 1
+          },
+          {
+            "sports": [
+              "ice-hockey"
+            ],
+            "market": "1x2",
+            "cote_min": 1.28,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 8,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_8p_FH_1.28-1.4_fw0.75_hw0.65",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 13,
+          "n_total": 72,
+          "compl": 18.1,
+          "avg_cap": 100.0,
+          "pnl": 580.0
+        },
+        "Apr": {
+          "n_complete": 4,
+          "n_total": 17,
+          "compl": 23.5,
+          "avg_cap": 96.4,
+          "pnl": 215.6
+        }
+      },
+      "strat": {
+        "id": "GOAL100_8p_FH_1.28-1.4_fw0.75_hw0.65",
+        "label": "10\u2192100 cross-sport",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.28,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 1
+          },
+          {
+            "sports": [
+              "ice-hockey"
+            ],
+            "market": "1x2",
+            "cote_min": 1.28,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 8,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "GOAL100_8p_FH_1.28-1.4_fw0.75_hw0.7",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 13,
+          "n_total": 72,
+          "compl": 18.1,
+          "avg_cap": 100.0,
+          "pnl": 580.0
+        },
+        "Apr": {
+          "n_complete": 4,
+          "n_total": 17,
+          "compl": 23.5,
+          "avg_cap": 96.4,
+          "pnl": 215.6
+        }
+      },
+      "strat": {
+        "id": "GOAL100_8p_FH_1.28-1.4_fw0.75_hw0.7",
+        "label": "10\u2192100 cross-sport",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.28,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 1
+          },
+          {
+            "sports": [
+              "ice-hockey"
+            ],
+            "market": "1x2",
+            "cote_min": 1.28,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 8,
+          "combo_legs_per_palier": 1
+        }
+      }
+    }
+  ]
+}

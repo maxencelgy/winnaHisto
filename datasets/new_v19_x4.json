@@ -1,0 +1,565 @@
+{
+  "viable": [
+    {
+      "id": "X4_3p_160_foo_over__p3_wr0.65",
+      "perfs": {
+        "S1-26": {
+          "compl": 57.1,
+          "avg_cap": 198.2,
+          "n_total": 7,
+          "n_complete": 4,
+          "pnl": 442.7
+        },
+        "Apr": {
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "n_total": 0,
+          "n_complete": 0,
+          "pnl": 0
+        }
+      },
+      "strat": {
+        "id": "X4_3p_160_foo_over__p3_wr0.65",
+        "label": "Challenge x4 BR50",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.55,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 50,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 1
+        }
+      },
+      "compl": 57.1,
+      "cap": 198.2,
+      "n_total": 7,
+      "n_complete": 4,
+      "prob_3": 92.1,
+      "prob_5": 98.55,
+      "prob_10": 99.98
+    },
+    {
+      "id": "X4_3p_160_ice_1x2_p3_wr0.75",
+      "perfs": {
+        "S1-26": {
+          "compl": 57.1,
+          "avg_cap": 202.1,
+          "n_total": 7,
+          "n_complete": 4,
+          "pnl": 458.3
+        },
+        "Apr": {
+          "compl": 100.0,
+          "avg_cap": 215.2,
+          "n_total": 1,
+          "n_complete": 1,
+          "pnl": 165.2
+        }
+      },
+      "strat": {
+        "id": "X4_3p_160_ice_1x2_p3_wr0.75",
+        "label": "Challenge x4 BR50",
+        "components": [
+          {
+            "sports": [
+              "ice-hockey"
+            ],
+            "market": "1x2",
+            "cote_min": 1.55,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 50,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 1
+        }
+      },
+      "compl": 57.1,
+      "cap": 202.1,
+      "n_total": 7,
+      "n_complete": 4,
+      "prob_3": 92.1,
+      "prob_5": 98.55,
+      "prob_10": 99.98
+    },
+    {
+      "id": "X4_6p_126_ice_1x2_p6_wr0.65",
+      "perfs": {
+        "S1-26": {
+          "compl": 50.0,
+          "avg_cap": 218.6,
+          "n_total": 10,
+          "n_complete": 5,
+          "pnl": 593.2
+        },
+        "Apr": {
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "n_total": 0,
+          "n_complete": 0,
+          "pnl": 0
+        }
+      },
+      "strat": {
+        "id": "X4_6p_126_ice_1x2_p6_wr0.65",
+        "label": "Challenge x4 BR50",
+        "components": [
+          {
+            "sports": [
+              "ice-hockey"
+            ],
+            "market": "1x2",
+            "cote_min": 1.23,
+            "cote_max": 1.3,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 50,
+          "n_paliers_target": 6,
+          "combo_legs_per_palier": 1
+        }
+      },
+      "compl": 50.0,
+      "cap": 218.6,
+      "n_total": 10,
+      "n_complete": 5,
+      "prob_3": 87.5,
+      "prob_5": 96.88,
+      "prob_10": 99.9
+    },
+    {
+      "id": "X4_6p_126_ice_1x2_p6_wr0.7",
+      "perfs": {
+        "S1-26": {
+          "compl": 50.0,
+          "avg_cap": 218.6,
+          "n_total": 10,
+          "n_complete": 5,
+          "pnl": 593.2
+        },
+        "Apr": {
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "n_total": 0,
+          "n_complete": 0,
+          "pnl": 0
+        }
+      },
+      "strat": {
+        "id": "X4_6p_126_ice_1x2_p6_wr0.7",
+        "label": "Challenge x4 BR50",
+        "components": [
+          {
+            "sports": [
+              "ice-hockey"
+            ],
+            "market": "1x2",
+            "cote_min": 1.23,
+            "cote_max": 1.3,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 50,
+          "n_paliers_target": 6,
+          "combo_legs_per_palier": 1
+        }
+      },
+      "compl": 50.0,
+      "cap": 218.6,
+      "n_total": 10,
+      "n_complete": 5,
+      "prob_3": 87.5,
+      "prob_5": 96.88,
+      "prob_10": 99.9
+    },
+    {
+      "id": "X4_5p_132_ice_1x2_p5_wr0.65",
+      "perfs": {
+        "S1-26": {
+          "compl": 47.4,
+          "avg_cap": 198.2,
+          "n_total": 19,
+          "n_complete": 9,
+          "pnl": 834.1
+        },
+        "Apr": {
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "n_total": 1,
+          "n_complete": 0,
+          "pnl": -50
+        }
+      },
+      "strat": {
+        "id": "X4_5p_132_ice_1x2_p5_wr0.65",
+        "label": "Challenge x4 BR50",
+        "components": [
+          {
+            "sports": [
+              "ice-hockey"
+            ],
+            "market": "1x2",
+            "cote_min": 1.28,
+            "cote_max": 1.35,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 50,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 1
+        }
+      },
+      "compl": 47.4,
+      "cap": 198.2,
+      "n_total": 19,
+      "n_complete": 9,
+      "prob_3": 85.45,
+      "prob_5": 95.97,
+      "prob_10": 99.84
+    },
+    {
+      "id": "X4_3p_160_ice_1x2_p3_wr0.7",
+      "perfs": {
+        "S1-26": {
+          "compl": 43.8,
+          "avg_cap": 197.7,
+          "n_total": 16,
+          "n_complete": 7,
+          "pnl": 583.7
+        },
+        "Apr": {
+          "compl": 100.0,
+          "avg_cap": 215.2,
+          "n_total": 1,
+          "n_complete": 1,
+          "pnl": 165.2
+        }
+      },
+      "strat": {
+        "id": "X4_3p_160_ice_1x2_p3_wr0.7",
+        "label": "Challenge x4 BR50",
+        "components": [
+          {
+            "sports": [
+              "ice-hockey"
+            ],
+            "market": "1x2",
+            "cote_min": 1.55,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 50,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 1
+        }
+      },
+      "compl": 43.8,
+      "cap": 197.7,
+      "n_total": 16,
+      "n_complete": 7,
+      "prob_3": 82.25,
+      "prob_5": 94.39,
+      "prob_10": 99.69
+    },
+    {
+      "id": "X4_4p_142_strict_ice_1x2_p4_wr0.7",
+      "perfs": {
+        "S1-26": {
+          "compl": 43.8,
+          "avg_cap": 207.2,
+          "n_total": 16,
+          "n_complete": 7,
+          "pnl": 650.3
+        },
+        "Apr": {
+          "compl": 100.0,
+          "avg_cap": 203.2,
+          "n_total": 1,
+          "n_complete": 1,
+          "pnl": 153.2
+        }
+      },
+      "strat": {
+        "id": "X4_4p_142_strict_ice_1x2_p4_wr0.7",
+        "label": "Challenge x4 BR50",
+        "components": [
+          {
+            "sports": [
+              "ice-hockey"
+            ],
+            "market": "1x2",
+            "cote_min": 1.4,
+            "cote_max": 1.45,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 50,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 1
+        }
+      },
+      "compl": 43.8,
+      "cap": 207.2,
+      "n_total": 16,
+      "n_complete": 7,
+      "prob_3": 82.25,
+      "prob_5": 94.39,
+      "prob_10": 99.69
+    },
+    {
+      "id": "X4_4p_142_ice_1x2_p4_wr0.7",
+      "perfs": {
+        "S1-26": {
+          "compl": 42.1,
+          "avg_cap": 207.8,
+          "n_total": 19,
+          "n_complete": 8,
+          "pnl": 712.4
+        },
+        "Apr": {
+          "compl": 100.0,
+          "avg_cap": 204.6,
+          "n_total": 2,
+          "n_complete": 2,
+          "pnl": 309.3
+        }
+      },
+      "strat": {
+        "id": "X4_4p_142_ice_1x2_p4_wr0.7",
+        "label": "Challenge x4 BR50",
+        "components": [
+          {
+            "sports": [
+              "ice-hockey"
+            ],
+            "market": "1x2",
+            "cote_min": 1.38,
+            "cote_max": 1.46,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 50,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 1
+        }
+      },
+      "compl": 42.1,
+      "cap": 207.8,
+      "n_total": 19,
+      "n_complete": 8,
+      "prob_3": 80.59,
+      "prob_5": 93.49,
+      "prob_10": 99.58
+    },
+    {
+      "id": "X4_5p_132_ice_1x2_p5_wr0.7",
+      "perfs": {
+        "S1-26": {
+          "compl": 41.2,
+          "avg_cap": 195.6,
+          "n_total": 17,
+          "n_complete": 7,
+          "pnl": 519.4
+        },
+        "Apr": {
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "n_total": 1,
+          "n_complete": 0,
+          "pnl": -50
+        }
+      },
+      "strat": {
+        "id": "X4_5p_132_ice_1x2_p5_wr0.7",
+        "label": "Challenge x4 BR50",
+        "components": [
+          {
+            "sports": [
+              "ice-hockey"
+            ],
+            "market": "1x2",
+            "cote_min": 1.28,
+            "cote_max": 1.35,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 50,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 1
+        }
+      },
+      "compl": 41.2,
+      "cap": 195.6,
+      "n_total": 17,
+      "n_complete": 7,
+      "prob_3": 79.67,
+      "prob_5": 92.97,
+      "prob_10": 99.51
+    },
+    {
+      "id": "X4_6p_126_foo_over__p6_wr0.8",
+      "perfs": {
+        "S1-26": {
+          "compl": 40.7,
+          "avg_cap": 209.1,
+          "n_total": 59,
+          "n_complete": 24,
+          "pnl": 2068.6
+        },
+        "Apr": {
+          "compl": 58.3,
+          "avg_cap": 206.4,
+          "n_total": 12,
+          "n_complete": 7,
+          "pnl": 845.0
+        }
+      },
+      "strat": {
+        "id": "X4_6p_126_foo_over__p6_wr0.8",
+        "label": "Challenge x4 BR50",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.23,
+            "cote_max": 1.3,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.8,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 50,
+          "n_paliers_target": 6,
+          "combo_legs_per_palier": 1
+        }
+      },
+      "compl": 40.7,
+      "cap": 209.1,
+      "n_total": 59,
+      "n_complete": 24,
+      "prob_3": 79.15,
+      "prob_5": 92.67,
+      "prob_10": 99.46
+    },
+    {
+      "id": "X4_5p_132_foo_over__p5_wr0.65",
+      "perfs": {
+        "S1-26": {
+          "compl": 40.0,
+          "avg_cap": 191.6,
+          "n_total": 75,
+          "n_complete": 30,
+          "pnl": 1996.3
+        },
+        "Apr": {
+          "compl": 55.6,
+          "avg_cap": 191.7,
+          "n_total": 18,
+          "n_complete": 10,
+          "pnl": 1017.2
+        }
+      },
+      "strat": {
+        "id": "X4_5p_132_foo_over__p5_wr0.65",
+        "label": "Challenge x4 BR50",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.28,
+            "cote_max": 1.35,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 50,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 1
+        }
+      },
+      "compl": 40.0,
+      "cap": 191.6,
+      "n_total": 75,
+      "n_complete": 30,
+      "prob_3": 78.4,
+      "prob_5": 92.22,
+      "prob_10": 99.4
+    }
+  ]
+}

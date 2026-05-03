@@ -1,0 +1,24 @@
+{
+  "id": "ISO_OU15_BR435_HIGH_VOL",
+  "label": "⚽🇫🇷🟢💎 MONO Foot Over 1.5 mc12 pct15 — BR×435 high-volume",
+  "description": "★★★ MONO Over 1.5 haute fréquence : 12 combos max/j, WR≥75%, cote 1.20-1.40, sizing 15%. **BR×435** PnL +43439€ DD 6047€ ratio 7.2×. 962 combos. Pour qui accepte un DD ~6k pour viser BR×435 mono-marché.",
+  "components": [{
+    "sport": "football", "market": "over_1_5",
+    "cote_min": 1.20, "cote_max": 1.40,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 12,
+    "min_wr": 0.75, "min_ev": null
+  }],
+  "dedup": "max1",
+  "sizing": {"mode": "flat_pct", "pct": 0.15, "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "source": "find_new_v6_isolated_markets",
+    "pnl": 43439,
+    "bankroll_multiplier": 435.4,
+    "dd": 6047,
+    "ratio_pnl_dd": 7.2,
+    "n_combos": 962,
+    "winamax_fr": true,
+    "note": "★★★ Mono-marché BR×435 (>BR×336 GOAT mais <BR×517 JACKPOT). DD volumineux — pour gros risk-tolerant."
+  }
+}

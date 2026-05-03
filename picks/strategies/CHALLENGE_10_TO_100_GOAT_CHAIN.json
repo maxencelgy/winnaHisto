@@ -1,0 +1,36 @@
+{
+  "id": "CHALLENGE_10_TO_100_GOAT_CHAIN",
+  "label": "🪜🏆🏆 CHALLENGE 10€ → 100€ GOAT CHAIN — 4× cycles FOOT_GOAT ×2 enchaînés (28.4% par session, MEILLEUR)",
+  "description": "★★★★★ STRATÉGIE 10→100 OPTIMALE : enchaîner 4 cycles successifs du pattern FOOT_GOAT (3 paliers Foot xmkt cote 1.20-1.32 WR≥65%, 73% completion). Chaîne : 10→20→40→80→160€ (dépasse 100€ au cycle 4). Proba session totale = 0.73⁴ = **28.4%** (vs 20% du ROBUST 7p). Sur 5 sessions, 1 réussit en moyenne.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football"], "market": "1x2,over_1_5,over_2_5,btts",
+    "cote_min": 1.20, "cote_max": 1.32,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+    "min_wr": 0.65, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 10, "n_paliers_target": 3, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "challenge_target": {
+    "start": 10, "end": 100, "expected_cap": 191,
+    "chain_count": 4,
+    "chain_step_factor": 2.0,
+    "chain_per_cycle_compl": 0.73,
+    "chain_session_prob": 0.284,
+    "instructions": "Cycle 1: BR 10€ → cible 20€ | Cycle 2: BR 20€ → cible 40€ | Cycle 3: BR 40€ → cible 80€ | Cycle 4: BR 80€ → cible 160€ (atteint 100€). Si un cycle échoue avant 100€, recommence depuis 10€."
+  },
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate_per_cycle": 0.73,
+    "n_cycles_complete": 72,
+    "n_cycles_total": 99,
+    "avg_capital_complete_per_cycle_x2": 191,
+    "session_success_prob": 28.4,
+    "winamax_fr": true,
+    "source": "find_foot_max_volume + chain math",
+    "note": "★★★★★ CHAINAGE 4× du FOOT_GOAT (73% par cycle, 99 cycles testés). Session = 4 cycles consécutifs : prob 28.4%. MIEUX que CHALLENGE_10_TO_100_ROBUST (20% par cycle de 7p). Plus rapide à compléter (3 paris/cycle vs 7p)."
+  }
+}

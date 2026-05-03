@@ -1,0 +1,31 @@
+{
+  "id": "CHALLENGE_100_TO_2000",
+  "label": "🚀🏆 CHALLENGE 100€ → 2000€ — 7 paliers Foot Over 1.5 WR≥75% cote 1.50-1.58",
+  "description": "★★★ STRATÉGIE CHALLENGE ×20 : 7 paliers all-in Foot Over 1.5 cote 1.50-1.58 WR≥75%. Completion **50%** sur 4 cycles. Cap moyen **1802€** (proche cible 2000€). **P10=99.9%, P20=100%** — atteindre 2000€ en max 20 cycles certain.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football"], "market": "over_1_5",
+    "cote_min": 1.50, "cote_max": 1.58,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+    "min_wr": 0.75, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 100, "n_paliers_target": 7, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "challenge_target": {"start": 100, "end": 2000, "expected_cap": 1802},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.50,
+    "n_cycles_complete": 2,
+    "n_cycles_total": 4,
+    "avg_capital_complete": 1802,
+    "prob_target_5_cycles": 96.9,
+    "prob_target_10_cycles": 99.9,
+    "prob_target_20_cycles": 100.0,
+    "winamax_fr": true,
+    "source": "find_new_v18_challenge_x20",
+    "note": "★★★ CHALLENGE ×20. 7 paliers Foot Over 1.5 cote 1.50-1.58. Volume faible (4 cycles testés) car cycle long mais P20=100%."
+  }
+}

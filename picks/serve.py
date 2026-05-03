@@ -41,6 +41,14 @@ _scrape_lock = threading.Lock()
 
 
 # ── ROUTES UI ─────────────────────────────────────────────────────────
+@app.after_request
+def _no_cache(resp):
+    if resp.mimetype == "text/html":
+        resp.headers["Cache-Control"] = "no-store, no-cache, must-revalidate, max-age=0"
+        resp.headers["Pragma"] = "no-cache"
+    return resp
+
+
 @app.route("/")
 def home():
     return render_template("index.html")

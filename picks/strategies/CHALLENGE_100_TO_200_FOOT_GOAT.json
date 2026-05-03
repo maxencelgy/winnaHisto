@@ -1,0 +1,31 @@
+{
+  "id": "CHALLENGE_100_TO_200_FOOT_GOAT",
+  "label": "⚽🏆🏆 CHALLENGE 100€ → 200€ FOOT GOAT — 3 paliers xmkt cote 1.20-1.32 WR≥65% — 73% comp / 99 cycles",
+  "description": "★★★★★ NEW BEST CHALLENGE ×2 — bat le HIGH_VOL sur tous les fronts. 3 paliers Foot xmkt (1x2+OU+BTTS) cote 1.20-1.32 WR≥65%. **Completion 73%** (vs 62% ancien) sur **99 cycles testés** (vs 93). Cap 191€. **P5=99.8%**. Foot uniquement (matchs dispo tous les jours).",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football"], "market": "1x2,over_1_5,over_2_5,btts",
+    "cote_min": 1.20, "cote_max": 1.32,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+    "min_wr": 0.65, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 100, "n_paliers_target": 3, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "challenge_target": {"start": 100, "end": 200, "expected_cap": 191},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.73,
+    "n_cycles_complete": 72,
+    "n_cycles_total": 99,
+    "avg_capital_complete": 191,
+    "prob_target_3_cycles": 98.0,
+    "prob_target_5_cycles": 99.8,
+    "prob_target_10_cycles": 100.0,
+    "winamax_fr": true,
+    "source": "find_foot_max_volume",
+    "note": "★★★★★ NEW BEST. Bat HIGH_VOL : +11 pts completion (73 vs 62) + 99 cycles (vs 93). Foot xmkt = matchs dispo TOUS les jours. La meilleure stratégie ×2 de la lib."
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "NX_F3H5_120_130_fw70hw75_DD24_BALANCED",
+  "label": "🏒⚽🇫🇷💎💎💎 NARROW Foot WR70 + Hockey WR75 cote 1.20-1.30 pct5 — DD 24€ Ratio 16.2× NEW RECORD",
+  "description": "★★★★★ NEW RECORD DD ABSOLU 24€ : narrow F3+H5 cote 1.20-1.30, foot WR≥70% + hockey WR≥75% (asymétrique), sizing prudent 5%. Ratio **16.2×** BR×4.9 PnL **+388€** S1 sur 349 combos. DD 24€ — divisé par 2.5 vs ancien record 59€. Pour qui veut zéro stress.",
+  "components": [{
+    "sport": "football", "market": "btts,over_1_5,over_2_5",
+    "cote_min": 1.20, "cote_max": 1.30,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 3,
+    "min_wr": 0.70, "min_ev": null
+  }, {
+    "sport": "ice-hockey", "market": "1x2",
+    "cote_min": 1.20, "cote_max": 1.30,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 5,
+    "min_wr": 0.75, "min_ev": null
+  }],
+  "dedup": "max1",
+  "sizing": {"mode": "flat_pct", "pct": 0.05, "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "source": "find_new_v10_narrow_extreme",
+    "pnl": 388,
+    "bankroll_multiplier": 4.9,
+    "dd": 24,
+    "ratio_pnl_dd": 16.2,
+    "n_combos": 349,
+    "winamax_fr": true,
+    "note": "★★★★★ NEW RECORD DD ABSOLU 24€ (vs 59€ ancien). WR asymétrique foot70/hockey75, narrow 1.20-1.30, sizing prudent 5%."
+  }
+}

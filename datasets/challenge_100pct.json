@@ -1,0 +1,55 @@
+{
+  "viable": [
+    {
+      "id": "WIN100_6p_150_p6_wr0.75_over_1_5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 3,
+          "n_total": 5,
+          "compl": 60.0,
+          "avg_cap": 117.7,
+          "pnl": 303.2
+        },
+        "Apr": {
+          "n_complete": 0,
+          "n_total": 0,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "pnl": 0
+        }
+      },
+      "strat": {
+        "id": "WIN100_6p_150_p6_wr0.75_over_1_5",
+        "label": "100% Challenge",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.45,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 6,
+          "combo_legs_per_palier": 1
+        }
+      },
+      "compl": 60.0,
+      "cap": 117.7,
+      "n_total": 5,
+      "prob_3": 93.6,
+      "prob_5": 98.98,
+      "prob_10": 99.99
+    }
+  ],
+  "all_count": 239
+}

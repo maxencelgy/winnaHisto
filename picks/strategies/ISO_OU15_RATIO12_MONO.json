@@ -1,0 +1,24 @@
+{
+  "id": "ISO_OU15_RATIO12_MONO",
+  "label": "⚽🇫🇷🟢 MONO-MARCHÉ Foot Over 1.5 WR≥80% cote 1.15-1.35 — Ratio 12.4× BR×34",
+  "description": "★★★ MONO-MARCHÉ simple : foot Over 1.5 isolé, WR strict ≥80%, cote micro 1.15-1.35, max 8 combos/j, sizing 15%. Ratio **12.4×** BR×34. PnL +3320€ S1 sur 652 combos. Pour qui veut simplicité absolue (1 sport, 1 marché, no cross).",
+  "components": [{
+    "sport": "football", "market": "over_1_5",
+    "cote_min": 1.15, "cote_max": 1.35,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 8,
+    "min_wr": 0.80, "min_ev": null
+  }],
+  "dedup": "max1",
+  "sizing": {"mode": "flat_pct", "pct": 0.15, "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "source": "find_new_v6_isolated_markets",
+    "pnl": 3320,
+    "bankroll_multiplier": 34.2,
+    "dd": 268,
+    "ratio_pnl_dd": 12.4,
+    "n_combos": 652,
+    "winamax_fr": true,
+    "note": "★★★ Meilleur ratio mono-marché. 1 sport, 1 marché, no cross — exécution la plus simple."
+  }
+}

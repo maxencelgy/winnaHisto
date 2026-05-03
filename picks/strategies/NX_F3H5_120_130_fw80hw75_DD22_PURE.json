@@ -1,0 +1,29 @@
+{
+  "id": "NX_F3H5_120_130_fw80hw75_DD22_PURE",
+  "label": "🏒⚽🇫🇷💎💎💎💎 NARROW PURE WR≥80%+75% cote 1.20-1.30 pct5 — DD 22€ ABSOLUTE RECORD",
+  "description": "★★★★★ ABSOLUTE RECORD DD 22€ : narrow F3+H5 cote 1.20-1.30, WR strict ≥80% foot + ≥75% hockey, sizing prudent 5%. Ratio 13.2× BR×4.0 PnL +296€ S1 sur 313 combos. DD 22€ — le plus bas possible avec performance positive. Profil 'set & forget'.",
+  "components": [{
+    "sport": "football", "market": "btts,over_1_5,over_2_5",
+    "cote_min": 1.20, "cote_max": 1.30,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 3,
+    "min_wr": 0.80, "min_ev": null
+  }, {
+    "sport": "ice-hockey", "market": "1x2",
+    "cote_min": 1.20, "cote_max": 1.30,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 5,
+    "min_wr": 0.75, "min_ev": null
+  }],
+  "dedup": "max1",
+  "sizing": {"mode": "flat_pct", "pct": 0.05, "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "source": "find_new_v10_narrow_extreme",
+    "pnl": 296,
+    "bankroll_multiplier": 4.0,
+    "dd": 22,
+    "ratio_pnl_dd": 13.2,
+    "n_combos": 313,
+    "winamax_fr": true,
+    "note": "★★★★★ ABSOLUTE RECORD DD 22€. Pour qui veut DD le plus bas possible — sacrifie ratio (13.2 vs 18.3) pour DD ultra-minimal."
+  }
+}

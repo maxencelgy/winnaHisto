@@ -1,0 +1,29 @@
+{
+  "id": "SOFT_CHALLENGE_SAFE",
+  "label": "🛡️💎 SOFT CHALLENGE SAFE 10→100 — NARROW pct10 DD ridicule (103 jours)",
+  "description": "★★★★ SOFT CHALLENGE ULTRA-SAFE : NARROW cote 1.20-1.30 foot+hockey WR≥70-75% sizing 10%. Atteint **100€ depuis 10€ en 103 jours** sur S1-26. **DD max seulement 12€** sur toute la trajectoire. Tu ne peux JAMAIS tout perdre. Le plus sûr de la lib.",
+  "components": [{
+    "sport": "football", "market": "btts,over_1_5,over_2_5",
+    "cote_min": 1.20, "cote_max": 1.30,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 3,
+    "min_wr": 0.70, "min_ev": null
+  }, {
+    "sport": "ice-hockey", "market": "1x2",
+    "cote_min": 1.20, "cote_max": 1.30,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 5,
+    "min_wr": 0.75, "min_ev": null
+  }],
+  "dedup": "max1",
+  "sizing": {"mode": "flat_pct", "pct": 0.10, "min_stake": 0.5},
+  "challenge_target": {"start": 10, "end": 100, "days_to_target": 103, "mode": "soft"},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "source": "find_soft_challenge",
+    "br_final_per_10": 200,
+    "dd_total": 12,
+    "days_to_100_from_10": 103,
+    "n_combos": 349,
+    "winamax_fr": true,
+    "note": "★★★★ SOFT CHALLENGE le plus SAFE. DD max 12€ sur toute la trajectoire. Pour qui ne veut prendre AUCUN risque."
+  }
+}
