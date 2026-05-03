@@ -1,0 +1,29 @@
+{
+  "id": "montante_hockey_combo2j_x2p_TOP_PRACTICAL",
+  "label": "🪜🏒⭐⚡ Hockey combo 2j ×2P cote 1.25-1.50 EV — TOP PRACTICAL 52% +553€",
+  "description": "★★★ TOP EV PRATIQUE LIB : Hockey combo 2 jambes par palier cote 1.25-1.50 par leg, sort EV, 2 paliers seulement. **52% completion** (28/54 cycles) sur S1-26 → cap 38€/cycle, PnL **+553€** + Apr +87€. EV pratique max de la lib (PnL × completion = 286). Le profil 'lance-quotidiennement' avec gain net ~+138€/mois.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["ice-hockey"], "market": "1x2",
+    "cote_min": 1.25, "cote_max": 1.50,
+    "sort_by": "ev", "max_legs": 2, "max_combos": 1,
+    "min_wr": null, "min_ev": null,
+    "legs_per_palier": 2
+  }],
+  "montante": {"initial_stake": 10, "n_paliers_target": 2, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 2},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict)",
+    "n_cycles_complete": 28,
+    "n_cycles_total": 54,
+    "completion_rate": 0.52,
+    "wr_palier_combo": 0.72,
+    "avg_capital_complete": 38,
+    "pnl_net_s1": 553,
+    "april_pnl": 87,
+    "ev_pratique": 286,
+    "note": "★★★ TOP EV PRATIQUE LIB : 52% completion → 1 cycle sur 2 aboutit. Cap 38€ × 28 cycles = +1064€ gagnés - 26 losses × 10€ = +804€ ≈ +553€ net après reset costs. ~7 cycles complets/mois en moyenne."
+  }
+}

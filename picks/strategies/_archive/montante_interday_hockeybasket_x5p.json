@@ -1,0 +1,25 @@
+{
+  "id": "montante_interday_hockeybasket_x5p",
+  "label": "🪜📅🏒🏀 INTERDAY Hockey+Basket ×5J cote 1.25-1.45 — TOP EV interday +306€",
+  "description": "★ TOP EV pratique INTERDAY : Hockey+Basket combinés cote 1.25-1.45 sort WR, 5 paliers (5 jours). **48% completion** cap 41€/cycle. PnL +306€ S1-26 + Avril +58€. EV pratique 148 — meilleur du mode interday.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["ice-hockey", "basketball"], "market": "1x2",
+    "cote_min": 1.25, "cote_max": 1.45,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+    "min_wr": null, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 10, "n_paliers_target": 5, "reset_on_loss": true,
+                "preferred_mode": "interday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, mode INTERDAY)",
+    "completion_rate": 0.48,
+    "avg_capital_complete": 41,
+    "pnl_net_s1": 306,
+    "april_pnl": 58,
+    "note": "Mode INTERDAY 5 jours Hockey+Basket — TOP EV pratique interday lib. NHL playoffs + NBA fin saison."
+  }
+}

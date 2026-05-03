@@ -1,0 +1,25 @@
+{
+  "id": "montante_o15_x2p_66pct_safe",
+  "label": "🪜⚽⭐⚡ Over 1.5 ×2P cote 1.35-1.55 — 66% completion +301€ S1",
+  "description": "Over 1.5 single cote 1.35-1.55, 2 paliers. **66% completion** sur S1-26 ! Cap 20€/cycle. PnL +301€ S1 (Avril -18€). Profil ultra-fréquent — 2 cycles sur 3 aboutissent. Cap modeste mais base régulière.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football"], "market": "over_1_5",
+    "cote_min": 1.35, "cote_max": 1.55,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+    "min_wr": null, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 10, "n_paliers_target": 2, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict)",
+    "completion_rate": 0.66,
+    "avg_capital_complete": 20,
+    "pnl_net_s1": 301,
+    "april_pnl": -18,
+    "note": "66% completion mais Avril léger négatif. Profil 'cap modeste, fréquence haute' — bon pour habituer à voir des wins."
+  }
+}

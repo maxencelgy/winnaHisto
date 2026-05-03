@@ -1,0 +1,28 @@
+{
+  "id": "montante_foothockey_combo3j_x4p_mid",
+  "label": "🪜⚽🏒💎 Foot+Hockey combo 3j ×4P cote 1.40-1.65 — cap 1372€",
+  "description": "MEILLEUR PnL NET (+1703€ S1-26) après les jackpots. Foot+Hockey combo 3 jambes cote 1.40-1.65 par leg, 4 paliers. Cote totale palier ~2.6 → cycle ×4p = 46× capital théorique. 2/104 cycles (2%) mais cap 1372€/cycle.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football", "ice-hockey"], "market": "1x2",
+    "cote_min": 1.40, "cote_max": 1.65,
+    "sort_by": "wr", "max_legs": 3, "max_combos": 1,
+    "min_wr": null, "min_ev": null,
+    "legs_per_palier": 3
+  }],
+  "montante": {"initial_stake": 10, "n_paliers_target": 4, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 3},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict)",
+    "n_cycles_complete": 2,
+    "n_cycles_total": 104,
+    "completion_rate": 0.02,
+    "wr_palier_combo": 0.34,
+    "avg_capital_complete": 1372,
+    "roi_pct": 162,
+    "pnl_net_estim": 1703,
+    "note": "PnL net estimé +1703€ sur 4 mois. Capital 1372€/cycle réussi = 137× BR initial. Le sweet spot 'combo 3j sur 4 paliers' évite les longs cycles fragiles."
+  }
+}

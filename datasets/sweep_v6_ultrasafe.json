@@ -1,0 +1,7893 @@
+{
+  "all": [
+    {
+      "id": "V6A_o15_l2_1.05-1.18_p3",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 31,
+          "n_total": 65,
+          "compl": 47.7,
+          "avg_cap": 20.4,
+          "roi": -2.4,
+          "wr_p": 79.3,
+          "pnl": -16.1
+        },
+        "Apr": {
+          "n_complete": 8,
+          "n_total": 16,
+          "compl": 50.0,
+          "avg_cap": 20.6,
+          "roi": 2.6,
+          "wr_p": 81.4,
+          "pnl": 4.5
+        }
+      },
+      "strat": {
+        "id": "V6A_o15_l2_1.05-1.18_p3",
+        "label": "Foot O 1.5 ultra mini-cote combo",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.05,
+            "cote_max": 1.18,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V6A_o15_l2_1.05-1.18_p4",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 23,
+          "n_total": 61,
+          "compl": 37.7,
+          "avg_cap": 26.3,
+          "roi": -0.9,
+          "wr_p": 79.5,
+          "pnl": -5.3
+        },
+        "Apr": {
+          "n_complete": 7,
+          "n_total": 16,
+          "compl": 43.8,
+          "avg_cap": 26.4,
+          "roi": 14.6,
+          "wr_p": 82.0,
+          "pnl": 24.8
+        }
+      },
+      "strat": {
+        "id": "V6A_o15_l2_1.05-1.18_p4",
+        "label": "Foot O 1.5 ultra mini-cote combo",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.05,
+            "cote_max": 1.18,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V6A_o15_l2_1.05-1.18_p5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 17,
+          "n_total": 56,
+          "compl": 30.4,
+          "avg_cap": 34.3,
+          "roi": 3.9,
+          "wr_p": 80.1,
+          "pnl": 22.4
+        },
+        "Apr": {
+          "n_complete": 6,
+          "n_total": 15,
+          "compl": 40.0,
+          "avg_cap": 34.8,
+          "roi": 36.6,
+          "wr_p": 83.9,
+          "pnl": 58.5
+        }
+      },
+      "strat": {
+        "id": "V6A_o15_l2_1.05-1.18_p5",
+        "label": "Foot O 1.5 ultra mini-cote combo",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.05,
+            "cote_max": 1.18,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V6A_o15_l2_1.05-1.18_p7",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 10,
+          "n_total": 52,
+          "compl": 19.2,
+          "avg_cap": 57.3,
+          "roi": 10.1,
+          "wr_p": 79.9,
+          "pnl": 53.3
+        },
+        "Apr": {
+          "n_complete": 5,
+          "n_total": 14,
+          "compl": 35.7,
+          "avg_cap": 60.6,
+          "roi": 108.7,
+          "wr_p": 84.7,
+          "pnl": 163.1
+        }
+      },
+      "strat": {
+        "id": "V6A_o15_l2_1.05-1.18_p7",
+        "label": "Foot O 1.5 ultra mini-cote combo",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.05,
+            "cote_max": 1.18,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 7,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V6A_o15_l3_1.05-1.18_p3",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 22,
+          "n_total": 52,
+          "compl": 42.3,
+          "avg_cap": 29.3,
+          "roi": 23.6,
+          "wr_p": 73.9,
+          "pnl": 125.2
+        },
+        "Apr": {
+          "n_complete": 7,
+          "n_total": 14,
+          "compl": 50.0,
+          "avg_cap": 29.7,
+          "roi": 45.4,
+          "wr_p": 78.8,
+          "pnl": 68.1
+        }
+      },
+      "strat": {
+        "id": "V6A_o15_l3_1.05-1.18_p3",
+        "label": "Foot O 1.5 ultra mini-cote combo",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.05,
+            "cote_max": 1.18,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "V6A_o15_l3_1.05-1.18_p4",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 14,
+          "n_total": 48,
+          "compl": 29.2,
+          "avg_cap": 44.5,
+          "roi": 29.1,
+          "wr_p": 73.4,
+          "pnl": 142.5
+        },
+        "Apr": {
+          "n_complete": 6,
+          "n_total": 13,
+          "compl": 46.2,
+          "avg_cap": 44.4,
+          "roi": 97.3,
+          "wr_p": 81.6,
+          "pnl": 136.2
+        }
+      },
+      "strat": {
+        "id": "V6A_o15_l3_1.05-1.18_p4",
+        "label": "Foot O 1.5 ultra mini-cote combo",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.05,
+            "cote_max": 1.18,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "V6A_o15_l3_1.05-1.18_p5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 8,
+          "n_total": 46,
+          "compl": 17.4,
+          "avg_cap": 66.1,
+          "roi": 14.6,
+          "wr_p": 72.3,
+          "pnl": 68.6
+        },
+        "Apr": {
+          "n_complete": 5,
+          "n_total": 12,
+          "compl": 41.7,
+          "avg_cap": 67.6,
+          "roi": 167.8,
+          "wr_p": 83.7,
+          "pnl": 218.1
+        }
+      },
+      "strat": {
+        "id": "V6A_o15_l3_1.05-1.18_p5",
+        "label": "Foot O 1.5 ultra mini-cote combo",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.05,
+            "cote_max": 1.18,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "V6A_o15_l3_1.05-1.18_p7",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 4,
+          "n_total": 44,
+          "compl": 9.1,
+          "avg_cap": 143.9,
+          "roi": 30.2,
+          "wr_p": 71.8,
+          "pnl": 135.7
+        },
+        "Apr": {
+          "n_complete": 2,
+          "n_total": 11,
+          "compl": 18.2,
+          "avg_cap": 150.0,
+          "roi": 158.3,
+          "wr_p": 80.0,
+          "pnl": 190.0
+        }
+      },
+      "strat": {
+        "id": "V6A_o15_l3_1.05-1.18_p7",
+        "label": "Foot O 1.5 ultra mini-cote combo",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.05,
+            "cote_max": 1.18,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 7,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "V6A_o15_l4_1.05-1.18_p3",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 14,
+          "n_total": 47,
+          "compl": 29.8,
+          "avg_cap": 44.8,
+          "roi": 32.7,
+          "wr_p": 65.6,
+          "pnl": 157.0
+        },
+        "Apr": {
+          "n_complete": 6,
+          "n_total": 13,
+          "compl": 46.2,
+          "avg_cap": 45.8,
+          "roi": 103.2,
+          "wr_p": 75.0,
+          "pnl": 144.5
+        }
+      },
+      "strat": {
+        "id": "V6A_o15_l4_1.05-1.18_p3",
+        "label": "Foot O 1.5 ultra mini-cote combo",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.05,
+            "cote_max": 1.18,
+            "sort_by": "wr",
+            "max_legs": 4,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 4
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 4
+        }
+      }
+    },
+    {
+      "id": "V6A_o15_l4_1.05-1.18_p4",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 6,
+          "n_total": 43,
+          "compl": 14.0,
+          "avg_cap": 77.0,
+          "roi": 7.2,
+          "wr_p": 63.7,
+          "pnl": 31.8
+        },
+        "Apr": {
+          "n_complete": 4,
+          "n_total": 11,
+          "compl": 36.4,
+          "avg_cap": 79.8,
+          "roi": 174.3,
+          "wr_p": 75.9,
+          "pnl": 209.1
+        }
+      },
+      "strat": {
+        "id": "V6A_o15_l4_1.05-1.18_p4",
+        "label": "Foot O 1.5 ultra mini-cote combo",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.05,
+            "cote_max": 1.18,
+            "sort_by": "wr",
+            "max_legs": 4,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 4
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 4
+        }
+      }
+    },
+    {
+      "id": "V6A_o15_l4_1.05-1.18_p5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 4,
+          "n_total": 42,
+          "compl": 9.5,
+          "avg_cap": 131.9,
+          "roi": 25.0,
+          "wr_p": 63.5,
+          "pnl": 107.6
+        },
+        "Apr": {
+          "n_complete": 3,
+          "n_total": 11,
+          "compl": 27.3,
+          "avg_cap": 130.6,
+          "roi": 234.8,
+          "wr_p": 75.0,
+          "pnl": 281.8
+        }
+      },
+      "strat": {
+        "id": "V6A_o15_l4_1.05-1.18_p5",
+        "label": "Foot O 1.5 ultra mini-cote combo",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.05,
+            "cote_max": 1.18,
+            "sort_by": "wr",
+            "max_legs": 4,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 4
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 4
+        }
+      }
+    },
+    {
+      "id": "V6A_o15_l4_1.05-1.18_p7",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 1,
+          "n_total": 42,
+          "compl": 2.4,
+          "avg_cap": 456.6,
+          "roi": 8.5,
+          "wr_p": 63.1,
+          "pnl": 36.6
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 11,
+          "compl": 9.1,
+          "avg_cap": 456.6,
+          "roi": 288.8,
+          "wr_p": 73.0,
+          "pnl": 346.6
+        }
+      },
+      "strat": {
+        "id": "V6A_o15_l4_1.05-1.18_p7",
+        "label": "Foot O 1.5 ultra mini-cote combo",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.05,
+            "cote_max": 1.18,
+            "sort_by": "wr",
+            "max_legs": 4,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 4
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 7,
+          "combo_legs_per_palier": 4
+        }
+      }
+    },
+    {
+      "id": "V6A_o15_l2_1.08-1.2_p3",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 31,
+          "n_total": 76,
+          "compl": 40.8,
+          "avg_cap": 22.0,
+          "roi": -10.0,
+          "wr_p": 75.0,
+          "pnl": -77.0
+        },
+        "Apr": {
+          "n_complete": 10,
+          "n_total": 18,
+          "compl": 55.6,
+          "avg_cap": 21.9,
+          "roi": 20.5,
+          "wr_p": 82.6,
+          "pnl": 39.0
+        }
+      },
+      "strat": {
+        "id": "V6A_o15_l2_1.08-1.2_p3",
+        "label": "Foot O 1.5 ultra mini-cote combo",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.08,
+            "cote_max": 1.2,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V6A_o15_l2_1.08-1.2_p4",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 22,
+          "n_total": 71,
+          "compl": 31.0,
+          "avg_cap": 29.3,
+          "roi": -9.1,
+          "wr_p": 75.4,
+          "pnl": -65.8
+        },
+        "Apr": {
+          "n_complete": 9,
+          "n_total": 17,
+          "compl": 52.9,
+          "avg_cap": 28.5,
+          "roi": 48.1,
+          "wr_p": 84.3,
+          "pnl": 86.5
+        }
+      },
+      "strat": {
+        "id": "V6A_o15_l2_1.08-1.2_p4",
+        "label": "Foot O 1.5 ultra mini-cote combo",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.08,
+            "cote_max": 1.2,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V6A_o15_l2_1.08-1.2_p5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 15,
+          "n_total": 68,
+          "compl": 22.1,
+          "avg_cap": 38.1,
+          "roi": -15.8,
+          "wr_p": 75.0,
+          "pnl": -108.8
+        },
+        "Apr": {
+          "n_complete": 7,
+          "n_total": 15,
+          "compl": 46.7,
+          "avg_cap": 37.8,
+          "roi": 71.4,
+          "wr_p": 86.2,
+          "pnl": 114.3
+        }
+      },
+      "strat": {
+        "id": "V6A_o15_l2_1.08-1.2_p5",
+        "label": "Foot O 1.5 ultra mini-cote combo",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.08,
+            "cote_max": 1.2,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V6A_o15_l2_1.08-1.2_p7",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 11,
+          "n_total": 65,
+          "compl": 16.9,
+          "avg_cap": 66.5,
+          "roi": 12.3,
+          "wr_p": 76.9,
+          "pnl": 81.0
+        },
+        "Apr": {
+          "n_complete": 6,
+          "n_total": 15,
+          "compl": 40.0,
+          "avg_cap": 66.6,
+          "roi": 156.1,
+          "wr_p": 87.3,
+          "pnl": 249.8
+        }
+      },
+      "strat": {
+        "id": "V6A_o15_l2_1.08-1.2_p7",
+        "label": "Foot O 1.5 ultra mini-cote combo",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.08,
+            "cote_max": 1.2,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 7,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V6A_o15_l3_1.08-1.2_p3",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 19,
+          "n_total": 64,
+          "compl": 29.7,
+          "avg_cap": 33.7,
+          "roi": 0.1,
+          "wr_p": 67.2,
+          "pnl": 0.6
+        },
+        "Apr": {
+          "n_complete": 8,
+          "n_total": 16,
+          "compl": 50.0,
+          "avg_cap": 32.4,
+          "roi": 58.3,
+          "wr_p": 77.8,
+          "pnl": 99.0
+        }
+      },
+      "strat": {
+        "id": "V6A_o15_l3_1.08-1.2_p3",
+        "label": "Foot O 1.5 ultra mini-cote combo",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.08,
+            "cote_max": 1.2,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "V6A_o15_l3_1.08-1.2_p4",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 12,
+          "n_total": 59,
+          "compl": 20.3,
+          "avg_cap": 50.8,
+          "roi": 3.2,
+          "wr_p": 67.6,
+          "pnl": 19.2
+        },
+        "Apr": {
+          "n_complete": 6,
+          "n_total": 15,
+          "compl": 40.0,
+          "avg_cap": 48.7,
+          "roi": 88.8,
+          "wr_p": 79.1,
+          "pnl": 142.0
+        }
+      },
+      "strat": {
+        "id": "V6A_o15_l3_1.08-1.2_p4",
+        "label": "Foot O 1.5 ultra mini-cote combo",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.08,
+            "cote_max": 1.2,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "V6A_o15_l3_1.08-1.2_p5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 11,
+          "n_total": 58,
+          "compl": 19.0,
+          "avg_cap": 78.4,
+          "roi": 47.8,
+          "wr_p": 69.3,
+          "pnl": 282.2
+        },
+        "Apr": {
+          "n_complete": 6,
+          "n_total": 15,
+          "compl": 40.0,
+          "avg_cap": 75.9,
+          "roi": 190.8,
+          "wr_p": 80.9,
+          "pnl": 305.3
+        }
+      },
+      "strat": {
+        "id": "V6A_o15_l3_1.08-1.2_p5",
+        "label": "Foot O 1.5 ultra mini-cote combo",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.08,
+            "cote_max": 1.2,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "V6A_o15_l3_1.08-1.2_p7",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 5,
+          "n_total": 56,
+          "compl": 8.9,
+          "avg_cap": 180.9,
+          "roi": 60.4,
+          "wr_p": 68.5,
+          "pnl": 344.5
+        },
+        "Apr": {
+          "n_complete": 3,
+          "n_total": 13,
+          "compl": 23.1,
+          "avg_cap": 171.8,
+          "roi": 275.2,
+          "wr_p": 80.4,
+          "pnl": 385.3
+        }
+      },
+      "strat": {
+        "id": "V6A_o15_l3_1.08-1.2_p7",
+        "label": "Foot O 1.5 ultra mini-cote combo",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.08,
+            "cote_max": 1.2,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 7,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "V6A_o15_l4_1.08-1.2_p3",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 11,
+          "n_total": 54,
+          "compl": 20.4,
+          "avg_cap": 52.2,
+          "roi": 6.2,
+          "wr_p": 60.2,
+          "pnl": 34.0
+        },
+        "Apr": {
+          "n_complete": 6,
+          "n_total": 14,
+          "compl": 42.9,
+          "avg_cap": 50.7,
+          "roi": 109.4,
+          "wr_p": 75.0,
+          "pnl": 164.1
+        }
+      },
+      "strat": {
+        "id": "V6A_o15_l4_1.08-1.2_p3",
+        "label": "Foot O 1.5 ultra mini-cote combo",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.08,
+            "cote_max": 1.2,
+            "sort_by": "wr",
+            "max_legs": 4,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 4
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 4
+        }
+      }
+    },
+    {
+      "id": "V6A_o15_l4_1.08-1.2_p4",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 8,
+          "n_total": 52,
+          "compl": 15.4,
+          "avg_cap": 90.2,
+          "roi": 38.0,
+          "wr_p": 59.3,
+          "pnl": 201.2
+        },
+        "Apr": {
+          "n_complete": 5,
+          "n_total": 13,
+          "compl": 38.5,
+          "avg_cap": 90.1,
+          "roi": 228.8,
+          "wr_p": 75.8,
+          "pnl": 320.3
+        }
+      },
+      "strat": {
+        "id": "V6A_o15_l4_1.08-1.2_p4",
+        "label": "Foot O 1.5 ultra mini-cote combo",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.08,
+            "cote_max": 1.2,
+            "sort_by": "wr",
+            "max_legs": 4,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 4
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 4
+        }
+      }
+    },
+    {
+      "id": "V6A_o15_l4_1.08-1.2_p5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 6,
+          "n_total": 51,
+          "compl": 11.8,
+          "avg_cap": 152.2,
+          "roi": 77.6,
+          "wr_p": 60.9,
+          "pnl": 403.4
+        },
+        "Apr": {
+          "n_complete": 3,
+          "n_total": 12,
+          "compl": 25.0,
+          "avg_cap": 135.7,
+          "roi": 220.8,
+          "wr_p": 75.7,
+          "pnl": 287.1
+        }
+      },
+      "strat": {
+        "id": "V6A_o15_l4_1.08-1.2_p5",
+        "label": "Foot O 1.5 ultra mini-cote combo",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.08,
+            "cote_max": 1.2,
+            "sort_by": "wr",
+            "max_legs": 4,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 4
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 4
+        }
+      }
+    },
+    {
+      "id": "V6A_o15_l4_1.08-1.2_p7",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 3,
+          "n_total": 49,
+          "compl": 6.1,
+          "avg_cap": 580.4,
+          "roi": 250.2,
+          "wr_p": 62.0,
+          "pnl": 1251.2
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 12,
+          "compl": 8.3,
+          "avg_cap": 553.4,
+          "roi": 333.4,
+          "wr_p": 73.8,
+          "pnl": 433.4
+        }
+      },
+      "strat": {
+        "id": "V6A_o15_l4_1.08-1.2_p7",
+        "label": "Foot O 1.5 ultra mini-cote combo",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.08,
+            "cote_max": 1.2,
+            "sort_by": "wr",
+            "max_legs": 4,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 4
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 7,
+          "combo_legs_per_palier": 4
+        }
+      }
+    },
+    {
+      "id": "V6A_o15_l2_1.1-1.25_p3",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 40,
+          "n_total": 91,
+          "compl": 44.0,
+          "avg_cap": 25.0,
+          "roi": 10.0,
+          "wr_p": 76.3,
+          "pnl": 91.8
+        },
+        "Apr": {
+          "n_complete": 12,
+          "n_total": 21,
+          "compl": 57.1,
+          "avg_cap": 25.0,
+          "roi": 41.0,
+          "wr_p": 82.7,
+          "pnl": 90.1
+        }
+      },
+      "strat": {
+        "id": "V6A_o15_l2_1.1-1.25_p3",
+        "label": "Foot O 1.5 ultra mini-cote combo",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.1,
+            "cote_max": 1.25,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V6A_o15_l2_1.1-1.25_p4",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 30,
+          "n_total": 87,
+          "compl": 34.5,
+          "avg_cap": 34.6,
+          "roi": 19.1,
+          "wr_p": 76.9,
+          "pnl": 168.4
+        },
+        "Apr": {
+          "n_complete": 11,
+          "n_total": 21,
+          "compl": 52.4,
+          "avg_cap": 33.9,
+          "roi": 74.0,
+          "wr_p": 84.4,
+          "pnl": 162.9
+        }
+      },
+      "strat": {
+        "id": "V6A_o15_l2_1.1-1.25_p4",
+        "label": "Foot O 1.5 ultra mini-cote combo",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.1,
+            "cote_max": 1.25,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V6A_o15_l2_1.1-1.25_p5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 25,
+          "n_total": 84,
+          "compl": 29.8,
+          "avg_cap": 49.8,
+          "roi": 47.6,
+          "wr_p": 77.3,
+          "pnl": 404.2
+        },
+        "Apr": {
+          "n_complete": 10,
+          "n_total": 20,
+          "compl": 50.0,
+          "avg_cap": 49.4,
+          "roi": 140.1,
+          "wr_p": 86.1,
+          "pnl": 294.3
+        }
+      },
+      "strat": {
+        "id": "V6A_o15_l2_1.1-1.25_p5",
+        "label": "Foot O 1.5 ultra mini-cote combo",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.1,
+            "cote_max": 1.25,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V6A_o15_l2_1.1-1.25_p7",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 15,
+          "n_total": 78,
+          "compl": 19.2,
+          "avg_cap": 92.2,
+          "roi": 76.4,
+          "wr_p": 78.2,
+          "pnl": 603.7
+        },
+        "Apr": {
+          "n_complete": 6,
+          "n_total": 17,
+          "compl": 35.3,
+          "avg_cap": 81.5,
+          "roi": 177.3,
+          "wr_p": 86.6,
+          "pnl": 319.2
+        }
+      },
+      "strat": {
+        "id": "V6A_o15_l2_1.1-1.25_p7",
+        "label": "Foot O 1.5 ultra mini-cote combo",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.1,
+            "cote_max": 1.25,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 7,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V6A_o15_l3_1.1-1.25_p3",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 25,
+          "n_total": 81,
+          "compl": 30.9,
+          "avg_cap": 40.8,
+          "roi": 25.6,
+          "wr_p": 67.3,
+          "pnl": 210.3
+        },
+        "Apr": {
+          "n_complete": 10,
+          "n_total": 20,
+          "compl": 50.0,
+          "avg_cap": 40.0,
+          "roi": 95.1,
+          "wr_p": 78.3,
+          "pnl": 199.7
+        }
+      },
+      "strat": {
+        "id": "V6A_o15_l3_1.1-1.25_p3",
+        "label": "Foot O 1.5 ultra mini-cote combo",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.1,
+            "cote_max": 1.25,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "V6A_o15_l3_1.1-1.25_p4",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 17,
+          "n_total": 76,
+          "compl": 22.4,
+          "avg_cap": 66.3,
+          "roi": 47.7,
+          "wr_p": 68.3,
+          "pnl": 367.5
+        },
+        "Apr": {
+          "n_complete": 7,
+          "n_total": 17,
+          "compl": 41.2,
+          "avg_cap": 61.1,
+          "roi": 143.2,
+          "wr_p": 80.0,
+          "pnl": 257.9
+        }
+      },
+      "strat": {
+        "id": "V6A_o15_l3_1.1-1.25_p4",
+        "label": "Foot O 1.5 ultra mini-cote combo",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.1,
+            "cote_max": 1.25,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "V6A_o15_l3_1.1-1.25_p5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 11,
+          "n_total": 75,
+          "compl": 14.7,
+          "avg_cap": 104.7,
+          "roi": 52.9,
+          "wr_p": 68.2,
+          "pnl": 401.9
+        },
+        "Apr": {
+          "n_complete": 6,
+          "n_total": 17,
+          "compl": 35.3,
+          "avg_cap": 94.9,
+          "roi": 221.8,
+          "wr_p": 80.7,
+          "pnl": 399.3
+        }
+      },
+      "strat": {
+        "id": "V6A_o15_l3_1.1-1.25_p5",
+        "label": "Foot O 1.5 ultra mini-cote combo",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.1,
+            "cote_max": 1.25,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "V6A_o15_l3_1.1-1.25_p7",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 5,
+          "n_total": 75,
+          "compl": 6.7,
+          "avg_cap": 321.2,
+          "roi": 112.6,
+          "wr_p": 68.0,
+          "pnl": 856.0
+        },
+        "Apr": {
+          "n_complete": 3,
+          "n_total": 17,
+          "compl": 17.6,
+          "avg_cap": 287.1,
+          "roi": 384.1,
+          "wr_p": 79.4,
+          "pnl": 691.4
+        }
+      },
+      "strat": {
+        "id": "V6A_o15_l3_1.1-1.25_p7",
+        "label": "Foot O 1.5 ultra mini-cote combo",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.1,
+            "cote_max": 1.25,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 7,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "V6A_o15_l4_1.1-1.25_p3",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 15,
+          "n_total": 73,
+          "compl": 20.5,
+          "avg_cap": 66.2,
+          "roi": 35.6,
+          "wr_p": 58.9,
+          "pnl": 263.3
+        },
+        "Apr": {
+          "n_complete": 7,
+          "n_total": 17,
+          "compl": 41.2,
+          "avg_cap": 61.4,
+          "roi": 144.4,
+          "wr_p": 73.7,
+          "pnl": 260.0
+        }
+      },
+      "strat": {
+        "id": "V6A_o15_l4_1.1-1.25_p3",
+        "label": "Foot O 1.5 ultra mini-cote combo",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.1,
+            "cote_max": 1.25,
+            "sort_by": "wr",
+            "max_legs": 4,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 4
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 4
+        }
+      }
+    },
+    {
+      "id": "V6A_o15_l4_1.1-1.25_p4",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 11,
+          "n_total": 71,
+          "compl": 15.5,
+          "avg_cap": 125.0,
+          "roi": 92.4,
+          "wr_p": 60.5,
+          "pnl": 665.0
+        },
+        "Apr": {
+          "n_complete": 6,
+          "n_total": 17,
+          "compl": 35.3,
+          "avg_cap": 116.3,
+          "roi": 293.4,
+          "wr_p": 75.6,
+          "pnl": 528.1
+        }
+      },
+      "strat": {
+        "id": "V6A_o15_l4_1.1-1.25_p4",
+        "label": "Foot O 1.5 ultra mini-cote combo",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.1,
+            "cote_max": 1.25,
+            "sort_by": "wr",
+            "max_legs": 4,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 4
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 4
+        }
+      }
+    },
+    {
+      "id": "V6A_o15_l4_1.1-1.25_p5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 6,
+          "n_total": 71,
+          "compl": 8.5,
+          "avg_cap": 253.9,
+          "roi": 113.0,
+          "wr_p": 60.1,
+          "pnl": 813.4
+        },
+        "Apr": {
+          "n_complete": 4,
+          "n_total": 17,
+          "compl": 23.5,
+          "avg_cap": 226.3,
+          "roi": 408.4,
+          "wr_p": 74.5,
+          "pnl": 735.1
+        }
+      },
+      "strat": {
+        "id": "V6A_o15_l4_1.1-1.25_p5",
+        "label": "Foot O 1.5 ultra mini-cote combo",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.1,
+            "cote_max": 1.25,
+            "sort_by": "wr",
+            "max_legs": 4,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 4
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 4
+        }
+      }
+    },
+    {
+      "id": "V6A_o15_l4_1.1-1.25_p7",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 1,
+          "n_total": 69,
+          "compl": 1.4,
+          "avg_cap": 1005.7,
+          "roi": 45.1,
+          "wr_p": 58.8,
+          "pnl": 315.7
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 16,
+          "compl": 6.2,
+          "avg_cap": 1005.7,
+          "roi": 497.4,
+          "wr_p": 70.6,
+          "pnl": 845.7
+        }
+      },
+      "strat": {
+        "id": "V6A_o15_l4_1.1-1.25_p7",
+        "label": "Foot O 1.5 ultra mini-cote combo",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.1,
+            "cote_max": 1.25,
+            "sort_by": "wr",
+            "max_legs": 4,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 4
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 7,
+          "combo_legs_per_palier": 4
+        }
+      }
+    },
+    {
+      "id": "V6B_ice_l2_1.1-1.25_p3",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 1,
+          "n_total": 4,
+          "compl": 25.0,
+          "avg_cap": 30.2,
+          "roi": -19.6,
+          "wr_p": 66.7,
+          "pnl": -9.8
+        },
+        "Apr": {
+          "n_complete": 0,
+          "n_total": 0,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "roi": 0.0,
+          "wr_p": 0.0,
+          "pnl": 0
+        }
+      },
+      "strat": {
+        "id": "V6B_ice_l2_1.1-1.25_p3",
+        "label": "Hockey/Basket ultra-safe combo",
+        "components": [
+          {
+            "sports": [
+              "ice-hockey"
+            ],
+            "market": "1x2",
+            "cote_min": 1.1,
+            "cote_max": 1.25,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V6B_ice_l2_1.1-1.25_p4",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 1,
+          "n_total": 4,
+          "compl": 25.0,
+          "avg_cap": 47.2,
+          "roi": 14.4,
+          "wr_p": 66.7,
+          "pnl": 7.2
+        },
+        "Apr": {
+          "n_complete": 0,
+          "n_total": 0,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "roi": 0.0,
+          "wr_p": 0.0,
+          "pnl": 0
+        }
+      },
+      "strat": {
+        "id": "V6B_ice_l2_1.1-1.25_p4",
+        "label": "Hockey/Basket ultra-safe combo",
+        "components": [
+          {
+            "sports": [
+              "ice-hockey"
+            ],
+            "market": "1x2",
+            "cote_min": 1.1,
+            "cote_max": 1.25,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V6B_ice_l2_1.1-1.25_p5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 0,
+          "n_total": 3,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "roi": -75.0,
+          "wr_p": 66.7,
+          "pnl": -30
+        },
+        "Apr": {
+          "n_complete": 0,
+          "n_total": 0,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "roi": 0.0,
+          "wr_p": 0.0,
+          "pnl": 0
+        }
+      },
+      "strat": {
+        "id": "V6B_ice_l2_1.1-1.25_p5",
+        "label": "Hockey/Basket ultra-safe combo",
+        "components": [
+          {
+            "sports": [
+              "ice-hockey"
+            ],
+            "market": "1x2",
+            "cote_min": 1.1,
+            "cote_max": 1.25,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V6B_ice_l2_1.15-1.3_p3",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 3,
+          "n_total": 9,
+          "compl": 33.3,
+          "avg_cap": 37.5,
+          "roi": 22.6,
+          "wr_p": 68.4,
+          "pnl": 22.6
+        },
+        "Apr": {
+          "n_complete": 0,
+          "n_total": 0,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "roi": 0.0,
+          "wr_p": 100.0,
+          "pnl": 0
+        }
+      },
+      "strat": {
+        "id": "V6B_ice_l2_1.15-1.3_p3",
+        "label": "Hockey/Basket ultra-safe combo",
+        "components": [
+          {
+            "sports": [
+              "ice-hockey"
+            ],
+            "market": "1x2",
+            "cote_min": 1.15,
+            "cote_max": 1.3,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V6B_ice_l2_1.15-1.3_p4",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 2,
+          "n_total": 8,
+          "compl": 25.0,
+          "avg_cap": 59.5,
+          "roi": 43.4,
+          "wr_p": 68.4,
+          "pnl": 39.1
+        },
+        "Apr": {
+          "n_complete": 0,
+          "n_total": 0,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "roi": 0.0,
+          "wr_p": 100.0,
+          "pnl": 0
+        }
+      },
+      "strat": {
+        "id": "V6B_ice_l2_1.15-1.3_p4",
+        "label": "Hockey/Basket ultra-safe combo",
+        "components": [
+          {
+            "sports": [
+              "ice-hockey"
+            ],
+            "market": "1x2",
+            "cote_min": 1.15,
+            "cote_max": 1.3,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V6B_ice_l2_1.15-1.3_p5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 1,
+          "n_total": 7,
+          "compl": 14.3,
+          "avg_cap": 96.4,
+          "roi": 33.0,
+          "wr_p": 68.4,
+          "pnl": 26.4
+        },
+        "Apr": {
+          "n_complete": 0,
+          "n_total": 0,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "roi": 0.0,
+          "wr_p": 100.0,
+          "pnl": 0
+        }
+      },
+      "strat": {
+        "id": "V6B_ice_l2_1.15-1.3_p5",
+        "label": "Hockey/Basket ultra-safe combo",
+        "components": [
+          {
+            "sports": [
+              "ice-hockey"
+            ],
+            "market": "1x2",
+            "cote_min": 1.15,
+            "cote_max": 1.3,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V6B_ice_l3_1.15-1.3_p3",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 0,
+          "n_total": 4,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "roi": -80.0,
+          "wr_p": 55.6,
+          "pnl": -40
+        },
+        "Apr": {
+          "n_complete": 0,
+          "n_total": 0,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "roi": 0.0,
+          "wr_p": 0.0,
+          "pnl": 0
+        }
+      },
+      "strat": {
+        "id": "V6B_ice_l3_1.15-1.3_p3",
+        "label": "Hockey/Basket ultra-safe combo",
+        "components": [
+          {
+            "sports": [
+              "ice-hockey"
+            ],
+            "market": "1x2",
+            "cote_min": 1.15,
+            "cote_max": 1.3,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "V6B_ice_l3_1.15-1.3_p4",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 0,
+          "n_total": 4,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "roi": -80.0,
+          "wr_p": 55.6,
+          "pnl": -40
+        },
+        "Apr": {
+          "n_complete": 0,
+          "n_total": 0,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "roi": 0.0,
+          "wr_p": 0.0,
+          "pnl": 0
+        }
+      },
+      "strat": {
+        "id": "V6B_ice_l3_1.15-1.3_p4",
+        "label": "Hockey/Basket ultra-safe combo",
+        "components": [
+          {
+            "sports": [
+              "ice-hockey"
+            ],
+            "market": "1x2",
+            "cote_min": 1.15,
+            "cote_max": 1.3,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "V6B_ice_l3_1.15-1.3_p5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 0,
+          "n_total": 4,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "roi": -80.0,
+          "wr_p": 55.6,
+          "pnl": -40
+        },
+        "Apr": {
+          "n_complete": 0,
+          "n_total": 0,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "roi": 0.0,
+          "wr_p": 0.0,
+          "pnl": 0
+        }
+      },
+      "strat": {
+        "id": "V6B_ice_l3_1.15-1.3_p5",
+        "label": "Hockey/Basket ultra-safe combo",
+        "components": [
+          {
+            "sports": [
+              "ice-hockey"
+            ],
+            "market": "1x2",
+            "cote_min": 1.15,
+            "cote_max": 1.3,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "V6B_bas_l2_1.05-1.2_p3",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 15,
+          "n_total": 48,
+          "compl": 31.2,
+          "avg_cap": 20.1,
+          "roi": -36.4,
+          "wr_p": 69.4,
+          "pnl": -178.4
+        },
+        "Apr": {
+          "n_complete": 4,
+          "n_total": 10,
+          "compl": 40.0,
+          "avg_cap": 18.9,
+          "roi": -22.2,
+          "wr_p": 75.0,
+          "pnl": -24.5
+        }
+      },
+      "strat": {
+        "id": "V6B_bas_l2_1.05-1.2_p3",
+        "label": "Hockey/Basket ultra-safe combo",
+        "components": [
+          {
+            "sports": [
+              "basketball"
+            ],
+            "market": "1x2",
+            "cote_min": 1.05,
+            "cote_max": 1.2,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V6B_bas_l2_1.05-1.2_p4",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 10,
+          "n_total": 45,
+          "compl": 22.2,
+          "avg_cap": 25.2,
+          "roi": -43.1,
+          "wr_p": 69.6,
+          "pnl": -198.2
+        },
+        "Apr": {
+          "n_complete": 2,
+          "n_total": 9,
+          "compl": 22.2,
+          "avg_cap": 27.6,
+          "roi": -34.8,
+          "wr_p": 74.1,
+          "pnl": -34.8
+        }
+      },
+      "strat": {
+        "id": "V6B_bas_l2_1.05-1.2_p4",
+        "label": "Hockey/Basket ultra-safe combo",
+        "components": [
+          {
+            "sports": [
+              "basketball"
+            ],
+            "market": "1x2",
+            "cote_min": 1.05,
+            "cote_max": 1.2,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V6B_bas_l2_1.05-1.2_p5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 5,
+          "n_total": 39,
+          "compl": 12.8,
+          "avg_cap": 32.4,
+          "roi": -57.1,
+          "wr_p": 70.4,
+          "pnl": -228.2
+        },
+        "Apr": {
+          "n_complete": 2,
+          "n_total": 8,
+          "compl": 25.0,
+          "avg_cap": 32.3,
+          "roi": -17.0,
+          "wr_p": 76.9,
+          "pnl": -15.3
+        }
+      },
+      "strat": {
+        "id": "V6B_bas_l2_1.05-1.2_p5",
+        "label": "Hockey/Basket ultra-safe combo",
+        "components": [
+          {
+            "sports": [
+              "basketball"
+            ],
+            "market": "1x2",
+            "cote_min": 1.05,
+            "cote_max": 1.2,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V6B_bas_l3_1.05-1.2_p3",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 7,
+          "n_total": 33,
+          "compl": 21.2,
+          "avg_cap": 27.8,
+          "roi": -39.9,
+          "wr_p": 61.2,
+          "pnl": -135.5
+        },
+        "Apr": {
+          "n_complete": 3,
+          "n_total": 8,
+          "compl": 37.5,
+          "avg_cap": 27.7,
+          "roi": 3.5,
+          "wr_p": 68.8,
+          "pnl": 3.1
+        }
+      },
+      "strat": {
+        "id": "V6B_bas_l3_1.05-1.2_p3",
+        "label": "Hockey/Basket ultra-safe combo",
+        "components": [
+          {
+            "sports": [
+              "basketball"
+            ],
+            "market": "1x2",
+            "cote_min": 1.05,
+            "cote_max": 1.2,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "V6B_bas_l3_1.05-1.2_p4",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 2,
+          "n_total": 31,
+          "compl": 6.5,
+          "avg_cap": 35.6,
+          "roi": -74.6,
+          "wr_p": 58.6,
+          "pnl": -238.8
+        },
+        "Apr": {
+          "n_complete": 2,
+          "n_total": 8,
+          "compl": 25.0,
+          "avg_cap": 34.3,
+          "roi": -12.6,
+          "wr_p": 68.4,
+          "pnl": -11.4
+        }
+      },
+      "strat": {
+        "id": "V6B_bas_l3_1.05-1.2_p4",
+        "label": "Hockey/Basket ultra-safe combo",
+        "components": [
+          {
+            "sports": [
+              "basketball"
+            ],
+            "market": "1x2",
+            "cote_min": 1.05,
+            "cote_max": 1.2,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "V6B_bas_l3_1.05-1.2_p5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 2,
+          "n_total": 31,
+          "compl": 6.5,
+          "avg_cap": 47.9,
+          "roi": -67.0,
+          "wr_p": 59.7,
+          "pnl": -214.2
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 7,
+          "compl": 14.3,
+          "avg_cap": 56.6,
+          "roi": -16.7,
+          "wr_p": 70.0,
+          "pnl": -13.4
+        }
+      },
+      "strat": {
+        "id": "V6B_bas_l3_1.05-1.2_p5",
+        "label": "Hockey/Basket ultra-safe combo",
+        "components": [
+          {
+            "sports": [
+              "basketball"
+            ],
+            "market": "1x2",
+            "cote_min": 1.05,
+            "cote_max": 1.2,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "V6B_bas_l2_1.1-1.25_p3",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 18,
+          "n_total": 56,
+          "compl": 32.1,
+          "avg_cap": 25.2,
+          "roi": -18.8,
+          "wr_p": 68.3,
+          "pnl": -106.9
+        },
+        "Apr": {
+          "n_complete": 4,
+          "n_total": 10,
+          "compl": 40.0,
+          "avg_cap": 26.1,
+          "roi": 4.1,
+          "wr_p": 73.9,
+          "pnl": 4.5
+        }
+      },
+      "strat": {
+        "id": "V6B_bas_l2_1.1-1.25_p3",
+        "label": "Hockey/Basket ultra-safe combo",
+        "components": [
+          {
+            "sports": [
+              "basketball"
+            ],
+            "market": "1x2",
+            "cote_min": 1.1,
+            "cote_max": 1.25,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V6B_bas_l2_1.1-1.25_p4",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 12,
+          "n_total": 48,
+          "compl": 25.0,
+          "avg_cap": 33.1,
+          "roi": -16.8,
+          "wr_p": 70.0,
+          "pnl": -82.4
+        },
+        "Apr": {
+          "n_complete": 2,
+          "n_total": 8,
+          "compl": 25.0,
+          "avg_cap": 31.5,
+          "roi": -18.8,
+          "wr_p": 73.9,
+          "pnl": -16.9
+        }
+      },
+      "strat": {
+        "id": "V6B_bas_l2_1.1-1.25_p4",
+        "label": "Hockey/Basket ultra-safe combo",
+        "components": [
+          {
+            "sports": [
+              "basketball"
+            ],
+            "market": "1x2",
+            "cote_min": 1.1,
+            "cote_max": 1.25,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V6B_bas_l2_1.1-1.25_p5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 5,
+          "n_total": 44,
+          "compl": 11.4,
+          "avg_cap": 44.5,
+          "roi": -48.4,
+          "wr_p": 69.5,
+          "pnl": -217.7
+        },
+        "Apr": {
+          "n_complete": 2,
+          "n_total": 8,
+          "compl": 25.0,
+          "avg_cap": 45.4,
+          "roi": 12.0,
+          "wr_p": 76.0,
+          "pnl": 10.8
+        }
+      },
+      "strat": {
+        "id": "V6B_bas_l2_1.1-1.25_p5",
+        "label": "Hockey/Basket ultra-safe combo",
+        "components": [
+          {
+            "sports": [
+              "basketball"
+            ],
+            "market": "1x2",
+            "cote_min": 1.1,
+            "cote_max": 1.25,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V6B_bas_l3_1.1-1.25_p3",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 8,
+          "n_total": 39,
+          "compl": 20.5,
+          "avg_cap": 36.7,
+          "roi": -24.0,
+          "wr_p": 60.3,
+          "pnl": -96.1
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 6,
+          "compl": 16.7,
+          "avg_cap": 32.4,
+          "roi": -39.5,
+          "wr_p": 66.7,
+          "pnl": -27.6
+        }
+      },
+      "strat": {
+        "id": "V6B_bas_l3_1.1-1.25_p3",
+        "label": "Hockey/Basket ultra-safe combo",
+        "components": [
+          {
+            "sports": [
+              "basketball"
+            ],
+            "market": "1x2",
+            "cote_min": 1.1,
+            "cote_max": 1.25,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "V6B_bas_l3_1.1-1.25_p4",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 5,
+          "n_total": 36,
+          "compl": 13.9,
+          "avg_cap": 54.1,
+          "roi": -24.2,
+          "wr_p": 61.3,
+          "pnl": -89.5
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 6,
+          "compl": 16.7,
+          "avg_cap": 50.5,
+          "roi": -13.6,
+          "wr_p": 68.8,
+          "pnl": -9.5
+        }
+      },
+      "strat": {
+        "id": "V6B_bas_l3_1.1-1.25_p4",
+        "label": "Hockey/Basket ultra-safe combo",
+        "components": [
+          {
+            "sports": [
+              "basketball"
+            ],
+            "market": "1x2",
+            "cote_min": 1.1,
+            "cote_max": 1.25,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "V6B_bas_l3_1.1-1.25_p5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 2,
+          "n_total": 34,
+          "compl": 5.9,
+          "avg_cap": 82.7,
+          "roi": -49.9,
+          "wr_p": 60.5,
+          "pnl": -174.6
+        },
+        "Apr": {
+          "n_complete": 0,
+          "n_total": 6,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "roi": -85.7,
+          "wr_p": 64.7,
+          "pnl": -60
+        }
+      },
+      "strat": {
+        "id": "V6B_bas_l3_1.1-1.25_p5",
+        "label": "Hockey/Basket ultra-safe combo",
+        "components": [
+          {
+            "sports": [
+              "basketball"
+            ],
+            "market": "1x2",
+            "cote_min": 1.1,
+            "cote_max": 1.25,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "V6B_bas_l2_1.15-1.3_p3",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 17,
+          "n_total": 57,
+          "compl": 29.8,
+          "avg_cap": 32.5,
+          "roi": -3.1,
+          "wr_p": 65.5,
+          "pnl": -17.9
+        },
+        "Apr": {
+          "n_complete": 5,
+          "n_total": 12,
+          "compl": 41.7,
+          "avg_cap": 32.4,
+          "roi": 32.2,
+          "wr_p": 70.8,
+          "pnl": 41.9
+        }
+      },
+      "strat": {
+        "id": "V6B_bas_l2_1.15-1.3_p3",
+        "label": "Hockey/Basket ultra-safe combo",
+        "components": [
+          {
+            "sports": [
+              "basketball"
+            ],
+            "market": "1x2",
+            "cote_min": 1.15,
+            "cote_max": 1.3,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V6B_bas_l2_1.15-1.3_p4",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 9,
+          "n_total": 50,
+          "compl": 18.0,
+          "avg_cap": 47.6,
+          "roi": -14.0,
+          "wr_p": 65.3,
+          "pnl": -71.4
+        },
+        "Apr": {
+          "n_complete": 3,
+          "n_total": 10,
+          "compl": 30.0,
+          "avg_cap": 45.4,
+          "roi": 32.9,
+          "wr_p": 70.8,
+          "pnl": 36.1
+        }
+      },
+      "strat": {
+        "id": "V6B_bas_l2_1.15-1.3_p4",
+        "label": "Hockey/Basket ultra-safe combo",
+        "components": [
+          {
+            "sports": [
+              "basketball"
+            ],
+            "market": "1x2",
+            "cote_min": 1.15,
+            "cote_max": 1.3,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V6B_bas_l2_1.15-1.3_p5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 7,
+          "n_total": 47,
+          "compl": 14.9,
+          "avg_cap": 69.8,
+          "roi": 3.9,
+          "wr_p": 66.4,
+          "pnl": 18.5
+        },
+        "Apr": {
+          "n_complete": 3,
+          "n_total": 10,
+          "compl": 30.0,
+          "avg_cap": 64.8,
+          "roi": 85.9,
+          "wr_p": 72.0,
+          "pnl": 94.5
+        }
+      },
+      "strat": {
+        "id": "V6B_bas_l2_1.15-1.3_p5",
+        "label": "Hockey/Basket ultra-safe combo",
+        "components": [
+          {
+            "sports": [
+              "basketball"
+            ],
+            "market": "1x2",
+            "cote_min": 1.15,
+            "cote_max": 1.3,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V6B_bas_l3_1.15-1.3_p3",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 10,
+          "n_total": 40,
+          "compl": 25.0,
+          "avg_cap": 58.5,
+          "roi": 45.2,
+          "wr_p": 59.5,
+          "pnl": 185.4
+        },
+        "Apr": {
+          "n_complete": 3,
+          "n_total": 7,
+          "compl": 42.9,
+          "avg_cap": 52.8,
+          "roi": 110.6,
+          "wr_p": 71.4,
+          "pnl": 88.5
+        }
+      },
+      "strat": {
+        "id": "V6B_bas_l3_1.15-1.3_p3",
+        "label": "Hockey/Basket ultra-safe combo",
+        "components": [
+          {
+            "sports": [
+              "basketball"
+            ],
+            "market": "1x2",
+            "cote_min": 1.15,
+            "cote_max": 1.3,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "V6B_bas_l3_1.15-1.3_p4",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 5,
+          "n_total": 36,
+          "compl": 13.9,
+          "avg_cap": 106.4,
+          "roi": 46.5,
+          "wr_p": 59.7,
+          "pnl": 172.1
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 6,
+          "compl": 16.7,
+          "avg_cap": 101.7,
+          "roi": 59.5,
+          "wr_p": 68.8,
+          "pnl": 41.7
+        }
+      },
+      "strat": {
+        "id": "V6B_bas_l3_1.15-1.3_p4",
+        "label": "Hockey/Basket ultra-safe combo",
+        "components": [
+          {
+            "sports": [
+              "basketball"
+            ],
+            "market": "1x2",
+            "cote_min": 1.15,
+            "cote_max": 1.3,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "V6B_bas_l3_1.15-1.3_p5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 3,
+          "n_total": 34,
+          "compl": 8.8,
+          "avg_cap": 198.4,
+          "roi": 72.9,
+          "wr_p": 59.7,
+          "pnl": 255.3
+        },
+        "Apr": {
+          "n_complete": 0,
+          "n_total": 5,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "roi": -83.3,
+          "wr_p": 68.8,
+          "pnl": -50
+        }
+      },
+      "strat": {
+        "id": "V6B_bas_l3_1.15-1.3_p5",
+        "label": "Hockey/Basket ultra-safe combo",
+        "components": [
+          {
+            "sports": [
+              "basketball"
+            ],
+            "market": "1x2",
+            "cote_min": 1.15,
+            "cote_max": 1.3,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "V6B_ice+bas_l2_1.05-1.2_p3",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 18,
+          "n_total": 49,
+          "compl": 36.7,
+          "avg_cap": 20.4,
+          "roi": -24.4,
+          "wr_p": 71.6,
+          "pnl": -121.9
+        },
+        "Apr": {
+          "n_complete": 4,
+          "n_total": 10,
+          "compl": 40.0,
+          "avg_cap": 18.9,
+          "roi": -22.2,
+          "wr_p": 75.0,
+          "pnl": -24.5
+        }
+      },
+      "strat": {
+        "id": "V6B_ice+bas_l2_1.05-1.2_p3",
+        "label": "Hockey/Basket ultra-safe combo",
+        "components": [
+          {
+            "sports": [
+              "ice-hockey",
+              "basketball"
+            ],
+            "market": "1x2",
+            "cote_min": 1.05,
+            "cote_max": 1.2,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V6B_ice+bas_l2_1.05-1.2_p4",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 9,
+          "n_total": 44,
+          "compl": 20.5,
+          "avg_cap": 25.8,
+          "roi": -46.2,
+          "wr_p": 70.1,
+          "pnl": -207.7
+        },
+        "Apr": {
+          "n_complete": 2,
+          "n_total": 9,
+          "compl": 22.2,
+          "avg_cap": 27.6,
+          "roi": -34.8,
+          "wr_p": 74.1,
+          "pnl": -34.8
+        }
+      },
+      "strat": {
+        "id": "V6B_ice+bas_l2_1.05-1.2_p4",
+        "label": "Hockey/Basket ultra-safe combo",
+        "components": [
+          {
+            "sports": [
+              "ice-hockey",
+              "basketball"
+            ],
+            "market": "1x2",
+            "cote_min": 1.05,
+            "cote_max": 1.2,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V6B_ice+bas_l2_1.05-1.2_p5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 5,
+          "n_total": 40,
+          "compl": 12.5,
+          "avg_cap": 35.3,
+          "roi": -54.6,
+          "wr_p": 70.3,
+          "pnl": -223.7
+        },
+        "Apr": {
+          "n_complete": 2,
+          "n_total": 8,
+          "compl": 25.0,
+          "avg_cap": 32.3,
+          "roi": -17.0,
+          "wr_p": 76.9,
+          "pnl": -15.3
+        }
+      },
+      "strat": {
+        "id": "V6B_ice+bas_l2_1.05-1.2_p5",
+        "label": "Hockey/Basket ultra-safe combo",
+        "components": [
+          {
+            "sports": [
+              "ice-hockey",
+              "basketball"
+            ],
+            "market": "1x2",
+            "cote_min": 1.05,
+            "cote_max": 1.2,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V6B_ice+bas_l3_1.05-1.2_p3",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 8,
+          "n_total": 39,
+          "compl": 20.5,
+          "avg_cap": 29.0,
+          "roi": -39.4,
+          "wr_p": 58.1,
+          "pnl": -157.7
+        },
+        "Apr": {
+          "n_complete": 3,
+          "n_total": 8,
+          "compl": 37.5,
+          "avg_cap": 27.7,
+          "roi": 3.5,
+          "wr_p": 68.8,
+          "pnl": 3.1
+        }
+      },
+      "strat": {
+        "id": "V6B_ice+bas_l3_1.05-1.2_p3",
+        "label": "Hockey/Basket ultra-safe combo",
+        "components": [
+          {
+            "sports": [
+              "ice-hockey",
+              "basketball"
+            ],
+            "market": "1x2",
+            "cote_min": 1.05,
+            "cote_max": 1.2,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "V6B_ice+bas_l3_1.05-1.2_p4",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 2,
+          "n_total": 35,
+          "compl": 5.7,
+          "avg_cap": 35.6,
+          "roi": -77.4,
+          "wr_p": 56.6,
+          "pnl": -278.8
+        },
+        "Apr": {
+          "n_complete": 2,
+          "n_total": 8,
+          "compl": 25.0,
+          "avg_cap": 34.3,
+          "roi": -12.6,
+          "wr_p": 68.4,
+          "pnl": -11.4
+        }
+      },
+      "strat": {
+        "id": "V6B_ice+bas_l3_1.05-1.2_p4",
+        "label": "Hockey/Basket ultra-safe combo",
+        "components": [
+          {
+            "sports": [
+              "ice-hockey",
+              "basketball"
+            ],
+            "market": "1x2",
+            "cote_min": 1.05,
+            "cote_max": 1.2,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "V6B_ice+bas_l3_1.05-1.2_p5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 2,
+          "n_total": 35,
+          "compl": 5.7,
+          "avg_cap": 47.9,
+          "roi": -70.6,
+          "wr_p": 57.7,
+          "pnl": -254.2
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 7,
+          "compl": 14.3,
+          "avg_cap": 56.6,
+          "roi": -16.7,
+          "wr_p": 70.0,
+          "pnl": -13.4
+        }
+      },
+      "strat": {
+        "id": "V6B_ice+bas_l3_1.05-1.2_p5",
+        "label": "Hockey/Basket ultra-safe combo",
+        "components": [
+          {
+            "sports": [
+              "ice-hockey",
+              "basketball"
+            ],
+            "market": "1x2",
+            "cote_min": 1.05,
+            "cote_max": 1.2,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "V6B_ice+bas_l2_1.1-1.25_p3",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 22,
+          "n_total": 62,
+          "compl": 35.5,
+          "avg_cap": 25.5,
+          "roi": -9.2,
+          "wr_p": 69.9,
+          "pnl": -58.1
+        },
+        "Apr": {
+          "n_complete": 4,
+          "n_total": 10,
+          "compl": 40.0,
+          "avg_cap": 26.1,
+          "roi": 4.1,
+          "wr_p": 73.9,
+          "pnl": 4.5
+        }
+      },
+      "strat": {
+        "id": "V6B_ice+bas_l2_1.1-1.25_p3",
+        "label": "Hockey/Basket ultra-safe combo",
+        "components": [
+          {
+            "sports": [
+              "ice-hockey",
+              "basketball"
+            ],
+            "market": "1x2",
+            "cote_min": 1.1,
+            "cote_max": 1.25,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V6B_ice+bas_l2_1.1-1.25_p4",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 10,
+          "n_total": 51,
+          "compl": 19.6,
+          "avg_cap": 34.1,
+          "roi": -32.4,
+          "wr_p": 69.2,
+          "pnl": -168.6
+        },
+        "Apr": {
+          "n_complete": 2,
+          "n_total": 8,
+          "compl": 25.0,
+          "avg_cap": 31.5,
+          "roi": -18.8,
+          "wr_p": 73.9,
+          "pnl": -16.9
+        }
+      },
+      "strat": {
+        "id": "V6B_ice+bas_l2_1.1-1.25_p4",
+        "label": "Hockey/Basket ultra-safe combo",
+        "components": [
+          {
+            "sports": [
+              "ice-hockey",
+              "basketball"
+            ],
+            "market": "1x2",
+            "cote_min": 1.1,
+            "cote_max": 1.25,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V6B_ice+bas_l2_1.1-1.25_p5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 8,
+          "n_total": 50,
+          "compl": 16.0,
+          "avg_cap": 46.3,
+          "roi": -25.4,
+          "wr_p": 69.6,
+          "pnl": -129.4
+        },
+        "Apr": {
+          "n_complete": 2,
+          "n_total": 8,
+          "compl": 25.0,
+          "avg_cap": 45.4,
+          "roi": 12.0,
+          "wr_p": 76.0,
+          "pnl": 10.8
+        }
+      },
+      "strat": {
+        "id": "V6B_ice+bas_l2_1.1-1.25_p5",
+        "label": "Hockey/Basket ultra-safe combo",
+        "components": [
+          {
+            "sports": [
+              "ice-hockey",
+              "basketball"
+            ],
+            "market": "1x2",
+            "cote_min": 1.1,
+            "cote_max": 1.25,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V6B_ice+bas_l3_1.1-1.25_p3",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 8,
+          "n_total": 44,
+          "compl": 18.2,
+          "avg_cap": 39.1,
+          "roi": -28.2,
+          "wr_p": 58.6,
+          "pnl": -126.9
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 7,
+          "compl": 14.3,
+          "avg_cap": 32.4,
+          "roi": -47.0,
+          "wr_p": 62.5,
+          "pnl": -37.6
+        }
+      },
+      "strat": {
+        "id": "V6B_ice+bas_l3_1.1-1.25_p3",
+        "label": "Hockey/Basket ultra-safe combo",
+        "components": [
+          {
+            "sports": [
+              "ice-hockey",
+              "basketball"
+            ],
+            "market": "1x2",
+            "cote_min": 1.1,
+            "cote_max": 1.25,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "V6B_ice+bas_l3_1.1-1.25_p4",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 4,
+          "n_total": 40,
+          "compl": 10.0,
+          "avg_cap": 56.6,
+          "roi": -42.3,
+          "wr_p": 59.6,
+          "pnl": -173.6
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 7,
+          "compl": 14.3,
+          "avg_cap": 50.5,
+          "roi": -24.4,
+          "wr_p": 64.7,
+          "pnl": -19.5
+        }
+      },
+      "strat": {
+        "id": "V6B_ice+bas_l3_1.1-1.25_p4",
+        "label": "Hockey/Basket ultra-safe combo",
+        "components": [
+          {
+            "sports": [
+              "ice-hockey",
+              "basketball"
+            ],
+            "market": "1x2",
+            "cote_min": 1.1,
+            "cote_max": 1.25,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "V6B_ice+bas_l3_1.1-1.25_p5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 2,
+          "n_total": 39,
+          "compl": 5.1,
+          "avg_cap": 95.9,
+          "roi": -49.5,
+          "wr_p": 58.9,
+          "pnl": -198.2
+        },
+        "Apr": {
+          "n_complete": 0,
+          "n_total": 7,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "roi": -87.5,
+          "wr_p": 61.1,
+          "pnl": -70
+        }
+      },
+      "strat": {
+        "id": "V6B_ice+bas_l3_1.1-1.25_p5",
+        "label": "Hockey/Basket ultra-safe combo",
+        "components": [
+          {
+            "sports": [
+              "ice-hockey",
+              "basketball"
+            ],
+            "market": "1x2",
+            "cote_min": 1.1,
+            "cote_max": 1.25,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "V6B_ice+bas_l2_1.15-1.3_p3",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 21,
+          "n_total": 65,
+          "compl": 32.3,
+          "avg_cap": 33.1,
+          "roi": 6.8,
+          "wr_p": 67.6,
+          "pnl": 45.1
+        },
+        "Apr": {
+          "n_complete": 5,
+          "n_total": 12,
+          "compl": 41.7,
+          "avg_cap": 32.4,
+          "roi": 32.2,
+          "wr_p": 74.1,
+          "pnl": 41.9
+        }
+      },
+      "strat": {
+        "id": "V6B_ice+bas_l2_1.15-1.3_p3",
+        "label": "Hockey/Basket ultra-safe combo",
+        "components": [
+          {
+            "sports": [
+              "ice-hockey",
+              "basketball"
+            ],
+            "market": "1x2",
+            "cote_min": 1.15,
+            "cote_max": 1.3,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V6B_ice+bas_l2_1.15-1.3_p4",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 15,
+          "n_total": 59,
+          "compl": 25.4,
+          "avg_cap": 50.4,
+          "roi": 27.6,
+          "wr_p": 69.7,
+          "pnl": 165.7
+        },
+        "Apr": {
+          "n_complete": 3,
+          "n_total": 10,
+          "compl": 30.0,
+          "avg_cap": 45.4,
+          "roi": 32.9,
+          "wr_p": 74.1,
+          "pnl": 36.1
+        }
+      },
+      "strat": {
+        "id": "V6B_ice+bas_l2_1.15-1.3_p4",
+        "label": "Hockey/Basket ultra-safe combo",
+        "components": [
+          {
+            "sports": [
+              "ice-hockey",
+              "basketball"
+            ],
+            "market": "1x2",
+            "cote_min": 1.15,
+            "cote_max": 1.3,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V6B_ice+bas_l2_1.15-1.3_p5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 9,
+          "n_total": 51,
+          "compl": 17.6,
+          "avg_cap": 72.1,
+          "roi": 26.8,
+          "wr_p": 70.2,
+          "pnl": 139.2
+        },
+        "Apr": {
+          "n_complete": 3,
+          "n_total": 10,
+          "compl": 30.0,
+          "avg_cap": 64.8,
+          "roi": 85.9,
+          "wr_p": 75.0,
+          "pnl": 94.5
+        }
+      },
+      "strat": {
+        "id": "V6B_ice+bas_l2_1.15-1.3_p5",
+        "label": "Hockey/Basket ultra-safe combo",
+        "components": [
+          {
+            "sports": [
+              "ice-hockey",
+              "basketball"
+            ],
+            "market": "1x2",
+            "cote_min": 1.15,
+            "cote_max": 1.3,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V6B_ice+bas_l3_1.15-1.3_p3",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 11,
+          "n_total": 47,
+          "compl": 23.4,
+          "avg_cap": 58.4,
+          "roi": 35.9,
+          "wr_p": 60.0,
+          "pnl": 172.1
+        },
+        "Apr": {
+          "n_complete": 3,
+          "n_total": 8,
+          "compl": 37.5,
+          "avg_cap": 52.6,
+          "roi": 86.3,
+          "wr_p": 66.7,
+          "pnl": 77.7
+        }
+      },
+      "strat": {
+        "id": "V6B_ice+bas_l3_1.15-1.3_p3",
+        "label": "Hockey/Basket ultra-safe combo",
+        "components": [
+          {
+            "sports": [
+              "ice-hockey",
+              "basketball"
+            ],
+            "market": "1x2",
+            "cote_min": 1.15,
+            "cote_max": 1.3,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "V6B_ice+bas_l3_1.15-1.3_p4",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 6,
+          "n_total": 43,
+          "compl": 14.0,
+          "avg_cap": 104.9,
+          "roi": 45.4,
+          "wr_p": 60.6,
+          "pnl": 199.5
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 7,
+          "compl": 14.3,
+          "avg_cap": 100.1,
+          "roi": 37.6,
+          "wr_p": 64.7,
+          "pnl": 30.1
+        }
+      },
+      "strat": {
+        "id": "V6B_ice+bas_l3_1.15-1.3_p4",
+        "label": "Hockey/Basket ultra-safe combo",
+        "components": [
+          {
+            "sports": [
+              "ice-hockey",
+              "basketball"
+            ],
+            "market": "1x2",
+            "cote_min": 1.15,
+            "cote_max": 1.3,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "V6B_ice+bas_l3_1.15-1.3_p5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 3,
+          "n_total": 40,
+          "compl": 7.5,
+          "avg_cap": 200.7,
+          "roi": 49.3,
+          "wr_p": 60.6,
+          "pnl": 202.0
+        },
+        "Apr": {
+          "n_complete": 0,
+          "n_total": 6,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "roi": -85.7,
+          "wr_p": 64.7,
+          "pnl": -60
+        }
+      },
+      "strat": {
+        "id": "V6B_ice+bas_l3_1.15-1.3_p5",
+        "label": "Hockey/Basket ultra-safe combo",
+        "components": [
+          {
+            "sports": [
+              "ice-hockey",
+              "basketball"
+            ],
+            "market": "1x2",
+            "cote_min": 1.15,
+            "cote_max": 1.3,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "V6C_xs_foo+ice_l3_1.05-1.2_p3",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 4,
+          "n_total": 8,
+          "compl": 50.0,
+          "avg_cap": 35.6,
+          "roi": 69.4,
+          "wr_p": 81.0,
+          "pnl": 62.5
+        },
+        "Apr": {
+          "n_complete": 0,
+          "n_total": 2,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "roi": -66.7,
+          "wr_p": 50.0,
+          "pnl": -20
+        }
+      },
+      "strat": {
+        "id": "V6C_xs_foo+ice_l3_1.05-1.2_p3",
+        "label": "Multi-sport mini-cote",
+        "components": [
+          {
+            "sports": [
+              "football",
+              "ice-hockey"
+            ],
+            "market": "1x2",
+            "cote_min": 1.05,
+            "cote_max": 1.2,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "V6C_xs_foo+ice+bas_l3_1.05-1.2_p3",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 13,
+          "n_total": 49,
+          "compl": 26.5,
+          "avg_cap": 31.6,
+          "roi": -15.9,
+          "wr_p": 64.0,
+          "pnl": -79.3
+        },
+        "Apr": {
+          "n_complete": 3,
+          "n_total": 10,
+          "compl": 30.0,
+          "avg_cap": 28.3,
+          "roi": -13.7,
+          "wr_p": 63.2,
+          "pnl": -15.1
+        }
+      },
+      "strat": {
+        "id": "V6C_xs_foo+ice+bas_l3_1.05-1.2_p3",
+        "label": "Multi-sport mini-cote",
+        "components": [
+          {
+            "sports": [
+              "football",
+              "ice-hockey",
+              "basketball"
+            ],
+            "market": "1x2",
+            "cote_min": 1.05,
+            "cote_max": 1.2,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "V6C_xs_foo+ice_l3_1.05-1.2_p4",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 2,
+          "n_total": 6,
+          "compl": 33.3,
+          "avg_cap": 55.3,
+          "roi": 72.2,
+          "wr_p": 81.0,
+          "pnl": 50.6
+        },
+        "Apr": {
+          "n_complete": 0,
+          "n_total": 2,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "roi": -66.7,
+          "wr_p": 50.0,
+          "pnl": -20
+        }
+      },
+      "strat": {
+        "id": "V6C_xs_foo+ice_l3_1.05-1.2_p4",
+        "label": "Multi-sport mini-cote",
+        "components": [
+          {
+            "sports": [
+              "football",
+              "ice-hockey"
+            ],
+            "market": "1x2",
+            "cote_min": 1.05,
+            "cote_max": 1.2,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "V6C_xs_foo+ice+bas_l3_1.05-1.2_p4",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 5,
+          "n_total": 43,
+          "compl": 11.6,
+          "avg_cap": 44.9,
+          "roi": -46.7,
+          "wr_p": 62.7,
+          "pnl": -205.6
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 9,
+          "compl": 11.1,
+          "avg_cap": 29.7,
+          "roi": -60.3,
+          "wr_p": 61.9,
+          "pnl": -60.3
+        }
+      },
+      "strat": {
+        "id": "V6C_xs_foo+ice+bas_l3_1.05-1.2_p4",
+        "label": "Multi-sport mini-cote",
+        "components": [
+          {
+            "sports": [
+              "football",
+              "ice-hockey",
+              "basketball"
+            ],
+            "market": "1x2",
+            "cote_min": 1.05,
+            "cote_max": 1.2,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "V6C_xs_foo+ice_l3_1.05-1.2_p5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 2,
+          "n_total": 6,
+          "compl": 33.3,
+          "avg_cap": 83.9,
+          "roi": 154.1,
+          "wr_p": 81.0,
+          "pnl": 107.9
+        },
+        "Apr": {
+          "n_complete": 0,
+          "n_total": 2,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "roi": -66.7,
+          "wr_p": 50.0,
+          "pnl": -20
+        }
+      },
+      "strat": {
+        "id": "V6C_xs_foo+ice_l3_1.05-1.2_p5",
+        "label": "Multi-sport mini-cote",
+        "components": [
+          {
+            "sports": [
+              "football",
+              "ice-hockey"
+            ],
+            "market": "1x2",
+            "cote_min": 1.05,
+            "cote_max": 1.2,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "V6C_xs_foo+ice+bas_l3_1.05-1.2_p5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 4,
+          "n_total": 41,
+          "compl": 9.8,
+          "avg_cap": 57.3,
+          "roi": -43.0,
+          "wr_p": 64.4,
+          "pnl": -180.8
+        },
+        "Apr": {
+          "n_complete": 0,
+          "n_total": 8,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "roi": -88.9,
+          "wr_p": 61.9,
+          "pnl": -80
+        }
+      },
+      "strat": {
+        "id": "V6C_xs_foo+ice+bas_l3_1.05-1.2_p5",
+        "label": "Multi-sport mini-cote",
+        "components": [
+          {
+            "sports": [
+              "football",
+              "ice-hockey",
+              "basketball"
+            ],
+            "market": "1x2",
+            "cote_min": 1.05,
+            "cote_max": 1.2,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "V6C_xs_foo+ice_l4_1.05-1.2_p3",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 0,
+          "n_total": 4,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "roi": -80.0,
+          "wr_p": 33.3,
+          "pnl": -40
+        },
+        "Apr": {
+          "n_complete": 0,
+          "n_total": 1,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "roi": -50.0,
+          "wr_p": 50.0,
+          "pnl": -10
+        }
+      },
+      "strat": {
+        "id": "V6C_xs_foo+ice_l4_1.05-1.2_p3",
+        "label": "Multi-sport mini-cote",
+        "components": [
+          {
+            "sports": [
+              "football",
+              "ice-hockey"
+            ],
+            "market": "1x2",
+            "cote_min": 1.05,
+            "cote_max": 1.2,
+            "sort_by": "wr",
+            "max_legs": 4,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 4
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 4
+        }
+      }
+    },
+    {
+      "id": "V6C_xs_foo+ice+bas_l4_1.05-1.2_p3",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 3,
+          "n_total": 36,
+          "compl": 8.3,
+          "avg_cap": 49.3,
+          "roi": -57.3,
+          "wr_p": 50.0,
+          "pnl": -212.2
+        },
+        "Apr": {
+          "n_complete": 0,
+          "n_total": 8,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "roi": -88.9,
+          "wr_p": 42.9,
+          "pnl": -80
+        }
+      },
+      "strat": {
+        "id": "V6C_xs_foo+ice+bas_l4_1.05-1.2_p3",
+        "label": "Multi-sport mini-cote",
+        "components": [
+          {
+            "sports": [
+              "football",
+              "ice-hockey",
+              "basketball"
+            ],
+            "market": "1x2",
+            "cote_min": 1.05,
+            "cote_max": 1.2,
+            "sort_by": "wr",
+            "max_legs": 4,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 4
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 4
+        }
+      }
+    },
+    {
+      "id": "V6C_xs_foo+ice_l4_1.05-1.2_p4",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 0,
+          "n_total": 4,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "roi": -80.0,
+          "wr_p": 33.3,
+          "pnl": -40
+        },
+        "Apr": {
+          "n_complete": 0,
+          "n_total": 1,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "roi": -50.0,
+          "wr_p": 50.0,
+          "pnl": -10
+        }
+      },
+      "strat": {
+        "id": "V6C_xs_foo+ice_l4_1.05-1.2_p4",
+        "label": "Multi-sport mini-cote",
+        "components": [
+          {
+            "sports": [
+              "football",
+              "ice-hockey"
+            ],
+            "market": "1x2",
+            "cote_min": 1.05,
+            "cote_max": 1.2,
+            "sort_by": "wr",
+            "max_legs": 4,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 4
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 4
+        }
+      }
+    },
+    {
+      "id": "V6C_xs_foo+ice+bas_l4_1.05-1.2_p4",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 1,
+          "n_total": 34,
+          "compl": 2.9,
+          "avg_cap": 66.3,
+          "roi": -78.2,
+          "wr_p": 50.0,
+          "pnl": -273.7
+        },
+        "Apr": {
+          "n_complete": 0,
+          "n_total": 8,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "roi": -88.9,
+          "wr_p": 42.9,
+          "pnl": -80
+        }
+      },
+      "strat": {
+        "id": "V6C_xs_foo+ice+bas_l4_1.05-1.2_p4",
+        "label": "Multi-sport mini-cote",
+        "components": [
+          {
+            "sports": [
+              "football",
+              "ice-hockey",
+              "basketball"
+            ],
+            "market": "1x2",
+            "cote_min": 1.05,
+            "cote_max": 1.2,
+            "sort_by": "wr",
+            "max_legs": 4,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 4
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 4
+        }
+      }
+    },
+    {
+      "id": "V6C_xs_foo+ice_l4_1.05-1.2_p5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 0,
+          "n_total": 4,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "roi": -80.0,
+          "wr_p": 33.3,
+          "pnl": -40
+        },
+        "Apr": {
+          "n_complete": 0,
+          "n_total": 1,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "roi": -50.0,
+          "wr_p": 50.0,
+          "pnl": -10
+        }
+      },
+      "strat": {
+        "id": "V6C_xs_foo+ice_l4_1.05-1.2_p5",
+        "label": "Multi-sport mini-cote",
+        "components": [
+          {
+            "sports": [
+              "football",
+              "ice-hockey"
+            ],
+            "market": "1x2",
+            "cote_min": 1.05,
+            "cote_max": 1.2,
+            "sort_by": "wr",
+            "max_legs": 4,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 4
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 4
+        }
+      }
+    },
+    {
+      "id": "V6C_xs_foo+ice+bas_l4_1.05-1.2_p5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 1,
+          "n_total": 34,
+          "compl": 2.9,
+          "avg_cap": 115.3,
+          "roi": -64.2,
+          "wr_p": 50.0,
+          "pnl": -224.7
+        },
+        "Apr": {
+          "n_complete": 0,
+          "n_total": 8,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "roi": -88.9,
+          "wr_p": 42.9,
+          "pnl": -80
+        }
+      },
+      "strat": {
+        "id": "V6C_xs_foo+ice+bas_l4_1.05-1.2_p5",
+        "label": "Multi-sport mini-cote",
+        "components": [
+          {
+            "sports": [
+              "football",
+              "ice-hockey",
+              "basketball"
+            ],
+            "market": "1x2",
+            "cote_min": 1.05,
+            "cote_max": 1.2,
+            "sort_by": "wr",
+            "max_legs": 4,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 4
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 4
+        }
+      }
+    },
+    {
+      "id": "V6C_xs_foo+ice_l3_1.1-1.25_p3",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 6,
+          "n_total": 18,
+          "compl": 33.3,
+          "avg_cap": 45.5,
+          "roi": 49.0,
+          "wr_p": 68.4,
+          "pnl": 93.1
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 3,
+          "compl": 33.3,
+          "avg_cap": 44.4,
+          "roi": 36.0,
+          "wr_p": 66.7,
+          "pnl": 14.4
+        }
+      },
+      "strat": {
+        "id": "V6C_xs_foo+ice_l3_1.1-1.25_p3",
+        "label": "Multi-sport mini-cote",
+        "components": [
+          {
+            "sports": [
+              "football",
+              "ice-hockey"
+            ],
+            "market": "1x2",
+            "cote_min": 1.1,
+            "cote_max": 1.25,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "V6C_xs_foo+ice+bas_l3_1.1-1.25_p3",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 14,
+          "n_total": 60,
+          "compl": 23.3,
+          "avg_cap": 40.5,
+          "roi": -5.5,
+          "wr_p": 60.3,
+          "pnl": -33.2
+        },
+        "Apr": {
+          "n_complete": 2,
+          "n_total": 10,
+          "compl": 20.0,
+          "avg_cap": 43.7,
+          "roi": -11.4,
+          "wr_p": 60.0,
+          "pnl": -12.6
+        }
+      },
+      "strat": {
+        "id": "V6C_xs_foo+ice+bas_l3_1.1-1.25_p3",
+        "label": "Multi-sport mini-cote",
+        "components": [
+          {
+            "sports": [
+              "football",
+              "ice-hockey",
+              "basketball"
+            ],
+            "market": "1x2",
+            "cote_min": 1.1,
+            "cote_max": 1.25,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "V6C_xs_foo+ice_l3_1.1-1.25_p4",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 4,
+          "n_total": 16,
+          "compl": 25.0,
+          "avg_cap": 77.3,
+          "roi": 87.8,
+          "wr_p": 69.2,
+          "pnl": 149.3
+        },
+        "Apr": {
+          "n_complete": 0,
+          "n_total": 2,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "roi": -66.7,
+          "wr_p": 66.7,
+          "pnl": -20
+        }
+      },
+      "strat": {
+        "id": "V6C_xs_foo+ice_l3_1.1-1.25_p4",
+        "label": "Multi-sport mini-cote",
+        "components": [
+          {
+            "sports": [
+              "football",
+              "ice-hockey"
+            ],
+            "market": "1x2",
+            "cote_min": 1.1,
+            "cote_max": 1.25,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "V6C_xs_foo+ice+bas_l3_1.1-1.25_p4",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 7,
+          "n_total": 56,
+          "compl": 12.5,
+          "avg_cap": 67.3,
+          "roi": -15.6,
+          "wr_p": 58.8,
+          "pnl": -89.0
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 10,
+          "compl": 10.0,
+          "avg_cap": 68.6,
+          "roi": -28.5,
+          "wr_p": 55.0,
+          "pnl": -31.4
+        }
+      },
+      "strat": {
+        "id": "V6C_xs_foo+ice+bas_l3_1.1-1.25_p4",
+        "label": "Multi-sport mini-cote",
+        "components": [
+          {
+            "sports": [
+              "football",
+              "ice-hockey",
+              "basketball"
+            ],
+            "market": "1x2",
+            "cote_min": 1.1,
+            "cote_max": 1.25,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "V6C_xs_foo+ice_l3_1.1-1.25_p5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 3,
+          "n_total": 15,
+          "compl": 20.0,
+          "avg_cap": 127.5,
+          "roi": 145.3,
+          "wr_p": 68.4,
+          "pnl": 232.5
+        },
+        "Apr": {
+          "n_complete": 0,
+          "n_total": 2,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "roi": -66.7,
+          "wr_p": 66.7,
+          "pnl": -20
+        }
+      },
+      "strat": {
+        "id": "V6C_xs_foo+ice_l3_1.1-1.25_p5",
+        "label": "Multi-sport mini-cote",
+        "components": [
+          {
+            "sports": [
+              "football",
+              "ice-hockey"
+            ],
+            "market": "1x2",
+            "cote_min": 1.1,
+            "cote_max": 1.25,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "V6C_xs_foo+ice+bas_l3_1.1-1.25_p5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 4,
+          "n_total": 52,
+          "compl": 7.7,
+          "avg_cap": 104.2,
+          "roi": -19.5,
+          "wr_p": 60.3,
+          "pnl": -103.4
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 10,
+          "compl": 10.0,
+          "avg_cap": 121.3,
+          "roi": 19.4,
+          "wr_p": 57.1,
+          "pnl": 21.3
+        }
+      },
+      "strat": {
+        "id": "V6C_xs_foo+ice+bas_l3_1.1-1.25_p5",
+        "label": "Multi-sport mini-cote",
+        "components": [
+          {
+            "sports": [
+              "football",
+              "ice-hockey",
+              "basketball"
+            ],
+            "market": "1x2",
+            "cote_min": 1.1,
+            "cote_max": 1.25,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "V6C_xs_foo+ice_l4_1.1-1.25_p3",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 4,
+          "n_total": 15,
+          "compl": 26.7,
+          "avg_cap": 86.7,
+          "roi": 123.1,
+          "wr_p": 52.2,
+          "pnl": 196.9
+        },
+        "Apr": {
+          "n_complete": 0,
+          "n_total": 1,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "roi": -50.0,
+          "wr_p": 50.0,
+          "pnl": -10
+        }
+      },
+      "strat": {
+        "id": "V6C_xs_foo+ice_l4_1.1-1.25_p3",
+        "label": "Multi-sport mini-cote",
+        "components": [
+          {
+            "sports": [
+              "football",
+              "ice-hockey"
+            ],
+            "market": "1x2",
+            "cote_min": 1.1,
+            "cote_max": 1.25,
+            "sort_by": "wr",
+            "max_legs": 4,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 4
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 4
+        }
+      }
+    },
+    {
+      "id": "V6C_xs_foo+ice+bas_l4_1.1-1.25_p3",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 6,
+          "n_total": 49,
+          "compl": 12.2,
+          "avg_cap": 63.5,
+          "roi": -21.8,
+          "wr_p": 47.6,
+          "pnl": -108.8
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 10,
+          "compl": 10.0,
+          "avg_cap": 77.8,
+          "roi": -20.2,
+          "wr_p": 40.0,
+          "pnl": -22.2
+        }
+      },
+      "strat": {
+        "id": "V6C_xs_foo+ice+bas_l4_1.1-1.25_p3",
+        "label": "Multi-sport mini-cote",
+        "components": [
+          {
+            "sports": [
+              "football",
+              "ice-hockey",
+              "basketball"
+            ],
+            "market": "1x2",
+            "cote_min": 1.1,
+            "cote_max": 1.25,
+            "sort_by": "wr",
+            "max_legs": 4,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 4
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 4
+        }
+      }
+    },
+    {
+      "id": "V6C_xs_foo+ice_l4_1.1-1.25_p4",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 2,
+          "n_total": 13,
+          "compl": 15.4,
+          "avg_cap": 182.8,
+          "roi": 168.3,
+          "wr_p": 52.2,
+          "pnl": 235.7
+        },
+        "Apr": {
+          "n_complete": 0,
+          "n_total": 1,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "roi": -50.0,
+          "wr_p": 50.0,
+          "pnl": -10
+        }
+      },
+      "strat": {
+        "id": "V6C_xs_foo+ice_l4_1.1-1.25_p4",
+        "label": "Multi-sport mini-cote",
+        "components": [
+          {
+            "sports": [
+              "football",
+              "ice-hockey"
+            ],
+            "market": "1x2",
+            "cote_min": 1.1,
+            "cote_max": 1.25,
+            "sort_by": "wr",
+            "max_legs": 4,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 4
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 4
+        }
+      }
+    },
+    {
+      "id": "V6C_xs_foo+ice+bas_l4_1.1-1.25_p4",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 4,
+          "n_total": 47,
+          "compl": 8.5,
+          "avg_cap": 107.6,
+          "roi": -8.3,
+          "wr_p": 48.2,
+          "pnl": -39.7
+        },
+        "Apr": {
+          "n_complete": 0,
+          "n_total": 9,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "roi": -90.0,
+          "wr_p": 40.0,
+          "pnl": -90
+        }
+      },
+      "strat": {
+        "id": "V6C_xs_foo+ice+bas_l4_1.1-1.25_p4",
+        "label": "Multi-sport mini-cote",
+        "components": [
+          {
+            "sports": [
+              "football",
+              "ice-hockey",
+              "basketball"
+            ],
+            "market": "1x2",
+            "cote_min": 1.1,
+            "cote_max": 1.25,
+            "sort_by": "wr",
+            "max_legs": 4,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 4
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 4
+        }
+      }
+    },
+    {
+      "id": "V6C_xs_foo+ice_l4_1.1-1.25_p5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 2,
+          "n_total": 13,
+          "compl": 15.4,
+          "avg_cap": 398.9,
+          "roi": 477.1,
+          "wr_p": 52.2,
+          "pnl": 667.9
+        },
+        "Apr": {
+          "n_complete": 0,
+          "n_total": 1,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "roi": -50.0,
+          "wr_p": 50.0,
+          "pnl": -10
+        }
+      },
+      "strat": {
+        "id": "V6C_xs_foo+ice_l4_1.1-1.25_p5",
+        "label": "Multi-sport mini-cote",
+        "components": [
+          {
+            "sports": [
+              "football",
+              "ice-hockey"
+            ],
+            "market": "1x2",
+            "cote_min": 1.1,
+            "cote_max": 1.25,
+            "sort_by": "wr",
+            "max_legs": 4,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 4
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 4
+        }
+      }
+    },
+    {
+      "id": "V6C_xs_foo+ice+bas_l4_1.1-1.25_p5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 2,
+          "n_total": 46,
+          "compl": 4.3,
+          "avg_cap": 214.5,
+          "roi": -6.6,
+          "wr_p": 47.6,
+          "pnl": -31.1
+        },
+        "Apr": {
+          "n_complete": 0,
+          "n_total": 9,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "roi": -90.0,
+          "wr_p": 40.0,
+          "pnl": -90
+        }
+      },
+      "strat": {
+        "id": "V6C_xs_foo+ice+bas_l4_1.1-1.25_p5",
+        "label": "Multi-sport mini-cote",
+        "components": [
+          {
+            "sports": [
+              "football",
+              "ice-hockey",
+              "basketball"
+            ],
+            "market": "1x2",
+            "cote_min": 1.1,
+            "cote_max": 1.25,
+            "sort_by": "wr",
+            "max_legs": 4,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 4
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 4
+        }
+      }
+    },
+    {
+      "id": "V6D_foo_xmkt_l2_1.05-1.2_p3",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 33,
+          "n_total": 67,
+          "compl": 49.3,
+          "avg_cap": 22.2,
+          "roi": 9.4,
+          "wr_p": 78.9,
+          "pnl": 63.8
+        },
+        "Apr": {
+          "n_complete": 6,
+          "n_total": 16,
+          "compl": 37.5,
+          "avg_cap": 22.0,
+          "roi": -16.5,
+          "wr_p": 72.2,
+          "pnl": -28.1
+        }
+      },
+      "strat": {
+        "id": "V6D_foo_xmkt_l2_1.05-1.2_p3",
+        "label": "Foot xmkt mini-cote",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "1x2,over_1_5,btts",
+            "cote_min": 1.05,
+            "cote_max": 1.2,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V6D_foo_xmkt_l2_1.05-1.2_p4",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 23,
+          "n_total": 60,
+          "compl": 38.3,
+          "avg_cap": 29.4,
+          "roi": 12.4,
+          "wr_p": 78.6,
+          "pnl": 75.7
+        },
+        "Apr": {
+          "n_complete": 5,
+          "n_total": 16,
+          "compl": 31.2,
+          "avg_cap": 29.1,
+          "roi": -8.4,
+          "wr_p": 73.2,
+          "pnl": -14.2
+        }
+      },
+      "strat": {
+        "id": "V6D_foo_xmkt_l2_1.05-1.2_p4",
+        "label": "Foot xmkt mini-cote",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "1x2,over_1_5,btts",
+            "cote_min": 1.05,
+            "cote_max": 1.2,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V6D_foo_xmkt_l2_1.05-1.2_p5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 19,
+          "n_total": 57,
+          "compl": 33.3,
+          "avg_cap": 38.5,
+          "roi": 28.0,
+          "wr_p": 78.3,
+          "pnl": 162.3
+        },
+        "Apr": {
+          "n_complete": 5,
+          "n_total": 15,
+          "compl": 33.3,
+          "avg_cap": 39.5,
+          "roi": 29.7,
+          "wr_p": 75.0,
+          "pnl": 47.5
+        }
+      },
+      "strat": {
+        "id": "V6D_foo_xmkt_l2_1.05-1.2_p5",
+        "label": "Foot xmkt mini-cote",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "1x2,over_1_5,btts",
+            "cote_min": 1.05,
+            "cote_max": 1.2,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V6D_foo_xmkt_l2_1.05-1.2_p7",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 11,
+          "n_total": 53,
+          "compl": 20.8,
+          "avg_cap": 67.6,
+          "roi": 39.5,
+          "wr_p": 78.6,
+          "pnl": 213.6
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 12,
+          "compl": 8.3,
+          "avg_cap": 65.5,
+          "roi": -41.9,
+          "wr_p": 75.0,
+          "pnl": -54.5
+        }
+      },
+      "strat": {
+        "id": "V6D_foo_xmkt_l2_1.05-1.2_p7",
+        "label": "Foot xmkt mini-cote",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "1x2,over_1_5,btts",
+            "cote_min": 1.05,
+            "cote_max": 1.2,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 7,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V6D_foo_xmkt_l2_1.1-1.25_p3",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 33,
+          "n_total": 86,
+          "compl": 38.4,
+          "avg_cap": 26.7,
+          "roi": 2.3,
+          "wr_p": 73.5,
+          "pnl": 19.9
+        },
+        "Apr": {
+          "n_complete": 5,
+          "n_total": 19,
+          "compl": 26.3,
+          "avg_cap": 27.4,
+          "roi": -26.5,
+          "wr_p": 63.2,
+          "pnl": -53.0
+        }
+      },
+      "strat": {
+        "id": "V6D_foo_xmkt_l2_1.1-1.25_p3",
+        "label": "Foot xmkt mini-cote",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "1x2,over_1_5,btts",
+            "cote_min": 1.1,
+            "cote_max": 1.25,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V6D_foo_xmkt_l2_1.1-1.25_p4",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 23,
+          "n_total": 78,
+          "compl": 29.5,
+          "avg_cap": 37.9,
+          "roi": 11.6,
+          "wr_p": 74.2,
+          "pnl": 91.9
+        },
+        "Apr": {
+          "n_complete": 3,
+          "n_total": 18,
+          "compl": 16.7,
+          "avg_cap": 37.9,
+          "roi": -34.9,
+          "wr_p": 63.4,
+          "pnl": -66.4
+        }
+      },
+      "strat": {
+        "id": "V6D_foo_xmkt_l2_1.1-1.25_p4",
+        "label": "Foot xmkt mini-cote",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "1x2,over_1_5,btts",
+            "cote_min": 1.1,
+            "cote_max": 1.25,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V6D_foo_xmkt_l2_1.1-1.25_p5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 14,
+          "n_total": 76,
+          "compl": 18.4,
+          "avg_cap": 54.8,
+          "roi": 0.9,
+          "wr_p": 72.8,
+          "pnl": 7.1
+        },
+        "Apr": {
+          "n_complete": 2,
+          "n_total": 17,
+          "compl": 11.8,
+          "avg_cap": 62.7,
+          "roi": -24.8,
+          "wr_p": 65.1,
+          "pnl": -44.6
+        }
+      },
+      "strat": {
+        "id": "V6D_foo_xmkt_l2_1.1-1.25_p5",
+        "label": "Foot xmkt mini-cote",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "1x2,over_1_5,btts",
+            "cote_min": 1.1,
+            "cote_max": 1.25,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V6D_foo_xmkt_l2_1.1-1.25_p7",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 8,
+          "n_total": 74,
+          "compl": 10.8,
+          "avg_cap": 111.6,
+          "roi": 20.4,
+          "wr_p": 72.8,
+          "pnl": 152.7
+        },
+        "Apr": {
+          "n_complete": 2,
+          "n_total": 16,
+          "compl": 12.5,
+          "avg_cap": 127.2,
+          "roi": 55.6,
+          "wr_p": 68.2,
+          "pnl": 94.5
+        }
+      },
+      "strat": {
+        "id": "V6D_foo_xmkt_l2_1.1-1.25_p7",
+        "label": "Foot xmkt mini-cote",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "1x2,over_1_5,btts",
+            "cote_min": 1.1,
+            "cote_max": 1.25,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 7,
+          "combo_legs_per_palier": 2
+        }
+      }
+    }
+  ],
+  "viable": [
+    {
+      "id": "V6A_o15_l4_1.1-1.25_p7",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 1,
+          "n_total": 69,
+          "compl": 1.4,
+          "avg_cap": 1005.7,
+          "roi": 45.1,
+          "wr_p": 58.8,
+          "pnl": 315.7
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 16,
+          "compl": 6.2,
+          "avg_cap": 1005.7,
+          "roi": 497.4,
+          "wr_p": 70.6,
+          "pnl": 845.7
+        }
+      },
+      "strat": {
+        "id": "V6A_o15_l4_1.1-1.25_p7",
+        "label": "Foot O 1.5 ultra mini-cote combo",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.1,
+            "cote_max": 1.25,
+            "sort_by": "wr",
+            "max_legs": 4,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 4
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 7,
+          "combo_legs_per_palier": 4
+        }
+      }
+    },
+    {
+      "id": "V6A_o15_l4_1.1-1.25_p5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 6,
+          "n_total": 71,
+          "compl": 8.5,
+          "avg_cap": 253.9,
+          "roi": 113.0,
+          "wr_p": 60.1,
+          "pnl": 813.4
+        },
+        "Apr": {
+          "n_complete": 4,
+          "n_total": 17,
+          "compl": 23.5,
+          "avg_cap": 226.3,
+          "roi": 408.4,
+          "wr_p": 74.5,
+          "pnl": 735.1
+        }
+      },
+      "strat": {
+        "id": "V6A_o15_l4_1.1-1.25_p5",
+        "label": "Foot O 1.5 ultra mini-cote combo",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.1,
+            "cote_max": 1.25,
+            "sort_by": "wr",
+            "max_legs": 4,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 4
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 4
+        }
+      }
+    },
+    {
+      "id": "V6A_o15_l3_1.1-1.25_p7",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 5,
+          "n_total": 75,
+          "compl": 6.7,
+          "avg_cap": 321.2,
+          "roi": 112.6,
+          "wr_p": 68.0,
+          "pnl": 856.0
+        },
+        "Apr": {
+          "n_complete": 3,
+          "n_total": 17,
+          "compl": 17.6,
+          "avg_cap": 287.1,
+          "roi": 384.1,
+          "wr_p": 79.4,
+          "pnl": 691.4
+        }
+      },
+      "strat": {
+        "id": "V6A_o15_l3_1.1-1.25_p7",
+        "label": "Foot O 1.5 ultra mini-cote combo",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.1,
+            "cote_max": 1.25,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 7,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "V6A_o15_l4_1.1-1.25_p4",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 11,
+          "n_total": 71,
+          "compl": 15.5,
+          "avg_cap": 125.0,
+          "roi": 92.4,
+          "wr_p": 60.5,
+          "pnl": 665.0
+        },
+        "Apr": {
+          "n_complete": 6,
+          "n_total": 17,
+          "compl": 35.3,
+          "avg_cap": 116.3,
+          "roi": 293.4,
+          "wr_p": 75.6,
+          "pnl": 528.1
+        }
+      },
+      "strat": {
+        "id": "V6A_o15_l4_1.1-1.25_p4",
+        "label": "Foot O 1.5 ultra mini-cote combo",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.1,
+            "cote_max": 1.25,
+            "sort_by": "wr",
+            "max_legs": 4,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 4
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 4
+        }
+      }
+    },
+    {
+      "id": "V6A_o15_l4_1.08-1.2_p7",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 3,
+          "n_total": 49,
+          "compl": 6.1,
+          "avg_cap": 580.4,
+          "roi": 250.2,
+          "wr_p": 62.0,
+          "pnl": 1251.2
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 12,
+          "compl": 8.3,
+          "avg_cap": 553.4,
+          "roi": 333.4,
+          "wr_p": 73.8,
+          "pnl": 433.4
+        }
+      },
+      "strat": {
+        "id": "V6A_o15_l4_1.08-1.2_p7",
+        "label": "Foot O 1.5 ultra mini-cote combo",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.08,
+            "cote_max": 1.2,
+            "sort_by": "wr",
+            "max_legs": 4,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 4
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 7,
+          "combo_legs_per_palier": 4
+        }
+      }
+    },
+    {
+      "id": "V6A_o15_l3_1.1-1.25_p5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 11,
+          "n_total": 75,
+          "compl": 14.7,
+          "avg_cap": 104.7,
+          "roi": 52.9,
+          "wr_p": 68.2,
+          "pnl": 401.9
+        },
+        "Apr": {
+          "n_complete": 6,
+          "n_total": 17,
+          "compl": 35.3,
+          "avg_cap": 94.9,
+          "roi": 221.8,
+          "wr_p": 80.7,
+          "pnl": 399.3
+        }
+      },
+      "strat": {
+        "id": "V6A_o15_l3_1.1-1.25_p5",
+        "label": "Foot O 1.5 ultra mini-cote combo",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.1,
+            "cote_max": 1.25,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "V6A_o15_l3_1.08-1.2_p7",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 5,
+          "n_total": 56,
+          "compl": 8.9,
+          "avg_cap": 180.9,
+          "roi": 60.4,
+          "wr_p": 68.5,
+          "pnl": 344.5
+        },
+        "Apr": {
+          "n_complete": 3,
+          "n_total": 13,
+          "compl": 23.1,
+          "avg_cap": 171.8,
+          "roi": 275.2,
+          "wr_p": 80.4,
+          "pnl": 385.3
+        }
+      },
+      "strat": {
+        "id": "V6A_o15_l3_1.08-1.2_p7",
+        "label": "Foot O 1.5 ultra mini-cote combo",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.08,
+            "cote_max": 1.2,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 7,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "V6A_o15_l4_1.05-1.18_p7",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 1,
+          "n_total": 42,
+          "compl": 2.4,
+          "avg_cap": 456.6,
+          "roi": 8.5,
+          "wr_p": 63.1,
+          "pnl": 36.6
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 11,
+          "compl": 9.1,
+          "avg_cap": 456.6,
+          "roi": 288.8,
+          "wr_p": 73.0,
+          "pnl": 346.6
+        }
+      },
+      "strat": {
+        "id": "V6A_o15_l4_1.05-1.18_p7",
+        "label": "Foot O 1.5 ultra mini-cote combo",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.05,
+            "cote_max": 1.18,
+            "sort_by": "wr",
+            "max_legs": 4,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 4
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 7,
+          "combo_legs_per_palier": 4
+        }
+      }
+    },
+    {
+      "id": "V6A_o15_l4_1.08-1.2_p4",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 8,
+          "n_total": 52,
+          "compl": 15.4,
+          "avg_cap": 90.2,
+          "roi": 38.0,
+          "wr_p": 59.3,
+          "pnl": 201.2
+        },
+        "Apr": {
+          "n_complete": 5,
+          "n_total": 13,
+          "compl": 38.5,
+          "avg_cap": 90.1,
+          "roi": 228.8,
+          "wr_p": 75.8,
+          "pnl": 320.3
+        }
+      },
+      "strat": {
+        "id": "V6A_o15_l4_1.08-1.2_p4",
+        "label": "Foot O 1.5 ultra mini-cote combo",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.08,
+            "cote_max": 1.2,
+            "sort_by": "wr",
+            "max_legs": 4,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 4
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 4
+        }
+      }
+    },
+    {
+      "id": "V6A_o15_l2_1.1-1.25_p7",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 15,
+          "n_total": 78,
+          "compl": 19.2,
+          "avg_cap": 92.2,
+          "roi": 76.4,
+          "wr_p": 78.2,
+          "pnl": 603.7
+        },
+        "Apr": {
+          "n_complete": 6,
+          "n_total": 17,
+          "compl": 35.3,
+          "avg_cap": 81.5,
+          "roi": 177.3,
+          "wr_p": 86.6,
+          "pnl": 319.2
+        }
+      },
+      "strat": {
+        "id": "V6A_o15_l2_1.1-1.25_p7",
+        "label": "Foot O 1.5 ultra mini-cote combo",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.1,
+            "cote_max": 1.25,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 7,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V6A_o15_l3_1.08-1.2_p5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 11,
+          "n_total": 58,
+          "compl": 19.0,
+          "avg_cap": 78.4,
+          "roi": 47.8,
+          "wr_p": 69.3,
+          "pnl": 282.2
+        },
+        "Apr": {
+          "n_complete": 6,
+          "n_total": 15,
+          "compl": 40.0,
+          "avg_cap": 75.9,
+          "roi": 190.8,
+          "wr_p": 80.9,
+          "pnl": 305.3
+        }
+      },
+      "strat": {
+        "id": "V6A_o15_l3_1.08-1.2_p5",
+        "label": "Foot O 1.5 ultra mini-cote combo",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.08,
+            "cote_max": 1.2,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "V6A_o15_l2_1.1-1.25_p5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 25,
+          "n_total": 84,
+          "compl": 29.8,
+          "avg_cap": 49.8,
+          "roi": 47.6,
+          "wr_p": 77.3,
+          "pnl": 404.2
+        },
+        "Apr": {
+          "n_complete": 10,
+          "n_total": 20,
+          "compl": 50.0,
+          "avg_cap": 49.4,
+          "roi": 140.1,
+          "wr_p": 86.1,
+          "pnl": 294.3
+        }
+      },
+      "strat": {
+        "id": "V6A_o15_l2_1.1-1.25_p5",
+        "label": "Foot O 1.5 ultra mini-cote combo",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.1,
+            "cote_max": 1.25,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V6A_o15_l4_1.08-1.2_p5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 6,
+          "n_total": 51,
+          "compl": 11.8,
+          "avg_cap": 152.2,
+          "roi": 77.6,
+          "wr_p": 60.9,
+          "pnl": 403.4
+        },
+        "Apr": {
+          "n_complete": 3,
+          "n_total": 12,
+          "compl": 25.0,
+          "avg_cap": 135.7,
+          "roi": 220.8,
+          "wr_p": 75.7,
+          "pnl": 287.1
+        }
+      },
+      "strat": {
+        "id": "V6A_o15_l4_1.08-1.2_p5",
+        "label": "Foot O 1.5 ultra mini-cote combo",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.08,
+            "cote_max": 1.2,
+            "sort_by": "wr",
+            "max_legs": 4,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 4
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 4
+        }
+      }
+    },
+    {
+      "id": "V6A_o15_l4_1.05-1.18_p5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 4,
+          "n_total": 42,
+          "compl": 9.5,
+          "avg_cap": 131.9,
+          "roi": 25.0,
+          "wr_p": 63.5,
+          "pnl": 107.6
+        },
+        "Apr": {
+          "n_complete": 3,
+          "n_total": 11,
+          "compl": 27.3,
+          "avg_cap": 130.6,
+          "roi": 234.8,
+          "wr_p": 75.0,
+          "pnl": 281.8
+        }
+      },
+      "strat": {
+        "id": "V6A_o15_l4_1.05-1.18_p5",
+        "label": "Foot O 1.5 ultra mini-cote combo",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.05,
+            "cote_max": 1.18,
+            "sort_by": "wr",
+            "max_legs": 4,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 4
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 4
+        }
+      }
+    },
+    {
+      "id": "V6A_o15_l4_1.1-1.25_p3",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 15,
+          "n_total": 73,
+          "compl": 20.5,
+          "avg_cap": 66.2,
+          "roi": 35.6,
+          "wr_p": 58.9,
+          "pnl": 263.3
+        },
+        "Apr": {
+          "n_complete": 7,
+          "n_total": 17,
+          "compl": 41.2,
+          "avg_cap": 61.4,
+          "roi": 144.4,
+          "wr_p": 73.7,
+          "pnl": 260.0
+        }
+      },
+      "strat": {
+        "id": "V6A_o15_l4_1.1-1.25_p3",
+        "label": "Foot O 1.5 ultra mini-cote combo",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.1,
+            "cote_max": 1.25,
+            "sort_by": "wr",
+            "max_legs": 4,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 4
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 4
+        }
+      }
+    },
+    {
+      "id": "V6A_o15_l3_1.1-1.25_p4",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 17,
+          "n_total": 76,
+          "compl": 22.4,
+          "avg_cap": 66.3,
+          "roi": 47.7,
+          "wr_p": 68.3,
+          "pnl": 367.5
+        },
+        "Apr": {
+          "n_complete": 7,
+          "n_total": 17,
+          "compl": 41.2,
+          "avg_cap": 61.1,
+          "roi": 143.2,
+          "wr_p": 80.0,
+          "pnl": 257.9
+        }
+      },
+      "strat": {
+        "id": "V6A_o15_l3_1.1-1.25_p4",
+        "label": "Foot O 1.5 ultra mini-cote combo",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.1,
+            "cote_max": 1.25,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "V6A_o15_l2_1.08-1.2_p7",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 11,
+          "n_total": 65,
+          "compl": 16.9,
+          "avg_cap": 66.5,
+          "roi": 12.3,
+          "wr_p": 76.9,
+          "pnl": 81.0
+        },
+        "Apr": {
+          "n_complete": 6,
+          "n_total": 15,
+          "compl": 40.0,
+          "avg_cap": 66.6,
+          "roi": 156.1,
+          "wr_p": 87.3,
+          "pnl": 249.8
+        }
+      },
+      "strat": {
+        "id": "V6A_o15_l2_1.08-1.2_p7",
+        "label": "Foot O 1.5 ultra mini-cote combo",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.08,
+            "cote_max": 1.2,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 7,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V6A_o15_l3_1.05-1.18_p5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 8,
+          "n_total": 46,
+          "compl": 17.4,
+          "avg_cap": 66.1,
+          "roi": 14.6,
+          "wr_p": 72.3,
+          "pnl": 68.6
+        },
+        "Apr": {
+          "n_complete": 5,
+          "n_total": 12,
+          "compl": 41.7,
+          "avg_cap": 67.6,
+          "roi": 167.8,
+          "wr_p": 83.7,
+          "pnl": 218.1
+        }
+      },
+      "strat": {
+        "id": "V6A_o15_l3_1.05-1.18_p5",
+        "label": "Foot O 1.5 ultra mini-cote combo",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.05,
+            "cote_max": 1.18,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "V6A_o15_l4_1.05-1.18_p4",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 6,
+          "n_total": 43,
+          "compl": 14.0,
+          "avg_cap": 77.0,
+          "roi": 7.2,
+          "wr_p": 63.7,
+          "pnl": 31.8
+        },
+        "Apr": {
+          "n_complete": 4,
+          "n_total": 11,
+          "compl": 36.4,
+          "avg_cap": 79.8,
+          "roi": 174.3,
+          "wr_p": 75.9,
+          "pnl": 209.1
+        }
+      },
+      "strat": {
+        "id": "V6A_o15_l4_1.05-1.18_p4",
+        "label": "Foot O 1.5 ultra mini-cote combo",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.05,
+            "cote_max": 1.18,
+            "sort_by": "wr",
+            "max_legs": 4,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 4
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 4
+        }
+      }
+    },
+    {
+      "id": "V6A_o15_l3_1.1-1.25_p3",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 25,
+          "n_total": 81,
+          "compl": 30.9,
+          "avg_cap": 40.8,
+          "roi": 25.6,
+          "wr_p": 67.3,
+          "pnl": 210.3
+        },
+        "Apr": {
+          "n_complete": 10,
+          "n_total": 20,
+          "compl": 50.0,
+          "avg_cap": 40.0,
+          "roi": 95.1,
+          "wr_p": 78.3,
+          "pnl": 199.7
+        }
+      },
+      "strat": {
+        "id": "V6A_o15_l3_1.1-1.25_p3",
+        "label": "Foot O 1.5 ultra mini-cote combo",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.1,
+            "cote_max": 1.25,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "V6A_o15_l3_1.05-1.18_p7",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 4,
+          "n_total": 44,
+          "compl": 9.1,
+          "avg_cap": 143.9,
+          "roi": 30.2,
+          "wr_p": 71.8,
+          "pnl": 135.7
+        },
+        "Apr": {
+          "n_complete": 2,
+          "n_total": 11,
+          "compl": 18.2,
+          "avg_cap": 150.0,
+          "roi": 158.3,
+          "wr_p": 80.0,
+          "pnl": 190.0
+        }
+      },
+      "strat": {
+        "id": "V6A_o15_l3_1.05-1.18_p7",
+        "label": "Foot O 1.5 ultra mini-cote combo",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.05,
+            "cote_max": 1.18,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 7,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "V6A_o15_l4_1.08-1.2_p3",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 11,
+          "n_total": 54,
+          "compl": 20.4,
+          "avg_cap": 52.2,
+          "roi": 6.2,
+          "wr_p": 60.2,
+          "pnl": 34.0
+        },
+        "Apr": {
+          "n_complete": 6,
+          "n_total": 14,
+          "compl": 42.9,
+          "avg_cap": 50.7,
+          "roi": 109.4,
+          "wr_p": 75.0,
+          "pnl": 164.1
+        }
+      },
+      "strat": {
+        "id": "V6A_o15_l4_1.08-1.2_p3",
+        "label": "Foot O 1.5 ultra mini-cote combo",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.08,
+            "cote_max": 1.2,
+            "sort_by": "wr",
+            "max_legs": 4,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 4
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 4
+        }
+      }
+    },
+    {
+      "id": "V6A_o15_l2_1.05-1.18_p7",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 10,
+          "n_total": 52,
+          "compl": 19.2,
+          "avg_cap": 57.3,
+          "roi": 10.1,
+          "wr_p": 79.9,
+          "pnl": 53.3
+        },
+        "Apr": {
+          "n_complete": 5,
+          "n_total": 14,
+          "compl": 35.7,
+          "avg_cap": 60.6,
+          "roi": 108.7,
+          "wr_p": 84.7,
+          "pnl": 163.1
+        }
+      },
+      "strat": {
+        "id": "V6A_o15_l2_1.05-1.18_p7",
+        "label": "Foot O 1.5 ultra mini-cote combo",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.05,
+            "cote_max": 1.18,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 7,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V6A_o15_l2_1.1-1.25_p4",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 30,
+          "n_total": 87,
+          "compl": 34.5,
+          "avg_cap": 34.6,
+          "roi": 19.1,
+          "wr_p": 76.9,
+          "pnl": 168.4
+        },
+        "Apr": {
+          "n_complete": 11,
+          "n_total": 21,
+          "compl": 52.4,
+          "avg_cap": 33.9,
+          "roi": 74.0,
+          "wr_p": 84.4,
+          "pnl": 162.9
+        }
+      },
+      "strat": {
+        "id": "V6A_o15_l2_1.1-1.25_p4",
+        "label": "Foot O 1.5 ultra mini-cote combo",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.1,
+            "cote_max": 1.25,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V6A_o15_l4_1.05-1.18_p3",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 14,
+          "n_total": 47,
+          "compl": 29.8,
+          "avg_cap": 44.8,
+          "roi": 32.7,
+          "wr_p": 65.6,
+          "pnl": 157.0
+        },
+        "Apr": {
+          "n_complete": 6,
+          "n_total": 13,
+          "compl": 46.2,
+          "avg_cap": 45.8,
+          "roi": 103.2,
+          "wr_p": 75.0,
+          "pnl": 144.5
+        }
+      },
+      "strat": {
+        "id": "V6A_o15_l4_1.05-1.18_p3",
+        "label": "Foot O 1.5 ultra mini-cote combo",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.05,
+            "cote_max": 1.18,
+            "sort_by": "wr",
+            "max_legs": 4,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 4
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 4
+        }
+      }
+    },
+    {
+      "id": "V6A_o15_l3_1.08-1.2_p4",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 12,
+          "n_total": 59,
+          "compl": 20.3,
+          "avg_cap": 50.8,
+          "roi": 3.2,
+          "wr_p": 67.6,
+          "pnl": 19.2
+        },
+        "Apr": {
+          "n_complete": 6,
+          "n_total": 15,
+          "compl": 40.0,
+          "avg_cap": 48.7,
+          "roi": 88.8,
+          "wr_p": 79.1,
+          "pnl": 142.0
+        }
+      },
+      "strat": {
+        "id": "V6A_o15_l3_1.08-1.2_p4",
+        "label": "Foot O 1.5 ultra mini-cote combo",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.08,
+            "cote_max": 1.2,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "V6A_o15_l3_1.05-1.18_p4",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 14,
+          "n_total": 48,
+          "compl": 29.2,
+          "avg_cap": 44.5,
+          "roi": 29.1,
+          "wr_p": 73.4,
+          "pnl": 142.5
+        },
+        "Apr": {
+          "n_complete": 6,
+          "n_total": 13,
+          "compl": 46.2,
+          "avg_cap": 44.4,
+          "roi": 97.3,
+          "wr_p": 81.6,
+          "pnl": 136.2
+        }
+      },
+      "strat": {
+        "id": "V6A_o15_l3_1.05-1.18_p4",
+        "label": "Foot O 1.5 ultra mini-cote combo",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.05,
+            "cote_max": 1.18,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "V6A_o15_l3_1.08-1.2_p3",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 19,
+          "n_total": 64,
+          "compl": 29.7,
+          "avg_cap": 33.7,
+          "roi": 0.1,
+          "wr_p": 67.2,
+          "pnl": 0.6
+        },
+        "Apr": {
+          "n_complete": 8,
+          "n_total": 16,
+          "compl": 50.0,
+          "avg_cap": 32.4,
+          "roi": 58.3,
+          "wr_p": 77.8,
+          "pnl": 99.0
+        }
+      },
+      "strat": {
+        "id": "V6A_o15_l3_1.08-1.2_p3",
+        "label": "Foot O 1.5 ultra mini-cote combo",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.08,
+            "cote_max": 1.2,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "V6D_foo_xmkt_l2_1.1-1.25_p7",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 8,
+          "n_total": 74,
+          "compl": 10.8,
+          "avg_cap": 111.6,
+          "roi": 20.4,
+          "wr_p": 72.8,
+          "pnl": 152.7
+        },
+        "Apr": {
+          "n_complete": 2,
+          "n_total": 16,
+          "compl": 12.5,
+          "avg_cap": 127.2,
+          "roi": 55.6,
+          "wr_p": 68.2,
+          "pnl": 94.5
+        }
+      },
+      "strat": {
+        "id": "V6D_foo_xmkt_l2_1.1-1.25_p7",
+        "label": "Foot xmkt mini-cote",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "1x2,over_1_5,btts",
+            "cote_min": 1.1,
+            "cote_max": 1.25,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 7,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V6B_ice+bas_l2_1.15-1.3_p5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 9,
+          "n_total": 51,
+          "compl": 17.6,
+          "avg_cap": 72.1,
+          "roi": 26.8,
+          "wr_p": 70.2,
+          "pnl": 139.2
+        },
+        "Apr": {
+          "n_complete": 3,
+          "n_total": 10,
+          "compl": 30.0,
+          "avg_cap": 64.8,
+          "roi": 85.9,
+          "wr_p": 75.0,
+          "pnl": 94.5
+        }
+      },
+      "strat": {
+        "id": "V6B_ice+bas_l2_1.15-1.3_p5",
+        "label": "Hockey/Basket ultra-safe combo",
+        "components": [
+          {
+            "sports": [
+              "ice-hockey",
+              "basketball"
+            ],
+            "market": "1x2",
+            "cote_min": 1.15,
+            "cote_max": 1.3,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V6B_bas_l2_1.15-1.3_p5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 7,
+          "n_total": 47,
+          "compl": 14.9,
+          "avg_cap": 69.8,
+          "roi": 3.9,
+          "wr_p": 66.4,
+          "pnl": 18.5
+        },
+        "Apr": {
+          "n_complete": 3,
+          "n_total": 10,
+          "compl": 30.0,
+          "avg_cap": 64.8,
+          "roi": 85.9,
+          "wr_p": 72.0,
+          "pnl": 94.5
+        }
+      },
+      "strat": {
+        "id": "V6B_bas_l2_1.15-1.3_p5",
+        "label": "Hockey/Basket ultra-safe combo",
+        "components": [
+          {
+            "sports": [
+              "basketball"
+            ],
+            "market": "1x2",
+            "cote_min": 1.15,
+            "cote_max": 1.3,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V6A_o15_l2_1.1-1.25_p3",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 40,
+          "n_total": 91,
+          "compl": 44.0,
+          "avg_cap": 25.0,
+          "roi": 10.0,
+          "wr_p": 76.3,
+          "pnl": 91.8
+        },
+        "Apr": {
+          "n_complete": 12,
+          "n_total": 21,
+          "compl": 57.1,
+          "avg_cap": 25.0,
+          "roi": 41.0,
+          "wr_p": 82.7,
+          "pnl": 90.1
+        }
+      },
+      "strat": {
+        "id": "V6A_o15_l2_1.1-1.25_p3",
+        "label": "Foot O 1.5 ultra mini-cote combo",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.1,
+            "cote_max": 1.25,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V6B_bas_l3_1.15-1.3_p3",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 10,
+          "n_total": 40,
+          "compl": 25.0,
+          "avg_cap": 58.5,
+          "roi": 45.2,
+          "wr_p": 59.5,
+          "pnl": 185.4
+        },
+        "Apr": {
+          "n_complete": 3,
+          "n_total": 7,
+          "compl": 42.9,
+          "avg_cap": 52.8,
+          "roi": 110.6,
+          "wr_p": 71.4,
+          "pnl": 88.5
+        }
+      },
+      "strat": {
+        "id": "V6B_bas_l3_1.15-1.3_p3",
+        "label": "Hockey/Basket ultra-safe combo",
+        "components": [
+          {
+            "sports": [
+              "basketball"
+            ],
+            "market": "1x2",
+            "cote_min": 1.15,
+            "cote_max": 1.3,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "V6B_ice+bas_l3_1.15-1.3_p3",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 11,
+          "n_total": 47,
+          "compl": 23.4,
+          "avg_cap": 58.4,
+          "roi": 35.9,
+          "wr_p": 60.0,
+          "pnl": 172.1
+        },
+        "Apr": {
+          "n_complete": 3,
+          "n_total": 8,
+          "compl": 37.5,
+          "avg_cap": 52.6,
+          "roi": 86.3,
+          "wr_p": 66.7,
+          "pnl": 77.7
+        }
+      },
+      "strat": {
+        "id": "V6B_ice+bas_l3_1.15-1.3_p3",
+        "label": "Hockey/Basket ultra-safe combo",
+        "components": [
+          {
+            "sports": [
+              "ice-hockey",
+              "basketball"
+            ],
+            "market": "1x2",
+            "cote_min": 1.15,
+            "cote_max": 1.3,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "V6A_o15_l3_1.05-1.18_p3",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 22,
+          "n_total": 52,
+          "compl": 42.3,
+          "avg_cap": 29.3,
+          "roi": 23.6,
+          "wr_p": 73.9,
+          "pnl": 125.2
+        },
+        "Apr": {
+          "n_complete": 7,
+          "n_total": 14,
+          "compl": 50.0,
+          "avg_cap": 29.7,
+          "roi": 45.4,
+          "wr_p": 78.8,
+          "pnl": 68.1
+        }
+      },
+      "strat": {
+        "id": "V6A_o15_l3_1.05-1.18_p3",
+        "label": "Foot O 1.5 ultra mini-cote combo",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.05,
+            "cote_max": 1.18,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "V6A_o15_l2_1.05-1.18_p5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 17,
+          "n_total": 56,
+          "compl": 30.4,
+          "avg_cap": 34.3,
+          "roi": 3.9,
+          "wr_p": 80.1,
+          "pnl": 22.4
+        },
+        "Apr": {
+          "n_complete": 6,
+          "n_total": 15,
+          "compl": 40.0,
+          "avg_cap": 34.8,
+          "roi": 36.6,
+          "wr_p": 83.9,
+          "pnl": 58.5
+        }
+      },
+      "strat": {
+        "id": "V6A_o15_l2_1.05-1.18_p5",
+        "label": "Foot O 1.5 ultra mini-cote combo",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5",
+            "cote_min": 1.05,
+            "cote_max": 1.18,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V6D_foo_xmkt_l2_1.05-1.2_p5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 19,
+          "n_total": 57,
+          "compl": 33.3,
+          "avg_cap": 38.5,
+          "roi": 28.0,
+          "wr_p": 78.3,
+          "pnl": 162.3
+        },
+        "Apr": {
+          "n_complete": 5,
+          "n_total": 15,
+          "compl": 33.3,
+          "avg_cap": 39.5,
+          "roi": 29.7,
+          "wr_p": 75.0,
+          "pnl": 47.5
+        }
+      },
+      "strat": {
+        "id": "V6D_foo_xmkt_l2_1.05-1.2_p5",
+        "label": "Foot xmkt mini-cote",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "1x2,over_1_5,btts",
+            "cote_min": 1.05,
+            "cote_max": 1.2,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V6B_ice+bas_l2_1.15-1.3_p3",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 21,
+          "n_total": 65,
+          "compl": 32.3,
+          "avg_cap": 33.1,
+          "roi": 6.8,
+          "wr_p": 67.6,
+          "pnl": 45.1
+        },
+        "Apr": {
+          "n_complete": 5,
+          "n_total": 12,
+          "compl": 41.7,
+          "avg_cap": 32.4,
+          "roi": 32.2,
+          "wr_p": 74.1,
+          "pnl": 41.9
+        }
+      },
+      "strat": {
+        "id": "V6B_ice+bas_l2_1.15-1.3_p3",
+        "label": "Hockey/Basket ultra-safe combo",
+        "components": [
+          {
+            "sports": [
+              "ice-hockey",
+              "basketball"
+            ],
+            "market": "1x2",
+            "cote_min": 1.15,
+            "cote_max": 1.3,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V6B_bas_l3_1.15-1.3_p4",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 5,
+          "n_total": 36,
+          "compl": 13.9,
+          "avg_cap": 106.4,
+          "roi": 46.5,
+          "wr_p": 59.7,
+          "pnl": 172.1
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 6,
+          "compl": 16.7,
+          "avg_cap": 101.7,
+          "roi": 59.5,
+          "wr_p": 68.8,
+          "pnl": 41.7
+        }
+      },
+      "strat": {
+        "id": "V6B_bas_l3_1.15-1.3_p4",
+        "label": "Hockey/Basket ultra-safe combo",
+        "components": [
+          {
+            "sports": [
+              "basketball"
+            ],
+            "market": "1x2",
+            "cote_min": 1.15,
+            "cote_max": 1.3,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "V6B_ice+bas_l2_1.15-1.3_p4",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 15,
+          "n_total": 59,
+          "compl": 25.4,
+          "avg_cap": 50.4,
+          "roi": 27.6,
+          "wr_p": 69.7,
+          "pnl": 165.7
+        },
+        "Apr": {
+          "n_complete": 3,
+          "n_total": 10,
+          "compl": 30.0,
+          "avg_cap": 45.4,
+          "roi": 32.9,
+          "wr_p": 74.1,
+          "pnl": 36.1
+        }
+      },
+      "strat": {
+        "id": "V6B_ice+bas_l2_1.15-1.3_p4",
+        "label": "Hockey/Basket ultra-safe combo",
+        "components": [
+          {
+            "sports": [
+              "ice-hockey",
+              "basketball"
+            ],
+            "market": "1x2",
+            "cote_min": 1.15,
+            "cote_max": 1.3,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V6B_ice+bas_l3_1.15-1.3_p4",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 6,
+          "n_total": 43,
+          "compl": 14.0,
+          "avg_cap": 104.9,
+          "roi": 45.4,
+          "wr_p": 60.6,
+          "pnl": 199.5
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 7,
+          "compl": 14.3,
+          "avg_cap": 100.1,
+          "roi": 37.6,
+          "wr_p": 64.7,
+          "pnl": 30.1
+        }
+      },
+      "strat": {
+        "id": "V6B_ice+bas_l3_1.15-1.3_p4",
+        "label": "Hockey/Basket ultra-safe combo",
+        "components": [
+          {
+            "sports": [
+              "ice-hockey",
+              "basketball"
+            ],
+            "market": "1x2",
+            "cote_min": 1.15,
+            "cote_max": 1.3,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "V6C_xs_foo+ice_l3_1.1-1.25_p3",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 6,
+          "n_total": 18,
+          "compl": 33.3,
+          "avg_cap": 45.5,
+          "roi": 49.0,
+          "wr_p": 68.4,
+          "pnl": 93.1
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 3,
+          "compl": 33.3,
+          "avg_cap": 44.4,
+          "roi": 36.0,
+          "wr_p": 66.7,
+          "pnl": 14.4
+        }
+      },
+      "strat": {
+        "id": "V6C_xs_foo+ice_l3_1.1-1.25_p3",
+        "label": "Multi-sport mini-cote",
+        "components": [
+          {
+            "sports": [
+              "football",
+              "ice-hockey"
+            ],
+            "market": "1x2",
+            "cote_min": 1.1,
+            "cote_max": 1.25,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "V6B_ice_l2_1.15-1.3_p4",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 2,
+          "n_total": 8,
+          "compl": 25.0,
+          "avg_cap": 59.5,
+          "roi": 43.4,
+          "wr_p": 68.4,
+          "pnl": 39.1
+        },
+        "Apr": {
+          "n_complete": 0,
+          "n_total": 0,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "roi": 0.0,
+          "wr_p": 100.0,
+          "pnl": 0
+        }
+      },
+      "strat": {
+        "id": "V6B_ice_l2_1.15-1.3_p4",
+        "label": "Hockey/Basket ultra-safe combo",
+        "components": [
+          {
+            "sports": [
+              "ice-hockey"
+            ],
+            "market": "1x2",
+            "cote_min": 1.15,
+            "cote_max": 1.3,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V6B_ice_l2_1.15-1.3_p5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 1,
+          "n_total": 7,
+          "compl": 14.3,
+          "avg_cap": 96.4,
+          "roi": 33.0,
+          "wr_p": 68.4,
+          "pnl": 26.4
+        },
+        "Apr": {
+          "n_complete": 0,
+          "n_total": 0,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "roi": 0.0,
+          "wr_p": 100.0,
+          "pnl": 0
+        }
+      },
+      "strat": {
+        "id": "V6B_ice_l2_1.15-1.3_p5",
+        "label": "Hockey/Basket ultra-safe combo",
+        "components": [
+          {
+            "sports": [
+              "ice-hockey"
+            ],
+            "market": "1x2",
+            "cote_min": 1.15,
+            "cote_max": 1.3,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V6B_ice_l2_1.15-1.3_p3",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 3,
+          "n_total": 9,
+          "compl": 33.3,
+          "avg_cap": 37.5,
+          "roi": 22.6,
+          "wr_p": 68.4,
+          "pnl": 22.6
+        },
+        "Apr": {
+          "n_complete": 0,
+          "n_total": 0,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "roi": 0.0,
+          "wr_p": 100.0,
+          "pnl": 0
+        }
+      },
+      "strat": {
+        "id": "V6B_ice_l2_1.15-1.3_p3",
+        "label": "Hockey/Basket ultra-safe combo",
+        "components": [
+          {
+            "sports": [
+              "ice-hockey"
+            ],
+            "market": "1x2",
+            "cote_min": 1.15,
+            "cote_max": 1.3,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V6B_ice_l2_1.1-1.25_p4",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 1,
+          "n_total": 4,
+          "compl": 25.0,
+          "avg_cap": 47.2,
+          "roi": 14.4,
+          "wr_p": 66.7,
+          "pnl": 7.2
+        },
+        "Apr": {
+          "n_complete": 0,
+          "n_total": 0,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "roi": 0.0,
+          "wr_p": 0.0,
+          "pnl": 0
+        }
+      },
+      "strat": {
+        "id": "V6B_ice_l2_1.1-1.25_p4",
+        "label": "Hockey/Basket ultra-safe combo",
+        "components": [
+          {
+            "sports": [
+              "ice-hockey"
+            ],
+            "market": "1x2",
+            "cote_min": 1.1,
+            "cote_max": 1.25,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V6C_xs_foo+ice_l4_1.1-1.25_p5",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 2,
+          "n_total": 13,
+          "compl": 15.4,
+          "avg_cap": 398.9,
+          "roi": 477.1,
+          "wr_p": 52.2,
+          "pnl": 667.9
+        },
+        "Apr": {
+          "n_complete": 0,
+          "n_total": 1,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "roi": -50.0,
+          "wr_p": 50.0,
+          "pnl": -10
+        }
+      },
+      "strat": {
+        "id": "V6C_xs_foo+ice_l4_1.1-1.25_p5",
+        "label": "Multi-sport mini-cote",
+        "components": [
+          {
+            "sports": [
+              "football",
+              "ice-hockey"
+            ],
+            "market": "1x2",
+            "cote_min": 1.1,
+            "cote_max": 1.25,
+            "sort_by": "wr",
+            "max_legs": 4,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 4
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 4
+        }
+      }
+    },
+    {
+      "id": "V6C_xs_foo+ice_l4_1.1-1.25_p4",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 2,
+          "n_total": 13,
+          "compl": 15.4,
+          "avg_cap": 182.8,
+          "roi": 168.3,
+          "wr_p": 52.2,
+          "pnl": 235.7
+        },
+        "Apr": {
+          "n_complete": 0,
+          "n_total": 1,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "roi": -50.0,
+          "wr_p": 50.0,
+          "pnl": -10
+        }
+      },
+      "strat": {
+        "id": "V6C_xs_foo+ice_l4_1.1-1.25_p4",
+        "label": "Multi-sport mini-cote",
+        "components": [
+          {
+            "sports": [
+              "football",
+              "ice-hockey"
+            ],
+            "market": "1x2",
+            "cote_min": 1.1,
+            "cote_max": 1.25,
+            "sort_by": "wr",
+            "max_legs": 4,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 4
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 4
+        }
+      }
+    },
+    {
+      "id": "V6C_xs_foo+ice_l4_1.1-1.25_p3",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 4,
+          "n_total": 15,
+          "compl": 26.7,
+          "avg_cap": 86.7,
+          "roi": 123.1,
+          "wr_p": 52.2,
+          "pnl": 196.9
+        },
+        "Apr": {
+          "n_complete": 0,
+          "n_total": 1,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "roi": -50.0,
+          "wr_p": 50.0,
+          "pnl": -10
+        }
+      },
+      "strat": {
+        "id": "V6C_xs_foo+ice_l4_1.1-1.25_p3",
+        "label": "Multi-sport mini-cote",
+        "components": [
+          {
+            "sports": [
+              "football",
+              "ice-hockey"
+            ],
+            "market": "1x2",
+            "cote_min": 1.1,
+            "cote_max": 1.25,
+            "sort_by": "wr",
+            "max_legs": 4,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 4
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 4
+        }
+      }
+    },
+    {
+      "id": "V6D_foo_xmkt_l2_1.05-1.2_p4",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 23,
+          "n_total": 60,
+          "compl": 38.3,
+          "avg_cap": 29.4,
+          "roi": 12.4,
+          "wr_p": 78.6,
+          "pnl": 75.7
+        },
+        "Apr": {
+          "n_complete": 5,
+          "n_total": 16,
+          "compl": 31.2,
+          "avg_cap": 29.1,
+          "roi": -8.4,
+          "wr_p": 73.2,
+          "pnl": -14.2
+        }
+      },
+      "strat": {
+        "id": "V6D_foo_xmkt_l2_1.05-1.2_p4",
+        "label": "Foot xmkt mini-cote",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "1x2,over_1_5,btts",
+            "cote_min": 1.05,
+            "cote_max": 1.2,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 2
+        }
+      }
+    }
+  ]
+}

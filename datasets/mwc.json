@@ -1,0 +1,6198 @@
+{
+  "all": [
+    {
+      "id": "MWC_over_1_5+over_2_5_1.2-1.35_l2_p2_wr0.7",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 57,
+          "n_total": 94,
+          "compl": 60.6,
+          "avg_cap": 24.8,
+          "pnl": 475.2
+        },
+        "Apr": {
+          "n_complete": 14,
+          "n_total": 21,
+          "compl": 66.7,
+          "avg_cap": 24.4,
+          "pnl": 132.0
+        }
+      },
+      "strat": {
+        "id": "MWC_over_1_5+over_2_5_1.2-1.35_l2_p2_wr0.7",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.35,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 2,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "MWC_over_1_5+over_2_5_1.2-1.35_l2_p2_wr0.75",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 54,
+          "n_total": 88,
+          "compl": 61.4,
+          "avg_cap": 24.6,
+          "pnl": 450.1
+        },
+        "Apr": {
+          "n_complete": 14,
+          "n_total": 20,
+          "compl": 70.0,
+          "avg_cap": 24.4,
+          "pnl": 142.0
+        }
+      },
+      "strat": {
+        "id": "MWC_over_1_5+over_2_5_1.2-1.35_l2_p2_wr0.75",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.35,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 2,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "MWC_over_1_5+over_2_5_1.2-1.35_l2_p2_wr0.8",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 49,
+          "n_total": 75,
+          "compl": 65.3,
+          "avg_cap": 24.3,
+          "pnl": 442.5
+        },
+        "Apr": {
+          "n_complete": 12,
+          "n_total": 17,
+          "compl": 70.6,
+          "avg_cap": 23.7,
+          "pnl": 114.5
+        }
+      },
+      "strat": {
+        "id": "MWC_over_1_5+over_2_5_1.2-1.35_l2_p2_wr0.8",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.35,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": 0.8,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 2,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "MWC_over_1_5+over_2_5_1.2-1.35_l2_p3_wr0.7",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 32,
+          "n_total": 84,
+          "compl": 38.1,
+          "avg_cap": 38.9,
+          "pnl": 405.0
+        },
+        "Apr": {
+          "n_complete": 9,
+          "n_total": 19,
+          "compl": 47.4,
+          "avg_cap": 38.2,
+          "pnl": 154.0
+        }
+      },
+      "strat": {
+        "id": "MWC_over_1_5+over_2_5_1.2-1.35_l2_p3_wr0.7",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.35,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "MWC_over_1_5+over_2_5_1.2-1.35_l2_p3_wr0.75",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 30,
+          "n_total": 80,
+          "compl": 37.5,
+          "avg_cap": 38.8,
+          "pnl": 364.2
+        },
+        "Apr": {
+          "n_complete": 9,
+          "n_total": 17,
+          "compl": 52.9,
+          "avg_cap": 38.2,
+          "pnl": 174.0
+        }
+      },
+      "strat": {
+        "id": "MWC_over_1_5+over_2_5_1.2-1.35_l2_p3_wr0.75",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.35,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "MWC_over_1_5+over_2_5_1.2-1.35_l2_p3_wr0.8",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 24,
+          "n_total": 64,
+          "compl": 37.5,
+          "avg_cap": 38.4,
+          "pnl": 282.3
+        },
+        "Apr": {
+          "n_complete": 8,
+          "n_total": 14,
+          "compl": 57.1,
+          "avg_cap": 38.2,
+          "pnl": 166.0
+        }
+      },
+      "strat": {
+        "id": "MWC_over_1_5+over_2_5_1.2-1.35_l2_p3_wr0.8",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.35,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": 0.8,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "MWC_over_1_5+over_2_5_1.2-1.35_l2_p4_wr0.7",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 22,
+          "n_total": 82,
+          "compl": 26.8,
+          "avg_cap": 62.9,
+          "pnl": 564.3
+        },
+        "Apr": {
+          "n_complete": 7,
+          "n_total": 19,
+          "compl": 36.8,
+          "avg_cap": 62.8,
+          "pnl": 249.8
+        }
+      },
+      "strat": {
+        "id": "MWC_over_1_5+over_2_5_1.2-1.35_l2_p4_wr0.7",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.35,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "MWC_over_1_5+over_2_5_1.2-1.35_l2_p4_wr0.75",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 20,
+          "n_total": 75,
+          "compl": 26.7,
+          "avg_cap": 62.0,
+          "pnl": 489.2
+        },
+        "Apr": {
+          "n_complete": 7,
+          "n_total": 17,
+          "compl": 41.2,
+          "avg_cap": 61.8,
+          "pnl": 262.8
+        }
+      },
+      "strat": {
+        "id": "MWC_over_1_5+over_2_5_1.2-1.35_l2_p4_wr0.75",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.35,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "MWC_over_1_5+over_2_5_1.2-1.35_l2_p4_wr0.8",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 16,
+          "n_total": 59,
+          "compl": 27.1,
+          "avg_cap": 59.3,
+          "pnl": 358.1
+        },
+        "Apr": {
+          "n_complete": 5,
+          "n_total": 13,
+          "compl": 38.5,
+          "avg_cap": 58.7,
+          "pnl": 163.6
+        }
+      },
+      "strat": {
+        "id": "MWC_over_1_5+over_2_5_1.2-1.35_l2_p4_wr0.8",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.35,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": 0.8,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "MWC_over_1_5+over_2_5_1.2-1.35_l3_p2_wr0.7",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 32,
+          "n_total": 80,
+          "compl": 40.0,
+          "avg_cap": 39.1,
+          "pnl": 450.6
+        },
+        "Apr": {
+          "n_complete": 9,
+          "n_total": 18,
+          "compl": 50.0,
+          "avg_cap": 38.6,
+          "pnl": 167.2
+        }
+      },
+      "strat": {
+        "id": "MWC_over_1_5+over_2_5_1.2-1.35_l3_p2_wr0.7",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.35,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 2,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "MWC_over_1_5+over_2_5_1.2-1.35_l3_p2_wr0.75",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 29,
+          "n_total": 72,
+          "compl": 40.3,
+          "avg_cap": 39.1,
+          "pnl": 414.3
+        },
+        "Apr": {
+          "n_complete": 9,
+          "n_total": 16,
+          "compl": 56.2,
+          "avg_cap": 39.0,
+          "pnl": 191.4
+        }
+      },
+      "strat": {
+        "id": "MWC_over_1_5+over_2_5_1.2-1.35_l3_p2_wr0.75",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.35,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 2,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "MWC_over_1_5+over_2_5_1.2-1.35_l3_p2_wr0.8",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 24,
+          "n_total": 59,
+          "compl": 40.7,
+          "avg_cap": 38.5,
+          "pnl": 333.6
+        },
+        "Apr": {
+          "n_complete": 7,
+          "n_total": 13,
+          "compl": 53.8,
+          "avg_cap": 36.7,
+          "pnl": 127.2
+        }
+      },
+      "strat": {
+        "id": "MWC_over_1_5+over_2_5_1.2-1.35_l3_p2_wr0.8",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.35,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": 0.8,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 2,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "MWC_over_1_5+over_2_5_1.2-1.35_l3_p3_wr0.7",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 16,
+          "n_total": 73,
+          "compl": 21.9,
+          "avg_cap": 79.5,
+          "pnl": 542.3
+        },
+        "Apr": {
+          "n_complete": 5,
+          "n_total": 16,
+          "compl": 31.2,
+          "avg_cap": 78.5,
+          "pnl": 232.3
+        }
+      },
+      "strat": {
+        "id": "MWC_over_1_5+over_2_5_1.2-1.35_l3_p3_wr0.7",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.35,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "MWC_over_1_5+over_2_5_1.2-1.35_l3_p3_wr0.75",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 15,
+          "n_total": 68,
+          "compl": 22.1,
+          "avg_cap": 78.0,
+          "pnl": 490.1
+        },
+        "Apr": {
+          "n_complete": 4,
+          "n_total": 14,
+          "compl": 28.6,
+          "avg_cap": 73.8,
+          "pnl": 155.3
+        }
+      },
+      "strat": {
+        "id": "MWC_over_1_5+over_2_5_1.2-1.35_l3_p3_wr0.75",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.35,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "MWC_over_1_5+over_2_5_1.2-1.35_l3_p3_wr0.8",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 8,
+          "n_total": 53,
+          "compl": 15.1,
+          "avg_cap": 74.8,
+          "pnl": 68.8
+        },
+        "Apr": {
+          "n_complete": 2,
+          "n_total": 10,
+          "compl": 20.0,
+          "avg_cap": 72.1,
+          "pnl": 44.1
+        }
+      },
+      "strat": {
+        "id": "MWC_over_1_5+over_2_5_1.2-1.35_l3_p3_wr0.8",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.35,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": 0.8,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "MWC_over_1_5+over_2_5_1.2-1.35_l3_p4_wr0.7",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 9,
+          "n_total": 68,
+          "compl": 13.2,
+          "avg_cap": 149.4,
+          "pnl": 664.4
+        },
+        "Apr": {
+          "n_complete": 4,
+          "n_total": 14,
+          "compl": 28.6,
+          "avg_cap": 149.9,
+          "pnl": 459.5
+        }
+      },
+      "strat": {
+        "id": "MWC_over_1_5+over_2_5_1.2-1.35_l3_p4_wr0.7",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.35,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "MWC_over_1_5+over_2_5_1.2-1.35_l3_p4_wr0.75",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 7,
+          "n_total": 61,
+          "compl": 11.5,
+          "avg_cap": 148.0,
+          "pnl": 426.1
+        },
+        "Apr": {
+          "n_complete": 3,
+          "n_total": 12,
+          "compl": 25.0,
+          "avg_cap": 154.1,
+          "pnl": 342.2
+        }
+      },
+      "strat": {
+        "id": "MWC_over_1_5+over_2_5_1.2-1.35_l3_p4_wr0.75",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.35,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "MWC_over_1_5+over_2_5_1.2-1.35_l3_p4_wr0.8",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 5,
+          "n_total": 49,
+          "compl": 10.2,
+          "avg_cap": 135.3,
+          "pnl": 186.7
+        },
+        "Apr": {
+          "n_complete": 2,
+          "n_total": 9,
+          "compl": 22.2,
+          "avg_cap": 133.2,
+          "pnl": 176.5
+        }
+      },
+      "strat": {
+        "id": "MWC_over_1_5+over_2_5_1.2-1.35_l3_p4_wr0.8",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.35,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": 0.8,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "MWC_btts+over_1_5+over_2_5_1.2-1.35_l2_p2_wr0.7",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 57,
+          "n_total": 94,
+          "compl": 60.6,
+          "avg_cap": 24.8,
+          "pnl": 475.2
+        },
+        "Apr": {
+          "n_complete": 14,
+          "n_total": 21,
+          "compl": 66.7,
+          "avg_cap": 24.4,
+          "pnl": 132.0
+        }
+      },
+      "strat": {
+        "id": "MWC_btts+over_1_5+over_2_5_1.2-1.35_l2_p2_wr0.7",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.35,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 2,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "MWC_btts+over_1_5+over_2_5_1.2-1.35_l2_p2_wr0.75",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 54,
+          "n_total": 88,
+          "compl": 61.4,
+          "avg_cap": 24.6,
+          "pnl": 450.1
+        },
+        "Apr": {
+          "n_complete": 14,
+          "n_total": 20,
+          "compl": 70.0,
+          "avg_cap": 24.4,
+          "pnl": 142.0
+        }
+      },
+      "strat": {
+        "id": "MWC_btts+over_1_5+over_2_5_1.2-1.35_l2_p2_wr0.75",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.35,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 2,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "MWC_btts+over_1_5+over_2_5_1.2-1.35_l2_p2_wr0.8",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 48,
+          "n_total": 75,
+          "compl": 64.0,
+          "avg_cap": 24.4,
+          "pnl": 419.7
+        },
+        "Apr": {
+          "n_complete": 12,
+          "n_total": 17,
+          "compl": 70.6,
+          "avg_cap": 23.7,
+          "pnl": 114.5
+        }
+      },
+      "strat": {
+        "id": "MWC_btts+over_1_5+over_2_5_1.2-1.35_l2_p2_wr0.8",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.35,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": 0.8,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 2,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "MWC_btts+over_1_5+over_2_5_1.2-1.35_l2_p3_wr0.7",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 32,
+          "n_total": 84,
+          "compl": 38.1,
+          "avg_cap": 38.9,
+          "pnl": 405.0
+        },
+        "Apr": {
+          "n_complete": 9,
+          "n_total": 19,
+          "compl": 47.4,
+          "avg_cap": 38.2,
+          "pnl": 154.0
+        }
+      },
+      "strat": {
+        "id": "MWC_btts+over_1_5+over_2_5_1.2-1.35_l2_p3_wr0.7",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.35,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "MWC_btts+over_1_5+over_2_5_1.2-1.35_l2_p3_wr0.75",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 30,
+          "n_total": 80,
+          "compl": 37.5,
+          "avg_cap": 38.8,
+          "pnl": 364.2
+        },
+        "Apr": {
+          "n_complete": 9,
+          "n_total": 17,
+          "compl": 52.9,
+          "avg_cap": 38.2,
+          "pnl": 174.0
+        }
+      },
+      "strat": {
+        "id": "MWC_btts+over_1_5+over_2_5_1.2-1.35_l2_p3_wr0.75",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.35,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "MWC_btts+over_1_5+over_2_5_1.2-1.35_l2_p3_wr0.8",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 24,
+          "n_total": 65,
+          "compl": 36.9,
+          "avg_cap": 38.6,
+          "pnl": 275.5
+        },
+        "Apr": {
+          "n_complete": 8,
+          "n_total": 14,
+          "compl": 57.1,
+          "avg_cap": 38.2,
+          "pnl": 166.0
+        }
+      },
+      "strat": {
+        "id": "MWC_btts+over_1_5+over_2_5_1.2-1.35_l2_p3_wr0.8",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.35,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": 0.8,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "MWC_btts+over_1_5+over_2_5_1.2-1.35_l2_p4_wr0.7",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 22,
+          "n_total": 82,
+          "compl": 26.8,
+          "avg_cap": 62.9,
+          "pnl": 564.3
+        },
+        "Apr": {
+          "n_complete": 7,
+          "n_total": 19,
+          "compl": 36.8,
+          "avg_cap": 62.8,
+          "pnl": 249.8
+        }
+      },
+      "strat": {
+        "id": "MWC_btts+over_1_5+over_2_5_1.2-1.35_l2_p4_wr0.7",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.35,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "MWC_btts+over_1_5+over_2_5_1.2-1.35_l2_p4_wr0.75",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 20,
+          "n_total": 75,
+          "compl": 26.7,
+          "avg_cap": 62.0,
+          "pnl": 489.2
+        },
+        "Apr": {
+          "n_complete": 7,
+          "n_total": 17,
+          "compl": 41.2,
+          "avg_cap": 61.8,
+          "pnl": 262.8
+        }
+      },
+      "strat": {
+        "id": "MWC_btts+over_1_5+over_2_5_1.2-1.35_l2_p4_wr0.75",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.35,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "MWC_btts+over_1_5+over_2_5_1.2-1.35_l2_p4_wr0.8",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 16,
+          "n_total": 59,
+          "compl": 27.1,
+          "avg_cap": 59.3,
+          "pnl": 358.1
+        },
+        "Apr": {
+          "n_complete": 5,
+          "n_total": 13,
+          "compl": 38.5,
+          "avg_cap": 58.7,
+          "pnl": 163.6
+        }
+      },
+      "strat": {
+        "id": "MWC_btts+over_1_5+over_2_5_1.2-1.35_l2_p4_wr0.8",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.35,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": 0.8,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "MWC_btts+over_1_5+over_2_5_1.2-1.35_l3_p2_wr0.7",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 33,
+          "n_total": 80,
+          "compl": 41.2,
+          "avg_cap": 39.0,
+          "pnl": 487.4
+        },
+        "Apr": {
+          "n_complete": 9,
+          "n_total": 18,
+          "compl": 50.0,
+          "avg_cap": 38.6,
+          "pnl": 167.2
+        }
+      },
+      "strat": {
+        "id": "MWC_btts+over_1_5+over_2_5_1.2-1.35_l3_p2_wr0.7",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.35,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 2,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "MWC_btts+over_1_5+over_2_5_1.2-1.35_l3_p2_wr0.75",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 30,
+          "n_total": 72,
+          "compl": 41.7,
+          "avg_cap": 39.0,
+          "pnl": 451.1
+        },
+        "Apr": {
+          "n_complete": 9,
+          "n_total": 16,
+          "compl": 56.2,
+          "avg_cap": 39.0,
+          "pnl": 191.4
+        }
+      },
+      "strat": {
+        "id": "MWC_btts+over_1_5+over_2_5_1.2-1.35_l3_p2_wr0.75",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.35,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 2,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "MWC_btts+over_1_5+over_2_5_1.2-1.35_l3_p2_wr0.8",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 24,
+          "n_total": 58,
+          "compl": 41.4,
+          "avg_cap": 38.5,
+          "pnl": 344.8
+        },
+        "Apr": {
+          "n_complete": 7,
+          "n_total": 13,
+          "compl": 53.8,
+          "avg_cap": 36.7,
+          "pnl": 127.2
+        }
+      },
+      "strat": {
+        "id": "MWC_btts+over_1_5+over_2_5_1.2-1.35_l3_p2_wr0.8",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.35,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": 0.8,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 2,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "MWC_btts+over_1_5+over_2_5_1.2-1.35_l3_p3_wr0.7",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 16,
+          "n_total": 72,
+          "compl": 22.2,
+          "avg_cap": 79.2,
+          "pnl": 548.0
+        },
+        "Apr": {
+          "n_complete": 5,
+          "n_total": 16,
+          "compl": 31.2,
+          "avg_cap": 78.5,
+          "pnl": 232.3
+        }
+      },
+      "strat": {
+        "id": "MWC_btts+over_1_5+over_2_5_1.2-1.35_l3_p3_wr0.7",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.35,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "MWC_btts+over_1_5+over_2_5_1.2-1.35_l3_p3_wr0.75",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 15,
+          "n_total": 67,
+          "compl": 22.4,
+          "avg_cap": 77.7,
+          "pnl": 495.7
+        },
+        "Apr": {
+          "n_complete": 4,
+          "n_total": 14,
+          "compl": 28.6,
+          "avg_cap": 73.8,
+          "pnl": 155.3
+        }
+      },
+      "strat": {
+        "id": "MWC_btts+over_1_5+over_2_5_1.2-1.35_l3_p3_wr0.75",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.35,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "MWC_btts+over_1_5+over_2_5_1.2-1.35_l3_p3_wr0.8",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 9,
+          "n_total": 53,
+          "compl": 17.0,
+          "avg_cap": 73.9,
+          "pnl": 134.7
+        },
+        "Apr": {
+          "n_complete": 2,
+          "n_total": 10,
+          "compl": 20.0,
+          "avg_cap": 72.1,
+          "pnl": 44.1
+        }
+      },
+      "strat": {
+        "id": "MWC_btts+over_1_5+over_2_5_1.2-1.35_l3_p3_wr0.8",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.35,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": 0.8,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "MWC_btts+over_1_5+over_2_5_1.2-1.35_l3_p4_wr0.7",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 10,
+          "n_total": 68,
+          "compl": 14.7,
+          "avg_cap": 148.6,
+          "pnl": 805.6
+        },
+        "Apr": {
+          "n_complete": 4,
+          "n_total": 14,
+          "compl": 28.6,
+          "avg_cap": 149.9,
+          "pnl": 459.5
+        }
+      },
+      "strat": {
+        "id": "MWC_btts+over_1_5+over_2_5_1.2-1.35_l3_p4_wr0.7",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.35,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "MWC_btts+over_1_5+over_2_5_1.2-1.35_l3_p4_wr0.75",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 8,
+          "n_total": 61,
+          "compl": 13.1,
+          "avg_cap": 147.2,
+          "pnl": 567.4
+        },
+        "Apr": {
+          "n_complete": 3,
+          "n_total": 12,
+          "compl": 25.0,
+          "avg_cap": 154.1,
+          "pnl": 342.2
+        }
+      },
+      "strat": {
+        "id": "MWC_btts+over_1_5+over_2_5_1.2-1.35_l3_p4_wr0.75",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.35,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "MWC_btts+over_1_5+over_2_5_1.2-1.35_l3_p4_wr0.8",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 6,
+          "n_total": 49,
+          "compl": 12.2,
+          "avg_cap": 135.7,
+          "pnl": 324.1
+        },
+        "Apr": {
+          "n_complete": 2,
+          "n_total": 9,
+          "compl": 22.2,
+          "avg_cap": 133.2,
+          "pnl": 176.5
+        }
+      },
+      "strat": {
+        "id": "MWC_btts+over_1_5+over_2_5_1.2-1.35_l3_p4_wr0.8",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.35,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": 0.8,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "MWC_over_1_5+over_2_5_1.2-1.4_l2_p2_wr0.7",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 61,
+          "n_total": 104,
+          "compl": 58.7,
+          "avg_cap": 26.4,
+          "pnl": 573.2
+        },
+        "Apr": {
+          "n_complete": 16,
+          "n_total": 26,
+          "compl": 61.5,
+          "avg_cap": 26.3,
+          "pnl": 161.2
+        }
+      },
+      "strat": {
+        "id": "MWC_over_1_5+over_2_5_1.2-1.4_l2_p2_wr0.7",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 2,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "MWC_over_1_5+over_2_5_1.2-1.4_l2_p2_wr0.75",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 59,
+          "n_total": 98,
+          "compl": 60.2,
+          "avg_cap": 26.1,
+          "pnl": 562.8
+        },
+        "Apr": {
+          "n_complete": 16,
+          "n_total": 23,
+          "compl": 69.6,
+          "avg_cap": 26.0,
+          "pnl": 185.3
+        }
+      },
+      "strat": {
+        "id": "MWC_over_1_5+over_2_5_1.2-1.4_l2_p2_wr0.75",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 2,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "MWC_over_1_5+over_2_5_1.2-1.4_l2_p2_wr0.8",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 48,
+          "n_total": 78,
+          "compl": 61.5,
+          "avg_cap": 25.5,
+          "pnl": 445.8
+        },
+        "Apr": {
+          "n_complete": 12,
+          "n_total": 18,
+          "compl": 66.7,
+          "avg_cap": 25.2,
+          "pnl": 122.0
+        }
+      },
+      "strat": {
+        "id": "MWC_over_1_5+over_2_5_1.2-1.4_l2_p2_wr0.8",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": 0.8,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 2,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "MWC_over_1_5+over_2_5_1.2-1.4_l2_p3_wr0.7",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 36,
+          "n_total": 98,
+          "compl": 36.7,
+          "avg_cap": 43.9,
+          "pnl": 600.8
+        },
+        "Apr": {
+          "n_complete": 11,
+          "n_total": 24,
+          "compl": 45.8,
+          "avg_cap": 45.0,
+          "pnl": 255.6
+        }
+      },
+      "strat": {
+        "id": "MWC_over_1_5+over_2_5_1.2-1.4_l2_p3_wr0.7",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "MWC_over_1_5+over_2_5_1.2-1.4_l2_p3_wr0.75",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 38,
+          "n_total": 91,
+          "compl": 41.8,
+          "avg_cap": 43.1,
+          "pnl": 728.9
+        },
+        "Apr": {
+          "n_complete": 11,
+          "n_total": 23,
+          "compl": 47.8,
+          "avg_cap": 44.0,
+          "pnl": 254.5
+        }
+      },
+      "strat": {
+        "id": "MWC_over_1_5+over_2_5_1.2-1.4_l2_p3_wr0.75",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "MWC_over_1_5+over_2_5_1.2-1.4_l2_p3_wr0.8",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 28,
+          "n_total": 68,
+          "compl": 41.2,
+          "avg_cap": 41.6,
+          "pnl": 486.1
+        },
+        "Apr": {
+          "n_complete": 8,
+          "n_total": 15,
+          "compl": 53.3,
+          "avg_cap": 41.8,
+          "pnl": 184.0
+        }
+      },
+      "strat": {
+        "id": "MWC_over_1_5+over_2_5_1.2-1.4_l2_p3_wr0.8",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": 0.8,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "MWC_over_1_5+over_2_5_1.2-1.4_l2_p4_wr0.7",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 22,
+          "n_total": 94,
+          "compl": 23.4,
+          "avg_cap": 72.8,
+          "pnl": 662.8
+        },
+        "Apr": {
+          "n_complete": 6,
+          "n_total": 23,
+          "compl": 26.1,
+          "avg_cap": 74.6,
+          "pnl": 217.6
+        }
+      },
+      "strat": {
+        "id": "MWC_over_1_5+over_2_5_1.2-1.4_l2_p4_wr0.7",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "MWC_over_1_5+over_2_5_1.2-1.4_l2_p4_wr0.75",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 21,
+          "n_total": 85,
+          "compl": 24.7,
+          "avg_cap": 71.3,
+          "pnl": 646.5
+        },
+        "Apr": {
+          "n_complete": 5,
+          "n_total": 20,
+          "compl": 25.0,
+          "avg_cap": 74.9,
+          "pnl": 174.7
+        }
+      },
+      "strat": {
+        "id": "MWC_over_1_5+over_2_5_1.2-1.4_l2_p4_wr0.75",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "MWC_over_1_5+over_2_5_1.2-1.4_l2_p4_wr0.8",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 16,
+          "n_total": 63,
+          "compl": 25.4,
+          "avg_cap": 66.6,
+          "pnl": 435.2
+        },
+        "Apr": {
+          "n_complete": 5,
+          "n_total": 14,
+          "compl": 35.7,
+          "avg_cap": 67.5,
+          "pnl": 197.8
+        }
+      },
+      "strat": {
+        "id": "MWC_over_1_5+over_2_5_1.2-1.4_l2_p4_wr0.8",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": 0.8,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "MWC_over_1_5+over_2_5_1.2-1.4_l3_p2_wr0.7",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 37,
+          "n_total": 95,
+          "compl": 38.9,
+          "avg_cap": 43.5,
+          "pnl": 658.1
+        },
+        "Apr": {
+          "n_complete": 12,
+          "n_total": 24,
+          "compl": 50.0,
+          "avg_cap": 43.7,
+          "pnl": 284.2
+        }
+      },
+      "strat": {
+        "id": "MWC_over_1_5+over_2_5_1.2-1.4_l3_p2_wr0.7",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 2,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "MWC_over_1_5+over_2_5_1.2-1.4_l3_p2_wr0.75",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 34,
+          "n_total": 84,
+          "compl": 40.5,
+          "avg_cap": 43.0,
+          "pnl": 620.4
+        },
+        "Apr": {
+          "n_complete": 10,
+          "n_total": 20,
+          "compl": 50.0,
+          "avg_cap": 42.9,
+          "pnl": 228.8
+        }
+      },
+      "strat": {
+        "id": "MWC_over_1_5+over_2_5_1.2-1.4_l3_p2_wr0.75",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 2,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "MWC_over_1_5+over_2_5_1.2-1.4_l3_p2_wr0.8",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 24,
+          "n_total": 62,
+          "compl": 38.7,
+          "avg_cap": 41.6,
+          "pnl": 378.9
+        },
+        "Apr": {
+          "n_complete": 7,
+          "n_total": 14,
+          "compl": 50.0,
+          "avg_cap": 40.9,
+          "pnl": 146.3
+        }
+      },
+      "strat": {
+        "id": "MWC_over_1_5+over_2_5_1.2-1.4_l3_p2_wr0.8",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": 0.8,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 2,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "MWC_over_1_5+over_2_5_1.2-1.4_l3_p3_wr0.7",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 17,
+          "n_total": 88,
+          "compl": 19.3,
+          "avg_cap": 94.0,
+          "pnl": 718.8
+        },
+        "Apr": {
+          "n_complete": 5,
+          "n_total": 20,
+          "compl": 25.0,
+          "avg_cap": 93.2,
+          "pnl": 265.9
+        }
+      },
+      "strat": {
+        "id": "MWC_over_1_5+over_2_5_1.2-1.4_l3_p3_wr0.7",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "MWC_over_1_5+over_2_5_1.2-1.4_l3_p3_wr0.75",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 18,
+          "n_total": 76,
+          "compl": 23.7,
+          "avg_cap": 90.1,
+          "pnl": 862.0
+        },
+        "Apr": {
+          "n_complete": 6,
+          "n_total": 17,
+          "compl": 35.3,
+          "avg_cap": 86.6,
+          "pnl": 349.8
+        }
+      },
+      "strat": {
+        "id": "MWC_over_1_5+over_2_5_1.2-1.4_l3_p3_wr0.75",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "MWC_over_1_5+over_2_5_1.2-1.4_l3_p3_wr0.8",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 8,
+          "n_total": 56,
+          "compl": 14.3,
+          "avg_cap": 84.3,
+          "pnl": 114.4
+        },
+        "Apr": {
+          "n_complete": 4,
+          "n_total": 11,
+          "compl": 36.4,
+          "avg_cap": 83.9,
+          "pnl": 225.7
+        }
+      },
+      "strat": {
+        "id": "MWC_over_1_5+over_2_5_1.2-1.4_l3_p3_wr0.8",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": 0.8,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "MWC_over_1_5+over_2_5_1.2-1.4_l3_p4_wr0.7",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 13,
+          "n_total": 84,
+          "compl": 15.5,
+          "avg_cap": 213.9,
+          "pnl": 1940.4
+        },
+        "Apr": {
+          "n_complete": 4,
+          "n_total": 19,
+          "compl": 21.1,
+          "avg_cap": 208.5,
+          "pnl": 644.0
+        }
+      },
+      "strat": {
+        "id": "MWC_over_1_5+over_2_5_1.2-1.4_l3_p4_wr0.7",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "MWC_over_1_5+over_2_5_1.2-1.4_l3_p4_wr0.75",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 10,
+          "n_total": 70,
+          "compl": 14.3,
+          "avg_cap": 178.5,
+          "pnl": 1084.8
+        },
+        "Apr": {
+          "n_complete": 4,
+          "n_total": 15,
+          "compl": 26.7,
+          "avg_cap": 188.8,
+          "pnl": 605.0
+        }
+      },
+      "strat": {
+        "id": "MWC_over_1_5+over_2_5_1.2-1.4_l3_p4_wr0.75",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "MWC_over_1_5+over_2_5_1.2-1.4_l3_p4_wr0.8",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 6,
+          "n_total": 55,
+          "compl": 10.9,
+          "avg_cap": 175.0,
+          "pnl": 500.0
+        },
+        "Apr": {
+          "n_complete": 3,
+          "n_total": 11,
+          "compl": 27.3,
+          "avg_cap": 181.4,
+          "pnl": 434.3
+        }
+      },
+      "strat": {
+        "id": "MWC_over_1_5+over_2_5_1.2-1.4_l3_p4_wr0.8",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": 0.8,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "MWC_btts+over_1_5+over_2_5_1.2-1.4_l2_p2_wr0.7",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 61,
+          "n_total": 104,
+          "compl": 58.7,
+          "avg_cap": 26.4,
+          "pnl": 573.2
+        },
+        "Apr": {
+          "n_complete": 16,
+          "n_total": 26,
+          "compl": 61.5,
+          "avg_cap": 26.3,
+          "pnl": 161.2
+        }
+      },
+      "strat": {
+        "id": "MWC_btts+over_1_5+over_2_5_1.2-1.4_l2_p2_wr0.7",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 2,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "MWC_btts+over_1_5+over_2_5_1.2-1.4_l2_p2_wr0.75",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 59,
+          "n_total": 98,
+          "compl": 60.2,
+          "avg_cap": 26.1,
+          "pnl": 562.2
+        },
+        "Apr": {
+          "n_complete": 16,
+          "n_total": 23,
+          "compl": 69.6,
+          "avg_cap": 25.9,
+          "pnl": 184.7
+        }
+      },
+      "strat": {
+        "id": "MWC_btts+over_1_5+over_2_5_1.2-1.4_l2_p2_wr0.75",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 2,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "MWC_btts+over_1_5+over_2_5_1.2-1.4_l2_p2_wr0.8",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 48,
+          "n_total": 79,
+          "compl": 60.8,
+          "avg_cap": 25.6,
+          "pnl": 438.1
+        },
+        "Apr": {
+          "n_complete": 12,
+          "n_total": 18,
+          "compl": 66.7,
+          "avg_cap": 25.2,
+          "pnl": 122.0
+        }
+      },
+      "strat": {
+        "id": "MWC_btts+over_1_5+over_2_5_1.2-1.4_l2_p2_wr0.8",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": 0.8,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 2,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "MWC_btts+over_1_5+over_2_5_1.2-1.4_l2_p3_wr0.7",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 36,
+          "n_total": 100,
+          "compl": 36.0,
+          "avg_cap": 44.0,
+          "pnl": 584.0
+        },
+        "Apr": {
+          "n_complete": 10,
+          "n_total": 25,
+          "compl": 40.0,
+          "avg_cap": 45.2,
+          "pnl": 201.7
+        }
+      },
+      "strat": {
+        "id": "MWC_btts+over_1_5+over_2_5_1.2-1.4_l2_p3_wr0.7",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "MWC_btts+over_1_5+over_2_5_1.2-1.4_l2_p3_wr0.75",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 39,
+          "n_total": 91,
+          "compl": 42.9,
+          "avg_cap": 43.2,
+          "pnl": 775.9
+        },
+        "Apr": {
+          "n_complete": 11,
+          "n_total": 23,
+          "compl": 47.8,
+          "avg_cap": 44.0,
+          "pnl": 254.5
+        }
+      },
+      "strat": {
+        "id": "MWC_btts+over_1_5+over_2_5_1.2-1.4_l2_p3_wr0.75",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "MWC_btts+over_1_5+over_2_5_1.2-1.4_l2_p3_wr0.8",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 29,
+          "n_total": 68,
+          "compl": 42.6,
+          "avg_cap": 42.0,
+          "pnl": 538.2
+        },
+        "Apr": {
+          "n_complete": 8,
+          "n_total": 15,
+          "compl": 53.3,
+          "avg_cap": 41.8,
+          "pnl": 184.0
+        }
+      },
+      "strat": {
+        "id": "MWC_btts+over_1_5+over_2_5_1.2-1.4_l2_p3_wr0.8",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": 0.8,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "MWC_btts+over_1_5+over_2_5_1.2-1.4_l2_p4_wr0.7",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 22,
+          "n_total": 95,
+          "compl": 23.2,
+          "avg_cap": 72.8,
+          "pnl": 652.8
+        },
+        "Apr": {
+          "n_complete": 6,
+          "n_total": 24,
+          "compl": 25.0,
+          "avg_cap": 74.6,
+          "pnl": 207.6
+        }
+      },
+      "strat": {
+        "id": "MWC_btts+over_1_5+over_2_5_1.2-1.4_l2_p4_wr0.7",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "MWC_btts+over_1_5+over_2_5_1.2-1.4_l2_p4_wr0.75",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 21,
+          "n_total": 85,
+          "compl": 24.7,
+          "avg_cap": 71.3,
+          "pnl": 646.5
+        },
+        "Apr": {
+          "n_complete": 5,
+          "n_total": 20,
+          "compl": 25.0,
+          "avg_cap": 74.9,
+          "pnl": 174.7
+        }
+      },
+      "strat": {
+        "id": "MWC_btts+over_1_5+over_2_5_1.2-1.4_l2_p4_wr0.75",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "MWC_btts+over_1_5+over_2_5_1.2-1.4_l2_p4_wr0.8",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 15,
+          "n_total": 64,
+          "compl": 23.4,
+          "avg_cap": 66.8,
+          "pnl": 362.4
+        },
+        "Apr": {
+          "n_complete": 5,
+          "n_total": 14,
+          "compl": 35.7,
+          "avg_cap": 67.5,
+          "pnl": 197.8
+        }
+      },
+      "strat": {
+        "id": "MWC_btts+over_1_5+over_2_5_1.2-1.4_l2_p4_wr0.8",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": 0.8,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "MWC_btts+over_1_5+over_2_5_1.2-1.4_l3_p2_wr0.7",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 37,
+          "n_total": 96,
+          "compl": 38.5,
+          "avg_cap": 43.5,
+          "pnl": 648.1
+        },
+        "Apr": {
+          "n_complete": 11,
+          "n_total": 24,
+          "compl": 45.8,
+          "avg_cap": 43.4,
+          "pnl": 237.2
+        }
+      },
+      "strat": {
+        "id": "MWC_btts+over_1_5+over_2_5_1.2-1.4_l3_p2_wr0.7",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 2,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "MWC_btts+over_1_5+over_2_5_1.2-1.4_l3_p2_wr0.75",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 35,
+          "n_total": 86,
+          "compl": 40.7,
+          "avg_cap": 43.1,
+          "pnl": 647.5
+        },
+        "Apr": {
+          "n_complete": 10,
+          "n_total": 21,
+          "compl": 47.6,
+          "avg_cap": 42.9,
+          "pnl": 218.8
+        }
+      },
+      "strat": {
+        "id": "MWC_btts+over_1_5+over_2_5_1.2-1.4_l3_p2_wr0.75",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 2,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "MWC_btts+over_1_5+over_2_5_1.2-1.4_l3_p2_wr0.8",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 26,
+          "n_total": 62,
+          "compl": 41.9,
+          "avg_cap": 41.7,
+          "pnl": 464.5
+        },
+        "Apr": {
+          "n_complete": 7,
+          "n_total": 14,
+          "compl": 50.0,
+          "avg_cap": 40.9,
+          "pnl": 146.3
+        }
+      },
+      "strat": {
+        "id": "MWC_btts+over_1_5+over_2_5_1.2-1.4_l3_p2_wr0.8",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": 0.8,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 2,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "MWC_btts+over_1_5+over_2_5_1.2-1.4_l3_p3_wr0.7",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 17,
+          "n_total": 89,
+          "compl": 19.1,
+          "avg_cap": 94.2,
+          "pnl": 710.6
+        },
+        "Apr": {
+          "n_complete": 5,
+          "n_total": 21,
+          "compl": 23.8,
+          "avg_cap": 93.5,
+          "pnl": 257.7
+        }
+      },
+      "strat": {
+        "id": "MWC_btts+over_1_5+over_2_5_1.2-1.4_l3_p3_wr0.7",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "MWC_btts+over_1_5+over_2_5_1.2-1.4_l3_p3_wr0.75",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 18,
+          "n_total": 78,
+          "compl": 23.1,
+          "avg_cap": 90.1,
+          "pnl": 842.0
+        },
+        "Apr": {
+          "n_complete": 6,
+          "n_total": 18,
+          "compl": 33.3,
+          "avg_cap": 86.6,
+          "pnl": 339.8
+        }
+      },
+      "strat": {
+        "id": "MWC_btts+over_1_5+over_2_5_1.2-1.4_l3_p3_wr0.75",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "MWC_btts+over_1_5+over_2_5_1.2-1.4_l3_p3_wr0.8",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 9,
+          "n_total": 56,
+          "compl": 16.1,
+          "avg_cap": 82.2,
+          "pnl": 180.3
+        },
+        "Apr": {
+          "n_complete": 4,
+          "n_total": 11,
+          "compl": 36.4,
+          "avg_cap": 83.9,
+          "pnl": 225.7
+        }
+      },
+      "strat": {
+        "id": "MWC_btts+over_1_5+over_2_5_1.2-1.4_l3_p3_wr0.8",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": 0.8,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "MWC_btts+over_1_5+over_2_5_1.2-1.4_l3_p4_wr0.7",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 13,
+          "n_total": 86,
+          "compl": 15.1,
+          "avg_cap": 215.0,
+          "pnl": 1934.4
+        },
+        "Apr": {
+          "n_complete": 4,
+          "n_total": 20,
+          "compl": 20.0,
+          "avg_cap": 212.0,
+          "pnl": 648.0
+        }
+      },
+      "strat": {
+        "id": "MWC_btts+over_1_5+over_2_5_1.2-1.4_l3_p4_wr0.7",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "MWC_btts+over_1_5+over_2_5_1.2-1.4_l3_p4_wr0.75",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 10,
+          "n_total": 72,
+          "compl": 13.9,
+          "avg_cap": 178.5,
+          "pnl": 1064.8
+        },
+        "Apr": {
+          "n_complete": 4,
+          "n_total": 16,
+          "compl": 25.0,
+          "avg_cap": 188.8,
+          "pnl": 595.0
+        }
+      },
+      "strat": {
+        "id": "MWC_btts+over_1_5+over_2_5_1.2-1.4_l3_p4_wr0.75",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "MWC_btts+over_1_5+over_2_5_1.2-1.4_l3_p4_wr0.8",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 7,
+          "n_total": 55,
+          "compl": 12.7,
+          "avg_cap": 169.5,
+          "pnl": 636.6
+        },
+        "Apr": {
+          "n_complete": 3,
+          "n_total": 11,
+          "compl": 27.3,
+          "avg_cap": 181.4,
+          "pnl": 434.3
+        }
+      },
+      "strat": {
+        "id": "MWC_btts+over_1_5+over_2_5_1.2-1.4_l3_p4_wr0.8",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": 0.8,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "MWC_hk_1.2-1.45_p3_wr0.7",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 28,
+          "n_total": 49,
+          "compl": 57.1,
+          "avg_cap": 23.4,
+          "pnl": 165.2
+        },
+        "Apr": {
+          "n_complete": 3,
+          "n_total": 5,
+          "compl": 60.0,
+          "avg_cap": 25.0,
+          "pnl": 25.0
+        }
+      },
+      "strat": {
+        "id": "MWC_hk_1.2-1.45_p3_wr0.7",
+        "components": [
+          {
+            "sports": [
+              "ice-hockey"
+            ],
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.45,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "MWC_hk_1.2-1.45_p3_wr0.75",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 19,
+          "n_total": 34,
+          "compl": 55.9,
+          "avg_cap": 22.0,
+          "pnl": 78.5
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 3,
+          "compl": 33.3,
+          "avg_cap": 21.7,
+          "pnl": -8.3
+        }
+      },
+      "strat": {
+        "id": "MWC_hk_1.2-1.45_p3_wr0.75",
+        "components": [
+          {
+            "sports": [
+              "ice-hockey"
+            ],
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.45,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "MWC_hk_1.2-1.45_p3_wr0.8",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 12,
+          "n_total": 22,
+          "compl": 54.5,
+          "avg_cap": 22.0,
+          "pnl": 43.6
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 3,
+          "compl": 33.3,
+          "avg_cap": 20.9,
+          "pnl": -9.1
+        }
+      },
+      "strat": {
+        "id": "MWC_hk_1.2-1.45_p3_wr0.8",
+        "components": [
+          {
+            "sports": [
+              "ice-hockey"
+            ],
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.45,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.8,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "MWC_hk_1.2-1.45_p4_wr0.7",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 23,
+          "n_total": 43,
+          "compl": 53.5,
+          "avg_cap": 31.2,
+          "pnl": 286.7
+        },
+        "Apr": {
+          "n_complete": 2,
+          "n_total": 4,
+          "compl": 50.0,
+          "avg_cap": 34.9,
+          "pnl": 29.8
+        }
+      },
+      "strat": {
+        "id": "MWC_hk_1.2-1.45_p4_wr0.7",
+        "components": [
+          {
+            "sports": [
+              "ice-hockey"
+            ],
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.45,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "MWC_hk_1.2-1.45_p4_wr0.75",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 14,
+          "n_total": 27,
+          "compl": 51.9,
+          "avg_cap": 28.4,
+          "pnl": 128.0
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 3,
+          "compl": 33.3,
+          "avg_cap": 29.3,
+          "pnl": -0.7
+        }
+      },
+      "strat": {
+        "id": "MWC_hk_1.2-1.45_p4_wr0.75",
+        "components": [
+          {
+            "sports": [
+              "ice-hockey"
+            ],
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.45,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "MWC_hk_1.2-1.45_p4_wr0.8",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 8,
+          "n_total": 17,
+          "compl": 47.1,
+          "avg_cap": 29.0,
+          "pnl": 62.1
+        },
+        "Apr": {
+          "n_complete": 0,
+          "n_total": 2,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "pnl": -20
+        }
+      },
+      "strat": {
+        "id": "MWC_hk_1.2-1.45_p4_wr0.8",
+        "components": [
+          {
+            "sports": [
+              "ice-hockey"
+            ],
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.45,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.8,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "MWC_hk_1.2-1.45_p5_wr0.7",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 17,
+          "n_total": 36,
+          "compl": 47.2,
+          "avg_cap": 42.0,
+          "pnl": 354.6
+        },
+        "Apr": {
+          "n_complete": 2,
+          "n_total": 4,
+          "compl": 50.0,
+          "avg_cap": 47.4,
+          "pnl": 54.8
+        }
+      },
+      "strat": {
+        "id": "MWC_hk_1.2-1.45_p5_wr0.7",
+        "components": [
+          {
+            "sports": [
+              "ice-hockey"
+            ],
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.45,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "MWC_hk_1.2-1.45_p5_wr0.75",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 11,
+          "n_total": 25,
+          "compl": 44.0,
+          "avg_cap": 37.0,
+          "pnl": 156.9
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 3,
+          "compl": 33.3,
+          "avg_cap": 39.8,
+          "pnl": 9.8
+        }
+      },
+      "strat": {
+        "id": "MWC_hk_1.2-1.45_p5_wr0.75",
+        "components": [
+          {
+            "sports": [
+              "ice-hockey"
+            ],
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.45,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "MWC_hk_1.2-1.45_p5_wr0.8",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 6,
+          "n_total": 16,
+          "compl": 37.5,
+          "avg_cap": 37.0,
+          "pnl": 62.3
+        },
+        "Apr": {
+          "n_complete": 0,
+          "n_total": 2,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "pnl": -20
+        }
+      },
+      "strat": {
+        "id": "MWC_hk_1.2-1.45_p5_wr0.8",
+        "components": [
+          {
+            "sports": [
+              "ice-hockey"
+            ],
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.45,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.8,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "MWC_hk_1.25-1.5_p3_wr0.7",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 32,
+          "n_total": 55,
+          "compl": 58.2,
+          "avg_cap": 25.9,
+          "pnl": 279.5
+        },
+        "Apr": {
+          "n_complete": 4,
+          "n_total": 5,
+          "compl": 80.0,
+          "avg_cap": 26.0,
+          "pnl": 54.1
+        }
+      },
+      "strat": {
+        "id": "MWC_hk_1.25-1.5_p3_wr0.7",
+        "components": [
+          {
+            "sports": [
+              "ice-hockey"
+            ],
+            "market": "1x2",
+            "cote_min": 1.25,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "MWC_hk_1.25-1.5_p3_wr0.75",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 19,
+          "n_total": 35,
+          "compl": 54.3,
+          "avg_cap": 24.6,
+          "pnl": 116.5
+        },
+        "Apr": {
+          "n_complete": 2,
+          "n_total": 3,
+          "compl": 66.7,
+          "avg_cap": 24.1,
+          "pnl": 18.3
+        }
+      },
+      "strat": {
+        "id": "MWC_hk_1.25-1.5_p3_wr0.75",
+        "components": [
+          {
+            "sports": [
+              "ice-hockey"
+            ],
+            "market": "1x2",
+            "cote_min": 1.25,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "MWC_hk_1.25-1.5_p3_wr0.8",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 9,
+          "n_total": 19,
+          "compl": 47.4,
+          "avg_cap": 23.1,
+          "pnl": 18.2
+        },
+        "Apr": {
+          "n_complete": 0,
+          "n_total": 1,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "pnl": -10
+        }
+      },
+      "strat": {
+        "id": "MWC_hk_1.25-1.5_p3_wr0.8",
+        "components": [
+          {
+            "sports": [
+              "ice-hockey"
+            ],
+            "market": "1x2",
+            "cote_min": 1.25,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.8,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "MWC_hk_1.25-1.5_p4_wr0.7",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 24,
+          "n_total": 47,
+          "compl": 51.1,
+          "avg_cap": 35.9,
+          "pnl": 391.5
+        },
+        "Apr": {
+          "n_complete": 3,
+          "n_total": 4,
+          "compl": 75.0,
+          "avg_cap": 37.7,
+          "pnl": 73.1
+        }
+      },
+      "strat": {
+        "id": "MWC_hk_1.25-1.5_p4_wr0.7",
+        "components": [
+          {
+            "sports": [
+              "ice-hockey"
+            ],
+            "market": "1x2",
+            "cote_min": 1.25,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "MWC_hk_1.25-1.5_p4_wr0.75",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 15,
+          "n_total": 31,
+          "compl": 48.4,
+          "avg_cap": 34.1,
+          "pnl": 201.4
+        },
+        "Apr": {
+          "n_complete": 2,
+          "n_total": 3,
+          "compl": 66.7,
+          "avg_cap": 34.5,
+          "pnl": 39.1
+        }
+      },
+      "strat": {
+        "id": "MWC_hk_1.25-1.5_p4_wr0.75",
+        "components": [
+          {
+            "sports": [
+              "ice-hockey"
+            ],
+            "market": "1x2",
+            "cote_min": 1.25,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "MWC_hk_1.25-1.5_p4_wr0.8",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 7,
+          "n_total": 17,
+          "compl": 41.2,
+          "avg_cap": 32.5,
+          "pnl": 57.3
+        },
+        "Apr": {
+          "n_complete": 0,
+          "n_total": 1,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "pnl": -10
+        }
+      },
+      "strat": {
+        "id": "MWC_hk_1.25-1.5_p4_wr0.8",
+        "components": [
+          {
+            "sports": [
+              "ice-hockey"
+            ],
+            "market": "1x2",
+            "cote_min": 1.25,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.8,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "MWC_hk_1.25-1.5_p5_wr0.7",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 18,
+          "n_total": 40,
+          "compl": 45.0,
+          "avg_cap": 49.8,
+          "pnl": 496.1
+        },
+        "Apr": {
+          "n_complete": 2,
+          "n_total": 3,
+          "compl": 66.7,
+          "avg_cap": 51.9,
+          "pnl": 73.7
+        }
+      },
+      "strat": {
+        "id": "MWC_hk_1.25-1.5_p5_wr0.7",
+        "components": [
+          {
+            "sports": [
+              "ice-hockey"
+            ],
+            "market": "1x2",
+            "cote_min": 1.25,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "MWC_hk_1.25-1.5_p5_wr0.75",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 10,
+          "n_total": 27,
+          "compl": 37.0,
+          "avg_cap": 46.3,
+          "pnl": 193.2
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 2,
+          "compl": 50.0,
+          "avg_cap": 41.5,
+          "pnl": 21.4
+        }
+      },
+      "strat": {
+        "id": "MWC_hk_1.25-1.5_p5_wr0.75",
+        "components": [
+          {
+            "sports": [
+              "ice-hockey"
+            ],
+            "market": "1x2",
+            "cote_min": 1.25,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "MWC_hk_1.25-1.5_p5_wr0.8",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 5,
+          "n_total": 15,
+          "compl": 33.3,
+          "avg_cap": 41.9,
+          "pnl": 59.5
+        },
+        "Apr": {
+          "n_complete": 0,
+          "n_total": 1,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "pnl": -10
+        }
+      },
+      "strat": {
+        "id": "MWC_hk_1.25-1.5_p5_wr0.8",
+        "components": [
+          {
+            "sports": [
+              "ice-hockey"
+            ],
+            "market": "1x2",
+            "cote_min": 1.25,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.8,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "MWC_hk_1.3-1.55_p3_wr0.7",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 29,
+          "n_total": 50,
+          "compl": 58.0,
+          "avg_cap": 27.3,
+          "pnl": 290.5
+        },
+        "Apr": {
+          "n_complete": 3,
+          "n_total": 4,
+          "compl": 75.0,
+          "avg_cap": 28.4,
+          "pnl": 45.1
+        }
+      },
+      "strat": {
+        "id": "MWC_hk_1.3-1.55_p3_wr0.7",
+        "components": [
+          {
+            "sports": [
+              "ice-hockey"
+            ],
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "MWC_hk_1.3-1.55_p3_wr0.75",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 15,
+          "n_total": 30,
+          "compl": 50.0,
+          "avg_cap": 26.3,
+          "pnl": 94.5
+        },
+        "Apr": {
+          "n_complete": 2,
+          "n_total": 3,
+          "compl": 66.7,
+          "avg_cap": 27.2,
+          "pnl": 24.4
+        }
+      },
+      "strat": {
+        "id": "MWC_hk_1.3-1.55_p3_wr0.75",
+        "components": [
+          {
+            "sports": [
+              "ice-hockey"
+            ],
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "MWC_hk_1.3-1.55_p3_wr0.8",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 7,
+          "n_total": 17,
+          "compl": 41.2,
+          "avg_cap": 23.6,
+          "pnl": -4.8
+        },
+        "Apr": {
+          "n_complete": 0,
+          "n_total": 1,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "pnl": -10
+        }
+      },
+      "strat": {
+        "id": "MWC_hk_1.3-1.55_p3_wr0.8",
+        "components": [
+          {
+            "sports": [
+              "ice-hockey"
+            ],
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.8,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "MWC_hk_1.3-1.55_p4_wr0.7",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 22,
+          "n_total": 45,
+          "compl": 48.9,
+          "avg_cap": 37.8,
+          "pnl": 381.9
+        },
+        "Apr": {
+          "n_complete": 2,
+          "n_total": 3,
+          "compl": 66.7,
+          "avg_cap": 39.4,
+          "pnl": 48.8
+        }
+      },
+      "strat": {
+        "id": "MWC_hk_1.3-1.55_p4_wr0.7",
+        "components": [
+          {
+            "sports": [
+              "ice-hockey"
+            ],
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "MWC_hk_1.3-1.55_p4_wr0.75",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 11,
+          "n_total": 27,
+          "compl": 40.7,
+          "avg_cap": 37.0,
+          "pnl": 136.9
+        },
+        "Apr": {
+          "n_complete": 0,
+          "n_total": 1,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "pnl": -10
+        }
+      },
+      "strat": {
+        "id": "MWC_hk_1.3-1.55_p4_wr0.75",
+        "components": [
+          {
+            "sports": [
+              "ice-hockey"
+            ],
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "MWC_hk_1.3-1.55_p4_wr0.8",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 7,
+          "n_total": 17,
+          "compl": 41.2,
+          "avg_cap": 32.9,
+          "pnl": 60.0
+        },
+        "Apr": {
+          "n_complete": 0,
+          "n_total": 1,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "pnl": -10
+        }
+      },
+      "strat": {
+        "id": "MWC_hk_1.3-1.55_p4_wr0.8",
+        "components": [
+          {
+            "sports": [
+              "ice-hockey"
+            ],
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.8,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "MWC_hk_1.3-1.55_p5_wr0.7",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 15,
+          "n_total": 41,
+          "compl": 36.6,
+          "avg_cap": 53.4,
+          "pnl": 390.9
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 2,
+          "compl": 50.0,
+          "avg_cap": 59.4,
+          "pnl": 39.4
+        }
+      },
+      "strat": {
+        "id": "MWC_hk_1.3-1.55_p5_wr0.7",
+        "components": [
+          {
+            "sports": [
+              "ice-hockey"
+            ],
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "MWC_hk_1.3-1.55_p5_wr0.75",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 8,
+          "n_total": 24,
+          "compl": 33.3,
+          "avg_cap": 50.9,
+          "pnl": 167.6
+        },
+        "Apr": {
+          "n_complete": 0,
+          "n_total": 1,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "pnl": -10
+        }
+      },
+      "strat": {
+        "id": "MWC_hk_1.3-1.55_p5_wr0.75",
+        "components": [
+          {
+            "sports": [
+              "ice-hockey"
+            ],
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "MWC_hk_1.3-1.55_p5_wr0.8",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 3,
+          "n_total": 13,
+          "compl": 23.1,
+          "avg_cap": 42.8,
+          "pnl": -1.6
+        },
+        "Apr": {
+          "n_complete": 0,
+          "n_total": 1,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "pnl": -10
+        }
+      },
+      "strat": {
+        "id": "MWC_hk_1.3-1.55_p5_wr0.8",
+        "components": [
+          {
+            "sports": [
+              "ice-hockey"
+            ],
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.8,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 1
+        }
+      }
+    }
+  ],
+  "viable": [
+    {
+      "id": "MWC_over_1_5+over_2_5_1.2-1.4_l2_p2_wr0.75",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 59,
+          "n_total": 98,
+          "compl": 60.2,
+          "avg_cap": 26.1,
+          "pnl": 562.8
+        },
+        "Apr": {
+          "n_complete": 16,
+          "n_total": 23,
+          "compl": 69.6,
+          "avg_cap": 26.0,
+          "pnl": 185.3
+        }
+      },
+      "strat": {
+        "id": "MWC_over_1_5+over_2_5_1.2-1.4_l2_p2_wr0.75",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 2,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "MWC_btts+over_1_5+over_2_5_1.2-1.4_l2_p2_wr0.75",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 59,
+          "n_total": 98,
+          "compl": 60.2,
+          "avg_cap": 26.1,
+          "pnl": 562.2
+        },
+        "Apr": {
+          "n_complete": 16,
+          "n_total": 23,
+          "compl": 69.6,
+          "avg_cap": 25.9,
+          "pnl": 184.7
+        }
+      },
+      "strat": {
+        "id": "MWC_btts+over_1_5+over_2_5_1.2-1.4_l2_p2_wr0.75",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 2,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "MWC_over_1_5+over_2_5_1.2-1.4_l2_p2_wr0.7",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 61,
+          "n_total": 104,
+          "compl": 58.7,
+          "avg_cap": 26.4,
+          "pnl": 573.2
+        },
+        "Apr": {
+          "n_complete": 16,
+          "n_total": 26,
+          "compl": 61.5,
+          "avg_cap": 26.3,
+          "pnl": 161.2
+        }
+      },
+      "strat": {
+        "id": "MWC_over_1_5+over_2_5_1.2-1.4_l2_p2_wr0.7",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 2,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "MWC_btts+over_1_5+over_2_5_1.2-1.4_l2_p2_wr0.7",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 61,
+          "n_total": 104,
+          "compl": 58.7,
+          "avg_cap": 26.4,
+          "pnl": 573.2
+        },
+        "Apr": {
+          "n_complete": 16,
+          "n_total": 26,
+          "compl": 61.5,
+          "avg_cap": 26.3,
+          "pnl": 161.2
+        }
+      },
+      "strat": {
+        "id": "MWC_btts+over_1_5+over_2_5_1.2-1.4_l2_p2_wr0.7",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 2,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "MWC_btts+over_1_5+over_2_5_1.2-1.4_l2_p3_wr0.75",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 39,
+          "n_total": 91,
+          "compl": 42.9,
+          "avg_cap": 43.2,
+          "pnl": 775.9
+        },
+        "Apr": {
+          "n_complete": 11,
+          "n_total": 23,
+          "compl": 47.8,
+          "avg_cap": 44.0,
+          "pnl": 254.5
+        }
+      },
+      "strat": {
+        "id": "MWC_btts+over_1_5+over_2_5_1.2-1.4_l2_p3_wr0.75",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "MWC_over_1_5+over_2_5_1.2-1.4_l2_p3_wr0.75",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 38,
+          "n_total": 91,
+          "compl": 41.8,
+          "avg_cap": 43.1,
+          "pnl": 728.9
+        },
+        "Apr": {
+          "n_complete": 11,
+          "n_total": 23,
+          "compl": 47.8,
+          "avg_cap": 44.0,
+          "pnl": 254.5
+        }
+      },
+      "strat": {
+        "id": "MWC_over_1_5+over_2_5_1.2-1.4_l2_p3_wr0.75",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "MWC_over_1_5+over_2_5_1.2-1.35_l2_p2_wr0.8",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 49,
+          "n_total": 75,
+          "compl": 65.3,
+          "avg_cap": 24.3,
+          "pnl": 442.5
+        },
+        "Apr": {
+          "n_complete": 12,
+          "n_total": 17,
+          "compl": 70.6,
+          "avg_cap": 23.7,
+          "pnl": 114.5
+        }
+      },
+      "strat": {
+        "id": "MWC_over_1_5+over_2_5_1.2-1.35_l2_p2_wr0.8",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.35,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": 0.8,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 2,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "MWC_over_1_5+over_2_5_1.2-1.35_l2_p2_wr0.7",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 57,
+          "n_total": 94,
+          "compl": 60.6,
+          "avg_cap": 24.8,
+          "pnl": 475.2
+        },
+        "Apr": {
+          "n_complete": 14,
+          "n_total": 21,
+          "compl": 66.7,
+          "avg_cap": 24.4,
+          "pnl": 132.0
+        }
+      },
+      "strat": {
+        "id": "MWC_over_1_5+over_2_5_1.2-1.35_l2_p2_wr0.7",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.35,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 2,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "MWC_btts+over_1_5+over_2_5_1.2-1.35_l2_p2_wr0.7",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 57,
+          "n_total": 94,
+          "compl": 60.6,
+          "avg_cap": 24.8,
+          "pnl": 475.2
+        },
+        "Apr": {
+          "n_complete": 14,
+          "n_total": 21,
+          "compl": 66.7,
+          "avg_cap": 24.4,
+          "pnl": 132.0
+        }
+      },
+      "strat": {
+        "id": "MWC_btts+over_1_5+over_2_5_1.2-1.35_l2_p2_wr0.7",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.35,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 2,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "MWC_over_1_5+over_2_5_1.2-1.35_l2_p2_wr0.75",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 54,
+          "n_total": 88,
+          "compl": 61.4,
+          "avg_cap": 24.6,
+          "pnl": 450.1
+        },
+        "Apr": {
+          "n_complete": 14,
+          "n_total": 20,
+          "compl": 70.0,
+          "avg_cap": 24.4,
+          "pnl": 142.0
+        }
+      },
+      "strat": {
+        "id": "MWC_over_1_5+over_2_5_1.2-1.35_l2_p2_wr0.75",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.35,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 2,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "MWC_btts+over_1_5+over_2_5_1.2-1.35_l2_p2_wr0.75",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 54,
+          "n_total": 88,
+          "compl": 61.4,
+          "avg_cap": 24.6,
+          "pnl": 450.1
+        },
+        "Apr": {
+          "n_complete": 14,
+          "n_total": 20,
+          "compl": 70.0,
+          "avg_cap": 24.4,
+          "pnl": 142.0
+        }
+      },
+      "strat": {
+        "id": "MWC_btts+over_1_5+over_2_5_1.2-1.35_l2_p2_wr0.75",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.35,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 2,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "MWC_over_1_5+over_2_5_1.2-1.4_l2_p2_wr0.8",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 48,
+          "n_total": 78,
+          "compl": 61.5,
+          "avg_cap": 25.5,
+          "pnl": 445.8
+        },
+        "Apr": {
+          "n_complete": 12,
+          "n_total": 18,
+          "compl": 66.7,
+          "avg_cap": 25.2,
+          "pnl": 122.0
+        }
+      },
+      "strat": {
+        "id": "MWC_over_1_5+over_2_5_1.2-1.4_l2_p2_wr0.8",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": 0.8,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 2,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "MWC_btts+over_1_5+over_2_5_1.2-1.35_l2_p2_wr0.8",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 48,
+          "n_total": 75,
+          "compl": 64.0,
+          "avg_cap": 24.4,
+          "pnl": 419.7
+        },
+        "Apr": {
+          "n_complete": 12,
+          "n_total": 17,
+          "compl": 70.6,
+          "avg_cap": 23.7,
+          "pnl": 114.5
+        }
+      },
+      "strat": {
+        "id": "MWC_btts+over_1_5+over_2_5_1.2-1.35_l2_p2_wr0.8",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.35,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": 0.8,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 2,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "MWC_btts+over_1_5+over_2_5_1.2-1.4_l2_p2_wr0.8",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 48,
+          "n_total": 79,
+          "compl": 60.8,
+          "avg_cap": 25.6,
+          "pnl": 438.1
+        },
+        "Apr": {
+          "n_complete": 12,
+          "n_total": 18,
+          "compl": 66.7,
+          "avg_cap": 25.2,
+          "pnl": 122.0
+        }
+      },
+      "strat": {
+        "id": "MWC_btts+over_1_5+over_2_5_1.2-1.4_l2_p2_wr0.8",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": 0.8,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 2,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "MWC_btts+over_1_5+over_2_5_1.2-1.4_l3_p2_wr0.75",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 35,
+          "n_total": 86,
+          "compl": 40.7,
+          "avg_cap": 43.1,
+          "pnl": 647.5
+        },
+        "Apr": {
+          "n_complete": 10,
+          "n_total": 21,
+          "compl": 47.6,
+          "avg_cap": 42.9,
+          "pnl": 218.8
+        }
+      },
+      "strat": {
+        "id": "MWC_btts+over_1_5+over_2_5_1.2-1.4_l3_p2_wr0.75",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 2,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "MWC_over_1_5+over_2_5_1.2-1.4_l3_p2_wr0.7",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 37,
+          "n_total": 95,
+          "compl": 38.9,
+          "avg_cap": 43.5,
+          "pnl": 658.1
+        },
+        "Apr": {
+          "n_complete": 12,
+          "n_total": 24,
+          "compl": 50.0,
+          "avg_cap": 43.7,
+          "pnl": 284.2
+        }
+      },
+      "strat": {
+        "id": "MWC_over_1_5+over_2_5_1.2-1.4_l3_p2_wr0.7",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 2,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "MWC_over_1_5+over_2_5_1.2-1.4_l3_p2_wr0.75",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 34,
+          "n_total": 84,
+          "compl": 40.5,
+          "avg_cap": 43.0,
+          "pnl": 620.4
+        },
+        "Apr": {
+          "n_complete": 10,
+          "n_total": 20,
+          "compl": 50.0,
+          "avg_cap": 42.9,
+          "pnl": 228.8
+        }
+      },
+      "strat": {
+        "id": "MWC_over_1_5+over_2_5_1.2-1.4_l3_p2_wr0.75",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 2,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "MWC_btts+over_1_5+over_2_5_1.2-1.4_l3_p2_wr0.7",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 37,
+          "n_total": 96,
+          "compl": 38.5,
+          "avg_cap": 43.5,
+          "pnl": 648.1
+        },
+        "Apr": {
+          "n_complete": 11,
+          "n_total": 24,
+          "compl": 45.8,
+          "avg_cap": 43.4,
+          "pnl": 237.2
+        }
+      },
+      "strat": {
+        "id": "MWC_btts+over_1_5+over_2_5_1.2-1.4_l3_p2_wr0.7",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 2,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "MWC_btts+over_1_5+over_2_5_1.2-1.4_l2_p3_wr0.8",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 29,
+          "n_total": 68,
+          "compl": 42.6,
+          "avg_cap": 42.0,
+          "pnl": 538.2
+        },
+        "Apr": {
+          "n_complete": 8,
+          "n_total": 15,
+          "compl": 53.3,
+          "avg_cap": 41.8,
+          "pnl": 184.0
+        }
+      },
+      "strat": {
+        "id": "MWC_btts+over_1_5+over_2_5_1.2-1.4_l2_p3_wr0.8",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": 0.8,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "MWC_hk_1.25-1.5_p5_wr0.7",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 18,
+          "n_total": 40,
+          "compl": 45.0,
+          "avg_cap": 49.8,
+          "pnl": 496.1
+        },
+        "Apr": {
+          "n_complete": 2,
+          "n_total": 3,
+          "compl": 66.7,
+          "avg_cap": 51.9,
+          "pnl": 73.7
+        }
+      },
+      "strat": {
+        "id": "MWC_hk_1.25-1.5_p5_wr0.7",
+        "components": [
+          {
+            "sports": [
+              "ice-hockey"
+            ],
+            "market": "1x2",
+            "cote_min": 1.25,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "MWC_over_1_5+over_2_5_1.2-1.4_l2_p3_wr0.7",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 36,
+          "n_total": 98,
+          "compl": 36.7,
+          "avg_cap": 43.9,
+          "pnl": 600.8
+        },
+        "Apr": {
+          "n_complete": 11,
+          "n_total": 24,
+          "compl": 45.8,
+          "avg_cap": 45.0,
+          "pnl": 255.6
+        }
+      },
+      "strat": {
+        "id": "MWC_over_1_5+over_2_5_1.2-1.4_l2_p3_wr0.7",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "MWC_btts+over_1_5+over_2_5_1.2-1.4_l2_p3_wr0.7",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 36,
+          "n_total": 100,
+          "compl": 36.0,
+          "avg_cap": 44.0,
+          "pnl": 584.0
+        },
+        "Apr": {
+          "n_complete": 10,
+          "n_total": 25,
+          "compl": 40.0,
+          "avg_cap": 45.2,
+          "pnl": 201.7
+        }
+      },
+      "strat": {
+        "id": "MWC_btts+over_1_5+over_2_5_1.2-1.4_l2_p3_wr0.7",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "MWC_btts+over_1_5+over_2_5_1.2-1.35_l3_p2_wr0.7",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 33,
+          "n_total": 80,
+          "compl": 41.2,
+          "avg_cap": 39.0,
+          "pnl": 487.4
+        },
+        "Apr": {
+          "n_complete": 9,
+          "n_total": 18,
+          "compl": 50.0,
+          "avg_cap": 38.6,
+          "pnl": 167.2
+        }
+      },
+      "strat": {
+        "id": "MWC_btts+over_1_5+over_2_5_1.2-1.35_l3_p2_wr0.7",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.35,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 2,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "MWC_over_1_5+over_2_5_1.2-1.4_l2_p3_wr0.8",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 28,
+          "n_total": 68,
+          "compl": 41.2,
+          "avg_cap": 41.6,
+          "pnl": 486.1
+        },
+        "Apr": {
+          "n_complete": 8,
+          "n_total": 15,
+          "compl": 53.3,
+          "avg_cap": 41.8,
+          "pnl": 184.0
+        }
+      },
+      "strat": {
+        "id": "MWC_over_1_5+over_2_5_1.2-1.4_l2_p3_wr0.8",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": 0.8,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "MWC_hk_1.25-1.5_p4_wr0.7",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 24,
+          "n_total": 47,
+          "compl": 51.1,
+          "avg_cap": 35.9,
+          "pnl": 391.5
+        },
+        "Apr": {
+          "n_complete": 3,
+          "n_total": 4,
+          "compl": 75.0,
+          "avg_cap": 37.7,
+          "pnl": 73.1
+        }
+      },
+      "strat": {
+        "id": "MWC_hk_1.25-1.5_p4_wr0.7",
+        "components": [
+          {
+            "sports": [
+              "ice-hockey"
+            ],
+            "market": "1x2",
+            "cote_min": 1.25,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "MWC_btts+over_1_5+over_2_5_1.2-1.4_l3_p2_wr0.8",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 26,
+          "n_total": 62,
+          "compl": 41.9,
+          "avg_cap": 41.7,
+          "pnl": 464.5
+        },
+        "Apr": {
+          "n_complete": 7,
+          "n_total": 14,
+          "compl": 50.0,
+          "avg_cap": 40.9,
+          "pnl": 146.3
+        }
+      },
+      "strat": {
+        "id": "MWC_btts+over_1_5+over_2_5_1.2-1.4_l3_p2_wr0.8",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": 0.8,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 2,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "MWC_btts+over_1_5+over_2_5_1.2-1.35_l3_p2_wr0.75",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 30,
+          "n_total": 72,
+          "compl": 41.7,
+          "avg_cap": 39.0,
+          "pnl": 451.1
+        },
+        "Apr": {
+          "n_complete": 9,
+          "n_total": 16,
+          "compl": 56.2,
+          "avg_cap": 39.0,
+          "pnl": 191.4
+        }
+      },
+      "strat": {
+        "id": "MWC_btts+over_1_5+over_2_5_1.2-1.35_l3_p2_wr0.75",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.35,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 2,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "MWC_hk_1.3-1.55_p4_wr0.7",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 22,
+          "n_total": 45,
+          "compl": 48.9,
+          "avg_cap": 37.8,
+          "pnl": 381.9
+        },
+        "Apr": {
+          "n_complete": 2,
+          "n_total": 3,
+          "compl": 66.7,
+          "avg_cap": 39.4,
+          "pnl": 48.8
+        }
+      },
+      "strat": {
+        "id": "MWC_hk_1.3-1.55_p4_wr0.7",
+        "components": [
+          {
+            "sports": [
+              "ice-hockey"
+            ],
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "MWC_over_1_5+over_2_5_1.2-1.35_l3_p2_wr0.7",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 32,
+          "n_total": 80,
+          "compl": 40.0,
+          "avg_cap": 39.1,
+          "pnl": 450.6
+        },
+        "Apr": {
+          "n_complete": 9,
+          "n_total": 18,
+          "compl": 50.0,
+          "avg_cap": 38.6,
+          "pnl": 167.2
+        }
+      },
+      "strat": {
+        "id": "MWC_over_1_5+over_2_5_1.2-1.35_l3_p2_wr0.7",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.35,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 2,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "MWC_hk_1.3-1.55_p3_wr0.7",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 29,
+          "n_total": 50,
+          "compl": 58.0,
+          "avg_cap": 27.3,
+          "pnl": 290.5
+        },
+        "Apr": {
+          "n_complete": 3,
+          "n_total": 4,
+          "compl": 75.0,
+          "avg_cap": 28.4,
+          "pnl": 45.1
+        }
+      },
+      "strat": {
+        "id": "MWC_hk_1.3-1.55_p3_wr0.7",
+        "components": [
+          {
+            "sports": [
+              "ice-hockey"
+            ],
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "MWC_hk_1.2-1.45_p5_wr0.7",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 17,
+          "n_total": 36,
+          "compl": 47.2,
+          "avg_cap": 42.0,
+          "pnl": 354.6
+        },
+        "Apr": {
+          "n_complete": 2,
+          "n_total": 4,
+          "compl": 50.0,
+          "avg_cap": 47.4,
+          "pnl": 54.8
+        }
+      },
+      "strat": {
+        "id": "MWC_hk_1.2-1.45_p5_wr0.7",
+        "components": [
+          {
+            "sports": [
+              "ice-hockey"
+            ],
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.45,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "MWC_over_1_5+over_2_5_1.2-1.35_l3_p2_wr0.75",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 29,
+          "n_total": 72,
+          "compl": 40.3,
+          "avg_cap": 39.1,
+          "pnl": 414.3
+        },
+        "Apr": {
+          "n_complete": 9,
+          "n_total": 16,
+          "compl": 56.2,
+          "avg_cap": 39.0,
+          "pnl": 191.4
+        }
+      },
+      "strat": {
+        "id": "MWC_over_1_5+over_2_5_1.2-1.35_l3_p2_wr0.75",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.35,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 2,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "MWC_hk_1.25-1.5_p3_wr0.7",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 32,
+          "n_total": 55,
+          "compl": 58.2,
+          "avg_cap": 25.9,
+          "pnl": 279.5
+        },
+        "Apr": {
+          "n_complete": 4,
+          "n_total": 5,
+          "compl": 80.0,
+          "avg_cap": 26.0,
+          "pnl": 54.1
+        }
+      },
+      "strat": {
+        "id": "MWC_hk_1.25-1.5_p3_wr0.7",
+        "components": [
+          {
+            "sports": [
+              "ice-hockey"
+            ],
+            "market": "1x2",
+            "cote_min": 1.25,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "MWC_over_1_5+over_2_5_1.2-1.35_l2_p3_wr0.7",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 32,
+          "n_total": 84,
+          "compl": 38.1,
+          "avg_cap": 38.9,
+          "pnl": 405.0
+        },
+        "Apr": {
+          "n_complete": 9,
+          "n_total": 19,
+          "compl": 47.4,
+          "avg_cap": 38.2,
+          "pnl": 154.0
+        }
+      },
+      "strat": {
+        "id": "MWC_over_1_5+over_2_5_1.2-1.35_l2_p3_wr0.7",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.35,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "MWC_btts+over_1_5+over_2_5_1.2-1.35_l2_p3_wr0.7",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 32,
+          "n_total": 84,
+          "compl": 38.1,
+          "avg_cap": 38.9,
+          "pnl": 405.0
+        },
+        "Apr": {
+          "n_complete": 9,
+          "n_total": 19,
+          "compl": 47.4,
+          "avg_cap": 38.2,
+          "pnl": 154.0
+        }
+      },
+      "strat": {
+        "id": "MWC_btts+over_1_5+over_2_5_1.2-1.35_l2_p3_wr0.7",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.35,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "MWC_hk_1.2-1.45_p4_wr0.7",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 23,
+          "n_total": 43,
+          "compl": 53.5,
+          "avg_cap": 31.2,
+          "pnl": 286.7
+        },
+        "Apr": {
+          "n_complete": 2,
+          "n_total": 4,
+          "compl": 50.0,
+          "avg_cap": 34.9,
+          "pnl": 29.8
+        }
+      },
+      "strat": {
+        "id": "MWC_hk_1.2-1.45_p4_wr0.7",
+        "components": [
+          {
+            "sports": [
+              "ice-hockey"
+            ],
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.45,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "MWC_over_1_5+over_2_5_1.2-1.4_l3_p2_wr0.8",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 24,
+          "n_total": 62,
+          "compl": 38.7,
+          "avg_cap": 41.6,
+          "pnl": 378.9
+        },
+        "Apr": {
+          "n_complete": 7,
+          "n_total": 14,
+          "compl": 50.0,
+          "avg_cap": 40.9,
+          "pnl": 146.3
+        }
+      },
+      "strat": {
+        "id": "MWC_over_1_5+over_2_5_1.2-1.4_l3_p2_wr0.8",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": 0.8,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 2,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "MWC_hk_1.3-1.55_p5_wr0.7",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 15,
+          "n_total": 41,
+          "compl": 36.6,
+          "avg_cap": 53.4,
+          "pnl": 390.9
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 2,
+          "compl": 50.0,
+          "avg_cap": 59.4,
+          "pnl": 39.4
+        }
+      },
+      "strat": {
+        "id": "MWC_hk_1.3-1.55_p5_wr0.7",
+        "components": [
+          {
+            "sports": [
+              "ice-hockey"
+            ],
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.7,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "MWC_btts+over_1_5+over_2_5_1.2-1.35_l3_p2_wr0.8",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 24,
+          "n_total": 58,
+          "compl": 41.4,
+          "avg_cap": 38.5,
+          "pnl": 344.8
+        },
+        "Apr": {
+          "n_complete": 7,
+          "n_total": 13,
+          "compl": 53.8,
+          "avg_cap": 36.7,
+          "pnl": 127.2
+        }
+      },
+      "strat": {
+        "id": "MWC_btts+over_1_5+over_2_5_1.2-1.35_l3_p2_wr0.8",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.35,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": 0.8,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 2,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "MWC_over_1_5+over_2_5_1.2-1.35_l2_p3_wr0.75",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 30,
+          "n_total": 80,
+          "compl": 37.5,
+          "avg_cap": 38.8,
+          "pnl": 364.2
+        },
+        "Apr": {
+          "n_complete": 9,
+          "n_total": 17,
+          "compl": 52.9,
+          "avg_cap": 38.2,
+          "pnl": 174.0
+        }
+      },
+      "strat": {
+        "id": "MWC_over_1_5+over_2_5_1.2-1.35_l2_p3_wr0.75",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.35,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "MWC_btts+over_1_5+over_2_5_1.2-1.35_l2_p3_wr0.75",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 30,
+          "n_total": 80,
+          "compl": 37.5,
+          "avg_cap": 38.8,
+          "pnl": 364.2
+        },
+        "Apr": {
+          "n_complete": 9,
+          "n_total": 17,
+          "compl": 52.9,
+          "avg_cap": 38.2,
+          "pnl": 174.0
+        }
+      },
+      "strat": {
+        "id": "MWC_btts+over_1_5+over_2_5_1.2-1.35_l2_p3_wr0.75",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.35,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "MWC_over_1_5+over_2_5_1.2-1.35_l3_p2_wr0.8",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 24,
+          "n_total": 59,
+          "compl": 40.7,
+          "avg_cap": 38.5,
+          "pnl": 333.6
+        },
+        "Apr": {
+          "n_complete": 7,
+          "n_total": 13,
+          "compl": 53.8,
+          "avg_cap": 36.7,
+          "pnl": 127.2
+        }
+      },
+      "strat": {
+        "id": "MWC_over_1_5+over_2_5_1.2-1.35_l3_p2_wr0.8",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.35,
+            "sort_by": "wr",
+            "max_legs": 3,
+            "max_combos": 1,
+            "min_wr": 0.8,
+            "min_ev": null,
+            "legs_per_palier": 3
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 2,
+          "combo_legs_per_palier": 3
+        }
+      }
+    },
+    {
+      "id": "MWC_over_1_5+over_2_5_1.2-1.35_l2_p3_wr0.8",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 24,
+          "n_total": 64,
+          "compl": 37.5,
+          "avg_cap": 38.4,
+          "pnl": 282.3
+        },
+        "Apr": {
+          "n_complete": 8,
+          "n_total": 14,
+          "compl": 57.1,
+          "avg_cap": 38.2,
+          "pnl": 166.0
+        }
+      },
+      "strat": {
+        "id": "MWC_over_1_5+over_2_5_1.2-1.35_l2_p3_wr0.8",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.35,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": 0.8,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "MWC_btts+over_1_5+over_2_5_1.2-1.35_l2_p3_wr0.8",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 24,
+          "n_total": 65,
+          "compl": 36.9,
+          "avg_cap": 38.6,
+          "pnl": 275.5
+        },
+        "Apr": {
+          "n_complete": 8,
+          "n_total": 14,
+          "compl": 57.1,
+          "avg_cap": 38.2,
+          "pnl": 166.0
+        }
+      },
+      "strat": {
+        "id": "MWC_btts+over_1_5+over_2_5_1.2-1.35_l2_p3_wr0.8",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.35,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": 0.8,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "MWC_hk_1.25-1.5_p4_wr0.75",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 15,
+          "n_total": 31,
+          "compl": 48.4,
+          "avg_cap": 34.1,
+          "pnl": 201.4
+        },
+        "Apr": {
+          "n_complete": 2,
+          "n_total": 3,
+          "compl": 66.7,
+          "avg_cap": 34.5,
+          "pnl": 39.1
+        }
+      },
+      "strat": {
+        "id": "MWC_hk_1.25-1.5_p4_wr0.75",
+        "components": [
+          {
+            "sports": [
+              "ice-hockey"
+            ],
+            "market": "1x2",
+            "cote_min": 1.25,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.75,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 1
+        }
+      }
+    }
+  ]
+}

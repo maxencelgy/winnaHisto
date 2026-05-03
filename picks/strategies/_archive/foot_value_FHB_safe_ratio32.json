@@ -1,0 +1,32 @@
+{
+  "id": "foot_value_FHB_safe_ratio32",
+  "label": "⚽🏒🏀💎 Foot Value + Hockey/Basket Safe — ratio 3.18× S1+190€",
+  "description": "Strat multi-comp validée sur S1-26 + Avril : 1 foot value high (cote 1.7-2.0 sort EV) + 7 hockey safe (cote 1.20-1.40 wr 65%) + 2 basket safe (cote 1.20-1.40 wr 65%). Sizing 5%. PnL +190€, DD 60€, ratio 3.18 sur S1-26 OOS strict. Avril +5€ — pas le meilleur mois mais positif.",
+  "components": [
+    {"sport": "football", "market": "1x2",
+     "cote_min": 1.7, "cote_max": 2.0,
+     "sort_by": "ev", "max_legs": 1, "max_combos": 1,
+     "min_wr": null, "min_ev": null,
+     "label": "Foot value high"},
+    {"sport": "ice-hockey", "market": "1x2",
+     "cote_min": 1.20, "cote_max": 1.40,
+     "sort_by": "wr", "max_legs": 1, "max_combos": 7,
+     "min_wr": 0.65, "min_ev": null,
+     "label": "Hockey safe (7)"},
+    {"sport": "basketball", "market": "1x2",
+     "cote_min": 1.20, "cote_max": 1.40,
+     "sort_by": "wr", "max_legs": 1, "max_combos": 2,
+     "min_wr": 0.65, "min_ev": null,
+     "label": "Basket safe (2)"}
+  ],
+  "dedup": "max1",
+  "sizing": {"mode": "flat_pct", "pct": 0.05, "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict)",
+    "source": "find_strategies_v8_april",
+    "pnl": 190,
+    "ratio_pnl_dd": 3.18,
+    "april_pnl": 5,
+    "note": "Variante FHB classique avec foot value cote 1.7-2.0. Ratio 3.18, plus stable que kelly aggro."
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "MWS_OU_x4p_wr70_NEW_TOP_EV_359",
+  "label": "🪜⚽🇫🇷👑👑👑 Foot OU 1.5+2.5 ×4P WR≥70% cote 1.20-1.40 — NEW TOP EV 359",
+  "description": "★★★★★★ NEW TOP EV ABSOLU LIB : Foot OU 1.5+OU 2.5 single cote 1.20-1.40 **avec filtre WR≥70%**, 4 paliers. 60% completion S1-26 strict cap 26€/cycle. PnL +603€ S1 + Apr +186€. **EV pratique 359** — record absolu lib WFR.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football"], "market": "over_1_5,over_2_5",
+    "cote_min": 1.20, "cote_max": 1.40,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+    "min_wr": 0.70, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 10, "n_paliers_target": 4, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.60,
+    "avg_capital_complete": 26,
+    "pnl_net_s1": 603,
+    "april_pnl": 186,
+    "ev_pratique": 359,
+    "winamax_fr": true,
+    "note": "★★★★★★ NEW TOP EV 359 — filtre WR≥70% pousse encore. 60% completion + +603€ S1 + +186€ Apr."
+  }
+}

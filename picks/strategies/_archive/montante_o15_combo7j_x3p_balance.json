@@ -1,0 +1,28 @@
+{
+  "id": "montante_o15_combo7j_x3p_balance",
+  "label": "🪜⚽💎🎯 Over 1.5 combo 7j ×3P cote 1.10-1.22 — 12% +1077€ +560€ Apr",
+  "description": "Combo 7 jambes Over 1.5 cote 1.10-1.22, 3 paliers. 6/52 cycles (12%) cap 266€/cycle. PnL +1077€ S1-26 + Avril +560€. Le 3 paliers court permet 12% completion + bon dual S1+Apr. Cote palier ~2.55 (7×1.16) → ×3p = ×16 cap théorique.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football"], "market": "over_1_5",
+    "cote_min": 1.10, "cote_max": 1.22,
+    "sort_by": "wr", "max_legs": 7, "max_combos": 1,
+    "min_wr": null, "min_ev": null,
+    "legs_per_palier": 7
+  }],
+  "montante": {"initial_stake": 10, "n_paliers_target": 3, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 7},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict)",
+    "n_cycles_complete": 6,
+    "n_cycles_total": 52,
+    "completion_rate": 0.12,
+    "wr_palier_combo": 0.45,
+    "avg_capital_complete": 266,
+    "pnl_net_s1": 1077,
+    "april_pnl": 560,
+    "note": "Combo 7j ×3p : 12% completion + cap 266€. PnL +1077€ S1 + +560€ Apr. Le sweet spot court/multi-jambes."
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "montante_o15_combo10j_x4p_ULTIMATE",
+  "label": "🪜⚽💥🌟👑🎰 Over 1.5 combo 10j ×4P cote 1.10-1.25 — ULTIMATE +5162€ S1 +5532€ AVRIL",
+  "description": "★★★★★★★ ULTIMATE CHAMPION ABSOLUTE LIB : combo 10 jambes Over 1.5 buts cote 1.10-1.25 par leg, 4 paliers. 1/49 cycles complet (2%) sur S1-26 → cap **5652€**/cycle, **PnL +5162€** + **Avril +5532€** !!! Cote palier ~5.2 (10 jambes 1.18 = 5.23) → ×4p = ×740 capital théorique. WR par palier ~31% (combo 10j O 1.5 ultra-fav). Le SACRO-SAINT.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football"], "market": "over_1_5",
+    "cote_min": 1.10, "cote_max": 1.25,
+    "sort_by": "wr", "max_legs": 10, "max_combos": 1,
+    "min_wr": null, "min_ev": null,
+    "legs_per_palier": 10
+  }],
+  "montante": {"initial_stake": 10, "n_paliers_target": 4, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 10},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict)",
+    "n_cycles_complete": 1,
+    "n_cycles_total": 49,
+    "completion_rate": 0.02,
+    "wr_palier_combo": 0.31,
+    "avg_capital_complete": 5652,
+    "pnl_net_s1": 5162,
+    "april_pnl": 5532,
+    "note": "★★★★★★★ ULTIMATE TOP — +5162€ S1 + +5532€ Avril SEUL ! Le coup ultime : 1 cycle = 5652€ (×565 BR initial). Variance écrasante (2% completion) mais quand ça passe = la lottery."
+  }
+}

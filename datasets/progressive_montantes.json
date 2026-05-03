@@ -1,0 +1,448 @@
+[
+  {
+    "name": "Hockey progressive 3p",
+    "config": [
+      {
+        "sports": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.2,
+        "cote_max": 1.4,
+        "legs_per_palier": 1,
+        "sort_by": "wr"
+      },
+      {
+        "sports": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.3,
+        "cote_max": 1.55,
+        "legs_per_palier": 1,
+        "sort_by": "wr"
+      },
+      {
+        "sports": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.4,
+        "cote_max": 1.7,
+        "legs_per_palier": 1,
+        "sort_by": "wr"
+      }
+    ],
+    "n_complete": 34,
+    "n_total": 70,
+    "completion_rate": 0.4857142857142857,
+    "wr_palier": 0.7954545454545454,
+    "n_paliers_total": 176,
+    "avg_capital_complete": 27.23,
+    "final_pnl": 225.89
+  },
+  {
+    "name": "Foot O 1.5 progressive 3p",
+    "config": [
+      {
+        "sports": [
+          "football"
+        ],
+        "market": "over_1_5",
+        "cote_min": 1.1,
+        "cote_max": 1.25,
+        "legs_per_palier": 1,
+        "sort_by": "wr"
+      },
+      {
+        "sports": [
+          "football"
+        ],
+        "market": "over_1_5",
+        "cote_min": 1.25,
+        "cote_max": 1.45,
+        "legs_per_palier": 1,
+        "sort_by": "wr"
+      },
+      {
+        "sports": [
+          "football"
+        ],
+        "market": "over_1_5",
+        "cote_min": 1.4,
+        "cote_max": 1.65,
+        "legs_per_palier": 1,
+        "sort_by": "wr"
+      }
+    ],
+    "n_complete": 58,
+    "n_total": 97,
+    "completion_rate": 0.5979381443298969,
+    "wr_palier": 0.85,
+    "n_paliers_total": 260,
+    "avg_capital_complete": 21.33,
+    "final_pnl": 266.96
+  },
+  {
+    "name": "Foot O 1.5 progressive 4p",
+    "config": [
+      {
+        "sports": [
+          "football"
+        ],
+        "market": "over_1_5",
+        "cote_min": 1.1,
+        "cote_max": 1.25,
+        "legs_per_palier": 1,
+        "sort_by": "wr"
+      },
+      {
+        "sports": [
+          "football"
+        ],
+        "market": "over_1_5",
+        "cote_min": 1.2,
+        "cote_max": 1.4,
+        "legs_per_palier": 1,
+        "sort_by": "wr"
+      },
+      {
+        "sports": [
+          "football"
+        ],
+        "market": "over_1_5",
+        "cote_min": 1.3,
+        "cote_max": 1.5,
+        "legs_per_palier": 1,
+        "sort_by": "wr"
+      },
+      {
+        "sports": [
+          "football"
+        ],
+        "market": "over_1_5",
+        "cote_min": 1.45,
+        "cote_max": 1.7,
+        "legs_per_palier": 1,
+        "sort_by": "wr"
+      }
+    ],
+    "n_complete": 33,
+    "n_total": 70,
+    "completion_rate": 0.4714285714285714,
+    "wr_palier": 0.8384279475982532,
+    "n_paliers_total": 229,
+    "avg_capital_complete": 29.47,
+    "final_pnl": 272.45
+  },
+  {
+    "name": "Hockey single \u2192 combo 2j",
+    "config": [
+      {
+        "sports": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.2,
+        "cote_max": 1.4,
+        "legs_per_palier": 1,
+        "sort_by": "wr"
+      },
+      {
+        "sports": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.2,
+        "cote_max": 1.4,
+        "legs_per_palier": 2,
+        "sort_by": "wr"
+      },
+      {
+        "sports": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.25,
+        "cote_max": 1.45,
+        "legs_per_palier": 2,
+        "sort_by": "wr"
+      }
+    ],
+    "n_complete": 13,
+    "n_total": 32,
+    "completion_rate": 0.40625,
+    "wr_palier": 0.7564102564102564,
+    "n_paliers_total": 78,
+    "avg_capital_complete": 41.02,
+    "final_pnl": 213.32
+  },
+  {
+    "name": "Foot O 1.5 single \u2192 combo 2j \u2192 3j",
+    "config": [
+      {
+        "sports": [
+          "football"
+        ],
+        "market": "over_1_5",
+        "cote_min": 1.2,
+        "cote_max": 1.35,
+        "legs_per_palier": 1,
+        "sort_by": "wr"
+      },
+      {
+        "sports": [
+          "football"
+        ],
+        "market": "over_1_5",
+        "cote_min": 1.15,
+        "cote_max": 1.3,
+        "legs_per_palier": 2,
+        "sort_by": "wr"
+      },
+      {
+        "sports": [
+          "football"
+        ],
+        "market": "over_1_5",
+        "cote_min": 1.1,
+        "cote_max": 1.25,
+        "legs_per_palier": 3,
+        "sort_by": "wr"
+      }
+    ],
+    "n_complete": 38,
+    "n_total": 88,
+    "completion_rate": 0.4318181818181818,
+    "wr_palier": 0.7737556561085973,
+    "n_paliers_total": 221,
+    "avg_capital_complete": 26.83,
+    "final_pnl": 139.35
+  },
+  {
+    "name": "Multi-sport progressive 4p",
+    "config": [
+      {
+        "sports": [
+          "football",
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.2,
+        "cote_max": 1.4,
+        "legs_per_palier": 1,
+        "sort_by": "wr"
+      },
+      {
+        "sports": [
+          "football",
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.3,
+        "cote_max": 1.5,
+        "legs_per_palier": 1,
+        "sort_by": "wr"
+      },
+      {
+        "sports": [
+          "football",
+          "ice-hockey",
+          "basketball"
+        ],
+        "market": "1x2",
+        "cote_min": 1.35,
+        "cote_max": 1.55,
+        "legs_per_palier": 1,
+        "sort_by": "wr"
+      },
+      {
+        "sports": [
+          "football",
+          "ice-hockey",
+          "basketball"
+        ],
+        "market": "1x2",
+        "cote_min": 1.45,
+        "cote_max": 1.7,
+        "legs_per_palier": 1,
+        "sort_by": "wr"
+      }
+    ],
+    "n_complete": 38,
+    "n_total": 105,
+    "completion_rate": 0.3619047619047619,
+    "wr_palier": 0.7817589576547231,
+    "n_paliers_total": 307,
+    "avg_capital_complete": 38.75,
+    "final_pnl": 422.47
+  },
+  {
+    "name": "Foot xmkt progressive 3p",
+    "config": [
+      {
+        "sports": [
+          "football"
+        ],
+        "market": "over_1_5",
+        "cote_min": 1.2,
+        "cote_max": 1.35,
+        "legs_per_palier": 1,
+        "sort_by": "wr"
+      },
+      {
+        "sports": [
+          "football"
+        ],
+        "market": "over_2_5",
+        "cote_min": 1.4,
+        "cote_max": 1.65,
+        "legs_per_palier": 1,
+        "sort_by": "wr"
+      },
+      {
+        "sports": [
+          "football"
+        ],
+        "market": "btts",
+        "cote_min": 1.55,
+        "cote_max": 1.8,
+        "legs_per_palier": 1,
+        "sort_by": "wr"
+      }
+    ],
+    "n_complete": 38,
+    "n_total": 108,
+    "completion_rate": 0.35185185185185186,
+    "wr_palier": 0.7286821705426356,
+    "n_paliers_total": 258,
+    "avg_capital_complete": 30.43,
+    "final_pnl": 76.47
+  },
+  {
+    "name": "Foot O 1.5 prudent then aggro",
+    "config": [
+      {
+        "sports": [
+          "football"
+        ],
+        "market": "over_1_5",
+        "cote_min": 1.3,
+        "cote_max": 1.45,
+        "legs_per_palier": 1,
+        "sort_by": "wr"
+      },
+      {
+        "sports": [
+          "football"
+        ],
+        "market": "over_1_5",
+        "cote_min": 1.4,
+        "cote_max": 1.6,
+        "legs_per_palier": 1,
+        "sort_by": "wr"
+      },
+      {
+        "sports": [
+          "football"
+        ],
+        "market": "over_1_5",
+        "cote_min": 1.5,
+        "cote_max": 1.75,
+        "legs_per_palier": 1,
+        "sort_by": "wr"
+      }
+    ],
+    "n_complete": 31,
+    "n_total": 62,
+    "completion_rate": 0.5,
+    "wr_palier": 0.7933333333333333,
+    "n_paliers_total": 150,
+    "avg_capital_complete": 30.1,
+    "final_pnl": 313.0
+  },
+  {
+    "name": "Hockey aggressive then safer 3p",
+    "config": [
+      {
+        "sports": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.45,
+        "cote_max": 1.7,
+        "legs_per_palier": 1,
+        "sort_by": "wr"
+      },
+      {
+        "sports": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.3,
+        "cote_max": 1.5,
+        "legs_per_palier": 1,
+        "sort_by": "wr"
+      },
+      {
+        "sports": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.2,
+        "cote_max": 1.4,
+        "legs_per_palier": 1,
+        "sort_by": "wr"
+      }
+    ],
+    "n_complete": 39,
+    "n_total": 73,
+    "completion_rate": 0.5342465753424658,
+    "wr_palier": 0.7964071856287425,
+    "n_paliers_total": 167,
+    "avg_capital_complete": 26.61,
+    "final_pnl": 307.8
+  },
+  {
+    "name": "Foot p1 \u2192 Hockey p2 \u2192 Basket p3",
+    "config": [
+      {
+        "sports": [
+          "football"
+        ],
+        "market": "over_1_5",
+        "cote_min": 1.2,
+        "cote_max": 1.4,
+        "legs_per_palier": 1,
+        "sort_by": "wr"
+      },
+      {
+        "sports": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.25,
+        "cote_max": 1.5,
+        "legs_per_palier": 1,
+        "sort_by": "wr"
+      },
+      {
+        "sports": [
+          "basketball"
+        ],
+        "market": "1x2",
+        "cote_min": 1.3,
+        "cote_max": 1.55,
+        "legs_per_palier": 1,
+        "sort_by": "wr"
+      }
+    ],
+    "n_complete": 35,
+    "n_total": 85,
+    "completion_rate": 0.4117647058823529,
+    "wr_palier": 0.7607655502392344,
+    "n_paliers_total": 209,
+    "avg_capital_complete": 23.41,
+    "final_pnl": -30.57
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "id": "montante_xmkt_OU_combo3j_x2p_apr_record",
+  "label": "🪜⚽🇫🇷🌸 Foot OU 1.5+2.5 combo 3j ×2P cote 1.20-1.40 — APR RECORD +340€ !",
+  "description": "★★★★ NEW APR RECORD Winamax FR : Foot **OU 1.5 + OU 2.5** combo **3 jambes** par palier, **2 paliers**. 40% completion cap 44€/cycle. PnL **+740€** S1 + Apr **+340€** (NOUVEAU RECORD AVRIL lib WFR). Cote palier ~2.05 (3 jambes 1.27) → cycle ×4.2 cap théorique.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football"], "market": "over_1_5,over_2_5",
+    "cote_min": 1.20, "cote_max": 1.40,
+    "sort_by": "wr", "max_legs": 3, "max_combos": 1,
+    "min_wr": null, "min_ev": null,
+    "legs_per_palier": 3
+  }],
+  "montante": {"initial_stake": 10, "n_paliers_target": 2, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 3},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.40,
+    "avg_capital_complete": 44,
+    "pnl_net_s1": 740,
+    "april_pnl": 340,
+    "ev_pratique": 295,
+    "winamax_fr": true,
+    "note": "★★★★ AVRIL RECORD +340€ (best Apr lib WFR). Combo 3j OU + 2 paliers."
+  }
+}

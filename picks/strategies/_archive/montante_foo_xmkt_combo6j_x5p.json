@@ -1,0 +1,28 @@
+{
+  "id": "montante_foo_xmkt_combo6j_x5p",
+  "label": "🪜⚽🌐💎 Foot xmkt combo 6j ×5P cote 1.10-1.25 — +2572€ S1 (multi-market)",
+  "description": "Foot CROSS-MARKET (1x2 + BTTS + Over 1.5 + Over 2.5) combo 6 jambes cote 1.10-1.25, 5 paliers. 2/54 cycles (4%) cap 1556€/cycle. PnL +2572€ S1-26. Apr -120€ (Avril dur pour ce profil). Le multi-market enrichit le pool de picks pour atteindre 6 jambes par palier.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football"], "market": "1x2,btts,over_1_5,over_2_5",
+    "cote_min": 1.10, "cote_max": 1.25,
+    "sort_by": "wr", "max_legs": 6, "max_combos": 1,
+    "min_wr": null, "min_ev": null,
+    "legs_per_palier": 6
+  }],
+  "montante": {"initial_stake": 10, "n_paliers_target": 5, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 6},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict)",
+    "n_cycles_complete": 2,
+    "n_cycles_total": 54,
+    "completion_rate": 0.04,
+    "wr_palier_combo": 0.50,
+    "avg_capital_complete": 1556,
+    "pnl_net_s1": 2572,
+    "april_pnl": -120,
+    "note": "Foot xmkt combo 6j ×5p : multi-market (1x2+BTTS+OU). PnL S1 +2572€. Avril négatif (-120€) — profil pour S1 stable, pas Avril."
+  }
+}

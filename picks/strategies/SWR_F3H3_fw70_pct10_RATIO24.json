@@ -1,0 +1,29 @@
+{
+  "id": "SWR_F3H3_fw70_pct10_RATIO24",
+  "label": "🏒⚽🇫🇷👑👑👑 BTTS+OU F3+H3 WR≥70% pct10 — Ratio 24.3× DD 684€",
+  "description": "★★★★★ Variante conservatrice du record : 3 picks Foot BTTS+OU WR≥70% + 3 picks Hockey WR≥70%, sizing 10%. Ratio **24.3×**, BR×167, PnL +16644€, DD 684€ (moitié du F3H5). 506 combos. Pour qui veut le record ratio avec DD plus contenu.",
+  "components": [{
+    "sport": "football", "market": "btts,over_1_5,over_2_5",
+    "cote_min": 1.20, "cote_max": 1.40,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 3,
+    "min_wr": 0.70, "min_ev": null
+  }, {
+    "sport": "ice-hockey", "market": "1x2",
+    "cote_min": 1.20, "cote_max": 1.50,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 3,
+    "min_wr": 0.70, "min_ev": null
+  }],
+  "dedup": "max1",
+  "sizing": {"mode": "flat_pct", "pct": 0.10, "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "source": "find_wfr_strict_wr",
+    "pnl": 16644,
+    "bankroll_multiplier": 167.4,
+    "dd": 684,
+    "ratio_pnl_dd": 24.3,
+    "n_combos": 506,
+    "winamax_fr": true,
+    "note": "★★★★★ Sweet WR strict 70%. Ratio 24.3× avec DD divisé par 2 vs F3H5."
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "montante_o15_x3p_sweet_spot",
+  "label": "🪜⚽👑 Over 1.5 ×3P cote 1.20-1.40 — SWEET SPOT 63% completion +262€",
+  "description": "★★★ MEILLEUR SWEET SPOT (3 paliers) : Over 1.5 buts foot single, cote 1.20-1.40, sort par WR. 71/112 cycles complets (63%) sur S1-26 → PnL +262€. Avril 21/29 (72%) PnL +108€. La montante la plus FRÉQUEMMENT réussie de la lib pour 3 paliers — 'machine à sous' ultra-fiable.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football"], "market": "over_1_5",
+    "cote_min": 1.20, "cote_max": 1.40,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+    "min_wr": null, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 10, "n_paliers_target": 3, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict)",
+    "n_cycles_complete": 71,
+    "n_cycles_total": 112,
+    "completion_rate": 0.63,
+    "wr_palier": 0.86,
+    "avg_capital_complete": 20,
+    "pnl_net_s1": 262,
+    "april_pnl": 108,
+    "april_n_complete": 21,
+    "april_n_total": 29,
+    "april_completion": 0.72,
+    "note": "★★★ SWEET SPOT 3 PALIERS : 63% completion S1-26 + 72% Avril, capital 20€/cycle, PnL +262€ S1-26. Le profil 'lance-it-daily' le plus efficient pour qui veut atteindre la jauge."
+  }
+}

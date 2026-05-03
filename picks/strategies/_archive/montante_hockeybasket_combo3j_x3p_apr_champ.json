@@ -1,0 +1,28 @@
+{
+  "id": "montante_hockeybasket_combo3j_x3p_apr_champ",
+  "label": "🪜🏒🏀💎🌸 Hockey+Basket combo 3j ×3P cote 1.35-1.60 — APRIL CHAMP +291€",
+  "description": "★ AVRIL TOP PnL : Hockey+Basket combo 3 jambes cote 1.35-1.60 par leg, 3 paliers. Avril 2026 PnL +291€ — meilleur Apr de toutes les montantes. S1-26 5/88 cycles (6%) cap 268€/cycle PnL +457€. Cote palier ~3 → ×3p = ×27 cap théorique. Profil 'gros coup en NHL playoffs + NBA fin saison'.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["ice-hockey", "basketball"], "market": "1x2",
+    "cote_min": 1.35, "cote_max": 1.60,
+    "sort_by": "wr", "max_legs": 3, "max_combos": 1,
+    "min_wr": null, "min_ev": null,
+    "legs_per_palier": 3
+  }],
+  "montante": {"initial_stake": 10, "n_paliers_target": 3, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 3},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict)",
+    "n_cycles_complete": 5,
+    "n_cycles_total": 88,
+    "completion_rate": 0.06,
+    "wr_palier_combo": 0.42,
+    "avg_capital_complete": 268,
+    "pnl_net_s1": 457,
+    "april_pnl": 291,
+    "note": "★ AVRIL CHAMPION PnL +291€ — la meilleure montante du mois récent (NHL playoffs + NBA fin saison). Cap 268€/cycle. 6% completion mais quand ça passe, gros."
+  }
+}

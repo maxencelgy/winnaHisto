@@ -1,0 +1,466 @@
+{
+  "perfs": {
+    "montante_o25_x2p_TOP_PRACTICAL": {
+      "s1_pnl": 528.38,
+      "apr_pnl": 186.53,
+      "compl": 0.4375,
+      "n_complete": 49,
+      "n_total": 112
+    },
+    "montante_hockey_combo2j_x2p_TOP_PRACTICAL": {
+      "s1_pnl": 552.9,
+      "apr_pnl": 86.56,
+      "compl": 0.5178571428571429,
+      "n_complete": 29,
+      "n_total": 56
+    },
+    "montante_o15_combo2j_x2p_apr_freq": {
+      "s1_pnl": 365.28,
+      "apr_pnl": 160.1,
+      "compl": 0.5412844036697247,
+      "n_complete": 59,
+      "n_total": 109
+    },
+    "montante_o15_x4p_apr_winner": {
+      "s1_pnl": 269.1,
+      "apr_pnl": 166.06,
+      "compl": 0.5346534653465347,
+      "n_complete": 54,
+      "n_total": 101
+    },
+    "montante_hockey_combo2j_x2p_max_freq": {
+      "s1_pnl": 470.82,
+      "apr_pnl": 62.2,
+      "compl": 0.49056603773584906,
+      "n_complete": 26,
+      "n_total": 53
+    },
+    "montante_o15_x4p_top_completion": {
+      "s1_pnl": 421.26,
+      "apr_pnl": 186.1,
+      "compl": 0.5596330275229358,
+      "n_complete": 61,
+      "n_total": 109
+    },
+    "montante_hockeybasket_combo3j_x3p_practical": {
+      "s1_pnl": 419.13,
+      "apr_pnl": 91.29,
+      "compl": 0.46551724137931033,
+      "n_complete": 54,
+      "n_total": 116
+    },
+    "montante_btts_x2p_practical": {
+      "s1_pnl": 276.96,
+      "apr_pnl": 43.55,
+      "compl": 0.4396551724137931,
+      "n_complete": 51,
+      "n_total": 116
+    },
+    "montante_basket_combo2j_x2p_practical": {
+      "s1_pnl": 284.18,
+      "apr_pnl": -15.34,
+      "compl": 0.39759036144578314,
+      "n_complete": 33,
+      "n_total": 83
+    },
+    "montante_o15_x2p_66pct_safe": {
+      "s1_pnl": 300.99,
+      "apr_pnl": -18.21,
+      "compl": 0.6633663366336634,
+      "n_complete": 67,
+      "n_total": 101
+    }
+  },
+  "top_mixes_s1": [
+    {
+      "k": 3,
+      "profiles": [
+        "montante_o25_x2p_TOP_PRACTICAL",
+        "montante_o15_combo2j_x2p_apr_freq",
+        "montante_o15_x4p_top_completion"
+      ],
+      "s1_pnl": 1314.92,
+      "apr_pnl": 532.73,
+      "compl_avg": 0.5128058103975536,
+      "cycles_total": 169,
+      "capital": 30
+    },
+    {
+      "k": 3,
+      "profiles": [
+        "montante_o25_x2p_TOP_PRACTICAL",
+        "montante_o15_x4p_apr_winner",
+        "montante_o15_x4p_top_completion"
+      ],
+      "s1_pnl": 1218.74,
+      "apr_pnl": 538.69,
+      "compl_avg": 0.5105954976231568,
+      "cycles_total": 164,
+      "capital": 30
+    },
+    {
+      "k": 3,
+      "profiles": [
+        "montante_o25_x2p_TOP_PRACTICAL",
+        "montante_hockey_combo2j_x2p_TOP_PRACTICAL",
+        "montante_o15_x4p_top_completion"
+      ],
+      "s1_pnl": 1502.54,
+      "apr_pnl": 459.19000000000005,
+      "compl_avg": 0.5049967234600262,
+      "cycles_total": 139,
+      "capital": 30
+    },
+    {
+      "k": 3,
+      "profiles": [
+        "montante_o25_x2p_TOP_PRACTICAL",
+        "montante_o15_x4p_top_completion",
+        "montante_hockeybasket_combo3j_x3p_practical"
+      ],
+      "s1_pnl": 1368.77,
+      "apr_pnl": 463.92,
+      "compl_avg": 0.48755008963408203,
+      "cycles_total": 164,
+      "capital": 30
+    },
+    {
+      "k": 3,
+      "profiles": [
+        "montante_o25_x2p_TOP_PRACTICAL",
+        "montante_o15_combo2j_x2p_apr_freq",
+        "montante_o15_x4p_apr_winner"
+      ],
+      "s1_pnl": 1162.76,
+      "apr_pnl": 512.69,
+      "compl_avg": 0.5044792896720866,
+      "cycles_total": 162,
+      "capital": 30
+    },
+    {
+      "k": 3,
+      "profiles": [
+        "montante_o25_x2p_TOP_PRACTICAL",
+        "montante_hockey_combo2j_x2p_TOP_PRACTICAL",
+        "montante_o15_combo2j_x2p_apr_freq"
+      ],
+      "s1_pnl": 1446.56,
+      "apr_pnl": 433.19000000000005,
+      "compl_avg": 0.4988805155089559,
+      "cycles_total": 137,
+      "capital": 30
+    },
+    {
+      "k": 3,
+      "profiles": [
+        "montante_o25_x2p_TOP_PRACTICAL",
+        "montante_hockey_combo2j_x2p_max_freq",
+        "montante_o15_x4p_top_completion"
+      ],
+      "s1_pnl": 1420.46,
+      "apr_pnl": 434.83000000000004,
+      "compl_avg": 0.4958996884195949,
+      "cycles_total": 136,
+      "capital": 30
+    },
+    {
+      "k": 3,
+      "profiles": [
+        "montante_o25_x2p_TOP_PRACTICAL",
+        "montante_hockey_combo2j_x2p_TOP_PRACTICAL",
+        "montante_o15_x4p_apr_winner"
+      ],
+      "s1_pnl": 1350.38,
+      "apr_pnl": 439.15000000000003,
+      "compl_avg": 0.49667020273455914,
+      "cycles_total": 132,
+      "capital": 30
+    },
+    {
+      "k": 3,
+      "profiles": [
+        "montante_o15_combo2j_x2p_apr_freq",
+        "montante_o15_x4p_apr_winner",
+        "montante_o15_x4p_top_completion"
+      ],
+      "s1_pnl": 1055.6399999999999,
+      "apr_pnl": 512.26,
+      "compl_avg": 0.5451902988463985,
+      "cycles_total": 174,
+      "capital": 30
+    },
+    {
+      "k": 3,
+      "profiles": [
+        "montante_hockey_combo2j_x2p_TOP_PRACTICAL",
+        "montante_o15_combo2j_x2p_apr_freq",
+        "montante_o15_x4p_top_completion"
+      ],
+      "s1_pnl": 1339.44,
+      "apr_pnl": 432.76,
+      "compl_avg": 0.5395915246832678,
+      "cycles_total": 149,
+      "capital": 30
+    },
+    {
+      "k": 3,
+      "profiles": [
+        "montante_o25_x2p_TOP_PRACTICAL",
+        "montante_o15_combo2j_x2p_apr_freq",
+        "montante_hockeybasket_combo3j_x3p_practical"
+      ],
+      "s1_pnl": 1312.79,
+      "apr_pnl": 437.92,
+      "compl_avg": 0.4814338816830117,
+      "cycles_total": 162,
+      "capital": 30
+    },
+    {
+      "k": 3,
+      "profiles": [
+        "montante_o25_x2p_TOP_PRACTICAL",
+        "montante_o15_combo2j_x2p_apr_freq",
+        "montante_hockey_combo2j_x2p_max_freq"
+      ],
+      "s1_pnl": 1364.48,
+      "apr_pnl": 408.83,
+      "compl_avg": 0.4897834804685246,
+      "cycles_total": 134,
+      "capital": 30
+    },
+    {
+      "k": 3,
+      "profiles": [
+        "montante_hockey_combo2j_x2p_TOP_PRACTICAL",
+        "montante_o15_x4p_apr_winner",
+        "montante_o15_x4p_top_completion"
+      ],
+      "s1_pnl": 1243.26,
+      "apr_pnl": 438.72,
+      "compl_avg": 0.5373812119088711,
+      "cycles_total": 144,
+      "capital": 30
+    },
+    {
+      "k": 3,
+      "profiles": [
+        "montante_o25_x2p_TOP_PRACTICAL",
+        "montante_o15_x4p_apr_winner",
+        "montante_hockeybasket_combo3j_x3p_practical"
+      ],
+      "s1_pnl": 1216.6100000000001,
+      "apr_pnl": 443.88000000000005,
+      "compl_avg": 0.479223568908615,
+      "cycles_total": 157,
+      "capital": 30
+    },
+    {
+      "k": 3,
+      "profiles": [
+        "montante_o25_x2p_TOP_PRACTICAL",
+        "montante_hockey_combo2j_x2p_TOP_PRACTICAL",
+        "montante_hockeybasket_combo3j_x3p_practical"
+      ],
+      "s1_pnl": 1500.4099999999999,
+      "apr_pnl": 364.38000000000005,
+      "compl_avg": 0.4736247947454844,
+      "cycles_total": 132,
+      "capital": 30
+    },
+    {
+      "k": 3,
+      "profiles": [
+        "montante_o15_combo2j_x2p_apr_freq",
+        "montante_o15_x4p_top_completion",
+        "montante_hockeybasket_combo3j_x3p_practical"
+      ],
+      "s1_pnl": 1205.67,
+      "apr_pnl": 437.49,
+      "compl_avg": 0.5221448908573236,
+      "cycles_total": 174,
+      "capital": 30
+    },
+    {
+      "k": 3,
+      "profiles": [
+        "montante_o25_x2p_TOP_PRACTICAL",
+        "montante_o15_x4p_apr_winner",
+        "montante_hockey_combo2j_x2p_max_freq"
+      ],
+      "s1_pnl": 1268.3,
+      "apr_pnl": 414.79,
+      "compl_avg": 0.4875731676941279,
+      "cycles_total": 129,
+      "capital": 30
+    },
+    {
+      "k": 3,
+      "profiles": [
+        "montante_o25_x2p_TOP_PRACTICAL",
+        "montante_hockey_combo2j_x2p_TOP_PRACTICAL",
+        "montante_hockey_combo2j_x2p_max_freq"
+      ],
+      "s1_pnl": 1552.1,
+      "apr_pnl": 335.29,
+      "compl_avg": 0.4819743935309973,
+      "cycles_total": 104,
+      "capital": 30
+    },
+    {
+      "k": 3,
+      "profiles": [
+        "montante_o25_x2p_TOP_PRACTICAL",
+        "montante_o15_x4p_top_completion",
+        "montante_btts_x2p_practical"
+      ],
+      "s1_pnl": 1226.6,
+      "apr_pnl": 416.18,
+      "compl_avg": 0.47892939997890965,
+      "cycles_total": 161,
+      "capital": 30
+    },
+    {
+      "k": 3,
+      "profiles": [
+        "montante_o15_combo2j_x2p_apr_freq",
+        "montante_hockey_combo2j_x2p_max_freq",
+        "montante_o15_x4p_top_completion"
+      ],
+      "s1_pnl": 1257.36,
+      "apr_pnl": 408.4,
+      "compl_avg": 0.5304944896428365,
+      "cycles_total": 146,
+      "capital": 30
+    },
+    {
+      "k": 3,
+      "profiles": [
+        "montante_o15_x4p_apr_winner",
+        "montante_o15_x4p_top_completion",
+        "montante_hockeybasket_combo3j_x3p_practical"
+      ],
+      "s1_pnl": 1109.49,
+      "apr_pnl": 443.45,
+      "compl_avg": 0.5199345780829269,
+      "cycles_total": 169,
+      "capital": 30
+    },
+    {
+      "k": 3,
+      "profiles": [
+        "montante_hockey_combo2j_x2p_TOP_PRACTICAL",
+        "montante_o15_x4p_top_completion",
+        "montante_hockeybasket_combo3j_x3p_practical"
+      ],
+      "s1_pnl": 1393.29,
+      "apr_pnl": 363.95,
+      "compl_avg": 0.5143358039197963,
+      "cycles_total": 144,
+      "capital": 30
+    },
+    {
+      "k": 3,
+      "profiles": [
+        "montante_hockey_combo2j_x2p_TOP_PRACTICAL",
+        "montante_o15_combo2j_x2p_apr_freq",
+        "montante_o15_x4p_apr_winner"
+      ],
+      "s1_pnl": 1187.28,
+      "apr_pnl": 412.72,
+      "compl_avg": 0.5312650039578007,
+      "cycles_total": 142,
+      "capital": 30
+    },
+    {
+      "k": 3,
+      "profiles": [
+        "montante_o15_x4p_apr_winner",
+        "montante_hockey_combo2j_x2p_max_freq",
+        "montante_o15_x4p_top_completion"
+      ],
+      "s1_pnl": 1161.18,
+      "apr_pnl": 414.36,
+      "compl_avg": 0.5282841768684398,
+      "cycles_total": 141,
+      "capital": 30
+    },
+    {
+      "k": 3,
+      "profiles": [
+        "montante_hockey_combo2j_x2p_TOP_PRACTICAL",
+        "montante_hockey_combo2j_x2p_max_freq",
+        "montante_o15_x4p_top_completion"
+      ],
+      "s1_pnl": 1444.98,
+      "apr_pnl": 334.86,
+      "compl_avg": 0.5226854027053093,
+      "cycles_total": 116,
+      "capital": 30
+    },
+    {
+      "k": 3,
+      "profiles": [
+        "montante_o25_x2p_TOP_PRACTICAL",
+        "montante_hockey_combo2j_x2p_max_freq",
+        "montante_hockeybasket_combo3j_x3p_practical"
+      ],
+      "s1_pnl": 1418.33,
+      "apr_pnl": 340.02000000000004,
+      "compl_avg": 0.46452775970505317,
+      "cycles_total": 129,
+      "capital": 30
+    },
+    {
+      "k": 3,
+      "profiles": [
+        "montante_o25_x2p_TOP_PRACTICAL",
+        "montante_o15_combo2j_x2p_apr_freq",
+        "montante_btts_x2p_practical"
+      ],
+      "s1_pnl": 1170.62,
+      "apr_pnl": 390.18,
+      "compl_avg": 0.4728131920278393,
+      "cycles_total": 159,
+      "capital": 30
+    },
+    {
+      "k": 3,
+      "profiles": [
+        "montante_o15_combo2j_x2p_apr_freq",
+        "montante_o15_x4p_apr_winner",
+        "montante_hockeybasket_combo3j_x3p_practical"
+      ],
+      "s1_pnl": 1053.51,
+      "apr_pnl": 417.45,
+      "compl_avg": 0.5138183701318566,
+      "cycles_total": 167,
+      "capital": 30
+    },
+    {
+      "k": 3,
+      "profiles": [
+        "montante_hockey_combo2j_x2p_TOP_PRACTICAL",
+        "montante_o15_combo2j_x2p_apr_freq",
+        "montante_hockeybasket_combo3j_x3p_practical"
+      ],
+      "s1_pnl": 1337.31,
+      "apr_pnl": 337.95,
+      "compl_avg": 0.508219595968726,
+      "cycles_total": 142,
+      "capital": 30
+    },
+    {
+      "k": 3,
+      "profiles": [
+        "montante_hockey_combo2j_x2p_max_freq",
+        "montante_o15_x4p_top_completion",
+        "montante_hockeybasket_combo3j_x3p_practical"
+      ],
+      "s1_pnl": 1311.21,
+      "apr_pnl": 339.59000000000003,
+      "compl_avg": 0.505238768879365,
+      "cycles_total": 141,
+      "capital": 30
+    }
+  ]
+}

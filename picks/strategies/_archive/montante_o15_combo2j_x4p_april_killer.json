@@ -1,0 +1,26 @@
+{
+  "id": "montante_o15_combo2j_x4p_april_killer",
+  "label": "🪜⚽💎🌸 Over 1.5 combo 2j ×4P cote 1.10-1.25 — AVRIL KILLER (12/21)",
+  "description": "★★★ AVRIL CHAMPION ABSOLU FRÉQUENCE+CAPITAL : Over 1.5 buts foot combo 2 jambes par palier, cote 1.10-1.25 par leg, 4 paliers d'affilée. 12 cycles complets sur 21 (57% completion) en Avril 2026 → PnL +311€ ce mois. S1-26 PnL +271€. Combo 2j ultra-safe O 1.5 → cote palier ~1.45 → ×4 paliers = ×4.5 capital théorique.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football"], "market": "over_1_5",
+    "cote_min": 1.10, "cote_max": 1.25,
+    "sort_by": "ev", "max_legs": 2, "max_combos": 1,
+    "min_wr": null, "min_ev": null,
+    "legs_per_palier": 2
+  }],
+  "montante": {"initial_stake": 10, "n_paliers_target": 4, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 2},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict)",
+    "pnl_net_s1": 271,
+    "april_pnl": 311,
+    "april_n_complete": 12,
+    "april_n_total": 21,
+    "april_completion": 0.57,
+    "note": "★★★ AVRIL 2026 RECORD : 12 cycles complets / 21 = 57% completion mensuelle. PnL +311€ Avril seul, +271€ S1-26 entier. Le killer Avril."
+  }
+}

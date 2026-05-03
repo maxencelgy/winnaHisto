@@ -1,0 +1,25 @@
+{
+  "id": "montante_btts_x2p_practical",
+  "label": "🪜⚽🤝⭐ BTTS Oui ×2P cote 1.60-1.80 — 44% +277€ S1",
+  "description": "BTTS oui foot single cote 1.60-1.80, 2 paliers. **44% completion** (32/73). Cap 28€/cycle. PnL +277€ S1 + Apr +44€. Profil 'pari but contre but' simple et régulier.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football"], "market": "btts",
+    "cote_min": 1.60, "cote_max": 1.80,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+    "min_wr": null, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 10, "n_paliers_target": 2, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict)",
+    "completion_rate": 0.44,
+    "avg_capital_complete": 28,
+    "pnl_net_s1": 277,
+    "april_pnl": 44,
+    "note": "BTTS single mid-cote 1.60-1.80 court (2 paliers) → 44% completion. Premier profil BTTS-only montante."
+  }
+}

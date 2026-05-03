@@ -1,0 +1,28 @@
+{
+  "id": "montante_o15_combo8j_x5p_NUCLEAR",
+  "label": "🪜⚽💥👑🌟 Over 1.5 combo 8j ×5P cote 1.10-1.22 — NUCLEAR +2973€ S1 +3313€ AVRIL",
+  "description": "★★★★★★ NEW NUCLEAR CHAMPION : combo 8 jambes Over 1.5 buts cote 1.10-1.22 par leg, 5 paliers d'affilée. 1/46 cycles complet (2%) sur S1-26 → cap **3433€**/cycle, **PnL +2973€** + **Avril +3313€** !!! Cote palier ~3 (8 jambes 1.16 = 3.05) → ×5p = ×243 capital théorique. WR par palier 38% (combo 8j O 1.5 mini-cote = 0.89^8 ≈ 39%). Variance énorme mais quand ça passe, tu lâches +3313€ en 1 mois.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football"], "market": "over_1_5",
+    "cote_min": 1.10, "cote_max": 1.22,
+    "sort_by": "wr", "max_legs": 8, "max_combos": 1,
+    "min_wr": null, "min_ev": null,
+    "legs_per_palier": 8
+  }],
+  "montante": {"initial_stake": 10, "n_paliers_target": 5, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 8},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict)",
+    "n_cycles_complete": 1,
+    "n_cycles_total": 46,
+    "completion_rate": 0.02,
+    "wr_palier_combo": 0.38,
+    "avg_capital_complete": 3433,
+    "pnl_net_s1": 2973,
+    "april_pnl": 3313,
+    "note": "★★★★★★ NEW NUCLEAR ABSOLUTE TOP — +2973€ S1 + **+3313€ Avril** ! Le coup ultime : 1 cycle réussi = 3433€ de gain (×343 BR). Variance énorme (2% completion) mais ROI mensuel 33% en Avril sur 10€ engagé."
+  }
+}

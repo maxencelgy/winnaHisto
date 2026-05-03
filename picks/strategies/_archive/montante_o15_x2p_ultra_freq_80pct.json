@@ -1,0 +1,30 @@
+{
+  "id": "montante_o15_x2p_ultra_freq_80pct",
+  "label": "🪜⚽🏆 Over 1.5 ×2P ULTRA SAFE — 80% completion (RECORD ABSOLU)",
+  "description": "★★★ COMPLETION RECORD ABSOLU LIB : 80% (87/109) ! Over 1.5 buts foot cote 1.10-1.25, sort par EV. 2 paliers seulement → cycle ultra-court, ultra-fiable. PnL S1-26 +183€, Avril +110€ (25/26 cycles = 96% sur Avril !). LE bouton 'lance et oublie' — si tu en lances 1/jour pendant un mois, ça aboutit ~25 fois.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football"], "market": "over_1_5",
+    "cote_min": 1.10, "cote_max": 1.25,
+    "sort_by": "ev", "max_legs": 1, "max_combos": 1,
+    "min_wr": null, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 10, "n_paliers_target": 2, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict)",
+    "n_cycles_complete": 87,
+    "n_cycles_total": 109,
+    "completion_rate": 0.80,
+    "avg_capital_complete": 13,
+    "pnl_net_s1": 183,
+    "april_pnl": 110,
+    "april_n_complete": 25,
+    "april_n_total": 26,
+    "april_completion": 0.96,
+    "note": "★★★ RECORD COMPLETION 80% S1-26 / 96% AVRIL. 87 cycles complets sur 4 mois. Le profil 'lance-le quotidien sans réfléchir', vraie machine à sous solide."
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "montante_o15_x4p_apr_winner",
+  "label": "🪜⚽⭐🌸 Over 1.5 ×4P cote 1.20-1.35 — 54% +269€ S1 + +166€ AVRIL",
+  "description": "★ TOP AVRIL PRATIQUE : Over 1.5 single cote 1.20-1.35, 4 paliers. **54% completion** S1-26 (47/87) cap 28€/cycle. PnL +269€ S1 + **Apr +166€** (TOP avril des profils ≥40% completion). Compromis idéal palier moyen + completion haute.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football"], "market": "over_1_5",
+    "cote_min": 1.20, "cote_max": 1.35,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+    "min_wr": null, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 10, "n_paliers_target": 4, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict)",
+    "n_cycles_complete": 47,
+    "n_cycles_total": 87,
+    "completion_rate": 0.54,
+    "wr_palier": 0.86,
+    "avg_capital_complete": 28,
+    "pnl_net_s1": 269,
+    "april_pnl": 166,
+    "note": "★ TOP AVRIL pratique : 54% completion + +166€ Avril seul. Cap 28€/cycle × 47 cycles ≈ 12 cycles/mois. Profil 'lance-it-daily' efficient."
+  }
+}

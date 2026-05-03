@@ -1,0 +1,26 @@
+{
+  "id": "montante_hockey_x3_super_freq",
+  "label": "🪜🏒⚡🔥 Hockey ×3P SUPER FRÉQUENT — 71% completion (FAVORI ABSOLU)",
+  "description": "★ COMPLETION RECORD : 71% (17/24 cycles). Hockey single ×3 paliers cote 1.10-1.30. Capital 19€/cycle. ROI +36% modéré mais ÉNORMEMENT FRÉQUENT. La meilleure montante pour qui veut voir la barre verte tomber souvent. Lance-la chaque jour, ça aboutit ~7/10 fois.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["ice-hockey"], "market": "1x2",
+    "cote_min": 1.10, "cote_max": 1.30,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+    "min_wr": null, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 10, "n_paliers_target": 3, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict)",
+    "n_cycles_complete": 17,
+    "n_cycles_total": 24,
+    "completion_rate": 0.71,
+    "avg_capital_complete": 19,
+    "roi_pct": 36,
+    "note": "RECORD COMPLETION 71% (17/24). Capital modeste mais profil ultra-fiable, idéal lancement quotidien."
+  }
+}

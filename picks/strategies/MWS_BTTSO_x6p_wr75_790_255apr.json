@@ -1,0 +1,27 @@
+{
+  "id": "MWS_BTTSO_x6p_wr75_790_255apr",
+  "label": "🪜⚽🇫🇷🌸 Foot BTTS+OU ×6P WR≥75% cote 1.20-1.40 — +790€ S1 +255€ Avril",
+  "description": "★★★ TOP DUAL S1+Apr : Foot BTTS+OU 1.5+2.5 single cote 1.20-1.40 **WR≥75%**, 6 paliers. 43% completion cap 44€/cycle. PnL **+790€** S1 + Apr **+255€**. EV pratique 339. Le 6 paliers + WR strict produit du compounding lourd.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football"], "market": "btts,over_1_5,over_2_5",
+    "cote_min": 1.20, "cote_max": 1.40,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+    "min_wr": 0.75, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 10, "n_paliers_target": 6, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.43,
+    "avg_capital_complete": 44,
+    "pnl_net_s1": 790,
+    "april_pnl": 255,
+    "ev_pratique": 339,
+    "winamax_fr": true,
+    "note": "★★★ Best dual S1+Apr lib WFR avec WR strict. 6 paliers BTTS+OU WR≥75%."
+  }
+}

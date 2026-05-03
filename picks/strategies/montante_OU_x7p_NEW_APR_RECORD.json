@@ -1,0 +1,27 @@
+{
+  "id": "montante_OU_x7p_NEW_APR_RECORD",
+  "label": "🪜⚽🇫🇷🌸👑 Foot OU 1.5+2.5 ×7P cote 1.20-1.40 — NEW APR RECORD +339€",
+  "description": "★★★★★ NEW AVRIL RECORD ABSOLU lib : Foot OU 1.5+OU 2.5 single cote 1.20-1.40, **7 paliers** d'affilée. 30% completion S1 cap 57€/cycle. PnL +712€ S1 + Apr **+339€** (dépasse le précédent record +340€ OU combo3j à +1€ près = nouveau leader).",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football"], "market": "over_1_5,over_2_5",
+    "cote_min": 1.20, "cote_max": 1.40,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+    "min_wr": null, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 10, "n_paliers_target": 7, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.30,
+    "avg_capital_complete": 57,
+    "pnl_net_s1": 712,
+    "april_pnl": 339,
+    "ev_pratique": 216,
+    "winamax_fr": true,
+    "note": "★★★★★ NEW APR RECORD ABSOLU. 7 paliers single OU 1.5+2.5 cote 1.20-1.40."
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "foot_o15_mc3_pct8_BR81_WFR",
+  "label": "⚽🇫🇷🛡️ Foot Over 1.5 ×3 cote 1.4-1.65 WR≥65% pct8 — BR×8.1 ratio 11.2× DD 64€",
+  "description": "Variante sélective : 3 picks/jour (au lieu de 5), sizing 8%. BR×8.1, **ratio 11.2×** (le meilleur ratio AGGRO), DD seulement 64€, streak 2j max, 218 combos. Pour qui veut un ratio top tout en gardant un BR mult décent.",
+  "components": [{
+    "sport": "football", "market": "over_1_5",
+    "cote_min": 1.40, "cote_max": 1.65,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 3,
+    "min_wr": 0.65, "min_ev": null
+  }],
+  "dedup": "max1",
+  "sizing": {"mode": "flat_pct", "pct": 0.08, "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "source": "find_wfr_aggro_classics",
+    "pnl": 714,
+    "bankroll_multiplier": 8.1,
+    "dd": 64,
+    "ratio_pnl_dd": 11.2,
+    "streak_max": 2,
+    "n_combos": 218,
+    "winamax_fr": true,
+    "note": "Sélectif (3 picks/j) avec sizing 8%. Ratio 11.2× best aggro. DD bas (64€)."
+  }
+}

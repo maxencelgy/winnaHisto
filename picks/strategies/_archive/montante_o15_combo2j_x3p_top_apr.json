@@ -1,0 +1,30 @@
+{
+  "id": "montante_o15_combo2j_x3p_top_apr",
+  "label": "🪜⚽💎🌸 Over 1.5 combo 2j ×3P cote 1.15-1.30 — Apr +228€ S1 +440€",
+  "description": "DUAL CHAMPION : combo 2 jambes Over 1.5 buts cote 1.15-1.30, 3 paliers. PnL +440€ S1-26 + +228€ Avril seul (13/25 = 52%). Cote palier ~1.5 → ×3p = ×3.4 capital. 39% completion S1-26, capital 38€/cycle. Top profil 'duo S1+Avril' qui marche autant en récent qu'en historique.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football"], "market": "over_1_5",
+    "cote_min": 1.15, "cote_max": 1.30,
+    "sort_by": "ev", "max_legs": 2, "max_combos": 1,
+    "min_wr": null, "min_ev": null,
+    "legs_per_palier": 2
+  }],
+  "montante": {"initial_stake": 10, "n_paliers_target": 3, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 2},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict)",
+    "n_cycles_complete": 37,
+    "n_cycles_total": 95,
+    "completion_rate": 0.39,
+    "avg_capital_complete": 38,
+    "pnl_net_s1": 440,
+    "april_pnl": 228,
+    "april_n_complete": 13,
+    "april_n_total": 25,
+    "april_completion": 0.52,
+    "note": "★ DUAL CHAMP : meilleure combinaison S1+Avril. 440€ S1 + 228€ Avril net. Cycle moyen 38€, completion 39% global / 52% Avril."
+  }
+}

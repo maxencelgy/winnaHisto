@@ -1,0 +1,26 @@
+{
+  "id": "montante_o25_x2p_TOP_PRACTICAL",
+  "label": "🪜⚽⭐⚡ Over 2.5 ×2P cote 1.70-1.95 EV — TOP PRACTICAL 44% +528€ +186€ Avril",
+  "description": "★★★ TOP profil Over 2.5 buts foot. Single cote 1.70-1.95 sort EV, 2 paliers. **44% completion** (32/73 cycles) → cap 34€/cycle, **PnL +528€** S1-26 + **Apr +186€**. EV pratique 231 = parmi le TOP 5 lib. Le single Over 2.5 le plus profitable et le plus régulier.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football"], "market": "over_2_5",
+    "cote_min": 1.70, "cote_max": 1.95,
+    "sort_by": "ev", "max_legs": 1, "max_combos": 1,
+    "min_wr": null, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 10, "n_paliers_target": 2, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict)",
+    "completion_rate": 0.44,
+    "avg_capital_complete": 34,
+    "pnl_net_s1": 528,
+    "april_pnl": 186,
+    "ev_pratique": 231,
+    "note": "★★★ TOP single Over 2.5 lib. 44% completion S1 + +186€ Avril. Cote 1.70-1.95 = sweet spot mid-cote O 2.5. Sort EV trouve les value picks."
+  }
+}

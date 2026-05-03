@@ -1,0 +1,28 @@
+{
+  "id": "montante_over15_x15p_marathon",
+  "label": "🪜⚽🛡️🏃 Over 1.5 buts × 15 PALIERS marathon cote 1.20-1.35",
+  "description": "MARATHON ULTRA-SAFE : Over 1.5 buts foot cote 1.20-1.35. 15 paliers (!) intraday. Sport+market où le WR est 84%+ par jambe. Capital 273€/cycle. ROI S1-26 +118%. ★ AVRIL 2026 : 4/22 cycles (18%) → ROI +326% — exceptionnel sur le mois récent. Pour patient·e prêt·e à attendre la séquence parfaite.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football"], "market": "over_1_5",
+    "cote_min": 1.20, "cote_max": 1.35,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+    "min_wr": null, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 10, "n_paliers_target": 15, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict)",
+    "n_cycles_complete": 7,
+    "n_cycles_total": 87,
+    "completion_rate": 0.08,
+    "wr_palier": 0.84,
+    "avg_capital_complete": 273,
+    "roi_pct": 118,
+    "april_roi_pct": 326,
+    "note": "WR 84% par palier × 15 = 1.27^15 = 28× capital théorique. Réel = 27€ moyen, 8% completion. Avril 2026 4/22 cycles est exceptionnellement haut."
+  }
+}

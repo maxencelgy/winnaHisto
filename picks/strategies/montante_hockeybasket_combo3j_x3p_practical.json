@@ -1,0 +1,25 @@
+{
+  "id": "montante_hockeybasket_combo3j_x3p_practical",
+  "label": "🪜🏒🏀⭐ Hockey+Basket ×3P EV cote 1.35-1.55 — 47% +419€ S1 + +91€ Apr",
+  "description": "Hockey+Basket combo cote 1.35-1.55, sort EV, 3 paliers. **47% completion** (44/93). Cap 29€/cycle. PnL +419€ S1-26 + Apr +91€. Le mix multi-sport qui aboutit ~1 fois sur 2.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football", "ice-hockey", "basketball"], "market": "1x2",
+    "cote_min": 1.35, "cote_max": 1.55,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+    "min_wr": null, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 10, "n_paliers_target": 3, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict)",
+    "completion_rate": 0.47,
+    "avg_capital_complete": 29,
+    "pnl_net_s1": 419,
+    "april_pnl": 91,
+    "note": "Multi-sport 1x2 cote 1.35-1.55 ×3 paliers. 47% completion + Apr +91€. Pool de picks large (3 sports) → fréquence haute."
+  }
+}

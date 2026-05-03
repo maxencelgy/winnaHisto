@@ -1,0 +1,28 @@
+{
+  "id": "montante_hockey_combo2j_x4p_balance_v7",
+  "label": "🪜🏒💎⚖️ Hockey combo 2j ×4P cote 1.30-1.60 — +1031€ S1 (BALANCE NEW)",
+  "description": "★ EXCELLENT BALANCE Hockey : combo 2 jambes cote 1.30-1.60 par leg, 4 paliers. 8/67 cycles (12%) cap **213€**/cycle. PnL +1031€ S1-26 + Apr +314€. Meilleur PnL Hockey single-sport de la lib. WR palier 59%, cote palier ~2 → ×4p = ×16 cap théorique.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["ice-hockey"], "market": "1x2",
+    "cote_min": 1.30, "cote_max": 1.60,
+    "sort_by": "wr", "max_legs": 2, "max_combos": 1,
+    "min_wr": null, "min_ev": null,
+    "legs_per_palier": 2
+  }],
+  "montante": {"initial_stake": 10, "n_paliers_target": 4, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 2},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict)",
+    "n_cycles_complete": 8,
+    "n_cycles_total": 67,
+    "completion_rate": 0.12,
+    "wr_palier_combo": 0.59,
+    "avg_capital_complete": 213,
+    "pnl_net_s1": 1031,
+    "april_pnl": 314,
+    "note": "★ Top Hockey single-sport monté 4 paliers avec combo 2j cote 1.30-1.60. PnL +1031€ S1 + +314€ Avril. 12% completion = ~2 cycles/mois."
+  }
+}

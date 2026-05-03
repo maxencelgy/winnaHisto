@@ -1,0 +1,28 @@
+{
+  "id": "montante_o15_combo4j_x7p_TOP_ABSOLUTE",
+  "label": "🪜⚽💎👑🔥 Over 1.5 combo 4j ×7P cote 1.08-1.20 — TOP ABSOLU +1251€",
+  "description": "★★★★ NOUVEAU CHAMPION PnL NET ABSOLU LIB : Over 1.5 buts foot combo 4 jambes par palier cote 1.08-1.20 par leg, 7 paliers d'affilée. 3/49 cycles complets (6%) sur S1-26 → cap 580€/cycle, **PnL +1251€**. Apr +433€ (mois positif). Cote palier ~1.55 (4 jambes 1.12 = 1.57) → ×7p = ×17 capital théorique. WR par palier 62% (combo 4j O 1.5 mini-cote = chaque jambe 89%, combo = 0.89^4 = 63%).",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football"], "market": "over_1_5",
+    "cote_min": 1.08, "cote_max": 1.20,
+    "sort_by": "wr", "max_legs": 4, "max_combos": 1,
+    "min_wr": null, "min_ev": null,
+    "legs_per_palier": 4
+  }],
+  "montante": {"initial_stake": 10, "n_paliers_target": 7, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 4},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict)",
+    "n_cycles_complete": 3,
+    "n_cycles_total": 49,
+    "completion_rate": 0.06,
+    "wr_palier_combo": 0.62,
+    "avg_capital_complete": 580,
+    "pnl_net_s1": 1251,
+    "april_pnl": 433,
+    "note": "★★★★ TOP ABSOLU lib +1251€. Combo 4j Over 1.5 ultra-fav cote 1.08-1.20 → palier ~1.55. 6% completion mais cap 580€/cycle = +5800% par cycle réussi."
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "foot_pure_o15_safe_ratio57",
+  "label": "⚽🛡️📈 Foot Over 1.5 PURE — ratio 5.7× DD 34€ (single market)",
+  "description": "Stratégie 100% foot Over 1.5 buts, cote 1.40-1.65, WR ≥ 65%, 3 picks max/jour, sizing 5% BR. Pas de combos. PnL +198€, DD 34€, ratio **5.73** sur S1-26 OOS strict — meilleur ratio de tous les sweeps mono-market. Streak rouge max 4j. Profil 'simple, robuste, single-market' : pour qui veut du Over 1.5 sans diversification.",
+  "components": [{
+    "sport": "football", "market": "over_1_5",
+    "cote_min": 1.40, "cote_max": 1.65,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 3,
+    "min_wr": 0.65, "min_ev": null
+  }],
+  "dedup": "max1",
+  "sizing": {"mode": "flat_pct", "pct": 0.05, "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict)",
+    "source": "find_strategies_v7 sweep",
+    "pnl": 198,
+    "roi_pct": 9,
+    "bankroll_multiplier": 3.0,
+    "dd": 34,
+    "streak_max": 4,
+    "n_combos": 229,
+    "ratio_pnl_dd": 5.73,
+    "note": "Profil pure single-market O 1.5. DD très bas (34€), streak 4j court. BR×3 modeste mais ratio exceptionnel."
+  }
+}

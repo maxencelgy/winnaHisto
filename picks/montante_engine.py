@@ -20,10 +20,11 @@ WHITELIST = {
 REJECT = ["doubles","qualifying","u23","u21","u19","u18","reserve","youth","next pro","regionalliga","série c","i-league","exhibition"]
 
 
-def _lok(sport, lg):
+def _lok(sport, lg, excluded=None):
     if not lg: return False
     l = lg.lower()
     if any(r in l for r in REJECT): return False
+    if excluded and any(e in l for e in excluded): return False
     return any(p in l for p in WHITELIST.get(sport, []))
 
 
@@ -53,13 +54,15 @@ def _gen_days(start, end):
 
 
 def simulate(strategy, start_date, end_date, mode="interday", initial_stake=10,
-              use_oos_magic=True):
+              use_oos_magic=True, excluded_leagues=None):
     """Simule une montante.
     strategy : dict avec components[0] = {sports, market, cote_min, cote_max, sort_by, min_wr}
                 + montante = {n_paliers_target, ...}
     mode : "interday" (1 palier/jour) ou "intraday" (N paliers/jour)
     initial_stake : € de départ par cycle
+    excluded_leagues : list de substrings (lowercase) — exclut les ligues correspondantes.
     """
+    excl = [e.lower() for e in (excluded_leagues or []) if e and e.strip()]
     magic = _load_magic(use_oos=use_oos_magic)
     comp = strategy["components"][0]
     montante_cfg = strategy.get("montante", {})
@@ -70,7 +73,6 @@ def simulate(strategy, start_date, end_date, mode="interday", initial_stake=10,
     sort_by = comp.get("sort_by", "wr")
     min_wr = comp.get("min_wr")
     min_ev = comp.get("min_ev")
-    # Combo par palier : 1 = single, 2 = combo 2 jambes par palier, etc.
     legs_per_palier = montante_cfg.get("combo_legs_per_palier") or comp.get("legs_per_palier") or comp.get("max_legs", 1)
     # Charger magic extended si on a des markets non-1x2
     magic_ext = None
@@ -113,7 +115,7 @@ def simulate(strategy, start_date, end_date, mode="interday", initial_stake=10,
     for d in days:
         idx = _get_index()
         ms = idx.get(d, [])
-        ms = [m for m in ms if m["sport"] in sports and _lok(m["sport"], m.get("league",""))]
+        ms = [m for m in ms if m["sport"] in sports and _lok(m["sport"], m.get("league",""), excluded=excl)]
         if not ms:
             continue
         picks = []
@@ -196,9 +198,15 @@ def simulate(strategy, start_date, end_date, mode="interday", initial_stake=10,
             else:
                 reset_cycle("loss")
 
-        elif mode == "intraday":
-            # Ordonner picks du jour par start_time
-            picks_sorted = sorted(picks, key=lambda p: p.get("start_time") or 0)
+        elif mode in ("intraday", "intraday_wr"):
+            # Mode "intraday"     : ordonné chronologiquement (start_time) — orig
+            # Mode "intraday_wr"  : trie par WR/EV décroissant, pas par chrono.
+            #                       Note : les picks sont déjà triés par WR/EV plus haut (lignes 142-143)
+            if mode == "intraday":
+                picks_sorted = sorted(picks, key=lambda p: p.get("start_time") or 0)
+            else:
+                # Garde le tri WR/EV existant — picks est déjà trié plus haut
+                picks_sorted = list(picks)
             # Dédup par match (1 pick par match max)
             seen_matches = set()
             picks_unique = []

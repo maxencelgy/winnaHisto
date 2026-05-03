@@ -1,0 +1,28 @@
+{
+  "id": "montante_o15_combo2j_x2p_apr_freq",
+  "label": "🪜⚽⚡⭐ Over 1.5 combo 2j ×2P cote 1.20-1.40 — 54% +365€ S1 + +160€ Avril",
+  "description": "★ DUAL CHAMP PRATIQUE : Over 1.5 buts foot combo 2 jambes cote 1.20-1.40, 2 paliers. **54% completion** (49/91 cycles) sur S1-26 → cap 25€/cycle, PnL +365€ + **Apr +160€** (excellent dual). Le combo court qui aboutit plus d'1 fois sur 2 ET fait du PnL Avril solide.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football"], "market": "over_1_5",
+    "cote_min": 1.20, "cote_max": 1.40,
+    "sort_by": "wr", "max_legs": 2, "max_combos": 1,
+    "min_wr": null, "min_ev": null,
+    "legs_per_palier": 2
+  }],
+  "montante": {"initial_stake": 10, "n_paliers_target": 2, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 2},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict)",
+    "n_cycles_complete": 49,
+    "n_cycles_total": 91,
+    "completion_rate": 0.54,
+    "wr_palier_combo": 0.74,
+    "avg_capital_complete": 25,
+    "pnl_net_s1": 365,
+    "april_pnl": 160,
+    "note": "★ Dual-strong : 54% completion + +160€ Avril ! 49 cycles complets / 91 cycles tentés en 4 mois = ~12/mois."
+  }
+}

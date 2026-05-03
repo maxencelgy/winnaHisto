@@ -1,0 +1,25 @@
+{
+  "id": "foot_o15_mc5_pct7_BR135_WFR",
+  "label": "⚽🇫🇷💎 Foot Over 1.5 ×5 cote 1.4-1.65 WR≥65% pct7 — BR×13.5 ratio 10.9× SWEET SPOT",
+  "description": "★ SWEET SPOT puissance/sécurité : Foot Over 1.5 cote 1.40-1.65 WR≥65%, 5 picks/jour, sizing **7%**. BR×13.5 (PnL +1253€), DD 115€, **ratio 10.9×**, streak 2j max. Compromis idéal entre BR×19 (sizing 8%, DD 184€) et BR×6.7 (sizing 5%, DD 40€).",
+  "components": [{
+    "sport": "football", "market": "over_1_5",
+    "cote_min": 1.40, "cote_max": 1.65,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 5,
+    "min_wr": 0.65, "min_ev": null
+  }],
+  "dedup": "max1",
+  "sizing": {"mode": "flat_pct", "pct": 0.07, "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "source": "find_wfr_aggro_classics",
+    "pnl": 1253,
+    "bankroll_multiplier": 13.5,
+    "dd": 115,
+    "ratio_pnl_dd": 10.9,
+    "streak_max": 2,
+    "n_combos": 290,
+    "winamax_fr": true,
+    "note": "Sweet spot sizing 7%. Meilleur ratio 10.9× avec BR×13.5 — best compromis lib WFR."
+  }
+}

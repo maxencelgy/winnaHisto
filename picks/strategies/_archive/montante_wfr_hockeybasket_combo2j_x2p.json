@@ -1,0 +1,26 @@
+{
+  "id": "montante_wfr_hockeybasket_combo2j_x2p",
+  "label": "🪜🏒🏀🇫🇷 Hockey+Basket combo 2j ×2P cote 1.30-1.50 EV — WFR 41% +550€",
+  "description": "Hockey+Basket combo 2 jambes cote 1.30-1.50 sort EV, 2 paliers. **41% completion** Winamax FR strict cap 39€/cycle. PnL +550€ S1-26. Avril -24€ (mois faible pour ce profil). Différent de la version combo 3j ×3p existante (paliers + court, completion +).",
+  "mode": "montante",
+  "components": [{
+    "sports": ["ice-hockey", "basketball"], "market": "1x2",
+    "cote_min": 1.30, "cote_max": 1.50,
+    "sort_by": "ev", "max_legs": 2, "max_combos": 1,
+    "min_wr": null, "min_ev": null,
+    "legs_per_palier": 2
+  }],
+  "montante": {"initial_stake": 10, "n_paliers_target": 2, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 2},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.41,
+    "avg_capital_complete": 39,
+    "pnl_net_s1": 550,
+    "april_pnl": -24,
+    "winamax_fr": true,
+    "note": "Hockey+Basket combo 2j cote 1.30-1.50 EV — 41% completion. NHL playoffs + NBA + EuroLeague."
+  }
+}

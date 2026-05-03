@@ -129,8 +129,10 @@ def build_combos(picks, max_legs, cote_min, cote_max, max_count=20, sort_by="ev"
 
 
 # ── Apply strategy ──────────────────────────────────────────────────────
-def apply_strategy(strategy, picks_data, bankroll, magic=None):
-    """Retourne dict avec combos sélectionnés + stakes."""
+def apply_strategy(strategy, picks_data, bankroll, magic=None, excluded_leagues=None):
+    """Retourne dict avec combos sélectionnés + stakes.
+    excluded_leagues : list de substrings (lowercase) — exclut tout pick dont la ligue contient un de ces patterns.
+    """
     magic = magic or Magic()
     sizing = strategy.get("sizing", {"mode": "flat_pct", "pct": 0.10, "min_stake": 0.5})
     dedup = strategy.get("dedup", "none")
@@ -141,6 +143,12 @@ def apply_strategy(strategy, picks_data, bankroll, magic=None):
     all_picks = []
     for ev in events:
         all_picks.extend(extract_event_picks(ev, magic))
+
+    # Filtrage par ligues exclues
+    if excluded_leagues:
+        excl = [e.lower() for e in excluded_leagues if e.strip()]
+        all_picks = [p for p in all_picks
+                     if not any(e in (p.get("league","").lower()) for e in excl)]
 
     used_pick_keys = Counter()
     used_matches = set()

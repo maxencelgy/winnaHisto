@@ -1,0 +1,27 @@
+{
+  "id": "montante_wfr_xmkt_combo3j_x2p_apr_champ",
+  "label": "🪜⚽🇫🇷🌸 Foot xmkt combo 3j ×2P cote 1.20-1.40 — APRIL CHAMP +270€",
+  "description": "★ TOP AVRIL Winamax FR : Foot xmkt combo **3 jambes** ×**2 paliers** cote 1.20-1.40. 39% completion cap 43€/cycle. PnL +705€ S1 + Apr **+270€** ! Le combo 3j ×2p extrait plus de valeur du pool xmkt. Profil 'gros coup' qui aboutit ~1 fois sur 3.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football"], "market": "1x2,btts,over_1_5,over_2_5",
+    "cote_min": 1.20, "cote_max": 1.40,
+    "sort_by": "wr", "max_legs": 3, "max_combos": 1,
+    "min_wr": null, "min_ev": null,
+    "legs_per_palier": 3
+  }],
+  "montante": {"initial_stake": 10, "n_paliers_target": 2, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 3},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.39,
+    "avg_capital_complete": 43,
+    "pnl_net_s1": 705,
+    "april_pnl": 270,
+    "ev_pratique": 273,
+    "winamax_fr": true,
+    "note": "★ AVRIL CHAMP +270€. Combo 3j xmkt ×2p — cote palier ~2.2 → cycle ×4.8 cap théorique."
+  }
+}

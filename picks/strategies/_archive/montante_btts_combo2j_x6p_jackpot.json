@@ -1,0 +1,27 @@
+{
+  "id": "montante_btts_combo2j_x6p_jackpot",
+  "label": "🪜⚽💎 BTTS combo 2j ×6P cote 1.55-1.80 — cap 6876€/cycle",
+  "description": "BTTS oui foot combo 2 jambes par palier cote 1.55-1.80, 6 paliers d'affilée. Capital final 6876€/cycle (10€ → 6876€). 1/107 cycles complets sur S1-26 (1%) mais ROI +538%. Cote totale palier ~2.7 → 6 paliers = 380× capital théorique. Jackpot rare mais énorme.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football"], "market": "btts",
+    "cote_min": 1.55, "cote_max": 1.80,
+    "sort_by": "wr", "max_legs": 2, "max_combos": 1,
+    "min_wr": null, "min_ev": null,
+    "legs_per_palier": 2
+  }],
+  "montante": {"initial_stake": 10, "n_paliers_target": 6, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 2},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict)",
+    "n_cycles_complete": 1,
+    "n_cycles_total": 107,
+    "completion_rate": 0.01,
+    "wr_palier_combo": 0.39,
+    "avg_capital_complete": 6876,
+    "roi_pct": 538,
+    "note": "Capital 6876€/cycle (2e plus gros lib). BTTS oui foot a un WR magic ~0.78 par jambe → combo 2j WR ~0.61, suffisant sur 6 paliers car la cote totale palier ~2.7 amortit."
+  }
+}

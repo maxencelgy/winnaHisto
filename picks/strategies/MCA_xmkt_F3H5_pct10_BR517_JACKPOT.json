@@ -1,0 +1,33 @@
+{
+  "id": "MCA_xmkt_F3H5_pct10_BR517_JACKPOT",
+  "label": "🏒⚽🇫🇷🚀🎰 BTTS+OU F3+H5 pct10 — BR×581 ratio 16.8× JACKPOT ULTIME",
+  "description": "🎰 JACKPOT ABSOLU lib WFR : 3 picks Foot **BTTS+OU 1.5+OU 2.5** cote 1.20-1.40 + 5 picks Hockey 1x2 WR≥65%, sizing **10%**. **BR×581** (PnL +58004€ sur BR initiale 100€), ratio 16.8×, DD 3445€. 605 combos sur 4 mois.\n\n⚠ DD 3445€ = 6× initial. Variance énorme pendant croissance. Pour qui peut absorber et laisser tourner sans toucher.",
+  "components": [{
+    "sport": "football", "market": "btts,over_1_5,over_2_5",
+    "cote_min": 1.20, "cote_max": 1.40,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 3,
+    "min_wr": null, "min_ev": null,
+    "label": "Foot BTTS+OU (3)"
+  }, {
+    "sport": "ice-hockey", "market": "1x2",
+    "cote_min": 1.20, "cote_max": 1.50,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 5,
+    "min_wr": 0.65, "min_ev": null,
+    "label": "Hockey safe (5)"
+  }],
+  "dedup": "max1",
+  "sizing": {"mode": "flat_pct", "pct": 0.10, "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "source": "find_wfr_final_push",
+    "pnl": 58004,
+    "bankroll_multiplier": 581.0,
+    "dd": 3445,
+    "ratio_pnl_dd": 16.8,
+    "n_combos": 605,
+    "winamax_fr": true,
+    "warning": "DD 3445€ vs initiale 100€ = forte variance. Adapté seulement si tu peux laisser le compte grandir sans paniquer.",
+    "robustness_check": "4/4 mois positifs en walk-forward (Jan +267€, Feb +427€, Mar +42€, Apr +249€ sur version pct7)",
+    "note": "🎰 RECORD ABSOLU JACKPOT lib WFR. BTTS ajouté à OU = pool +5%. Le sizing 10% maximum compounding."
+  }
+}

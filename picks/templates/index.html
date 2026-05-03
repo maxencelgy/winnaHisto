@@ -206,6 +206,7 @@
       <button data-tab="strats">⚡ Stratégies</button>
       <button data-tab="bt">📈 Backtest</button>
       <button data-tab="mt">🪜 Montantes</button>
+      <button data-tab="mtlive">🎯 Montante Live</button>
     </nav>
     <div class="br-double">
       <div class="pair">
@@ -223,6 +224,15 @@
 </header>
 
 <main>
+
+<!-- Filtre global ligues exclues -->
+<div style="margin-bottom:14px; padding:10px 14px; background:rgba(255,180,80,0.06); border:1px solid rgba(255,180,80,0.25); border-radius:8px; display:flex; gap:10px; align-items:center; flex-wrap:wrap;">
+  <span style="font-size:11px; color:var(--orange); font-weight:600;">🚫 Ligues à exclure (Winamax FR n'a pas tout)</span>
+  <input id="excluded_leagues" type="text" placeholder="Ex: liga mx, egyptian, cyprus, brasileirão série d, liga acb"
+         style="flex:1; min-width:300px; padding:6px 10px; background:var(--bg-soft); border:1px solid var(--border); border-radius:6px; color:var(--fg); font-size:12px;">
+  <button id="excl_winamax_fr" class="btn" style="font-size:11px; padding:5px 10px; background:#229ed9;">⚡ Preset Winamax FR</button>
+  <button id="excl_clear" class="btn" style="font-size:11px; padding:5px 10px; background:var(--bg-soft);">✕ Reset</button>
+</div>
 
 <!-- ─── LIVE ─── -->
 <section id="tab-live" class="tab active">
@@ -276,6 +286,30 @@
 <section id="tab-strats" class="tab">
   <h2 style="font-size:16px; color:var(--fg); margin-bottom:10px;">Bibliothèque de stratégies</h2>
   <p style="color:var(--muted); font-size:13px; margin-bottom:14px;">Choisis une stratégie pour voir les combos suggérés aujourd'hui avec stakes calculés selon ta bankroll et le sizing configuré.</p>
+
+  <!-- 🆕 SESSION N2 — NEW RECORDS (sweep aggro+xmkt 2026-05-03) -->
+  <div style="margin-bottom:18px; padding:14px; background:linear-gradient(135deg,rgba(255,200,80,.10),rgba(255,200,80,.02)); border:1px solid rgba(255,200,80,.4); border-radius:8px;">
+    <div style="font-size:12px; color:#ffc850; margin-bottom:10px; font-weight:600;">🆕 SESSION N2 — NEW RECORDS WFR (multi-comp xmkt + sizing aggro)</div>
+    <div class="grid k3" id="session_n2_classics"></div>
+  </div>
+
+  <!-- 🆕 SESSION N3 — RECORDS ABSOLUS (WR strict 70%) -->
+  <div style="margin-bottom:18px; padding:14px; background:linear-gradient(135deg,rgba(255,100,180,.10),rgba(255,100,180,.02)); border:1px solid rgba(255,100,180,.5); border-radius:8px;">
+    <div style="font-size:12px; color:#ff64b4; margin-bottom:10px; font-weight:600;">🆕 SESSION N3 — RECORDS ABSOLUS (filtre WR ≥70% strict — ratio 24×)</div>
+    <div class="grid k3" id="session_n3_classics"></div>
+  </div>
+
+  <!-- TOP 3 CLASSIQUES (3 profils différents) -->
+  <div style="margin-bottom:18px; padding:14px; background:linear-gradient(135deg,rgba(70,200,120,.08),rgba(70,200,120,.02)); border:1px solid rgba(70,200,120,.3); border-radius:8px;">
+    <div style="font-size:12px; color:var(--green); margin-bottom:10px; font-weight:600;">🏆 TOP 3 CLASSIQUES (3 profils différents)</div>
+    <div class="grid k3" id="top3_classics"></div>
+  </div>
+
+  <div style="margin-bottom:14px;">
+    <input id="strat_search" type="text" placeholder="🔍 Filtrer par nom (hockey, foot, montante, combo, etc.)"
+           style="width:100%; padding:9px 12px; background:var(--bg-soft); border:1px solid var(--border); border-radius:6px; color:var(--fg); font-size:13px;">
+    <span id="strat_count" style="color:var(--muted); font-size:11px; margin-left:4px;"></span>
+  </div>
   <div id="strats_grid" class="grid k4"></div>
 
   <div id="strat_detail" style="display:none; margin-top:24px;">
@@ -299,8 +333,31 @@
 
 <!-- ─── BACKTEST ─── -->
 <section id="tab-bt" class="tab">
+  <!-- 🆕 SESSION N2 — NEW RECORDS dans backtest -->
+  <div style="margin-bottom:18px; padding:14px; background:linear-gradient(135deg,rgba(255,200,80,.10),rgba(255,200,80,.02)); border:1px solid rgba(255,200,80,.4); border-radius:8px;">
+    <div style="font-size:12px; color:#ffc850; margin-bottom:10px; font-weight:600;">🆕 SESSION N2 — NEW RECORDS WFR (click pour backtester)</div>
+    <div class="grid k3" id="session_n2_bt"></div>
+  </div>
+
+  <!-- 🆕 SESSION N3 — RECORDS ABSOLUS WR strict -->
+  <div style="margin-bottom:18px; padding:14px; background:linear-gradient(135deg,rgba(255,100,180,.10),rgba(255,100,180,.02)); border:1px solid rgba(255,100,180,.5); border-radius:8px;">
+    <div style="font-size:12px; color:#ff64b4; margin-bottom:10px; font-weight:600;">🆕 SESSION N3 — RECORDS ABSOLUS (WR ≥70% strict)</div>
+    <div class="grid k3" id="session_n3_bt"></div>
+  </div>
+
+  <!-- TOP 3 CLASSIQUES dans backtest aussi -->
+  <div style="margin-bottom:18px; padding:14px; background:linear-gradient(135deg,rgba(70,200,120,.08),rgba(70,200,120,.02)); border:1px solid rgba(70,200,120,.3); border-radius:8px;">
+    <div style="font-size:12px; color:var(--green); margin-bottom:10px; font-weight:600;">🏆 TOP 3 CLASSIQUES — Click pour backtester direct</div>
+    <div class="grid k3" id="top3_bt"></div>
+  </div>
+
+  <div style="margin-bottom:10px;">
+    <input id="bt_search" type="text" placeholder="🔍 Filtrer stratégie par nom (hockey, foot, montante, BR, kelly, etc.)"
+           style="width:100%; padding:9px 12px; background:var(--bg-soft); border:1px solid var(--border); border-radius:6px; color:var(--fg); font-size:13px;">
+    <span id="bt_count" style="color:var(--muted); font-size:11px; margin-left:4px;"></span>
+  </div>
   <div class="toolbar">
-    <div class="field"><label>Stratégie</label><select id="bt_strat" style="min-width:240px;"></select></div>
+    <div class="field"><label>Stratégie</label><select id="bt_strat" style="min-width:520px;"></select></div>
     <div class="field"><label>Du</label><input id="bt_start" type="date" value="2026-01-01"></div>
     <div class="field"><label>Au</label><input id="bt_end" type="date" value="2026-04-30"></div>
     <div class="field"><label>Bankroll initiale</label><input id="bt_bankroll" type="number" value="100" step="10"></div>
@@ -334,8 +391,31 @@
     (N paliers en 1 journée, plus de cycles).
   </p>
 
+  <!-- 🆕 SESSION N2 — NEW MONTANTES RECORDS -->
+  <div style="margin-bottom:18px; padding:14px; background:linear-gradient(135deg,rgba(255,200,80,.10),rgba(255,200,80,.02)); border:1px solid rgba(255,200,80,.4); border-radius:8px;">
+    <div style="font-size:12px; color:#ffc850; margin-bottom:10px; font-weight:600;">🆕 SESSION N2 — NEW MONTANTES RECORDS (xmkt OU/BTTS pool max)</div>
+    <div class="grid k3" id="session_n2_mt"></div>
+  </div>
+
+  <!-- 🆕 SESSION N3 — MONTANTES RECORDS ABSOLUS WR strict -->
+  <div style="margin-bottom:18px; padding:14px; background:linear-gradient(135deg,rgba(255,100,180,.10),rgba(255,100,180,.02)); border:1px solid rgba(255,100,180,.5); border-radius:8px;">
+    <div style="font-size:12px; color:#ff64b4; margin-bottom:10px; font-weight:600;">🆕 SESSION N3 — RECORDS ABSOLUS (WR ≥70% strict — EV 359 ★★)</div>
+    <div class="grid k3" id="session_n3_mt"></div>
+  </div>
+
+  <!-- TOP 3 MONTANTES (3 profils différents) -->
+  <div style="margin-bottom:18px; padding:14px; background:linear-gradient(135deg,rgba(70,200,120,.08),rgba(70,200,120,.02)); border:1px solid rgba(70,200,120,.3); border-radius:8px;">
+    <div style="font-size:12px; color:var(--green); margin-bottom:10px; font-weight:600;">🏆 TOP 3 MONTANTES (3 profils différents)</div>
+    <div class="grid k3" id="top3_montantes"></div>
+  </div>
+
+  <div style="margin-bottom:10px;">
+    <input id="mt_search" type="text" placeholder="🔍 Filtrer montantes par nom (hockey, over, combo, jackpot, ultimate, etc.)"
+           style="width:100%; padding:9px 12px; background:var(--bg-soft); border:1px solid var(--border); border-radius:6px; color:var(--fg); font-size:13px;">
+    <span id="mt_count" style="color:var(--muted); font-size:11px; margin-left:4px;"></span>
+  </div>
   <div class="toolbar">
-    <div class="field"><label>Stratégie</label><select id="mt_strat" style="min-width:280px;"></select></div>
+    <div class="field"><label>Stratégie</label><select id="mt_strat" style="min-width:520px;"></select></div>
     <div class="field"><label>Mode</label><select id="mt_mode">
       <option value="intraday">Intraday (N paliers/jour)</option>
       <option value="interday">Interday (1 palier/jour)</option>
@@ -352,6 +432,46 @@
 
   <h3 id="mt_cycles_title" style="font-size:14px; color:var(--muted); margin:14px 0 8px; display:none;">Derniers cycles (clique pour détails)</h3>
   <div id="mt_cycles"></div>
+</section>
+
+<!-- ─── MONTANTE LIVE ─── -->
+<section id="tab-mtlive" class="tab">
+  <h2 style="font-size:16px; color:var(--fg); margin-bottom:10px;">🎯 Montante Live — Pari pour ton palier en cours</h2>
+  <p style="color:var(--muted); font-size:13px; margin-bottom:14px;">
+    Sélectionne ta stratégie montante, indique le palier en cours et le capital actuel.
+    Le système te propose le <b>meilleur pick à parier maintenant</b> sur les matchs à venir aujourd'hui (selon les filtres de la stratégie).
+  </p>
+
+  <!-- 🆕 SESSION N2 — NEW MONTANTES RECORDS -->
+  <div style="margin-bottom:18px; padding:14px; background:linear-gradient(135deg,rgba(255,200,80,.10),rgba(255,200,80,.02)); border:1px solid rgba(255,200,80,.4); border-radius:8px;">
+    <div style="font-size:12px; color:#ffc850; margin-bottom:10px; font-weight:600;">🆕 SESSION N2 — NEW MONTANTES (xmkt OU/BTTS pool max)</div>
+    <div class="grid k3" id="session_n2_mtlive"></div>
+  </div>
+
+  <!-- 🆕 SESSION N3 — MONTANTES RECORDS ABSOLUS WR strict -->
+  <div style="margin-bottom:18px; padding:14px; background:linear-gradient(135deg,rgba(255,100,180,.10),rgba(255,100,180,.02)); border:1px solid rgba(255,100,180,.5); border-radius:8px;">
+    <div style="font-size:12px; color:#ff64b4; margin-bottom:10px; font-weight:600;">🆕 SESSION N3 — RECORDS ABSOLUS (WR ≥70% strict — EV 359 ★★)</div>
+    <div class="grid k3" id="session_n3_mtlive"></div>
+  </div>
+
+  <!-- TOP 3 MONTANTES — Quick start -->
+  <div style="margin-bottom:18px; padding:14px; background:linear-gradient(135deg,rgba(70,200,120,.08),rgba(70,200,120,.02)); border:1px solid rgba(70,200,120,.3); border-radius:8px;">
+    <div style="font-size:12px; color:var(--green); margin-bottom:10px; font-weight:600;">🏆 TOP 3 MONTANTES — Click pour pré-remplir</div>
+    <div class="grid k3" id="top3_mtlive"></div>
+  </div>
+
+  <div class="toolbar">
+    <div class="field"><label>Stratégie</label><select id="mtl_strat" style="min-width:520px;"></select></div>
+    <div class="field"><label>Palier en cours</label><input id="mtl_palier" type="number" value="1" min="1" max="20" style="width:80px;"></div>
+    <div class="field"><label>Capital actuel (€)</label><input id="mtl_capital" type="number" value="10" step="1" min="1" style="width:100px;"></div>
+    <button id="mtl_run" class="btn">🎯 Trouver le pick</button>
+    <button id="mtl_refresh" class="btn" style="background:var(--bg-soft);">↻ Refresh picks</button>
+  </div>
+
+  <div id="mtl_status" class="status warn" style="display:none; margin-top:14px;"><span class="dot"></span><span></span></div>
+
+  <div id="mtl_pick" style="margin-top:18px;"></div>
+  <div id="mtl_alternatives" style="margin-top:14px;"></div>
 </section>
 
 </main>
@@ -513,14 +633,34 @@ async function loadStrategies() {
   const r = await fetch("/api/strategies");
   _strategies = await r.json();
   const grid = $("strats_grid");
-  grid.innerHTML = Object.values(_strategies).map(s => {
+  // Sort par "EV pratique" = PnL × completion (favorise ce qui aboutit vraiment)
+  const sortedStrats = Object.values(_strategies).sort((a, b) => {
+    const av = a.validated || {};
+    const bv = b.validated || {};
+    const aPnl = av.pnl_net_s1 || av.pnl || av.pnl_per_100br || 0;
+    const bPnl = bv.pnl_net_s1 || bv.pnl || bv.pnl_per_100br || 0;
+    // Pour montantes : pondère par completion (taux d'aboutissement réel)
+    // Pour classiques : pas de completion → on garde pnl seul
+    const aCompl = av.completion_rate || 1.0;  // classique = 1.0 par défaut
+    const bCompl = bv.completion_rate || 1.0;
+    const aScore = aPnl * aCompl;
+    const bScore = bPnl * bCompl;
+    return bScore - aScore;
+  });
+  grid.innerHTML = sortedStrats.map(s => {
     const v = s.validated || {};
     const sizingMode = (s.sizing && s.sizing.mode) || "flat_pct";
     const ratio = v.ratio_pnl_dd || (v.pnl_per_100br && v.dd_per_100 ? (v.pnl_per_100br/v.dd_per_100) : null);
     const ratioCls = ratio >= 4 ? "ok" : ratio >= 2 ? "" : ratio ? "muted" : "muted";
     const ratioBadge = ratio ? `<span class="badge" style="color:${ratio>=4?'var(--green)':ratio>=2?'var(--orange)':'var(--muted)'};">${ratio.toFixed(1)}× ratio</span>` : "";
-    const perfLine = v.pnl_per_100br
-      ? `<span class="v">+${v.pnl_per_100br}€/100€</span>${ratioBadge ? " "+ratioBadge : ""}${v.streak_max ? ` <span class="badge">streak ${v.streak_max}j</span>` : ""}`
+    // Source du PnL (priorité : pnl_net_s1 > pnl > pnl_per_100br)
+    const pnlVal = v.pnl_net_s1 || v.pnl || v.pnl_per_100br;
+    const pnlLabel = v.pnl_net_s1 ? `+${v.pnl_net_s1}€ S1-26` : v.pnl ? `+${v.pnl}€` : v.pnl_per_100br ? `+${v.pnl_per_100br}€/100€` : null;
+    const aprBadge = v.april_pnl ? ` <span class="badge" style="color:${v.april_pnl>=200?'var(--green)':v.april_pnl>=0?'var(--orange)':'var(--red)'};">Avril ${v.april_pnl>=0?'+':''}${v.april_pnl}€</span>` : "";
+    const completionBadge = v.completion_rate ? ` <span class="badge">${(v.completion_rate*100).toFixed(0)}% comp</span>` : "";
+    const capBadge = v.avg_capital_complete ? ` <span class="badge" style="color:var(--green);">cap ${v.avg_capital_complete}€</span>` : "";
+    const perfLine = pnlLabel
+      ? `<span class="v">${pnlLabel}</span>${ratioBadge ? " "+ratioBadge : ""}${completionBadge}${capBadge}${aprBadge}${v.streak_max ? ` <span class="badge">streak ${v.streak_max}j</span>` : ""}`
       : `<span style="color:var(--muted);">À tester</span>`;
     const nLegs = (s.components||[]).map(c => c.max_legs||1).join(",");
     return `<div class="card" data-sid="${s.id}">
@@ -535,8 +675,182 @@ async function loadStrategies() {
   grid.querySelectorAll(".card").forEach(el => {
     el.onclick = () => selectStrategy(el.dataset.sid);
   });
-  $("bt_strat").innerHTML = Object.values(_strategies).map(s =>
-    `<option value="${s.id}">${s.label}</option>`).join("");
+  // bt_strat trié par perf (EV pratique pour montantes, PnL pour classiques)
+  const sortedForBt = Object.values(_strategies).sort((a, b) => {
+    const av = a.validated || {}, bv = b.validated || {};
+    const aPnl = av.pnl_net_s1 || av.pnl || av.pnl_per_100br || 0;
+    const bPnl = bv.pnl_net_s1 || bv.pnl || bv.pnl_per_100br || 0;
+    const aCompl = av.completion_rate || 1.0;
+    const bCompl = bv.completion_rate || 1.0;
+    return (bPnl * bCompl) - (aPnl * aCompl);
+  });
+  $("bt_strat").innerHTML = sortedForBt.map(s =>
+    `<option value="${s.id}" data-search="${(s.label+' '+s.id).toLowerCase()}">${s.label}</option>`).join("");
+  // Filter live backtest select
+  const btSearch = $("bt_search");
+  const btCount = $("bt_count");
+  const btSel = $("bt_strat");
+  const updBtCount = () => {
+    const visible = btSel.querySelectorAll("option:not([style*='display: none'])").length;
+    const total = btSel.querySelectorAll("option").length;
+    if (btCount) btCount.textContent = `${visible}/${total} stratégies`;
+  };
+  if (btSearch) {
+    btSearch.oninput = () => {
+      const q = btSearch.value.toLowerCase().trim();
+      btSel.querySelectorAll("option").forEach(opt => {
+        const txt = (opt.dataset.search || "");
+        opt.style.display = (q === "" || txt.includes(q)) ? "" : "none";
+      });
+      updBtCount();
+    };
+    updBtCount();
+  }
+  // 🆕 SESSION N2 — NEW RECORDS WFR (classiques)
+  const SESSION_N2_CLASSICS = ["MMC_BTTSO_F3H3_pct5_RATIO195", "MMC_BTTSO_F3H5_pct7_BR104_RATIO19", "MCA_xmkt_F3H5_pct10_BR517_JACKPOT"];
+  const SESSION_N2_BADGES = ["#1 Ratio 19.5× DD 82€ ★", "#2 BR×104 ratio 18.9×", "#3 BR×517 JACKPOT"];
+  // 🆕 SESSION N3 — RECORDS ABSOLUS (WR strict ≥70%)
+  const SESSION_N3_CLASSICS = ["SWR_F3H5_fw70_pct10_RATIO24_RECORD", "SWR_F3H3_fw70_pct5_DD75", "SWR_F3H3_fw70_pct10_RATIO24"];
+  const SESSION_N3_BADGES = ["#1 Ratio 24.4× BR×336 RECORD ABSOLU ★★", "#2 Ratio 19.1× DD 75€ ULTRA-SAFE", "#3 Ratio 24.3× DD 684€"];
+  const renderN2 = (containerId, ids, badges, onClick) => {
+    const el = $(containerId);
+    if (!el) return;
+    el.innerHTML = ids.map((sid, i) => {
+      const s = _strategies[sid] || _mtlStrategies[sid];
+      if (!s) return "";
+      const v = s.validated || {};
+      const pnl = v.pnl_net_s1 || v.pnl;
+      const compl = v.completion_rate;
+      const apr = v.april_pnl;
+      const ratio = v.ratio_pnl_dd;
+      const brMult = v.bankroll_multiplier;
+      return `<div class="card" data-sid="${sid}" style="border:2px solid #ffc850; cursor:pointer;">
+        <div style="font-size:10px; color:#ffc850; margin-bottom:4px; font-weight:600;">${badges[i]}</div>
+        <h3>${s.label}</h3>
+        <div class="desc">${(s.description||'').slice(0,140)}...</div>
+        <div class="perf">
+          ${pnl ? `<span class="v" style="color:#ffc850;">+${pnl}€${compl?' S1':''}</span>` : ''}
+          ${ratio ? ` <span class="badge" style="color:#ffc850;">${ratio}× ratio</span>` : ''}
+          ${brMult ? ` <span class="badge">BR×${brMult}</span>` : ''}
+          ${compl ? ` <span class="badge">${(compl*100).toFixed(0)}% comp</span>` : ''}
+          ${apr != null ? ` <span class="badge" style="color:${apr>=100?'var(--green)':apr>=0?'var(--orange)':'var(--red)'};">Apr ${apr>=0?'+':''}${apr}€</span>` : ''}
+        </div>
+      </div>`;
+    }).join("");
+    el.querySelectorAll(".card").forEach(card => {
+      card.onclick = () => onClick(card.dataset.sid);
+    });
+  };
+  // Peupler Session N2 dans Stratégies + Backtest
+  renderN2("session_n2_classics", SESSION_N2_CLASSICS, SESSION_N2_BADGES,
+    (sid) => selectStrategy(sid));
+  renderN2("session_n2_bt", SESSION_N2_CLASSICS, SESSION_N2_BADGES,
+    (sid) => { $("bt_strat").value = sid; $("bt_run").scrollIntoView({behavior:"smooth", block:"center"}); });
+  // 🆕 SESSION N3 — RECORDS ABSOLUS (réutilise renderN2 mais avec couleur rose pour distinguer)
+  const renderN3 = (containerId, ids, badges, onClick) => {
+    const el = $(containerId);
+    if (!el) return;
+    el.innerHTML = ids.map((sid, i) => {
+      const s = _strategies[sid] || _mtlStrategies[sid];
+      if (!s) return "";
+      const v = s.validated || {};
+      const pnl = v.pnl_net_s1 || v.pnl;
+      const compl = v.completion_rate;
+      const apr = v.april_pnl;
+      const ratio = v.ratio_pnl_dd;
+      const brMult = v.bankroll_multiplier;
+      return `<div class="card" data-sid="${sid}" style="border:2px solid #ff64b4; cursor:pointer;">
+        <div style="font-size:10px; color:#ff64b4; margin-bottom:4px; font-weight:600;">${badges[i]}</div>
+        <h3>${s.label}</h3>
+        <div class="desc">${(s.description||'').slice(0,140)}...</div>
+        <div class="perf">
+          ${pnl ? `<span class="v" style="color:#ff64b4;">+${pnl}€${compl?' S1':''}</span>` : ''}
+          ${ratio ? ` <span class="badge" style="color:#ff64b4;">${ratio}× ratio</span>` : ''}
+          ${brMult ? ` <span class="badge">BR×${brMult}</span>` : ''}
+          ${compl ? ` <span class="badge">${(compl*100).toFixed(0)}% comp</span>` : ''}
+          ${apr != null ? ` <span class="badge" style="color:${apr>=100?'var(--green)':apr>=0?'var(--orange)':'var(--red)'};">Apr ${apr>=0?'+':''}${apr}€</span>` : ''}
+        </div>
+      </div>`;
+    }).join("");
+    el.querySelectorAll(".card").forEach(card => {
+      card.onclick = () => onClick(card.dataset.sid);
+    });
+  };
+  renderN3("session_n3_classics", SESSION_N3_CLASSICS, SESSION_N3_BADGES,
+    (sid) => selectStrategy(sid));
+  renderN3("session_n3_bt", SESSION_N3_CLASSICS, SESSION_N3_BADGES,
+    (sid) => { $("bt_strat").value = sid; $("bt_run").scrollIntoView({behavior:"smooth", block:"center"}); });
+
+  // TOP 3 CLASSIQUES (3 profils différents)
+  const TOP3_CLASSICS = ["MCA_xmkt_F3H5_pct7_BR96_RATIO19", "foot_o15_mc5_pct10_BR36_WFR", "foot_pure_o15_safe_ratio57"];
+  const TOP3_BADGES = ["#1 Ratio 18.9× BR×96", "#2 BR×36 ratio 8.0×", "#3 Single-market DD 19€"];
+  const top3el = $("top3_classics");
+  if (top3el) {
+    top3el.innerHTML = TOP3_CLASSICS.map((sid, i) => {
+      const s = _strategies[sid];
+      if (!s) return "";
+      const v = s.validated || {};
+      const ratio = v.ratio_pnl_dd ? `${v.ratio_pnl_dd.toFixed(1)}× ratio` : "";
+      const brMult = v.bankroll_multiplier ? `BR×${v.bankroll_multiplier.toFixed(1)}` : (v.pnl ? `+${v.pnl}€` : "");
+      return `<div class="card" data-sid="${sid}" style="border:2px solid var(--green);">
+        <div style="font-size:10px; color:var(--green); margin-bottom:4px; font-weight:600;">${TOP3_BADGES[i]}</div>
+        <h3>${s.label}</h3>
+        <div class="desc">${s.description}</div>
+        <div class="perf">
+          <span class="v" style="color:var(--green);">${brMult}</span>
+          ${ratio ? ` <span class="badge" style="color:var(--green);">${ratio}</span>` : ""}
+        </div>
+      </div>`;
+    }).join("");
+    top3el.querySelectorAll(".card").forEach(el => {
+      el.onclick = () => selectStrategy(el.dataset.sid);
+    });
+  }
+  // TOP 3 CLASSIQUES dans backtest aussi (click → select + run)
+  const top3btEl = $("top3_bt");
+  if (top3btEl) {
+    top3btEl.innerHTML = TOP3_CLASSICS.map((sid, i) => {
+      const s = _strategies[sid];
+      if (!s) return "";
+      const v = s.validated || {};
+      const ratio = v.ratio_pnl_dd ? `${v.ratio_pnl_dd.toFixed(1)}× ratio` : "";
+      const brMult = v.bankroll_multiplier ? `BR×${v.bankroll_multiplier.toFixed(1)}` : (v.pnl ? `+${v.pnl}€` : "");
+      return `<div class="card" data-sid="${sid}" style="border:2px solid var(--green); cursor:pointer;">
+        <div style="font-size:10px; color:var(--green); margin-bottom:4px; font-weight:600;">${TOP3_BADGES[i]}</div>
+        <h3>${s.label}</h3>
+        <div class="desc">${(s.description||'').slice(0,120)}...</div>
+        <div class="perf">
+          <span class="v" style="color:var(--green);">${brMult}</span>
+          ${ratio ? ` <span class="badge" style="color:var(--green);">${ratio}</span>` : ""}
+        </div>
+      </div>`;
+    }).join("");
+    top3btEl.querySelectorAll(".card").forEach(el => {
+      el.onclick = () => {
+        $("bt_strat").value = el.dataset.sid;
+        $("bt_run").scrollIntoView({behavior: "smooth", block: "center"});
+      };
+    });
+  }
+  // Recherche live
+  const searchInput = $("strat_search");
+  const countEl = $("strat_count");
+  const updateCount = () => {
+    const visible = grid.querySelectorAll(".card:not([style*='display: none'])").length;
+    const total = grid.querySelectorAll(".card").length;
+    countEl.textContent = `${visible}/${total} stratégies`;
+  };
+  if (searchInput) {
+    searchInput.oninput = () => {
+      const q = searchInput.value.toLowerCase().trim();
+      grid.querySelectorAll(".card").forEach(card => {
+        const txt = card.textContent.toLowerCase();
+        card.style.display = (q === "" || txt.includes(q)) ? "" : "none";
+      });
+      updateCount();
+    };
+    updateCount();
+  }
 }
 
 function legsHtml(combo) {
@@ -562,7 +876,8 @@ let _last_strategy_response = null;
 async function selectStrategy(sid) {
   document.querySelectorAll(".card").forEach(e => e.classList.toggle("selected", e.dataset.sid===sid));
   const bk = getCurrentBankroll();
-  const r = await fetch(`/api/strategies/${sid}/today?bankroll=${bk}`);
+  const excl = encodeURIComponent($("excluded_leagues")?.value || "");
+  const r = await fetch(`/api/strategies/${sid}/today?bankroll=${bk}&excluded_leagues=${excl}`);
   const d = await r.json();
   _last_strategy_response = d;
   if (d.error) {
@@ -691,7 +1006,8 @@ $("bt_run").onclick = async () => {
   $("bt_table_wrap").style.display = "none";
   $("bt_chart").style.display = "none";
   try {
-    const r = await fetch(`/api/backtest?strategy=${sid}&start=${start}&end=${end}&bankroll=${bk}`);
+    const excl = encodeURIComponent($("excluded_leagues")?.value || "");
+    const r = await fetch(`/api/backtest?strategy=${sid}&start=${start}&end=${end}&bankroll=${bk}&excluded_leagues=${excl}`);
     if (!r.ok) {
       const e = await r.json();
       $("bt_status").className = "status err";
@@ -848,8 +1164,134 @@ async function loadMontanteStrategies() {
     const r = await fetch("/api/montante-strategies");
     const d = await r.json();
     const sel = $("mt_strat");
-    sel.innerHTML = Object.values(d).map(s =>
-      `<option value="${s.id}">${s.label}</option>`).join("");
+    // Sort par COMPLETION descendant (la métrique clé pour les montantes)
+    const sortedMontantes = Object.values(d).sort((a, b) => {
+      const av = a.validated || {};
+      const bv = b.validated || {};
+      const aCompl = av.completion_rate || 0;
+      const bCompl = bv.completion_rate || 0;
+      if (Math.abs(bCompl - aCompl) > 0.01) return bCompl - aCompl;
+      // Tie-break par PnL si completion identique
+      return (bv.pnl_net_s1 || 0) - (av.pnl_net_s1 || 0);
+    });
+    const allOptions = sortedMontantes.map(s =>
+      `<option value="${s.id}" data-search="${s.label.toLowerCase()} ${s.id.toLowerCase()}">${s.label}</option>`).join("");
+    sel.innerHTML = allOptions;
+    // 🆕 SESSION N2 — NEW MONTANTES RECORDS (Montantes simulator)
+    const SESSION_N2_MT = ["montante_xmkt_OU_x4p_TOP_EV_WFR", "montante_xmkt_OU_combo3j_x2p_apr_record", "montante_xmkt_BTTSO_x3p_71pct_RECORD"];
+    const SESSION_N2_MT_BADGES = ["#1 NEW TOP EV 345 ★", "#2 APR RECORD +340€", "#3 71% completion RECORD"];
+    const sn2mtEl = $("session_n2_mt");
+    if (sn2mtEl) {
+      sn2mtEl.innerHTML = SESSION_N2_MT.map((sid, i) => {
+        const s = d[sid];
+        if (!s) return "";
+        const v = s.validated || {};
+        const compl = v.completion_rate ? `${(v.completion_rate*100).toFixed(0)}% comp` : "";
+        const pnl = v.pnl_net_s1 ? `+${v.pnl_net_s1}€ S1` : "";
+        const apr = v.april_pnl != null ? `Apr ${v.april_pnl>=0?'+':''}${v.april_pnl}€` : "";
+        return `<div class="card" data-sid="${sid}" style="border:2px solid #ffc850; cursor:pointer;">
+          <div style="font-size:10px; color:#ffc850; margin-bottom:4px; font-weight:600;">${SESSION_N2_MT_BADGES[i]}</div>
+          <h3>${s.label}</h3>
+          <div class="desc">${(s.description||'').slice(0,140)}...</div>
+          <div class="perf">
+            ${pnl ? `<span class="v" style="color:#ffc850;">${pnl}</span>` : ""}
+            ${compl ? ` <span class="badge">${compl}</span>` : ""}
+            ${apr ? ` <span class="badge" style="color:${v.april_pnl>=200?'var(--green)':v.april_pnl>=0?'var(--orange)':'var(--red)'};">${apr}</span>` : ""}
+          </div>
+        </div>`;
+      }).join("");
+      sn2mtEl.querySelectorAll(".card").forEach(el => {
+        el.onclick = () => {
+          sel.value = el.dataset.sid;
+          sel.dispatchEvent(new Event("change"));
+          $("mt_run").scrollIntoView({behavior: "smooth", block: "center"});
+        };
+      });
+    }
+
+    // 🆕 SESSION N3 onglet Montantes — TOP COMPLETION
+    const SESSION_N3_MT = ["montante_interday_o15_x3p_77pct", "montante_xmkt_BTTSO_x3p_71pct_RECORD", "MWS_OU_x4p_wr70_NEW_TOP_EV_359"];
+    const SESSION_N3_MT_BADGES = ["#1 77% completion ★ INTERDAY", "#2 71% completion BTTS+OU", "#3 60% completion +603€"];
+    const sn3mtEl = $("session_n3_mt");
+    if (sn3mtEl) {
+      sn3mtEl.innerHTML = SESSION_N3_MT.map((sid, i) => {
+        const s = d[sid];
+        if (!s) return "";
+        const v = s.validated || {};
+        const compl = v.completion_rate ? `${(v.completion_rate*100).toFixed(0)}% comp` : "";
+        const pnl = v.pnl_net_s1 ? `+${v.pnl_net_s1}€ S1` : "";
+        const apr = v.april_pnl != null ? `Apr ${v.april_pnl>=0?'+':''}${v.april_pnl}€` : "";
+        return `<div class="card" data-sid="${sid}" style="border:2px solid #ff64b4; cursor:pointer;">
+          <div style="font-size:10px; color:#ff64b4; margin-bottom:4px; font-weight:600;">${SESSION_N3_MT_BADGES[i]}</div>
+          <h3>${s.label}</h3>
+          <div class="desc">${(s.description||'').slice(0,140)}...</div>
+          <div class="perf">
+            ${pnl ? `<span class="v" style="color:#ff64b4;">${pnl}</span>` : ""}
+            ${compl ? ` <span class="badge">${compl}</span>` : ""}
+            ${apr ? ` <span class="badge" style="color:${v.april_pnl>=200?'var(--green)':v.april_pnl>=0?'var(--orange)':'var(--red)'};">${apr}</span>` : ""}
+          </div>
+        </div>`;
+      }).join("");
+      sn3mtEl.querySelectorAll(".card").forEach(el => {
+        el.onclick = () => {
+          sel.value = el.dataset.sid;
+          sel.dispatchEvent(new Event("change"));
+          $("mt_run").scrollIntoView({behavior: "smooth", block: "center"});
+        };
+      });
+    }
+
+    // TOP 3 MONTANTES cards — TOP COMPLETION
+    const TOP3_MT = ["montante_interday_o15_x3p_77pct", "montante_xmkt_BTTSO_x3p_71pct_RECORD", "montante_wfr_xmkt_x3p_69pct"];
+    const TOP3_MT_BADGES = ["#1 77% comp INTERDAY ★", "#2 71% comp BTTS+OU ×3P", "#3 69% comp xmkt ×3P"];
+    const top3mtEl = $("top3_montantes");
+    if (top3mtEl) {
+      top3mtEl.innerHTML = TOP3_MT.map((sid, i) => {
+        const s = d[sid];
+        if (!s) return "";
+        const v = s.validated || {};
+        const compl = v.completion_rate ? `${(v.completion_rate*100).toFixed(0)}% comp` : "";
+        const pnl = v.pnl_net_s1 ? `+${v.pnl_net_s1}€ S1` : "";
+        const apr = v.april_pnl != null ? `Apr ${v.april_pnl>=0?'+':''}${v.april_pnl}€` : "";
+        return `<div class="card" data-sid="${sid}" style="border:2px solid var(--green); cursor:pointer;">
+          <div style="font-size:10px; color:var(--green); margin-bottom:4px; font-weight:600;">${TOP3_MT_BADGES[i]}</div>
+          <h3>${s.label}</h3>
+          <div class="desc">${s.description}</div>
+          <div class="perf">
+            <span class="v" style="color:var(--green);">${pnl}</span>
+            ${compl ? ` <span class="badge">${compl}</span>` : ""}
+            ${apr ? ` <span class="badge" style="color:${v.april_pnl>=100?'var(--green)':v.april_pnl>=0?'var(--orange)':'var(--red)'};">${apr}</span>` : ""}
+          </div>
+        </div>`;
+      }).join("");
+      top3mtEl.querySelectorAll(".card").forEach(el => {
+        el.onclick = () => {
+          sel.value = el.dataset.sid;
+          sel.dispatchEvent(new Event("change"));
+          // scroll to montante simulator
+          $("mt_run").scrollIntoView({behavior: "smooth", block: "center"});
+        };
+      });
+    }
+    // Recherche live
+    const searchInput = $("mt_search");
+    const countEl = $("mt_count");
+    const updateCount = () => {
+      const visible = sel.querySelectorAll("option:not([style*='display: none'])").length;
+      const total = sel.querySelectorAll("option").length;
+      countEl.textContent = `${visible}/${total} montantes`;
+    };
+    if (searchInput) {
+      searchInput.oninput = () => {
+        const q = searchInput.value.toLowerCase().trim();
+        sel.querySelectorAll("option").forEach(opt => {
+          const txt = (opt.dataset.search || "");
+          opt.style.display = (q === "" || txt.includes(q)) ? "" : "none";
+        });
+        updateCount();
+      };
+      updateCount();
+    }
     if (Object.keys(d).length === 0) {
       sel.innerHTML = '<option value="">Aucune montante</option>';
     } else {
@@ -939,11 +1381,343 @@ $("mt_run").onclick = async () => {
   }
 };
 
+// ── MONTANTE LIVE ──
+let _mtlStrategies = {};
+let _mtlLastPick = null;
+
+function formatMontanteTelegram(data) {
+  const {pick, palier, capital, gain, totalAfter, label} = data;
+  const fmt = t => t ? new Date(t*1000).toLocaleString('fr-FR', {hour:'2-digit', minute:'2-digit', day:'2-digit', month:'2-digit'}) : "?";
+  let txt = `🎯 *MONTANTE — Palier ${palier}*\n`;
+  txt += `_${label}_\n\n`;
+  if (pick.is_combo && pick.legs) {
+    txt += `📦 *COMBO ${pick.n_legs} jambes* (toutes doivent gagner)\n\n`;
+    pick.legs.forEach((l, i) => {
+      txt += `${i+1}️⃣ *${l.match}*\n`;
+      txt += `   ${l.sport}${l.league?' · '+l.league:''} · ⏰ ${fmt(l.start_time)}\n`;
+      txt += `   → *${l.selection}* @${l.cote} (WR ${(l.wr*100).toFixed(0)}%)\n\n`;
+    });
+    txt += `🎲 *Cote totale :* ${pick.cote}\n`;
+    txt += `📊 *WR combo :* ${(pick.wr*100).toFixed(0)}%\n`;
+  } else {
+    txt += `*${pick.match}*\n`;
+    txt += `${pick.sport}${pick.league?' · '+pick.league:''} · ⏰ ${fmt(pick.start_time)}\n`;
+    txt += `→ *${pick.selection}* @${pick.cote} (WR ${(pick.wr*100).toFixed(0)}%)\n\n`;
+  }
+  txt += `💰 *Mise :* ${capital}€\n`;
+  txt += `🏆 *Si gagné :* +${gain}€ → ${totalAfter}€\n`;
+  txt += `\n_Si gagne palier ${palier} → ${totalAfter}€ sur palier ${palier+1}_\n_Si perds → reset 10€_`;
+  return txt;
+}
+
+async function copyMontanteTelegram() {
+  if (!_mtlLastPick) return;
+  const txt = formatMontanteTelegram(_mtlLastPick);
+  try {
+    await navigator.clipboard.writeText(txt);
+    const btn = document.getElementById("mtl_telegram");
+    if (btn) {
+      const orig = btn.textContent;
+      btn.textContent = "✓ Copié !";
+      btn.style.background = "#34c77b";
+      setTimeout(() => { btn.textContent = orig; btn.style.background = "#229ed9"; }, 2000);
+    }
+  } catch (e) {
+    alert("Erreur copie : " + e.message);
+  }
+}
+
+async function loadMontanteLive() {
+  try {
+    const r = await fetch("/api/montante-strategies");
+    _mtlStrategies = await r.json();
+    const sel = $("mtl_strat");
+    if (!sel) return;
+    // Sort par COMPLETION descendant (clé pour montantes)
+    const sorted = Object.values(_mtlStrategies).sort((a, b) => {
+      const av = a.validated || {}, bv = b.validated || {};
+      const aCompl = av.completion_rate || 0, bCompl = bv.completion_rate || 0;
+      if (Math.abs(bCompl - aCompl) > 0.01) return bCompl - aCompl;
+      return (bv.pnl_net_s1 || 0) - (av.pnl_net_s1 || 0);
+    });
+    sel.innerHTML = sorted.map(s => `<option value="${s.id}">${s.label}</option>`).join("");
+
+    // 🆕 SESSION N2 — NEW MONTANTES RECORDS
+    const SESSION_N2_MTL = ["montante_xmkt_OU_x4p_TOP_EV_WFR", "montante_xmkt_OU_combo3j_x2p_apr_record", "montante_xmkt_BTTSO_x3p_71pct_RECORD"];
+    const SESSION_N2_MTL_BADGES = ["#1 NEW TOP EV 345 ★", "#2 APR RECORD +340€", "#3 71% completion RECORD"];
+    // 🆕 SESSION N3 — TOP COMPLETION (la métrique clé pour montantes)
+    const SESSION_N3_MTL = ["montante_interday_o15_x3p_77pct", "montante_xmkt_BTTSO_x3p_71pct_RECORD", "MWS_OU_x4p_wr70_NEW_TOP_EV_359"];
+    const SESSION_N3_MTL_BADGES = ["#1 77% completion ★ INTERDAY", "#2 71% completion BTTS+OU", "#3 60% completion +603€"];
+    const sn2El = $("session_n2_mtlive");
+    if (sn2El) {
+      sn2El.innerHTML = SESSION_N2_MTL.map((sid, i) => {
+        const s = _mtlStrategies[sid];
+        if (!s) return "";
+        const v = s.validated || {};
+        const compl = v.completion_rate ? `${(v.completion_rate*100).toFixed(0)}% comp` : "";
+        const pnl = v.pnl_net_s1 ? `+${v.pnl_net_s1}€ S1` : "";
+        const apr = v.april_pnl != null ? `Apr ${v.april_pnl>=0?'+':''}${v.april_pnl}€` : "";
+        return `<div class="card" data-sid="${sid}" style="border:2px solid #ffc850; cursor:pointer;">
+          <div style="font-size:10px; color:#ffc850; margin-bottom:4px; font-weight:600;">${SESSION_N2_MTL_BADGES[i]}</div>
+          <h3>${s.label}</h3>
+          <div class="desc">${(s.description||'').slice(0,130)}...</div>
+          <div class="perf">
+            ${pnl ? `<span class="v" style="color:#ffc850;">${pnl}</span>` : ""}
+            ${compl ? ` <span class="badge">${compl}</span>` : ""}
+            ${apr ? ` <span class="badge" style="color:${v.april_pnl>=200?'var(--green)':v.april_pnl>=0?'var(--orange)':'var(--red)'};">${apr}</span>` : ""}
+          </div>
+        </div>`;
+      }).join("");
+      sn2El.querySelectorAll(".card").forEach(el => {
+        el.onclick = () => {
+          sel.value = el.dataset.sid;
+          $("mtl_palier").value = 1;
+          $("mtl_capital").value = 10;
+          $("mtl_run").scrollIntoView({behavior: "smooth", block: "center"});
+        };
+      });
+    }
+
+    // 🆕 SESSION N3 Montante Live
+    const sn3El = $("session_n3_mtlive");
+    if (sn3El) {
+      sn3El.innerHTML = SESSION_N3_MTL.map((sid, i) => {
+        const s = _mtlStrategies[sid];
+        if (!s) return "";
+        const v = s.validated || {};
+        const compl = v.completion_rate ? `${(v.completion_rate*100).toFixed(0)}% comp` : "";
+        const pnl = v.pnl_net_s1 ? `+${v.pnl_net_s1}€ S1` : "";
+        const apr = v.april_pnl != null ? `Apr ${v.april_pnl>=0?'+':''}${v.april_pnl}€` : "";
+        return `<div class="card" data-sid="${sid}" style="border:2px solid #ff64b4; cursor:pointer;">
+          <div style="font-size:10px; color:#ff64b4; margin-bottom:4px; font-weight:600;">${SESSION_N3_MTL_BADGES[i]}</div>
+          <h3>${s.label}</h3>
+          <div class="desc">${(s.description||'').slice(0,130)}...</div>
+          <div class="perf">
+            ${pnl ? `<span class="v" style="color:#ff64b4;">${pnl}</span>` : ""}
+            ${compl ? ` <span class="badge">${compl}</span>` : ""}
+            ${apr ? ` <span class="badge" style="color:${v.april_pnl>=200?'var(--green)':v.april_pnl>=0?'var(--orange)':'var(--red)'};">${apr}</span>` : ""}
+          </div>
+        </div>`;
+      }).join("");
+      sn3El.querySelectorAll(".card").forEach(el => {
+        el.onclick = () => {
+          sel.value = el.dataset.sid;
+          $("mtl_palier").value = 1;
+          $("mtl_capital").value = 10;
+          $("mtl_run").scrollIntoView({behavior: "smooth", block: "center"});
+        };
+      });
+    }
+
+    // TOP 3 cards quick-fill — TOP COMPLETION
+    const TOP3_MTL = ["montante_interday_o15_x3p_77pct", "montante_xmkt_BTTSO_x3p_71pct_RECORD", "montante_wfr_xmkt_x3p_69pct"];
+    const TOP3_MTL_BADGES = ["#1 77% comp INTERDAY ★", "#2 71% comp BTTS+OU ×3P", "#3 69% comp xmkt ×3P"];
+    const top3el = $("top3_mtlive");
+    if (top3el) {
+      top3el.innerHTML = TOP3_MTL.map((sid, i) => {
+        const s = _mtlStrategies[sid];
+        if (!s) return "";
+        const v = s.validated || {};
+        const compl = v.completion_rate ? `${(v.completion_rate*100).toFixed(0)}% comp` : "";
+        return `<div class="card" data-sid="${sid}" style="border:2px solid var(--green); cursor:pointer;">
+          <div style="font-size:10px; color:var(--green); margin-bottom:4px; font-weight:600;">${TOP3_MTL_BADGES[i]}</div>
+          <h3>${s.label}</h3>
+          <div class="desc">${(s.description||'').slice(0,110)}...</div>
+          <div class="perf">
+            ${v.pnl_net_s1 ? `<span class="v" style="color:var(--green);">+${v.pnl_net_s1}€ S1</span>` : ""}
+            ${compl ? ` <span class="badge">${compl}</span>` : ""}
+          </div>
+        </div>`;
+      }).join("");
+      top3el.querySelectorAll(".card").forEach(el => {
+        el.onclick = () => {
+          sel.value = el.dataset.sid;
+          $("mtl_palier").value = 1;
+          $("mtl_capital").value = 10;
+          $("mtl_run").scrollIntoView({behavior: "smooth", block: "center"});
+        };
+      });
+    }
+  } catch(e) { console.error("loadMontanteLive err", e); }
+}
+
+async function runMontanteLive() {
+  const sid = $("mtl_strat").value;
+  const palier = parseInt($("mtl_palier").value) || 1;
+  const capital = parseFloat($("mtl_capital").value) || 10;
+  const status = $("mtl_status");
+  status.style.display = "";
+  status.querySelector("span:last-child").textContent = "⏳ Recherche du meilleur pick à venir...";
+  $("mtl_pick").innerHTML = "";
+  $("mtl_alternatives").innerHTML = "";
+  try {
+    const excl = encodeURIComponent($("excluded_leagues")?.value || "");
+    const r = await fetch(`/api/montante-live?strategy=${sid}&palier=${palier}&capital=${capital}&excluded_leagues=${excl}`);
+    const d = await r.json();
+    status.style.display = "none";
+    if (d.error) {
+      $("mtl_pick").innerHTML = `<div class="empty" style="color:var(--red);">${d.error}</div>`;
+      return;
+    }
+    if (!d.pick) {
+      $("mtl_pick").innerHTML = `<div class="empty">Aucun pick correspondant ne trouve dans les matchs à venir aujourd'hui.${d.n_total_picks ? ` (${d.n_total_picks} picks total mais aucun match futur disponible)` : ""}</div>`;
+      return;
+    }
+    const p = d.pick;
+    const gain = (capital * (p.cote - 1)).toFixed(2);
+    const totalAfter = (capital * p.cote).toFixed(2);
+    const isCombo = p.is_combo;
+    const fmtTime = t => t ? new Date(t*1000).toLocaleString('fr-FR', {hour:'2-digit', minute:'2-digit', day:'2-digit', month:'2-digit'}) : "?";
+
+    let legsBlock = "";
+    if (isCombo && p.legs) {
+      legsBlock = `
+        <div style="margin-bottom:14px;">
+          <div style="font-size:11px; color:var(--muted); margin-bottom:6px; font-weight:600;">📦 COMBO ${p.n_legs} jambes — toutes doivent gagner</div>
+          ${p.legs.map((l, i) => `
+            <div style="display:flex; justify-content:space-between; align-items:center; padding:10px; background:var(--bg-soft); border-radius:6px; margin-bottom:6px;">
+              <div style="flex:1;">
+                <div style="font-size:13px; color:var(--fg);"><b>${i+1}.</b> ${l.match}</div>
+                <div style="font-size:11px; color:var(--muted);">${l.sport} · ${l.league||''} · ⏰ ${fmtTime(l.start_time)}</div>
+                <div style="font-size:13px; color:var(--green); margin-top:4px;">→ ${l.selection}</div>
+              </div>
+              <div style="text-align:right;">
+                <div style="font-size:14px; color:var(--fg);"><b>@${l.cote}</b></div>
+                <div style="font-size:12px; color:${l.wr>=0.85?'var(--green)':'var(--orange)'};">WR ${(l.wr*100).toFixed(0)}%</div>
+              </div>
+            </div>
+          `).join("")}
+        </div>`;
+    }
+
+    const wrLabel = isCombo ? `WR combo (${p.n_legs}j)` : "WR magic";
+    const headerSubline = isCombo
+      ? `<div style="color:var(--muted); margin-bottom:6px;">📦 Combo ${p.n_legs} jambes (les 2 doivent gagner) · WR combo ${(p.wr*100).toFixed(0)}% = produit des jambes</div>
+         <div style="font-size:11px; color:var(--orange); margin-bottom:10px;">ℹ️ Ordre imposé par la stratégie (chronologique). Pas de remplacement possible — c'est ce qui a été validé en backtest.</div>`
+      : `<div style="color:var(--muted); margin-bottom:10px;">${p.sport} · ${p.league} · ⏰ ${fmtTime(p.start_time)}</div>`;
+
+    // Stocke le pick courant pour le copier-Telegram
+    _mtlLastPick = {pick: p, palier, capital, gain, totalAfter, sid, label: $("mtl_strat").options[$("mtl_strat").selectedIndex]?.text || sid};
+    $("mtl_pick").innerHTML = `
+      <div class="card" style="border:2px solid var(--green); padding:18px;">
+        <div style="display:flex; justify-content:space-between; align-items:flex-start; gap:10px; margin-bottom:8px;">
+          <div style="font-size:11px; color:var(--green); font-weight:600;">🎯 PICK PALIER ${palier} — Mise ${capital}€${isCombo?' · COMBO '+p.n_legs+'j':''}</div>
+          <button id="mtl_telegram" class="btn" style="font-size:11px; padding:5px 10px; background:#229ed9;">📋 Copier message Telegram</button>
+        </div>
+        ${!isCombo ? `<div style="font-size:18px; color:var(--fg); margin-bottom:6px;"><b>${p.match}</b></div>` : ""}
+        ${headerSubline}
+        ${!isCombo ? `<div style="font-size:15px; margin-bottom:14px;">
+          <span style="color:var(--green); font-size:18px;">→ ${p.selection}</span>
+          <span class="badge" style="margin-left:10px;">${p.market}</span>
+        </div>` : ""}
+        ${legsBlock}
+        <div style="display:grid; grid-template-columns:repeat(4,1fr); gap:14px; padding:12px; background:var(--bg-soft); border-radius:6px;">
+          <div><div style="color:var(--muted); font-size:11px;">Cote totale</div><div style="font-size:16px; color:var(--fg);"><b>${p.cote}</b></div></div>
+          <div><div style="color:var(--muted); font-size:11px;">${wrLabel}</div><div style="font-size:16px; color:var(--fg);"><b>${(p.wr*100).toFixed(0)}%</b></div></div>
+          <div><div style="color:var(--muted); font-size:11px;">Mise</div><div style="font-size:16px; color:var(--fg);"><b>${capital}€</b></div></div>
+          <div><div style="color:var(--muted); font-size:11px;">Si gagné</div><div style="font-size:16px; color:var(--green);"><b>+${gain}€</b> → ${totalAfter}€</div></div>
+        </div>
+        <div style="margin-top:12px; padding:10px; background:rgba(70,200,120,.08); border-left:3px solid var(--green); border-radius:4px; font-size:13px;">
+          <b>Si tu gagnes ce palier ${palier}</b> → tu auras <b>${totalAfter}€</b> à miser sur le palier ${palier+1}.<br>
+          <b>Si tu perds</b> → reset à 10€ et recommence le cycle.
+        </div>
+      </div>`;
+
+    // Attache le handler du bouton telegram (créé dynamiquement)
+    const tgBtn = document.getElementById("mtl_telegram");
+    if (tgBtn) tgBtn.onclick = copyMontanteTelegram;
+
+    // Alternatives = paliers à venir (suite chronologique du backtest)
+    if (d.alternatives && d.alternatives.length) {
+      $("mtl_alternatives").innerHTML = `
+        <h3 style="font-size:13px; color:var(--muted); margin:14px 0 8px;">📅 Paliers suivants prévus (à miser APRÈS si tu gagnes — pas un choix)</h3>
+        <div style="display:grid; grid-template-columns:repeat(${isCombo ? 1 : 2},1fr); gap:10px;">
+          ${d.alternatives.map(alt => {
+            if (isCombo && alt.legs) {
+              // Combo palier
+              let cote_t = 1, wr_t = 1;
+              alt.legs.forEach(l => { cote_t *= l.cote; wr_t *= l.wr; });
+              return `<div class="card" style="padding:12px;">
+                <div style="font-size:11px; color:var(--orange); margin-bottom:6px;">→ Si gagne palier ${alt.palier-1}, palier ${alt.palier} sera :</div>
+                ${alt.legs.map((l,i) => `
+                  <div style="font-size:12px; padding:6px; background:var(--bg-soft); border-radius:4px; margin-bottom:4px;">
+                    <b>${i+1}.</b> ${l.match} <span style="color:var(--muted);">(${fmtTime(l.start_time)})</span><br>
+                    <span style="color:var(--green);">→ ${l.selection}</span> @${l.cote} (WR ${(l.wr*100).toFixed(0)}%)
+                  </div>`).join("")}
+                <div style="margin-top:6px; font-size:12px; color:var(--muted);">Combo @${cote_t.toFixed(3)} · WR combo ${(wr_t*100).toFixed(0)}%</div>
+              </div>`;
+            } else if (alt.pick) {
+              // Single palier
+              const p2 = alt.pick;
+              return `<div class="card" style="padding:12px;">
+                <div style="font-size:11px; color:var(--orange); margin-bottom:6px;">→ Palier ${alt.palier}</div>
+                <div style="font-size:13px; color:var(--fg);">${p2.match}</div>
+                <div style="font-size:11px; color:var(--muted);">${p2.sport} · ${fmtTime(p2.start_time)}</div>
+                <div style="margin-top:6px; font-size:12px;">→ <b>${p2.selection}</b> @${p2.cote} (WR ${(p2.wr*100).toFixed(0)}%)</div>
+              </div>`;
+            }
+            return "";
+          }).join("")}
+        </div>`;
+    }
+  } catch(e) {
+    status.querySelector("span:last-child").textContent = "❌ Erreur: " + e.message;
+  }
+}
+
+if ($("mtl_run")) $("mtl_run").onclick = runMontanteLive;
+if ($("mtl_refresh")) $("mtl_refresh").onclick = () => { loadPicks(); runMontanteLive(); };
+
+// ── Filtre ligues exclues — preset Winamax FR ──
+// Ligues NON couvertes par Winamax FR (basé sur leur catalogue habituel)
+const WINAMAX_FR_EXCLUDED = [
+  // Foot exotique
+  "liga mx", "egyptian", "cyprus", "ligapro", "primera división, clausura",
+  "brasileirão série d", "brasileirão série b", "scottish premiership",
+  "first professional league", "danish superliga", "superliga",
+  "niké liga", "swiss super league", "austrian bundesliga",
+  "stoiximan super league", "czech first league", "canadian premier",
+  "usl championship", "copa de la liga", "frauen-bundesliga",
+  "serie a femminile", "uefa champions league, women",
+  // Basket
+  "liga acb", "germany bbl", "wnba preseason", "serie a2",
+  // Hockey
+  "del, playoffs",
+  // Misc
+  "relegation round"
+];
+const _exclInput = $("excluded_leagues");
+const _exclWinamax = $("excl_winamax_fr");
+const _exclClear = $("excl_clear");
+if (_exclInput) {
+  // Restore from localStorage
+  const stored = localStorage.getItem("excluded_leagues");
+  if (stored !== null) _exclInput.value = stored;
+  // Persist on change
+  _exclInput.addEventListener("input", () => {
+    localStorage.setItem("excluded_leagues", _exclInput.value);
+  });
+}
+if (_exclWinamax) _exclWinamax.onclick = () => {
+  _exclInput.value = WINAMAX_FR_EXCLUDED.join(", ");
+  localStorage.setItem("excluded_leagues", _exclInput.value);
+  // Refresh affichage si stratégie sélectionnée
+  const sel = document.querySelector(".card.selected");
+  if (sel) selectStrategy(sel.dataset.sid);
+};
+if (_exclClear) _exclClear.onclick = () => {
+  _exclInput.value = "";
+  localStorage.setItem("excluded_leagues", "");
+  const sel = document.querySelector(".card.selected");
+  if (sel) selectStrategy(sel.dataset.sid);
+};
+
 // ── Init ──
 refreshStatus();
 loadPicks();
 loadStrategies();
 loadMontanteStrategies();
+loadMontanteLive();
 </script>
 </body>
 </html>

@@ -1,0 +1,28 @@
+{
+  "id": "montante_o15_x4p_DOUBLE_TOP_WFR",
+  "label": "🪜⚽🇫🇷👑 Foot Over 1.5 ×4P cote 1.30-1.50 — WFR DOUBLE TOP +487€",
+  "description": "★★★ Le PnL pratique LE PLUS HAUT identifié en 4 paliers Winamax FR strict. Foot Over 1.5 buts cote 1.30-1.50, single, **4 paliers**. **45% completion** S1-26 cap 34€/cycle. PnL **+487€** S1 (43 cycles complets sur 96). Plus PnL que le top_completion (1.20-1.40) avec un cap +35% supérieur.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football"], "market": "over_1_5",
+    "cote_min": 1.30, "cote_max": 1.50,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+    "min_wr": null, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 10, "n_paliers_target": 4, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "n_cycles_complete": 43,
+    "n_cycles_total": 96,
+    "completion_rate": 0.45,
+    "avg_capital_complete": 34,
+    "pnl_net_s1": 487,
+    "winamax_fr": true,
+    "ev_pratique": 218,
+    "note": "★★★ Top PnL pratique 4 paliers WFR strict. Cote 1.30-1.50 légèrement plus haute que la version 1.20-1.40 = cap +35%."
+  }
+}

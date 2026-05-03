@@ -1,0 +1,27 @@
+{
+  "id": "montante_xmkt_OU_x4p_TOP_EV_WFR",
+  "label": "🪜⚽🇫🇷👑👑 Foot OU 1.5+2.5 ×4P cote 1.20-1.40 — NEW TOP EV 345 +589€ +152€ Apr",
+  "description": "★★★★★ NEW TOP EV PRATIQUE ABSOLU Winamax FR : Foot multi-market **OU 1.5 + OU 2.5** (single, sans 1x2 ni BTTS), cote 1.20-1.40, **4 paliers**. **58% completion** S1-26 strict cap 27€/cycle. PnL **+589€** S1 + Apr +152€. **EV pratique 345** — RECORD ABSOLU lib WFR.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football"], "market": "over_1_5,over_2_5",
+    "cote_min": 1.20, "cote_max": 1.40,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+    "min_wr": null, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 10, "n_paliers_target": 4, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.58,
+    "avg_capital_complete": 27,
+    "pnl_net_s1": 589,
+    "april_pnl": 152,
+    "ev_pratique": 345,
+    "winamax_fr": true,
+    "note": "★★★★★ NEW TOP EV ABSOLU. Filtrer aux markets OU 1.5 + OU 2.5 uniquement (best pool foot). 58% completion + 4 paliers + cap 27€/cycle."
+  }
+}

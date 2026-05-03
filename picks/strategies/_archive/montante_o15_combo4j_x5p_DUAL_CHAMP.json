@@ -1,0 +1,28 @@
+{
+  "id": "montante_o15_combo4j_x5p_DUAL_CHAMP",
+  "label": "🪜⚽💎🌸 Over 1.5 combo 4j ×5P cote 1.10-1.25 — DUAL CHAMP +813€/+735€",
+  "description": "★★★ DUAL CHAMP S1+Avril : Over 1.5 combo 4 jambes cote 1.10-1.25, 5 paliers. 6/71 cycles (8%) → cap 254€/cycle. PnL +813€ S1-26 + +735€ Avril ! Le profil avec MEILLEUR Avril cumulé après les jackpots. Cote palier ~1.78 (4×1.16) → ×5p = ×18 cap théorique.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football"], "market": "over_1_5",
+    "cote_min": 1.10, "cote_max": 1.25,
+    "sort_by": "wr", "max_legs": 4, "max_combos": 1,
+    "min_wr": null, "min_ev": null,
+    "legs_per_palier": 4
+  }],
+  "montante": {"initial_stake": 10, "n_paliers_target": 5, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 4},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict)",
+    "n_cycles_complete": 6,
+    "n_cycles_total": 71,
+    "completion_rate": 0.08,
+    "wr_palier_combo": 0.60,
+    "avg_capital_complete": 254,
+    "pnl_net_s1": 813,
+    "april_pnl": 735,
+    "note": "★★★ DUAL CHAMP : +813€ S1-26 + +735€ Avril seul ! Combo 4j O 1.5 cote 1.10-1.25 sur 5 paliers — equilibre cap/completion idéal."
+  }
+}

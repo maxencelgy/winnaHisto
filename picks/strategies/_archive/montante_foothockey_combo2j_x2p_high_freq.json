@@ -1,0 +1,29 @@
+{
+  "id": "montante_foothockey_combo2j_x2p_high_freq",
+  "label": "🪜⚽🏒💎 Foot+Hockey combo 2j ×2P cote 1.30-1.50 — 41% +552€",
+  "description": "Foot+Hockey combo 2 jambes par palier, cote 1.30-1.50 par leg, sort par EV, SEULEMENT 2 paliers. 39/95 cycles complets (41%) sur S1-26 → PnL +552€. Apr +118€ (8/19). Le 2 paliers court permet la grande fréquence (40%+) tout en cumulant un capital décent (38€/cycle).",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football", "ice-hockey"], "market": "1x2",
+    "cote_min": 1.30, "cote_max": 1.50,
+    "sort_by": "ev", "max_legs": 2, "max_combos": 1,
+    "min_wr": null, "min_ev": null,
+    "legs_per_palier": 2
+  }],
+  "montante": {"initial_stake": 10, "n_paliers_target": 2, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 2},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict)",
+    "n_cycles_complete": 39,
+    "n_cycles_total": 95,
+    "completion_rate": 0.41,
+    "avg_capital_complete": 38,
+    "pnl_net_s1": 552,
+    "april_pnl": 118,
+    "april_n_complete": 8,
+    "april_n_total": 19,
+    "note": "Court (2 paliers) → grande fréquence 41%. PnL +552€ S1-26 + 118€ Avril. Le combo 2j ×2p est le sweet spot pour qui veut compounding rapide sans risque trop long."
+  }
+}

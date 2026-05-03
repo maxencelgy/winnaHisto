@@ -1,0 +1,28 @@
+{
+  "id": "montante_o15_combo2j_x5p_balanced",
+  "label": "🪜⚽⚖️ Over 1.5 combo 2j ×5P cote 1.10-1.25 — 30% completion +404€",
+  "description": "Over 1.5 combo 2 jambes cote 1.10-1.25 par leg, 5 paliers. **30% completion** (25/84) sur S1-26 → PnL +404€ + Avril +294€ (16/27 = 59%). Cap 50€/cycle. Le PROFIL BALANCE entre fréquence haute (30%+) et capital décent. WR palier 77%.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football"], "market": "over_1_5",
+    "cote_min": 1.10, "cote_max": 1.25,
+    "sort_by": "wr", "max_legs": 2, "max_combos": 1,
+    "min_wr": null, "min_ev": null,
+    "legs_per_palier": 2
+  }],
+  "montante": {"initial_stake": 10, "n_paliers_target": 5, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 2},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict)",
+    "n_cycles_complete": 25,
+    "n_cycles_total": 84,
+    "completion_rate": 0.30,
+    "wr_palier_combo": 0.77,
+    "avg_capital_complete": 50,
+    "pnl_net_s1": 404,
+    "april_pnl": 294,
+    "note": "Sweet spot : 30% completion S1 + Avril 59% (16/27) → cap 50€. PnL +404€ S1 + +294€ Avril. La balance 'O 1.5 combo' qui aboutit ~1 fois sur 3."
+  }
+}

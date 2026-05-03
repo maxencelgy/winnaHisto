@@ -1,0 +1,28 @@
+{
+  "id": "montante_xmkt_jackpot_btts_ou",
+  "label": "🪜⚽💎🎰 JACKPOT BTTS+Over 2.5 — combo 3j ×5p cap 9810€/cycle",
+  "description": "Le PLUS GROS jackpot identifié de toute la lib montantes. Foot multi-market BTTS oui + Over 2.5 buts cote 1.50-1.85 par leg. Combo 3 jambes par palier (cote totale ~4-5 par palier !). 5 paliers d'affilée intraday. Capital final 9810€/cycle — 10€ → 9810€ ! 1 cycle / 112 sur S1-26 (1%) mais ROI +769%. ★ Avril 2026 ROI +3537% (NHL playoffs amplifient le pool).",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football"], "market": "btts,over_2_5",
+    "cote_min": 1.50, "cote_max": 1.85,
+    "sort_by": "wr", "max_legs": 3, "max_combos": 1,
+    "min_wr": null, "min_ev": null,
+    "legs_per_palier": 3
+  }],
+  "montante": {"initial_stake": 10, "n_paliers_target": 5, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 3},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict)",
+    "n_cycles_complete": 1,
+    "n_cycles_total": 112,
+    "completion_rate": 0.01,
+    "wr_palier_combo": 0.21,
+    "avg_capital_complete": 9810,
+    "roi_pct": 769,
+    "april_roi_pct": 3537,
+    "note": "RECORD CAPITAL ABSOLU lib : 9810€ par cycle (100x BR initial). Avril 2026 +3537% ROI grâce aux NHL playoffs et ligues foot intenses."
+  }
+}

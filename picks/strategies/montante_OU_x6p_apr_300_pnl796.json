@@ -1,0 +1,27 @@
+{
+  "id": "montante_OU_x6p_apr_300_pnl796",
+  "label": "🪜⚽🇫🇷🌸 Foot OU 1.5+2.5 ×6P cote 1.20-1.40 — +796€ S1 + +300€ AVRIL",
+  "description": "★★★★ TOP DUAL S1+Apr : Foot OU 1.5+OU 2.5 single cote 1.20-1.40, **6 paliers**. **40% completion** S1-26 strict cap 45€/cycle. PnL **+796€** S1 + Apr **+300€**. EV pratique 315. Le passage à 6 paliers amplifie le cap (×4.5 capital théorique sur 6 paliers WR ~85%).",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football"], "market": "over_1_5,over_2_5",
+    "cote_min": 1.20, "cote_max": 1.40,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+    "min_wr": null, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 10, "n_paliers_target": 6, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.40,
+    "avg_capital_complete": 45,
+    "pnl_net_s1": 796,
+    "april_pnl": 300,
+    "ev_pratique": 315,
+    "winamax_fr": true,
+    "note": "★★★★ Best dual S1+Apr lib WFR. 6 paliers OU pure cote 1.20-1.40 = 40% completion + +300€ Avril."
+  }
+}

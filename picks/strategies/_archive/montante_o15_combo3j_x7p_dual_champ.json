@@ -1,0 +1,28 @@
+{
+  "id": "montante_o15_combo3j_x7p_dual_champ",
+  "label": "🪜⚽💎🌸 Over 1.5 combo 3j ×7P cote 1.10-1.25 — +856€ S1 + +691€ Avril",
+  "description": "Over 1.5 combo 3 jambes cote 1.10-1.25 par leg, 7 paliers. 5/75 cycles (7%) → cap 321€/cycle. PnL +856€ S1-26 + Avril +691€ ! Cote palier ~1.4 (3 jambes 1.16 = 1.40) → ×7p = ×11 cap théorique. Équilibre puissance/dureté.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football"], "market": "over_1_5",
+    "cote_min": 1.10, "cote_max": 1.25,
+    "sort_by": "wr", "max_legs": 3, "max_combos": 1,
+    "min_wr": null, "min_ev": null,
+    "legs_per_palier": 3
+  }],
+  "montante": {"initial_stake": 10, "n_paliers_target": 7, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 3},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict)",
+    "n_cycles_complete": 5,
+    "n_cycles_total": 75,
+    "completion_rate": 0.07,
+    "wr_palier_combo": 0.68,
+    "avg_capital_complete": 321,
+    "pnl_net_s1": 856,
+    "april_pnl": 691,
+    "note": "Combo 3j Over 1.5 mini-cote ×7p : +856€ S1 + +691€ Avril. WR palier 68% (combo 3j ultra-safe), cap 321€/cycle."
+  }
+}

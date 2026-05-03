@@ -1,0 +1,25 @@
+{
+  "id": "foot_o15_mc2_AGGRO_WFR",
+  "label": "⚽🇫🇷🚀 Foot Over 1.5 ×2 cote 1.4-1.65 WR≥65% pct10 — BR×6.8 AGGRO",
+  "description": "Variante AGGRO du foot Over 1.5 : seulement 2 picks/jour (sélectifs) mais sizing 10% BR. **BR×6.8** (PnL +578€), DD 88€, ratio 6.6×, streak 4j. 165 combos sur 4 mois. Pour qui veut moins de paris mais plus de stake par pari.",
+  "components": [{
+    "sport": "football", "market": "over_1_5",
+    "cote_min": 1.40, "cote_max": 1.65,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 2,
+    "min_wr": 0.65, "min_ev": null
+  }],
+  "dedup": "max1",
+  "sizing": {"mode": "flat_pct", "pct": 0.10, "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "source": "find_wfr_v2_classics",
+    "pnl": 578,
+    "bankroll_multiplier": 6.8,
+    "dd": 88,
+    "ratio_pnl_dd": 6.6,
+    "streak_max": 4,
+    "n_combos": 165,
+    "winamax_fr": true,
+    "note": "AGGRO 10% sizing avec 2 picks/jour. Moins de combos mais BR mult fort. Winamax FR strict."
+  }
+}

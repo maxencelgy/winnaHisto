@@ -1,0 +1,31 @@
+{
+  "id": "MCA_xmkt_F3H3_pct7_BR45_RATIO19",
+  "label": "🏒⚽🇫🇷💎 Foot xmkt F3+H3 pct7 — BR×44 ratio 18.7× DD ultra-bas",
+  "description": "★★★★ Sweet spot conservateur : 3 picks Foot OU 1.5/2.5 cote 1.20-1.40 + 3 picks Hockey 1x2 cote 1.20-1.50 WR≥65%, sizing 7%. BR×44.5, **ratio 18.7×**, DD seulement **232€** !! 538 combos. PnL +4346€. Pour qui veut le ratio quasi-record avec DD bas.",
+  "components": [{
+    "sport": "football", "market": "over_1_5,over_2_5",
+    "cote_min": 1.20, "cote_max": 1.40,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 3,
+    "min_wr": null, "min_ev": null,
+    "label": "Foot OU xmkt (3)"
+  }, {
+    "sport": "ice-hockey", "market": "1x2",
+    "cote_min": 1.20, "cote_max": 1.50,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 3,
+    "min_wr": 0.65, "min_ev": null,
+    "label": "Hockey safe (3)"
+  }],
+  "dedup": "max1",
+  "sizing": {"mode": "flat_pct", "pct": 0.07, "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "source": "find_wfr_multicomp_aggro",
+    "pnl": 4346,
+    "bankroll_multiplier": 44.5,
+    "dd": 232,
+    "ratio_pnl_dd": 18.7,
+    "n_combos": 538,
+    "winamax_fr": true,
+    "note": "Sweet spot conservateur du F3H5 : moins de hockey = DD plus bas (232€ vs 501€) tout en gardant ratio 18.7×."
+  }
+}

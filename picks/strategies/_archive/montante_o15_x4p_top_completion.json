@@ -1,0 +1,31 @@
+{
+  "id": "montante_o15_x4p_top_completion",
+  "label": "🪜⚽⚖️ Over 1.5 ×4P cote 1.20-1.40 — 56% completion +421€ S1-26",
+  "description": "★ MEILLEUR RATIO COMPLETION × PnL : Over 1.5 buts foot single, cote 1.20-1.40, sort par WR, 4 paliers. 61/109 cycles complets (56% completion) sur S1-26, PnL +421€. Apr 19/27 (70%) PnL +186€. Profil 'lance-it-daily' fiable.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football"], "market": "over_1_5",
+    "cote_min": 1.20, "cote_max": 1.40,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+    "min_wr": null, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 10, "n_paliers_target": 4, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict)",
+    "n_cycles_complete": 61,
+    "n_cycles_total": 109,
+    "completion_rate": 0.56,
+    "wr_palier": 0.86,
+    "avg_capital_complete": 25,
+    "pnl_net_s1": 421,
+    "april_pnl": 186,
+    "april_n_complete": 19,
+    "april_n_total": 27,
+    "april_completion": 0.70,
+    "note": "Sweet spot O 1.5 single 4 paliers : 56% completion S1-26 + 70% Avril ! PnL +421€ S1-26. Quasi-machine à sous."
+  }
+}

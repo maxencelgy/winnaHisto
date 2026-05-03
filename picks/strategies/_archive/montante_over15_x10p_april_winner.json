@@ -1,0 +1,31 @@
+{
+  "id": "montante_over15_x10p_april_winner",
+  "label": "🪜⚽🛡️🌸 Over 1.5 ×10P cote 1.15-1.30 — AVRIL CHAMPION (8/23 cycles)",
+  "description": "★ CHAMPION AVRIL 2026 : Over 1.5 buts foot cote 1.15-1.30, 10 paliers. Sur Avril seul 8/23 cycles (35%) → ROI +136%. S1-26 21/90 (23%), capital 70€/cycle, ROI +63%. Un des rares profils avec >35% completion sur le mois récent + capital décent. Excellent 'lance-it-daily'.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football"], "market": "over_1_5",
+    "cote_min": 1.15, "cote_max": 1.30,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+    "min_wr": null, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 10, "n_paliers_target": 10, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict)",
+    "n_cycles_complete": 21,
+    "n_cycles_total": 90,
+    "completion_rate": 0.23,
+    "wr_palier": 0.85,
+    "avg_capital_complete": 70,
+    "roi_pct": 63,
+    "april_n_complete": 8,
+    "april_n_total": 23,
+    "april_completion": 0.35,
+    "april_roi_pct": 136,
+    "note": "★ AVRIL : 8 cycles complets sur 23 — meilleure performance Avril toutes montantes confondues côté fréquence. WR 85% par palier × 10 = ×6.5 capital théorique."
+  }
+}

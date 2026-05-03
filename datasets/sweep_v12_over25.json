@@ -1,0 +1,5430 @@
+{
+  "all": [
+    {
+      "id": "V12A_o25_1.3-1.5_p2_wr",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 41,
+          "n_total": 89,
+          "compl": 46.1,
+          "avg_cap": 19.6,
+          "roi": -9.4,
+          "wr_p": 67.3,
+          "pnl": -84.3
+        },
+        "Apr": {
+          "n_complete": 9,
+          "n_total": 22,
+          "compl": 40.9,
+          "avg_cap": 19.5,
+          "roi": -19.3,
+          "wr_p": 62.9,
+          "pnl": -44.4
+        }
+      },
+      "strat": {
+        "id": "V12A_o25_1.3-1.5_p2_wr",
+        "label": "Over 2.5 single",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_2_5",
+            "cote_min": 1.3,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 2,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "V12A_o25_1.3-1.5_p2_ev",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 38,
+          "n_total": 89,
+          "compl": 42.7,
+          "avg_cap": 20.2,
+          "roi": -13.8,
+          "wr_p": 64.6,
+          "pnl": -124.1
+        },
+        "Apr": {
+          "n_complete": 9,
+          "n_total": 22,
+          "compl": 40.9,
+          "avg_cap": 20.2,
+          "roi": -16.8,
+          "wr_p": 62.9,
+          "pnl": -38.6
+        }
+      },
+      "strat": {
+        "id": "V12A_o25_1.3-1.5_p2_ev",
+        "label": "Over 2.5 single",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_2_5",
+            "cote_min": 1.3,
+            "cote_max": 1.5,
+            "sort_by": "ev",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 2,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "V12A_o25_1.3-1.5_p3_wr",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 23,
+          "n_total": 82,
+          "compl": 28.0,
+          "avg_cap": 27.8,
+          "roi": -21.9,
+          "wr_p": 66.5,
+          "pnl": -181.3
+        },
+        "Apr": {
+          "n_complete": 5,
+          "n_total": 19,
+          "compl": 26.3,
+          "avg_cap": 27.3,
+          "roi": -26.7,
+          "wr_p": 65.0,
+          "pnl": -53.5
+        }
+      },
+      "strat": {
+        "id": "V12A_o25_1.3-1.5_p3_wr",
+        "label": "Over 2.5 single",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_2_5",
+            "cote_min": 1.3,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "V12A_o25_1.3-1.5_p3_ev",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 22,
+          "n_total": 82,
+          "compl": 26.8,
+          "avg_cap": 28.9,
+          "roi": -22.2,
+          "wr_p": 65.1,
+          "pnl": -184.1
+        },
+        "Apr": {
+          "n_complete": 6,
+          "n_total": 19,
+          "compl": 31.6,
+          "avg_cap": 28.9,
+          "roi": -8.3,
+          "wr_p": 67.5,
+          "pnl": -16.6
+        }
+      },
+      "strat": {
+        "id": "V12A_o25_1.3-1.5_p3_ev",
+        "label": "Over 2.5 single",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_2_5",
+            "cote_min": 1.3,
+            "cote_max": 1.5,
+            "sort_by": "ev",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "V12A_o25_1.3-1.5_p4_wr",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 15,
+          "n_total": 80,
+          "compl": 18.8,
+          "avg_cap": 39.2,
+          "roi": -26.2,
+          "wr_p": 66.5,
+          "pnl": -212.1
+        },
+        "Apr": {
+          "n_complete": 3,
+          "n_total": 19,
+          "compl": 15.8,
+          "avg_cap": 40.0,
+          "roi": -34.9,
+          "wr_p": 64.4,
+          "pnl": -69.9
+        }
+      },
+      "strat": {
+        "id": "V12A_o25_1.3-1.5_p4_wr",
+        "label": "Over 2.5 single",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_2_5",
+            "cote_min": 1.3,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "V12A_o25_1.3-1.5_p4_ev",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 12,
+          "n_total": 80,
+          "compl": 15.0,
+          "avg_cap": 40.3,
+          "roi": -39.1,
+          "wr_p": 64.4,
+          "pnl": -316.4
+        },
+        "Apr": {
+          "n_complete": 2,
+          "n_total": 19,
+          "compl": 10.5,
+          "avg_cap": 40.1,
+          "roi": -54.9,
+          "wr_p": 63.0,
+          "pnl": -109.8
+        }
+      },
+      "strat": {
+        "id": "V12A_o25_1.3-1.5_p4_ev",
+        "label": "Over 2.5 single",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_2_5",
+            "cote_min": 1.3,
+            "cote_max": 1.5,
+            "sort_by": "ev",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "V12A_o25_1.3-1.5_p5_wr",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 12,
+          "n_total": 79,
+          "compl": 15.2,
+          "avg_cap": 57.1,
+          "roi": -13.1,
+          "wr_p": 67.3,
+          "pnl": -104.6
+        },
+        "Apr": {
+          "n_complete": 3,
+          "n_total": 19,
+          "compl": 15.8,
+          "avg_cap": 57.5,
+          "roi": -8.7,
+          "wr_p": 66.7,
+          "pnl": -17.4
+        }
+      },
+      "strat": {
+        "id": "V12A_o25_1.3-1.5_p5_wr",
+        "label": "Over 2.5 single",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_2_5",
+            "cote_min": 1.3,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "V12A_o25_1.3-1.5_p5_ev",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 9,
+          "n_total": 79,
+          "compl": 11.4,
+          "avg_cap": 60.5,
+          "roi": -30.6,
+          "wr_p": 65.0,
+          "pnl": -245.2
+        },
+        "Apr": {
+          "n_complete": 2,
+          "n_total": 19,
+          "compl": 10.5,
+          "avg_cap": 59.8,
+          "roi": -35.2,
+          "wr_p": 64.6,
+          "pnl": -70.5
+        }
+      },
+      "strat": {
+        "id": "V12A_o25_1.3-1.5_p5_ev",
+        "label": "Over 2.5 single",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_2_5",
+            "cote_min": 1.3,
+            "cote_max": 1.5,
+            "sort_by": "ev",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "V12A_o25_1.4-1.6_p2_wr",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 35,
+          "n_total": 99,
+          "compl": 35.4,
+          "avg_cap": 22.0,
+          "roi": -21.9,
+          "wr_p": 59.5,
+          "pnl": -218.7
+        },
+        "Apr": {
+          "n_complete": 5,
+          "n_total": 23,
+          "compl": 21.7,
+          "avg_cap": 21.7,
+          "roi": -50.6,
+          "wr_p": 45.5,
+          "pnl": -121.5
+        }
+      },
+      "strat": {
+        "id": "V12A_o25_1.4-1.6_p2_wr",
+        "label": "Over 2.5 single",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_2_5",
+            "cote_min": 1.4,
+            "cote_max": 1.6,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 2,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "V12A_o25_1.4-1.6_p2_ev",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 30,
+          "n_total": 99,
+          "compl": 30.3,
+          "avg_cap": 22.7,
+          "roi": -30.9,
+          "wr_p": 54.3,
+          "pnl": -308.6
+        },
+        "Apr": {
+          "n_complete": 4,
+          "n_total": 23,
+          "compl": 17.4,
+          "avg_cap": 22.0,
+          "roi": -59.2,
+          "wr_p": 42.4,
+          "pnl": -142.1
+        }
+      },
+      "strat": {
+        "id": "V12A_o25_1.4-1.6_p2_ev",
+        "label": "Over 2.5 single",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_2_5",
+            "cote_min": 1.4,
+            "cote_max": 1.6,
+            "sort_by": "ev",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 2,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "V12A_o25_1.4-1.6_p3_wr",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 18,
+          "n_total": 95,
+          "compl": 18.9,
+          "avg_cap": 32.5,
+          "roi": -38.1,
+          "wr_p": 58.8,
+          "pnl": -365.5
+        },
+        "Apr": {
+          "n_complete": 3,
+          "n_total": 23,
+          "compl": 13.0,
+          "avg_cap": 31.0,
+          "roi": -57.1,
+          "wr_p": 47.4,
+          "pnl": -136.9
+        }
+      },
+      "strat": {
+        "id": "V12A_o25_1.4-1.6_p3_wr",
+        "label": "Over 2.5 single",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_2_5",
+            "cote_min": 1.4,
+            "cote_max": 1.6,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "V12A_o25_1.4-1.6_p3_ev",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 21,
+          "n_total": 95,
+          "compl": 22.1,
+          "avg_cap": 33.9,
+          "roi": -24.8,
+          "wr_p": 57.7,
+          "pnl": -237.6
+        },
+        "Apr": {
+          "n_complete": 3,
+          "n_total": 23,
+          "compl": 13.0,
+          "avg_cap": 32.9,
+          "roi": -54.7,
+          "wr_p": 45.9,
+          "pnl": -131.3
+        }
+      },
+      "strat": {
+        "id": "V12A_o25_1.4-1.6_p3_ev",
+        "label": "Over 2.5 single",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_2_5",
+            "cote_min": 1.4,
+            "cote_max": 1.6,
+            "sort_by": "ev",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "V12A_o25_1.4-1.6_p4_wr",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 10,
+          "n_total": 94,
+          "compl": 10.6,
+          "avg_cap": 48.7,
+          "roi": -47.7,
+          "wr_p": 58.8,
+          "pnl": -452.8
+        },
+        "Apr": {
+          "n_complete": 2,
+          "n_total": 23,
+          "compl": 8.7,
+          "avg_cap": 48.0,
+          "roi": -55.8,
+          "wr_p": 48.8,
+          "pnl": -134.0
+        }
+      },
+      "strat": {
+        "id": "V12A_o25_1.4-1.6_p4_wr",
+        "label": "Over 2.5 single",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_2_5",
+            "cote_min": 1.4,
+            "cote_max": 1.6,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "V12A_o25_1.4-1.6_p4_ev",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 14,
+          "n_total": 94,
+          "compl": 14.9,
+          "avg_cap": 51.8,
+          "roi": -22.6,
+          "wr_p": 59.0,
+          "pnl": -214.2
+        },
+        "Apr": {
+          "n_complete": 2,
+          "n_total": 23,
+          "compl": 8.7,
+          "avg_cap": 48.7,
+          "roi": -55.3,
+          "wr_p": 47.5,
+          "pnl": -132.6
+        }
+      },
+      "strat": {
+        "id": "V12A_o25_1.4-1.6_p4_ev",
+        "label": "Over 2.5 single",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_2_5",
+            "cote_min": 1.4,
+            "cote_max": 1.6,
+            "sort_by": "ev",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "V12A_o25_1.4-1.6_p5_wr",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 6,
+          "n_total": 93,
+          "compl": 6.5,
+          "avg_cap": 72.0,
+          "roi": -53.0,
+          "wr_p": 59.0,
+          "pnl": -497.8
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 23,
+          "compl": 4.3,
+          "avg_cap": 72.3,
+          "roi": -65.7,
+          "wr_p": 48.8,
+          "pnl": -157.7
+        }
+      },
+      "strat": {
+        "id": "V12A_o25_1.4-1.6_p5_wr",
+        "label": "Over 2.5 single",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_2_5",
+            "cote_min": 1.4,
+            "cote_max": 1.6,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "V12A_o25_1.4-1.6_p5_ev",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 6,
+          "n_total": 93,
+          "compl": 6.5,
+          "avg_cap": 77.2,
+          "roi": -49.6,
+          "wr_p": 58.0,
+          "pnl": -466.6
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 23,
+          "compl": 4.3,
+          "avg_cap": 72.3,
+          "roi": -65.7,
+          "wr_p": 47.6,
+          "pnl": -157.7
+        }
+      },
+      "strat": {
+        "id": "V12A_o25_1.4-1.6_p5_ev",
+        "label": "Over 2.5 single",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_2_5",
+            "cote_min": 1.4,
+            "cote_max": 1.6,
+            "sort_by": "ev",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "V12A_o25_1.5-1.7_p2_wr",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 39,
+          "n_total": 110,
+          "compl": 35.5,
+          "avg_cap": 25.1,
+          "roi": -11.0,
+          "wr_p": 58.5,
+          "pnl": -121.7
+        },
+        "Apr": {
+          "n_complete": 8,
+          "n_total": 27,
+          "compl": 29.6,
+          "avg_cap": 25.2,
+          "roi": -24.5,
+          "wr_p": 53.7,
+          "pnl": -68.5
+        }
+      },
+      "strat": {
+        "id": "V12A_o25_1.5-1.7_p2_wr",
+        "label": "Over 2.5 single",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_2_5",
+            "cote_min": 1.5,
+            "cote_max": 1.7,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 2,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "V12A_o25_1.5-1.7_p2_ev",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 37,
+          "n_total": 110,
+          "compl": 33.6,
+          "avg_cap": 25.7,
+          "roi": -13.4,
+          "wr_p": 58.5,
+          "pnl": -148.3
+        },
+        "Apr": {
+          "n_complete": 7,
+          "n_total": 27,
+          "compl": 25.9,
+          "avg_cap": 25.7,
+          "roi": -32.1,
+          "wr_p": 51.2,
+          "pnl": -89.8
+        }
+      },
+      "strat": {
+        "id": "V12A_o25_1.5-1.7_p2_ev",
+        "label": "Over 2.5 single",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_2_5",
+            "cote_min": 1.5,
+            "cote_max": 1.7,
+            "sort_by": "ev",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 2,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "V12A_o25_1.5-1.7_p3_wr",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 21,
+          "n_total": 107,
+          "compl": 19.6,
+          "avg_cap": 40.1,
+          "roi": -21.2,
+          "wr_p": 58.0,
+          "pnl": -228.8
+        },
+        "Apr": {
+          "n_complete": 4,
+          "n_total": 26,
+          "compl": 15.4,
+          "avg_cap": 41.6,
+          "roi": -34.6,
+          "wr_p": 53.2,
+          "pnl": -93.5
+        }
+      },
+      "strat": {
+        "id": "V12A_o25_1.5-1.7_p3_wr",
+        "label": "Over 2.5 single",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_2_5",
+            "cote_min": 1.5,
+            "cote_max": 1.7,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "V12A_o25_1.5-1.7_p3_ev",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 22,
+          "n_total": 107,
+          "compl": 20.6,
+          "avg_cap": 41.6,
+          "roi": -14.2,
+          "wr_p": 59.1,
+          "pnl": -153.6
+        },
+        "Apr": {
+          "n_complete": 4,
+          "n_total": 26,
+          "compl": 15.4,
+          "avg_cap": 42.6,
+          "roi": -33.2,
+          "wr_p": 52.2,
+          "pnl": -89.5
+        }
+      },
+      "strat": {
+        "id": "V12A_o25_1.5-1.7_p3_ev",
+        "label": "Over 2.5 single",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_2_5",
+            "cote_min": 1.5,
+            "cote_max": 1.7,
+            "sort_by": "ev",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "V12A_o25_1.5-1.7_p4_wr",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 9,
+          "n_total": 106,
+          "compl": 8.5,
+          "avg_cap": 65.0,
+          "roi": -44.4,
+          "wr_p": 56.9,
+          "pnl": -475.1
+        },
+        "Apr": {
+          "n_complete": 2,
+          "n_total": 25,
+          "compl": 8.0,
+          "avg_cap": 66.5,
+          "roi": -45.0,
+          "wr_p": 54.0,
+          "pnl": -117.0
+        }
+      },
+      "strat": {
+        "id": "V12A_o25_1.5-1.7_p4_wr",
+        "label": "Over 2.5 single",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_2_5",
+            "cote_min": 1.5,
+            "cote_max": 1.7,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "V12A_o25_1.5-1.7_p4_ev",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 11,
+          "n_total": 106,
+          "compl": 10.4,
+          "avg_cap": 68.8,
+          "roi": -28.4,
+          "wr_p": 58.5,
+          "pnl": -303.3
+        },
+        "Apr": {
+          "n_complete": 2,
+          "n_total": 25,
+          "compl": 8.0,
+          "avg_cap": 72.9,
+          "roi": -40.1,
+          "wr_p": 53.1,
+          "pnl": -104.2
+        }
+      },
+      "strat": {
+        "id": "V12A_o25_1.5-1.7_p4_ev",
+        "label": "Over 2.5 single",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_2_5",
+            "cote_min": 1.5,
+            "cote_max": 1.7,
+            "sort_by": "ev",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "V12A_o25_1.5-1.7_p5_wr",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 4,
+          "n_total": 104,
+          "compl": 3.8,
+          "avg_cap": 111.1,
+          "roi": -56.7,
+          "wr_p": 56.7,
+          "pnl": -595.6
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 24,
+          "compl": 4.2,
+          "avg_cap": 119.6,
+          "roi": -48.1,
+          "wr_p": 54.0,
+          "pnl": -120.4
+        }
+      },
+      "strat": {
+        "id": "V12A_o25_1.5-1.7_p5_wr",
+        "label": "Over 2.5 single",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_2_5",
+            "cote_min": 1.5,
+            "cote_max": 1.7,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "V12A_o25_1.5-1.7_p5_ev",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 7,
+          "n_total": 104,
+          "compl": 6.7,
+          "avg_cap": 113.4,
+          "roi": -23.5,
+          "wr_p": 59.1,
+          "pnl": -246.3
+        },
+        "Apr": {
+          "n_complete": 2,
+          "n_total": 24,
+          "compl": 8.3,
+          "avg_cap": 111.6,
+          "roi": -6.8,
+          "wr_p": 55.1,
+          "pnl": -16.9
+        }
+      },
+      "strat": {
+        "id": "V12A_o25_1.5-1.7_p5_ev",
+        "label": "Over 2.5 single",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_2_5",
+            "cote_min": 1.5,
+            "cote_max": 1.7,
+            "sort_by": "ev",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "V12A_o25_1.55-1.8_p2_wr",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 37,
+          "n_total": 112,
+          "compl": 33.0,
+          "avg_cap": 27.4,
+          "roi": -9.4,
+          "wr_p": 56.9,
+          "pnl": -106.6
+        },
+        "Apr": {
+          "n_complete": 6,
+          "n_total": 27,
+          "compl": 22.2,
+          "avg_cap": 28.1,
+          "roi": -36.1,
+          "wr_p": 47.5,
+          "pnl": -101.2
+        }
+      },
+      "strat": {
+        "id": "V12A_o25_1.55-1.8_p2_wr",
+        "label": "Over 2.5 single",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_2_5",
+            "cote_min": 1.55,
+            "cote_max": 1.8,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 2,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "V12A_o25_1.55-1.8_p2_ev",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 36,
+          "n_total": 112,
+          "compl": 32.1,
+          "avg_cap": 29.0,
+          "roi": -6.7,
+          "wr_p": 55.8,
+          "pnl": -75.3
+        },
+        "Apr": {
+          "n_complete": 6,
+          "n_total": 27,
+          "compl": 22.2,
+          "avg_cap": 29.1,
+          "roi": -34.0,
+          "wr_p": 44.7,
+          "pnl": -95.2
+        }
+      },
+      "strat": {
+        "id": "V12A_o25_1.55-1.8_p2_ev",
+        "label": "Over 2.5 single",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_2_5",
+            "cote_min": 1.55,
+            "cote_max": 1.8,
+            "sort_by": "ev",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 2,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "V12A_o25_1.55-1.8_p3_wr",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 21,
+          "n_total": 112,
+          "compl": 18.8,
+          "avg_cap": 46.3,
+          "roi": -13.1,
+          "wr_p": 56.9,
+          "pnl": -147.5
+        },
+        "Apr": {
+          "n_complete": 4,
+          "n_total": 27,
+          "compl": 14.8,
+          "avg_cap": 48.6,
+          "roi": -27.0,
+          "wr_p": 50.0,
+          "pnl": -75.7
+        }
+      },
+      "strat": {
+        "id": "V12A_o25_1.55-1.8_p3_wr",
+        "label": "Over 2.5 single",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_2_5",
+            "cote_min": 1.55,
+            "cote_max": 1.8,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "V12A_o25_1.55-1.8_p3_ev",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 20,
+          "n_total": 112,
+          "compl": 17.9,
+          "avg_cap": 50.2,
+          "roi": -10.3,
+          "wr_p": 55.8,
+          "pnl": -116.1
+        },
+        "Apr": {
+          "n_complete": 4,
+          "n_total": 27,
+          "compl": 14.8,
+          "avg_cap": 50.3,
+          "roi": -24.6,
+          "wr_p": 47.7,
+          "pnl": -68.8
+        }
+      },
+      "strat": {
+        "id": "V12A_o25_1.55-1.8_p3_ev",
+        "label": "Over 2.5 single",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_2_5",
+            "cote_min": 1.55,
+            "cote_max": 1.8,
+            "sort_by": "ev",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "V12A_o25_1.55-1.8_p4_wr",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 10,
+          "n_total": 111,
+          "compl": 9.0,
+          "avg_cap": 79.6,
+          "roi": -28.0,
+          "wr_p": 55.9,
+          "pnl": -314.0
+        },
+        "Apr": {
+          "n_complete": 3,
+          "n_total": 27,
+          "compl": 11.1,
+          "avg_cap": 86.1,
+          "roi": -4.2,
+          "wr_p": 52.0,
+          "pnl": -11.8
+        }
+      },
+      "strat": {
+        "id": "V12A_o25_1.55-1.8_p4_wr",
+        "label": "Over 2.5 single",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_2_5",
+            "cote_min": 1.55,
+            "cote_max": 1.8,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "V12A_o25_1.55-1.8_p4_ev",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 11,
+          "n_total": 111,
+          "compl": 9.9,
+          "avg_cap": 84.2,
+          "roi": -16.4,
+          "wr_p": 55.4,
+          "pnl": -183.7
+        },
+        "Apr": {
+          "n_complete": 3,
+          "n_total": 27,
+          "compl": 11.1,
+          "avg_cap": 86.1,
+          "roi": -4.2,
+          "wr_p": 50.0,
+          "pnl": -11.8
+        }
+      },
+      "strat": {
+        "id": "V12A_o25_1.55-1.8_p4_ev",
+        "label": "Over 2.5 single",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_2_5",
+            "cote_min": 1.55,
+            "cote_max": 1.8,
+            "sort_by": "ev",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "V12A_o25_1.55-1.8_p5_wr",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 5,
+          "n_total": 109,
+          "compl": 4.6,
+          "avg_cap": 133.4,
+          "roi": -38.5,
+          "wr_p": 55.4,
+          "pnl": -423.2
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 25,
+          "compl": 4.0,
+          "avg_cap": 148.7,
+          "roi": -39.0,
+          "wr_p": 48.9,
+          "pnl": -101.3
+        }
+      },
+      "strat": {
+        "id": "V12A_o25_1.55-1.8_p5_wr",
+        "label": "Over 2.5 single",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_2_5",
+            "cote_min": 1.55,
+            "cote_max": 1.8,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "V12A_o25_1.55-1.8_p5_ev",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 5,
+          "n_total": 109,
+          "compl": 4.6,
+          "avg_cap": 140.7,
+          "roi": -35.1,
+          "wr_p": 54.6,
+          "pnl": -386.3
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 25,
+          "compl": 4.0,
+          "avg_cap": 148.7,
+          "roi": -39.0,
+          "wr_p": 46.7,
+          "pnl": -101.3
+        }
+      },
+      "strat": {
+        "id": "V12A_o25_1.55-1.8_p5_ev",
+        "label": "Over 2.5 single",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_2_5",
+            "cote_min": 1.55,
+            "cote_max": 1.8,
+            "sort_by": "ev",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "V12A_o25_1.6-1.85_p2_wr",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 42,
+          "n_total": 114,
+          "compl": 36.8,
+          "avg_cap": 29.5,
+          "roi": 8.7,
+          "wr_p": 59.6,
+          "pnl": 99.9
+        },
+        "Apr": {
+          "n_complete": 11,
+          "n_total": 29,
+          "compl": 37.9,
+          "avg_cap": 29.7,
+          "roi": 12.3,
+          "wr_p": 61.7,
+          "pnl": 37.0
+        }
+      },
+      "strat": {
+        "id": "V12A_o25_1.6-1.85_p2_wr",
+        "label": "Over 2.5 single",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_2_5",
+            "cote_min": 1.6,
+            "cote_max": 1.85,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 2,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "V12A_o25_1.6-1.85_p2_ev",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 44,
+          "n_total": 114,
+          "compl": 38.6,
+          "avg_cap": 30.6,
+          "roi": 18.0,
+          "wr_p": 61.5,
+          "pnl": 207.2
+        },
+        "Apr": {
+          "n_complete": 11,
+          "n_total": 29,
+          "compl": 37.9,
+          "avg_cap": 31.0,
+          "roi": 17.1,
+          "wr_p": 60.0,
+          "pnl": 51.4
+        }
+      },
+      "strat": {
+        "id": "V12A_o25_1.6-1.85_p2_ev",
+        "label": "Over 2.5 single",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_2_5",
+            "cote_min": 1.6,
+            "cote_max": 1.85,
+            "sort_by": "ev",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 2,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "V12A_o25_1.6-1.85_p3_wr",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 23,
+          "n_total": 112,
+          "compl": 20.5,
+          "avg_cap": 51.8,
+          "roi": 6.3,
+          "wr_p": 58.8,
+          "pnl": 70.9
+        },
+        "Apr": {
+          "n_complete": 8,
+          "n_total": 28,
+          "compl": 28.6,
+          "avg_cap": 52.1,
+          "roi": 47.3,
+          "wr_p": 64.9,
+          "pnl": 137.2
+        }
+      },
+      "strat": {
+        "id": "V12A_o25_1.6-1.85_p3_wr",
+        "label": "Over 2.5 single",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_2_5",
+            "cote_min": 1.6,
+            "cote_max": 1.85,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "V12A_o25_1.6-1.85_p3_ev",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 26,
+          "n_total": 112,
+          "compl": 23.2,
+          "avg_cap": 53.0,
+          "roi": 22.9,
+          "wr_p": 61.3,
+          "pnl": 259.2
+        },
+        "Apr": {
+          "n_complete": 8,
+          "n_total": 28,
+          "compl": 28.6,
+          "avg_cap": 53.9,
+          "roi": 52.2,
+          "wr_p": 63.6,
+          "pnl": 151.3
+        }
+      },
+      "strat": {
+        "id": "V12A_o25_1.6-1.85_p3_ev",
+        "label": "Over 2.5 single",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_2_5",
+            "cote_min": 1.6,
+            "cote_max": 1.85,
+            "sort_by": "ev",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "V12A_o25_1.6-1.85_p4_wr",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 12,
+          "n_total": 112,
+          "compl": 10.7,
+          "avg_cap": 84.9,
+          "roi": -8.9,
+          "wr_p": 58.2,
+          "pnl": -100.7
+        },
+        "Apr": {
+          "n_complete": 5,
+          "n_total": 28,
+          "compl": 17.9,
+          "avg_cap": 84.6,
+          "roi": 49.4,
+          "wr_p": 64.6,
+          "pnl": 143.2
+        }
+      },
+      "strat": {
+        "id": "V12A_o25_1.6-1.85_p4_wr",
+        "label": "Over 2.5 single",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_2_5",
+            "cote_min": 1.6,
+            "cote_max": 1.85,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "V12A_o25_1.6-1.85_p4_ev",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 12,
+          "n_total": 112,
+          "compl": 10.7,
+          "avg_cap": 88.8,
+          "roi": -4.8,
+          "wr_p": 59.7,
+          "pnl": -54.7
+        },
+        "Apr": {
+          "n_complete": 5,
+          "n_total": 28,
+          "compl": 17.9,
+          "avg_cap": 86.4,
+          "roi": 52.4,
+          "wr_p": 63.5,
+          "pnl": 151.9
+        }
+      },
+      "strat": {
+        "id": "V12A_o25_1.6-1.85_p4_ev",
+        "label": "Over 2.5 single",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_2_5",
+            "cote_min": 1.6,
+            "cote_max": 1.85,
+            "sort_by": "ev",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "V12A_o25_1.6-1.85_p5_wr",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 8,
+          "n_total": 110,
+          "compl": 7.3,
+          "avg_cap": 149.5,
+          "roi": 8.7,
+          "wr_p": 58.5,
+          "pnl": 96.2
+        },
+        "Apr": {
+          "n_complete": 2,
+          "n_total": 27,
+          "compl": 7.4,
+          "avg_cap": 144.4,
+          "roi": 6.7,
+          "wr_p": 63.8,
+          "pnl": 18.9
+        }
+      },
+      "strat": {
+        "id": "V12A_o25_1.6-1.85_p5_wr",
+        "label": "Over 2.5 single",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_2_5",
+            "cote_min": 1.6,
+            "cote_max": 1.85,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "V12A_o25_1.6-1.85_p5_ev",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 6,
+          "n_total": 110,
+          "compl": 5.5,
+          "avg_cap": 156.8,
+          "roi": -14.3,
+          "wr_p": 59.1,
+          "pnl": -159.1
+        },
+        "Apr": {
+          "n_complete": 2,
+          "n_total": 27,
+          "compl": 7.4,
+          "avg_cap": 154.4,
+          "roi": 13.9,
+          "wr_p": 62.7,
+          "pnl": 38.8
+        }
+      },
+      "strat": {
+        "id": "V12A_o25_1.6-1.85_p5_ev",
+        "label": "Over 2.5 single",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_2_5",
+            "cote_min": 1.6,
+            "cote_max": 1.85,
+            "sort_by": "ev",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "V12A_o25_1.7-1.95_p2_wr",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 41,
+          "n_total": 112,
+          "compl": 36.6,
+          "avg_cap": 32.9,
+          "roi": 20.1,
+          "wr_p": 59.7,
+          "pnl": 226.8
+        },
+        "Apr": {
+          "n_complete": 11,
+          "n_total": 29,
+          "compl": 37.9,
+          "avg_cap": 33.5,
+          "roi": 26.2,
+          "wr_p": 61.7,
+          "pnl": 78.5
+        }
+      },
+      "strat": {
+        "id": "V12A_o25_1.7-1.95_p2_wr",
+        "label": "Over 2.5 single",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_2_5",
+            "cote_min": 1.7,
+            "cote_max": 1.95,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 2,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "V12A_o25_1.7-1.95_p2_ev",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 49,
+          "n_total": 112,
+          "compl": 43.8,
+          "avg_cap": 33.6,
+          "roi": 46.8,
+          "wr_p": 64.6,
+          "pnl": 528.4
+        },
+        "Apr": {
+          "n_complete": 14,
+          "n_total": 29,
+          "compl": 48.3,
+          "avg_cap": 34.0,
+          "roi": 62.2,
+          "wr_p": 67.4,
+          "pnl": 186.5
+        }
+      },
+      "strat": {
+        "id": "V12A_o25_1.7-1.95_p2_ev",
+        "label": "Over 2.5 single",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_2_5",
+            "cote_min": 1.7,
+            "cote_max": 1.95,
+            "sort_by": "ev",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 2,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "V12A_o25_1.7-1.95_p3_wr",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 24,
+          "n_total": 111,
+          "compl": 21.6,
+          "avg_cap": 58.9,
+          "roi": 27.1,
+          "wr_p": 59.7,
+          "pnl": 303.4
+        },
+        "Apr": {
+          "n_complete": 7,
+          "n_total": 29,
+          "compl": 24.1,
+          "avg_cap": 59.4,
+          "roi": 42.0,
+          "wr_p": 62.1,
+          "pnl": 126.0
+        }
+      },
+      "strat": {
+        "id": "V12A_o25_1.7-1.95_p3_wr",
+        "label": "Over 2.5 single",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_2_5",
+            "cote_min": 1.7,
+            "cote_max": 1.95,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "V12A_o25_1.7-1.95_p3_ev",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 26,
+          "n_total": 111,
+          "compl": 23.4,
+          "avg_cap": 61.0,
+          "roi": 42.6,
+          "wr_p": 62.4,
+          "pnl": 476.8
+        },
+        "Apr": {
+          "n_complete": 9,
+          "n_total": 29,
+          "compl": 31.0,
+          "avg_cap": 61.5,
+          "roi": 87.8,
+          "wr_p": 66.7,
+          "pnl": 263.3
+        }
+      },
+      "strat": {
+        "id": "V12A_o25_1.7-1.95_p3_ev",
+        "label": "Over 2.5 single",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_2_5",
+            "cote_min": 1.7,
+            "cote_max": 1.95,
+            "sort_by": "ev",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "V12A_o25_1.7-1.95_p4_wr",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 14,
+          "n_total": 110,
+          "compl": 12.7,
+          "avg_cap": 102.9,
+          "roi": 30.7,
+          "wr_p": 59.3,
+          "pnl": 341.0
+        },
+        "Apr": {
+          "n_complete": 4,
+          "n_total": 28,
+          "compl": 14.3,
+          "avg_cap": 101.5,
+          "roi": 43.4,
+          "wr_p": 60.7,
+          "pnl": 126.0
+        }
+      },
+      "strat": {
+        "id": "V12A_o25_1.7-1.95_p4_wr",
+        "label": "Over 2.5 single",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_2_5",
+            "cote_min": 1.7,
+            "cote_max": 1.95,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "V12A_o25_1.7-1.95_p4_ev",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 13,
+          "n_total": 110,
+          "compl": 11.8,
+          "avg_cap": 108.5,
+          "roi": 28.0,
+          "wr_p": 60.9,
+          "pnl": 310.4
+        },
+        "Apr": {
+          "n_complete": 3,
+          "n_total": 28,
+          "compl": 10.7,
+          "avg_cap": 103.6,
+          "roi": 10.6,
+          "wr_p": 61.5,
+          "pnl": 30.7
+        }
+      },
+      "strat": {
+        "id": "V12A_o25_1.7-1.95_p4_ev",
+        "label": "Over 2.5 single",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_2_5",
+            "cote_min": 1.7,
+            "cote_max": 1.95,
+            "sort_by": "ev",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "V12A_o25_1.7-1.95_p5_wr",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 8,
+          "n_total": 109,
+          "compl": 7.3,
+          "avg_cap": 178.9,
+          "roi": 31.0,
+          "wr_p": 59.3,
+          "pnl": 341.0
+        },
+        "Apr": {
+          "n_complete": 4,
+          "n_total": 27,
+          "compl": 14.8,
+          "avg_cap": 180.9,
+          "roi": 162.0,
+          "wr_p": 63.5,
+          "pnl": 453.5
+        }
+      },
+      "strat": {
+        "id": "V12A_o25_1.7-1.95_p5_wr",
+        "label": "Over 2.5 single",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_2_5",
+            "cote_min": 1.7,
+            "cote_max": 1.95,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "V12A_o25_1.7-1.95_p5_ev",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 8,
+          "n_total": 109,
+          "compl": 7.3,
+          "avg_cap": 194.6,
+          "roi": 42.5,
+          "wr_p": 60.7,
+          "pnl": 467.1
+        },
+        "Apr": {
+          "n_complete": 3,
+          "n_total": 27,
+          "compl": 11.1,
+          "avg_cap": 192.6,
+          "roi": 110.0,
+          "wr_p": 62.5,
+          "pnl": 307.9
+        }
+      },
+      "strat": {
+        "id": "V12A_o25_1.7-1.95_p5_ev",
+        "label": "Over 2.5 single",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_2_5",
+            "cote_min": 1.7,
+            "cote_max": 1.95,
+            "sort_by": "ev",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 5,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "V12B_o25_l2_1.3-1.55_p2_wr",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 20,
+          "n_total": 78,
+          "compl": 25.6,
+          "avg_cap": 41.7,
+          "roi": 6.8,
+          "wr_p": 50.4,
+          "pnl": 53.8
+        },
+        "Apr": {
+          "n_complete": 4,
+          "n_total": 18,
+          "compl": 22.2,
+          "avg_cap": 41.3,
+          "roi": -7.8,
+          "wr_p": 46.2,
+          "pnl": -14.9
+        }
+      },
+      "strat": {
+        "id": "V12B_o25_l2_1.3-1.55_p2_wr",
+        "label": "Over 2.5 combo 2j",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_2_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 2,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V12B_o25_l2_1.3-1.55_p2_ev",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 16,
+          "n_total": 78,
+          "compl": 20.5,
+          "avg_cap": 43.0,
+          "roi": -11.7,
+          "wr_p": 47.5,
+          "pnl": -92.5
+        },
+        "Apr": {
+          "n_complete": 3,
+          "n_total": 18,
+          "compl": 16.7,
+          "avg_cap": 41.7,
+          "roi": -28.9,
+          "wr_p": 42.3,
+          "pnl": -54.9
+        }
+      },
+      "strat": {
+        "id": "V12B_o25_l2_1.3-1.55_p2_ev",
+        "label": "Over 2.5 combo 2j",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_2_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "ev",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 2,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V12B_o25_l2_1.3-1.55_p3_wr",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 9,
+          "n_total": 74,
+          "compl": 12.2,
+          "avg_cap": 84.2,
+          "roi": 2.3,
+          "wr_p": 50.4,
+          "pnl": 17.5
+        },
+        "Apr": {
+          "n_complete": 2,
+          "n_total": 18,
+          "compl": 11.1,
+          "avg_cap": 85.7,
+          "roi": -4.5,
+          "wr_p": 46.7,
+          "pnl": -8.5
+        }
+      },
+      "strat": {
+        "id": "V12B_o25_l2_1.3-1.55_p3_wr",
+        "label": "Over 2.5 combo 2j",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_2_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V12B_o25_l2_1.3-1.55_p3_ev",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 6,
+          "n_total": 74,
+          "compl": 8.1,
+          "avg_cap": 89.9,
+          "roi": -26.8,
+          "wr_p": 47.3,
+          "pnl": -200.6
+        },
+        "Apr": {
+          "n_complete": 2,
+          "n_total": 18,
+          "compl": 11.1,
+          "avg_cap": 89.0,
+          "roi": -1.1,
+          "wr_p": 44.8,
+          "pnl": -2.1
+        }
+      },
+      "strat": {
+        "id": "V12B_o25_l2_1.3-1.55_p3_ev",
+        "label": "Over 2.5 combo 2j",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_2_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "ev",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V12B_o25_l2_1.3-1.55_p4_wr",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 2,
+          "n_total": 71,
+          "compl": 2.8,
+          "avg_cap": 169.4,
+          "roi": -51.5,
+          "wr_p": 49.6,
+          "pnl": -371.1
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 17,
+          "compl": 5.9,
+          "avg_cap": 155.9,
+          "roi": -7.8,
+          "wr_p": 48.4,
+          "pnl": -14.1
+        }
+      },
+      "strat": {
+        "id": "V12B_o25_l2_1.3-1.55_p4_wr",
+        "label": "Over 2.5 combo 2j",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_2_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V12B_o25_l2_1.3-1.55_p4_ev",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 2,
+          "n_total": 71,
+          "compl": 2.8,
+          "avg_cap": 190.5,
+          "roi": -45.7,
+          "wr_p": 47.7,
+          "pnl": -329.0
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 17,
+          "compl": 5.9,
+          "avg_cap": 165.6,
+          "roi": -2.4,
+          "wr_p": 46.7,
+          "pnl": -4.4
+        }
+      },
+      "strat": {
+        "id": "V12B_o25_l2_1.3-1.55_p4_ev",
+        "label": "Over 2.5 combo 2j",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_2_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "ev",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V12B_o25_l2_1.4-1.65_p2_wr",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 10,
+          "n_total": 94,
+          "compl": 10.6,
+          "avg_cap": 49.3,
+          "roi": -47.1,
+          "wr_p": 35.9,
+          "pnl": -447.3
+        },
+        "Apr": {
+          "n_complete": 2,
+          "n_total": 23,
+          "compl": 8.7,
+          "avg_cap": 48.0,
+          "roi": -55.8,
+          "wr_p": 27.6,
+          "pnl": -134.0
+        }
+      },
+      "strat": {
+        "id": "V12B_o25_l2_1.4-1.65_p2_wr",
+        "label": "Over 2.5 combo 2j",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_2_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 2,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V12B_o25_l2_1.4-1.65_p2_ev",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 15,
+          "n_total": 93,
+          "compl": 16.1,
+          "avg_cap": 54.3,
+          "roi": -12.4,
+          "wr_p": 38.6,
+          "pnl": -116.2
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 23,
+          "compl": 4.3,
+          "avg_cap": 47.2,
+          "roi": -76.2,
+          "wr_p": 24.1,
+          "pnl": -182.8
+        }
+      },
+      "strat": {
+        "id": "V12B_o25_l2_1.4-1.65_p2_ev",
+        "label": "Over 2.5 combo 2j",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_2_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "ev",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 2,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V12B_o25_l2_1.4-1.65_p3_wr",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 5,
+          "n_total": 93,
+          "compl": 5.4,
+          "avg_cap": 110.8,
+          "roi": -40.0,
+          "wr_p": 37.1,
+          "pnl": -376.2
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 23,
+          "compl": 4.3,
+          "avg_cap": 104.1,
+          "roi": -52.5,
+          "wr_p": 29.0,
+          "pnl": -125.9
+        }
+      },
+      "strat": {
+        "id": "V12B_o25_l2_1.4-1.65_p3_wr",
+        "label": "Over 2.5 combo 2j",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_2_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V12B_o25_l2_1.4-1.65_p3_ev",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 3,
+          "n_total": 91,
+          "compl": 3.3,
+          "avg_cap": 141.0,
+          "roi": -52.9,
+          "wr_p": 37.1,
+          "pnl": -486.9
+        },
+        "Apr": {
+          "n_complete": 0,
+          "n_total": 23,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "roi": -95.8,
+          "wr_p": 23.3,
+          "pnl": -230
+        }
+      },
+      "strat": {
+        "id": "V12B_o25_l2_1.4-1.65_p3_ev",
+        "label": "Over 2.5 combo 2j",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_2_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "ev",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V12B_o25_l2_1.4-1.65_p4_wr",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 0,
+          "n_total": 93,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "roi": -98.9,
+          "wr_p": 35.9,
+          "pnl": -930
+        },
+        "Apr": {
+          "n_complete": 0,
+          "n_total": 23,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "roi": -95.8,
+          "wr_p": 28.1,
+          "pnl": -230
+        }
+      },
+      "strat": {
+        "id": "V12B_o25_l2_1.4-1.65_p4_wr",
+        "label": "Over 2.5 combo 2j",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_2_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V12B_o25_l2_1.4-1.65_p4_ev",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 2,
+          "n_total": 91,
+          "compl": 2.2,
+          "avg_cap": 332.7,
+          "roi": -26.6,
+          "wr_p": 37.8,
+          "pnl": -244.6
+        },
+        "Apr": {
+          "n_complete": 0,
+          "n_total": 23,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "roi": -95.8,
+          "wr_p": 23.3,
+          "pnl": -230
+        }
+      },
+      "strat": {
+        "id": "V12B_o25_l2_1.4-1.65_p4_ev",
+        "label": "Over 2.5 combo 2j",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_2_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "ev",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V12B_o25_l2_1.5-1.75_p2_wr",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 9,
+          "n_total": 108,
+          "compl": 8.3,
+          "avg_cap": 68.0,
+          "roi": -43.0,
+          "wr_p": 30.8,
+          "pnl": -468.4
+        },
+        "Apr": {
+          "n_complete": 2,
+          "n_total": 25,
+          "compl": 8.0,
+          "avg_cap": 67.1,
+          "roi": -44.5,
+          "wr_p": 30.3,
+          "pnl": -115.8
+        }
+      },
+      "strat": {
+        "id": "V12B_o25_l2_1.5-1.75_p2_wr",
+        "label": "Over 2.5 combo 2j",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_2_5",
+            "cote_min": 1.5,
+            "cote_max": 1.75,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 2,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V12B_o25_l2_1.5-1.75_p2_ev",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 8,
+          "n_total": 107,
+          "compl": 7.5,
+          "avg_cap": 72.7,
+          "roi": -45.3,
+          "wr_p": 31.2,
+          "pnl": -488.8
+        },
+        "Apr": {
+          "n_complete": 2,
+          "n_total": 25,
+          "compl": 8.0,
+          "avg_cap": 74.7,
+          "roi": -38.7,
+          "wr_p": 28.1,
+          "pnl": -100.6
+        }
+      },
+      "strat": {
+        "id": "V12B_o25_l2_1.5-1.75_p2_ev",
+        "label": "Over 2.5 combo 2j",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_2_5",
+            "cote_min": 1.5,
+            "cote_max": 1.75,
+            "sort_by": "ev",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 2,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V12B_o25_l2_1.5-1.75_p3_wr",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 3,
+          "n_total": 106,
+          "compl": 2.8,
+          "avg_cap": 182.4,
+          "roi": -47.9,
+          "wr_p": 31.3,
+          "pnl": -512.8
+        },
+        "Apr": {
+          "n_complete": 0,
+          "n_total": 24,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "roi": -96.0,
+          "wr_p": 29.4,
+          "pnl": -240
+        }
+      },
+      "strat": {
+        "id": "V12B_o25_l2_1.5-1.75_p3_wr",
+        "label": "Over 2.5 combo 2j",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_2_5",
+            "cote_min": 1.5,
+            "cote_max": 1.75,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V12B_o25_l2_1.5-1.75_p3_ev",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 2,
+          "n_total": 105,
+          "compl": 1.9,
+          "avg_cap": 201.2,
+          "roi": -61.1,
+          "wr_p": 31.3,
+          "pnl": -647.5
+        },
+        "Apr": {
+          "n_complete": 0,
+          "n_total": 24,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "roi": -96.0,
+          "wr_p": 27.3,
+          "pnl": -240
+        }
+      },
+      "strat": {
+        "id": "V12B_o25_l2_1.5-1.75_p3_ev",
+        "label": "Over 2.5 combo 2j",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_2_5",
+            "cote_min": 1.5,
+            "cote_max": 1.75,
+            "sort_by": "ev",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V12B_o25_l2_1.5-1.75_p4_wr",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 1,
+          "n_total": 106,
+          "compl": 0.9,
+          "avg_cap": 380.8,
+          "roi": -63.5,
+          "wr_p": 31.4,
+          "pnl": -679.2
+        },
+        "Apr": {
+          "n_complete": 0,
+          "n_total": 24,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "roi": -96.0,
+          "wr_p": 29.4,
+          "pnl": -240
+        }
+      },
+      "strat": {
+        "id": "V12B_o25_l2_1.5-1.75_p4_wr",
+        "label": "Over 2.5 combo 2j",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_2_5",
+            "cote_min": 1.5,
+            "cote_max": 1.75,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V12B_o25_l2_1.5-1.75_p4_ev",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 0,
+          "n_total": 105,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "roi": -99.1,
+          "wr_p": 30.9,
+          "pnl": -1050
+        },
+        "Apr": {
+          "n_complete": 0,
+          "n_total": 24,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "roi": -96.0,
+          "wr_p": 27.3,
+          "pnl": -240
+        }
+      },
+      "strat": {
+        "id": "V12B_o25_l2_1.5-1.75_p4_ev",
+        "label": "Over 2.5 combo 2j",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_2_5",
+            "cote_min": 1.5,
+            "cote_max": 1.75,
+            "sort_by": "ev",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V12C_btts_l1_1.4-1.6_p2_wr",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 37,
+          "n_total": 88,
+          "compl": 42.0,
+          "avg_cap": 22.7,
+          "roi": -4.4,
+          "wr_p": 66.7,
+          "pnl": -39.2
+        },
+        "Apr": {
+          "n_complete": 9,
+          "n_total": 23,
+          "compl": 39.1,
+          "avg_cap": 22.7,
+          "roi": -10.7,
+          "wr_p": 63.2,
+          "pnl": -25.7
+        }
+      },
+      "strat": {
+        "id": "V12C_btts_l1_1.4-1.6_p2_wr",
+        "label": "BTTS oui montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts",
+            "cote_min": 1.4,
+            "cote_max": 1.6,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 2,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "V12C_btts_l1_1.4-1.6_p2_ev",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 42,
+          "n_total": 88,
+          "compl": 47.7,
+          "avg_cap": 23.1,
+          "roi": 10.0,
+          "wr_p": 69.7,
+          "pnl": 89.2
+        },
+        "Apr": {
+          "n_complete": 10,
+          "n_total": 23,
+          "compl": 43.5,
+          "avg_cap": 23.1,
+          "roi": 0.3,
+          "wr_p": 66.7,
+          "pnl": 0.8
+        }
+      },
+      "strat": {
+        "id": "V12C_btts_l1_1.4-1.6_p2_ev",
+        "label": "BTTS oui montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts",
+            "cote_min": 1.4,
+            "cote_max": 1.6,
+            "sort_by": "ev",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 2,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "V12C_btts_l2_1.4-1.6_p2_wr",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 15,
+          "n_total": 68,
+          "compl": 22.1,
+          "avg_cap": 51.9,
+          "roi": 14.3,
+          "wr_p": 47.0,
+          "pnl": 98.6
+        },
+        "Apr": {
+          "n_complete": 5,
+          "n_total": 17,
+          "compl": 29.4,
+          "avg_cap": 50.7,
+          "roi": 46.5,
+          "wr_p": 52.0,
+          "pnl": 83.7
+        }
+      },
+      "strat": {
+        "id": "V12C_btts_l2_1.4-1.6_p2_wr",
+        "label": "BTTS oui montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts",
+            "cote_min": 1.4,
+            "cote_max": 1.6,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 2,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V12C_btts_l2_1.4-1.6_p2_ev",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 15,
+          "n_total": 68,
+          "compl": 22.1,
+          "avg_cap": 54.1,
+          "roi": 19.0,
+          "wr_p": 48.0,
+          "pnl": 131.0
+        },
+        "Apr": {
+          "n_complete": 5,
+          "n_total": 17,
+          "compl": 29.4,
+          "avg_cap": 53.5,
+          "roi": 54.3,
+          "wr_p": 52.0,
+          "pnl": 97.7
+        }
+      },
+      "strat": {
+        "id": "V12C_btts_l2_1.4-1.6_p2_ev",
+        "label": "BTTS oui montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts",
+            "cote_min": 1.4,
+            "cote_max": 1.6,
+            "sort_by": "ev",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 2,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V12C_btts_l1_1.4-1.6_p3_wr",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 26,
+          "n_total": 83,
+          "compl": 31.3,
+          "avg_cap": 34.6,
+          "roi": 8.2,
+          "wr_p": 68.7,
+          "pnl": 68.7
+        },
+        "Apr": {
+          "n_complete": 8,
+          "n_total": 21,
+          "compl": 38.1,
+          "avg_cap": 33.8,
+          "roi": 27.6,
+          "wr_p": 70.5,
+          "pnl": 60.7
+        }
+      },
+      "strat": {
+        "id": "V12C_btts_l1_1.4-1.6_p3_wr",
+        "label": "BTTS oui montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts",
+            "cote_min": 1.4,
+            "cote_max": 1.6,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "V12C_btts_l1_1.4-1.6_p3_ev",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 25,
+          "n_total": 83,
+          "compl": 30.1,
+          "avg_cap": 35.5,
+          "roi": 6.8,
+          "wr_p": 68.8,
+          "pnl": 57.2
+        },
+        "Apr": {
+          "n_complete": 8,
+          "n_total": 21,
+          "compl": 38.1,
+          "avg_cap": 35.0,
+          "roi": 31.7,
+          "wr_p": 71.7,
+          "pnl": 69.7
+        }
+      },
+      "strat": {
+        "id": "V12C_btts_l1_1.4-1.6_p3_ev",
+        "label": "BTTS oui montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts",
+            "cote_min": 1.4,
+            "cote_max": 1.6,
+            "sort_by": "ev",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "V12C_btts_l2_1.4-1.6_p3_wr",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 7,
+          "n_total": 64,
+          "compl": 10.9,
+          "avg_cap": 119.0,
+          "roi": 29.7,
+          "wr_p": 48.2,
+          "pnl": 193.3
+        },
+        "Apr": {
+          "n_complete": 2,
+          "n_total": 16,
+          "compl": 12.5,
+          "avg_cap": 111.3,
+          "roi": 36.8,
+          "wr_p": 51.7,
+          "pnl": 62.6
+        }
+      },
+      "strat": {
+        "id": "V12C_btts_l2_1.4-1.6_p3_wr",
+        "label": "BTTS oui montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts",
+            "cote_min": 1.4,
+            "cote_max": 1.6,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V12C_btts_l2_1.4-1.6_p3_ev",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 7,
+          "n_total": 64,
+          "compl": 10.9,
+          "avg_cap": 126.3,
+          "roi": 37.6,
+          "wr_p": 49.1,
+          "pnl": 244.3
+        },
+        "Apr": {
+          "n_complete": 2,
+          "n_total": 16,
+          "compl": 12.5,
+          "avg_cap": 123.4,
+          "roi": 51.1,
+          "wr_p": 51.7,
+          "pnl": 86.8
+        }
+      },
+      "strat": {
+        "id": "V12C_btts_l2_1.4-1.6_p3_ev",
+        "label": "BTTS oui montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts",
+            "cote_min": 1.4,
+            "cote_max": 1.6,
+            "sort_by": "ev",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V12C_btts_l1_1.4-1.6_p4_wr",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 16,
+          "n_total": 81,
+          "compl": 19.8,
+          "avg_cap": 52.6,
+          "roi": 3.9,
+          "wr_p": 67.8,
+          "pnl": 32.3
+        },
+        "Apr": {
+          "n_complete": 5,
+          "n_total": 20,
+          "compl": 25.0,
+          "avg_cap": 51.4,
+          "roi": 27.1,
+          "wr_p": 69.4,
+          "pnl": 56.9
+        }
+      },
+      "strat": {
+        "id": "V12C_btts_l1_1.4-1.6_p4_wr",
+        "label": "BTTS oui montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts",
+            "cote_min": 1.4,
+            "cote_max": 1.6,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "V12C_btts_l1_1.4-1.6_p4_ev",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 17,
+          "n_total": 81,
+          "compl": 21.0,
+          "avg_cap": 54.8,
+          "roi": 14.9,
+          "wr_p": 68.6,
+          "pnl": 122.3
+        },
+        "Apr": {
+          "n_complete": 6,
+          "n_total": 20,
+          "compl": 30.0,
+          "avg_cap": 54.6,
+          "roi": 60.7,
+          "wr_p": 72.0,
+          "pnl": 127.5
+        }
+      },
+      "strat": {
+        "id": "V12C_btts_l1_1.4-1.6_p4_ev",
+        "label": "BTTS oui montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts",
+            "cote_min": 1.4,
+            "cote_max": 1.6,
+            "sort_by": "ev",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "V12C_btts_l2_1.4-1.6_p4_wr",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 3,
+          "n_total": 64,
+          "compl": 4.7,
+          "avg_cap": 241.5,
+          "roi": 13.0,
+          "wr_p": 47.9,
+          "pnl": 84.4
+        },
+        "Apr": {
+          "n_complete": 2,
+          "n_total": 16,
+          "compl": 12.5,
+          "avg_cap": 245.2,
+          "roi": 194.4,
+          "wr_p": 54.8,
+          "pnl": 330.5
+        }
+      },
+      "strat": {
+        "id": "V12C_btts_l2_1.4-1.6_p4_wr",
+        "label": "BTTS oui montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts",
+            "cote_min": 1.4,
+            "cote_max": 1.6,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V12C_btts_l2_1.4-1.6_p4_ev",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 3,
+          "n_total": 64,
+          "compl": 4.7,
+          "avg_cap": 273.2,
+          "roi": 27.6,
+          "wr_p": 48.7,
+          "pnl": 179.7
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 16,
+          "compl": 6.2,
+          "avg_cap": 256.6,
+          "roi": 56.8,
+          "wr_p": 51.6,
+          "pnl": 96.6
+        }
+      },
+      "strat": {
+        "id": "V12C_btts_l2_1.4-1.6_p4_ev",
+        "label": "BTTS oui montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts",
+            "cote_min": 1.4,
+            "cote_max": 1.6,
+            "sort_by": "ev",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V12C_btts_l1_1.5-1.7_p2_wr",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 46,
+          "n_total": 111,
+          "compl": 41.4,
+          "avg_cap": 25.1,
+          "roi": 3.9,
+          "wr_p": 63.9,
+          "pnl": 43.6
+        },
+        "Apr": {
+          "n_complete": 15,
+          "n_total": 29,
+          "compl": 51.7,
+          "avg_cap": 24.9,
+          "roi": 27.8,
+          "wr_p": 70.2,
+          "pnl": 83.4
+        }
+      },
+      "strat": {
+        "id": "V12C_btts_l1_1.5-1.7_p2_wr",
+        "label": "BTTS oui montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts",
+            "cote_min": 1.5,
+            "cote_max": 1.7,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 2,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "V12C_btts_l1_1.5-1.7_p2_ev",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 45,
+          "n_total": 111,
+          "compl": 40.5,
+          "avg_cap": 26.1,
+          "roi": 5.7,
+          "wr_p": 62.9,
+          "pnl": 63.8
+        },
+        "Apr": {
+          "n_complete": 12,
+          "n_total": 29,
+          "compl": 41.4,
+          "avg_cap": 25.6,
+          "roi": 5.7,
+          "wr_p": 63.8,
+          "pnl": 17.1
+        }
+      },
+      "strat": {
+        "id": "V12C_btts_l1_1.5-1.7_p2_ev",
+        "label": "BTTS oui montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts",
+            "cote_min": 1.5,
+            "cote_max": 1.7,
+            "sort_by": "ev",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 2,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "V12C_btts_l2_1.5-1.7_p2_wr",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 20,
+          "n_total": 100,
+          "compl": 20.0,
+          "avg_cap": 65.2,
+          "roi": 30.0,
+          "wr_p": 44.8,
+          "pnl": 303.2
+        },
+        "Apr": {
+          "n_complete": 4,
+          "n_total": 23,
+          "compl": 17.4,
+          "avg_cap": 64.7,
+          "roi": 12.0,
+          "wr_p": 50.0,
+          "pnl": 28.9
+        }
+      },
+      "strat": {
+        "id": "V12C_btts_l2_1.5-1.7_p2_wr",
+        "label": "BTTS oui montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts",
+            "cote_min": 1.5,
+            "cote_max": 1.7,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 2,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V12C_btts_l2_1.5-1.7_p2_ev",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 17,
+          "n_total": 99,
+          "compl": 17.2,
+          "avg_cap": 69.0,
+          "roi": 18.2,
+          "wr_p": 41.8,
+          "pnl": 182.1
+        },
+        "Apr": {
+          "n_complete": 4,
+          "n_total": 23,
+          "compl": 17.4,
+          "avg_cap": 66.7,
+          "roi": 15.3,
+          "wr_p": 45.7,
+          "pnl": 36.7
+        }
+      },
+      "strat": {
+        "id": "V12C_btts_l2_1.5-1.7_p2_ev",
+        "label": "BTTS oui montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts",
+            "cote_min": 1.5,
+            "cote_max": 1.7,
+            "sort_by": "ev",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 2,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V12C_btts_l1_1.5-1.7_p3_wr",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 29,
+          "n_total": 108,
+          "compl": 26.9,
+          "avg_cap": 40.2,
+          "roi": 7.8,
+          "wr_p": 64.4,
+          "pnl": 85.5
+        },
+        "Apr": {
+          "n_complete": 7,
+          "n_total": 27,
+          "compl": 25.9,
+          "avg_cap": 39.2,
+          "roi": 1.6,
+          "wr_p": 66.7,
+          "pnl": 4.4
+        }
+      },
+      "strat": {
+        "id": "V12C_btts_l1_1.5-1.7_p3_wr",
+        "label": "BTTS oui montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts",
+            "cote_min": 1.5,
+            "cote_max": 1.7,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "V12C_btts_l1_1.5-1.7_p3_ev",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 29,
+          "n_total": 108,
+          "compl": 26.9,
+          "avg_cap": 42.3,
+          "roi": 13.5,
+          "wr_p": 63.8,
+          "pnl": 147.0
+        },
+        "Apr": {
+          "n_complete": 7,
+          "n_total": 27,
+          "compl": 25.9,
+          "avg_cap": 41.7,
+          "roi": 7.7,
+          "wr_p": 64.3,
+          "pnl": 21.7
+        }
+      },
+      "strat": {
+        "id": "V12C_btts_l1_1.5-1.7_p3_ev",
+        "label": "BTTS oui montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts",
+            "cote_min": 1.5,
+            "cote_max": 1.7,
+            "sort_by": "ev",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "V12C_btts_l2_1.5-1.7_p3_wr",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 9,
+          "n_total": 96,
+          "compl": 9.4,
+          "avg_cap": 154.1,
+          "roi": 44.0,
+          "wr_p": 44.9,
+          "pnl": 426.8
+        },
+        "Apr": {
+          "n_complete": 3,
+          "n_total": 23,
+          "compl": 13.0,
+          "avg_cap": 169.2,
+          "roi": 115.6,
+          "wr_p": 50.0,
+          "pnl": 277.5
+        }
+      },
+      "strat": {
+        "id": "V12C_btts_l2_1.5-1.7_p3_wr",
+        "label": "BTTS oui montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts",
+            "cote_min": 1.5,
+            "cote_max": 1.7,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V12C_btts_l2_1.5-1.7_p3_ev",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 10,
+          "n_total": 95,
+          "compl": 10.5,
+          "avg_cap": 178.3,
+          "roi": 86.8,
+          "wr_p": 43.7,
+          "pnl": 832.8
+        },
+        "Apr": {
+          "n_complete": 3,
+          "n_total": 23,
+          "compl": 13.0,
+          "avg_cap": 172.3,
+          "roi": 119.6,
+          "wr_p": 45.9,
+          "pnl": 287.0
+        }
+      },
+      "strat": {
+        "id": "V12C_btts_l2_1.5-1.7_p3_ev",
+        "label": "BTTS oui montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts",
+            "cote_min": 1.5,
+            "cote_max": 1.7,
+            "sort_by": "ev",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V12C_btts_l1_1.5-1.7_p4_wr",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 21,
+          "n_total": 106,
+          "compl": 19.8,
+          "avg_cap": 65.5,
+          "roi": 29.5,
+          "wr_p": 65.9,
+          "pnl": 315.5
+        },
+        "Apr": {
+          "n_complete": 4,
+          "n_total": 26,
+          "compl": 15.4,
+          "avg_cap": 64.7,
+          "roi": -0.4,
+          "wr_p": 66.7,
+          "pnl": -1.1
+        }
+      },
+      "strat": {
+        "id": "V12C_btts_l1_1.5-1.7_p4_wr",
+        "label": "BTTS oui montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts",
+            "cote_min": 1.5,
+            "cote_max": 1.7,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "V12C_btts_l1_1.5-1.7_p4_ev",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 17,
+          "n_total": 106,
+          "compl": 16.0,
+          "avg_cap": 68.7,
+          "roi": 10.0,
+          "wr_p": 63.7,
+          "pnl": 107.3
+        },
+        "Apr": {
+          "n_complete": 4,
+          "n_total": 26,
+          "compl": 15.4,
+          "avg_cap": 66.7,
+          "roi": 2.5,
+          "wr_p": 64.5,
+          "pnl": 6.7
+        }
+      },
+      "strat": {
+        "id": "V12C_btts_l1_1.5-1.7_p4_ev",
+        "label": "BTTS oui montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts",
+            "cote_min": 1.5,
+            "cote_max": 1.7,
+            "sort_by": "ev",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "V12C_btts_l2_1.5-1.7_p4_wr",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 4,
+          "n_total": 93,
+          "compl": 4.3,
+          "avg_cap": 374.2,
+          "roi": 60.3,
+          "wr_p": 45.7,
+          "pnl": 566.9
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 21,
+          "compl": 4.8,
+          "avg_cap": 389.6,
+          "roi": 81.7,
+          "wr_p": 51.2,
+          "pnl": 179.6
+        }
+      },
+      "strat": {
+        "id": "V12C_btts_l2_1.5-1.7_p4_wr",
+        "label": "BTTS oui montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts",
+            "cote_min": 1.5,
+            "cote_max": 1.7,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V12C_btts_l2_1.5-1.7_p4_ev",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 2,
+          "n_total": 93,
+          "compl": 2.2,
+          "avg_cap": 441.8,
+          "roi": -4.9,
+          "wr_p": 42.4,
+          "pnl": -46.4
+        },
+        "Apr": {
+          "n_complete": 0,
+          "n_total": 21,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "roi": -95.5,
+          "wr_p": 44.7,
+          "pnl": -210
+        }
+      },
+      "strat": {
+        "id": "V12C_btts_l2_1.5-1.7_p4_ev",
+        "label": "BTTS oui montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts",
+            "cote_min": 1.5,
+            "cote_max": 1.7,
+            "sort_by": "ev",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V12C_btts_l1_1.6-1.8_p2_wr",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 51,
+          "n_total": 116,
+          "compl": 44.0,
+          "avg_cap": 28.2,
+          "roi": 23.7,
+          "wr_p": 65.4,
+          "pnl": 277.0
+        },
+        "Apr": {
+          "n_complete": 12,
+          "n_total": 29,
+          "compl": 41.4,
+          "avg_cap": 27.8,
+          "roi": 14.5,
+          "wr_p": 66.0,
+          "pnl": 43.5
+        }
+      },
+      "strat": {
+        "id": "V12C_btts_l1_1.6-1.8_p2_wr",
+        "label": "BTTS oui montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts",
+            "cote_min": 1.6,
+            "cote_max": 1.8,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 2,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "V12C_btts_l1_1.6-1.8_p2_ev",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 47,
+          "n_total": 116,
+          "compl": 40.5,
+          "avg_cap": 29.3,
+          "roi": 18.7,
+          "wr_p": 62.3,
+          "pnl": 219.1
+        },
+        "Apr": {
+          "n_complete": 11,
+          "n_total": 29,
+          "compl": 37.9,
+          "avg_cap": 28.8,
+          "roi": 8.9,
+          "wr_p": 60.9,
+          "pnl": 26.6
+        }
+      },
+      "strat": {
+        "id": "V12C_btts_l1_1.6-1.8_p2_ev",
+        "label": "BTTS oui montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts",
+            "cote_min": 1.6,
+            "cote_max": 1.8,
+            "sort_by": "ev",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 2,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "V12C_btts_l2_1.6-1.8_p2_wr",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 21,
+          "n_total": 110,
+          "compl": 19.1,
+          "avg_cap": 81.2,
+          "roi": 54.6,
+          "wr_p": 43.7,
+          "pnl": 605.9
+        },
+        "Apr": {
+          "n_complete": 5,
+          "n_total": 29,
+          "compl": 17.2,
+          "avg_cap": 78.1,
+          "roi": 33.5,
+          "wr_p": 41.5,
+          "pnl": 100.5
+        }
+      },
+      "strat": {
+        "id": "V12C_btts_l2_1.6-1.8_p2_wr",
+        "label": "BTTS oui montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts",
+            "cote_min": 1.6,
+            "cote_max": 1.8,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 2,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V12C_btts_l2_1.6-1.8_p2_ev",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 20,
+          "n_total": 110,
+          "compl": 18.2,
+          "avg_cap": 85.4,
+          "roi": 54.8,
+          "wr_p": 41.9,
+          "pnl": 608.8
+        },
+        "Apr": {
+          "n_complete": 3,
+          "n_total": 29,
+          "compl": 10.3,
+          "avg_cap": 78.7,
+          "roi": -18.0,
+          "wr_p": 35.0,
+          "pnl": -54.0
+        }
+      },
+      "strat": {
+        "id": "V12C_btts_l2_1.6-1.8_p2_ev",
+        "label": "BTTS oui montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts",
+            "cote_min": 1.6,
+            "cote_max": 1.8,
+            "sort_by": "ev",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 2,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V12C_btts_l1_1.6-1.8_p3_wr",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 32,
+          "n_total": 114,
+          "compl": 28.1,
+          "avg_cap": 47.7,
+          "roi": 33.7,
+          "wr_p": 65.1,
+          "pnl": 387.4
+        },
+        "Apr": {
+          "n_complete": 9,
+          "n_total": 29,
+          "compl": 31.0,
+          "avg_cap": 47.3,
+          "roi": 45.4,
+          "wr_p": 67.7,
+          "pnl": 136.0
+        }
+      },
+      "strat": {
+        "id": "V12C_btts_l1_1.6-1.8_p3_wr",
+        "label": "BTTS oui montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts",
+            "cote_min": 1.6,
+            "cote_max": 1.8,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "V12C_btts_l1_1.6-1.8_p3_ev",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 28,
+          "n_total": 114,
+          "compl": 24.6,
+          "avg_cap": 49.9,
+          "roi": 22.3,
+          "wr_p": 61.9,
+          "pnl": 256.5
+        },
+        "Apr": {
+          "n_complete": 8,
+          "n_total": 29,
+          "compl": 27.6,
+          "avg_cap": 48.4,
+          "roi": 32.5,
+          "wr_p": 63.2,
+          "pnl": 97.4
+        }
+      },
+      "strat": {
+        "id": "V12C_btts_l1_1.6-1.8_p3_ev",
+        "label": "BTTS oui montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts",
+            "cote_min": 1.6,
+            "cote_max": 1.8,
+            "sort_by": "ev",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "V12C_btts_l2_1.6-1.8_p3_wr",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 6,
+          "n_total": 108,
+          "compl": 5.6,
+          "avg_cap": 256.1,
+          "roi": 41.9,
+          "wr_p": 42.0,
+          "pnl": 456.6
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 28,
+          "compl": 3.6,
+          "avg_cap": 250.8,
+          "roi": -10.1,
+          "wr_p": 40.0,
+          "pnl": -29.2
+        }
+      },
+      "strat": {
+        "id": "V12C_btts_l2_1.6-1.8_p3_wr",
+        "label": "BTTS oui montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts",
+            "cote_min": 1.6,
+            "cote_max": 1.8,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V12C_btts_l2_1.6-1.8_p3_ev",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 8,
+          "n_total": 109,
+          "compl": 7.3,
+          "avg_cap": 261.7,
+          "roi": 91.2,
+          "wr_p": 41.6,
+          "pnl": 1003.6
+        },
+        "Apr": {
+          "n_complete": 3,
+          "n_total": 29,
+          "compl": 10.3,
+          "avg_cap": 231.0,
+          "roi": 134.3,
+          "wr_p": 39.5,
+          "pnl": 403.0
+        }
+      },
+      "strat": {
+        "id": "V12C_btts_l2_1.6-1.8_p3_ev",
+        "label": "BTTS oui montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts",
+            "cote_min": 1.6,
+            "cote_max": 1.8,
+            "sort_by": "ev",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V12C_btts_l1_1.6-1.8_p4_wr",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 21,
+          "n_total": 113,
+          "compl": 18.6,
+          "avg_cap": 81.1,
+          "roi": 50.3,
+          "wr_p": 65.3,
+          "pnl": 573.2
+        },
+        "Apr": {
+          "n_complete": 5,
+          "n_total": 29,
+          "compl": 17.2,
+          "avg_cap": 78.1,
+          "roi": 33.5,
+          "wr_p": 66.2,
+          "pnl": 100.5
+        }
+      },
+      "strat": {
+        "id": "V12C_btts_l1_1.6-1.8_p4_wr",
+        "label": "BTTS oui montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts",
+            "cote_min": 1.6,
+            "cote_max": 1.8,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "V12C_btts_l1_1.6-1.8_p4_ev",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 21,
+          "n_total": 113,
+          "compl": 18.6,
+          "avg_cap": 85.1,
+          "roi": 57.7,
+          "wr_p": 63.5,
+          "pnl": 658.0
+        },
+        "Apr": {
+          "n_complete": 3,
+          "n_total": 29,
+          "compl": 10.3,
+          "avg_cap": 78.7,
+          "roi": -18.0,
+          "wr_p": 60.0,
+          "pnl": -54.0
+        }
+      },
+      "strat": {
+        "id": "V12C_btts_l1_1.6-1.8_p4_ev",
+        "label": "BTTS oui montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts",
+            "cote_min": 1.6,
+            "cote_max": 1.8,
+            "sort_by": "ev",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "V12C_btts_l2_1.6-1.8_p4_wr",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 3,
+          "n_total": 107,
+          "compl": 2.8,
+          "avg_cap": 781.7,
+          "roi": 118.1,
+          "wr_p": 42.5,
+          "pnl": 1275.1
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 28,
+          "compl": 3.6,
+          "avg_cap": 781.1,
+          "roi": 172.8,
+          "wr_p": 41.3,
+          "pnl": 501.1
+        }
+      },
+      "strat": {
+        "id": "V12C_btts_l2_1.6-1.8_p4_wr",
+        "label": "BTTS oui montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts",
+            "cote_min": 1.6,
+            "cote_max": 1.8,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V12C_btts_l2_1.6-1.8_p4_ev",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 2,
+          "n_total": 108,
+          "compl": 1.9,
+          "avg_cap": 828.5,
+          "roi": 52.9,
+          "wr_p": 41.1,
+          "pnl": 577.1
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 29,
+          "compl": 3.4,
+          "avg_cap": 781.1,
+          "roi": 163.7,
+          "wr_p": 39.1,
+          "pnl": 491.1
+        }
+      },
+      "strat": {
+        "id": "V12C_btts_l2_1.6-1.8_p4_ev",
+        "label": "BTTS oui montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts",
+            "cote_min": 1.6,
+            "cote_max": 1.8,
+            "sort_by": "ev",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V12D_xmkt_btts+o25_l2_1.4-1.65_p2",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 15,
+          "n_total": 100,
+          "compl": 15.0,
+          "avg_cap": 55.1,
+          "roi": -17.2,
+          "wr_p": 39.3,
+          "pnl": -173.3
+        },
+        "Apr": {
+          "n_complete": 5,
+          "n_total": 24,
+          "compl": 20.8,
+          "avg_cap": 51.1,
+          "roi": 6.2,
+          "wr_p": 42.4,
+          "pnl": 15.6
+        }
+      },
+      "strat": {
+        "id": "V12D_xmkt_btts+o25_l2_1.4-1.65_p2",
+        "label": "Foot xmkt BTTS+O 2.5",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_2_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 2,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V12D_xmkt_btts+o25_l2_1.4-1.65_p3",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 8,
+          "n_total": 97,
+          "compl": 8.2,
+          "avg_cap": 136.6,
+          "roi": 12.5,
+          "wr_p": 41.1,
+          "pnl": 122.9
+        },
+        "Apr": {
+          "n_complete": 3,
+          "n_total": 24,
+          "compl": 12.5,
+          "avg_cap": 119.0,
+          "roi": 46.7,
+          "wr_p": 44.7,
+          "pnl": 116.8
+        }
+      },
+      "strat": {
+        "id": "V12D_xmkt_btts+o25_l2_1.4-1.65_p3",
+        "label": "Foot xmkt BTTS+O 2.5",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_2_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V12D_xmkt_btts+o25_l2_1.4-1.65_p4",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 2,
+          "n_total": 97,
+          "compl": 2.1,
+          "avg_cap": 333.1,
+          "roi": -31.0,
+          "wr_p": 40.3,
+          "pnl": -303.9
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 24,
+          "compl": 4.2,
+          "avg_cap": 314.0,
+          "roi": 29.6,
+          "wr_p": 43.9,
+          "pnl": 74.0
+        }
+      },
+      "strat": {
+        "id": "V12D_xmkt_btts+o25_l2_1.4-1.65_p4",
+        "label": "Foot xmkt BTTS+O 2.5",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_2_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V12D_xmkt_btts+o25_l2_1.5-1.75_p2",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 12,
+          "n_total": 113,
+          "compl": 10.6,
+          "avg_cap": 69.8,
+          "roi": -25.7,
+          "wr_p": 31.8,
+          "pnl": -293.0
+        },
+        "Apr": {
+          "n_complete": 6,
+          "n_total": 28,
+          "compl": 21.4,
+          "avg_cap": 73.6,
+          "roi": 55.7,
+          "wr_p": 46.3,
+          "pnl": 161.5
+        }
+      },
+      "strat": {
+        "id": "V12D_xmkt_btts+o25_l2_1.5-1.75_p2",
+        "label": "Foot xmkt BTTS+O 2.5",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_2_5",
+            "cote_min": 1.5,
+            "cote_max": 1.75,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 2,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V12D_xmkt_btts+o25_l2_1.5-1.75_p3",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 5,
+          "n_total": 111,
+          "compl": 4.5,
+          "avg_cap": 182.2,
+          "roi": -17.8,
+          "wr_p": 32.9,
+          "pnl": -198.8
+        },
+        "Apr": {
+          "n_complete": 2,
+          "n_total": 27,
+          "compl": 7.4,
+          "avg_cap": 193.9,
+          "roi": 42.1,
+          "wr_p": 45.7,
+          "pnl": 117.8
+        }
+      },
+      "strat": {
+        "id": "V12D_xmkt_btts+o25_l2_1.5-1.75_p3",
+        "label": "Foot xmkt BTTS+O 2.5",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_2_5",
+            "cote_min": 1.5,
+            "cote_max": 1.75,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 3,
+          "combo_legs_per_palier": 2
+        }
+      }
+    },
+    {
+      "id": "V12D_xmkt_btts+o25_l2_1.5-1.75_p4",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 1,
+          "n_total": 111,
+          "compl": 0.9,
+          "avg_cap": 447.3,
+          "roi": -59.2,
+          "wr_p": 32.5,
+          "pnl": -662.7
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 27,
+          "compl": 3.7,
+          "avg_cap": 447.3,
+          "roi": 63.3,
+          "wr_p": 45.8,
+          "pnl": 177.3
+        }
+      },
+      "strat": {
+        "id": "V12D_xmkt_btts+o25_l2_1.5-1.75_p4",
+        "label": "Foot xmkt BTTS+O 2.5",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts,over_2_5",
+            "cote_min": 1.5,
+            "cote_max": 1.75,
+            "sort_by": "wr",
+            "max_legs": 2,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 2
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 4,
+          "combo_legs_per_palier": 2
+        }
+      }
+    }
+  ],
+  "viable": [
+    {
+      "id": "V12A_o25_1.7-1.95_p2_ev",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 49,
+          "n_total": 112,
+          "compl": 43.8,
+          "avg_cap": 33.6,
+          "roi": 46.8,
+          "wr_p": 64.6,
+          "pnl": 528.4
+        },
+        "Apr": {
+          "n_complete": 14,
+          "n_total": 29,
+          "compl": 48.3,
+          "avg_cap": 34.0,
+          "roi": 62.2,
+          "wr_p": 67.4,
+          "pnl": 186.5
+        }
+      },
+      "strat": {
+        "id": "V12A_o25_1.7-1.95_p2_ev",
+        "label": "Over 2.5 single",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_2_5",
+            "cote_min": 1.7,
+            "cote_max": 1.95,
+            "sort_by": "ev",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 2,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "V12A_o25_1.7-1.95_p2_wr",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 41,
+          "n_total": 112,
+          "compl": 36.6,
+          "avg_cap": 32.9,
+          "roi": 20.1,
+          "wr_p": 59.7,
+          "pnl": 226.8
+        },
+        "Apr": {
+          "n_complete": 11,
+          "n_total": 29,
+          "compl": 37.9,
+          "avg_cap": 33.5,
+          "roi": 26.2,
+          "wr_p": 61.7,
+          "pnl": 78.5
+        }
+      },
+      "strat": {
+        "id": "V12A_o25_1.7-1.95_p2_wr",
+        "label": "Over 2.5 single",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_2_5",
+            "cote_min": 1.7,
+            "cote_max": 1.95,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 2,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "V12A_o25_1.6-1.85_p2_ev",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 44,
+          "n_total": 114,
+          "compl": 38.6,
+          "avg_cap": 30.6,
+          "roi": 18.0,
+          "wr_p": 61.5,
+          "pnl": 207.2
+        },
+        "Apr": {
+          "n_complete": 11,
+          "n_total": 29,
+          "compl": 37.9,
+          "avg_cap": 31.0,
+          "roi": 17.1,
+          "wr_p": 60.0,
+          "pnl": 51.4
+        }
+      },
+      "strat": {
+        "id": "V12A_o25_1.6-1.85_p2_ev",
+        "label": "Over 2.5 single",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "over_2_5",
+            "cote_min": 1.6,
+            "cote_max": 1.85,
+            "sort_by": "ev",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 2,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "V12C_btts_l1_1.6-1.8_p2_wr",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 51,
+          "n_total": 116,
+          "compl": 44.0,
+          "avg_cap": 28.2,
+          "roi": 23.7,
+          "wr_p": 65.4,
+          "pnl": 277.0
+        },
+        "Apr": {
+          "n_complete": 12,
+          "n_total": 29,
+          "compl": 41.4,
+          "avg_cap": 27.8,
+          "roi": 14.5,
+          "wr_p": 66.0,
+          "pnl": 43.5
+        }
+      },
+      "strat": {
+        "id": "V12C_btts_l1_1.6-1.8_p2_wr",
+        "label": "BTTS oui montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts",
+            "cote_min": 1.6,
+            "cote_max": 1.8,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 2,
+          "combo_legs_per_palier": 1
+        }
+      }
+    },
+    {
+      "id": "V12C_btts_l1_1.6-1.8_p2_ev",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 47,
+          "n_total": 116,
+          "compl": 40.5,
+          "avg_cap": 29.3,
+          "roi": 18.7,
+          "wr_p": 62.3,
+          "pnl": 219.1
+        },
+        "Apr": {
+          "n_complete": 11,
+          "n_total": 29,
+          "compl": 37.9,
+          "avg_cap": 28.8,
+          "roi": 8.9,
+          "wr_p": 60.9,
+          "pnl": 26.6
+        }
+      },
+      "strat": {
+        "id": "V12C_btts_l1_1.6-1.8_p2_ev",
+        "label": "BTTS oui montante",
+        "components": [
+          {
+            "sports": [
+              "football"
+            ],
+            "market": "btts",
+            "cote_min": 1.6,
+            "cote_max": 1.8,
+            "sort_by": "ev",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": null,
+            "min_ev": null,
+            "legs_per_palier": 1
+          }
+        ],
+        "montante": {
+          "initial_stake": 10,
+          "n_paliers_target": 2,
+          "combo_legs_per_palier": 1
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "foot_o15_mc5_pct8_BR19_WFR",
+  "label": "⚽🇫🇷👑🚀 Foot Over 1.5 ×5 cote 1.4-1.65 WR≥65% pct8 — BR×19 RECORD WFR",
+  "description": "★★★★★ NOUVEAU RECORD ABSOLU classique Winamax FR : Foot Over 1.5 buts cote 1.40-1.65 WR≥65%, 5 picks/jour, sizing **8% BR**. **BR×19** (BR 100€ → 1900€), ratio 9.8×, DD 184€, streak rouge max **2j**, 290 combos sur 4 mois. Le sizing 8% au lieu de 5% double quasi le BR mult sans casser le ratio.",
+  "components": [{
+    "sport": "football", "market": "over_1_5",
+    "cote_min": 1.40, "cote_max": 1.65,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 5,
+    "min_wr": 0.65, "min_ev": null
+  }],
+  "dedup": "max1",
+  "sizing": {"mode": "flat_pct", "pct": 0.08, "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "source": "find_wfr_aggro_classics",
+    "pnl": 1797,
+    "bankroll_multiplier": 19.0,
+    "dd": 184,
+    "ratio_pnl_dd": 9.8,
+    "streak_max": 2,
+    "n_combos": 290,
+    "winamax_fr": true,
+    "note": "★★★★★ RECORD ABSOLU lib WFR. Sizing 8% au lieu de 5% = BR×19 vs ×6.7. Ratio préservé à 9.8×."
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "montante_o15_combo6j_x5p_v2_dual",
+  "label": "🪜⚽💎🌸 Over 1.5 combo 6j ×5P cote 1.08-1.20 — +1215€ S1 + +527€ Avril",
+  "description": "Variante mini-cote du combo 6j ×5p : cote 1.08-1.20 (plus restrictive). 2/42 cycles (5%) cap 818€/cycle. PnL +1215€ S1-26 + Avril +527€. Plus accessible que le 1.10-1.22 (un peu moins de pool de picks) mais cap plus modeste.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football"], "market": "over_1_5",
+    "cote_min": 1.08, "cote_max": 1.20,
+    "sort_by": "wr", "max_legs": 6, "max_combos": 1,
+    "min_wr": null, "min_ev": null,
+    "legs_per_palier": 6
+  }],
+  "montante": {"initial_stake": 10, "n_paliers_target": 5, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 6},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict)",
+    "n_cycles_complete": 2,
+    "n_cycles_total": 42,
+    "completion_rate": 0.05,
+    "wr_palier_combo": 0.48,
+    "avg_capital_complete": 818,
+    "pnl_net_s1": 1215,
+    "april_pnl": 527,
+    "note": "Variante combo 6j O 1.5 cote 1.08-1.20 (mini-cote stricte). +1215€ S1 + +527€ Avril. 5% completion."
+  }
+}

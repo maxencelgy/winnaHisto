@@ -1,0 +1,28 @@
+{
+  "id": "montante_o15_combo9j_x4p_runner",
+  "label": "🪜⚽💥🌸 Over 1.5 combo 9j ×4P cote 1.10-1.22 — +1507€ S1 +1827€ AVRIL",
+  "description": "Combo 9 jambes Over 1.5 cote 1.10-1.22, 4 paliers. 1/44 cycles (2%) cap 1947€/cycle. PnL +1507€ S1-26 + Avril +1827€. Variant légèrement moins agressif que le ULTIMATE 10j mais cap encore énorme.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football"], "market": "over_1_5",
+    "cote_min": 1.10, "cote_max": 1.22,
+    "sort_by": "wr", "max_legs": 9, "max_combos": 1,
+    "min_wr": null, "min_ev": null,
+    "legs_per_palier": 9
+  }],
+  "montante": {"initial_stake": 10, "n_paliers_target": 4, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 9},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict)",
+    "n_cycles_complete": 1,
+    "n_cycles_total": 44,
+    "completion_rate": 0.02,
+    "wr_palier_combo": 0.34,
+    "avg_capital_complete": 1947,
+    "pnl_net_s1": 1507,
+    "april_pnl": 1827,
+    "note": "Combo 9j ×4p Avril +1827€. Cap 1947€/cycle. Variant moins extrême du ULTIMATE 10j."
+  }
+}

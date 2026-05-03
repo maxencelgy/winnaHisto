@@ -1,0 +1,31 @@
+{
+  "id": "MMC_BTTSO_F3H3_pct5_RATIO195",
+  "label": "🏒⚽🇫🇷👑👑👑 BTTS+OU F3+H3 pct5 — RATIO 19.5× RECORD ABSOLU DD 82€",
+  "description": "★★★★★★ NEW RECORD RATIO ABSOLU LIB : 3 picks Foot **BTTS+OU 1.5+OU 2.5** cote 1.20-1.40 + 3 picks Hockey 1x2 cote 1.20-1.50 WR≥65%, sizing **5%**. **Ratio 19.5×** (record absolu lib WFR), BR×17.1, DD seulement **82€** !! 538 combos. PnL +1608€. Le profil ULTIME ratio + DD bas.",
+  "components": [{
+    "sport": "football", "market": "btts,over_1_5,over_2_5",
+    "cote_min": 1.20, "cote_max": 1.40,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 3,
+    "min_wr": null, "min_ev": null,
+    "label": "Foot BTTS+OU (3)"
+  }, {
+    "sport": "ice-hockey", "market": "1x2",
+    "cote_min": 1.20, "cote_max": 1.50,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 3,
+    "min_wr": 0.65, "min_ev": null,
+    "label": "Hockey safe (3)"
+  }],
+  "dedup": "max1",
+  "sizing": {"mode": "flat_pct", "pct": 0.05, "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "source": "find_wfr_multimarket_combos",
+    "pnl": 1608,
+    "bankroll_multiplier": 17.1,
+    "dd": 82,
+    "ratio_pnl_dd": 19.5,
+    "n_combos": 538,
+    "winamax_fr": true,
+    "note": "★★★★★★ RECORD RATIO 19.5× lib WFR. Ajout BTTS au profil OU enrichit le pool sans casser le ratio. DD ultra-bas 82€."
+  }
+}

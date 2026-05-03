@@ -1,0 +1,27 @@
+{
+  "id": "montante_wfr_xmkt_x3p_69pct",
+  "label": "🪜⚽🇫🇷👑 Foot xmkt (1x2+BTTS+OU) ×3P cote 1.20-1.40 — 69% +470€ +133€ Apr ★★★",
+  "description": "★★★★ NOUVEAU TOP EV PRATIQUE Winamax FR : Foot multi-market (1x2 + BTTS + OU 1.5 + OU 2.5) **single** cote 1.20-1.40, **3 paliers**. **69% completion** S1-26 strict (record sweet spot 3 paliers !) cap 21€/cycle. PnL +470€ S1 + Apr +133€. EV pratique **323** — meilleur de toute la lib WFR.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football"], "market": "1x2,btts,over_1_5,over_2_5",
+    "cote_min": 1.20, "cote_max": 1.40,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+    "min_wr": null, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 10, "n_paliers_target": 3, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.69,
+    "avg_capital_complete": 21,
+    "pnl_net_s1": 470,
+    "april_pnl": 133,
+    "ev_pratique": 323,
+    "winamax_fr": true,
+    "note": "★★★★ TOP EV pratique lib WFR. Foot multi-market exploite tous les markets dispos = pool énorme. 69% completion + cap 21€."
+  }
+}

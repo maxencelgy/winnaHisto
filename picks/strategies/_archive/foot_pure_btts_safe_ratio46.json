@@ -1,0 +1,25 @@
+{
+  "id": "foot_pure_btts_safe_ratio46",
+  "label": "⚽🤝📈 Foot BTTS Oui PURE — ratio 4.6× DD 34€ (single market)",
+  "description": "Stratégie 100% foot BTTS Oui, cote 1.50-1.80, WR ≥ 55%, 2 picks/jour, sizing 5% BR. PnL +156€, DD 34€, ratio 4.6 sur S1-26 OOS strict. Streak rouge 7j (plus haut que la version OU mais toujours acceptable). Profil 'pari but contre but' simple — complémentaire de foot_pure_o15.",
+  "components": [{
+    "sport": "football", "market": "btts",
+    "cote_min": 1.50, "cote_max": 1.80,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 2,
+    "min_wr": 0.55, "min_ev": null
+  }],
+  "dedup": "max1",
+  "sizing": {"mode": "flat_pct", "pct": 0.05, "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict)",
+    "source": "find_strategies_v7 sweep",
+    "pnl": 156,
+    "roi_pct": 9,
+    "bankroll_multiplier": 2.6,
+    "dd": 34,
+    "streak_max": 7,
+    "n_combos": 223,
+    "ratio_pnl_dd": 4.58,
+    "note": "Sweet spot BTTS oui foot single. Streak 7j max — un peu plus volatile que OU mais ratio solide."
+  }
+}

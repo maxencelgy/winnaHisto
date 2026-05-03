@@ -1,0 +1,25 @@
+{
+  "id": "montante_interday_o15_x3p_77pct",
+  "label": "🪜📅⚽🏆 INTERDAY Over 1.5 ×3J cote 1.10-1.25 EV — 77% completion (RECORD)",
+  "description": "★★★ MODE INTERDAY (1 palier/jour pendant 3 jours). Over 1.5 buts foot mini-cote 1.10-1.25 sort EV. **77% completion** sur S1-26 (top de la lib en mode interday). Cap 18€/cycle. PnL +163€ S1 + Avril +74€. Pour qui veut un rythme posé : tu paries 1 fois par jour, le cycle dure 3 jours.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football"], "market": "over_1_5",
+    "cote_min": 1.10, "cote_max": 1.25,
+    "sort_by": "ev", "max_legs": 1, "max_combos": 1,
+    "min_wr": null, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 10, "n_paliers_target": 3, "reset_on_loss": true,
+                "preferred_mode": "interday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, mode INTERDAY)",
+    "completion_rate": 0.77,
+    "avg_capital_complete": 18,
+    "pnl_net_s1": 163,
+    "april_pnl": 74,
+    "note": "★★★ MODE INTERDAY 77% completion — LE RECORD interday lib. 1 palier/jour ×3 jours. Profil 'paie tranquille pendant la semaine'."
+  }
+}

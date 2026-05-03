@@ -1,0 +1,28 @@
+{
+  "id": "montante_hockey_x4p_value_balance",
+  "label": "🪜🏒💎 Hockey ×4P VALUE — 41% completion cap 41€ (good balance)",
+  "description": "Hockey 1x2 single, cote 1.30-1.55 (mid-fav, value). 4 paliers d'affilée. 41% completion (31/76), capital 41€/cycle, ROI +67%. Avril 2026 5/11 (45%). Excellent balance entre fréquence et capital — meilleur ROI parmi les profils >40% completion.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["ice-hockey"], "market": "1x2",
+    "cote_min": 1.30, "cote_max": 1.55,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+    "min_wr": null, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 10, "n_paliers_target": 4, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict)",
+    "n_cycles_complete": 31,
+    "n_cycles_total": 76,
+    "completion_rate": 0.41,
+    "avg_capital_complete": 41,
+    "roi_pct": 67,
+    "april_completion": 0.45,
+    "april_roi_pct": 96,
+    "note": "Sweet spot pour qui veut fréquence + ROI. 41% completion mainntenant cap 41€. 31 cycles sur 4 mois = ~8/mois."
+  }
+}

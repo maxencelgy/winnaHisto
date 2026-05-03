@@ -1,0 +1,910 @@
+{
+  "montantes": [
+    {
+      "id": "montante_hockey_combo2j_x3p_top_pnl",
+      "label": "\ud83e\ude9c\ud83c\udfd2\ud83d\udcb0 Hockey combo 2j \u00d73P cote 1.30-1.50 \u2014 TOP PnL +789\u20ac S1-26",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 15,
+          "n_total": 42,
+          "compl": 35.7,
+          "avg_cap": 76.7,
+          "pnl": 731.1
+        },
+        "Apr": {
+          "n_complete": 2,
+          "n_total": 4,
+          "compl": 50.0,
+          "avg_cap": 79.7,
+          "pnl": 119.5
+        }
+      }
+    },
+    {
+      "id": "montante_hockey_combo2j_x2p_TOP_PRACTICAL",
+      "label": "\ud83e\ude9c\ud83c\udfd2\u2b50\u26a1 Hockey combo 2j \u00d72P cote 1.25-1.50 EV \u2014 TOP PRACTICAL 52% +553\u20ac",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 27,
+          "n_total": 53,
+          "compl": 50.9,
+          "avg_cap": 38.3,
+          "pnl": 504.2
+        },
+        "Apr": {
+          "n_complete": 3,
+          "n_total": 5,
+          "compl": 60.0,
+          "avg_cap": 37.2,
+          "pnl": 61.6
+        }
+      }
+    },
+    {
+      "id": "montante_hockeybasket_combo3j_x3p_practical",
+      "label": "\ud83e\ude9c\ud83c\udfd2\ud83c\udfc0\u2b50 Hockey+Basket \u00d73P EV cote 1.35-1.55 \u2014 47% +419\u20ac S1 + +91\u20ac Apr",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 56,
+          "n_total": 113,
+          "compl": 49.6,
+          "avg_cap": 29.2,
+          "pnl": 508.3
+        },
+        "Apr": {
+          "n_complete": 14,
+          "n_total": 25,
+          "compl": 56.0,
+          "avg_cap": 30.4,
+          "pnl": 175.5
+        }
+      }
+    },
+    {
+      "id": "montante_o15_x4p_top_completion",
+      "label": "\ud83e\ude9c\u26bd\u2696\ufe0f Over 1.5 \u00d74P cote 1.20-1.40 \u2014 56% completion +421\u20ac S1-26",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 61,
+          "n_total": 107,
+          "compl": 57.0,
+          "avg_cap": 24.7,
+          "pnl": 438.4
+        },
+        "Apr": {
+          "n_complete": 19,
+          "n_total": 26,
+          "compl": 73.1,
+          "avg_cap": 23.9,
+          "pnl": 193.4
+        }
+      }
+    },
+    {
+      "id": "montante_foothockey_combo2j_x2p_high_freq",
+      "label": "\ud83e\ude9c\u26bd\ud83c\udfd2\ud83d\udc8e Foot+Hockey combo 2j \u00d72P cote 1.30-1.50 \u2014 41% +552\u20ac",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 38,
+          "n_total": 91,
+          "compl": 41.8,
+          "avg_cap": 38.9,
+          "pnl": 569.4
+        },
+        "Apr": {
+          "n_complete": 8,
+          "n_total": 18,
+          "compl": 44.4,
+          "avg_cap": 37.9,
+          "pnl": 123.0
+        }
+      }
+    },
+    {
+      "id": "montante_o25_x2p_TOP_PRACTICAL",
+      "label": "\ud83e\ude9c\u26bd\u2b50\u26a1 Over 2.5 \u00d72P cote 1.70-1.95 EV \u2014 TOP PRACTICAL 44% +528\u20ac +186\u20ac Avril",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 48,
+          "n_total": 109,
+          "compl": 44.0,
+          "avg_cap": 33.7,
+          "pnl": 526.7
+        },
+        "Apr": {
+          "n_complete": 16,
+          "n_total": 27,
+          "compl": 59.3,
+          "avg_cap": 34.2,
+          "pnl": 276.7
+        }
+      }
+    },
+    {
+      "id": "montante_o15_x3p_sweet_spot",
+      "label": "\ud83e\ude9c\u26bd\ud83d\udc51 Over 1.5 \u00d73P cote 1.20-1.40 \u2014 SWEET SPOT 63% completion +262\u20ac",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 75,
+          "n_total": 111,
+          "compl": 67.6,
+          "avg_cap": 19.3,
+          "pnl": 339.0
+        },
+        "Apr": {
+          "n_complete": 25,
+          "n_total": 28,
+          "compl": 89.3,
+          "avg_cap": 19.0,
+          "pnl": 194.3
+        }
+      }
+    },
+    {
+      "id": "montante_hockey_combo2j_x2p_max_freq",
+      "label": "\ud83e\ude9c\ud83c\udfd2\u26a1\ud83d\udc8e Hockey combo 2j \u00d72P cote 1.30-1.50 \u2014 49% +471\u20ac",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 25,
+          "n_total": 51,
+          "compl": 49.0,
+          "avg_cap": 38.3,
+          "pnl": 447.8
+        },
+        "Apr": {
+          "n_complete": 2,
+          "n_total": 4,
+          "compl": 50.0,
+          "avg_cap": 38.6,
+          "pnl": 37.3
+        }
+      }
+    },
+    {
+      "id": "montante_o15_x2p_66pct_safe",
+      "label": "\ud83e\ude9c\u26bd\u2b50\u26a1 Over 1.5 \u00d72P cote 1.35-1.55 \u2014 66% completion +301\u20ac S1",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 66,
+          "n_total": 98,
+          "compl": 67.3,
+          "avg_cap": 19.6,
+          "pnl": 313.1
+        },
+        "Apr": {
+          "n_complete": 13,
+          "n_total": 24,
+          "compl": 54.2,
+          "avg_cap": 19.5,
+          "pnl": 13.1
+        }
+      }
+    },
+    {
+      "id": "montante_o15_combo2j_x2p_apr_freq",
+      "label": "\ud83e\ude9c\u26bd\u26a1\u2b50 Over 1.5 combo 2j \u00d72P cote 1.20-1.40 \u2014 54% +365\u20ac S1 + +160\u20ac Avril",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 58,
+          "n_total": 105,
+          "compl": 55.2,
+          "avg_cap": 24.4,
+          "pnl": 366.6
+        },
+        "Apr": {
+          "n_complete": 19,
+          "n_total": 26,
+          "compl": 73.1,
+          "avg_cap": 23.8,
+          "pnl": 191.6
+        }
+      }
+    },
+    {
+      "id": "montante_hockey_x4",
+      "label": "\ud83e\ude9c MONTANTE Hockey \u00d74 \u2014 4 paliers (ROI +19% S1-26)",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 30,
+          "n_total": 74,
+          "compl": 40.5,
+          "avg_cap": 40.9,
+          "pnl": 486.5
+        },
+        "Apr": {
+          "n_complete": 5,
+          "n_total": 11,
+          "compl": 45.5,
+          "avg_cap": 45.0,
+          "pnl": 114.9
+        }
+      }
+    },
+    {
+      "id": "montante_hockey_x4p_value_balance",
+      "label": "\ud83e\ude9c\ud83c\udfd2\ud83d\udc8e Hockey \u00d74P VALUE \u2014 41% completion cap 41\u20ac (good balance)",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 30,
+          "n_total": 74,
+          "compl": 40.5,
+          "avg_cap": 40.9,
+          "pnl": 486.5
+        },
+        "Apr": {
+          "n_complete": 5,
+          "n_total": 11,
+          "compl": 45.5,
+          "avg_cap": 45.0,
+          "pnl": 114.9
+        }
+      }
+    },
+    {
+      "id": "montante_o15_combo2j_x3p_top_apr",
+      "label": "\ud83e\ude9c\u26bd\ud83d\udc8e\ud83c\udf38 Over 1.5 combo 2j \u00d73P cote 1.15-1.30 \u2014 Apr +228\u20ac S1 +440\u20ac",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 36,
+          "n_total": 89,
+          "compl": 40.4,
+          "avg_cap": 37.5,
+          "pnl": 459.1
+        },
+        "Apr": {
+          "n_complete": 11,
+          "n_total": 23,
+          "compl": 47.8,
+          "avg_cap": 36.4,
+          "pnl": 170.1
+        }
+      }
+    },
+    {
+      "id": "montante_hockey_x6_max_roi",
+      "label": "\ud83e\ude9c\ud83c\udfd2\ud83d\udc8e MONTANTE Hockey \u00d76 INTRADAY \u2014 ROI +127% (RECORD ABSOLU)",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 14,
+          "n_total": 33,
+          "compl": 42.4,
+          "avg_cap": 52.7,
+          "pnl": 407.8
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 3,
+          "compl": 33.3,
+          "avg_cap": 62.0,
+          "pnl": 32.0
+        }
+      }
+    },
+    {
+      "id": "montante_hockey_x5_intraday",
+      "label": "\ud83e\ude9c\ud83c\udfd2 MONTANTE Hockey \u00d75 INTRADAY \u2014 ROI +100% (20 cycles complets)",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 19,
+          "n_total": 54,
+          "compl": 35.2,
+          "avg_cap": 53.9,
+          "pnl": 483.9
+        },
+        "Apr": {
+          "n_complete": 2,
+          "n_total": 6,
+          "compl": 33.3,
+          "avg_cap": 60.0,
+          "pnl": 60.1
+        }
+      }
+    },
+    {
+      "id": "montante_o15_x4p_apr_winner",
+      "label": "\ud83e\ude9c\u26bd\u2b50\ud83c\udf38 Over 1.5 \u00d74P cote 1.20-1.35 \u2014 54% +269\u20ac S1 + +166\u20ac AVRIL",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 54,
+          "n_total": 98,
+          "compl": 55.1,
+          "avg_cap": 23.6,
+          "pnl": 292.4
+        },
+        "Apr": {
+          "n_complete": 17,
+          "n_total": 24,
+          "compl": 70.8,
+          "avg_cap": 23.5,
+          "pnl": 159.1
+        }
+      }
+    },
+    {
+      "id": "montante_hockey_combo2j_x2p_37pct",
+      "label": "\ud83e\ude9c\ud83c\udfd2\u26a1\ud83d\udc8e Hockey combo 2j \u00d72P cote 1.30-1.60 \u2014 37% completion +454\u20ac",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 28,
+          "n_total": 77,
+          "compl": 36.4,
+          "avg_cap": 42.4,
+          "pnl": 417.7
+        },
+        "Apr": {
+          "n_complete": 4,
+          "n_total": 8,
+          "compl": 50.0,
+          "avg_cap": 44.1,
+          "pnl": 96.4
+        }
+      }
+    },
+    {
+      "id": "montante_foothockey_combo2j_x2p_midcote",
+      "label": "\ud83e\ude9c\u26bd\ud83c\udfd2\ud83d\udc8e Foot+Hockey combo 2j \u00d72P cote 1.40-1.60 \u2014 30% +492\u20ac S1",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 28,
+          "n_total": 93,
+          "compl": 30.1,
+          "avg_cap": 49.5,
+          "pnl": 456.1
+        },
+        "Apr": {
+          "n_complete": 5,
+          "n_total": 18,
+          "compl": 27.8,
+          "avg_cap": 48.6,
+          "pnl": 63.1
+        }
+      }
+    },
+    {
+      "id": "montante_hockey_combo2j_x4p_balance",
+      "label": "\ud83e\ude9c\ud83c\udfd2\u2696\ufe0f Hockey combo 2j \u00d74P cote 1.20-1.40 \u2014 30% completion (BALANCE)",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 7,
+          "n_total": 23,
+          "compl": 30.4,
+          "avg_cap": 90.5,
+          "pnl": 403.2
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 1,
+          "compl": 100.0,
+          "avg_cap": 104.7,
+          "pnl": 94.7
+        }
+      }
+    },
+    {
+      "id": "montante_hockey_x3",
+      "label": "\ud83e\ude9c MONTANTE Hockey \u00d73 \u2014 3 paliers safe (ROI +24% S1-26)",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 32,
+          "n_total": 64,
+          "compl": 50.0,
+          "avg_cap": 27.5,
+          "pnl": 238.7
+        },
+        "Apr": {
+          "n_complete": 3,
+          "n_total": 7,
+          "compl": 42.9,
+          "avg_cap": 28.4,
+          "pnl": 15.3
+        }
+      }
+    },
+    {
+      "id": "montante_5sports_x3_volume",
+      "label": "\ud83e\ude9c\ud83c\udf10 MONTANTE 5 SPORTS \u00d73 \u2014 VOLUME MAX (57 cycles complets/4 mois)",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 55,
+          "n_total": 118,
+          "compl": 46.6,
+          "avg_cap": 25.4,
+          "pnl": 216.0
+        },
+        "Apr": {
+          "n_complete": 12,
+          "n_total": 30,
+          "compl": 40.0,
+          "avg_cap": 26.3,
+          "pnl": 15.1
+        }
+      }
+    },
+    {
+      "id": "montante_4sports_x4p",
+      "label": "\ud83e\ude9c\ud83c\udf10 MONTANTE 4 SPORTS \u2014 4 PALIERS d'affil\u00e9e (20 succ\u00e8s/4 mois, ROI +51%)",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 43,
+          "n_total": 112,
+          "compl": 38.4,
+          "avg_cap": 32.0,
+          "pnl": 256.4
+        },
+        "Apr": {
+          "n_complete": 7,
+          "n_total": 25,
+          "compl": 28.0,
+          "avg_cap": 31.8,
+          "pnl": -27.8
+        }
+      }
+    },
+    {
+      "id": "montante_foot_1x2_x2p_value",
+      "label": "\ud83e\ude9c\u26bd\ud83d\udc8e\ud83d\udcca Foot 1x2 \u00d72P cote 1.55-1.75 EV \u2014 44% +196\u20ac S1 + +71\u20ac Avril",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 43,
+          "n_total": 96,
+          "compl": 44.8,
+          "avg_cap": 27.4,
+          "pnl": 216.2
+        },
+        "Apr": {
+          "n_complete": 11,
+          "n_total": 24,
+          "compl": 45.8,
+          "avg_cap": 27.8,
+          "pnl": 65.4
+        }
+      }
+    },
+    {
+      "id": "montante_4sports_x3",
+      "label": "\ud83e\ude9c\ud83c\udf10 MONTANTE 4 SPORTS \u00d73 \u2014 top WR foot/hockey/basket/baseball (ROI +33%)",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 56,
+          "n_total": 114,
+          "compl": 49.1,
+          "avg_cap": 23.8,
+          "pnl": 192.3
+        },
+        "Apr": {
+          "n_complete": 11,
+          "n_total": 26,
+          "compl": 42.3,
+          "avg_cap": 23.9,
+          "pnl": 3.3
+        }
+      }
+    },
+    {
+      "id": "montante_btts_x2p_practical",
+      "label": "\ud83e\ude9c\u26bd\ud83e\udd1d\u2b50 BTTS Oui \u00d72P cote 1.60-1.80 \u2014 44% +277\u20ac S1",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 48,
+          "n_total": 115,
+          "compl": 41.7,
+          "avg_cap": 28.6,
+          "pnl": 221.2
+        },
+        "Apr": {
+          "n_complete": 11,
+          "n_total": 29,
+          "compl": 37.9,
+          "avg_cap": 28.0,
+          "pnl": 18.1
+        }
+      }
+    },
+    {
+      "id": "montante_o15_combo2j_x4p_april_killer",
+      "label": "\ud83e\ude9c\u26bd\ud83d\udc8e\ud83c\udf38 Over 1.5 combo 2j \u00d74P cote 1.10-1.25 \u2014 AVRIL KILLER (12/21)",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 26,
+          "n_total": 82,
+          "compl": 31.7,
+          "avg_cap": 42.3,
+          "pnl": 280.7
+        },
+        "Apr": {
+          "n_complete": 11,
+          "n_total": 18,
+          "compl": 61.1,
+          "avg_cap": 43.2,
+          "pnl": 294.8
+        }
+      }
+    },
+    {
+      "id": "montante_hockey_x2",
+      "label": "\ud83e\ude9c MONTANTE Hockey \u00d72 SAFE \u2014 1 palier (ROI +15% S1-26)",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 41,
+          "n_total": 62,
+          "compl": 66.1,
+          "avg_cap": 18.3,
+          "pnl": 131.0
+        },
+        "Apr": {
+          "n_complete": 5,
+          "n_total": 7,
+          "compl": 71.4,
+          "avg_cap": 18.5,
+          "pnl": 22.7
+        }
+      }
+    },
+    {
+      "id": "montante_o15_x2p_ultra_freq_80pct",
+      "label": "\ud83e\ude9c\u26bd\ud83c\udfc6 Over 1.5 \u00d72P ULTRA SAFE \u2014 80% completion (RECORD ABSOLU)",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 81,
+          "n_total": 107,
+          "compl": 75.7,
+          "avg_cap": 14.6,
+          "pnl": 113.4
+        },
+        "Apr": {
+          "n_complete": 23,
+          "n_total": 25,
+          "compl": 92.0,
+          "avg_cap": 14.8,
+          "pnl": 89.6
+        }
+      }
+    },
+    {
+      "id": "montante_hb_x4_safe",
+      "label": "\ud83e\ude9c\ud83c\udfd2\ud83c\udfc0 MONTANTE Hockey+Basket \u00d74 \u2014 56% compl\u00e9tion (la plus accessible)",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 18,
+          "n_total": 38,
+          "compl": 47.4,
+          "avg_cap": 30.2,
+          "pnl": 164.5
+        },
+        "Apr": {
+          "n_complete": 4,
+          "n_total": 10,
+          "compl": 40.0,
+          "avg_cap": 29.3,
+          "pnl": 17.3
+        }
+      }
+    },
+    {
+      "id": "montante_interday_hockeybasket_x5p",
+      "label": "\ud83e\ude9c\ud83d\udcc5\ud83c\udfd2\ud83c\udfc0 INTERDAY Hockey+Basket \u00d75J cote 1.25-1.45 \u2014 TOP EV interday +306\u20ac",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 13,
+          "n_total": 33,
+          "compl": 39.4,
+          "avg_cap": 40.5,
+          "pnl": 196.5
+        },
+        "Apr": {
+          "n_complete": 2,
+          "n_total": 8,
+          "compl": 25.0,
+          "avg_cap": 39.2,
+          "pnl": -1.7
+        }
+      }
+    },
+    {
+      "id": "montante_hockey_value_x2p_55pct",
+      "label": "\ud83e\ude9c\ud83c\udfd2\ud83d\udc8e\ud83d\udcca Hockey VALUE \u00d72P EV\u22651.05 cote 1.45-1.65 \u2014 55% completion",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 26,
+          "n_total": 47,
+          "compl": 55.3,
+          "avg_cap": 23.1,
+          "pnl": 131.6
+        },
+        "Apr": {
+          "n_complete": 2,
+          "n_total": 2,
+          "compl": 100.0,
+          "avg_cap": 24.1,
+          "pnl": 28.3
+        }
+      }
+    },
+    {
+      "id": "montante_meta_hockey_value_x5",
+      "label": "\ud83e\ude9c\ud83c\udfd2\ud83d\udc8e META Hockey VALUE \u00d75 (EV\u22651.10) \u2014 ROI +89% capital 37\u20ac",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 7,
+          "n_total": 20,
+          "compl": 35.0,
+          "avg_cap": 54.5,
+          "pnl": 181.4
+        },
+        "Apr": {
+          "n_complete": 0,
+          "n_total": 1,
+          "compl": 0.0,
+          "avg_cap": 0.0,
+          "pnl": -10
+        }
+      }
+    },
+    {
+      "id": "montante_interday_o15_x3p_77pct",
+      "label": "\ud83e\ude9c\ud83d\udcc5\u26bd\ud83c\udfc6 INTERDAY Over 1.5 \u00d73J cote 1.10-1.25 EV \u2014 77% completion (RECORD)",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 29,
+          "n_total": 43,
+          "compl": 67.4,
+          "avg_cap": 17.9,
+          "pnl": 90.6
+        },
+        "Apr": {
+          "n_complete": 8,
+          "n_total": 10,
+          "compl": 80.0,
+          "avg_cap": 18.0,
+          "pnl": 44.2
+        }
+      }
+    },
+    {
+      "id": "montante_basket_combo2j_x2p_practical",
+      "label": "\ud83e\ude9c\ud83c\udfc0\u2b50 Basket combo 2j \u00d72P cote 1.25-1.45 EV \u2014 40% completion +284\u20ac",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 25,
+          "n_total": 68,
+          "compl": 36.8,
+          "avg_cap": 33.5,
+          "pnl": 158.4
+        },
+        "Apr": {
+          "n_complete": 2,
+          "n_total": 10,
+          "compl": 20.0,
+          "avg_cap": 32.0,
+          "pnl": -36.0
+        }
+      }
+    },
+    {
+      "id": "montante_hockey_x3_super_freq",
+      "label": "\ud83e\ude9c\ud83c\udfd2\u26a1\ud83d\udd25 Hockey \u00d73P SUPER FR\u00c9QUENT \u2014 71% completion (FAVORI ABSOLU)",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 16,
+          "n_total": 23,
+          "compl": 69.6,
+          "avg_cap": 19.3,
+          "pnl": 79.2
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 2,
+          "compl": 50.0,
+          "avg_cap": 20.0,
+          "pnl": -0.0
+        }
+      }
+    },
+    {
+      "id": "montante_interday_o15_x7p_apr_dual",
+      "label": "\ud83e\ude9c\ud83d\udcc5\u26bd\ud83c\udf38 INTERDAY Over 1.5 \u00d77J cote 1.10-1.25 EV \u2014 52% +227\u20ac S1 +123\u20ac Apr",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 8,
+          "n_total": 22,
+          "compl": 36.4,
+          "avg_cap": 39.9,
+          "pnl": 98.9
+        },
+        "Apr": {
+          "n_complete": 2,
+          "n_total": 4,
+          "compl": 50.0,
+          "avg_cap": 40.7,
+          "pnl": 41.4
+        }
+      }
+    },
+    {
+      "id": "montante_combo2j_x3p",
+      "label": "\ud83e\ude9c\u26bd\ud83d\udd17 MONTANTE Combo2j Foot \u00d73P \u2014 50% compl\u00e9tion ROI +19%",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 14,
+          "n_total": 22,
+          "compl": 63.6,
+          "avg_cap": 19.6,
+          "pnl": 53.7
+        },
+        "Apr": {
+          "n_complete": 2,
+          "n_total": 4,
+          "compl": 50.0,
+          "avg_cap": 19.9,
+          "pnl": -0.1
+        }
+      }
+    },
+    {
+      "id": "montante_combo2j_x7p",
+      "label": "\ud83e\ude9c\u26bd\ud83d\udd17 MONTANTE Combo2j Foot \u00d77P \u2014 ROI +64% capital 42\u20ac",
+      "perfs": {
+        "S1-26": {
+          "n_complete": 4,
+          "n_total": 12,
+          "compl": 33.3,
+          "avg_cap": 49.2,
+          "pnl": 76.9
+        },
+        "Apr": {
+          "n_complete": 1,
+          "n_total": 3,
+          "compl": 33.3,
+          "avg_cap": 41.6,
+          "pnl": 11.6
+        }
+      }
+    }
+  ],
+  "classics": [
+    {
+      "id": "foot_pure_o15_safe_ratio57",
+      "label": "\u26bd\ud83d\udee1\ufe0f\ud83d\udcc8 Foot Over 1.5 PURE \u2014 ratio 5.7\u00d7 DD 34\u20ac (single market)",
+      "pnl": 287.8,
+      "br_final": 387.8,
+      "br_mult": 3.88,
+      "dd": 19.1,
+      "ratio": 15.09,
+      "streak": 4,
+      "n_combos": 218,
+      "wr": 78.9
+    },
+    {
+      "id": "fhb_basket_safe_max",
+      "label": "\ud83d\udc8e FHB Basket-Safe RATIO MAX \u2014 BR \u00d78 ratio 10.3\u00d7",
+      "pnl": 546.1,
+      "br_final": 646.1,
+      "br_mult": 6.46,
+      "dd": 50.2,
+      "ratio": 10.88,
+      "streak": 3,
+      "n_combos": 579,
+      "wr": 75.5
+    },
+    {
+      "id": "fhb_bk_ultra_safe",
+      "label": "\ud83d\udca0 FHB Basket ULTRA-SAFE 1.10-1.30 \u2014 ratio 11.8\u00d7 RECORD",
+      "pnl": 445.7,
+      "br_final": 545.7,
+      "br_mult": 5.46,
+      "dd": 43.4,
+      "ratio": 10.26,
+      "streak": 4,
+      "n_combos": 584,
+      "wr": 77.1
+    },
+    {
+      "id": "fhb_bk_value_max_gain",
+      "label": "\ud83d\udc8e FHB Basket 1.25-1.45 \u2014 BR \u00d79 ratio 10.8\u00d7 streak 3j \u2605",
+      "pnl": 531.1,
+      "br_final": 631.1,
+      "br_mult": 6.31,
+      "dd": 62.1,
+      "ratio": 8.56,
+      "streak": 3,
+      "n_combos": 578,
+      "wr": 74.4
+    },
+    {
+      "id": "fhb_max_ratio",
+      "label": "\ud83d\udcca FHB \u00c9quilibr\u00e9 \u2014 BR \u00d74.5 ratio 6.7\u00d7",
+      "pnl": 324.7,
+      "br_final": 424.7,
+      "br_mult": 4.25,
+      "dd": 44.2,
+      "ratio": 7.35,
+      "streak": 3,
+      "n_combos": 674,
+      "wr": 68.8
+    },
+    {
+      "id": "multi_foot_hockey",
+      "label": "\ud83e\udd47 Foot+Hockey CLASSIQUE \u2014 BR \u00d77 ratio 4.7\u00d7",
+      "pnl": 362.8,
+      "br_final": 462.8,
+      "br_mult": 4.63,
+      "dd": 71.3,
+      "ratio": 5.08,
+      "streak": 5,
+      "n_combos": 204,
+      "wr": 66.2
+    },
+    {
+      "id": "multi_foot_hockey_safe",
+      "label": "\ud83e\udd48 Foot+Hockey SAFER \u2014 BR \u00d74 ratio 5.2\u00d7",
+      "pnl": 253.5,
+      "br_final": 353.5,
+      "br_mult": 3.54,
+      "dd": 50.7,
+      "ratio": 5.0,
+      "streak": 5,
+      "n_combos": 204,
+      "wr": 66.2
+    },
+    {
+      "id": "mega_safe_diversified",
+      "label": "\ud83c\udf1f MEGA Diversifi\u00e9 RATIO MAX \u2014 BR \u00d72 ratio 7.2\u00d7 DD ultra-bas",
+      "pnl": 144.1,
+      "br_final": 244.1,
+      "br_mult": 2.44,
+      "dd": 29.1,
+      "ratio": 4.96,
+      "streak": 5,
+      "n_combos": 485,
+      "wr": 62.3
+    },
+    {
+      "id": "mega_safe_diversified_pct25",
+      "label": "\ud83c\udf1f MEGA Diversifi\u00e9 2.5% \u2014 BR \u00d73.6 ratio 6.5\u00d7",
+      "pnl": 312.5,
+      "br_final": 412.5,
+      "br_mult": 4.13,
+      "dd": 69.9,
+      "ratio": 4.47,
+      "streak": 5,
+      "n_combos": 485,
+      "wr": 62.3
+    },
+    {
+      "id": "fhb_c2j_ratio_max",
+      "label": "\ud83d\udc8e FHB-Safe + Combos 2j RATIO MAX \u2014 ratio 10.4\u00d7 streak 3j",
+      "pnl": 390.3,
+      "br_final": 490.3,
+      "br_mult": 4.9,
+      "dd": 90.2,
+      "ratio": 4.33,
+      "streak": 4,
+      "n_combos": 697,
+      "wr": 68.3
+    },
+    {
+      "id": "volume_3sport_ultra_safe",
+      "label": "\ud83d\udee1\ufe0f 3-Sports ULTRA-SAFE \u2014 8 picks/j cote 1.20-1.50",
+      "pnl": 219.0,
+      "br_final": 319.0,
+      "br_mult": 3.19,
+      "dd": 71.8,
+      "ratio": 3.05,
+      "streak": 3,
+      "n_combos": 643,
+      "wr": 78.5
+    },
+    {
+      "id": "foot_pure_btts_safe_ratio46",
+      "label": "\u26bd\ud83e\udd1d\ud83d\udcc8 Foot BTTS Oui PURE \u2014 ratio 4.6\u00d7 DD 34\u20ac (single market)",
+      "pnl": 149.9,
+      "br_final": 249.9,
+      "br_mult": 2.5,
+      "dd": 60.8,
+      "ratio": 2.47,
+      "streak": 6,
+      "n_combos": 220,
+      "wr": 68.2
+    }
+  ]
+}

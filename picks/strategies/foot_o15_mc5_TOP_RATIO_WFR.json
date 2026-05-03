@@ -1,0 +1,26 @@
+{
+  "id": "foot_o15_mc5_TOP_RATIO_WFR",
+  "label": "⚽🇫🇷👑📈 Foot Over 1.5 ×5 cote 1.4-1.65 WR≥65% — TOP RATIO 14.1× BR×6.7",
+  "description": "★★★★ NOUVEAU TOP RATIO ABSOLU Winamax FR : Foot Over 1.5 buts cote 1.40-1.65, WR≥65%, **5 picks/jour**, sizing 5%. PnL +571€, DD seulement 40€, **ratio 14.1×**, streak rouge max **2j**, 290 combos. BR 100€ → 670€ en 4 mois. La stratégie classique la plus stable et profitable de la lib en mode Winamax FR strict.",
+  "components": [{
+    "sport": "football", "market": "over_1_5",
+    "cote_min": 1.40, "cote_max": 1.65,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 5,
+    "min_wr": 0.65, "min_ev": null
+  }],
+  "dedup": "max1",
+  "sizing": {"mode": "flat_pct", "pct": 0.05, "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "source": "find_wfr_v2_classics",
+    "pnl": 571,
+    "bankroll_multiplier": 6.7,
+    "dd": 40,
+    "ratio_pnl_dd": 14.1,
+    "streak_max": 2,
+    "n_combos": 290,
+    "wr_combos": 71,
+    "winamax_fr": true,
+    "note": "★★★★ TOP RATIO classique lib Winamax FR. Foot Over 1.5 mid-cote 5 picks/jour ×5% sizing. DD seulement 40€ sur BR initiale 100€."
+  }
+}

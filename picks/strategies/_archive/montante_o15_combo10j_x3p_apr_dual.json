@@ -1,0 +1,28 @@
+{
+  "id": "montante_o15_combo10j_x3p_apr_dual",
+  "label": "🪜⚽💥🌸 Over 1.5 combo 10j ×3P cote 1.10-1.25 — +906€ S1 +1276€ AVRIL",
+  "description": "Combo 10 jambes Over 1.5 cote 1.10-1.25, 3 paliers (court, plus accessible). 1/50 cycles (2%) cap 1406€/cycle. PnL +906€ S1-26 + Avril +1276€. Le NUCLEAR en 3 paliers — ×140 capital théorique sur 30€ engagés/jour.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football"], "market": "over_1_5",
+    "cote_min": 1.10, "cote_max": 1.25,
+    "sort_by": "wr", "max_legs": 10, "max_combos": 1,
+    "min_wr": null, "min_ev": null,
+    "legs_per_palier": 10
+  }],
+  "montante": {"initial_stake": 10, "n_paliers_target": 3, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 10},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict)",
+    "n_cycles_complete": 1,
+    "n_cycles_total": 50,
+    "completion_rate": 0.02,
+    "wr_palier_combo": 0.31,
+    "avg_capital_complete": 1406,
+    "pnl_net_s1": 906,
+    "april_pnl": 1276,
+    "note": "Variant 3 paliers du ULTIMATE 10j. Cap 1406€/cycle. PnL Avril +1276€."
+  }
+}

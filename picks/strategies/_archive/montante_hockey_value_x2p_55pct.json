@@ -1,0 +1,28 @@
+{
+  "id": "montante_hockey_value_x2p_55pct",
+  "label": "🪜🏒💎📊 Hockey VALUE ×2P EV≥1.05 cote 1.45-1.65 — 55% completion",
+  "description": "Hockey 1x2 single, cote 1.45-1.65, sort par EV avec EV≥1.05, 2 paliers. 27/49 cycles (55%) sur S1-26 → cap 23€/cycle PnL +136€ + Avril +33€ (better than baseline). Cote 1.55 moyenne par jambe → ×2p = ×2.4 cap théorique. WR par palier 72%.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["ice-hockey"], "market": "1x2",
+    "cote_min": 1.45, "cote_max": 1.65,
+    "sort_by": "ev", "max_legs": 1, "max_combos": 1,
+    "min_wr": null, "min_ev": 1.05,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 10, "n_paliers_target": 2, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict)",
+    "n_cycles_complete": 27,
+    "n_cycles_total": 49,
+    "completion_rate": 0.55,
+    "wr_palier": 0.72,
+    "avg_capital_complete": 23,
+    "pnl_net_s1": 136,
+    "april_pnl": 33,
+    "note": "Hockey value mid-cote en court (2 paliers) → 55% completion + WR palier 72%. Profil 'lance-quotidiennement avec value picks NHL/KHL/SHL'."
+  }
+}

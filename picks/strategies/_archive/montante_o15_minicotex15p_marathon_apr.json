@@ -1,0 +1,28 @@
+{
+  "id": "montante_o15_minicotex15p_marathon_apr",
+  "label": "🪜⚽🛡️🌸 Over 1.5 mini-cote 1.05-1.20 × 15P MARATHON — APRIL +289€",
+  "description": "★ AVRIL TOP O 1.5 : Over 1.5 buts foot mini-cote 1.05-1.20, 15 paliers (!) — WR par jambe 88%. Avril 2026 PnL +289€ (one of the bests). S1-26 11/72 cycles (15%) cap 76€/cycle PnL +117€. Profil 'patience marathon' : 15 paliers de mini-cote → cycle ×6 capital théorique.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football"], "market": "over_1_5",
+    "cote_min": 1.05, "cote_max": 1.20,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+    "min_wr": null, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 10, "n_paliers_target": 15, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict)",
+    "n_cycles_complete": 11,
+    "n_cycles_total": 72,
+    "completion_rate": 0.15,
+    "wr_palier": 0.88,
+    "avg_capital_complete": 76,
+    "pnl_net_s1": 117,
+    "april_pnl": 289,
+    "note": "★ Avril +289€ — un des meilleurs Apr. Mini-cote 1.05-1.20 ultra-safe par jambe (88% WR), 15 paliers acharnés."
+  }
+}

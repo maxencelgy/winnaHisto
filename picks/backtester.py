@@ -80,8 +80,10 @@ def _load_magic():
 
 
 def backtest(strategy, start_date, end_date, bankroll0=100,
-             bookmaker="winamax_fr", base_stake=10):
-    """Run backtest sur strat JSON. Retourne {daily, summary}."""
+             bookmaker="winamax_fr", base_stake=10, excluded_leagues=None):
+    """Run backtest sur strat JSON. Retourne {daily, summary}.
+    excluded_leagues : list de substrings (lowercase) — exclut tout pick dont la ligue contient un de ces patterns.
+    """
     sizing = strategy.get("sizing", {"mode": "flat_pct", "pct": 0.10, "min_stake": 0.5})
     pct = sizing.get("pct", 0.10)
     min_stake = sizing.get("min_stake", 0.5)
@@ -90,7 +92,20 @@ def backtest(strategy, start_date, end_date, bankroll0=100,
     dedup = strategy.get("dedup", "none")
     components = strategy["components"]
 
-    league_filter = _is_league_allowed if bookmaker == "winamax_fr" else None
+    excl = [e.lower() for e in (excluded_leagues or []) if e and e.strip()]
+    base_filter = _is_league_allowed if bookmaker == "winamax_fr" else None
+    if excl:
+        def league_filter(sport, league):
+            if base_filter and not base_filter(sport, league):
+                return False
+            if not league:
+                return True
+            ll = league.lower()
+            if any(e in ll for e in excl):
+                return False
+            return True
+    else:
+        league_filter = base_filter
     days = list(_gen_days(start_date, end_date))
 
     # Magic ref : utilise version OOS (train<2026-01-01) pour backtest si dispo,

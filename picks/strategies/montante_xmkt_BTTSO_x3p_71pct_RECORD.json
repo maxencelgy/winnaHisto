@@ -1,0 +1,27 @@
+{
+  "id": "montante_xmkt_BTTSO_x3p_71pct_RECORD",
+  "label": "🪜⚽🇫🇷⭐⭐ Foot BTTS+OU ×3P cote 1.20-1.35 — 71% completion RECORD WFR",
+  "description": "★★★ NEW RECORD COMPLETION Winamax FR : Foot **BTTS + OU 1.5 + OU 2.5** single cote 1.20-1.35, 3 paliers. **71% completion** S1-26 (record absolu lib WFR sur 3 paliers !) cap 20€/cycle. PnL +408€ S1 + Apr +125€. ~1 cycle sur 3.4 lancés aboutit !",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football"], "market": "btts,over_1_5,over_2_5",
+    "cote_min": 1.20, "cote_max": 1.35,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+    "min_wr": null, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 10, "n_paliers_target": 3, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.71,
+    "avg_capital_complete": 20,
+    "pnl_net_s1": 408,
+    "april_pnl": 125,
+    "ev_pratique": 288,
+    "winamax_fr": true,
+    "note": "★★★ RECORD COMPLETION 3 paliers. BTTS+OU exclus 1x2 = pool plus dense de favoris."
+  }
+}

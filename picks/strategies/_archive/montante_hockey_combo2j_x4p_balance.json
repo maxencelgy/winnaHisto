@@ -1,0 +1,28 @@
+{
+  "id": "montante_hockey_combo2j_x4p_balance",
+  "label": "🪜🏒⚖️ Hockey combo 2j ×4P cote 1.20-1.40 — 30% completion (BALANCE)",
+  "description": "MEILLEUR ÉQUILIBRE Hockey : combo 2 jambes par palier cote 1.20-1.40, 4 paliers d'affilée. 30% completion (7/23 cycles), capital 90€/cycle, ROI +168% S1-26. Avril 2026 1/1 succès (ROI +473%). Compromis optimal entre fréquence et gain — meilleur que 5p (24%) ou 7p (10%) pour qui veut voir la montante aboutir souvent.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["ice-hockey"], "market": "1x2",
+    "cote_min": 1.20, "cote_max": 1.40,
+    "sort_by": "wr", "max_legs": 2, "max_combos": 1,
+    "min_wr": null, "min_ev": null,
+    "legs_per_palier": 2
+  }],
+  "montante": {"initial_stake": 10, "n_paliers_target": 4, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 2},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict)",
+    "n_cycles_complete": 7,
+    "n_cycles_total": 23,
+    "completion_rate": 0.30,
+    "wr_palier_combo": 0.72,
+    "avg_capital_complete": 90,
+    "roi_pct": 168,
+    "april_roi_pct": 473,
+    "note": "Sweet spot Hockey 4 paliers : 30% completion vs 24% sur 5p (capital identique). ROI +168% sur 4 mois et Avril 1/1 = 100% des cycles passés."
+  }
+}

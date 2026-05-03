@@ -1,0 +1,26 @@
+{
+  "id": "montante_wfr_o15_x2p_67pct_RECORD",
+  "label": "🪜⚽🇫🇷⭐ Over 1.5 ×2P cote 1.35-1.55 — WFR 67% completion RECORD +313€",
+  "description": "★★★ RECORD COMPLETION Winamax FR : Over 1.5 buts foot single cote 1.35-1.55, 2 paliers. **67% completion** S1-26 strict — 2 cycles sur 3 aboutissent. Cap 20€/cycle. PnL +313€ S1 + Apr +13€. Profil 'lance-quotidiennement Winamax FR' avec gain régulier.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football"], "market": "over_1_5",
+    "cote_min": 1.35, "cote_max": 1.55,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+    "min_wr": null, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 10, "n_paliers_target": 2, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.67,
+    "avg_capital_complete": 20,
+    "pnl_net_s1": 313,
+    "april_pnl": 13,
+    "winamax_fr": true,
+    "note": "★ RECORD 67% completion lib Winamax FR. Over 1.5 cote 1.35-1.55 — sweet spot WR 87%/jambe."
+  }
+}

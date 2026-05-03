@@ -1,0 +1,5016 @@
+{
+  "all": [
+    {
+      "id": "AS_FT_F3H3T1_pct5",
+      "strat": {
+        "id": "AS_FT_F3H3T1_pct5",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": null,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "tennis",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.6,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 1625.7,
+      "br_mult": 17.26,
+      "dd": 99.3,
+      "ratio": 16.38,
+      "streak": 3,
+      "n_combos": 583
+    },
+    {
+      "id": "AS_FT_F3H3T1_pct7",
+      "strat": {
+        "id": "AS_FT_F3H3T1_pct7",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": null,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "tennis",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.6,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.07,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 4745.0,
+      "br_mult": 48.45,
+      "dd": 362.8,
+      "ratio": 13.08,
+      "streak": 3,
+      "n_combos": 583
+    },
+    {
+      "id": "AS_FT_F3H3T1_pct10",
+      "strat": {
+        "id": "AS_FT_F3H3T1_pct10",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": null,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "tennis",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.6,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.1,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 20248.0,
+      "br_mult": 203.48,
+      "dd": 1965.0,
+      "ratio": 10.3,
+      "streak": 3,
+      "n_combos": 583
+    },
+    {
+      "id": "AS_FT_F3H3T2_pct5",
+      "strat": {
+        "id": "AS_FT_F3H3T2_pct5",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": null,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "tennis",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.6,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 2,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 1762.6,
+      "br_mult": 18.63,
+      "dd": 103.5,
+      "ratio": 17.03,
+      "streak": 2,
+      "n_combos": 616
+    },
+    {
+      "id": "AS_FT_F3H3T2_pct7",
+      "strat": {
+        "id": "AS_FT_F3H3T2_pct7",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": null,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "tennis",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.6,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 2,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.07,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 5271.5,
+      "br_mult": 53.71,
+      "dd": 417.5,
+      "ratio": 12.63,
+      "streak": 2,
+      "n_combos": 616
+    },
+    {
+      "id": "AS_FT_F3H3T2_pct10",
+      "strat": {
+        "id": "AS_FT_F3H3T2_pct10",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": null,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "tennis",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.6,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 2,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.1,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 23303.0,
+      "br_mult": 234.03,
+      "dd": 2600.6,
+      "ratio": 8.96,
+      "streak": 2,
+      "n_combos": 616
+    },
+    {
+      "id": "AS_FT_F3H3T3_pct5",
+      "strat": {
+        "id": "AS_FT_F3H3T3_pct5",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": null,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "tennis",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.6,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 1235.0,
+      "br_mult": 13.35,
+      "dd": 149.3,
+      "ratio": 8.27,
+      "streak": 3,
+      "n_combos": 647
+    },
+    {
+      "id": "AS_FT_F3H3T3_pct7",
+      "strat": {
+        "id": "AS_FT_F3H3T3_pct7",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": null,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "tennis",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.6,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.07,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 3244.4,
+      "br_mult": 33.44,
+      "dd": 424.0,
+      "ratio": 7.65,
+      "streak": 3,
+      "n_combos": 647
+    },
+    {
+      "id": "AS_FT_F3H3T3_pct10",
+      "strat": {
+        "id": "AS_FT_F3H3T3_pct10",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": null,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "tennis",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.6,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.1,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 11596.6,
+      "br_mult": 116.97,
+      "dd": 1591.4,
+      "ratio": 7.29,
+      "streak": 3,
+      "n_combos": 647
+    },
+    {
+      "id": "AS_FT_F3H5T1_pct5",
+      "strat": {
+        "id": "AS_FT_F3H5T1_pct5",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": null,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "tennis",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.6,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 2966.0,
+      "br_mult": 30.66,
+      "dd": 176.3,
+      "ratio": 16.82,
+      "streak": 3,
+      "n_combos": 650
+    },
+    {
+      "id": "AS_FT_F3H5T1_pct7",
+      "strat": {
+        "id": "AS_FT_F3H5T1_pct7",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": null,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "tennis",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.6,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.07,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 10384.5,
+      "br_mult": 104.84,
+      "dd": 785.2,
+      "ratio": 13.23,
+      "streak": 3,
+      "n_combos": 650
+    },
+    {
+      "id": "AS_FT_F3H5T1_pct10",
+      "strat": {
+        "id": "AS_FT_F3H5T1_pct10",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": null,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "tennis",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.6,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.1,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 56978.0,
+      "br_mult": 570.78,
+      "dd": 5512.1,
+      "ratio": 10.34,
+      "streak": 3,
+      "n_combos": 650
+    },
+    {
+      "id": "AS_FT_F3H5T2_pct5",
+      "strat": {
+        "id": "AS_FT_F3H5T2_pct5",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": null,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "tennis",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.6,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 2,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 3204.2,
+      "br_mult": 33.04,
+      "dd": 183.6,
+      "ratio": 17.45,
+      "streak": 3,
+      "n_combos": 683
+    },
+    {
+      "id": "AS_FT_F3H5T2_pct7",
+      "strat": {
+        "id": "AS_FT_F3H5T2_pct7",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": null,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "tennis",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.6,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 2,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.07,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 11488.7,
+      "br_mult": 115.89,
+      "dd": 900.7,
+      "ratio": 12.75,
+      "streak": 3,
+      "n_combos": 683
+    },
+    {
+      "id": "AS_FT_F3H5T2_pct10",
+      "strat": {
+        "id": "AS_FT_F3H5T2_pct10",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": null,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "tennis",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.6,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 2,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.1,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 65129.5,
+      "br_mult": 652.3,
+      "dd": 7248.6,
+      "ratio": 8.99,
+      "streak": 3,
+      "n_combos": 683
+    },
+    {
+      "id": "AS_FT_F3H5T3_pct5",
+      "strat": {
+        "id": "AS_FT_F3H5T3_pct5",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": null,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "tennis",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.6,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 2271.7,
+      "br_mult": 23.72,
+      "dd": 261.8,
+      "ratio": 8.68,
+      "streak": 3,
+      "n_combos": 714
+    },
+    {
+      "id": "AS_FT_F3H5T3_pct7",
+      "strat": {
+        "id": "AS_FT_F3H5T3_pct7",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": null,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "tennis",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.6,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.07,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 7135.0,
+      "br_mult": 72.35,
+      "dd": 901.1,
+      "ratio": 7.92,
+      "streak": 3,
+      "n_combos": 714
+    },
+    {
+      "id": "AS_FT_F3H5T3_pct10",
+      "strat": {
+        "id": "AS_FT_F3H5T3_pct10",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": null,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "tennis",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.6,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.1,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 32666.4,
+      "br_mult": 327.66,
+      "dd": 4352.2,
+      "ratio": 7.51,
+      "streak": 3,
+      "n_combos": 714
+    },
+    {
+      "id": "AS_FT_F5H3T1_pct5",
+      "strat": {
+        "id": "AS_FT_F5H3T1_pct5",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": null,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "tennis",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.6,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 2010.0,
+      "br_mult": 21.1,
+      "dd": 222.0,
+      "ratio": 9.05,
+      "streak": 3,
+      "n_combos": 781
+    },
+    {
+      "id": "AS_FT_F5H3T1_pct7",
+      "strat": {
+        "id": "AS_FT_F5H3T1_pct7",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": null,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "tennis",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.6,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.07,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 6130.9,
+      "br_mult": 62.31,
+      "dd": 883.0,
+      "ratio": 6.94,
+      "streak": 3,
+      "n_combos": 781
+    },
+    {
+      "id": "AS_FT_F5H3T1_pct10",
+      "strat": {
+        "id": "AS_FT_F5H3T1_pct10",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": null,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "tennis",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.6,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.1,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 27319.6,
+      "br_mult": 274.2,
+      "dd": 5318.2,
+      "ratio": 5.14,
+      "streak": 3,
+      "n_combos": 781
+    },
+    {
+      "id": "AS_FT_F5H3T2_pct5",
+      "strat": {
+        "id": "AS_FT_F5H3T2_pct5",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": null,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "tennis",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.6,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 2,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 2188.5,
+      "br_mult": 22.88,
+      "dd": 183.3,
+      "ratio": 11.94,
+      "streak": 3,
+      "n_combos": 814
+    },
+    {
+      "id": "AS_FT_F5H3T2_pct7",
+      "strat": {
+        "id": "AS_FT_F5H3T2_pct7",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": null,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "tennis",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.6,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 2,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.07,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 6878.3,
+      "br_mult": 69.78,
+      "dd": 727.1,
+      "ratio": 9.46,
+      "streak": 3,
+      "n_combos": 814
+    },
+    {
+      "id": "AS_FT_F5H3T2_pct10",
+      "strat": {
+        "id": "AS_FT_F5H3T2_pct10",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": null,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "tennis",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.6,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 2,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.1,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 32153.6,
+      "br_mult": 322.54,
+      "dd": 4366.9,
+      "ratio": 7.36,
+      "streak": 3,
+      "n_combos": 814
+    },
+    {
+      "id": "AS_FT_F5H3T3_pct5",
+      "strat": {
+        "id": "AS_FT_F5H3T3_pct5",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": null,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "tennis",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.6,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 1541.6,
+      "br_mult": 16.42,
+      "dd": 143.1,
+      "ratio": 10.77,
+      "streak": 3,
+      "n_combos": 845
+    },
+    {
+      "id": "AS_FT_F5H3T3_pct7",
+      "strat": {
+        "id": "AS_FT_F5H3T3_pct7",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": null,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "tennis",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.6,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.07,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 4249.6,
+      "br_mult": 43.5,
+      "dd": 523.8,
+      "ratio": 8.11,
+      "streak": 3,
+      "n_combos": 845
+    },
+    {
+      "id": "AS_FT_F5H3T3_pct10",
+      "strat": {
+        "id": "AS_FT_F5H3T3_pct10",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": null,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "tennis",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.6,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.1,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 16025.4,
+      "br_mult": 161.25,
+      "dd": 2743.0,
+      "ratio": 5.84,
+      "streak": 3,
+      "n_combos": 845
+    },
+    {
+      "id": "AS_FT_F5H5T1_pct5",
+      "strat": {
+        "id": "AS_FT_F5H5T1_pct5",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": null,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "tennis",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.6,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 3604.5,
+      "br_mult": 37.05,
+      "dd": 389.8,
+      "ratio": 9.25,
+      "streak": 2,
+      "n_combos": 848
+    },
+    {
+      "id": "AS_FT_F5H5T1_pct7",
+      "strat": {
+        "id": "AS_FT_F5H5T1_pct7",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": null,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "tennis",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.6,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.07,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 13075.3,
+      "br_mult": 131.75,
+      "dd": 1867.1,
+      "ratio": 7.0,
+      "streak": 2,
+      "n_combos": 848
+    },
+    {
+      "id": "AS_FT_F5H5T1_pct10",
+      "strat": {
+        "id": "AS_FT_F5H5T1_pct10",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": null,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "tennis",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.6,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.1,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 73230.2,
+      "br_mult": 733.3,
+      "dd": 14222.9,
+      "ratio": 5.15,
+      "streak": 2,
+      "n_combos": 848
+    },
+    {
+      "id": "AS_FT_F5H5T2_pct5",
+      "strat": {
+        "id": "AS_FT_F5H5T2_pct5",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": null,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "tennis",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.6,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 2,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 3911.1,
+      "br_mult": 40.11,
+      "dd": 321.3,
+      "ratio": 12.17,
+      "streak": 2,
+      "n_combos": 881
+    },
+    {
+      "id": "AS_FT_F5H5T2_pct7",
+      "strat": {
+        "id": "AS_FT_F5H5T2_pct7",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": null,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "tennis",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.6,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 2,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.07,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 14603.4,
+      "br_mult": 147.03,
+      "dd": 1532.1,
+      "ratio": 9.53,
+      "streak": 2,
+      "n_combos": 881
+    },
+    {
+      "id": "AS_FT_F5H5T2_pct10",
+      "strat": {
+        "id": "AS_FT_F5H5T2_pct10",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": null,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "tennis",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.6,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 2,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.1,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 85475.7,
+      "br_mult": 855.76,
+      "dd": 11586.4,
+      "ratio": 7.38,
+      "streak": 2,
+      "n_combos": 881
+    },
+    {
+      "id": "AS_FT_F5H5T3_pct5",
+      "strat": {
+        "id": "AS_FT_F5H5T3_pct5",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": null,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "tennis",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.6,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 2780.5,
+      "br_mult": 28.8,
+      "dd": 251.1,
+      "ratio": 11.07,
+      "streak": 3,
+      "n_combos": 912
+    },
+    {
+      "id": "AS_FT_F5H5T3_pct7",
+      "strat": {
+        "id": "AS_FT_F5H5T3_pct7",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": null,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "tennis",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.6,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.07,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 9080.0,
+      "br_mult": 91.8,
+      "dd": 1105.4,
+      "ratio": 8.21,
+      "streak": 3,
+      "n_combos": 912
+    },
+    {
+      "id": "AS_FT_F5H5T3_pct10",
+      "strat": {
+        "id": "AS_FT_F5H5T3_pct10",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": null,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "tennis",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.6,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.1,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 42765.7,
+      "br_mult": 428.66,
+      "dd": 7291.6,
+      "ratio": 5.87,
+      "streak": 3,
+      "n_combos": 912
+    },
+    {
+      "id": "AS_F3H3_1.35-1.55_pct5",
+      "strat": {
+        "id": "AS_F3H3_1.35-1.55_pct5",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.35,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.55,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.6,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 277.7,
+      "br_mult": 3.78,
+      "dd": 151.9,
+      "ratio": 1.83,
+      "streak": 4,
+      "n_combos": 547
+    },
+    {
+      "id": "AS_F3H3_1.4-1.6_pct5",
+      "strat": {
+        "id": "AS_F3H3_1.4-1.6_pct5",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.4,
+            "cote_max": 1.6,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.55,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.6,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 103.0,
+      "br_mult": 2.03,
+      "dd": 88.7,
+      "ratio": 1.16,
+      "streak": 5,
+      "n_combos": 534
+    },
+    {
+      "id": "AS_F3H3_1.35-1.55_pct7",
+      "strat": {
+        "id": "AS_F3H3_1.35-1.55_pct7",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.35,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.55,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.6,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.07,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 424.2,
+      "br_mult": 5.24,
+      "dd": 317.5,
+      "ratio": 1.34,
+      "streak": 4,
+      "n_combos": 547
+    },
+    {
+      "id": "AS_F3H3_1.4-1.6_pct7",
+      "strat": {
+        "id": "AS_F3H3_1.4-1.6_pct7",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.4,
+            "cote_max": 1.6,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.55,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.6,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.07,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 129.2,
+      "br_mult": 2.29,
+      "dd": 151.9,
+      "ratio": 0.85,
+      "streak": 5,
+      "n_combos": 534
+    },
+    {
+      "id": "AS_F3H3_1.35-1.55_pct10",
+      "strat": {
+        "id": "AS_F3H3_1.35-1.55_pct10",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.35,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.55,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.6,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.1,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 556.8,
+      "br_mult": 6.57,
+      "dd": 763.7,
+      "ratio": 0.73,
+      "streak": 4,
+      "n_combos": 547
+    },
+    {
+      "id": "AS_F3H3_1.4-1.6_pct10",
+      "strat": {
+        "id": "AS_F3H3_1.4-1.6_pct10",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.4,
+            "cote_max": 1.6,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.55,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.6,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.1,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 128.8,
+      "br_mult": 2.29,
+      "dd": 252.0,
+      "ratio": 0.51,
+      "streak": 5,
+      "n_combos": 534
+    },
+    {
+      "id": "AS_F3H5_1.35-1.55_pct5",
+      "strat": {
+        "id": "AS_F3H5_1.35-1.55_pct5",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.35,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.55,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.6,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 599.0,
+      "br_mult": 6.99,
+      "dd": 218.5,
+      "ratio": 2.74,
+      "streak": 4,
+      "n_combos": 619
+    },
+    {
+      "id": "AS_F3H5_1.4-1.6_pct5",
+      "strat": {
+        "id": "AS_F3H5_1.4-1.6_pct5",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.4,
+            "cote_max": 1.6,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.55,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.6,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 276.5,
+      "br_mult": 3.76,
+      "dd": 155.4,
+      "ratio": 1.78,
+      "streak": 4,
+      "n_combos": 606
+    },
+    {
+      "id": "AS_F3H5_1.35-1.55_pct7",
+      "strat": {
+        "id": "AS_F3H5_1.35-1.55_pct7",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.35,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.55,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.6,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.07,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 1114.9,
+      "br_mult": 12.15,
+      "dd": 537.8,
+      "ratio": 2.07,
+      "streak": 4,
+      "n_combos": 619
+    },
+    {
+      "id": "AS_F3H5_1.4-1.6_pct7",
+      "strat": {
+        "id": "AS_F3H5_1.4-1.6_pct7",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.4,
+            "cote_max": 1.6,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.55,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.6,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.07,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 436.3,
+      "br_mult": 5.36,
+      "dd": 334.9,
+      "ratio": 1.3,
+      "streak": 4,
+      "n_combos": 606
+    },
+    {
+      "id": "AS_F3H5_1.35-1.55_pct10",
+      "strat": {
+        "id": "AS_F3H5_1.35-1.55_pct10",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.35,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.55,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.6,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.1,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 1944.5,
+      "br_mult": 20.45,
+      "dd": 1642.5,
+      "ratio": 1.18,
+      "streak": 4,
+      "n_combos": 619
+    },
+    {
+      "id": "AS_F3H5_1.4-1.6_pct10",
+      "strat": {
+        "id": "AS_F3H5_1.4-1.6_pct10",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.4,
+            "cote_max": 1.6,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.55,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.6,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.1,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 649.6,
+      "br_mult": 7.5,
+      "dd": 773.8,
+      "ratio": 0.84,
+      "streak": 4,
+      "n_combos": 606
+    },
+    {
+      "id": "AS_F5H3_1.35-1.55_pct5",
+      "strat": {
+        "id": "AS_F5H3_1.35-1.55_pct5",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.35,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.55,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.6,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 367.9,
+      "br_mult": 4.68,
+      "dd": 211.8,
+      "ratio": 1.74,
+      "streak": 3,
+      "n_combos": 709
+    },
+    {
+      "id": "AS_F5H3_1.4-1.6_pct5",
+      "strat": {
+        "id": "AS_F5H3_1.4-1.6_pct5",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.4,
+            "cote_max": 1.6,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.55,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.6,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 77.3,
+      "br_mult": 1.77,
+      "dd": 93.3,
+      "ratio": 0.83,
+      "streak": 4,
+      "n_combos": 684
+    },
+    {
+      "id": "AS_F5H3_1.35-1.55_pct7",
+      "strat": {
+        "id": "AS_F5H3_1.35-1.55_pct7",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.35,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.55,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.6,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.07,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 570.7,
+      "br_mult": 6.71,
+      "dd": 473.8,
+      "ratio": 1.2,
+      "streak": 3,
+      "n_combos": 709
+    },
+    {
+      "id": "AS_F5H3_1.4-1.6_pct7",
+      "strat": {
+        "id": "AS_F5H3_1.4-1.6_pct7",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.4,
+            "cote_max": 1.6,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.55,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.6,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.07,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 77.9,
+      "br_mult": 1.78,
+      "dd": 141.9,
+      "ratio": 0.55,
+      "streak": 4,
+      "n_combos": 684
+    },
+    {
+      "id": "AS_F5H3_1.35-1.55_pct10",
+      "strat": {
+        "id": "AS_F5H3_1.35-1.55_pct10",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.35,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.55,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.6,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.1,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 710.7,
+      "br_mult": 8.11,
+      "dd": 1211.5,
+      "ratio": 0.59,
+      "streak": 3,
+      "n_combos": 709
+    },
+    {
+      "id": "AS_F5H3_1.4-1.6_pct10",
+      "strat": {
+        "id": "AS_F5H3_1.4-1.6_pct10",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.4,
+            "cote_max": 1.6,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.55,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.6,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.1,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 36.7,
+      "br_mult": 1.37,
+      "dd": 237.0,
+      "ratio": 0.15,
+      "streak": 4,
+      "n_combos": 684
+    },
+    {
+      "id": "AS_F5H5_1.35-1.55_pct5",
+      "strat": {
+        "id": "AS_F5H5_1.35-1.55_pct5",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.35,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.55,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.6,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 759.1,
+      "br_mult": 8.59,
+      "dd": 311.2,
+      "ratio": 2.44,
+      "streak": 4,
+      "n_combos": 781
+    },
+    {
+      "id": "AS_F5H5_1.4-1.6_pct5",
+      "strat": {
+        "id": "AS_F5H5_1.4-1.6_pct5",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.4,
+            "cote_max": 1.6,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.55,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.6,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 229.0,
+      "br_mult": 3.29,
+      "dd": 121.3,
+      "ratio": 1.89,
+      "streak": 4,
+      "n_combos": 756
+    },
+    {
+      "id": "AS_F5H5_1.35-1.55_pct7",
+      "strat": {
+        "id": "AS_F5H5_1.35-1.55_pct7",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.35,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.55,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.6,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.07,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 1426.9,
+      "br_mult": 15.27,
+      "dd": 806.0,
+      "ratio": 1.77,
+      "streak": 4,
+      "n_combos": 781
+    },
+    {
+      "id": "AS_F5H5_1.4-1.6_pct7",
+      "strat": {
+        "id": "AS_F5H5_1.4-1.6_pct7",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.4,
+            "cote_max": 1.6,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.55,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.6,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.07,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 318.4,
+      "br_mult": 4.18,
+      "dd": 229.9,
+      "ratio": 1.38,
+      "streak": 4,
+      "n_combos": 756
+    },
+    {
+      "id": "AS_F5H5_1.35-1.55_pct10",
+      "strat": {
+        "id": "AS_F5H5_1.35-1.55_pct10",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.35,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.55,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.6,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.1,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 2281.9,
+      "br_mult": 23.82,
+      "dd": 2531.7,
+      "ratio": 0.9,
+      "streak": 4,
+      "n_combos": 781
+    },
+    {
+      "id": "AS_F5H5_1.4-1.6_pct10",
+      "strat": {
+        "id": "AS_F5H5_1.4-1.6_pct10",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.4,
+            "cote_max": 1.6,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.55,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.6,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.1,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 359.7,
+      "br_mult": 4.6,
+      "dd": 416.7,
+      "ratio": 0.86,
+      "streak": 4,
+      "n_combos": 756
+    },
+    {
+      "id": "AS_F7H3_1.35-1.55_pct5",
+      "strat": {
+        "id": "AS_F7H3_1.35-1.55_pct5",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.35,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 7,
+            "min_wr": 0.55,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.6,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 637.2,
+      "br_mult": 7.37,
+      "dd": 307.8,
+      "ratio": 2.07,
+      "streak": 5,
+      "n_combos": 829
+    },
+    {
+      "id": "AS_F7H3_1.4-1.6_pct5",
+      "strat": {
+        "id": "AS_F7H3_1.4-1.6_pct5",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.4,
+            "cote_max": 1.6,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 7,
+            "min_wr": 0.55,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.6,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 87.2,
+      "br_mult": 1.87,
+      "dd": 168.8,
+      "ratio": 0.52,
+      "streak": 4,
+      "n_combos": 797
+    },
+    {
+      "id": "AS_F7H3_1.35-1.55_pct7",
+      "strat": {
+        "id": "AS_F7H3_1.35-1.55_pct7",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.35,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 7,
+            "min_wr": 0.55,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.6,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.07,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 1121.8,
+      "br_mult": 12.22,
+      "dd": 777.4,
+      "ratio": 1.44,
+      "streak": 5,
+      "n_combos": 829
+    },
+    {
+      "id": "AS_F7H3_1.4-1.6_pct7",
+      "strat": {
+        "id": "AS_F7H3_1.4-1.6_pct7",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.4,
+            "cote_max": 1.6,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 7,
+            "min_wr": 0.55,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.6,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.07,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 81.9,
+      "br_mult": 1.82,
+      "dd": 288.7,
+      "ratio": 0.28,
+      "streak": 4,
+      "n_combos": 797
+    },
+    {
+      "id": "AS_F7H3_1.35-1.55_pct10",
+      "strat": {
+        "id": "AS_F7H3_1.35-1.55_pct10",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.35,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 7,
+            "min_wr": 0.55,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.6,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.1,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 1707.2,
+      "br_mult": 18.07,
+      "dd": 2287.4,
+      "ratio": 0.75,
+      "streak": 5,
+      "n_combos": 829
+    },
+    {
+      "id": "AS_F7H3_1.4-1.6_pct10",
+      "strat": {
+        "id": "AS_F7H3_1.4-1.6_pct10",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.4,
+            "cote_max": 1.6,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 7,
+            "min_wr": 0.55,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.6,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.1,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 25.9,
+      "br_mult": 1.26,
+      "dd": 472.3,
+      "ratio": 0.05,
+      "streak": 4,
+      "n_combos": 797
+    },
+    {
+      "id": "AS_F7H5_1.35-1.55_pct5",
+      "strat": {
+        "id": "AS_F7H5_1.35-1.55_pct5",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.35,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 7,
+            "min_wr": 0.55,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.6,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 1249.8,
+      "br_mult": 13.5,
+      "dd": 535.2,
+      "ratio": 2.34,
+      "streak": 5,
+      "n_combos": 901
+    },
+    {
+      "id": "AS_F7H5_1.4-1.6_pct5",
+      "strat": {
+        "id": "AS_F7H5_1.4-1.6_pct5",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.4,
+            "cote_max": 1.6,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 7,
+            "min_wr": 0.55,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.6,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 247.2,
+      "br_mult": 3.47,
+      "dd": 293.4,
+      "ratio": 0.84,
+      "streak": 4,
+      "n_combos": 869
+    },
+    {
+      "id": "AS_F7H5_1.35-1.55_pct7",
+      "strat": {
+        "id": "AS_F7H5_1.35-1.55_pct7",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.35,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 7,
+            "min_wr": 0.55,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.6,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.07,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 2678.7,
+      "br_mult": 27.79,
+      "dd": 1681.0,
+      "ratio": 1.59,
+      "streak": 5,
+      "n_combos": 901
+    },
+    {
+      "id": "AS_F7H5_1.4-1.6_pct7",
+      "strat": {
+        "id": "AS_F7H5_1.4-1.6_pct7",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.4,
+            "cote_max": 1.6,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 7,
+            "min_wr": 0.55,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.6,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.07,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 327.5,
+      "br_mult": 4.27,
+      "dd": 616.8,
+      "ratio": 0.53,
+      "streak": 4,
+      "n_combos": 869
+    },
+    {
+      "id": "AS_F7H5_1.35-1.55_pct10",
+      "strat": {
+        "id": "AS_F7H5_1.35-1.55_pct10",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.35,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 7,
+            "min_wr": 0.55,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.6,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.1,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 5366.1,
+      "br_mult": 54.66,
+      "dd": 5544.8,
+      "ratio": 0.97,
+      "streak": 5,
+      "n_combos": 901
+    },
+    {
+      "id": "AS_F7H5_1.4-1.6_pct10",
+      "strat": {
+        "id": "AS_F7H5_1.4-1.6_pct10",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.4,
+            "cote_max": 1.6,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 7,
+            "min_wr": 0.55,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.6,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.1,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 322.5,
+      "br_mult": 4.23,
+      "dd": 1255.4,
+      "ratio": 0.26,
+      "streak": 4,
+      "n_combos": 869
+    },
+    {
+      "id": "AS_3S_F3H3B2_pct5",
+      "strat": {
+        "id": "AS_3S_F3H3B2_pct5",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.25,
+            "cote_max": 1.45,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": null,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.25,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.25,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 2,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 1763.7,
+      "br_mult": 18.64,
+      "dd": 311.6,
+      "ratio": 5.66,
+      "streak": 4,
+      "n_combos": 704
+    },
+    {
+      "id": "AS_3S_F3H3B2_pct7",
+      "strat": {
+        "id": "AS_3S_F3H3B2_pct7",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.25,
+            "cote_max": 1.45,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": null,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.25,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.25,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 2,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.07,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 5015.6,
+      "br_mult": 51.16,
+      "dd": 1160.5,
+      "ratio": 4.32,
+      "streak": 4,
+      "n_combos": 704
+    },
+    {
+      "id": "AS_3S_F3H3B3_pct5",
+      "strat": {
+        "id": "AS_3S_F3H3B3_pct5",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.25,
+            "cote_max": 1.45,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": null,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.25,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.25,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 1780.3,
+      "br_mult": 18.8,
+      "dd": 314.4,
+      "ratio": 5.66,
+      "streak": 4,
+      "n_combos": 767
+    },
+    {
+      "id": "AS_3S_F3H3B3_pct7",
+      "strat": {
+        "id": "AS_3S_F3H3B3_pct7",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.25,
+            "cote_max": 1.45,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": null,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.25,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.25,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.07,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 4963.7,
+      "br_mult": 50.64,
+      "dd": 1148.7,
+      "ratio": 4.32,
+      "streak": 4,
+      "n_combos": 767
+    },
+    {
+      "id": "AS_3S_F3H5B2_pct5",
+      "strat": {
+        "id": "AS_3S_F3H5B2_pct5",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.25,
+            "cote_max": 1.45,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": null,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.25,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.25,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 2,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 2595.6,
+      "br_mult": 26.96,
+      "dd": 450.7,
+      "ratio": 5.76,
+      "streak": 4,
+      "n_combos": 765
+    },
+    {
+      "id": "AS_3S_F3H5B2_pct7",
+      "strat": {
+        "id": "AS_3S_F3H5B2_pct7",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.25,
+            "cote_max": 1.45,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": null,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.25,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.25,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 2,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.07,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 8311.8,
+      "br_mult": 84.12,
+      "dd": 1908.3,
+      "ratio": 4.36,
+      "streak": 4,
+      "n_combos": 765
+    },
+    {
+      "id": "AS_3S_F3H5B3_pct5",
+      "strat": {
+        "id": "AS_3S_F3H5B3_pct5",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.25,
+            "cote_max": 1.45,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": null,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.25,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.25,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 2632.6,
+      "br_mult": 27.33,
+      "dd": 456.9,
+      "ratio": 5.76,
+      "streak": 4,
+      "n_combos": 828
+    },
+    {
+      "id": "AS_3S_F3H5B3_pct7",
+      "strat": {
+        "id": "AS_3S_F3H5B3_pct7",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.25,
+            "cote_max": 1.45,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": null,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.25,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.25,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.07,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 8311.2,
+      "br_mult": 84.11,
+      "dd": 1908.1,
+      "ratio": 4.36,
+      "streak": 4,
+      "n_combos": 828
+    },
+    {
+      "id": "AS_3S_F5H3B2_pct5",
+      "strat": {
+        "id": "AS_3S_F5H3B2_pct5",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.25,
+            "cote_max": 1.45,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": null,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.25,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.25,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 2,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 1256.9,
+      "br_mult": 13.57,
+      "dd": 394.1,
+      "ratio": 3.19,
+      "streak": 3,
+      "n_combos": 896
+    },
+    {
+      "id": "AS_3S_F5H3B2_pct7",
+      "strat": {
+        "id": "AS_3S_F5H3B2_pct7",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.25,
+            "cote_max": 1.45,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": null,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.25,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.25,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 2,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.07,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 3016.9,
+      "br_mult": 31.17,
+      "dd": 1267.7,
+      "ratio": 2.38,
+      "streak": 3,
+      "n_combos": 896
+    },
+    {
+      "id": "AS_3S_F5H3B3_pct5",
+      "strat": {
+        "id": "AS_3S_F5H3B3_pct5",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.25,
+            "cote_max": 1.45,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": null,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.25,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.25,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 1251.1,
+      "br_mult": 13.51,
+      "dd": 392.4,
+      "ratio": 3.19,
+      "streak": 3,
+      "n_combos": 959
+    },
+    {
+      "id": "AS_3S_F5H3B3_pct7",
+      "strat": {
+        "id": "AS_3S_F5H3B3_pct7",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.25,
+            "cote_max": 1.45,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": null,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.25,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.25,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.07,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 2900.2,
+      "br_mult": 30.0,
+      "dd": 1220.2,
+      "ratio": 2.38,
+      "streak": 3,
+      "n_combos": 959
+    },
+    {
+      "id": "AS_3S_F5H5B2_pct5",
+      "strat": {
+        "id": "AS_3S_F5H5B2_pct5",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.25,
+            "cote_max": 1.45,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": null,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.25,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.25,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 2,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 1827.9,
+      "br_mult": 19.28,
+      "dd": 560.0,
+      "ratio": 3.26,
+      "streak": 3,
+      "n_combos": 957
+    },
+    {
+      "id": "AS_3S_F5H5B2_pct7",
+      "strat": {
+        "id": "AS_3S_F5H5B2_pct7",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.25,
+            "cote_max": 1.45,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": null,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.25,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.25,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 2,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.07,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 4813.9,
+      "br_mult": 49.14,
+      "dd": 1998.5,
+      "ratio": 2.41,
+      "streak": 3,
+      "n_combos": 957
+    },
+    {
+      "id": "AS_3S_F5H5B3_pct5",
+      "strat": {
+        "id": "AS_3S_F5H5B3_pct5",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.25,
+            "cote_max": 1.45,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": null,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.25,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.25,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 1829.6,
+      "br_mult": 19.3,
+      "dd": 560.5,
+      "ratio": 3.26,
+      "streak": 3,
+      "n_combos": 1020
+    },
+    {
+      "id": "AS_3S_F5H5B3_pct7",
+      "strat": {
+        "id": "AS_3S_F5H5B3_pct7",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.25,
+            "cote_max": 1.45,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": null,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.25,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.25,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.07,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 4683.4,
+      "br_mult": 47.83,
+      "dd": 1945.5,
+      "ratio": 2.41,
+      "streak": 3,
+      "n_combos": 1020
+    }
+  ],
+  "viable": [
+    {
+      "id": "AS_FT_F3H5T1_pct10",
+      "strat": {
+        "id": "AS_FT_F3H5T1_pct10",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": null,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "tennis",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.6,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.1,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 56978.0,
+      "br_mult": 570.78,
+      "dd": 5512.1,
+      "ratio": 10.34,
+      "streak": 3,
+      "n_combos": 650
+    },
+    {
+      "id": "AS_FT_F3H3T1_pct10",
+      "strat": {
+        "id": "AS_FT_F3H3T1_pct10",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": null,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "tennis",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.6,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.1,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 20248.0,
+      "br_mult": 203.48,
+      "dd": 1965.0,
+      "ratio": 10.3,
+      "streak": 3,
+      "n_combos": 583
+    },
+    {
+      "id": "AS_FT_F3H5T2_pct7",
+      "strat": {
+        "id": "AS_FT_F3H5T2_pct7",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": null,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "tennis",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.6,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 2,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.07,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 11488.7,
+      "br_mult": 115.89,
+      "dd": 900.7,
+      "ratio": 12.75,
+      "streak": 3,
+      "n_combos": 683
+    },
+    {
+      "id": "AS_FT_F3H5T1_pct7",
+      "strat": {
+        "id": "AS_FT_F3H5T1_pct7",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": null,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "tennis",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.6,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.07,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 10384.5,
+      "br_mult": 104.84,
+      "dd": 785.2,
+      "ratio": 13.23,
+      "streak": 3,
+      "n_combos": 650
+    },
+    {
+      "id": "AS_FT_F3H3T2_pct7",
+      "strat": {
+        "id": "AS_FT_F3H3T2_pct7",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": null,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "tennis",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.6,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 2,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.07,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 5271.5,
+      "br_mult": 53.71,
+      "dd": 417.5,
+      "ratio": 12.63,
+      "streak": 2,
+      "n_combos": 616
+    },
+    {
+      "id": "AS_FT_F3H3T1_pct7",
+      "strat": {
+        "id": "AS_FT_F3H3T1_pct7",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": null,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "tennis",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.6,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.07,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 4745.0,
+      "br_mult": 48.45,
+      "dd": 362.8,
+      "ratio": 13.08,
+      "streak": 3,
+      "n_combos": 583
+    },
+    {
+      "id": "AS_FT_F5H5T2_pct5",
+      "strat": {
+        "id": "AS_FT_F5H5T2_pct5",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": null,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "tennis",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.6,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 2,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 3911.1,
+      "br_mult": 40.11,
+      "dd": 321.3,
+      "ratio": 12.17,
+      "streak": 2,
+      "n_combos": 881
+    },
+    {
+      "id": "AS_FT_F3H5T2_pct5",
+      "strat": {
+        "id": "AS_FT_F3H5T2_pct5",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": null,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "tennis",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.6,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 2,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 3204.2,
+      "br_mult": 33.04,
+      "dd": 183.6,
+      "ratio": 17.45,
+      "streak": 3,
+      "n_combos": 683
+    },
+    {
+      "id": "AS_FT_F3H5T1_pct5",
+      "strat": {
+        "id": "AS_FT_F3H5T1_pct5",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": null,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "tennis",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.6,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 2966.0,
+      "br_mult": 30.66,
+      "dd": 176.3,
+      "ratio": 16.82,
+      "streak": 3,
+      "n_combos": 650
+    },
+    {
+      "id": "AS_FT_F5H5T3_pct5",
+      "strat": {
+        "id": "AS_FT_F5H5T3_pct5",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": null,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "tennis",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.6,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 2780.5,
+      "br_mult": 28.8,
+      "dd": 251.1,
+      "ratio": 11.07,
+      "streak": 3,
+      "n_combos": 912
+    },
+    {
+      "id": "AS_FT_F5H3T2_pct5",
+      "strat": {
+        "id": "AS_FT_F5H3T2_pct5",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": null,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "tennis",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.6,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 2,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 2188.5,
+      "br_mult": 22.88,
+      "dd": 183.3,
+      "ratio": 11.94,
+      "streak": 3,
+      "n_combos": 814
+    },
+    {
+      "id": "AS_FT_F3H3T2_pct5",
+      "strat": {
+        "id": "AS_FT_F3H3T2_pct5",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": null,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "tennis",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.6,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 2,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 1762.6,
+      "br_mult": 18.63,
+      "dd": 103.5,
+      "ratio": 17.03,
+      "streak": 2,
+      "n_combos": 616
+    },
+    {
+      "id": "AS_FT_F3H3T1_pct5",
+      "strat": {
+        "id": "AS_FT_F3H3T1_pct5",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": null,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "tennis",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.6,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 1625.7,
+      "br_mult": 17.26,
+      "dd": 99.3,
+      "ratio": 16.38,
+      "streak": 3,
+      "n_combos": 583
+    },
+    {
+      "id": "AS_FT_F5H3T3_pct5",
+      "strat": {
+        "id": "AS_FT_F5H3T3_pct5",
+        "components": [
+          {
+            "sport": "football",
+            "market": "btts,over_1_5,over_2_5",
+            "cote_min": 1.2,
+            "cote_max": 1.4,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": null,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "tennis",
+            "market": "1x2",
+            "cote_min": 1.3,
+            "cote_max": 1.6,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 1541.6,
+      "br_mult": 16.42,
+      "dd": 143.1,
+      "ratio": 10.77,
+      "streak": 3,
+      "n_combos": 845
+    }
+  ]
+}

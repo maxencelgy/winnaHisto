@@ -1,0 +1,30 @@
+{
+  "id": "montante_hockey_combo2j_x3p_top_pnl",
+  "label": "🪜🏒💰 Hockey combo 2j ×3P cote 1.30-1.50 — TOP PnL +789€ S1-26",
+  "description": "★ MEILLEUR PnL NET CONFIRMÉ : Hockey combo 2 jambes cote 1.30-1.50 par leg, 3 paliers d'affilée. 16/44 cycles complets (36%), capital 77€/cycle, PnL +789€ S1-26 + Apr +115€ (2/4 cycles). Profil ultra-régulier — un cycle sur trois aboutit, 36% completion solide.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["ice-hockey"], "market": "1x2",
+    "cote_min": 1.30, "cote_max": 1.50,
+    "sort_by": "wr", "max_legs": 2, "max_combos": 1,
+    "min_wr": null, "min_ev": null,
+    "legs_per_palier": 2
+  }],
+  "montante": {"initial_stake": 10, "n_paliers_target": 3, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 2},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict)",
+    "n_cycles_complete": 16,
+    "n_cycles_total": 44,
+    "completion_rate": 0.36,
+    "wr_palier_combo": 0.70,
+    "avg_capital_complete": 77,
+    "pnl_net_s1": 789,
+    "april_pnl": 115,
+    "april_n_complete": 2,
+    "april_n_total": 4,
+    "note": "★ MEILLEUR PnL NET de toute la lib : +789€ sur S1-26 OOS strict. 16 cycles réussis sur 44 = ~4 par mois. Avril 2/4 = 50% — performance maintenue."
+  }
+}

@@ -1,0 +1,7985 @@
+{
+  "all": [
+    {
+      "id": "AGRO_foo_o15_mc3_pct5_wr0.6",
+      "strat": {
+        "id": "AGRO_foo_o15_mc3_pct5_wr0.6",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.6,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 267.8,
+      "br_mult": 3.68,
+      "dd": 18.1,
+      "ratio": 14.8,
+      "streak": 4,
+      "n_combos": 219
+    },
+    {
+      "id": "AGRO_foo_o15_mc3_pct5_wr0.65",
+      "strat": {
+        "id": "AGRO_foo_o15_mc3_pct5_wr0.65",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 287.8,
+      "br_mult": 3.88,
+      "dd": 19.1,
+      "ratio": 15.09,
+      "streak": 4,
+      "n_combos": 218
+    },
+    {
+      "id": "AGRO_foo_o15_mc3_pct5_wr0.7",
+      "strat": {
+        "id": "AGRO_foo_o15_mc3_pct5_wr0.7",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.7,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 251.2,
+      "br_mult": 3.51,
+      "dd": 17.3,
+      "ratio": 14.54,
+      "streak": 4,
+      "n_combos": 214
+    },
+    {
+      "id": "AGRO_foo_o15_mc3_pct7_wr0.6",
+      "strat": {
+        "id": "AGRO_foo_o15_mc3_pct7_wr0.6",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.6,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.07,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 493.0,
+      "br_mult": 5.93,
+      "dd": 40.7,
+      "ratio": 12.12,
+      "streak": 4,
+      "n_combos": 219
+    },
+    {
+      "id": "AGRO_foo_o15_mc3_pct7_wr0.65",
+      "strat": {
+        "id": "AGRO_foo_o15_mc3_pct7_wr0.65",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.07,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 539.7,
+      "br_mult": 6.4,
+      "dd": 43.9,
+      "ratio": 12.3,
+      "streak": 4,
+      "n_combos": 218
+    },
+    {
+      "id": "AGRO_foo_o15_mc3_pct7_wr0.7",
+      "strat": {
+        "id": "AGRO_foo_o15_mc3_pct7_wr0.7",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.7,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.07,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 457.1,
+      "br_mult": 5.57,
+      "dd": 38.2,
+      "ratio": 11.97,
+      "streak": 4,
+      "n_combos": 214
+    },
+    {
+      "id": "AGRO_foo_o15_mc3_pct8_wr0.6",
+      "strat": {
+        "id": "AGRO_foo_o15_mc3_pct8_wr0.6",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.6,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.08,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 646.0,
+      "br_mult": 7.46,
+      "dd": 58.4,
+      "ratio": 11.07,
+      "streak": 4,
+      "n_combos": 219
+    },
+    {
+      "id": "AGRO_foo_o15_mc3_pct8_wr0.65",
+      "strat": {
+        "id": "AGRO_foo_o15_mc3_pct8_wr0.65",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.08,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 714.5,
+      "br_mult": 8.14,
+      "dd": 63.7,
+      "ratio": 11.21,
+      "streak": 4,
+      "n_combos": 218
+    },
+    {
+      "id": "AGRO_foo_o15_mc3_pct8_wr0.7",
+      "strat": {
+        "id": "AGRO_foo_o15_mc3_pct8_wr0.7",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.7,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.08,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 595.5,
+      "br_mult": 6.96,
+      "dd": 54.4,
+      "ratio": 10.95,
+      "streak": 4,
+      "n_combos": 214
+    },
+    {
+      "id": "AGRO_foo_o15_mc3_pct10_wr0.6",
+      "strat": {
+        "id": "AGRO_foo_o15_mc3_pct10_wr0.6",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.6,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.1,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 1059.8,
+      "br_mult": 11.6,
+      "dd": 113.1,
+      "ratio": 9.37,
+      "streak": 4,
+      "n_combos": 219
+    },
+    {
+      "id": "AGRO_foo_o15_mc3_pct10_wr0.65",
+      "strat": {
+        "id": "AGRO_foo_o15_mc3_pct10_wr0.65",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.1,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 1197.9,
+      "br_mult": 12.98,
+      "dd": 126.6,
+      "ratio": 9.46,
+      "streak": 4,
+      "n_combos": 218
+    },
+    {
+      "id": "AGRO_foo_o15_mc3_pct10_wr0.7",
+      "strat": {
+        "id": "AGRO_foo_o15_mc3_pct10_wr0.7",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.7,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.1,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 965.9,
+      "br_mult": 10.66,
+      "dd": 104.0,
+      "ratio": 9.29,
+      "streak": 4,
+      "n_combos": 214
+    },
+    {
+      "id": "AGRO_foo_o15_mc3_pct12_wr0.6",
+      "strat": {
+        "id": "AGRO_foo_o15_mc3_pct12_wr0.6",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.6,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.12,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 1660.5,
+      "br_mult": 17.6,
+      "dd": 205.7,
+      "ratio": 8.07,
+      "streak": 4,
+      "n_combos": 219
+    },
+    {
+      "id": "AGRO_foo_o15_mc3_pct12_wr0.65",
+      "strat": {
+        "id": "AGRO_foo_o15_mc3_pct12_wr0.65",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.12,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 1921.9,
+      "br_mult": 20.22,
+      "dd": 236.3,
+      "ratio": 8.13,
+      "streak": 4,
+      "n_combos": 218
+    },
+    {
+      "id": "AGRO_foo_o15_mc3_pct12_wr0.7",
+      "strat": {
+        "id": "AGRO_foo_o15_mc3_pct12_wr0.7",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.7,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.12,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 1497.1,
+      "br_mult": 15.97,
+      "dd": 186.6,
+      "ratio": 8.02,
+      "streak": 4,
+      "n_combos": 214
+    },
+    {
+      "id": "AGRO_foo_o15_mc3_pct15_wr0.6",
+      "strat": {
+        "id": "AGRO_foo_o15_mc3_pct15_wr0.6",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.6,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.15,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 3049.2,
+      "br_mult": 31.49,
+      "dd": 460.0,
+      "ratio": 6.63,
+      "streak": 4,
+      "n_combos": 219
+    },
+    {
+      "id": "AGRO_foo_o15_mc3_pct15_wr0.65",
+      "strat": {
+        "id": "AGRO_foo_o15_mc3_pct15_wr0.65",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.15,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 3670.7,
+      "br_mult": 37.71,
+      "dd": 550.8,
+      "ratio": 6.66,
+      "streak": 4,
+      "n_combos": 218
+    },
+    {
+      "id": "AGRO_foo_o15_mc3_pct15_wr0.7",
+      "strat": {
+        "id": "AGRO_foo_o15_mc3_pct15_wr0.7",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.7,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.15,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 2709.5,
+      "br_mult": 28.1,
+      "dd": 410.4,
+      "ratio": 6.6,
+      "streak": 4,
+      "n_combos": 214
+    },
+    {
+      "id": "AGRO_foo_o15_mc5_pct5_wr0.6",
+      "strat": {
+        "id": "AGRO_foo_o15_mc5_pct5_wr0.6",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.6,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 536.3,
+      "br_mult": 6.36,
+      "dd": 38.4,
+      "ratio": 13.95,
+      "streak": 2,
+      "n_combos": 291
+    },
+    {
+      "id": "AGRO_foo_o15_mc5_pct5_wr0.65",
+      "strat": {
+        "id": "AGRO_foo_o15_mc5_pct5_wr0.65",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 570.9,
+      "br_mult": 6.71,
+      "dd": 40.5,
+      "ratio": 14.09,
+      "streak": 2,
+      "n_combos": 290
+    },
+    {
+      "id": "AGRO_foo_o15_mc5_pct5_wr0.7",
+      "strat": {
+        "id": "AGRO_foo_o15_mc5_pct5_wr0.7",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.7,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 492.1,
+      "br_mult": 5.92,
+      "dd": 36.5,
+      "ratio": 13.49,
+      "streak": 2,
+      "n_combos": 282
+    },
+    {
+      "id": "AGRO_foo_o15_mc5_pct7_wr0.6",
+      "strat": {
+        "id": "AGRO_foo_o15_mc5_pct7_wr0.6",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.6,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.07,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 1153.9,
+      "br_mult": 12.54,
+      "dd": 106.4,
+      "ratio": 10.85,
+      "streak": 2,
+      "n_combos": 291
+    },
+    {
+      "id": "AGRO_foo_o15_mc5_pct7_wr0.65",
+      "strat": {
+        "id": "AGRO_foo_o15_mc5_pct7_wr0.65",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.07,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 1252.8,
+      "br_mult": 13.53,
+      "dd": 114.8,
+      "ratio": 10.91,
+      "streak": 2,
+      "n_combos": 290
+    },
+    {
+      "id": "AGRO_foo_o15_mc5_pct7_wr0.7",
+      "strat": {
+        "id": "AGRO_foo_o15_mc5_pct7_wr0.7",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.7,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.07,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 1037.4,
+      "br_mult": 11.37,
+      "dd": 96.5,
+      "ratio": 10.75,
+      "streak": 2,
+      "n_combos": 282
+    },
+    {
+      "id": "AGRO_foo_o15_mc5_pct8_wr0.6",
+      "strat": {
+        "id": "AGRO_foo_o15_mc5_pct8_wr0.6",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.6,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.08,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 1637.9,
+      "br_mult": 17.38,
+      "dd": 168.8,
+      "ratio": 9.7,
+      "streak": 2,
+      "n_combos": 291
+    },
+    {
+      "id": "AGRO_foo_o15_mc5_pct8_wr0.65",
+      "strat": {
+        "id": "AGRO_foo_o15_mc5_pct8_wr0.65",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.08,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 1797.3,
+      "br_mult": 18.97,
+      "dd": 184.3,
+      "ratio": 9.75,
+      "streak": 2,
+      "n_combos": 290
+    },
+    {
+      "id": "AGRO_foo_o15_mc5_pct8_wr0.7",
+      "strat": {
+        "id": "AGRO_foo_o15_mc5_pct8_wr0.7",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.7,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.08,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 1457.7,
+      "br_mult": 15.58,
+      "dd": 151.3,
+      "ratio": 9.63,
+      "streak": 2,
+      "n_combos": 282
+    },
+    {
+      "id": "AGRO_foo_o15_mc5_pct10_wr0.6",
+      "strat": {
+        "id": "AGRO_foo_o15_mc5_pct10_wr0.6",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.6,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.1,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 3156.3,
+      "br_mult": 32.56,
+      "dd": 397.0,
+      "ratio": 7.95,
+      "streak": 2,
+      "n_combos": 291
+    },
+    {
+      "id": "AGRO_foo_o15_mc5_pct10_wr0.65",
+      "strat": {
+        "id": "AGRO_foo_o15_mc5_pct10_wr0.65",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.1,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 3543.9,
+      "br_mult": 36.44,
+      "dd": 444.2,
+      "ratio": 7.98,
+      "streak": 2,
+      "n_combos": 290
+    },
+    {
+      "id": "AGRO_foo_o15_mc5_pct10_wr0.7",
+      "strat": {
+        "id": "AGRO_foo_o15_mc5_pct10_wr0.7",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.7,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.1,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 2753.4,
+      "br_mult": 28.53,
+      "dd": 347.9,
+      "ratio": 7.92,
+      "streak": 2,
+      "n_combos": 282
+    },
+    {
+      "id": "AGRO_foo_o15_mc5_pct12_wr0.6",
+      "strat": {
+        "id": "AGRO_foo_o15_mc5_pct12_wr0.6",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.6,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.12,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 5805.0,
+      "br_mult": 59.05,
+      "dd": 867.7,
+      "ratio": 6.69,
+      "streak": 2,
+      "n_combos": 291
+    },
+    {
+      "id": "AGRO_foo_o15_mc5_pct12_wr0.65",
+      "strat": {
+        "id": "AGRO_foo_o15_mc5_pct12_wr0.65",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.12,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 6682.0,
+      "br_mult": 67.82,
+      "dd": 996.6,
+      "ratio": 6.71,
+      "streak": 2,
+      "n_combos": 290
+    },
+    {
+      "id": "AGRO_foo_o15_mc5_pct12_wr0.7",
+      "strat": {
+        "id": "AGRO_foo_o15_mc5_pct12_wr0.7",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.7,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.12,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 4968.3,
+      "br_mult": 50.68,
+      "dd": 744.7,
+      "ratio": 6.67,
+      "streak": 2,
+      "n_combos": 282
+    },
+    {
+      "id": "AGRO_foo_o15_mc5_pct15_wr0.6",
+      "strat": {
+        "id": "AGRO_foo_o15_mc5_pct15_wr0.6",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.6,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.15,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 13477.0,
+      "br_mult": 135.77,
+      "dd": 2512.3,
+      "ratio": 5.36,
+      "streak": 2,
+      "n_combos": 291
+    },
+    {
+      "id": "AGRO_foo_o15_mc5_pct15_wr0.65",
+      "strat": {
+        "id": "AGRO_foo_o15_mc5_pct15_wr0.65",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.15,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 16156.6,
+      "br_mult": 162.57,
+      "dd": 3008.1,
+      "ratio": 5.37,
+      "streak": 2,
+      "n_combos": 290
+    },
+    {
+      "id": "AGRO_foo_o15_mc5_pct15_wr0.7",
+      "strat": {
+        "id": "AGRO_foo_o15_mc5_pct15_wr0.7",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.7,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.15,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 11235.9,
+      "br_mult": 113.36,
+      "dd": 2097.6,
+      "ratio": 5.36,
+      "streak": 2,
+      "n_combos": 282
+    },
+    {
+      "id": "AGRO_foo_o15_mc7_pct5_wr0.6",
+      "strat": {
+        "id": "AGRO_foo_o15_mc7_pct5_wr0.6",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 7,
+            "min_wr": 0.6,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 578.6,
+      "br_mult": 6.79,
+      "dd": 132.6,
+      "ratio": 4.36,
+      "streak": 2,
+      "n_combos": 344
+    },
+    {
+      "id": "AGRO_foo_o15_mc7_pct5_wr0.65",
+      "strat": {
+        "id": "AGRO_foo_o15_mc7_pct5_wr0.65",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 7,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 615.5,
+      "br_mult": 7.16,
+      "dd": 139.9,
+      "ratio": 4.4,
+      "streak": 2,
+      "n_combos": 343
+    },
+    {
+      "id": "AGRO_foo_o15_mc7_pct5_wr0.7",
+      "strat": {
+        "id": "AGRO_foo_o15_mc7_pct5_wr0.7",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 7,
+            "min_wr": 0.7,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 598.6,
+      "br_mult": 6.99,
+      "dd": 134.1,
+      "ratio": 4.46,
+      "streak": 2,
+      "n_combos": 327
+    },
+    {
+      "id": "AGRO_foo_o15_mc7_pct7_wr0.6",
+      "strat": {
+        "id": "AGRO_foo_o15_mc7_pct7_wr0.6",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 7,
+            "min_wr": 0.6,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.07,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 1255.7,
+      "br_mult": 13.56,
+      "dd": 406.7,
+      "ratio": 3.09,
+      "streak": 2,
+      "n_combos": 344
+    },
+    {
+      "id": "AGRO_foo_o15_mc7_pct7_wr0.65",
+      "strat": {
+        "id": "AGRO_foo_o15_mc7_pct7_wr0.65",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 7,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.07,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 1362.6,
+      "br_mult": 14.63,
+      "dd": 438.7,
+      "ratio": 3.11,
+      "streak": 2,
+      "n_combos": 343
+    },
+    {
+      "id": "AGRO_foo_o15_mc7_pct7_wr0.7",
+      "strat": {
+        "id": "AGRO_foo_o15_mc7_pct7_wr0.7",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 7,
+            "min_wr": 0.7,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.07,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 1314.4,
+      "br_mult": 14.14,
+      "dd": 408.6,
+      "ratio": 3.22,
+      "streak": 2,
+      "n_combos": 327
+    },
+    {
+      "id": "AGRO_foo_o15_mc7_pct8_wr0.6",
+      "strat": {
+        "id": "AGRO_foo_o15_mc7_pct8_wr0.6",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 7,
+            "min_wr": 0.6,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.08,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 1787.1,
+      "br_mult": 18.87,
+      "dd": 678.7,
+      "ratio": 2.63,
+      "streak": 2,
+      "n_combos": 344
+    },
+    {
+      "id": "AGRO_foo_o15_mc7_pct8_wr0.65",
+      "strat": {
+        "id": "AGRO_foo_o15_mc7_pct8_wr0.65",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 7,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.08,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 1960.2,
+      "br_mult": 20.6,
+      "dd": 740.9,
+      "ratio": 2.65,
+      "streak": 2,
+      "n_combos": 343
+    },
+    {
+      "id": "AGRO_foo_o15_mc7_pct8_wr0.7",
+      "strat": {
+        "id": "AGRO_foo_o15_mc7_pct8_wr0.7",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 7,
+            "min_wr": 0.7,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.08,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 1882.8,
+      "br_mult": 19.83,
+      "dd": 680.1,
+      "ratio": 2.77,
+      "streak": 2,
+      "n_combos": 327
+    },
+    {
+      "id": "AGRO_foo_o15_mc7_pct10_wr0.6",
+      "strat": {
+        "id": "AGRO_foo_o15_mc7_pct10_wr0.6",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 7,
+            "min_wr": 0.6,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.1,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 3448.0,
+      "br_mult": 35.48,
+      "dd": 1762.9,
+      "ratio": 1.96,
+      "streak": 2,
+      "n_combos": 344
+    },
+    {
+      "id": "AGRO_foo_o15_mc7_pct10_wr0.65",
+      "strat": {
+        "id": "AGRO_foo_o15_mc7_pct10_wr0.65",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 7,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.1,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 3870.4,
+      "br_mult": 39.7,
+      "dd": 1972.8,
+      "ratio": 1.96,
+      "streak": 2,
+      "n_combos": 343
+    },
+    {
+      "id": "AGRO_foo_o15_mc7_pct10_wr0.7",
+      "strat": {
+        "id": "AGRO_foo_o15_mc7_pct10_wr0.7",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 7,
+            "min_wr": 0.7,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.1,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 3683.3,
+      "br_mult": 37.83,
+      "dd": 1758.2,
+      "ratio": 2.09,
+      "streak": 2,
+      "n_combos": 327
+    },
+    {
+      "id": "AGRO_foo_o15_mc7_pct12_wr0.6",
+      "strat": {
+        "id": "AGRO_foo_o15_mc7_pct12_wr0.6",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 7,
+            "min_wr": 0.6,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.12,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 6310.3,
+      "br_mult": 64.1,
+      "dd": 4253.4,
+      "ratio": 1.48,
+      "streak": 2,
+      "n_combos": 344
+    },
+    {
+      "id": "AGRO_foo_o15_mc7_pct12_wr0.65",
+      "strat": {
+        "id": "AGRO_foo_o15_mc7_pct12_wr0.65",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 7,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.12,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 7262.3,
+      "br_mult": 73.62,
+      "dd": 4885.1,
+      "ratio": 1.49,
+      "streak": 2,
+      "n_combos": 343
+    },
+    {
+      "id": "AGRO_foo_o15_mc7_pct12_wr0.7",
+      "strat": {
+        "id": "AGRO_foo_o15_mc7_pct12_wr0.7",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 7,
+            "min_wr": 0.7,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.12,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 6841.9,
+      "br_mult": 69.42,
+      "dd": 4222.2,
+      "ratio": 1.62,
+      "streak": 2,
+      "n_combos": 327
+    },
+    {
+      "id": "AGRO_foo_o15_mc7_pct15_wr0.6",
+      "strat": {
+        "id": "AGRO_foo_o15_mc7_pct15_wr0.6",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 7,
+            "min_wr": 0.6,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.15,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 14347.7,
+      "br_mult": 144.48,
+      "dd": 14288.4,
+      "ratio": 1.0,
+      "streak": 2,
+      "n_combos": 344
+    },
+    {
+      "id": "AGRO_foo_o15_mc7_pct15_wr0.65",
+      "strat": {
+        "id": "AGRO_foo_o15_mc7_pct15_wr0.65",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 7,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.15,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 17199.2,
+      "br_mult": 172.99,
+      "dd": 17108.5,
+      "ratio": 1.01,
+      "streak": 2,
+      "n_combos": 343
+    },
+    {
+      "id": "AGRO_foo_o15_mc7_pct15_wr0.7",
+      "strat": {
+        "id": "AGRO_foo_o15_mc7_pct15_wr0.7",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 7,
+            "min_wr": 0.7,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.15,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 15931.5,
+      "br_mult": 160.32,
+      "dd": 14081.9,
+      "ratio": 1.13,
+      "streak": 2,
+      "n_combos": 327
+    },
+    {
+      "id": "AGRO_foo_o15_mc10_pct5_wr0.6",
+      "strat": {
+        "id": "AGRO_foo_o15_mc10_pct5_wr0.6",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 10,
+            "min_wr": 0.6,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 647.4,
+      "br_mult": 7.47,
+      "dd": 114.2,
+      "ratio": 5.67,
+      "streak": 3,
+      "n_combos": 396
+    },
+    {
+      "id": "AGRO_foo_o15_mc10_pct5_wr0.65",
+      "strat": {
+        "id": "AGRO_foo_o15_mc10_pct5_wr0.65",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 10,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 667.9,
+      "br_mult": 7.68,
+      "dd": 117.3,
+      "ratio": 5.69,
+      "streak": 3,
+      "n_combos": 394
+    },
+    {
+      "id": "AGRO_foo_o15_mc10_pct5_wr0.7",
+      "strat": {
+        "id": "AGRO_foo_o15_mc10_pct5_wr0.7",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 10,
+            "min_wr": 0.7,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 557.8,
+      "br_mult": 6.58,
+      "dd": 100.5,
+      "ratio": 5.55,
+      "streak": 2,
+      "n_combos": 364
+    },
+    {
+      "id": "AGRO_foo_o15_mc10_pct7_wr0.6",
+      "strat": {
+        "id": "AGRO_foo_o15_mc10_pct7_wr0.6",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 10,
+            "min_wr": 0.6,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.07,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 1447.1,
+      "br_mult": 15.47,
+      "dd": 344.2,
+      "ratio": 4.2,
+      "streak": 3,
+      "n_combos": 396
+    },
+    {
+      "id": "AGRO_foo_o15_mc10_pct7_wr0.65",
+      "strat": {
+        "id": "AGRO_foo_o15_mc10_pct7_wr0.65",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 10,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.07,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 1508.8,
+      "br_mult": 16.09,
+      "dd": 358.0,
+      "ratio": 4.22,
+      "streak": 3,
+      "n_combos": 394
+    },
+    {
+      "id": "AGRO_foo_o15_mc10_pct7_wr0.7",
+      "strat": {
+        "id": "AGRO_foo_o15_mc10_pct7_wr0.7",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 10,
+            "min_wr": 0.7,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.07,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 1199.4,
+      "br_mult": 12.99,
+      "dd": 289.1,
+      "ratio": 4.15,
+      "streak": 2,
+      "n_combos": 364
+    },
+    {
+      "id": "AGRO_foo_o15_mc10_pct8_wr0.6",
+      "strat": {
+        "id": "AGRO_foo_o15_mc10_pct8_wr0.6",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 10,
+            "min_wr": 0.6,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.08,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 2091.5,
+      "br_mult": 21.92,
+      "dd": 569.1,
+      "ratio": 3.68,
+      "streak": 3,
+      "n_combos": 396
+    },
+    {
+      "id": "AGRO_foo_o15_mc10_pct8_wr0.65",
+      "strat": {
+        "id": "AGRO_foo_o15_mc10_pct8_wr0.65",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 10,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.08,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 2193.5,
+      "br_mult": 22.94,
+      "dd": 595.6,
+      "ratio": 3.68,
+      "streak": 3,
+      "n_combos": 394
+    },
+    {
+      "id": "AGRO_foo_o15_mc10_pct8_wr0.7",
+      "strat": {
+        "id": "AGRO_foo_o15_mc10_pct8_wr0.7",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 10,
+            "min_wr": 0.7,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.08,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 1699.4,
+      "br_mult": 17.99,
+      "dd": 467.2,
+      "ratio": 3.64,
+      "streak": 2,
+      "n_combos": 364
+    },
+    {
+      "id": "AGRO_foo_o15_mc10_pct10_wr0.6",
+      "strat": {
+        "id": "AGRO_foo_o15_mc10_pct10_wr0.6",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 10,
+            "min_wr": 0.6,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.1,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 4167.5,
+      "br_mult": 42.67,
+      "dd": 1448.2,
+      "ratio": 2.88,
+      "streak": 3,
+      "n_combos": 396
+    },
+    {
+      "id": "AGRO_foo_o15_mc10_pct10_wr0.65",
+      "strat": {
+        "id": "AGRO_foo_o15_mc10_pct10_wr0.65",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 10,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.1,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 4426.2,
+      "br_mult": 45.26,
+      "dd": 1536.0,
+      "ratio": 2.88,
+      "streak": 3,
+      "n_combos": 394
+    },
+    {
+      "id": "AGRO_foo_o15_mc10_pct10_wr0.7",
+      "strat": {
+        "id": "AGRO_foo_o15_mc10_pct10_wr0.7",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 10,
+            "min_wr": 0.7,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.1,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 3252.8,
+      "br_mult": 33.53,
+      "dd": 1137.8,
+      "ratio": 2.86,
+      "streak": 2,
+      "n_combos": 364
+    },
+    {
+      "id": "AGRO_foo_o15_mc10_pct12_wr0.6",
+      "strat": {
+        "id": "AGRO_foo_o15_mc10_pct12_wr0.6",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 10,
+            "min_wr": 0.6,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.12,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 7891.8,
+      "br_mult": 79.92,
+      "dd": 3415.4,
+      "ratio": 2.31,
+      "streak": 3,
+      "n_combos": 396
+    },
+    {
+      "id": "AGRO_foo_o15_mc10_pct12_wr0.65",
+      "strat": {
+        "id": "AGRO_foo_o15_mc10_pct12_wr0.65",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 10,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.12,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 8498.8,
+      "br_mult": 85.99,
+      "dd": 3674.8,
+      "ratio": 2.31,
+      "streak": 3,
+      "n_combos": 394
+    },
+    {
+      "id": "AGRO_foo_o15_mc10_pct12_wr0.7",
+      "strat": {
+        "id": "AGRO_foo_o15_mc10_pct12_wr0.7",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 10,
+            "min_wr": 0.7,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.12,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 5916.5,
+      "br_mult": 60.17,
+      "dd": 2571.3,
+      "ratio": 2.3,
+      "streak": 2,
+      "n_combos": 364
+    },
+    {
+      "id": "AGRO_foo_o15_mc10_pct15_wr0.6",
+      "strat": {
+        "id": "AGRO_foo_o15_mc10_pct15_wr0.6",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 10,
+            "min_wr": 0.6,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.15,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 18973.7,
+      "br_mult": 190.74,
+      "dd": 11042.7,
+      "ratio": 1.72,
+      "streak": 3,
+      "n_combos": 396
+    },
+    {
+      "id": "AGRO_foo_o15_mc10_pct15_wr0.65",
+      "strat": {
+        "id": "AGRO_foo_o15_mc10_pct15_wr0.65",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 10,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.15,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 20910.3,
+      "br_mult": 210.1,
+      "dd": 12467.6,
+      "ratio": 1.68,
+      "streak": 3,
+      "n_combos": 394
+    },
+    {
+      "id": "AGRO_foo_o15_mc10_pct15_wr0.7",
+      "strat": {
+        "id": "AGRO_foo_o15_mc10_pct15_wr0.7",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 10,
+            "min_wr": 0.7,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.15,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 13396.1,
+      "br_mult": 134.96,
+      "dd": 8008.6,
+      "ratio": 1.67,
+      "streak": 2,
+      "n_combos": 364
+    },
+    {
+      "id": "AGRO_FHB_F3H2B1_pct5",
+      "strat": {
+        "id": "AGRO_FHB_F3H2B1_pct5",
+        "label": "Multi FHB aggro",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 2,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 567.2,
+      "br_mult": 6.67,
+      "dd": 144.6,
+      "ratio": 3.92,
+      "streak": 4,
+      "n_combos": 571
+    },
+    {
+      "id": "AGRO_FHB_F3H2B1_pct7",
+      "strat": {
+        "id": "AGRO_FHB_F3H2B1_pct7",
+        "label": "Multi FHB aggro",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 2,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.07,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 1164.4,
+      "br_mult": 12.64,
+      "dd": 394.7,
+      "ratio": 2.95,
+      "streak": 4,
+      "n_combos": 571
+    },
+    {
+      "id": "AGRO_FHB_F3H2B1_pct10",
+      "strat": {
+        "id": "AGRO_FHB_F3H2B1_pct10",
+        "label": "Multi FHB aggro",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 2,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.1,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 2798.7,
+      "br_mult": 28.99,
+      "dd": 1365.0,
+      "ratio": 2.05,
+      "streak": 4,
+      "n_combos": 571
+    },
+    {
+      "id": "AGRO_FHB_F3H2B2_pct5",
+      "strat": {
+        "id": "AGRO_FHB_F3H2B2_pct5",
+        "label": "Multi FHB aggro",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 2,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 2,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 540.8,
+      "br_mult": 6.41,
+      "dd": 205.7,
+      "ratio": 2.63,
+      "streak": 5,
+      "n_combos": 660
+    },
+    {
+      "id": "AGRO_FHB_F3H2B2_pct7",
+      "strat": {
+        "id": "AGRO_FHB_F3H2B2_pct7",
+        "label": "Multi FHB aggro",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 2,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 2,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.07,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 1071.1,
+      "br_mult": 11.71,
+      "dd": 543.1,
+      "ratio": 1.97,
+      "streak": 5,
+      "n_combos": 660
+    },
+    {
+      "id": "AGRO_FHB_F3H2B2_pct10",
+      "strat": {
+        "id": "AGRO_FHB_F3H2B2_pct10",
+        "label": "Multi FHB aggro",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 2,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 2,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.1,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 2381.6,
+      "br_mult": 24.82,
+      "dd": 1746.9,
+      "ratio": 1.36,
+      "streak": 5,
+      "n_combos": 660
+    },
+    {
+      "id": "AGRO_FHB_F3H2B3_pct5",
+      "strat": {
+        "id": "AGRO_FHB_F3H2B3_pct5",
+        "label": "Multi FHB aggro",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 2,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 734.8,
+      "br_mult": 8.35,
+      "dd": 268.0,
+      "ratio": 2.74,
+      "streak": 5,
+      "n_combos": 731
+    },
+    {
+      "id": "AGRO_FHB_F3H2B3_pct7",
+      "strat": {
+        "id": "AGRO_FHB_F3H2B3_pct7",
+        "label": "Multi FHB aggro",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 2,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.07,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 1574.4,
+      "br_mult": 16.74,
+      "dd": 776.4,
+      "ratio": 2.03,
+      "streak": 5,
+      "n_combos": 731
+    },
+    {
+      "id": "AGRO_FHB_F3H2B3_pct10",
+      "strat": {
+        "id": "AGRO_FHB_F3H2B3_pct10",
+        "label": "Multi FHB aggro",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 2,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.1,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 3936.6,
+      "br_mult": 40.37,
+      "dd": 2841.5,
+      "ratio": 1.39,
+      "streak": 5,
+      "n_combos": 731
+    },
+    {
+      "id": "AGRO_FHB_F3H3B1_pct5",
+      "strat": {
+        "id": "AGRO_FHB_F3H3B1_pct5",
+        "label": "Multi FHB aggro",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 889.0,
+      "br_mult": 9.89,
+      "dd": 214.4,
+      "ratio": 4.15,
+      "streak": 4,
+      "n_combos": 617
+    },
+    {
+      "id": "AGRO_FHB_F3H3B1_pct7",
+      "strat": {
+        "id": "AGRO_FHB_F3H3B1_pct7",
+        "label": "Multi FHB aggro",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.07,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 2058.8,
+      "br_mult": 21.59,
+      "dd": 673.8,
+      "ratio": 3.06,
+      "streak": 4,
+      "n_combos": 617
+    },
+    {
+      "id": "AGRO_FHB_F3H3B1_pct10",
+      "strat": {
+        "id": "AGRO_FHB_F3H3B1_pct10",
+        "label": "Multi FHB aggro",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.1,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 5916.9,
+      "br_mult": 60.17,
+      "dd": 2833.4,
+      "ratio": 2.09,
+      "streak": 4,
+      "n_combos": 617
+    },
+    {
+      "id": "AGRO_FHB_F3H3B2_pct5",
+      "strat": {
+        "id": "AGRO_FHB_F3H3B2_pct5",
+        "label": "Multi FHB aggro",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 2,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 849.0,
+      "br_mult": 9.49,
+      "dd": 304.7,
+      "ratio": 2.79,
+      "streak": 5,
+      "n_combos": 706
+    },
+    {
+      "id": "AGRO_FHB_F3H3B2_pct7",
+      "strat": {
+        "id": "AGRO_FHB_F3H3B2_pct7",
+        "label": "Multi FHB aggro",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 2,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.07,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 1897.3,
+      "br_mult": 19.97,
+      "dd": 926.2,
+      "ratio": 2.05,
+      "streak": 5,
+      "n_combos": 706
+    },
+    {
+      "id": "AGRO_FHB_F3H3B2_pct10",
+      "strat": {
+        "id": "AGRO_FHB_F3H3B2_pct10",
+        "label": "Multi FHB aggro",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 2,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.1,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 5053.9,
+      "br_mult": 51.54,
+      "dd": 3628.0,
+      "ratio": 1.39,
+      "streak": 5,
+      "n_combos": 706
+    },
+    {
+      "id": "AGRO_FHB_F3H3B3_pct5",
+      "strat": {
+        "id": "AGRO_FHB_F3H3B3_pct5",
+        "label": "Multi FHB aggro",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 1135.7,
+      "br_mult": 12.36,
+      "dd": 396.7,
+      "ratio": 2.86,
+      "streak": 5,
+      "n_combos": 777
+    },
+    {
+      "id": "AGRO_FHB_F3H3B3_pct7",
+      "strat": {
+        "id": "AGRO_FHB_F3H3B3_pct7",
+        "label": "Multi FHB aggro",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.07,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 2752.3,
+      "br_mult": 28.52,
+      "dd": 1322.7,
+      "ratio": 2.08,
+      "streak": 5,
+      "n_combos": 777
+    },
+    {
+      "id": "AGRO_FHB_F3H3B3_pct10",
+      "strat": {
+        "id": "AGRO_FHB_F3H3B3_pct10",
+        "label": "Multi FHB aggro",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.1,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 8260.0,
+      "br_mult": 83.6,
+      "dd": 5884.8,
+      "ratio": 1.4,
+      "streak": 5,
+      "n_combos": 777
+    },
+    {
+      "id": "AGRO_FHB_F3H5B1_pct5",
+      "strat": {
+        "id": "AGRO_FHB_F3H5B1_pct5",
+        "label": "Multi FHB aggro",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 1674.9,
+      "br_mult": 17.75,
+      "dd": 384.7,
+      "ratio": 4.35,
+      "streak": 4,
+      "n_combos": 684
+    },
+    {
+      "id": "AGRO_FHB_F3H5B1_pct7",
+      "strat": {
+        "id": "AGRO_FHB_F3H5B1_pct7",
+        "label": "Multi FHB aggro",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.07,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 4675.8,
+      "br_mult": 47.76,
+      "dd": 1490.7,
+      "ratio": 3.14,
+      "streak": 4,
+      "n_combos": 684
+    },
+    {
+      "id": "AGRO_FHB_F3H5B1_pct10",
+      "strat": {
+        "id": "AGRO_FHB_F3H5B1_pct10",
+        "label": "Multi FHB aggro",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.1,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 17712.8,
+      "br_mult": 178.13,
+      "dd": 8388.0,
+      "ratio": 2.11,
+      "streak": 4,
+      "n_combos": 684
+    },
+    {
+      "id": "AGRO_FHB_F3H5B2_pct5",
+      "strat": {
+        "id": "AGRO_FHB_F3H5B2_pct5",
+        "label": "Multi FHB aggro",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 2,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 1613.8,
+      "br_mult": 17.14,
+      "dd": 550.2,
+      "ratio": 2.93,
+      "streak": 5,
+      "n_combos": 773
+    },
+    {
+      "id": "AGRO_FHB_F3H5B2_pct7",
+      "strat": {
+        "id": "AGRO_FHB_F3H5B2_pct7",
+        "label": "Multi FHB aggro",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 2,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.07,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 4378.2,
+      "br_mult": 44.78,
+      "dd": 2076.6,
+      "ratio": 2.11,
+      "streak": 5,
+      "n_combos": 773
+    },
+    {
+      "id": "AGRO_FHB_F3H5B2_pct10",
+      "strat": {
+        "id": "AGRO_FHB_F3H5B2_pct10",
+        "label": "Multi FHB aggro",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 2,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.1,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 15638.3,
+      "br_mult": 157.38,
+      "dd": 11078.6,
+      "ratio": 1.41,
+      "streak": 5,
+      "n_combos": 773
+    },
+    {
+      "id": "AGRO_FHB_F3H5B3_pct5",
+      "strat": {
+        "id": "AGRO_FHB_F3H5B3_pct5",
+        "label": "Multi FHB aggro",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 2148.2,
+      "br_mult": 22.48,
+      "dd": 721.8,
+      "ratio": 2.98,
+      "streak": 5,
+      "n_combos": 844
+    },
+    {
+      "id": "AGRO_FHB_F3H5B3_pct7",
+      "strat": {
+        "id": "AGRO_FHB_F3H5B3_pct7",
+        "label": "Multi FHB aggro",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.07,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 6391.9,
+      "br_mult": 64.92,
+      "dd": 3010.4,
+      "ratio": 2.12,
+      "streak": 5,
+      "n_combos": 844
+    },
+    {
+      "id": "AGRO_FHB_F3H5B3_pct10",
+      "strat": {
+        "id": "AGRO_FHB_F3H5B3_pct10",
+        "label": "Multi FHB aggro",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.1,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 26253.1,
+      "br_mult": 263.53,
+      "dd": 18550.6,
+      "ratio": 1.42,
+      "streak": 5,
+      "n_combos": 844
+    },
+    {
+      "id": "AGRO_FHB_F5H2B1_pct5",
+      "strat": {
+        "id": "AGRO_FHB_F5H2B1_pct5",
+        "label": "Multi FHB aggro",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 2,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 1509.9,
+      "br_mult": 16.1,
+      "dd": 352.7,
+      "ratio": 4.28,
+      "streak": 5,
+      "n_combos": 719
+    },
+    {
+      "id": "AGRO_FHB_F5H2B1_pct7",
+      "strat": {
+        "id": "AGRO_FHB_F5H2B1_pct7",
+        "label": "Multi FHB aggro",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 2,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.07,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 4124.7,
+      "br_mult": 42.25,
+      "dd": 1302.3,
+      "ratio": 3.17,
+      "streak": 5,
+      "n_combos": 719
+    },
+    {
+      "id": "AGRO_FHB_F5H2B1_pct10",
+      "strat": {
+        "id": "AGRO_FHB_F5H2B1_pct10",
+        "label": "Multi FHB aggro",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 2,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.1,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 15346.1,
+      "br_mult": 154.46,
+      "dd": 6938.6,
+      "ratio": 2.21,
+      "streak": 5,
+      "n_combos": 719
+    },
+    {
+      "id": "AGRO_FHB_F5H2B2_pct5",
+      "strat": {
+        "id": "AGRO_FHB_F5H2B2_pct5",
+        "label": "Multi FHB aggro",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 2,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 2,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 1424.2,
+      "br_mult": 15.24,
+      "dd": 491.8,
+      "ratio": 2.9,
+      "streak": 5,
+      "n_combos": 808
+    },
+    {
+      "id": "AGRO_FHB_F5H2B2_pct7",
+      "strat": {
+        "id": "AGRO_FHB_F5H2B2_pct7",
+        "label": "Multi FHB aggro",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 2,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 2,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.07,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 3705.0,
+      "br_mult": 38.05,
+      "dd": 1743.6,
+      "ratio": 2.12,
+      "streak": 5,
+      "n_combos": 808
+    },
+    {
+      "id": "AGRO_FHB_F5H2B2_pct10",
+      "strat": {
+        "id": "AGRO_FHB_F5H2B2_pct10",
+        "label": "Multi FHB aggro",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 2,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 2,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.1,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 12387.7,
+      "br_mult": 124.88,
+      "dd": 8486.7,
+      "ratio": 1.46,
+      "streak": 5,
+      "n_combos": 808
+    },
+    {
+      "id": "AGRO_FHB_F5H2B3_pct5",
+      "strat": {
+        "id": "AGRO_FHB_F5H2B3_pct5",
+        "label": "Multi FHB aggro",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 2,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 1854.0,
+      "br_mult": 19.54,
+      "dd": 630.5,
+      "ratio": 2.94,
+      "streak": 5,
+      "n_combos": 879
+    },
+    {
+      "id": "AGRO_FHB_F5H2B3_pct7",
+      "strat": {
+        "id": "AGRO_FHB_F5H2B3_pct7",
+        "label": "Multi FHB aggro",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 2,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.07,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 5169.3,
+      "br_mult": 52.69,
+      "dd": 2414.7,
+      "ratio": 2.14,
+      "streak": 5,
+      "n_combos": 879
+    },
+    {
+      "id": "AGRO_FHB_F5H2B3_pct10",
+      "strat": {
+        "id": "AGRO_FHB_F5H2B3_pct10",
+        "label": "Multi FHB aggro",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 2,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.1,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 18883.3,
+      "br_mult": 189.83,
+      "dd": 12901.1,
+      "ratio": 1.46,
+      "streak": 5,
+      "n_combos": 879
+    },
+    {
+      "id": "AGRO_FHB_F5H3B1_pct5",
+      "strat": {
+        "id": "AGRO_FHB_F5H3B1_pct5",
+        "label": "Multi FHB aggro",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 2268.6,
+      "br_mult": 23.69,
+      "dd": 519.0,
+      "ratio": 4.37,
+      "streak": 5,
+      "n_combos": 765
+    },
+    {
+      "id": "AGRO_FHB_F5H3B1_pct7",
+      "strat": {
+        "id": "AGRO_FHB_F5H3B1_pct7",
+        "label": "Multi FHB aggro",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.07,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 7011.8,
+      "br_mult": 71.12,
+      "dd": 2192.3,
+      "ratio": 3.2,
+      "streak": 5,
+      "n_combos": 765
+    },
+    {
+      "id": "AGRO_FHB_F5H3B1_pct10",
+      "strat": {
+        "id": "AGRO_FHB_F5H3B1_pct10",
+        "label": "Multi FHB aggro",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.1,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 31105.8,
+      "br_mult": 312.06,
+      "dd": 14018.0,
+      "ratio": 2.22,
+      "streak": 5,
+      "n_combos": 765
+    },
+    {
+      "id": "AGRO_FHB_F5H3B2_pct5",
+      "strat": {
+        "id": "AGRO_FHB_F5H3B2_pct5",
+        "label": "Multi FHB aggro",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 2,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 2139.4,
+      "br_mult": 22.39,
+      "dd": 722.6,
+      "ratio": 2.96,
+      "streak": 5,
+      "n_combos": 854
+    },
+    {
+      "id": "AGRO_FHB_F5H3B2_pct7",
+      "strat": {
+        "id": "AGRO_FHB_F5H3B2_pct7",
+        "label": "Multi FHB aggro",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 2,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.07,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 6288.9,
+      "br_mult": 63.89,
+      "dd": 2927.7,
+      "ratio": 2.15,
+      "streak": 5,
+      "n_combos": 854
+    },
+    {
+      "id": "AGRO_FHB_F5H3B2_pct10",
+      "strat": {
+        "id": "AGRO_FHB_F5H3B2_pct10",
+        "label": "Multi FHB aggro",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 2,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.1,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 25004.8,
+      "br_mult": 251.05,
+      "dd": 17061.3,
+      "ratio": 1.47,
+      "streak": 5,
+      "n_combos": 854
+    },
+    {
+      "id": "AGRO_FHB_F5H3B3_pct5",
+      "strat": {
+        "id": "AGRO_FHB_F5H3B3_pct5",
+        "label": "Multi FHB aggro",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 2767.2,
+      "br_mult": 28.67,
+      "dd": 925.2,
+      "ratio": 2.99,
+      "streak": 5,
+      "n_combos": 925
+    },
+    {
+      "id": "AGRO_FHB_F5H3B3_pct7",
+      "strat": {
+        "id": "AGRO_FHB_F5H3B3_pct7",
+        "label": "Multi FHB aggro",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.07,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 8714.8,
+      "br_mult": 88.15,
+      "dd": 4039.4,
+      "ratio": 2.16,
+      "streak": 5,
+      "n_combos": 925
+    },
+    {
+      "id": "AGRO_FHB_F5H3B3_pct10",
+      "strat": {
+        "id": "AGRO_FHB_F5H3B3_pct10",
+        "label": "Multi FHB aggro",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.1,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 37578.3,
+      "br_mult": 376.78,
+      "dd": 25606.2,
+      "ratio": 1.47,
+      "streak": 5,
+      "n_combos": 925
+    },
+    {
+      "id": "AGRO_FHB_F5H5B1_pct5",
+      "strat": {
+        "id": "AGRO_FHB_F5H5B1_pct5",
+        "label": "Multi FHB aggro",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 4098.3,
+      "br_mult": 41.98,
+      "dd": 919.9,
+      "ratio": 4.46,
+      "streak": 5,
+      "n_combos": 832
+    },
+    {
+      "id": "AGRO_FHB_F5H5B1_pct7",
+      "strat": {
+        "id": "AGRO_FHB_F5H5B1_pct7",
+        "label": "Multi FHB aggro",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.07,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 15274.9,
+      "br_mult": 153.75,
+      "dd": 4739.5,
+      "ratio": 3.22,
+      "streak": 5,
+      "n_combos": 832
+    },
+    {
+      "id": "AGRO_FHB_F5H5B1_pct10",
+      "strat": {
+        "id": "AGRO_FHB_F5H5B1_pct10",
+        "label": "Multi FHB aggro",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.1,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 88312.4,
+      "br_mult": 884.12,
+      "dd": 39715.8,
+      "ratio": 2.22,
+      "streak": 5,
+      "n_combos": 832
+    },
+    {
+      "id": "AGRO_FHB_F5H5B2_pct5",
+      "strat": {
+        "id": "AGRO_FHB_F5H5B2_pct5",
+        "label": "Multi FHB aggro",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 2,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 3895.7,
+      "br_mult": 39.96,
+      "dd": 1289.3,
+      "ratio": 3.02,
+      "streak": 5,
+      "n_combos": 921
+    },
+    {
+      "id": "AGRO_FHB_F5H5B2_pct7",
+      "strat": {
+        "id": "AGRO_FHB_F5H5B2_pct7",
+        "label": "Multi FHB aggro",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 2,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.07,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 13915.4,
+      "br_mult": 140.15,
+      "dd": 6422.6,
+      "ratio": 2.17,
+      "streak": 5,
+      "n_combos": 921
+    },
+    {
+      "id": "AGRO_FHB_F5H5B2_pct10",
+      "strat": {
+        "id": "AGRO_FHB_F5H5B2_pct10",
+        "label": "Multi FHB aggro",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 2,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.1,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 73576.2,
+      "br_mult": 736.76,
+      "dd": 50070.5,
+      "ratio": 1.47,
+      "streak": 5,
+      "n_combos": 921
+    },
+    {
+      "id": "AGRO_FHB_F5H5B3_pct5",
+      "strat": {
+        "id": "AGRO_FHB_F5H5B3_pct5",
+        "label": "Multi FHB aggro",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 5058.0,
+      "br_mult": 51.58,
+      "dd": 1664.4,
+      "ratio": 3.04,
+      "streak": 5,
+      "n_combos": 992
+    },
+    {
+      "id": "AGRO_FHB_F5H5B3_pct7",
+      "strat": {
+        "id": "AGRO_FHB_F5H5B3_pct7",
+        "label": "Multi FHB aggro",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.07,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 19574.1,
+      "br_mult": 196.74,
+      "dd": 9015.7,
+      "ratio": 2.17,
+      "streak": 5,
+      "n_combos": 992
+    },
+    {
+      "id": "AGRO_FHB_F5H5B3_pct10",
+      "strat": {
+        "id": "AGRO_FHB_F5H5B3_pct10",
+        "label": "Multi FHB aggro",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.1,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 115050.0,
+      "br_mult": 1151.5,
+      "dd": 78256.2,
+      "ratio": 1.47,
+      "streak": 5,
+      "n_combos": 992
+    },
+    {
+      "id": "AGRO_FHB_F7H2B1_pct5",
+      "strat": {
+        "id": "AGRO_FHB_F7H2B1_pct5",
+        "label": "Multi FHB aggro",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 7,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 2,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 2266.9,
+      "br_mult": 23.67,
+      "dd": 547.1,
+      "ratio": 4.14,
+      "streak": 5,
+      "n_combos": 829
+    },
+    {
+      "id": "AGRO_FHB_F7H2B1_pct7",
+      "strat": {
+        "id": "AGRO_FHB_F7H2B1_pct7",
+        "label": "Multi FHB aggro",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 7,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 2,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.07,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 7051.5,
+      "br_mult": 71.52,
+      "dd": 2280.8,
+      "ratio": 3.09,
+      "streak": 5,
+      "n_combos": 829
+    },
+    {
+      "id": "AGRO_FHB_F7H2B1_pct10",
+      "strat": {
+        "id": "AGRO_FHB_F7H2B1_pct10",
+        "label": "Multi FHB aggro",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 7,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 2,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.1,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 31859.8,
+      "br_mult": 319.6,
+      "dd": 14453.7,
+      "ratio": 2.2,
+      "streak": 5,
+      "n_combos": 829
+    },
+    {
+      "id": "AGRO_FHB_F7H2B2_pct5",
+      "strat": {
+        "id": "AGRO_FHB_F7H2B2_pct5",
+        "label": "Multi FHB aggro",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 7,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 2,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 2,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 2171.8,
+      "br_mult": 22.72,
+      "dd": 753.1,
+      "ratio": 2.88,
+      "streak": 5,
+      "n_combos": 918
+    },
+    {
+      "id": "AGRO_FHB_F7H2B2_pct7",
+      "strat": {
+        "id": "AGRO_FHB_F7H2B2_pct7",
+        "label": "Multi FHB aggro",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 7,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 2,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 2,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.07,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 6518.8,
+      "br_mult": 66.19,
+      "dd": 3066.8,
+      "ratio": 2.13,
+      "streak": 5,
+      "n_combos": 918
+    },
+    {
+      "id": "AGRO_FHB_F7H2B2_pct10",
+      "strat": {
+        "id": "AGRO_FHB_F7H2B2_pct10",
+        "label": "Multi FHB aggro",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 7,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 2,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 2,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.1,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 27264.0,
+      "br_mult": 273.64,
+      "dd": 18423.4,
+      "ratio": 1.48,
+      "streak": 5,
+      "n_combos": 918
+    },
+    {
+      "id": "AGRO_FHB_F7H2B3_pct5",
+      "strat": {
+        "id": "AGRO_FHB_F7H2B3_pct5",
+        "label": "Multi FHB aggro",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 7,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 2,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 2823.1,
+      "br_mult": 29.23,
+      "dd": 969.1,
+      "ratio": 2.91,
+      "streak": 5,
+      "n_combos": 989
+    },
+    {
+      "id": "AGRO_FHB_F7H2B3_pct7",
+      "strat": {
+        "id": "AGRO_FHB_F7H2B3_pct7",
+        "label": "Multi FHB aggro",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 7,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 2,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.07,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 9135.6,
+      "br_mult": 92.36,
+      "dd": 4279.2,
+      "ratio": 2.13,
+      "streak": 5,
+      "n_combos": 989
+    },
+    {
+      "id": "AGRO_FHB_F7H2B3_pct10",
+      "strat": {
+        "id": "AGRO_FHB_F7H2B3_pct10",
+        "label": "Multi FHB aggro",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 7,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 2,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.1,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 42220.6,
+      "br_mult": 423.21,
+      "dd": 28493.2,
+      "ratio": 1.48,
+      "streak": 5,
+      "n_combos": 989
+    },
+    {
+      "id": "AGRO_FHB_F7H3B1_pct5",
+      "strat": {
+        "id": "AGRO_FHB_F7H3B1_pct5",
+        "label": "Multi FHB aggro",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 7,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 3372.5,
+      "br_mult": 34.72,
+      "dd": 802.6,
+      "ratio": 4.2,
+      "streak": 5,
+      "n_combos": 875
+    },
+    {
+      "id": "AGRO_FHB_F7H3B1_pct7",
+      "strat": {
+        "id": "AGRO_FHB_F7H3B1_pct7",
+        "label": "Multi FHB aggro",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 7,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.07,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 11883.0,
+      "br_mult": 119.83,
+      "dd": 3821.7,
+      "ratio": 3.11,
+      "streak": 5,
+      "n_combos": 875
+    },
+    {
+      "id": "AGRO_FHB_F7H3B1_pct10",
+      "strat": {
+        "id": "AGRO_FHB_F7H3B1_pct10",
+        "label": "Multi FHB aggro",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 7,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.1,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 64024.1,
+      "br_mult": 641.24,
+      "dd": 28999.8,
+      "ratio": 2.21,
+      "streak": 5,
+      "n_combos": 875
+    },
+    {
+      "id": "AGRO_FHB_F7H3B2_pct5",
+      "strat": {
+        "id": "AGRO_FHB_F7H3B2_pct5",
+        "label": "Multi FHB aggro",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 7,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 2,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 3229.2,
+      "br_mult": 33.29,
+      "dd": 1103.7,
+      "ratio": 2.93,
+      "streak": 5,
+      "n_combos": 964
+    },
+    {
+      "id": "AGRO_FHB_F7H3B2_pct7",
+      "strat": {
+        "id": "AGRO_FHB_F7H3B2_pct7",
+        "label": "Multi FHB aggro",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 7,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 2,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.07,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 10969.5,
+      "br_mult": 110.69,
+      "dd": 5129.0,
+      "ratio": 2.14,
+      "streak": 5,
+      "n_combos": 964
+    },
+    {
+      "id": "AGRO_FHB_F7H3B2_pct10",
+      "strat": {
+        "id": "AGRO_FHB_F7H3B2_pct10",
+        "label": "Multi FHB aggro",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 7,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 2,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.1,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 54645.5,
+      "br_mult": 547.45,
+      "dd": 36858.5,
+      "ratio": 1.48,
+      "streak": 5,
+      "n_combos": 964
+    },
+    {
+      "id": "AGRO_FHB_F7H3B3_pct5",
+      "strat": {
+        "id": "AGRO_FHB_F7H3B3_pct5",
+        "label": "Multi FHB aggro",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 7,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 4179.5,
+      "br_mult": 42.8,
+      "dd": 1418.8,
+      "ratio": 2.95,
+      "streak": 5,
+      "n_combos": 1035
+    },
+    {
+      "id": "AGRO_FHB_F7H3B3_pct7",
+      "strat": {
+        "id": "AGRO_FHB_F7H3B3_pct7",
+        "label": "Multi FHB aggro",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 7,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.07,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 15306.0,
+      "br_mult": 154.06,
+      "dd": 7138.3,
+      "ratio": 2.14,
+      "streak": 5,
+      "n_combos": 1035
+    },
+    {
+      "id": "AGRO_FHB_F7H3B3_pct10",
+      "strat": {
+        "id": "AGRO_FHB_F7H3B3_pct10",
+        "label": "Multi FHB aggro",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 7,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.1,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 83875.5,
+      "br_mult": 839.75,
+      "dd": 56538.2,
+      "ratio": 1.48,
+      "streak": 5,
+      "n_combos": 1035
+    },
+    {
+      "id": "AGRO_FHB_F7H5B1_pct5",
+      "strat": {
+        "id": "AGRO_FHB_F7H5B1_pct5",
+        "label": "Multi FHB aggro",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 7,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 5992.9,
+      "br_mult": 60.93,
+      "dd": 1408.3,
+      "ratio": 4.26,
+      "streak": 5,
+      "n_combos": 942
+    },
+    {
+      "id": "AGRO_FHB_F7H5B1_pct7",
+      "strat": {
+        "id": "AGRO_FHB_F7H5B1_pct7",
+        "label": "Multi FHB aggro",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 7,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.07,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 25271.5,
+      "br_mult": 253.72,
+      "dd": 8091.7,
+      "ratio": 3.12,
+      "streak": 5,
+      "n_combos": 942
+    },
+    {
+      "id": "AGRO_FHB_F7H5B1_pct10",
+      "strat": {
+        "id": "AGRO_FHB_F7H5B1_pct10",
+        "label": "Multi FHB aggro",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 7,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 1,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.1,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 173235.8,
+      "br_mult": 1733.36,
+      "dd": 78390.2,
+      "ratio": 2.21,
+      "streak": 5,
+      "n_combos": 942
+    },
+    {
+      "id": "AGRO_FHB_F7H5B2_pct5",
+      "strat": {
+        "id": "AGRO_FHB_F7H5B2_pct5",
+        "label": "Multi FHB aggro",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 7,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 2,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 5775.5,
+      "br_mult": 58.75,
+      "dd": 1947.8,
+      "ratio": 2.97,
+      "streak": 5,
+      "n_combos": 1031
+    },
+    {
+      "id": "AGRO_FHB_F7H5B2_pct7",
+      "strat": {
+        "id": "AGRO_FHB_F7H5B2_pct7",
+        "label": "Multi FHB aggro",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 7,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 2,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.07,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 23625.9,
+      "br_mult": 237.26,
+      "dd": 10993.2,
+      "ratio": 2.15,
+      "streak": 5,
+      "n_combos": 1031
+    },
+    {
+      "id": "AGRO_FHB_F7H5B2_pct10",
+      "strat": {
+        "id": "AGRO_FHB_F7H5B2_pct10",
+        "label": "Multi FHB aggro",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 7,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 2,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.1,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 152024.5,
+      "br_mult": 1521.25,
+      "dd": 102421.0,
+      "ratio": 1.48,
+      "streak": 5,
+      "n_combos": 1031
+    },
+    {
+      "id": "AGRO_FHB_F7H5B3_pct5",
+      "strat": {
+        "id": "AGRO_FHB_F7H5B3_pct5",
+        "label": "Multi FHB aggro",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 7,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 7509.8,
+      "br_mult": 76.1,
+      "dd": 2522.8,
+      "ratio": 2.98,
+      "streak": 5,
+      "n_combos": 1102
+    },
+    {
+      "id": "AGRO_FHB_F7H5B3_pct7",
+      "strat": {
+        "id": "AGRO_FHB_F7H5B3_pct7",
+        "label": "Multi FHB aggro",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 7,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.07,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 33432.6,
+      "br_mult": 335.33,
+      "dd": 15537.0,
+      "ratio": 2.15,
+      "streak": 5,
+      "n_combos": 1102
+    },
+    {
+      "id": "AGRO_FHB_F7H5B3_pct10",
+      "strat": {
+        "id": "AGRO_FHB_F7H5B3_pct10",
+        "label": "Multi FHB aggro",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.3,
+            "cote_max": 1.55,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 7,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "ice-hockey",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          },
+          {
+            "sport": "basketball",
+            "market": "1x2",
+            "cote_min": 1.2,
+            "cote_max": 1.5,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.1,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 241339.0,
+      "br_mult": 2414.39,
+      "dd": 162553.8,
+      "ratio": 1.48,
+      "streak": 5,
+      "n_combos": 1102
+    },
+    {
+      "id": "TIERED_foo_mc3_low10",
+      "strat": {
+        "id": "TIERED_foo_mc3_low10",
+        "label": "Foot O 1.5 sizing tiered",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "risk_tiered",
+          "min_stake": 0.5,
+          "tiers": [
+            {
+              "cote_max": 1.5,
+              "pct": 0.1
+            },
+            {
+              "cote_max": 1.7,
+              "pct": 0.06999999999999999
+            },
+            {
+              "cote_max": 999,
+              "pct": 0.05
+            }
+          ]
+        }
+      },
+      "pnl": 1197.9,
+      "br_mult": 12.98,
+      "dd": 126.6,
+      "ratio": 9.46,
+      "streak": 4,
+      "n_combos": 218
+    },
+    {
+      "id": "TIERED_foo_mc3_low12",
+      "strat": {
+        "id": "TIERED_foo_mc3_low12",
+        "label": "Foot O 1.5 sizing tiered",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "risk_tiered",
+          "min_stake": 0.5,
+          "tiers": [
+            {
+              "cote_max": 1.5,
+              "pct": 0.12
+            },
+            {
+              "cote_max": 1.7,
+              "pct": 0.08399999999999999
+            },
+            {
+              "cote_max": 999,
+              "pct": 0.06
+            }
+          ]
+        }
+      },
+      "pnl": 1197.9,
+      "br_mult": 12.98,
+      "dd": 126.6,
+      "ratio": 9.46,
+      "streak": 4,
+      "n_combos": 218
+    },
+    {
+      "id": "TIERED_foo_mc3_low15",
+      "strat": {
+        "id": "TIERED_foo_mc3_low15",
+        "label": "Foot O 1.5 sizing tiered",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "risk_tiered",
+          "min_stake": 0.5,
+          "tiers": [
+            {
+              "cote_max": 1.5,
+              "pct": 0.15
+            },
+            {
+              "cote_max": 1.7,
+              "pct": 0.105
+            },
+            {
+              "cote_max": 999,
+              "pct": 0.075
+            }
+          ]
+        }
+      },
+      "pnl": 1197.9,
+      "br_mult": 12.98,
+      "dd": 126.6,
+      "ratio": 9.46,
+      "streak": 4,
+      "n_combos": 218
+    },
+    {
+      "id": "TIERED_foo_mc5_low10",
+      "strat": {
+        "id": "TIERED_foo_mc5_low10",
+        "label": "Foot O 1.5 sizing tiered",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "risk_tiered",
+          "min_stake": 0.5,
+          "tiers": [
+            {
+              "cote_max": 1.5,
+              "pct": 0.1
+            },
+            {
+              "cote_max": 1.7,
+              "pct": 0.06999999999999999
+            },
+            {
+              "cote_max": 999,
+              "pct": 0.05
+            }
+          ]
+        }
+      },
+      "pnl": 3543.9,
+      "br_mult": 36.44,
+      "dd": 444.2,
+      "ratio": 7.98,
+      "streak": 2,
+      "n_combos": 290
+    },
+    {
+      "id": "TIERED_foo_mc5_low12",
+      "strat": {
+        "id": "TIERED_foo_mc5_low12",
+        "label": "Foot O 1.5 sizing tiered",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "risk_tiered",
+          "min_stake": 0.5,
+          "tiers": [
+            {
+              "cote_max": 1.5,
+              "pct": 0.12
+            },
+            {
+              "cote_max": 1.7,
+              "pct": 0.08399999999999999
+            },
+            {
+              "cote_max": 999,
+              "pct": 0.06
+            }
+          ]
+        }
+      },
+      "pnl": 3543.9,
+      "br_mult": 36.44,
+      "dd": 444.2,
+      "ratio": 7.98,
+      "streak": 2,
+      "n_combos": 290
+    },
+    {
+      "id": "TIERED_foo_mc5_low15",
+      "strat": {
+        "id": "TIERED_foo_mc5_low15",
+        "label": "Foot O 1.5 sizing tiered",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "risk_tiered",
+          "min_stake": 0.5,
+          "tiers": [
+            {
+              "cote_max": 1.5,
+              "pct": 0.15
+            },
+            {
+              "cote_max": 1.7,
+              "pct": 0.105
+            },
+            {
+              "cote_max": 999,
+              "pct": 0.075
+            }
+          ]
+        }
+      },
+      "pnl": 3543.9,
+      "br_mult": 36.44,
+      "dd": 444.2,
+      "ratio": 7.98,
+      "streak": 2,
+      "n_combos": 290
+    }
+  ],
+  "viable": [
+    {
+      "id": "AGRO_foo_o15_mc3_pct5_wr0.65",
+      "strat": {
+        "id": "AGRO_foo_o15_mc3_pct5_wr0.65",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 287.8,
+      "br_mult": 3.88,
+      "dd": 19.1,
+      "ratio": 15.09,
+      "streak": 4,
+      "n_combos": 218
+    },
+    {
+      "id": "AGRO_foo_o15_mc3_pct5_wr0.6",
+      "strat": {
+        "id": "AGRO_foo_o15_mc3_pct5_wr0.6",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.6,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 267.8,
+      "br_mult": 3.68,
+      "dd": 18.1,
+      "ratio": 14.8,
+      "streak": 4,
+      "n_combos": 219
+    },
+    {
+      "id": "AGRO_foo_o15_mc3_pct5_wr0.7",
+      "strat": {
+        "id": "AGRO_foo_o15_mc3_pct5_wr0.7",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.7,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 251.2,
+      "br_mult": 3.51,
+      "dd": 17.3,
+      "ratio": 14.54,
+      "streak": 4,
+      "n_combos": 214
+    },
+    {
+      "id": "AGRO_foo_o15_mc5_pct5_wr0.65",
+      "strat": {
+        "id": "AGRO_foo_o15_mc5_pct5_wr0.65",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 570.9,
+      "br_mult": 6.71,
+      "dd": 40.5,
+      "ratio": 14.09,
+      "streak": 2,
+      "n_combos": 290
+    },
+    {
+      "id": "AGRO_foo_o15_mc5_pct5_wr0.6",
+      "strat": {
+        "id": "AGRO_foo_o15_mc5_pct5_wr0.6",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.6,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 536.3,
+      "br_mult": 6.36,
+      "dd": 38.4,
+      "ratio": 13.95,
+      "streak": 2,
+      "n_combos": 291
+    },
+    {
+      "id": "AGRO_foo_o15_mc5_pct5_wr0.7",
+      "strat": {
+        "id": "AGRO_foo_o15_mc5_pct5_wr0.7",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.7,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 492.1,
+      "br_mult": 5.92,
+      "dd": 36.5,
+      "ratio": 13.49,
+      "streak": 2,
+      "n_combos": 282
+    },
+    {
+      "id": "AGRO_foo_o15_mc3_pct7_wr0.65",
+      "strat": {
+        "id": "AGRO_foo_o15_mc3_pct7_wr0.65",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.07,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 539.7,
+      "br_mult": 6.4,
+      "dd": 43.9,
+      "ratio": 12.3,
+      "streak": 4,
+      "n_combos": 218
+    },
+    {
+      "id": "AGRO_foo_o15_mc3_pct7_wr0.6",
+      "strat": {
+        "id": "AGRO_foo_o15_mc3_pct7_wr0.6",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.6,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.07,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 493.0,
+      "br_mult": 5.93,
+      "dd": 40.7,
+      "ratio": 12.12,
+      "streak": 4,
+      "n_combos": 219
+    },
+    {
+      "id": "AGRO_foo_o15_mc3_pct7_wr0.7",
+      "strat": {
+        "id": "AGRO_foo_o15_mc3_pct7_wr0.7",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.7,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.07,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 457.1,
+      "br_mult": 5.57,
+      "dd": 38.2,
+      "ratio": 11.97,
+      "streak": 4,
+      "n_combos": 214
+    },
+    {
+      "id": "AGRO_foo_o15_mc3_pct8_wr0.65",
+      "strat": {
+        "id": "AGRO_foo_o15_mc3_pct8_wr0.65",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.08,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 714.5,
+      "br_mult": 8.14,
+      "dd": 63.7,
+      "ratio": 11.21,
+      "streak": 4,
+      "n_combos": 218
+    },
+    {
+      "id": "AGRO_foo_o15_mc3_pct8_wr0.6",
+      "strat": {
+        "id": "AGRO_foo_o15_mc3_pct8_wr0.6",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.6,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.08,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 646.0,
+      "br_mult": 7.46,
+      "dd": 58.4,
+      "ratio": 11.07,
+      "streak": 4,
+      "n_combos": 219
+    },
+    {
+      "id": "AGRO_foo_o15_mc3_pct8_wr0.7",
+      "strat": {
+        "id": "AGRO_foo_o15_mc3_pct8_wr0.7",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.7,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.08,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 595.5,
+      "br_mult": 6.96,
+      "dd": 54.4,
+      "ratio": 10.95,
+      "streak": 4,
+      "n_combos": 214
+    },
+    {
+      "id": "AGRO_foo_o15_mc5_pct7_wr0.65",
+      "strat": {
+        "id": "AGRO_foo_o15_mc5_pct7_wr0.65",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.07,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 1252.8,
+      "br_mult": 13.53,
+      "dd": 114.8,
+      "ratio": 10.91,
+      "streak": 2,
+      "n_combos": 290
+    },
+    {
+      "id": "AGRO_foo_o15_mc5_pct7_wr0.6",
+      "strat": {
+        "id": "AGRO_foo_o15_mc5_pct7_wr0.6",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.6,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.07,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 1153.9,
+      "br_mult": 12.54,
+      "dd": 106.4,
+      "ratio": 10.85,
+      "streak": 2,
+      "n_combos": 291
+    },
+    {
+      "id": "AGRO_foo_o15_mc5_pct7_wr0.7",
+      "strat": {
+        "id": "AGRO_foo_o15_mc5_pct7_wr0.7",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.7,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.07,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 1037.4,
+      "br_mult": 11.37,
+      "dd": 96.5,
+      "ratio": 10.75,
+      "streak": 2,
+      "n_combos": 282
+    },
+    {
+      "id": "AGRO_foo_o15_mc5_pct8_wr0.65",
+      "strat": {
+        "id": "AGRO_foo_o15_mc5_pct8_wr0.65",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.08,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 1797.3,
+      "br_mult": 18.97,
+      "dd": 184.3,
+      "ratio": 9.75,
+      "streak": 2,
+      "n_combos": 290
+    },
+    {
+      "id": "AGRO_foo_o15_mc5_pct8_wr0.6",
+      "strat": {
+        "id": "AGRO_foo_o15_mc5_pct8_wr0.6",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.6,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.08,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 1637.9,
+      "br_mult": 17.38,
+      "dd": 168.8,
+      "ratio": 9.7,
+      "streak": 2,
+      "n_combos": 291
+    },
+    {
+      "id": "AGRO_foo_o15_mc5_pct8_wr0.7",
+      "strat": {
+        "id": "AGRO_foo_o15_mc5_pct8_wr0.7",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 5,
+            "min_wr": 0.7,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.08,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 1457.7,
+      "br_mult": 15.58,
+      "dd": 151.3,
+      "ratio": 9.63,
+      "streak": 2,
+      "n_combos": 282
+    },
+    {
+      "id": "AGRO_foo_o15_mc3_pct10_wr0.65",
+      "strat": {
+        "id": "AGRO_foo_o15_mc3_pct10_wr0.65",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.1,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 1197.9,
+      "br_mult": 12.98,
+      "dd": 126.6,
+      "ratio": 9.46,
+      "streak": 4,
+      "n_combos": 218
+    },
+    {
+      "id": "TIERED_foo_mc3_low10",
+      "strat": {
+        "id": "TIERED_foo_mc3_low10",
+        "label": "Foot O 1.5 sizing tiered",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "risk_tiered",
+          "min_stake": 0.5,
+          "tiers": [
+            {
+              "cote_max": 1.5,
+              "pct": 0.1
+            },
+            {
+              "cote_max": 1.7,
+              "pct": 0.06999999999999999
+            },
+            {
+              "cote_max": 999,
+              "pct": 0.05
+            }
+          ]
+        }
+      },
+      "pnl": 1197.9,
+      "br_mult": 12.98,
+      "dd": 126.6,
+      "ratio": 9.46,
+      "streak": 4,
+      "n_combos": 218
+    },
+    {
+      "id": "TIERED_foo_mc3_low12",
+      "strat": {
+        "id": "TIERED_foo_mc3_low12",
+        "label": "Foot O 1.5 sizing tiered",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "risk_tiered",
+          "min_stake": 0.5,
+          "tiers": [
+            {
+              "cote_max": 1.5,
+              "pct": 0.12
+            },
+            {
+              "cote_max": 1.7,
+              "pct": 0.08399999999999999
+            },
+            {
+              "cote_max": 999,
+              "pct": 0.06
+            }
+          ]
+        }
+      },
+      "pnl": 1197.9,
+      "br_mult": 12.98,
+      "dd": 126.6,
+      "ratio": 9.46,
+      "streak": 4,
+      "n_combos": 218
+    },
+    {
+      "id": "TIERED_foo_mc3_low15",
+      "strat": {
+        "id": "TIERED_foo_mc3_low15",
+        "label": "Foot O 1.5 sizing tiered",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "risk_tiered",
+          "min_stake": 0.5,
+          "tiers": [
+            {
+              "cote_max": 1.5,
+              "pct": 0.15
+            },
+            {
+              "cote_max": 1.7,
+              "pct": 0.105
+            },
+            {
+              "cote_max": 999,
+              "pct": 0.075
+            }
+          ]
+        }
+      },
+      "pnl": 1197.9,
+      "br_mult": 12.98,
+      "dd": 126.6,
+      "ratio": 9.46,
+      "streak": 4,
+      "n_combos": 218
+    },
+    {
+      "id": "AGRO_foo_o15_mc3_pct10_wr0.6",
+      "strat": {
+        "id": "AGRO_foo_o15_mc3_pct10_wr0.6",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.6,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.1,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 1059.8,
+      "br_mult": 11.6,
+      "dd": 113.1,
+      "ratio": 9.37,
+      "streak": 4,
+      "n_combos": 219
+    },
+    {
+      "id": "AGRO_foo_o15_mc3_pct10_wr0.7",
+      "strat": {
+        "id": "AGRO_foo_o15_mc3_pct10_wr0.7",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.7,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.1,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 965.9,
+      "br_mult": 10.66,
+      "dd": 104.0,
+      "ratio": 9.29,
+      "streak": 4,
+      "n_combos": 214
+    },
+    {
+      "id": "AGRO_foo_o15_mc3_pct12_wr0.7",
+      "strat": {
+        "id": "AGRO_foo_o15_mc3_pct12_wr0.7",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 3,
+            "min_wr": 0.7,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.12,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 1497.1,
+      "br_mult": 15.97,
+      "dd": 186.6,
+      "ratio": 8.02,
+      "streak": 4,
+      "n_combos": 214
+    },
+    {
+      "id": "AGRO_foo_o15_mc10_pct5_wr0.65",
+      "strat": {
+        "id": "AGRO_foo_o15_mc10_pct5_wr0.65",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 10,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 667.9,
+      "br_mult": 7.68,
+      "dd": 117.3,
+      "ratio": 5.69,
+      "streak": 3,
+      "n_combos": 394
+    },
+    {
+      "id": "AGRO_foo_o15_mc10_pct5_wr0.6",
+      "strat": {
+        "id": "AGRO_foo_o15_mc10_pct5_wr0.6",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 10,
+            "min_wr": 0.6,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 647.4,
+      "br_mult": 7.47,
+      "dd": 114.2,
+      "ratio": 5.67,
+      "streak": 3,
+      "n_combos": 396
+    },
+    {
+      "id": "AGRO_foo_o15_mc10_pct5_wr0.7",
+      "strat": {
+        "id": "AGRO_foo_o15_mc10_pct5_wr0.7",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 10,
+            "min_wr": 0.7,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 557.8,
+      "br_mult": 6.58,
+      "dd": 100.5,
+      "ratio": 5.55,
+      "streak": 2,
+      "n_combos": 364
+    },
+    {
+      "id": "AGRO_foo_o15_mc7_pct5_wr0.7",
+      "strat": {
+        "id": "AGRO_foo_o15_mc7_pct5_wr0.7",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 7,
+            "min_wr": 0.7,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 598.6,
+      "br_mult": 6.99,
+      "dd": 134.1,
+      "ratio": 4.46,
+      "streak": 2,
+      "n_combos": 327
+    },
+    {
+      "id": "AGRO_foo_o15_mc7_pct5_wr0.65",
+      "strat": {
+        "id": "AGRO_foo_o15_mc7_pct5_wr0.65",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 7,
+            "min_wr": 0.65,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 615.5,
+      "br_mult": 7.16,
+      "dd": 139.9,
+      "ratio": 4.4,
+      "streak": 2,
+      "n_combos": 343
+    },
+    {
+      "id": "AGRO_foo_o15_mc7_pct5_wr0.6",
+      "strat": {
+        "id": "AGRO_foo_o15_mc7_pct5_wr0.6",
+        "label": "Foot O 1.5 aggro sizing",
+        "components": [
+          {
+            "sport": "football",
+            "market": "over_1_5",
+            "cote_min": 1.4,
+            "cote_max": 1.65,
+            "sort_by": "wr",
+            "max_legs": 1,
+            "max_combos": 7,
+            "min_wr": 0.6,
+            "min_ev": null
+          }
+        ],
+        "dedup": "max1",
+        "sizing": {
+          "mode": "flat_pct",
+          "pct": 0.05,
+          "min_stake": 0.5
+        }
+      },
+      "pnl": 578.6,
+      "br_mult": 6.79,
+      "dd": 132.6,
+      "ratio": 4.36,
+      "streak": 2,
+      "n_combos": 344
+    }
+  ]
+}

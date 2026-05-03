@@ -1,0 +1,28 @@
+{
+  "id": "montante_o15_combo4j_ev_x4p_balance",
+  "label": "🪜⚽💎⚖️ Over 1.5 combo 4j ×4P sort EV cote 1.10-1.30 — 10% balance +1234€",
+  "description": "★ BALANCE FORTE : Combo 4j Over 1.5 cote 1.10-1.30 sort EV, **4 paliers**. **10% completion** (8/79) cap 253€/cycle. PnL +1234€ S1-26 + Avril +444€. Sweet spot fréquence/capital — 8 cycles complets sur 4 mois (~2/mois) avec cap 253€/cycle.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football"], "market": "over_1_5",
+    "cote_min": 1.10, "cote_max": 1.30,
+    "sort_by": "ev", "max_legs": 4, "max_combos": 1,
+    "min_wr": null, "min_ev": null,
+    "legs_per_palier": 4
+  }],
+  "montante": {"initial_stake": 10, "n_paliers_target": 4, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 4},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict)",
+    "n_cycles_complete": 8,
+    "n_cycles_total": 79,
+    "completion_rate": 0.10,
+    "wr_palier_combo": 0.54,
+    "avg_capital_complete": 253,
+    "pnl_net_s1": 1234,
+    "april_pnl": 444,
+    "note": "★ BALANCE PARFAIT : 10% completion + +1234€ S1 + +444€ Apr. Cap 253€/cycle. Combo 4j sort EV ×4 paliers — meilleur ratio fréquence/gain de la lib."
+  }
+}

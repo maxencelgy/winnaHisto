@@ -1,0 +1,25 @@
+{
+  "id": "montante_foot_1x2_x2p_value",
+  "label": "🪜⚽💎📊 Foot 1x2 ×2P cote 1.55-1.75 EV — 44% +196€ S1 + +71€ Avril",
+  "description": "Foot 1x2 single value (sort EV) cote 1.55-1.75, 2 paliers. **44% completion** cap 27€/cycle. PnL +196€ S1 + Avril +71€. Le seul profil Foot 1x2 mid-cote sort EV ×2P de la lib (les autres foot étaient OU ou BTTS).",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football"], "market": "1x2",
+    "cote_min": 1.55, "cote_max": 1.75,
+    "sort_by": "ev", "max_legs": 1, "max_combos": 1,
+    "min_wr": null, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 10, "n_paliers_target": 2, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict)",
+    "completion_rate": 0.44,
+    "avg_capital_complete": 27,
+    "pnl_net_s1": 196,
+    "april_pnl": 71,
+    "note": "Foot 1x2 mid-cote 1.55-1.75 sort EV → 44% completion. Profil 'value foot' simple ×2 paliers."
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "montante_basket_combo2j_x2p_practical",
+  "label": "🪜🏀⭐ Basket combo 2j ×2P cote 1.25-1.45 EV — 40% completion +284€",
+  "description": "★ NOUVEAU : Basket-only montante. Combo 2 jambes basket cote 1.25-1.45 par leg, sort EV, 2 paliers. **40% completion** sur S1-26 → cap 34€/cycle, PnL +284€. Apr -15€ (Avril dur basket sans NHL boost). Premier profil Basket-only de la lib.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["basketball"], "market": "1x2",
+    "cote_min": 1.25, "cote_max": 1.45,
+    "sort_by": "ev", "max_legs": 2, "max_combos": 1,
+    "min_wr": null, "min_ev": null,
+    "legs_per_palier": 2
+  }],
+  "montante": {"initial_stake": 10, "n_paliers_target": 2, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 2},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict)",
+    "completion_rate": 0.40,
+    "avg_capital_complete": 34,
+    "pnl_net_s1": 284,
+    "april_pnl": -15,
+    "note": "Premier Basket-only montante validé. 40% completion + +284€ S1. NBA + EuroLeague + ACB."
+  }
+}

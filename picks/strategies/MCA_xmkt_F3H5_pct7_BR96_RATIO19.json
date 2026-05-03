@@ -1,0 +1,31 @@
+{
+  "id": "MCA_xmkt_F3H5_pct7_BR96_RATIO19",
+  "label": "🏒⚽🇫🇷👑👑 Foot xmkt F3+H5 pct7 — BR×96 ratio 18.9× DEMI-DIEU WFR",
+  "description": "★★★★★ NEW DEMI-DIEU Winamax FR : 3 picks Foot OU 1.5/2.5 cote 1.20-1.40 + 5 picks Hockey 1x2 cote 1.20-1.50 WR≥65%, sizing **7%**. **BR×96** (PnL +9502€), **ratio 18.9×** (record absolu lib WFR), DD 501€. 605 combos sur 4 mois (~5/jour). Le compromis ULTIME puissance/safety.",
+  "components": [{
+    "sport": "football", "market": "over_1_5,over_2_5",
+    "cote_min": 1.20, "cote_max": 1.40,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 3,
+    "min_wr": null, "min_ev": null,
+    "label": "Foot OU xmkt (3)"
+  }, {
+    "sport": "ice-hockey", "market": "1x2",
+    "cote_min": 1.20, "cote_max": 1.50,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 5,
+    "min_wr": 0.65, "min_ev": null,
+    "label": "Hockey safe (5)"
+  }],
+  "dedup": "max1",
+  "sizing": {"mode": "flat_pct", "pct": 0.07, "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "source": "find_wfr_multicomp_aggro",
+    "pnl": 9502,
+    "bankroll_multiplier": 96.0,
+    "dd": 501,
+    "ratio_pnl_dd": 18.9,
+    "n_combos": 605,
+    "winamax_fr": true,
+    "note": "★★★★★ RECORD RATIO ABSOLU 18.9× lib WFR. Combine 3 OU foot + 5 hockey = ~8 picks/jour. Sizing 7% sweet."
+  }
+}
