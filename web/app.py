@@ -214,6 +214,50 @@ HYBRID_PRESETS = {
         ],
         "dedup": "max1",
     },
+    "Foot_safe_18_21": {
+        "label": "Foot_safe_18_21 — 4 singles foot 1x2 cote 1.85-2.10 sort EV [edges 8 ans : TOP5/UEFA/Brasileirão A cote moyenne, n>100 buckets]",
+        "components": [
+            {"max_legs": 1, "cote_min": 1.85, "cote_max": 2.10, "sort_by": "ev",
+             "sports": ["football"], "max_combos": 4},
+        ],
+        "dedup": "max1",
+    },
+    "Foot_outsiders_4_6": {
+        "label": "Foot_outsiders_4_6 — 3 singles foot 1x2 cote 4-6 sort EV [edges persistantes : LaLiga 2 / Ligue 2 / Serie B / Brasileirão B, EV +30%]",
+        "components": [
+            {"max_legs": 1, "cote_min": 4.0, "cote_max": 6.0, "sort_by": "ev",
+             "sports": ["football"], "max_combos": 3},
+        ],
+        "dedup": "max1",
+    },
+    "Foot_dual_edge_8ans": {
+        "label": "Foot_dual_edge_8ans — combos 2j (1× cote 1.85-2.10 + 1× cote 4-6) [exploite les 2 edges persistantes simultanément]",
+        "components": [
+            {"max_legs": 2, "cote_min": 7.4, "cote_max": 12.6, "sort_by": "ev",
+             "sports": ["football"], "max_combos": 3},
+        ],
+        "dedup": "max1",
+    },
+    "Basket_persistent_edge": {
+        "label": "Basket_persistent_edge — 2 singles basket cote 2.5-3.5 sort EV [BBL/Euroleague edges 8 ans]",
+        "components": [
+            {"max_legs": 1, "cote_min": 2.5, "cote_max": 3.5, "sort_by": "ev",
+             "sports": ["basketball"], "max_combos": 2},
+        ],
+        "dedup": "max1",
+    },
+    "Multi_8ans_persistent": {
+        "label": "Multi_8ans_persistent — 4 foot safe 1.85-2.10 + 2 foot outsiders 4-6 + 2 basket 2.5-3.5 [combo des 3 edges 8 ans]",
+        "components": [
+            {"max_legs": 1, "cote_min": 1.85, "cote_max": 2.10, "sort_by": "ev",
+             "sports": ["football"], "max_combos": 4},
+            {"max_legs": 1, "cote_min": 4.0, "cote_max": 6.0, "sort_by": "ev",
+             "sports": ["football"], "max_combos": 2},
+            {"max_legs": 1, "cote_min": 2.5, "cote_max": 3.5, "sort_by": "ev",
+             "sports": ["basketball"], "max_combos": 2},
+        ],
+        "dedup": "max1",
+    },
     "Foot_mix_3j_over15": {
         "label": "Foot_mix_3j_over15 — 3 combos 3j MIX (Over 1.5 + 1x2 safe Home/Away) cote totale 2.5-5.0 [walk-forward OOS : +4423€/+3166€ sem, série rouge 3j max ⭐⭐⭐⭐]",
         "components": [

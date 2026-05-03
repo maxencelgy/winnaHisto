@@ -121,14 +121,20 @@ MAGIC_FALLBACK = {
 
 
 def fetch(url, retries=2):
-    for i in range(retries + 1):
-        try:
-            req = urllib.request.Request(url, headers=HEADERS)
-            with urllib.request.urlopen(req, context=ctx, timeout=10) as r:
-                return json.loads(r.read())
-        except Exception:
-            if i == retries:
-                return None
+    """Délègue à sofascore_massive.fetch (Camoufox bypass Cloudflare)."""
+    try:
+        from sofascore_massive import fetch as _fetch
+        return _fetch(url, retries=retries)
+    except ImportError:
+        # Fallback urllib (probablement bloqué par Cloudflare)
+        for i in range(retries + 1):
+            try:
+                req = urllib.request.Request(url, headers=HEADERS)
+                with urllib.request.urlopen(req, context=ctx, timeout=10) as r:
+                    return json.loads(r.read())
+            except Exception:
+                if i == retries:
+                    return None
 
 
 def frac_to_dec(s):

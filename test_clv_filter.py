@@ -88,14 +88,17 @@ def compare(pinnacle_events, sofa_events, threshold=1.05, devig_method="power"):
     matched = 0
     passed = 0
     for sofa in sofa_events:
+        # morning_live utilise start_time = unix timestamp
+        st = sofa.get("start_time") or sofa.get("startTime") or sofa.get("startsAt") or sofa.get("kickoff")
+        if isinstance(st, (int, float)):
+            st = datetime.fromtimestamp(st, tz=timezone.utc).isoformat()
         target = {
             "home": sofa.get("home"),
             "away": sofa.get("away"),
-            "starts": sofa.get("startTime") or sofa.get("startsAt") or sofa.get("kickoff"),
+            "starts": st,
         }
-        # morning_live n'inclut pas startTime — on fallback sur date du jour si manquant
         if not target["starts"]:
-            target["starts"] = datetime.now(timezone.utc).isoformat()
+            continue  # skip events sans timestamp pour éviter false matches
 
         pinn = find_matching(pinnacle_events, target, tol_minutes=180, min_similarity=0.65)
         if not pinn or not pinn.get("moneyline"):

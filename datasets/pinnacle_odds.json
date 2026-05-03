@@ -1,0 +1,3401 @@
+{
+  "captured_at": "2026-05-03T07:37:30.363409+00:00",
+  "events": [
+    {
+      "pinnacle_id": 1629799990,
+      "sport": "football",
+      "league": "Slovakia - Super Liga Corners",
+      "starts": "2026-05-05T16:00:00Z",
+      "home": "Zilina (Corners)",
+      "away": "Zemplin Michalovce (Corners)",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 1.4202,
+        "away": 6.2,
+        "draw": 4.76
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 300
+    },
+    {
+      "pinnacle_id": 1629454495,
+      "sport": "football",
+      "league": "Slovenia - 3. SNL",
+      "starts": "2026-05-03T12:30:00Z",
+      "home": "Rudar Trbovlje",
+      "away": "NK Sencur",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 2.52,
+        "away": 2.2,
+        "draw": 3.65
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 125
+    },
+    {
+      "pinnacle_id": 1629393180,
+      "sport": "football",
+      "league": "Hungary - NB 1",
+      "starts": "2026-05-03T14:00:00Z",
+      "home": "Ujpest",
+      "away": "Ferencvaros",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 5.58,
+        "away": 1.5405,
+        "draw": 4.37
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 600
+    },
+    {
+      "pinnacle_id": 1629764273,
+      "sport": "football",
+      "league": "Argentina - Primera Division Women",
+      "starts": "2026-05-03T12:00:00Z",
+      "home": "Huracan",
+      "away": "Union de Santa Fe",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 1.5236,
+        "away": 6.01,
+        "draw": 3.73
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 300
+    },
+    {
+      "pinnacle_id": 1629517714,
+      "sport": "football",
+      "league": "Azerbaijan - Premier League",
+      "starts": "2026-05-04T15:30:00Z",
+      "home": "Qarabag",
+      "away": "Turan Tovuz",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 1.4739,
+        "away": 6.21,
+        "draw": 3.97
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 100
+    },
+    {
+      "pinnacle_id": 1629837545,
+      "sport": "football",
+      "league": "Scotland - Premiership",
+      "starts": "2026-05-05T18:45:00Z",
+      "home": "Dunfermline Athletic",
+      "away": "Arbroath",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 2.26,
+        "away": 3.22,
+        "draw": 3.37
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 675
+    },
+    {
+      "pinnacle_id": 1629454222,
+      "sport": "football",
+      "league": "Spain - Segunda RFEF Group 3",
+      "starts": "2026-05-03T10:00:00Z",
+      "home": "Andratx",
+      "away": "Atletic Lleida",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 2.33,
+        "away": 2.79,
+        "draw": 2.97
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 200
+    },
+    {
+      "pinnacle_id": 1629676739,
+      "sport": "football",
+      "league": "Ecuador - Serie A Corners",
+      "starts": "2026-05-03T20:30:00Z",
+      "home": "Delfin (Corners)",
+      "away": "Mushuc Runa (Corners)",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 2.24,
+        "away": 3.54,
+        "draw": 3.07
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 400
+    },
+    {
+      "pinnacle_id": 1629454396,
+      "sport": "football",
+      "league": "Finland - Kakkonen Group C",
+      "starts": "2026-05-03T14:00:00Z",
+      "home": "VPS II",
+      "away": "Narpes Kraft",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 1.5848,
+        "away": 3.9,
+        "draw": 4.43
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 175
+    },
+    {
+      "pinnacle_id": 1629465815,
+      "sport": "football",
+      "league": "Ireland - Division 1",
+      "starts": "2026-05-04T16:00:00Z",
+      "home": "Treaty United",
+      "away": "Wexford",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 3.2,
+        "away": 2.14,
+        "draw": 3.47
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 400
+    },
+    {
+      "pinnacle_id": 1629964265,
+      "sport": "football",
+      "league": "Hungary - NB 3",
+      "starts": "2026-05-03T09:00:00Z",
+      "home": "Ujpest II",
+      "away": "Haladas",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 2.55,
+        "away": 2.33,
+        "draw": 3.44
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 100
+    },
+    {
+      "pinnacle_id": 1629454441,
+      "sport": "football",
+      "league": "Spain - Segunda RFEF Group 2",
+      "starts": "2026-05-03T10:00:00Z",
+      "home": "Ebro",
+      "away": "UD Logrones",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 3.56,
+        "away": 1.9259,
+        "draw": 3.08
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 200
+    },
+    {
+      "pinnacle_id": 1629851898,
+      "sport": "football",
+      "league": "Mexico - Liga MX",
+      "starts": "2026-05-10T01:07:00Z",
+      "home": "Chivas Guadalajara",
+      "away": "Tigres UANL",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 1.9901,
+        "away": 3.66,
+        "draw": 3.64
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 300
+    },
+    {
+      "pinnacle_id": 1629725923,
+      "sport": "football",
+      "league": "Austria - 2. Liga",
+      "starts": "2026-05-08T16:00:00Z",
+      "home": "FC Liefering",
+      "away": "Admira Wacker",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 3.17,
+        "away": 2.03,
+        "draw": 3.85
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 200
+    },
+    {
+      "pinnacle_id": 1629647380,
+      "sport": "football",
+      "league": "Belgium - Pro League Corners",
+      "starts": "2026-05-03T14:00:00Z",
+      "home": "Royal Antwerp (Corners)",
+      "away": "Standard Liege (Corners)",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 1.8403,
+        "away": 4.35,
+        "draw": 3.81
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 1350
+    },
+    {
+      "pinnacle_id": 1629676743,
+      "sport": "football",
+      "league": "Colombia - Primera A Corners",
+      "starts": "2026-05-03T20:30:00Z",
+      "home": "Deportes Tolima (Corners)",
+      "away": "Deportivo Cali (Corners)",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 2.34,
+        "away": 3.07,
+        "draw": 3.21
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 300
+    },
+    {
+      "pinnacle_id": 1629476527,
+      "sport": "football",
+      "league": "Portugal - Liga 2",
+      "starts": "2026-05-04T17:00:00Z",
+      "home": "Torreense",
+      "away": "Penafiel",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 1.7937,
+        "away": 4.35,
+        "draw": 3.57
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 500
+    },
+    {
+      "pinnacle_id": 1629454229,
+      "sport": "football",
+      "league": "Spain - Segunda RFEF Group 5",
+      "starts": "2026-05-03T10:00:00Z",
+      "home": "RSD Alcala SAD",
+      "away": "Coria",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 2.35,
+        "away": 2.74,
+        "draw": 3.0
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 200
+    },
+    {
+      "pinnacle_id": 1629411025,
+      "sport": "football",
+      "league": "Brazil - Serie B",
+      "starts": "2026-05-03T21:00:00Z",
+      "home": "Sport Recife",
+      "away": "Ceara",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 2.4,
+        "away": 3.35,
+        "draw": 3.04
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 600
+    },
+    {
+      "pinnacle_id": 1629464760,
+      "sport": "football",
+      "league": "Hungary - NB 2",
+      "starts": "2026-05-03T15:00:00Z",
+      "home": "Kozarmisleny",
+      "away": "Kecskemeti TE",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 3.72,
+        "away": 1.8,
+        "draw": 3.56
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 175
+    },
+    {
+      "pinnacle_id": 1629869904,
+      "sport": "football",
+      "league": "Ireland - Division 1 Corners",
+      "starts": "2026-05-04T16:00:00Z",
+      "home": "Kerry (Corners)",
+      "away": "Cork City (Corners)",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 6.58,
+        "away": 1.4587,
+        "draw": 4.22
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 400
+    },
+    {
+      "pinnacle_id": 1629764280,
+      "sport": "football",
+      "league": "Italy - Serie C",
+      "starts": "2026-05-03T18:00:00Z",
+      "home": "Lumezzane",
+      "away": "Alcione",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 2.43,
+        "away": 3.05,
+        "draw": 2.95
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 450
+    },
+    {
+      "pinnacle_id": 1629602838,
+      "sport": "football",
+      "league": "CONMEBOL - Copa Sudamericana",
+      "starts": "2026-05-07T00:00:00Z",
+      "home": "Barracas Central",
+      "away": "Olimpia Asuncion",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 2.72,
+        "away": 2.79,
+        "draw": 2.97
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 200
+    },
+    {
+      "pinnacle_id": 1629640963,
+      "sport": "football",
+      "league": "Mexico - Liga MX Women",
+      "starts": "2026-05-04T01:00:00Z",
+      "home": "Tigres UANL",
+      "away": "Deportivo Toluca",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 1.5464,
+        "away": 5.02,
+        "draw": 4.3
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 300
+    },
+    {
+      "pinnacle_id": 1629454227,
+      "sport": "football",
+      "league": "Spain - Primera RFEF Group 1",
+      "starts": "2026-05-03T10:00:00Z",
+      "home": "Arenteiro",
+      "away": "Cacereno",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 2.05,
+        "away": 2.78,
+        "draw": 3.6
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 500
+    },
+    {
+      "pinnacle_id": 1629685210,
+      "sport": "football",
+      "league": "Saudi Arabia - Pro League Corners",
+      "starts": "2026-05-03T16:00:00Z",
+      "home": "Al-Shabab (Corners)",
+      "away": "Al-Taawoun (Corners)",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 2.2,
+        "away": 3.17,
+        "draw": 3.56
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 900
+    },
+    {
+      "pinnacle_id": 1629982392,
+      "sport": "football",
+      "league": "Costa Rica - Primera Division",
+      "starts": "2026-05-10T02:00:00Z",
+      "home": "Herediano",
+      "away": "Cartagines",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 1.8772,
+        "away": 4.05,
+        "draw": 3.45
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 100
+    },
+    {
+      "pinnacle_id": 1629619378,
+      "sport": "football",
+      "league": "Japan - J League",
+      "starts": "2026-05-06T07:00:00Z",
+      "home": "Kashima Antlers",
+      "away": "Mito HollyHock",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 1.641,
+        "away": 5.23,
+        "draw": 3.76
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 150
+    },
+    {
+      "pinnacle_id": 1629185146,
+      "sport": "football",
+      "league": "Colombia - Primera A",
+      "starts": "2026-05-03T20:30:00Z",
+      "home": "Deportes Tolima",
+      "away": "Deportivo Cali",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 2.34,
+        "away": 3.07,
+        "draw": 3.21
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 300
+    },
+    {
+      "pinnacle_id": 1629764182,
+      "sport": "football",
+      "league": "Argentina - Liga Pro Corners",
+      "starts": "2026-05-05T00:30:00Z",
+      "home": "Estudiantes Rio Cuarto (Corners)",
+      "away": "Instituto (Corners)",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 3.24,
+        "away": 2.41,
+        "draw": 2.93
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 375
+    },
+    {
+      "pinnacle_id": 1629465809,
+      "sport": "football",
+      "league": "Norway - Toppserien Women",
+      "starts": "2026-05-03T16:00:00Z",
+      "home": "Bodo Glimt",
+      "away": "Stabaek",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 4.53,
+        "away": 1.5714,
+        "draw": 4.26
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 300
+    },
+    {
+      "pinnacle_id": 1629682629,
+      "sport": "football",
+      "league": "Uruguay - Primera Division Corners",
+      "starts": "2026-05-03T23:00:00Z",
+      "home": "Albion (Corners)",
+      "away": "Nacional de Football (Corners)",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 3.34,
+        "away": 2.25,
+        "draw": 3.23
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 500
+    },
+    {
+      "pinnacle_id": 1629837500,
+      "sport": "football",
+      "league": "France - Ligue 2",
+      "starts": "2026-05-09T18:00:00Z",
+      "home": "Grenoble",
+      "away": "Troyes",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 3.86,
+        "away": 1.9259,
+        "draw": 3.59
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 300
+    },
+    {
+      "pinnacle_id": 1629454403,
+      "sport": "football",
+      "league": "Chinese Taipei - Premier League",
+      "starts": "2026-05-03T08:00:00Z",
+      "home": "Taichung Rock",
+      "away": "Tatung",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 2.8,
+        "away": 2.37,
+        "draw": 3.21
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 300
+    },
+    {
+      "pinnacle_id": 1629454351,
+      "sport": "football",
+      "league": "Spain - Segunda RFEF Group 4",
+      "starts": "2026-05-03T10:00:00Z",
+      "home": "Real Jaen",
+      "away": "Antoniano",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 1.5556,
+        "away": 9.03,
+        "draw": 2.72
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 200
+    },
+    {
+      "pinnacle_id": 1629964328,
+      "sport": "football",
+      "league": "Sweden - 2nd Div. Norra Gotaland",
+      "starts": "2026-05-03T13:00:00Z",
+      "home": "Stenungsunds",
+      "away": "IF Karlstad II",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 2.22,
+        "away": 2.59,
+        "draw": 3.47
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 125
+    },
+    {
+      "pinnacle_id": 1629454259,
+      "sport": "football",
+      "league": "China - League One",
+      "starts": "2026-05-03T11:30:00Z",
+      "home": "Meizhou Hakka",
+      "away": "Shenzhen Juniors",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 3.44,
+        "away": 1.9709,
+        "draw": 3.48
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 450
+    },
+    {
+      "pinnacle_id": 1629462754,
+      "sport": "football",
+      "league": "Ghana - Premier League",
+      "starts": "2026-05-03T15:00:00Z",
+      "home": "Aduana Stars",
+      "away": "Heart of Lions",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 1.4587,
+        "away": 6.46,
+        "draw": 3.5
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 125
+    },
+    {
+      "pinnacle_id": 1629462750,
+      "sport": "football",
+      "league": "Russia - First League",
+      "starts": "2026-05-03T15:00:00Z",
+      "home": "Fakel Voronezh",
+      "away": "Yenisey Krasnoyarsk",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 1.8403,
+        "away": 4.75,
+        "draw": 3.4
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 600
+    },
+    {
+      "pinnacle_id": 1629860824,
+      "sport": "football",
+      "league": "USA - Major League Soccer",
+      "starts": "2026-05-10T02:30:00Z",
+      "home": "Portland Timbers",
+      "away": "Sporting Kansas City",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 1.5102,
+        "away": 5.39,
+        "draw": 4.8
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 350
+    },
+    {
+      "pinnacle_id": 1629620718,
+      "sport": "football",
+      "league": "Netherlands - Eredivisie Corners",
+      "starts": "2026-05-03T10:15:00Z",
+      "home": "Volendam (Corners)",
+      "away": "Heerenveen (Corners)",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 3.38,
+        "away": 2.03,
+        "draw": 4.06
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 2400
+    },
+    {
+      "pinnacle_id": 1629791941,
+      "sport": "football",
+      "league": "Czech Republic - First Liga",
+      "starts": "2026-05-09T12:00:00Z",
+      "home": "Mlada Boleslav",
+      "away": "Zlin",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 2.1,
+        "away": 3.39,
+        "draw": 3.42
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 250
+    },
+    {
+      "pinnacle_id": 1629476463,
+      "sport": "football",
+      "league": "Chile - Primera B",
+      "starts": "2026-05-05T00:30:00Z",
+      "home": "San Marcos de Arica",
+      "away": "Deportes Recoleta",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 1.8547,
+        "away": 4.02,
+        "draw": 3.28
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 100
+    },
+    {
+      "pinnacle_id": 1629462778,
+      "sport": "football",
+      "league": "Belarus - Premier League",
+      "starts": "2026-05-03T16:00:00Z",
+      "home": "Dinamo Minsk",
+      "away": "Maxline Vitebsk",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 2.99,
+        "away": 2.57,
+        "draw": 2.82
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 450
+    },
+    {
+      "pinnacle_id": 1629454204,
+      "sport": "football",
+      "league": "Czech Republic - FNL",
+      "starts": "2026-05-03T08:15:00Z",
+      "home": "Viktoria Zizkov",
+      "away": "Taborsko",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 2.73,
+        "away": 2.39,
+        "draw": 3.58
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 750
+    },
+    {
+      "pinnacle_id": 1629455975,
+      "sport": "football",
+      "league": "Italy - Serie A Bookings",
+      "starts": "2026-05-03T10:30:00Z",
+      "home": "Bologna (Bookings)",
+      "away": "Cagliari (Bookings)",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 1.9346,
+        "away": 4.6,
+        "draw": 3.39
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 15000
+    },
+    {
+      "pinnacle_id": 1629647394,
+      "sport": "football",
+      "league": "England - National League Corners",
+      "starts": "2026-05-03T14:00:00Z",
+      "home": "Rochdale (Corners)",
+      "away": "Scunthorpe United (Corners)",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 1.7519,
+        "away": 4.41,
+        "draw": 3.9
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 600
+    },
+    {
+      "pinnacle_id": 1629476479,
+      "sport": "football",
+      "league": "Colombia - Liga Women",
+      "starts": "2026-05-03T20:00:00Z",
+      "home": "Orsomarso",
+      "away": "Internacional de Palmira",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 2.46,
+        "away": 2.6,
+        "draw": 3.19
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 125
+    },
+    {
+      "pinnacle_id": 1629623204,
+      "sport": "football",
+      "league": "Sweden - Superettan Corners",
+      "starts": "2026-05-03T11:00:00Z",
+      "home": "Ostersunds FK (Corners)",
+      "away": "Varnamo (Corners)",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 2.75,
+        "away": 2.61,
+        "draw": 3.33
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 1000
+    },
+    {
+      "pinnacle_id": 1629573646,
+      "sport": "football",
+      "league": "Israel - Premier League",
+      "starts": "2026-05-05T16:00:00Z",
+      "home": "Hapoel Tel Aviv",
+      "away": "Beitar Jerusalem",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 3.14,
+        "away": 2.22,
+        "draw": 3.36
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 300
+    },
+    {
+      "pinnacle_id": 1628810148,
+      "sport": "football",
+      "league": "Germany - Bundesliga",
+      "starts": "2026-05-03T17:30:00Z",
+      "home": "Freiburg",
+      "away": "Wolfsburg",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 2.56,
+        "away": 2.73,
+        "draw": 3.63
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 5000
+    },
+    {
+      "pinnacle_id": 1629476543,
+      "sport": "football",
+      "league": "Argentina - Primera Division Women",
+      "starts": "2026-05-03T18:30:00Z",
+      "home": "Newells Old Boys",
+      "away": "Talleres de Cordoba",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 2.52,
+        "away": 2.61,
+        "draw": 3.22
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 300
+    },
+    {
+      "pinnacle_id": 1629596411,
+      "sport": "football",
+      "league": "Jordan - Pro League",
+      "starts": "2026-05-03T16:00:00Z",
+      "home": "Al Salt",
+      "away": "Al Wehdat",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 6.8,
+        "away": 1.4184,
+        "draw": 3.95
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 175
+    },
+    {
+      "pinnacle_id": 1629901593,
+      "sport": "football",
+      "league": "Poland - 1st Liga",
+      "starts": "2026-05-07T16:00:00Z",
+      "home": "LKS Lodz",
+      "away": "Pogon Grodzisk Mazowiecki",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 1.813,
+        "away": 3.96,
+        "draw": 3.77
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 200
+    },
+    {
+      "pinnacle_id": 1629688278,
+      "sport": "football",
+      "league": "Egypt - Premier League Corners",
+      "starts": "2026-05-03T17:00:00Z",
+      "home": "National Bank of Egypt (Corners)",
+      "away": "Modern Sport (Corners)",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 2.19,
+        "away": 4.08,
+        "draw": 2.88
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 500
+    },
+    {
+      "pinnacle_id": 1629944657,
+      "sport": "football",
+      "league": "Scotland - Championship",
+      "starts": "2026-05-05T18:45:00Z",
+      "home": "Alloa Athletic",
+      "away": "Airdrieonians",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 2.97,
+        "away": 2.37,
+        "draw": 3.27
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 300
+    },
+    {
+      "pinnacle_id": 1629517719,
+      "sport": "football",
+      "league": "Slovakia - Super Liga",
+      "starts": "2026-05-05T16:00:00Z",
+      "home": "Zilina",
+      "away": "Zemplin Michalovce",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 1.4202,
+        "away": 6.2,
+        "draw": 4.76
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 300
+    },
+    {
+      "pinnacle_id": 1629681320,
+      "sport": "football",
+      "league": "USA - Major League Soccer Bookings",
+      "starts": "2026-05-03T21:30:00Z",
+      "home": "Austin FC (Bookings)",
+      "away": "St Louis City SC (Bookings)",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 2.61,
+        "away": 2.65,
+        "draw": 3.59
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 1450
+    },
+    {
+      "pinnacle_id": 1629370319,
+      "sport": "football",
+      "league": "Denmark - Superliga",
+      "starts": "2026-05-03T12:00:00Z",
+      "home": "Randers",
+      "away": "Vejle",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 1.5882,
+        "away": 5.91,
+        "draw": 4.19
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 1350
+    },
+    {
+      "pinnacle_id": 1629816042,
+      "sport": "football",
+      "league": "South Africa - PSL Corners",
+      "starts": "2026-05-05T17:30:00Z",
+      "home": "Stellenbosch (Corners)",
+      "away": "Orlando Pirates (Corners)",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 7.03,
+        "away": 1.5236,
+        "draw": 3.62
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 300
+    },
+    {
+      "pinnacle_id": 1629893502,
+      "sport": "football",
+      "league": "France - U19 League",
+      "starts": "2026-05-03T13:00:00Z",
+      "home": "Sochaux",
+      "away": "Saint Priest",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 1.3788,
+        "away": 5.93,
+        "draw": 4.72
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 175
+    },
+    {
+      "pinnacle_id": 1629464693,
+      "sport": "football",
+      "league": "Austria - Landesliga",
+      "starts": "2026-05-03T13:00:00Z",
+      "home": "St. Veit",
+      "away": "SAK Klagenfurt",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 1.4975,
+        "away": 4.62,
+        "draw": 4.11
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 125
+    },
+    {
+      "pinnacle_id": 1629623186,
+      "sport": "football",
+      "league": "Czech Republic - First Liga Corners",
+      "starts": "2026-05-03T11:00:00Z",
+      "home": "Teplice (Corners)",
+      "away": "Slovacko (Corners)",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 2.1,
+        "away": 3.64,
+        "draw": 3.35
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 1000
+    },
+    {
+      "pinnacle_id": 1629520945,
+      "sport": "football",
+      "league": "Colombia - Primera B",
+      "starts": "2026-05-04T21:00:00Z",
+      "home": "Union Magdalena",
+      "away": "Barranquilla FC",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 1.4049,
+        "away": 7.25,
+        "draw": 4.4
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 150
+    },
+    {
+      "pinnacle_id": 1629454407,
+      "sport": "football",
+      "league": "Slovenia - 3. SNL",
+      "starts": "2026-05-03T08:30:00Z",
+      "home": "Videm",
+      "away": "Smartno",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 1.7692,
+        "away": 3.1,
+        "draw": 4.43
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 200
+    },
+    {
+      "pinnacle_id": 1629458089,
+      "sport": "football",
+      "league": "France - Ligue 1 Corners",
+      "starts": "2026-05-03T13:00:00Z",
+      "home": "Lille (Corners)",
+      "away": "Le Havre (Corners)",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 1.4167,
+        "away": 8.22,
+        "draw": 4.75
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 10000
+    },
+    {
+      "pinnacle_id": 1629659699,
+      "sport": "football",
+      "league": "Argentina - Liga Pro Corners",
+      "starts": "2026-05-03T16:30:00Z",
+      "home": "Aldosivi (Corners)",
+      "away": "Independiente Rivadavia (Corners)",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 3.37,
+        "away": 2.44,
+        "draw": 2.91
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 500
+    },
+    {
+      "pinnacle_id": 1629462775,
+      "sport": "football",
+      "league": "Finland - Kakkonen Group A",
+      "starts": "2026-05-03T16:00:00Z",
+      "home": "PPJ",
+      "away": "PuiU",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 2.67,
+        "away": 2.15,
+        "draw": 3.7
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 175
+    },
+    {
+      "pinnacle_id": 1629472921,
+      "sport": "football",
+      "league": "Argentina - Liga Pro",
+      "starts": "2026-05-03T16:30:00Z",
+      "home": "Aldosivi",
+      "away": "Independiente Rivadavia",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 3.37,
+        "away": 2.44,
+        "draw": 2.91
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 500
+    },
+    {
+      "pinnacle_id": 1629619373,
+      "sport": "football",
+      "league": "France - U19 League",
+      "starts": "2026-05-03T13:00:00Z",
+      "home": "ASPTT Dijon",
+      "away": "Strasbourg",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 3.43,
+        "away": 1.6849,
+        "draw": 4.52
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 175
+    },
+    {
+      "pinnacle_id": 1629454394,
+      "sport": "football",
+      "league": "Germany - Regionalliga South West",
+      "starts": "2026-05-03T12:00:00Z",
+      "home": "Eintracht Trier",
+      "away": "Hessen Kassel",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 2.3,
+        "away": 2.75,
+        "draw": 3.42
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 300
+    },
+    {
+      "pinnacle_id": 1629454247,
+      "sport": "football",
+      "league": "Sweden - Division 1 Norra",
+      "starts": "2026-05-03T12:00:00Z",
+      "home": "Stockholm Internazionale",
+      "away": "Sollentuna",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 1.3268,
+        "away": 7.17,
+        "draw": 5.05
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 300
+    },
+    {
+      "pinnacle_id": 1629618738,
+      "sport": "football",
+      "league": "Japan - J League",
+      "starts": "2026-05-06T07:00:00Z",
+      "home": "Machida Zelvia",
+      "away": "Yokohama F. Marinos",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 1.7576,
+        "away": 4.55,
+        "draw": 3.62
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 150
+    },
+    {
+      "pinnacle_id": 1629405713,
+      "sport": "football",
+      "league": "Brazil - Serie C",
+      "starts": "2026-05-03T20:00:00Z",
+      "home": "Volta Redonda",
+      "away": "Brusque",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 1.9804,
+        "away": 3.84,
+        "draw": 3.07
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 200
+    },
+    {
+      "pinnacle_id": 1629619372,
+      "sport": "football",
+      "league": "France - U19 League",
+      "starts": "2026-05-03T13:00:00Z",
+      "home": "Nantes",
+      "away": "EA Saint-Renan",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": null,
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": null
+    },
+    {
+      "pinnacle_id": 1629476482,
+      "sport": "football",
+      "league": "Brazil - Serie D",
+      "starts": "2026-05-03T20:00:00Z",
+      "home": "Ferroviario",
+      "away": "Piaui",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 1.6623,
+        "away": 4.97,
+        "draw": 3.31
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 125
+    },
+    {
+      "pinnacle_id": 1629462756,
+      "sport": "football",
+      "league": "Portugal - Campeonato de Portugal Prio",
+      "starts": "2026-05-03T15:00:00Z",
+      "home": "Vitoria Sernache",
+      "away": "Atletico Malveira",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 2.0,
+        "away": 3.6,
+        "draw": 2.88
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 50
+    },
+    {
+      "pinnacle_id": 1629360513,
+      "sport": "football",
+      "league": "Denmark - Division 1",
+      "starts": "2026-05-03T11:00:00Z",
+      "home": "Kolding",
+      "away": "Hvidovre",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 3.11,
+        "away": 2.33,
+        "draw": 3.36
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 1000
+    },
+    {
+      "pinnacle_id": 1629393185,
+      "sport": "football",
+      "league": "Greece - Super League",
+      "starts": "2026-05-03T14:00:00Z",
+      "home": "OFI Crete",
+      "away": "Aris Thessaloniki",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 3.7,
+        "away": 2.21,
+        "draw": 3.15
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 900
+    },
+    {
+      "pinnacle_id": 1629672473,
+      "sport": "football",
+      "league": "USA - Major League Soccer Corners",
+      "starts": "2026-05-03T19:00:00Z",
+      "home": "New York City (Corners)",
+      "away": "D.C. United (Corners)",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 1.8,
+        "away": 4.72,
+        "draw": 3.73
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 1450
+    },
+    {
+      "pinnacle_id": 1629658206,
+      "sport": "football",
+      "league": "Greece - Super League Corners",
+      "starts": "2026-05-03T16:00:00Z",
+      "home": "PAOK (Corners)",
+      "away": "Olympiakos (Corners)",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 3.5,
+        "away": 2.42,
+        "draw": 2.94
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 600
+    },
+    {
+      "pinnacle_id": 1629725962,
+      "sport": "football",
+      "league": "Italy - Serie B",
+      "starts": "2026-05-08T18:30:00Z",
+      "home": "Frosinone",
+      "away": "Mantova",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 1.5376,
+        "away": 5.34,
+        "draw": 4.45
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 300
+    },
+    {
+      "pinnacle_id": 1629454246,
+      "sport": "football",
+      "league": "England - Women Super League",
+      "starts": "2026-05-03T11:00:00Z",
+      "home": "Tottenham Hotspur",
+      "away": "London City Lionesses",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 2.2,
+        "away": 3.04,
+        "draw": 3.4
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 750
+    },
+    {
+      "pinnacle_id": 1629454412,
+      "sport": "football",
+      "league": "Vietnam - V League 2",
+      "starts": "2026-05-03T09:00:00Z",
+      "home": "Ho Chi Minh City FC",
+      "away": "Quy Nhon United",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 2.53,
+        "away": 2.65,
+        "draw": 2.96
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 200
+    },
+    {
+      "pinnacle_id": 1629468085,
+      "sport": "football",
+      "league": "Italy - Serie A Bookings",
+      "starts": "2026-05-03T18:45:00Z",
+      "home": "Internazionale (Bookings)",
+      "away": "Parma (Bookings)",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 1.2257,
+        "away": 13.51,
+        "draw": 6.81
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 15000
+    },
+    {
+      "pinnacle_id": 1629915656,
+      "sport": "football",
+      "league": "Czech Republic - FNL Corners",
+      "starts": "2026-05-03T08:15:00Z",
+      "home": "Viktoria Zizkov (Corners)",
+      "away": "Taborsko (Corners)",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 2.73,
+        "away": 2.39,
+        "draw": 3.58
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 750
+    },
+    {
+      "pinnacle_id": 1629931446,
+      "sport": "football",
+      "league": "Kenya - Super League",
+      "starts": "2026-05-03T12:00:00Z",
+      "home": "Luanda Villa",
+      "away": "Darajani Gogo",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 1.9901,
+        "away": 3.57,
+        "draw": 2.93
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 50
+    },
+    {
+      "pinnacle_id": 1629462758,
+      "sport": "football",
+      "league": "Hungary - NB 2",
+      "starts": "2026-05-03T15:00:00Z",
+      "home": "Mezokovesd Zsory",
+      "away": "Csakvar",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 2.06,
+        "away": 3.22,
+        "draw": 3.22
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 175
+    },
+    {
+      "pinnacle_id": 1629749247,
+      "sport": "football",
+      "league": "Colombia - Primera B Corners",
+      "starts": "2026-05-04T21:00:00Z",
+      "home": "Union Magdalena (Corners)",
+      "away": "Barranquilla FC (Corners)",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 1.4049,
+        "away": 7.25,
+        "draw": 4.4
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 150
+    },
+    {
+      "pinnacle_id": 1629454348,
+      "sport": "football",
+      "league": "Spain - Segunda RFEF Group 4",
+      "starts": "2026-05-03T10:00:00Z",
+      "home": "Aguilas",
+      "away": "Almeria II",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 1.0779,
+        "away": 20.31,
+        "draw": 7.49
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 200
+    },
+    {
+      "pinnacle_id": 1628786095,
+      "sport": "football",
+      "league": "Italy - Serie A",
+      "starts": "2026-05-04T16:30:00Z",
+      "home": "Cremonese",
+      "away": "Lazio",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 3.0,
+        "away": 2.55,
+        "draw": 3.25
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 4500
+    },
+    {
+      "pinnacle_id": 1629635807,
+      "sport": "football",
+      "league": "Slovenia - Prva Liga Corners",
+      "starts": "2026-05-03T13:00:00Z",
+      "home": "Mura (Corners)",
+      "away": "Koper (Corners)",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 4.03,
+        "away": 1.7812,
+        "draw": 4.1
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 600
+    },
+    {
+      "pinnacle_id": 1629465723,
+      "sport": "football",
+      "league": "Malaysia - Super League",
+      "starts": "2026-05-03T13:00:00Z",
+      "home": "Imigresen",
+      "away": "DPMM",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 1.9615,
+        "away": 3.0,
+        "draw": 3.64
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 300
+    },
+    {
+      "pinnacle_id": 1629906504,
+      "sport": "football",
+      "league": "Korea Republic - K League 1 Corners",
+      "starts": "2026-05-05T07:30:00Z",
+      "home": "Gimcheon Sangmu (Corners)",
+      "away": "Ulsan HD (Corners)",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 2.66,
+        "away": 2.68,
+        "draw": 3.33
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 1075
+    },
+    {
+      "pinnacle_id": 1629385802,
+      "sport": "football",
+      "league": "Sweden - Allsvenskan",
+      "starts": "2026-05-03T14:30:00Z",
+      "home": "GAIS",
+      "away": "Orgryte",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 1.4739,
+        "away": 6.25,
+        "draw": 4.8
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 2150
+    },
+    {
+      "pinnacle_id": 1629454448,
+      "sport": "football",
+      "league": "Spain - Segunda RFEF Group 5",
+      "starts": "2026-05-03T10:00:00Z",
+      "home": "Orihuela",
+      "away": "Getafe II",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 2.13,
+        "away": 3.0,
+        "draw": 3.11
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 200
+    },
+    {
+      "pinnacle_id": 1629239694,
+      "sport": "football",
+      "league": "Germany - Bundesliga",
+      "starts": "2026-05-09T13:30:00Z",
+      "home": "RB Leipzig",
+      "away": "St. Pauli",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 1.4115,
+        "away": 6.71,
+        "draw": 5.0
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 1000
+    },
+    {
+      "pinnacle_id": 1629365432,
+      "sport": "football",
+      "league": "England - Premier League Corners",
+      "starts": "2026-05-03T13:00:00Z",
+      "home": "Bournemouth (Corners)",
+      "away": "Crystal Palace (Corners)",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 1.6667,
+        "away": 5.23,
+        "draw": 4.13
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 15000
+    },
+    {
+      "pinnacle_id": 1629476474,
+      "sport": "football",
+      "league": "Argentina - Torneo Federal A",
+      "starts": "2026-05-03T18:00:00Z",
+      "home": "Club Villa Mitre",
+      "away": "Olimpo Bahia Blanca",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 1.9259,
+        "away": 4.28,
+        "draw": 2.69
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 125
+    },
+    {
+      "pinnacle_id": 1629461246,
+      "sport": "football",
+      "league": "France - Ligue 1 Corners",
+      "starts": "2026-05-03T15:15:00Z",
+      "home": "Auxerre (Corners)",
+      "away": "Angers (Corners)",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 1.6944,
+        "away": 5.43,
+        "draw": 3.82
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 10000
+    },
+    {
+      "pinnacle_id": 1629454483,
+      "sport": "football",
+      "league": "Croatia - 1. HNL Women",
+      "starts": "2026-05-03T09:00:00Z",
+      "home": "Osijek",
+      "away": "ZNK Split",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 1.1949,
+        "away": 7.89,
+        "draw": 6.53
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 100
+    },
+    {
+      "pinnacle_id": 1629926553,
+      "sport": "football",
+      "league": "Korea Republic - K League 1 Corners",
+      "starts": "2026-05-05T10:00:00Z",
+      "home": "FC Seoul (Corners)",
+      "away": "Anyang (Corners)",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 1.7576,
+        "away": 4.81,
+        "draw": 3.62
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 1075
+    },
+    {
+      "pinnacle_id": 1629860840,
+      "sport": "football",
+      "league": "Austria - Landesliga",
+      "starts": "2026-05-03T12:00:00Z",
+      "home": "UFV Thalgau",
+      "away": "Grodig",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 6.61,
+        "away": 1.237,
+        "draw": 5.77
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 125
+    },
+    {
+      "pinnacle_id": 1629461244,
+      "sport": "football",
+      "league": "France - Ligue 1 Corners",
+      "starts": "2026-05-03T15:15:00Z",
+      "home": "Strasbourg (Corners)",
+      "away": "Toulouse (Corners)",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 2.93,
+        "away": 2.43,
+        "draw": 3.57
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 5000
+    },
+    {
+      "pinnacle_id": 1629472941,
+      "sport": "football",
+      "league": "Uruguay - Primera Division",
+      "starts": "2026-05-03T23:00:00Z",
+      "home": "Albion",
+      "away": "Nacional de Football",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 3.34,
+        "away": 2.25,
+        "draw": 3.23
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 500
+    },
+    {
+      "pinnacle_id": 1629476598,
+      "sport": "football",
+      "league": "USA - MLS Next Pro League",
+      "starts": "2026-05-03T21:30:00Z",
+      "home": "Real Monarchs",
+      "away": "Portland Timbers II",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 1.9174,
+        "away": 3.1,
+        "draw": 4.02
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 200
+    },
+    {
+      "pinnacle_id": 1629385792,
+      "sport": "football",
+      "league": "Spain - Segunda Division",
+      "starts": "2026-05-03T14:15:00Z",
+      "home": "Sporting Gijon",
+      "away": "Ceuta",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 3.02,
+        "away": 1.9259,
+        "draw": 4.68
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 200
+    },
+    {
+      "pinnacle_id": 1629647387,
+      "sport": "football",
+      "league": "Croatia - HNL Corners",
+      "starts": "2026-05-03T14:00:00Z",
+      "home": "Lokomotiva Zagreb (Corners)",
+      "away": "HNK Rijeka (Corners)",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 3.5,
+        "away": 2.15,
+        "draw": 3.33
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 600
+    },
+    {
+      "pinnacle_id": 1629612346,
+      "sport": "football",
+      "league": "Czech Republic - 3. Liga MSFL",
+      "starts": "2026-05-03T08:15:00Z",
+      "home": "Sigma Olomouc II",
+      "away": "Frydek Mistek",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 2.18,
+        "away": 3.06,
+        "draw": 3.27
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 300
+    },
+    {
+      "pinnacle_id": 1629462685,
+      "sport": "football",
+      "league": "Germany - Bundesliga Women",
+      "starts": "2026-05-03T12:00:00Z",
+      "home": "SGS Essen",
+      "away": "Bayer Leverkusen",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 5.83,
+        "away": 1.4545,
+        "draw": 4.29
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 300
+    },
+    {
+      "pinnacle_id": 1629612283,
+      "sport": "football",
+      "league": "Ecuador - Serie B",
+      "starts": "2026-05-03T16:00:00Z",
+      "home": "Atletico FC Guayaquil",
+      "away": "Cuenca Juniors",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 2.16,
+        "away": 3.51,
+        "draw": 2.91
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 300
+    },
+    {
+      "pinnacle_id": 1629688277,
+      "sport": "football",
+      "league": "Egypt - Premier League Corners",
+      "starts": "2026-05-03T14:00:00Z",
+      "home": "Haras El Hodood (Corners)",
+      "away": "Talaea El Gaish (Corners)",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 4.07,
+        "away": 2.12,
+        "draw": 3.02
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 750
+    },
+    {
+      "pinnacle_id": 1629618807,
+      "sport": "football",
+      "league": "Austria - 2. Liga Corners",
+      "starts": "2026-05-03T08:30:00Z",
+      "home": "Austria Klagenfurt (Corners)",
+      "away": "Rapid Vienna II (Corners)",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 2.26,
+        "away": 2.88,
+        "draw": 3.83
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 1000
+    },
+    {
+      "pinnacle_id": 1629530370,
+      "sport": "football",
+      "league": "Argentina - Primera B Nacional",
+      "starts": "2026-05-05T00:30:00Z",
+      "home": "Gimnasia y Tiro",
+      "away": "Agropecuario",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 2.12,
+        "away": 3.92,
+        "draw": 2.94
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 300
+    },
+    {
+      "pinnacle_id": 1629464782,
+      "sport": "football",
+      "league": "Ireland - Premier",
+      "starts": "2026-05-04T16:00:00Z",
+      "home": "Waterford",
+      "away": "Dundalk",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 4.79,
+        "away": 1.6329,
+        "draw": 4.17
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 600
+    },
+    {
+      "pinnacle_id": 1629454382,
+      "sport": "football",
+      "league": "Sweden - Damallsvenskan",
+      "starts": "2026-05-03T11:00:00Z",
+      "home": "Vaxjo",
+      "away": "Pitea",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 2.86,
+        "away": 2.37,
+        "draw": 3.13
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 500
+    },
+    {
+      "pinnacle_id": 1629464723,
+      "sport": "football",
+      "league": "Lithuania - 1 Lyga",
+      "starts": "2026-05-03T14:00:00Z",
+      "home": "FA Siauliai II",
+      "away": "Hegelmann II",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 2.17,
+        "away": 2.62,
+        "draw": 3.54
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 125
+    },
+    {
+      "pinnacle_id": 1629619374,
+      "sport": "football",
+      "league": "Hungary - NB 3",
+      "starts": "2026-05-03T08:00:00Z",
+      "home": "Paksi II",
+      "away": "Siofok",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 2.32,
+        "away": 2.47,
+        "draw": 3.61
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 100
+    },
+    {
+      "pinnacle_id": 1628801536,
+      "sport": "football",
+      "league": "England - Premier League",
+      "starts": "2026-05-03T14:30:00Z",
+      "home": "Manchester United",
+      "away": "Liverpool",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 2.34,
+        "away": 2.95,
+        "draw": 3.83
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 20000
+    },
+    {
+      "pinnacle_id": 1629681310,
+      "sport": "football",
+      "league": "Brazil - Serie A Corners",
+      "starts": "2026-05-03T21:30:00Z",
+      "home": "Internacional (Corners)",
+      "away": "Fluminense (Corners)",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 2.25,
+        "away": 3.43,
+        "draw": 3.31
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 1200
+    },
+    {
+      "pinnacle_id": 1629791988,
+      "sport": "football",
+      "league": "Cyprus - 1st Division",
+      "starts": "2026-05-09T15:00:00Z",
+      "home": "Enosis Neon Paralimni",
+      "away": "Ethnikos Achna",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 8.8,
+        "away": 1.2967,
+        "draw": 5.24
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 200
+    },
+    {
+      "pinnacle_id": 1629676477,
+      "sport": "football",
+      "league": "England - Women Super League",
+      "starts": "2026-05-06T18:45:00Z",
+      "home": "Brighton",
+      "away": "Arsenal",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 7.09,
+        "away": 1.3356,
+        "draw": 5.33
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 150
+    },
+    {
+      "pinnacle_id": 1629457761,
+      "sport": "football",
+      "league": "Spain - La Liga Bookings",
+      "starts": "2026-05-03T12:00:00Z",
+      "home": "Celta Vigo (Bookings)",
+      "away": "Elche (Bookings)",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 1.7246,
+        "away": 4.76,
+        "draw": 4.05
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 15000
+    },
+    {
+      "pinnacle_id": 1629925991,
+      "sport": "football",
+      "league": "Korea Republic - K League 1 Corners",
+      "starts": "2026-05-05T05:00:00Z",
+      "home": "Jeonbuk Motors (Corners)",
+      "away": "Gwangju FC (Corners)",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 1.3497,
+        "away": 9.62,
+        "draw": 4.72
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 1075
+    },
+    {
+      "pinnacle_id": 1629525836,
+      "sport": "football",
+      "league": "Mexico - Liga MX Corners",
+      "starts": "2026-05-04T01:15:00Z",
+      "home": "Deportivo Toluca (Corners)",
+      "away": "Pachuca (Corners)",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 1.8621,
+        "away": 4.07,
+        "draw": 3.87
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 1200
+    },
+    {
+      "pinnacle_id": 1629809045,
+      "sport": "football",
+      "league": "Greece - Super League",
+      "starts": "2026-05-09T14:00:00Z",
+      "home": "Larissa",
+      "away": "Asteras Tripolis",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 2.56,
+        "away": 3.0,
+        "draw": 3.02
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 300
+    },
+    {
+      "pinnacle_id": 1629464706,
+      "sport": "football",
+      "league": "Sweden - Division 1 Norra",
+      "starts": "2026-05-03T13:00:00Z",
+      "home": "Pitea IF",
+      "away": "Arlanda",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 3.97,
+        "away": 1.6993,
+        "draw": 3.96
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 300
+    },
+    {
+      "pinnacle_id": 1629926540,
+      "sport": "football",
+      "league": "Korea Republic - K League 1 Corners",
+      "starts": "2026-05-05T05:00:00Z",
+      "home": "Bucheon FC 1995 (Corners)",
+      "away": "Jeju SK (Corners)",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 2.52,
+        "away": 2.96,
+        "draw": 3.18
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 1075
+    },
+    {
+      "pinnacle_id": 1629648126,
+      "sport": "football",
+      "league": "Spain - Segunda Division Corners",
+      "starts": "2026-05-03T14:15:00Z",
+      "home": "Sporting Gijon (Corners)",
+      "away": "Ceuta (Corners)",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 3.02,
+        "away": 1.9259,
+        "draw": 4.68
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 200
+    },
+    {
+      "pinnacle_id": 1629465721,
+      "sport": "football",
+      "league": "Rwanda - Premier League",
+      "starts": "2026-05-03T13:00:00Z",
+      "home": "Kigali",
+      "away": "Al-Hilal Omdurman",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 8.99,
+        "away": 1.2439,
+        "draw": 4.79
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 50
+    },
+    {
+      "pinnacle_id": 1629934852,
+      "sport": "football",
+      "league": "Chile - League Cup Corners",
+      "starts": "2026-05-04T00:00:00Z",
+      "home": "Deportes Limache (Corners)",
+      "away": "O'Higgins (Corners)",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 2.14,
+        "away": 3.29,
+        "draw": 3.25
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 300
+    },
+    {
+      "pinnacle_id": 1629619383,
+      "sport": "football",
+      "league": "Czech Republic - 4. Liga",
+      "starts": "2026-05-03T14:30:00Z",
+      "home": "Ždírec nad Doubravou",
+      "away": "Dalnice Sperice",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 1.5618,
+        "away": 4.58,
+        "draw": 3.72
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 125
+    },
+    {
+      "pinnacle_id": 1629476594,
+      "sport": "football",
+      "league": "Brazil - Brasileiro Women",
+      "starts": "2026-05-03T21:00:00Z",
+      "home": "Botafogo FR RJ",
+      "away": "RB Bragantino",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 3.1,
+        "away": 2.01,
+        "draw": 3.69
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 200
+    },
+    {
+      "pinnacle_id": 1629476544,
+      "sport": "football",
+      "league": "Argentina - Primera Division Women",
+      "starts": "2026-05-03T14:00:00Z",
+      "home": "Racing Club",
+      "away": "San Lorenzo",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 2.23,
+        "away": 3.3,
+        "draw": 2.94
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 300
+    },
+    {
+      "pinnacle_id": 1629370328,
+      "sport": "football",
+      "league": "Norway - Eliteserien",
+      "starts": "2026-05-03T12:30:00Z",
+      "home": "Lillestrom",
+      "away": "Sarpsborg 08",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 1.7692,
+        "away": 4.05,
+        "draw": 4.46
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 1800
+    },
+    {
+      "pinnacle_id": 1629454449,
+      "sport": "football",
+      "league": "Mongolia - Premier League",
+      "starts": "2026-05-03T10:00:00Z",
+      "home": "Khovd Club",
+      "away": "Tuv Azarganuud",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 8.89,
+        "away": 1.0908,
+        "draw": 10.29
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 50
+    },
+    {
+      "pinnacle_id": 1629744594,
+      "sport": "football",
+      "league": "Argentina - Liga Pro Corners",
+      "starts": "2026-05-04T20:00:00Z",
+      "home": "Gimnasia Mendoza (Corners)",
+      "away": "Defensa y Justicia (Corners)",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 2.38,
+        "away": 3.31,
+        "draw": 2.91
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 375
+    },
+    {
+      "pinnacle_id": 1629602917,
+      "sport": "football",
+      "league": "Japan - J League",
+      "starts": "2026-05-06T06:00:00Z",
+      "home": "Sanfrecce Hiroshima",
+      "away": "Vissel Kobe",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 1.9901,
+        "away": 3.91,
+        "draw": 3.4
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 900
+    },
+    {
+      "pinnacle_id": 1629862090,
+      "sport": "football",
+      "league": "USA - Major League Soccer",
+      "starts": "2026-05-09T23:30:00Z",
+      "home": "Atlanta United",
+      "away": "Los Angeles Galaxy",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 2.48,
+        "away": 2.79,
+        "draw": 3.48
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 350
+    },
+    {
+      "pinnacle_id": 1629725930,
+      "sport": "football",
+      "league": "Denmark - Division 1",
+      "starts": "2026-05-08T17:00:00Z",
+      "home": "AaB",
+      "away": "Middelfart",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 1.2915,
+        "away": 8.95,
+        "draw": 5.43
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 250
+    },
+    {
+      "pinnacle_id": 1629618734,
+      "sport": "football",
+      "league": "Czech Republic - 4. Liga",
+      "starts": "2026-05-03T08:15:00Z",
+      "home": "Meteor Prague VIII",
+      "away": "Tempo Prague",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 2.62,
+        "away": 2.34,
+        "draw": 3.3
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 200
+    },
+    {
+      "pinnacle_id": 1629982378,
+      "sport": "football",
+      "league": "Sweden - 2nd Div. Sodra Svealand",
+      "starts": "2026-05-03T12:00:00Z",
+      "home": "Fittja",
+      "away": "Smedby AIS",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 2.75,
+        "away": 2.08,
+        "draw": 3.56
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 125
+    },
+    {
+      "pinnacle_id": 1629914115,
+      "sport": "football",
+      "league": "Korea Republic - K League 1 Corners",
+      "starts": "2026-05-05T07:30:00Z",
+      "home": "Gangwon FC (Corners)",
+      "away": "Pohang Steelers (Corners)",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 2.1,
+        "away": 3.88,
+        "draw": 3.16
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 1075
+    },
+    {
+      "pinnacle_id": 1629465738,
+      "sport": "football",
+      "league": "Luxembourg - National Division",
+      "starts": "2026-05-03T14:00:00Z",
+      "home": "F91 Dudelange",
+      "away": "Victoria Rosport",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 1.2725,
+        "away": 8.51,
+        "draw": 5.36
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 300
+    },
+    {
+      "pinnacle_id": 1629462689,
+      "sport": "football",
+      "league": "Germany - Regionalliga North East",
+      "starts": "2026-05-03T12:00:00Z",
+      "home": "Meuselwitz",
+      "away": "Chemie Leipzig",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 2.45,
+        "away": 2.73,
+        "draw": 3.16
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 300
+    },
+    {
+      "pinnacle_id": 1629641024,
+      "sport": "football",
+      "league": "Norway - 1st Division",
+      "starts": "2026-05-06T16:00:00Z",
+      "home": "Egersunds",
+      "away": "Raufoss",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 1.565,
+        "away": 5.09,
+        "draw": 4.29
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 250
+    },
+    {
+      "pinnacle_id": 1629454355,
+      "sport": "football",
+      "league": "Spain - Segunda RFEF Group 4",
+      "starts": "2026-05-03T10:00:00Z",
+      "home": "Recreativo Huelva",
+      "away": "Xerez Deportivo",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 1.3861,
+        "away": 5.81,
+        "draw": 4.29
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 200
+    },
+    {
+      "pinnacle_id": 1629877357,
+      "sport": "football",
+      "league": "Italy - Serie C Corners",
+      "starts": "2026-05-03T15:30:00Z",
+      "home": "Cittadella (Corners)",
+      "away": "Arzignano Valchiampo (Corners)",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 1.7463,
+        "away": 4.56,
+        "draw": 3.49
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 450
+    },
+    {
+      "pinnacle_id": 1629659694,
+      "sport": "football",
+      "league": "Spain - Segunda Division Corners",
+      "starts": "2026-05-03T16:30:00Z",
+      "home": "Real Sociedad II (Corners)",
+      "away": "Burgos (Corners)",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 1.9901,
+        "away": 2.74,
+        "draw": 5.01
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 150
+    },
+    {
+      "pinnacle_id": 1629982422,
+      "sport": "football",
+      "league": "Tunisia - League 1",
+      "starts": "2026-05-03T15:00:00Z",
+      "home": "Ben Guerdane",
+      "away": "AS Soliman",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 2.24,
+        "away": 2.77,
+        "draw": 3.23
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 300
+    },
+    {
+      "pinnacle_id": 1629462687,
+      "sport": "football",
+      "league": "Kazakhstan - Premier League",
+      "starts": "2026-05-03T12:00:00Z",
+      "home": "Atyrau",
+      "away": "FC Altai",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 2.35,
+        "away": 2.89,
+        "draw": 3.0
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 175
+    },
+    {
+      "pinnacle_id": 1629758503,
+      "sport": "football",
+      "league": "Saudi Arabia - Pro League Corners",
+      "starts": "2026-05-03T18:00:00Z",
+      "home": "Al-Ahli (Corners)",
+      "away": "Al-Akhdoud (Corners)",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 1.1129,
+        "away": 14.96,
+        "draw": 11.06
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 900
+    },
+    {
+      "pinnacle_id": 1629464751,
+      "sport": "football",
+      "league": "Ghana - Premier League",
+      "starts": "2026-05-03T15:00:00Z",
+      "home": "Dreams",
+      "away": "Asante Kotoko",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 2.08,
+        "away": 3.64,
+        "draw": 2.71
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 125
+    },
+    {
+      "pinnacle_id": 1629896561,
+      "sport": "football",
+      "league": "Slovakia - U19 League",
+      "starts": "2026-05-03T09:00:00Z",
+      "home": "Zemplin Michalovce",
+      "away": "Zilina",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 4.72,
+        "away": 1.4545,
+        "draw": 4.66
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 100
+    },
+    {
+      "pinnacle_id": 1629487520,
+      "sport": "football",
+      "league": "Korea Republic - K League 1",
+      "starts": "2026-05-05T10:00:00Z",
+      "home": "FC Seoul",
+      "away": "Anyang",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 1.7576,
+        "away": 4.81,
+        "draw": 3.62
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 1075
+    },
+    {
+      "pinnacle_id": 1629576874,
+      "sport": "football",
+      "league": "Slovakia - 3. Liga",
+      "starts": "2026-05-03T12:30:00Z",
+      "home": "Podkonice",
+      "away": "Novohrad Lucenec",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 1.4902,
+        "away": 4.81,
+        "draw": 4.04
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 125
+    },
+    {
+      "pinnacle_id": 1629355845,
+      "sport": "football",
+      "league": "Poland - Ekstraklasa",
+      "starts": "2026-05-03T10:15:00Z",
+      "home": "GKS Katowice",
+      "away": "Nieciecza",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 1.6623,
+        "away": 4.86,
+        "draw": 4.25
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 1200
+    },
+    {
+      "pinnacle_id": 1629472924,
+      "sport": "football",
+      "league": "Argentina - Liga Pro",
+      "starts": "2026-05-03T21:30:00Z",
+      "home": "River Plate",
+      "away": "Atletico Tucuman",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 1.4444,
+        "away": 7.55,
+        "draw": 4.19
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 500
+    },
+    {
+      "pinnacle_id": 1629573655,
+      "sport": "football",
+      "league": "Slovakia - 3. Liga",
+      "starts": "2026-05-03T14:30:00Z",
+      "home": "Petrzalka II",
+      "away": "SK 1923 Gabcikovo",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 2.89,
+        "away": 1.8696,
+        "draw": 4.09
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 125
+    },
+    {
+      "pinnacle_id": 1629495997,
+      "sport": "football",
+      "league": "Bahrain - Premier League",
+      "starts": "2026-05-03T16:00:00Z",
+      "home": "Bahrain SC",
+      "away": "Malkiya Club",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 5.86,
+        "away": 1.5102,
+        "draw": 3.86
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 300
+    },
+    {
+      "pinnacle_id": 1629454359,
+      "sport": "football",
+      "league": "Spain - Segunda RFEF Group 5",
+      "starts": "2026-05-03T10:00:00Z",
+      "home": "Intercity",
+      "away": "Colonia Moscardo",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 1.3509,
+        "away": 5.33,
+        "draw": 4.4
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 200
+    },
+    {
+      "pinnacle_id": 1629464767,
+      "sport": "football",
+      "league": "Portugal - Liga 3",
+      "starts": "2026-05-03T15:30:00Z",
+      "home": "Braga II",
+      "away": "Fafe",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 1.8547,
+        "away": 3.81,
+        "draw": 3.65
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 300
+    },
+    {
+      "pinnacle_id": 1629530099,
+      "sport": "football",
+      "league": "Chile - League Cup",
+      "starts": "2026-05-03T16:30:00Z",
+      "home": "Universidad de Concepcion",
+      "away": "Universidad Catolica",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 3.5,
+        "away": 2.04,
+        "draw": 3.31
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 450
+    },
+    {
+      "pinnacle_id": 1628804899,
+      "sport": "football",
+      "league": "Germany - Bundesliga",
+      "starts": "2026-05-03T15:30:00Z",
+      "home": "Borussia Monchengladbach",
+      "away": "Borussia Dortmund",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 3.71,
+        "away": 1.9709,
+        "draw": 3.88
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 10000
+    },
+    {
+      "pinnacle_id": 1629465764,
+      "sport": "football",
+      "league": "Netherlands - Eredivisie Women",
+      "starts": "2026-05-03T14:45:00Z",
+      "home": "Excelsior",
+      "away": "Ajax",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 18.9,
+        "away": 1.0584,
+        "draw": 11.93
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 150
+    },
+    {
+      "pinnacle_id": 1629428991,
+      "sport": "football",
+      "league": "Czech Republic - First Liga",
+      "starts": "2026-05-03T16:30:00Z",
+      "home": "Sparta Prague",
+      "away": "Jablonec",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 1.625,
+        "away": 5.13,
+        "draw": 4.16
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 500
+    },
+    {
+      "pinnacle_id": 1629630526,
+      "sport": "football",
+      "league": "Netherlands - Eredivisie Corners",
+      "starts": "2026-05-03T12:30:00Z",
+      "home": "Fortuna Sittard (Corners)",
+      "away": "Feyenoord (Corners)",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 5.47,
+        "away": 1.5747,
+        "draw": 4.56
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 1800
+    },
+    {
+      "pinnacle_id": 1629411003,
+      "sport": "football",
+      "league": "Brazil - Serie C",
+      "starts": "2026-05-03T20:00:00Z",
+      "home": "Amazonas",
+      "away": "Caxias",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 2.0,
+        "away": 3.95,
+        "draw": 2.96
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 200
+    },
+    {
+      "pinnacle_id": 1628790352,
+      "sport": "football",
+      "league": "Italy - Serie A",
+      "starts": "2026-05-03T16:00:00Z",
+      "home": "Juventus",
+      "away": "Hellas Verona",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 1.1996,
+        "away": 16.29,
+        "draw": 7.08
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 10000
+    },
+    {
+      "pinnacle_id": 1629949414,
+      "sport": "football",
+      "league": "Northern Ireland - Premiership",
+      "starts": "2026-05-06T18:45:00Z",
+      "home": "Dungannon Swifts",
+      "away": "Carrick Rangers",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 2.91,
+        "away": 2.19,
+        "draw": 3.76
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 200
+    },
+    {
+      "pinnacle_id": 1629399025,
+      "sport": "football",
+      "league": "Peru - Liga 1",
+      "starts": "2026-05-03T16:00:00Z",
+      "home": "Sporting Cristal",
+      "away": "Cusco",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 1.6897,
+        "away": 4.51,
+        "draw": 3.77
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 450
+    },
+    {
+      "pinnacle_id": 1629464759,
+      "sport": "football",
+      "league": "Hungary - NB 2",
+      "starts": "2026-05-03T15:00:00Z",
+      "home": "Karcagi SE",
+      "away": "Szentlorinc",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 2.63,
+        "away": 2.4,
+        "draw": 3.25
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 175
+    },
+    {
+      "pinnacle_id": 1629632808,
+      "sport": "football",
+      "league": "Chile - League Cup",
+      "starts": "2026-05-04T00:00:00Z",
+      "home": "Deportes Limache",
+      "away": "O'Higgins",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 2.14,
+        "away": 3.29,
+        "draw": 3.25
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 300
+    },
+    {
+      "pinnacle_id": 1629465782,
+      "sport": "football",
+      "league": "Hungary - NB 2",
+      "starts": "2026-05-03T15:00:00Z",
+      "home": "BVSC Zuglo",
+      "away": "Fehervar",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 2.74,
+        "away": 2.5,
+        "draw": 2.95
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 175
+    },
+    {
+      "pinnacle_id": 1629464715,
+      "sport": "football",
+      "league": "Luxembourg - National Division",
+      "starts": "2026-05-03T14:00:00Z",
+      "home": "Jeunesse Canach",
+      "away": "Progres Niederkorn",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 4.12,
+        "away": 1.7634,
+        "draw": 3.54
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 300
+    },
+    {
+      "pinnacle_id": 1629789661,
+      "sport": "football",
+      "league": "Indonesia - Super League Corners",
+      "starts": "2026-05-05T12:00:00Z",
+      "home": "Borneo Samarinda (Corners)",
+      "away": "Persita Tangerang (Corners)",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 1.4386,
+        "away": 6.37,
+        "draw": 4.48
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 300
+    },
+    {
+      "pinnacle_id": 1629454294,
+      "sport": "football",
+      "league": "Finland - Ykkosliiga",
+      "starts": "2026-05-03T13:00:00Z",
+      "home": "EIF",
+      "away": "KTP",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 4.07,
+        "away": 1.7576,
+        "draw": 4.18
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 600
+    },
+    {
+      "pinnacle_id": 1629476481,
+      "sport": "football",
+      "league": "Brazil - Serie D",
+      "starts": "2026-05-03T20:00:00Z",
+      "home": "CEOV",
+      "away": "Ceilandia",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 3.04,
+        "away": 2.48,
+        "draw": 2.68
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 125
+    },
+    {
+      "pinnacle_id": 1628896147,
+      "sport": "football",
+      "league": "UEFA - Champions League",
+      "starts": "2026-05-06T19:00:00Z",
+      "home": "Bayern Munich",
+      "away": "Paris Saint-Germain",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 1.7143,
+        "away": 3.81,
+        "draw": 5.22
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 3000
+    },
+    {
+      "pinnacle_id": 1629530353,
+      "sport": "football",
+      "league": "Argentina - Primera B Nacional",
+      "starts": "2026-05-04T23:00:00Z",
+      "home": "Quilmes",
+      "away": "Chacarita Juniors",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 2.15,
+        "away": 3.85,
+        "draw": 2.93
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 300
+    },
+    {
+      "pinnacle_id": 1629462742,
+      "sport": "football",
+      "league": "UEFA - Champions League Women",
+      "starts": "2026-05-03T14:30:00Z",
+      "home": "FC Barcelona",
+      "away": "Bayern Munich",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 1.1047,
+        "away": 16.54,
+        "draw": 9.4
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 450
+    },
+    {
+      "pinnacle_id": 1629462719,
+      "sport": "football",
+      "league": "Belarus - Premier League",
+      "starts": "2026-05-03T14:00:00Z",
+      "home": "BATE Borisov",
+      "away": "Dinamo Brest",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 3.51,
+        "away": 1.9091,
+        "draw": 3.7
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 450
+    },
+    {
+      "pinnacle_id": 1629687691,
+      "sport": "football",
+      "league": "CONMEBOL - Copa Libertadores",
+      "starts": "2026-05-08T02:00:00Z",
+      "home": "Junior de Barranquilla",
+      "away": "Cerro Porteno",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 2.02,
+        "away": 3.9,
+        "draw": 3.28
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 300
+    },
+    {
+      "pinnacle_id": 1629464745,
+      "sport": "football",
+      "league": "Netherlands - Eredivisie Women",
+      "starts": "2026-05-03T14:45:00Z",
+      "home": "ADO Den Haag",
+      "away": "NAC Breda",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 1.4049,
+        "away": 6.44,
+        "draw": 4.46
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 300
+    },
+    {
+      "pinnacle_id": 1629185142,
+      "sport": "football",
+      "league": "Colombia - Primera A",
+      "starts": "2026-05-03T22:45:00Z",
+      "home": "America de Cali",
+      "away": "Deportivo Pereira",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 1.4032,
+        "away": 7.55,
+        "draw": 4.35
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 300
+    },
+    {
+      "pinnacle_id": 1629401518,
+      "sport": "football",
+      "league": "Mozambique - Mocambola",
+      "starts": "2026-05-03T13:00:00Z",
+      "home": "Ferroviario de Maputo",
+      "away": "Black Bulls",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 2.46,
+        "away": 2.85,
+        "draw": 2.73
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 125
+    },
+    {
+      "pinnacle_id": 1629184063,
+      "sport": "football",
+      "league": "Colombia - Primera A",
+      "starts": "2026-05-03T20:30:00Z",
+      "home": "Fortaleza CEIF",
+      "away": "Atletico Bucaramanga",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 2.98,
+        "away": 2.44,
+        "draw": 3.17
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 300
+    },
+    {
+      "pinnacle_id": 1629530364,
+      "sport": "football",
+      "league": "Indonesia - Super League",
+      "starts": "2026-05-03T08:30:00Z",
+      "home": "Persik Kediri",
+      "away": "Arema FC",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 1.9346,
+        "away": 3.69,
+        "draw": 3.79
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 1000
+    },
+    {
+      "pinnacle_id": 1629869906,
+      "sport": "football",
+      "league": "Ireland - Division 1 Corners",
+      "starts": "2026-05-04T16:00:00Z",
+      "home": "Longford Town (Corners)",
+      "away": "Athlone Town (Corners)",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 2.05,
+        "away": 3.42,
+        "draw": 3.49
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 400
+    },
+    {
+      "pinnacle_id": 1629454356,
+      "sport": "football",
+      "league": "Spain - Segunda RFEF Group 2",
+      "starts": "2026-05-03T10:00:00Z",
+      "home": "Gernika",
+      "away": "Alaves II",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 3.16,
+        "away": 2.03,
+        "draw": 3.17
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 200
+    },
+    {
+      "pinnacle_id": 1629401585,
+      "sport": "football",
+      "league": "Belgium - Pro League",
+      "starts": "2026-05-03T16:30:00Z",
+      "home": "Anderlecht",
+      "away": "Club Brugge",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 4.8,
+        "away": 1.641,
+        "draw": 4.57
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 900
+    },
+    {
+      "pinnacle_id": 1629670569,
+      "sport": "football",
+      "league": "Uruguay - Primera Division Corners",
+      "starts": "2026-05-03T18:30:00Z",
+      "home": "Racing Club de Montevideo (Corners)",
+      "away": "Montevideo City Torque (Corners)",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 2.15,
+        "away": 3.71,
+        "draw": 3.19
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 500
+    },
+    {
+      "pinnacle_id": 1629945405,
+      "sport": "football",
+      "league": "Norway - 2nd Division Corners",
+      "starts": "2026-05-03T13:00:00Z",
+      "home": "Arendal (Corners)",
+      "away": "Sandviken (Corners)",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 1.6849,
+        "away": 4.22,
+        "draw": 4.03
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 450
+    },
+    {
+      "pinnacle_id": 1629673555,
+      "sport": "football",
+      "league": "Argentina - Primera B Nacional Corners",
+      "starts": "2026-05-03T18:30:00Z",
+      "home": "Gimnasia Jujuy (Corners)",
+      "away": "Deportivo Maipu (Corners)",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 1.7752,
+        "away": 6.5,
+        "draw": 2.96
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 400
+    },
+    {
+      "pinnacle_id": 1629518834,
+      "sport": "football",
+      "league": "Italy - Serie A Corners",
+      "starts": "2026-05-04T18:45:00Z",
+      "home": "Roma (Corners)",
+      "away": "Fiorentina (Corners)",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 1.6135,
+        "away": 5.34,
+        "draw": 4.35
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 4500
+    },
+    {
+      "pinnacle_id": 1629907039,
+      "sport": "football",
+      "league": "Faroe Islands - Premier League Women",
+      "starts": "2026-05-03T11:00:00Z",
+      "home": "HB Torshavn",
+      "away": "KI Klaksvik",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 3.06,
+        "away": 1.7812,
+        "draw": 4.21
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 200
+    },
+    {
+      "pinnacle_id": 1629500371,
+      "sport": "football",
+      "league": "South Africa - PSL",
+      "starts": "2026-05-05T17:30:00Z",
+      "home": "Magesi",
+      "away": "Orbit College",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 2.11,
+        "away": 4.13,
+        "draw": 2.85
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 300
+    },
+    {
+      "pinnacle_id": 1629500857,
+      "sport": "football",
+      "league": "Russia - First League",
+      "starts": "2026-05-04T16:30:00Z",
+      "home": "Arsenal Tula",
+      "away": "Rotor Volgograd",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 2.53,
+        "away": 3.05,
+        "draw": 2.97
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 400
+    },
+    {
+      "pinnacle_id": 1629916031,
+      "sport": "football",
+      "league": "Indonesia - Super League",
+      "starts": "2026-05-09T12:00:00Z",
+      "home": "Persis Solo",
+      "away": "Persebaya Surabaya",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 2.64,
+        "away": 2.6,
+        "draw": 3.31
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 200
+    },
+    {
+      "pinnacle_id": 1629454481,
+      "sport": "football",
+      "league": "Germany - Regionalliga North",
+      "starts": "2026-05-03T12:00:00Z",
+      "home": "Eintracht Norderstedt",
+      "away": "Blau-Weiss Lohne",
+      "captured_at": "2026-05-03T07:37:30.363409+00:00",
+      "moneyline": {
+        "home": 2.01,
+        "away": 3.08,
+        "draw": 3.71
+      },
+      "totals": [],
+      "spreads": [],
+      "max_stake_moneyline": 300
+    }
+  ]
+}
