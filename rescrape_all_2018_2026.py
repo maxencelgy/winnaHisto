@@ -26,7 +26,8 @@ targets = [
 ]
 for sport, sd, ed in targets:
     try:
-        scrape_sport(sport, sd, ed)
+        # Mode doux : 8 workers au lieu de 30 pour ne pas se refaire ban
+        scrape_sport(sport, sd, ed, max_workers=8)
     except Exception as e:
         print(f"[{sport}] ERROR: {e}")
 

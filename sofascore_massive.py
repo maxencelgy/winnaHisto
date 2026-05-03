@@ -21,61 +21,147 @@ from curl_cffi import requests as cf_requests
 
 OUT_DIR = "/Users/maxenceleguay/Sites/winnaHisto/datasets/sofascore_massive"
 
-# Session curl_cffi initialisée via Camoufox (bootstrap cookies + fingerprint Firefox)
-_session = None
-_session_lock = threading.Lock()
+# Whitelist leagues dispos sur Winamax / Betclic / Unibet FR.
+# On filtre au listing pour éviter de fetch les odds de leagues inutiles.
+WINAMAX_LEAGUES = {
+    "football": [
+        "premier league", "laliga", "la liga", "serie a", "bundesliga", "ligue 1",
+        "championship", "laliga 2", "la liga 2", "serie b", "bundesliga 2", "ligue 2",
+        "champions league", "europa league", "conference league", "uefa",
+        "eredivisie", "liga portugal", "primeira liga", "pro league", "süper lig",
+        "premier liga", "trendyol süper", "russian premier",
+        "mls", "liga mx", "brasileirão", "brasileirao", "primera división",
+        "primera a", "primera b", "argentina", "ecuador serie a",
+        "coupe de france", "fa cup", "copa del rey", "coppa italia", "dfb-pokal",
+        "world cup", "euro 2", "copa america", "africa cup",
+        "saudi", "qatar stars", "j1 league", "j2 league", "k league 1",
+        "fifa intercontinental",
+    ],
+    "basketball": [
+        "nba", "wnba", "euroleague", "eurocup", "betclic élite", "pro a",
+        "acb", "liga endesa", "lega basket", "serie a", "bbl", "champions league",
+    ],
+    "ice-hockey": [
+        "nhl", "khl", "shl", "liiga", "ligue magnus", "del", "national league",
+        "extraliga", "elite league", "swiss",
+    ],
+    "baseball": ["mlb"],
+    "tennis": [
+        "atp", "wta", "grand slam", "masters",
+        "australian open", "roland garros", "wimbledon", "us open",
+        "miami", "indian wells", "monte carlo", "madrid", "rome", "cincinnati",
+        "shanghai", "paris masters",
+    ],
+}
+REJECT_PATTERNS = ["doubles", "qualifying", "u23", "u21", "u19", "u18", "u17", "reserve",
+                   "youth", "women, qualif", "men, qualif", "challenger round",
+                   "regionalliga", "national league,", "serie c", "série c",
+                   "i-league", "k league 2", "league 1, championship",
+                   "championship round", "knockout stage qualifying",
+                   "primera b nacional", "next pro", "utr ", "ptt ", "exhibition"]
 
 
-def _bootstrap_session():
-    """Lance Camoufox une fois pour récupérer cookies + UA, puis crée une session curl_cffi
-    qui peut faire des centaines de requêtes/sec en imitant Firefox."""
-    from camoufox.sync_api import Camoufox
-    print("  [auth] Bootstrap Camoufox (cookies sofascore)...")
-    with Camoufox(headless=True, geoip=True) as browser:
-        ctx = browser.contexts[0] if browser.contexts else browser.new_context()
-        page = ctx.new_page()
-        page.goto("https://www.sofascore.com", wait_until="domcontentloaded", timeout=30000)
-        time.sleep(2)
-        cookies = ctx.cookies()
-        ua = page.evaluate("navigator.userAgent")
-    s = cf_requests.Session()
-    for c in cookies:
-        if 'sofascore' in c.get('domain', ''):
-            s.cookies.update({c['name']: c['value']})
-    s.headers.update({"User-Agent": ua})
-    return s
+def is_league_allowed(sport, league):
+    """Renvoie True si la league est dispo sur Winamax/Betclic/Unibet FR."""
+    if not league:
+        return False
+    lg_lower = league.lower()
+    for rej in REJECT_PATTERNS:
+        if rej in lg_lower:
+            return False
+    patterns = WINAMAX_LEAGUES.get(sport, [])
+    for pat in patterns:
+        if pat in lg_lower:
+            return True
+    return False
+
+# Camoufox browser persistant + page pour batch JS fetch
+# (bypass Cloudflare en utilisant fetch() native dans le contexte browser)
+_browser = None
+_page = None
+_browser_lock = threading.Lock()
 
 
-def _get_session():
-    global _session
-    with _session_lock:
-        if _session is None:
-            _session = _bootstrap_session()
-        return _session
+_browser_cm = None
+_request_count = 0
+_BROWSER_ROTATION_THRESHOLD = 5000  # rotate browser tous les 5000 fetches pour éviter memory leak
 
 
-def _reset_session():
-    global _session
-    with _session_lock:
-        _session = None
+def _ensure_browser(force_rotate=False):
+    global _browser, _page, _browser_cm, _request_count
+    with _browser_lock:
+        if force_rotate or _request_count >= _BROWSER_ROTATION_THRESHOLD:
+            if _browser_cm is not None:
+                try: _browser_cm.__exit__(None, None, None)
+                except Exception: pass
+                _browser, _page, _browser_cm = None, None, None
+                _request_count = 0
+                print("  [auth] Browser rotation (libère mémoire Camoufox)")
+        if _browser is None:
+            from camoufox.sync_api import Camoufox
+            print("  [auth] Lancement Camoufox + bootstrap sofascore.com...")
+            _browser_cm = Camoufox(headless=True, geoip=True)
+            _browser = _browser_cm.__enter__()
+            _page = _browser.new_page()
+            _page.goto("https://www.sofascore.com", wait_until="domcontentloaded", timeout=30000)
+            time.sleep(2)
+            print("  [auth] Browser ready, fetches via JS dans contexte browser")
+        return _page
 
 
 def fetch(url, retries=2):
-    s = _get_session()
-    for i in range(retries + 1):
-        try:
-            r = s.get(url, impersonate="firefox135", timeout=15)
-            if r.status_code == 200:
-                return r.json()
-            if r.status_code == 403:
-                # Cookies probablement expirés → re-bootstrap au prochain appel
-                _reset_session()
-                s = _get_session()
-        except Exception:
-            pass
-        if i < retries:
-            time.sleep(0.5)
-    return None
+    """Single URL fetch via browser JS fetch (compat ancienne API)."""
+    results = batch_fetch([url], retries=retries)
+    return results.get(url)
+
+
+def batch_fetch(urls, retries=2, batch_size=50):
+    """Fetch parallèle via JS fetch dans Camoufox (50 URLs en // = ~100 req/s).
+    Retourne dict {url: parsed_json | None}."""
+    global _request_count
+    page = _ensure_browser()
+    out = {}
+    with _browser_lock:
+        _request_count += len(urls)
+        for i in range(0, len(urls), batch_size):
+            batch = urls[i:i+batch_size]
+            for attempt in range(retries + 1):
+                try:
+                    results = page.evaluate("""
+                        async (urls) => {
+                            return await Promise.all(urls.map(async u => {
+                                try {
+                                    const r = await fetch(u);
+                                    if (r.status !== 200) return {url: u, ok: false, status: r.status};
+                                    return {url: u, ok: true, body: await r.text()};
+                                } catch (e) {
+                                    return {url: u, ok: false, status: 0};
+                                }
+                            }));
+                        }
+                    """, batch)
+                    failed_403 = 0
+                    for r in results:
+                        if r['ok']:
+                            try: out[r['url']] = json.loads(r['body'])
+                            except: out[r['url']] = None
+                        else:
+                            out[r['url']] = None
+                            if r.get('status') == 403:
+                                failed_403 += 1
+                    # Si beaucoup de 403, on retry une fois après pause
+                    if failed_403 > batch_size * 0.5 and attempt < retries:
+                        print(f"  [warn] {failed_403}/{batch_size} 403, retry après pause 5s...")
+                        time.sleep(5)
+                        continue
+                    break
+                except Exception as e:
+                    if attempt < retries:
+                        time.sleep(1)
+                        continue
+                    for u in batch:
+                        out[u] = None
+    return out
 
 
 def frac_to_dec(s):
@@ -95,11 +181,9 @@ def daterange(start, end):
         d += timedelta(days=1)
 
 
-def list_events(sport, day):
-    """Liste tous les events ENDED d'un sport pour un jour donné, toutes leagues."""
-    data = fetch(f"https://api.sofascore.com/api/v1/sport/{sport}/scheduled-events/{day.isoformat()}")
-    if not data:
-        return []
+def parse_listing_data(data, sport, day_iso, whitelist_only=True):
+    """Parse une réponse listing en events ENDED."""
+    if not data: return []
     out = []
     for e in data.get("events", []):
         if e.get("status", {}).get("description") != "Ended":
@@ -108,23 +192,27 @@ def list_events(sport, day):
         as_ = e.get("awayScore", {}).get("current")
         if hs is None or as_ is None:
             continue
+        league = e.get("tournament", {}).get("name", "?")
+        if whitelist_only and not is_league_allowed(sport, league):
+            continue
         out.append({
-            "id": e["id"],
-            "date": day.isoformat(),
-            "sport": sport,
-            "league": e.get("tournament", {}).get("name", "?"),
+            "id": e["id"], "date": day_iso, "sport": sport,
+            "league": league,
             "category": e.get("tournament", {}).get("category", {}).get("name", "?"),
-            "home": e["homeTeam"]["name"],
-            "away": e["awayTeam"]["name"],
+            "home": e["homeTeam"]["name"], "away": e["awayTeam"]["name"],
             "hs": hs, "as": as_,
         })
     return out
 
 
-def fetch_event_odds(event):
-    """Récupère plusieurs marchés pour un event."""
-    eid = event["id"]
-    odds = fetch(f"https://api.sofascore.com/api/v1/event/{eid}/odds/1/all")
+def list_events(sport, day, whitelist_only=True):
+    """Liste les events ENDED d'un sport pour un jour donné (single fetch). Compat ancienne API."""
+    data = fetch(f"https://api.sofascore.com/api/v1/sport/{sport}/scheduled-events/{day.isoformat()}")
+    return parse_listing_data(data, sport, day.isoformat(), whitelist_only)
+
+
+def parse_odds_data(odds, event):
+    """Parse une réponse odds en row enrichi."""
     if not odds:
         return None
     markets = odds.get("markets", [])
@@ -172,36 +260,58 @@ def fetch_event_odds(event):
     return out
 
 
-def scrape_sport(sport, start_d, end_d, max_workers=30):
+def fetch_event_odds(event):
+    """Compat : fetch single event odds."""
+    eid = event["id"]
+    odds = fetch(f"https://api.sofascore.com/api/v1/event/{eid}/odds/1/all")
+    return parse_odds_data(odds, event)
+
+
+def scrape_sport(sport, start_d, end_d, max_workers=None, batch_size=50):
+    """Scrape via Camoufox JS-fetch parallèle. max_workers ignoré (parallélisme côté browser)."""
     print(f"\n[{sport}] === {start_d} → {end_d} ===")
     t0 = time.time()
 
-    # Phase 1 : liste tous les events
+    # Phase 1 : listing par batches de 50 jours en parallèle browser
+    all_days = list(daterange(start_d, end_d))
     all_events = []
-    with ThreadPoolExecutor(max_workers=15) as pool:
-        futures = {pool.submit(list_events, sport, d): d for d in daterange(start_d, end_d)}
-        done = 0
-        for f in as_completed(futures):
-            evs = f.result() or []
+    listing_urls = [f"https://api.sofascore.com/api/v1/sport/{sport}/scheduled-events/{d.isoformat()}"
+                    for d in all_days]
+    listing_results = {}
+    for i in range(0, len(listing_urls), batch_size):
+        batch_urls = listing_urls[i:i+batch_size]
+        listing_results.update(batch_fetch(batch_urls, batch_size=batch_size))
+        # Parse au fur et à mesure
+        for u in batch_urls:
+            day_iso = u.rsplit("/", 1)[-1]
+            data = listing_results.get(u)
+            evs = parse_listing_data(data, sport, day_iso, whitelist_only=True)
             all_events.extend(evs)
-            done += 1
-            if done % 30 == 0:
-                print(f"  [{sport}] events listés : {done}/{len(futures)} jours, {len(all_events)} events")
+        done = min(i + batch_size, len(listing_urls))
+        if done % 200 == 0 or done >= len(listing_urls):
+            print(f"  [{sport}] events listés : {done}/{len(listing_urls)} jours, {len(all_events)} events")
     print(f"[{sport}] Total events ENDED listés : {len(all_events)} en {time.time()-t0:.0f}s")
 
-    # Phase 2 : odds (plus lourd)
+    if not all_events:
+        print(f"[{sport}] ⚠️ aucun event listé, abort")
+        return
+
+    # Phase 2 : odds par batches de 50 events en parallèle browser
     rows = []
     t1 = time.time()
-    with ThreadPoolExecutor(max_workers=max_workers) as pool:
-        futures = [pool.submit(fetch_event_odds, e) for e in all_events]
-        for i, f in enumerate(as_completed(futures), 1):
-            r = f.result()
-            if r:
-                rows.append(r)
-            if i % 1000 == 0:
-                rate = i / max(time.time() - t1, 1)
-                eta = (len(all_events) - i) / max(rate, 0.1)
-                print(f"  [{sport}] odds : {i}/{len(all_events)} ({rate:.0f}/s, ETA {eta:.0f}s), {len(rows)} ok")
+    odds_urls = [f"https://api.sofascore.com/api/v1/event/{e['id']}/odds/1/all" for e in all_events]
+    event_by_url = {odds_urls[i]: all_events[i] for i in range(len(all_events))}
+    for i in range(0, len(odds_urls), batch_size):
+        batch_urls = odds_urls[i:i+batch_size]
+        results = batch_fetch(batch_urls, batch_size=batch_size)
+        for u in batch_urls:
+            r = parse_odds_data(results.get(u), event_by_url[u])
+            if r: rows.append(r)
+        done = min(i + batch_size, len(odds_urls))
+        if done % 500 == 0 or done >= len(odds_urls):
+            rate = done / max(time.time() - t1, 1)
+            eta = (len(odds_urls) - done) / max(rate, 0.1)
+            print(f"  [{sport}] odds : {done}/{len(odds_urls)} ({rate:.0f}/s, ETA {eta:.0f}s), {len(rows)} ok")
 
     # SAFETY : refuse d'écraser le CSV existant si on a < 100 matchs (probable ban/challenge)
     out_path = os.path.join(OUT_DIR, f"{sport}.csv")

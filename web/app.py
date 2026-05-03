@@ -1218,14 +1218,12 @@ def api_scrape_status():
                 sports[s]["phase_complete"] = True
                 sports[s]["saved"] = int(m.group(2))
 
-    # Process running : sofascore_unified OU rescrape_foot_overunder
+    # Process running : matche tous les scripts de scraping (sofascore_*, rescrape_*)
     import subprocess
     try:
-        r1 = subprocess.run(["pgrep", "-f", "sofascore_unified"],
-                            capture_output=True, text=True, timeout=2)
-        r2 = subprocess.run(["pgrep", "-f", "rescrape_foot_overunder"],
-                            capture_output=True, text=True, timeout=2)
-        running = bool((r1.stdout or "").strip() or (r2.stdout or "").strip())
+        r = subprocess.run(["pgrep", "-f", "rescrape_|sofascore_unified|sofascore_massive"],
+                           capture_output=True, text=True, timeout=2)
+        running = bool((r.stdout or "").strip())
     except Exception:
         running = False
 
