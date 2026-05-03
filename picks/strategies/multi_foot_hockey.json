@@ -1,0 +1,49 @@
+{
+  "id": "multi_foot_hockey",
+  "label": "🥇 Foot+Hockey CLASSIQUE — BR ×7 ratio 4.7×",
+  "description": "Composition multi-sport : 1 single foot 1x2 cote 1.90-2.40 sort EV (value) + 1 single hockey 1x2 cote 1.25-1.50 sort WR (safe). 2 picks/jour. Diversification sport = consistance améliorée. 6/6 trimestres positifs en walk-forward 16 mois OOS pur.",
+  "components": [
+    {
+      "sport": "football",
+      "market": "1x2",
+      "cote_min": 1.9,
+      "cote_max": 2.4,
+      "sort_by": "ev",
+      "max_legs": 1,
+      "max_combos": 1,
+      "min_wr": null,
+      "min_ev": null,
+      "label": "Foot value high (cote 1.9-2.4 EV)"
+    },
+    {
+      "sport": "ice-hockey",
+      "market": "1x2",
+      "cote_min": 1.25,
+      "cote_max": 1.5,
+      "sort_by": "wr",
+      "max_legs": 1,
+      "max_combos": 1,
+      "min_wr": null,
+      "min_ev": null,
+      "label": "Hockey safe (cote 1.25-1.50 WR)"
+    }
+  ],
+  "dedup": "max1",
+  "sizing": {
+    "mode": "flat_pct",
+    "pct": 0.05,
+    "min_stake": 0.5
+  },
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, magic prod)",
+    "source": "find_multisport sweep 2026-05-03",
+    "pnl_per_100br": 598,
+    "streak_max": 5,
+    "dd_per_100": 128,
+    "n_combos": 208,
+    "wr_combos": 0.68,
+    "trimestres_oos_pur": "6/6 positifs (Q1-25 → Apr-26 walk-forward)",
+    "note": "Le winner multi-sport. BR 100€ → 698€ en 4 mois. Streak max 5j (plus long que single-strat mais DD contenu à 128€ vs gain +598€). Sizing 5% car 2 composantes en parallèle. WR combos 68% — la combinaison foot value EV + hockey safe WR est complémentaire (foot capture le payoff, hockey stabilise).",
+    "ratio_pnl_dd": 4.7
+  }
+}

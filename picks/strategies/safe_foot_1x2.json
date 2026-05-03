@@ -1,0 +1,32 @@
+{
+  "id": "safe_foot_1x2",
+  "label": "🛡️ Foot Safe — Singles 1.4-1.7 (baseline)",
+  "description": "Singles foot 1x2 avec cote modérée. Tri par WR magic. 3 picks/jour. Stratégie conservatrice : WR haut (~70%+) au prix de gains nominaux modérés.",
+  "components": [
+    {
+      "sport": "football",
+      "market": "1x2",
+      "cote_min": 1.4,
+      "cote_max": 1.7,
+      "sort_by": "wr",
+      "max_legs": 1,
+      "max_combos": 3,
+      "min_wr": null,
+      "min_ev": null
+    }
+  ],
+  "dedup": "max1",
+  "sizing": {
+    "mode": "flat_pct",
+    "pct": 0.1,
+    "min_stake": 0.5
+  },
+  "validated": {
+    "period": "2026-01 → 2026-04",
+    "source": "v3 standalone",
+    "pnl_per_100br": 250,
+    "streak_max": 3,
+    "n_combos": 110,
+    "note": "Test rapide : sur 4 mois OOS magic prod, +250€ BR 100 → 350. Streak max 3j."
+  }
+}

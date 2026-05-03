@@ -1,0 +1,61 @@
+{
+  "id": "fhb_basket_safe_x49",
+  "label": "👑 FHB Basket-Safe BR ×49 ratio 10.6× — BOSS",
+  "description": "BR ×49 AVEC RATIO 10.6× ET STREAK 3J. C'est mathématiquement le meilleur preset de la lib sur S1-26 OOS strict. Sizing 6%. Détrône fhb_x50_aggressive (×49.7 ratio 2.6× streak 4j) — multiplier identique mais ratio 4× supérieur et streak 1j plus court.",
+  "components": [
+    {
+      "sport": "football",
+      "market": "1x2",
+      "cote_min": 1.9,
+      "cote_max": 2.4,
+      "sort_by": "ev",
+      "max_legs": 1,
+      "max_combos": 1,
+      "min_wr": null,
+      "min_ev": null,
+      "label": "Foot value high"
+    },
+    {
+      "sport": "ice-hockey",
+      "market": "1x2",
+      "cote_min": 1.25,
+      "cote_max": 1.5,
+      "sort_by": "wr",
+      "max_legs": 1,
+      "max_combos": 5,
+      "min_wr": null,
+      "min_ev": null,
+      "label": "Hockey safe (5 picks)"
+    },
+    {
+      "sport": "basketball",
+      "market": "1x2",
+      "cote_min": 1.2,
+      "cote_max": 1.4,
+      "sort_by": "wr",
+      "max_legs": 1,
+      "max_combos": 2,
+      "min_wr": null,
+      "min_ev": null,
+      "label": "Basket SAFE ultra (2 picks)"
+    }
+  ],
+  "dedup": "max1",
+  "sizing": {
+    "mode": "flat_pct",
+    "pct": 0.06,
+    "min_stake": 0.5
+  },
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict)",
+    "source": "FHB basket safe breakthrough",
+    "pnl_per_100br": 4832,
+    "bankroll_multiplier": 49.3,
+    "streak_max": 3,
+    "dd_per_100": 456,
+    "ratio_pnl_dd": 10.6,
+    "n_combos": 610,
+    "wr_combos": 0.76,
+    "note": "BOSS ABSOLU. Sur BR 1000€ → 49300€ en 4 mois théoriques. DD 456€ = 9% du peak. Ratio 10.6× égale fhb_basket_safe_max (record absolu). Sizing 6% = sweet spot entre amplification et stabilité. Streak 3j = profil très psychologique-friendly."
+  }
+}

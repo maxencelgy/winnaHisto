@@ -1,0 +1,50 @@
+{
+  "id": "multi_foot_hockey_kelly",
+  "label": "💥 Foot+Hockey KELLY AGGRO — BR ×30 (DD énorme)",
+  "description": "Variante aggressive du winner Multi Foot+Hockey. Sizing Kelly fractional (Kelly/4 cap 10%) qui adapte le stake à l'EV+WR de chaque pick. Performance forte mais DD plus élevé. À utiliser quand la bankroll peut absorber des chutes momentanées de ~30% du peak.",
+  "components": [
+    {
+      "sport": "football",
+      "market": "1x2",
+      "cote_min": 1.9,
+      "cote_max": 2.4,
+      "sort_by": "ev",
+      "max_legs": 1,
+      "max_combos": 1,
+      "min_wr": null,
+      "min_ev": null,
+      "label": "Foot value high"
+    },
+    {
+      "sport": "ice-hockey",
+      "market": "1x2",
+      "cote_min": 1.25,
+      "cote_max": 1.5,
+      "sort_by": "wr",
+      "max_legs": 1,
+      "max_combos": 1,
+      "min_wr": null,
+      "min_ev": null,
+      "label": "Hockey safe"
+    }
+  ],
+  "dedup": "max1",
+  "sizing": {
+    "mode": "kelly_fraction",
+    "kelly_div": 4.0,
+    "cap_pct": 0.1,
+    "min_stake": 0.5
+  },
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict)",
+    "source": "find_strategies_v2 sweep",
+    "pnl_per_100br": 2987,
+    "streak_max": 5,
+    "dd_per_100": 989,
+    "n_combos": 208,
+    "wr_combos": 0.68,
+    "trimestres_oos_pur": "6/6 positifs sur 16 mois walk-forward strict (magic recalibrée)",
+    "warning": "DD 989€ sur BR initial 100€ = 32% du peak. Le sizing Kelly amplifie gains ET pertes. Utiliser uniquement si tolérance au risque élevée. Pour un profil safe, préférer multi_foot_hockey (flat_pct 5% : +598€, DD 128€).",
+    "ratio_pnl_dd": 3.0
+  }
+}

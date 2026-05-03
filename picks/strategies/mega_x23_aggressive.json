@@ -1,0 +1,76 @@
+{
+  "id": "mega_x23_aggressive",
+  "label": "🚀🚀 MEGA BR×23 AGGRO — ratio 3.8×",
+  "description": "Variante AGRESSIVE du MEGA Diversifié : sizing flat_pct 10% sur la même composition lourde (8 picks/jour : 1 single foot value + 3 singles hockey safe + 3 combos 2j hockey + 1 combo 2j multi-sport). Le compounding sur 4 mois multiplie la BR par 23. DD 587€ sur BR finale 2347€ — soit 25% du peak. À utiliser quand on accepte DD significatifs pour un BR ×20+.",
+  "components": [
+    {
+      "sport": "football",
+      "market": "1x2",
+      "cote_min": 1.9,
+      "cote_max": 2.4,
+      "sort_by": "ev",
+      "max_legs": 1,
+      "max_combos": 1,
+      "min_wr": null,
+      "min_ev": null,
+      "label": "Single foot value"
+    },
+    {
+      "sport": "ice-hockey",
+      "market": "1x2",
+      "cote_min": 1.25,
+      "cote_max": 1.5,
+      "sort_by": "wr",
+      "max_legs": 1,
+      "max_combos": 3,
+      "min_wr": null,
+      "min_ev": null,
+      "label": "Singles hockey safe"
+    },
+    {
+      "sport": "ice-hockey",
+      "market": "1x2",
+      "cote_min": 1.7,
+      "cote_max": 2.0,
+      "sort_by": "wr",
+      "max_legs": 2,
+      "max_combos": 3,
+      "min_wr": 0.65,
+      "min_ev": null,
+      "label": "Combos 2j hockey safe"
+    },
+    {
+      "sports": [
+        "football",
+        "ice-hockey"
+      ],
+      "market": "1x2",
+      "cote_min": 2.5,
+      "cote_max": 4.0,
+      "sort_by": "ev",
+      "max_legs": 2,
+      "max_combos": 1,
+      "min_wr": 0.55,
+      "min_ev": null,
+      "label": "Combo 2j multi-sport value"
+    }
+  ],
+  "dedup": "max1",
+  "sizing": {
+    "mode": "flat_pct",
+    "pct": 0.1,
+    "min_stake": 0.5
+  },
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict)",
+    "source": "test sizing aggressif sur mega_safe_diversified",
+    "pnl_per_100br": 2247,
+    "bankroll_multiplier": 23.5,
+    "streak_max": 5,
+    "dd_per_100": 587,
+    "ratio_pnl_dd": 3.8,
+    "n_combos": 498,
+    "wr_combos": 0.62,
+    "note": "OBJECTIF BR×20 ATTEINT. 8 picks/jour répartis sur 4 sources décorrélées. BR 100€ → 2347€ en 4 mois. Le DD 587€ représente 25% du peak — moins que kelly_multi_foot_hockey (32%). C'est la meilleure option pour atteindre ×20+ avec ratio acceptable. Sur BR 1000€ → 23470€ en 4 mois théoriques."
+  }
+}

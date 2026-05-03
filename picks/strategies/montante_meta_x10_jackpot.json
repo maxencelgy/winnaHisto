@@ -1,0 +1,25 @@
+{
+  "id": "montante_meta_x10_jackpot",
+  "label": "🪜💎🎰 META JACKPOT ×10 (Hockey EV≥1.10) — ROI +189% capital 180€",
+  "description": "JACKPOT META : 10 paliers d'affilée hockey value 1.30-1.55 EV≥1.10. Très rare (2/17 cycles complets) mais ROI +189% — capital final 180€ par succès ! Le big shot des montantes.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["ice-hockey"], "market": "1x2",
+    "cote_min": 1.30, "cote_max": 1.55,
+    "sort_by": "ev", "max_legs": 1, "max_combos": 1,
+    "min_wr": null, "min_ev": 1.10
+  }],
+  "montante": {"initial_stake": 10, "n_paliers_target": 10, "reset_on_loss": true, "preferred_mode": "intraday"},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict)",
+    "n_cycles_complete": 2,
+    "n_cycles_total": 17,
+    "completion_rate": 0.12,
+    "wr_palier": 0.79,
+    "avg_capital_complete": 180,
+    "roi_pct": 189,
+    "note": "JACKPOT : 2 fois 10 paliers d'affilée sur 4 mois. 10€ → 180€. Très rare mais énorme payoff. WR par palier 79% — edge +8pts grâce au filter EV≥1.10. ROI net +189%."
+  }
+}

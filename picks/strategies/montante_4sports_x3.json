@@ -1,0 +1,31 @@
+{
+  "id": "montante_4sports_x3",
+  "label": "🪜🌐 MONTANTE 4 SPORTS ×3 — top WR foot/hockey/basket/baseball (ROI +33%)",
+  "description": "MONTANTE MULTI-SPORTS : 3 paliers all-in. Chaque jour, prend le pick avec WR magic le plus élevé parmi les 4 sports (foot+hockey+basket+baseball cote 1.25-1.45). Le multi-sport sélectionne les MEILLEURS picks → WR par palier 83% (vs 77% hockey seul). Sur S1-26 : 37 cycles, 13 succès → +127€ ROI +33% (le meilleur de toutes les montantes).",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football", "ice-hockey", "basketball", "baseball"],
+    "market": "1x2",
+    "cote_min": 1.25, "cote_max": 1.45,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+    "min_wr": null, "min_ev": null
+  }],
+  "montante": {
+    "initial_stake": 10,
+    "target_multiplier": 3,
+    "n_paliers_target": 3,
+    "reset_on_loss": true
+  },
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict)",
+    "source": "Montante multi-sport sweep",
+    "n_cycles": 37,
+    "n_success_estimated": 13,
+    "wr_palier": 0.83,
+    "pnl_per_10br_cycle": 127,
+    "roi_pct": 33,
+    "note": "MEILLEURE MONTANTE de la lib. ROI +33% (vs +24% hockey-only ×3). 1 cycle réussi = 10€ → ~30€. ~36% de chance par cycle. Avantage multi-sport : top pick global = WR 83% (cherry-pick le meilleur des 4 sports). À jouer en patience : ~1 succès tous les 3 jours actifs."
+  }
+}

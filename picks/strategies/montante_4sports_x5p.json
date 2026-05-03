@@ -1,0 +1,32 @@
+{
+  "id": "montante_4sports_x5p",
+  "label": "🪜🌐 MONTANTE 4 SPORTS — 5 PALIERS d'affilée (16 succès/4 mois, ROI +73%)",
+  "description": "MONTANTE 5 PALIERS : pars de 10€, all-in sur 1 pick (top WR magic parmi foot/hockey/basket/baseball cote 1.25-1.45). Si gagne → all-in palier 2. Continue jusqu'à 5 paliers d'affilée (10€ → ~40€). Si perd à un palier → reset à 10€ frais le lendemain. Sur S1-26 OOS strict : 16 cycles complets sur 36 (44% completion), ROI +73%, capital final moyen 39€.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football", "ice-hockey", "basketball", "baseball"],
+    "market": "1x2",
+    "cote_min": 1.25, "cote_max": 1.45,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+    "min_wr": null, "min_ev": null
+  }],
+  "montante": {
+    "initial_stake": 10,
+    "n_paliers_target": 5,
+    "reset_on_loss": true
+  },
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict)",
+    "source": "Montante multi-sport sweep",
+    "n_cycles_complete": 16,
+    "n_cycles_total": 36,
+    "completion_rate": 0.44,
+    "wr_palier": 0.83,
+    "avg_capital_complete": 39,
+    "pnl_per_10br_cycle": 273,
+    "roi_pct": 73,
+    "note": "16 fois 5 paliers d'affilée sur 4 mois ! 1 cycle réussi = ~39€ (10€ × cote^5 ≈ 1.32^5). 36 cycles tentés au total → 16 réussis (44%). ROI +73%. Le multi-sport cherry-pick le top WR de chaque jour."
+  }
+}

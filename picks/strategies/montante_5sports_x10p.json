@@ -1,0 +1,26 @@
+{
+  "id": "montante_5sports_x10p",
+  "label": "🪜🌐💥 MONTANTE 5 SPORTS — 10 PALIERS D'AFFILÉE (13 succès/4 mois !)",
+  "description": "MONTANTE EXTRÊME 10 PALIERS : enchainer 10 paris d'affilée en 1 journée. 5 sports (foot+hockey+basket+baseball+tennis) cote 1.20-1.40 sort WR. 13 cycles complets sur 106 cycles tentés = 12% complétion mais ROI +51% (capital final moyen 52€ par succès). Stratégie nerveuse pour ceux qui veulent VRAIMENT les 10 paliers.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football", "ice-hockey", "basketball", "baseball", "tennis"],
+    "market": "1x2",
+    "cote_min": 1.20, "cote_max": 1.40,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+    "min_wr": null, "min_ev": null
+  }],
+  "montante": {"initial_stake": 10, "n_paliers_target": 10, "reset_on_loss": true, "preferred_mode": "intraday"},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict)",
+    "n_cycles_complete": 13,
+    "n_cycles_total": 106,
+    "completion_rate": 0.12,
+    "wr_palier": 0.80,
+    "avg_capital_complete": 52,
+    "roi_pct": 51,
+    "note": "10 PALIERS D'AFFILÉE = atteint 13 fois sur 4 mois. ~1 fois par semaine. 10€ devient 52€ en moyenne par cycle complet. WR par palier 80% (cote ~1.30). 12% de chance de boucler les 10. Mais quand ça passe, gain énorme."
+  }
+}

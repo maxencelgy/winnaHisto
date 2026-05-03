@@ -1,0 +1,64 @@
+{
+  "id": "hybrid_singles_combo2j",
+  "label": "🔀 Hybride Singles+Combo2j — BR ×4 ratio 5.4× streak 4j",
+  "description": "Composition hybride : 1 single foot 1.9-2.4 EV + 1 single hockey 1.25-1.50 WR + 1 COMBO 2 jambes multi-sport (1 foot + 1 hockey, cote totale 2.5-4.0, min_wr 0.55). 3 picks/jour. Le combo 2j multi-sport amplifie le payoff sur les jours où les picks individuels gagnent — meilleur ratio gain/DD de la lib (5.4×) avec streak max 4j.",
+  "components": [
+    {
+      "sport": "football",
+      "market": "1x2",
+      "cote_min": 1.9,
+      "cote_max": 2.4,
+      "sort_by": "ev",
+      "max_legs": 1,
+      "max_combos": 1,
+      "min_wr": null,
+      "min_ev": null,
+      "label": "Foot value single"
+    },
+    {
+      "sport": "ice-hockey",
+      "market": "1x2",
+      "cote_min": 1.25,
+      "cote_max": 1.5,
+      "sort_by": "wr",
+      "max_legs": 1,
+      "max_combos": 1,
+      "min_wr": null,
+      "min_ev": null,
+      "label": "Hockey safe single"
+    },
+    {
+      "sports": [
+        "football",
+        "ice-hockey"
+      ],
+      "market": "1x2",
+      "cote_min": 2.5,
+      "cote_max": 4.0,
+      "sort_by": "ev",
+      "max_legs": 2,
+      "max_combos": 1,
+      "min_wr": 0.55,
+      "min_ev": null,
+      "label": "Combo 2j multi-sport value"
+    }
+  ],
+  "dedup": "max1",
+  "sizing": {
+    "mode": "flat_pct",
+    "pct": 0.04,
+    "min_stake": 0.5
+  },
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict)",
+    "source": "find_strategies_v4 sweep — pattern hybride",
+    "pnl_per_100br": 281,
+    "streak_max": 4,
+    "dd_per_100": 52,
+    "ratio_pnl_dd": 5.4,
+    "n_combos_estimated": 350,
+    "wr_combos": 0.56,
+    "trimestres_oos_pur": "6/6 positifs en walk-forward strict",
+    "note": "MEILLEUR RATIO de la lib à ce jour. Streak 4j (vs 5j sur multi_foot_hockey). Le combo 2j multi-sport (1 leg foot + 1 leg hockey) crée un nouvel axe : si les 2 sports performent le même jour, payoff supplémentaire >2.5x. WR combos 56% car le combo 2j a WR ~36% mais payoff 2.5-4x compense."
+  }
+}

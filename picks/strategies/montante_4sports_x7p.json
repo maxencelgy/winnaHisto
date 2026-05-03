@@ -1,0 +1,31 @@
+{
+  "id": "montante_4sports_x7p",
+  "label": "🪜🌐💥 MONTANTE 4 SPORTS — 7 PALIERS d'affilée (8 succès/4 mois, ROI +92%)",
+  "description": "MONTANTE EXTRÊME 7 PALIERS : ambition max. 10€ → ~68€ par cycle réussi. 29% de complétion mais ROI +92% sur S1-26 (le gain énorme par cycle compense les ratés). 8 réussites sur 4 mois — environ 2 par mois.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football", "ice-hockey", "basketball", "baseball"],
+    "market": "1x2",
+    "cote_min": 1.25, "cote_max": 1.45,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+    "min_wr": null, "min_ev": null
+  }],
+  "montante": {
+    "initial_stake": 10,
+    "n_paliers_target": 7,
+    "reset_on_loss": true
+  },
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict)",
+    "n_cycles_complete": 8,
+    "n_cycles_total": 28,
+    "completion_rate": 0.29,
+    "wr_palier": 0.83,
+    "avg_capital_complete": 68,
+    "pnl_per_10br_cycle": 266,
+    "roi_pct": 92,
+    "note": "Le BOSS des montantes : 8 cycles complets de 7 paliers en 4 mois. 10€ devient 68€ à chaque succès. 29% completion rate. ROI +92% — le meilleur de toutes les montantes."
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "montante_5sports_x3_volume",
+  "label": "🪜🌐 MONTANTE 5 SPORTS ×3 — VOLUME MAX (57 cycles complets/4 mois)",
+  "description": "5 sports (foot+hockey+basket+baseball+tennis) cote 1.30-1.50 sort WR. 3 paliers intraday. 57 cycles complets sur 119 (48%) — record absolu de fréquence. ROI +22% net. La montante avec le PLUS de succès.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football", "ice-hockey", "basketball", "baseball", "tennis"],
+    "market": "1x2",
+    "cote_min": 1.30, "cote_max": 1.50,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+    "min_wr": null, "min_ev": null
+  }],
+  "montante": {"initial_stake": 10, "n_paliers_target": 3, "reset_on_loss": true, "preferred_mode": "intraday"},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict)",
+    "n_cycles_complete": 57,
+    "n_cycles_total": 119,
+    "completion_rate": 0.48,
+    "wr_palier": 0.78,
+    "avg_capital_complete": 27,
+    "roi_pct": 22,
+    "note": "RECORD FRÉQUENCE : 57 cycles complets sur 4 mois = ~3.5 par semaine. 10€ → ~27€ chaque succès. ROI modéré +22% mais EXPÉRIENCE MAXIMALE de réussite."
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "fhb_x50_aggressive",
+  "label": "💥 FHB BR×50 AGGRO — DD 38% peak",
+  "description": "BR ×49 avec STREAK 4j. Sizing flat_pct 10% sur la même base FHB (foot value + 5 hockey safe + 1 basket). DD 1887€ sur BR finale 4968€ = 38% du peak. Pour bankroll qui tolère un drawdown élevé.",
+  "components": [
+    {
+      "sport": "football",
+      "market": "1x2",
+      "cote_min": 1.9,
+      "cote_max": 2.4,
+      "sort_by": "ev",
+      "max_legs": 1,
+      "max_combos": 1,
+      "min_wr": null,
+      "min_ev": null,
+      "label": "Foot value high"
+    },
+    {
+      "sport": "ice-hockey",
+      "market": "1x2",
+      "cote_min": 1.25,
+      "cote_max": 1.5,
+      "sort_by": "wr",
+      "max_legs": 1,
+      "max_combos": 5,
+      "min_wr": null,
+      "min_ev": null,
+      "label": "Hockey safe (5 picks)"
+    },
+    {
+      "sport": "basketball",
+      "market": "1x2",
+      "cote_min": 1.4,
+      "cote_max": 1.8,
+      "sort_by": "wr",
+      "max_legs": 1,
+      "max_combos": 1,
+      "min_wr": null,
+      "min_ev": null,
+      "label": "Basket value"
+    }
+  ],
+  "dedup": "max1",
+  "sizing": {
+    "mode": "flat_pct",
+    "pct": 0.1,
+    "min_stake": 0.5
+  },
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict)",
+    "source": "FHB sizing aggressive",
+    "pnl_per_100br": 4868,
+    "bankroll_multiplier": 49.7,
+    "streak_max": 4,
+    "dd_per_100": 1887,
+    "ratio_pnl_dd": 2.6,
+    "n_combos": 510,
+    "wr_combos": 0.7,
+    "warning": "DD 38% du peak. À utiliser si bankroll > 500€ et tolérance au risque très élevée. Pour ×30 plus safe préférer fhb_x30_streak4 (DD 29% peak)."
+  }
+}

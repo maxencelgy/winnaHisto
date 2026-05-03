@@ -1,0 +1,33 @@
+{
+  "id": "safe_hockey_1x2",
+  "label": "🏒 Hockey Safe — 4 singles 1.25-1.50 (DD bas)",
+  "description": "Singles hockey 1x2 cote très safe. Tri par WR. 4 picks/jour. Validé walk-forward strict 16 mois OOS pur. La stratégie la plus stable mais petits gains nominaux.",
+  "components": [
+    {
+      "sport": "ice-hockey",
+      "market": "1x2",
+      "cote_min": 1.25,
+      "cote_max": 1.5,
+      "sort_by": "wr",
+      "max_legs": 1,
+      "max_combos": 4,
+      "min_wr": null,
+      "min_ev": null
+    }
+  ],
+  "dedup": "max1",
+  "sizing": {
+    "mode": "flat_pct",
+    "pct": 0.1,
+    "min_stake": 0.5
+  },
+  "validated": {
+    "period": "2025-01 → 2026-04 (16 mois OOS pur)",
+    "source": "Survivor_hockey_125_15 + walk-forward v4",
+    "pnl_per_100br": 86,
+    "streak_max": 2,
+    "dd_per_100": 19,
+    "note": "Sur Avril 2026 BR 100 → 186€. Streak max 2j. DD réduit. Volume hockey peut être faible hors saison NHL/KHL/SHL active.",
+    "ratio_pnl_dd": 4.5
+  }
+}

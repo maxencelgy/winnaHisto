@@ -1,0 +1,33 @@
+{
+  "id": "value_foot_1x2",
+  "label": "⚽ Foot Value — Singles 1.6-1.9 (entrée gamme)",
+  "description": "Singles foot 1x2 cote intermédiaire. Tri par WR. 3 picks/jour. Compromis entre WR raisonnable et payoff plus généreux. Validé walk-forward 16 mois OOS strict.",
+  "components": [
+    {
+      "sport": "football",
+      "market": "1x2",
+      "cote_min": 1.6,
+      "cote_max": 1.9,
+      "sort_by": "wr",
+      "max_legs": 1,
+      "max_combos": 3,
+      "min_wr": null,
+      "min_ev": null
+    }
+  ],
+  "dedup": "max1",
+  "sizing": {
+    "mode": "flat_pct",
+    "pct": 0.1,
+    "min_stake": 0.5
+  },
+  "validated": {
+    "period": "2025-01 → 2026-04 (16 mois OOS pur)",
+    "source": "find_new_presets_v5",
+    "pnl_per_100br": 1470,
+    "streak_max": 4,
+    "n_quarters_positive": 5,
+    "n_quarters_total": 6,
+    "note": "Walk-forward strict avec magic recalibrée train<2025. Sur S1-26 magic prod : +315€ BR 100, streak 3j. Variance non négligeable : un mois sur 4-6 peut être négatif."
+  }
+}

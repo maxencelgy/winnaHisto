@@ -1,0 +1,75 @@
+{
+  "id": "mega_safe_diversified",
+  "label": "🌟 MEGA Diversifié RATIO MAX — BR ×2 ratio 7.2× DD ultra-bas",
+  "description": "Composition LOURDE multi-source : 1 single foot value + 3 singles hockey safe + 3 combos 2j hockey safe (cote 1.7-2.0) + 1 combo 2j multi-sport (foot+hockey cote 2.5-4.0). 8 picks/jour répartis sur 4 sources décorrélées. Sizing 1.5% par pick = exposition 12% BR/jour. Le DD plonge à 17€ grâce à la diversification — record absolu de la lib.",
+  "components": [
+    {
+      "sport": "football",
+      "market": "1x2",
+      "cote_min": 1.9,
+      "cote_max": 2.4,
+      "sort_by": "ev",
+      "max_legs": 1,
+      "max_combos": 1,
+      "min_wr": null,
+      "min_ev": null,
+      "label": "Single foot value"
+    },
+    {
+      "sport": "ice-hockey",
+      "market": "1x2",
+      "cote_min": 1.25,
+      "cote_max": 1.5,
+      "sort_by": "wr",
+      "max_legs": 1,
+      "max_combos": 3,
+      "min_wr": null,
+      "min_ev": null,
+      "label": "Singles hockey safe"
+    },
+    {
+      "sport": "ice-hockey",
+      "market": "1x2",
+      "cote_min": 1.7,
+      "cote_max": 2.0,
+      "sort_by": "wr",
+      "max_legs": 2,
+      "max_combos": 3,
+      "min_wr": 0.65,
+      "min_ev": null,
+      "label": "Combos 2j hockey safe"
+    },
+    {
+      "sports": [
+        "football",
+        "ice-hockey"
+      ],
+      "market": "1x2",
+      "cote_min": 2.5,
+      "cote_max": 4.0,
+      "sort_by": "ev",
+      "max_legs": 2,
+      "max_combos": 1,
+      "min_wr": 0.55,
+      "min_ev": null,
+      "label": "Combo 2j multi-sport value"
+    }
+  ],
+  "dedup": "max1",
+  "sizing": {
+    "mode": "flat_pct",
+    "pct": 0.015,
+    "min_stake": 0.5
+  },
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict)",
+    "source": "test multi-strat lourd diversifié post-sweep v5",
+    "pnl_per_100br": 124,
+    "streak_max": 5,
+    "dd_per_100": 17,
+    "ratio_pnl_dd": 7.2,
+    "n_combos": 498,
+    "wr_combos": 0.62,
+    "note": "RECORD ratio 7.2× — DD seulement 17€ sur BR 100. La diversification lourde (4 sources : foot single + hockey singles + combos 2j hockey + combo 2j multi-sport) lisse les pertes. PnL absolu modéré (+124€) mais profil rendement/risque optimal."
+  }
+}

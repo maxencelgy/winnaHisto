@@ -1,0 +1,61 @@
+{
+  "id": "fhb_basket_safe_x28",
+  "label": "💎💎 FHB Basket-Safe BR ×28 ratio 10.3× — STAR",
+  "description": "Variante BR ×28 du fhb_basket_safe_max. Sizing 5%. La PEPITE absolue : BR ×27.8 + ratio 10.3× + streak 3j sur S1-26 strict. Combinaison parfaite multiplier élevé / risque maîtrisé / consistance.",
+  "components": [
+    {
+      "sport": "football",
+      "market": "1x2",
+      "cote_min": 1.9,
+      "cote_max": 2.4,
+      "sort_by": "ev",
+      "max_legs": 1,
+      "max_combos": 1,
+      "min_wr": null,
+      "min_ev": null,
+      "label": "Foot value high"
+    },
+    {
+      "sport": "ice-hockey",
+      "market": "1x2",
+      "cote_min": 1.25,
+      "cote_max": 1.5,
+      "sort_by": "wr",
+      "max_legs": 1,
+      "max_combos": 5,
+      "min_wr": null,
+      "min_ev": null,
+      "label": "Hockey safe (5 picks)"
+    },
+    {
+      "sport": "basketball",
+      "market": "1x2",
+      "cote_min": 1.2,
+      "cote_max": 1.4,
+      "sort_by": "wr",
+      "max_legs": 1,
+      "max_combos": 2,
+      "min_wr": null,
+      "min_ev": null,
+      "label": "Basket SAFE ultra (2 picks)"
+    }
+  ],
+  "dedup": "max1",
+  "sizing": {
+    "mode": "flat_pct",
+    "pct": 0.05,
+    "min_stake": 0.5
+  },
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict)",
+    "source": "FHB basket safe breakthrough",
+    "pnl_per_100br": 2679,
+    "bankroll_multiplier": 27.8,
+    "streak_max": 3,
+    "dd_per_100": 260,
+    "ratio_pnl_dd": 10.3,
+    "n_combos": 610,
+    "wr_combos": 0.76,
+    "note": "BR 100€ → 2778€ en 4 mois. BR 1000€ → 27780€. STREAK MAX 3J — extrêmement consistant pour un BR ×28. Détrône fhb_x30_streak4 (×29 streak 4j ratio 3.3×). DD 260€ = 9% du peak final — beaucoup plus safe."
+  }
+}

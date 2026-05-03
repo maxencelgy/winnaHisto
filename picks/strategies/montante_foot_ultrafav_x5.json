@@ -1,0 +1,22 @@
+{
+  "id": "montante_foot_ultrafav_x5",
+  "label": "🪜⚽👑 MONTANTE Foot ULTRA-FAVORIS ×5 — capital 17€ (stable+)",
+  "description": "Variante 5 paliers du foot ultra-favoris. WR palier 98% → P(5p complets) ≈ 90%. Capital final 17€ par cycle. Plus risqué que ×3 mais paye plus.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football"], "market": "1x2",
+    "cote_min": 1.05, "cote_max": 1.15,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+    "min_wr": null, "min_ev": null
+  }],
+  "montante": {"initial_stake": 10, "n_paliers_target": 5, "reset_on_loss": true, "preferred_mode": "intraday"},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict)",
+    "estimated_completion": 0.90,
+    "wr_palier": 0.98,
+    "avg_capital_complete": 17,
+    "note": "Estimation ~90% complétion sur 5 paliers (extrapolation de WR 98%). Capital final 17€ par cycle. Pour ceux qui veulent stabilité + un peu plus de gain que ×3."
+  }
+}

@@ -1,0 +1,7758 @@
+{
+  "all_quick": [
+    {
+      "name": "H_1.1-1.2_wr_mc1",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.1,
+        "cote_max": 1.2,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 1
+      },
+      "result": {
+        "pnl": 9.07865115793799,
+        "br_final": 109.07865115793801,
+        "ng": 11,
+        "nr": 1,
+        "n_combos": 12,
+        "n_wins": 11,
+        "streak": 1,
+        "dd": 11.329811530289053
+      }
+    },
+    {
+      "name": "H_1.1-1.2_wr_mc2",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.1,
+        "cote_max": 1.2,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 2
+      },
+      "result": {
+        "pnl": 10.366981683425447,
+        "br_final": 110.36698168342546,
+        "ng": 11,
+        "nr": 1,
+        "n_combos": 13,
+        "n_wins": 12,
+        "streak": 1,
+        "dd": 11.463628201906639
+      }
+    },
+    {
+      "name": "H_1.1-1.2_wr_mc3",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.1,
+        "cote_max": 1.2,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 3
+      },
+      "result": {
+        "pnl": 10.366981683425447,
+        "br_final": 110.36698168342546,
+        "ng": 11,
+        "nr": 1,
+        "n_combos": 13,
+        "n_wins": 12,
+        "streak": 1,
+        "dd": 11.463628201906639
+      }
+    },
+    {
+      "name": "H_1.1-1.2_wr_mc4",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.1,
+        "cote_max": 1.2,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 4
+      },
+      "result": {
+        "pnl": 10.366981683425447,
+        "br_final": 110.36698168342546,
+        "ng": 11,
+        "nr": 1,
+        "n_combos": 13,
+        "n_wins": 12,
+        "streak": 1,
+        "dd": 11.463628201906639
+      }
+    },
+    {
+      "name": "H_1.1-1.2_wr_mc5",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.1,
+        "cote_max": 1.2,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 5
+      },
+      "result": {
+        "pnl": 10.366981683425447,
+        "br_final": 110.36698168342546,
+        "ng": 11,
+        "nr": 1,
+        "n_combos": 13,
+        "n_wins": 12,
+        "streak": 1,
+        "dd": 11.463628201906639
+      }
+    },
+    {
+      "name": "H_1.1-1.2_ev_mc1",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.1,
+        "cote_max": 1.2,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 1
+      },
+      "result": {
+        "pnl": 9.07865115793799,
+        "br_final": 109.07865115793801,
+        "ng": 11,
+        "nr": 1,
+        "n_combos": 12,
+        "n_wins": 11,
+        "streak": 1,
+        "dd": 11.329811530289053
+      }
+    },
+    {
+      "name": "H_1.1-1.2_ev_mc2",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.1,
+        "cote_max": 1.2,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 2
+      },
+      "result": {
+        "pnl": 10.366981683425447,
+        "br_final": 110.36698168342546,
+        "ng": 11,
+        "nr": 1,
+        "n_combos": 13,
+        "n_wins": 12,
+        "streak": 1,
+        "dd": 11.463628201906639
+      }
+    },
+    {
+      "name": "H_1.1-1.2_ev_mc3",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.1,
+        "cote_max": 1.2,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 3
+      },
+      "result": {
+        "pnl": 10.366981683425447,
+        "br_final": 110.36698168342546,
+        "ng": 11,
+        "nr": 1,
+        "n_combos": 13,
+        "n_wins": 12,
+        "streak": 1,
+        "dd": 11.463628201906639
+      }
+    },
+    {
+      "name": "H_1.1-1.2_ev_mc4",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.1,
+        "cote_max": 1.2,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 4
+      },
+      "result": {
+        "pnl": 10.366981683425447,
+        "br_final": 110.36698168342546,
+        "ng": 11,
+        "nr": 1,
+        "n_combos": 13,
+        "n_wins": 12,
+        "streak": 1,
+        "dd": 11.463628201906639
+      }
+    },
+    {
+      "name": "H_1.1-1.2_ev_mc5",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.1,
+        "cote_max": 1.2,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 5
+      },
+      "result": {
+        "pnl": 10.366981683425447,
+        "br_final": 110.36698168342546,
+        "ng": 11,
+        "nr": 1,
+        "n_combos": 13,
+        "n_wins": 12,
+        "streak": 1,
+        "dd": 11.463628201906639
+      }
+    },
+    {
+      "name": "H_1.2-1.3_wr_mc1",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.2,
+        "cote_max": 1.3,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 1
+      },
+      "result": {
+        "pnl": 31.561645280250687,
+        "br_final": 131.56164528025067,
+        "ng": 40,
+        "nr": 7,
+        "n_combos": 47,
+        "n_wins": 40,
+        "streak": 2,
+        "dd": 24.875675136025187
+      }
+    },
+    {
+      "name": "H_1.2-1.3_wr_mc2",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.2,
+        "cote_max": 1.3,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 2
+      },
+      "result": {
+        "pnl": 56.10583424864721,
+        "br_final": 156.1058342486472,
+        "ng": 39,
+        "nr": 8,
+        "n_combos": 64,
+        "n_wins": 55,
+        "streak": 2,
+        "dd": 31.357934924617744
+      }
+    },
+    {
+      "name": "H_1.2-1.3_wr_mc3",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.2,
+        "cote_max": 1.3,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 3
+      },
+      "result": {
+        "pnl": 101.52204922938884,
+        "br_final": 201.52204922938878,
+        "ng": 39,
+        "nr": 8,
+        "n_combos": 73,
+        "n_wins": 64,
+        "streak": 2,
+        "dd": 26.69725087419894
+      }
+    },
+    {
+      "name": "H_1.2-1.3_wr_mc4",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.2,
+        "cote_max": 1.3,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 4
+      },
+      "result": {
+        "pnl": 105.63474411162133,
+        "br_final": 205.6347441116213,
+        "ng": 39,
+        "nr": 8,
+        "n_combos": 74,
+        "n_wins": 65,
+        "streak": 2,
+        "dd": 27.24209272877443
+      }
+    },
+    {
+      "name": "H_1.2-1.3_wr_mc5",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.2,
+        "cote_max": 1.3,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 5
+      },
+      "result": {
+        "pnl": 105.63474411162133,
+        "br_final": 205.6347441116213,
+        "ng": 39,
+        "nr": 8,
+        "n_combos": 74,
+        "n_wins": 65,
+        "streak": 2,
+        "dd": 27.24209272877443
+      }
+    },
+    {
+      "name": "H_1.2-1.3_ev_mc1",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.2,
+        "cote_max": 1.3,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 1
+      },
+      "result": {
+        "pnl": 32.85146533201785,
+        "br_final": 132.8514653320179,
+        "ng": 40,
+        "nr": 7,
+        "n_combos": 47,
+        "n_wins": 40,
+        "streak": 2,
+        "dd": 25.119554304025442
+      }
+    },
+    {
+      "name": "H_1.2-1.3_ev_mc2",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.2,
+        "cote_max": 1.3,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 2
+      },
+      "result": {
+        "pnl": 60.13336753522278,
+        "br_final": 160.13336753522276,
+        "ng": 39,
+        "nr": 8,
+        "n_combos": 64,
+        "n_wins": 55,
+        "streak": 2,
+        "dd": 31.5968525240434
+      }
+    },
+    {
+      "name": "H_1.2-1.3_ev_mc3",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.2,
+        "cote_max": 1.3,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 3
+      },
+      "result": {
+        "pnl": 101.52204922938884,
+        "br_final": 201.52204922938878,
+        "ng": 39,
+        "nr": 8,
+        "n_combos": 73,
+        "n_wins": 64,
+        "streak": 2,
+        "dd": 26.69725087419894
+      }
+    },
+    {
+      "name": "H_1.2-1.3_ev_mc4",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.2,
+        "cote_max": 1.3,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 4
+      },
+      "result": {
+        "pnl": 105.63474411162133,
+        "br_final": 205.6347441116213,
+        "ng": 39,
+        "nr": 8,
+        "n_combos": 74,
+        "n_wins": 65,
+        "streak": 2,
+        "dd": 27.24209272877443
+      }
+    },
+    {
+      "name": "H_1.2-1.3_ev_mc5",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.2,
+        "cote_max": 1.3,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 5
+      },
+      "result": {
+        "pnl": 105.63474411162133,
+        "br_final": 205.6347441116213,
+        "ng": 39,
+        "nr": 8,
+        "n_combos": 74,
+        "n_wins": 65,
+        "streak": 2,
+        "dd": 27.24209272877443
+      }
+    },
+    {
+      "name": "H_1.25-1.4_wr_mc1",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.25,
+        "cote_max": 1.4,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 1
+      },
+      "result": {
+        "pnl": 116.73159235155786,
+        "br_final": 216.73159235155794,
+        "ng": 59,
+        "nr": 11,
+        "n_combos": 70,
+        "n_wins": 59,
+        "streak": 2,
+        "dd": 39.45983832853871
+      }
+    },
+    {
+      "name": "H_1.25-1.4_wr_mc2",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.25,
+        "cote_max": 1.4,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 2
+      },
+      "result": {
+        "pnl": 249.79184763469289,
+        "br_final": 349.7918476346928,
+        "ng": 55,
+        "nr": 15,
+        "n_combos": 110,
+        "n_wins": 93,
+        "streak": 3,
+        "dd": 64.78487403225834
+      }
+    },
+    {
+      "name": "H_1.25-1.4_wr_mc3",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.25,
+        "cote_max": 1.4,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 3
+      },
+      "result": {
+        "pnl": 246.16197089409889,
+        "br_final": 346.16197089409906,
+        "ng": 52,
+        "nr": 18,
+        "n_combos": 135,
+        "n_wins": 112,
+        "streak": 3,
+        "dd": 59.19098518729879
+      }
+    },
+    {
+      "name": "H_1.25-1.4_wr_mc4",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.25,
+        "cote_max": 1.4,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 4
+      },
+      "result": {
+        "pnl": 212.22337045157477,
+        "br_final": 312.2233704515748,
+        "ng": 54,
+        "nr": 16,
+        "n_combos": 154,
+        "n_wins": 126,
+        "streak": 3,
+        "dd": 88.01864120798342
+      }
+    },
+    {
+      "name": "H_1.25-1.4_wr_mc5",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.25,
+        "cote_max": 1.4,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 5
+      },
+      "result": {
+        "pnl": 229.28260765237147,
+        "br_final": 329.28260765237144,
+        "ng": 55,
+        "nr": 15,
+        "n_combos": 162,
+        "n_wins": 133,
+        "streak": 3,
+        "dd": 100.40728153225527
+      }
+    },
+    {
+      "name": "H_1.25-1.4_ev_mc1",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.25,
+        "cote_max": 1.4,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 1
+      },
+      "result": {
+        "pnl": 96.28644517797635,
+        "br_final": 196.28644517797625,
+        "ng": 58,
+        "nr": 12,
+        "n_combos": 70,
+        "n_wins": 58,
+        "streak": 3,
+        "dd": 35.221499879133816
+      }
+    },
+    {
+      "name": "H_1.25-1.4_ev_mc2",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.25,
+        "cote_max": 1.4,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 2
+      },
+      "result": {
+        "pnl": 133.2400123241116,
+        "br_final": 233.24001232411143,
+        "ng": 54,
+        "nr": 16,
+        "n_combos": 110,
+        "n_wins": 90,
+        "streak": 3,
+        "dd": 41.41976470123276
+      }
+    },
+    {
+      "name": "H_1.25-1.4_ev_mc3",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.25,
+        "cote_max": 1.4,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 3
+      },
+      "result": {
+        "pnl": 198.56648998661768,
+        "br_final": 298.5664899866177,
+        "ng": 52,
+        "nr": 18,
+        "n_combos": 135,
+        "n_wins": 111,
+        "streak": 3,
+        "dd": 59.19098518729879
+      }
+    },
+    {
+      "name": "H_1.25-1.4_ev_mc4",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.25,
+        "cote_max": 1.4,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 4
+      },
+      "result": {
+        "pnl": 163.57110147224236,
+        "br_final": 263.57110147224245,
+        "ng": 54,
+        "nr": 16,
+        "n_combos": 154,
+        "n_wins": 125,
+        "streak": 3,
+        "dd": 109.30782057985256
+      }
+    },
+    {
+      "name": "H_1.25-1.4_ev_mc5",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.25,
+        "cote_max": 1.4,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 5
+      },
+      "result": {
+        "pnl": 238.5183569496034,
+        "br_final": 338.51835694960334,
+        "ng": 55,
+        "nr": 15,
+        "n_combos": 162,
+        "n_wins": 133,
+        "streak": 3,
+        "dd": 100.40728153225527
+      }
+    },
+    {
+      "name": "H_1.3-1.45_wr_mc1",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.3,
+        "cote_max": 1.45,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 1
+      },
+      "result": {
+        "pnl": 34.29795332753089,
+        "br_final": 134.29795332753088,
+        "ng": 59,
+        "nr": 17,
+        "n_combos": 76,
+        "n_wins": 59,
+        "streak": 2,
+        "dd": 31.253494288950833
+      }
+    },
+    {
+      "name": "H_1.3-1.45_wr_mc2",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.3,
+        "cote_max": 1.45,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 2
+      },
+      "result": {
+        "pnl": 77.19502633623176,
+        "br_final": 177.1950263362317,
+        "ng": 51,
+        "nr": 25,
+        "n_combos": 125,
+        "n_wins": 97,
+        "streak": 4,
+        "dd": 66.1071739221994
+      }
+    },
+    {
+      "name": "H_1.3-1.45_wr_mc3",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.3,
+        "cote_max": 1.45,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 3
+      },
+      "result": {
+        "pnl": 158.68916711017275,
+        "br_final": 258.6891671101729,
+        "ng": 47,
+        "nr": 29,
+        "n_combos": 157,
+        "n_wins": 123,
+        "streak": 4,
+        "dd": 67.39183891623934
+      }
+    },
+    {
+      "name": "H_1.3-1.45_wr_mc4",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.3,
+        "cote_max": 1.45,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 4
+      },
+      "result": {
+        "pnl": 176.333098096988,
+        "br_final": 276.3330980969879,
+        "ng": 51,
+        "nr": 25,
+        "n_combos": 180,
+        "n_wins": 141,
+        "streak": 4,
+        "dd": 102.24743693472874
+      }
+    },
+    {
+      "name": "H_1.3-1.45_wr_mc5",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.3,
+        "cote_max": 1.45,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 5
+      },
+      "result": {
+        "pnl": 220.80351005362286,
+        "br_final": 320.80351005362286,
+        "ng": 51,
+        "nr": 25,
+        "n_combos": 188,
+        "n_wins": 148,
+        "streak": 3,
+        "dd": 96.52450156502731
+      }
+    },
+    {
+      "name": "H_1.3-1.45_ev_mc1",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.3,
+        "cote_max": 1.45,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 1
+      },
+      "result": {
+        "pnl": 23.8556026527748,
+        "br_final": 123.8556026527748,
+        "ng": 58,
+        "nr": 18,
+        "n_combos": 76,
+        "n_wins": 58,
+        "streak": 4,
+        "dd": 52.26134824477214
+      }
+    },
+    {
+      "name": "H_1.3-1.45_ev_mc2",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.3,
+        "cote_max": 1.45,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 2
+      },
+      "result": {
+        "pnl": 34.16729308073358,
+        "br_final": 134.16729308073366,
+        "ng": 50,
+        "nr": 26,
+        "n_combos": 125,
+        "n_wins": 95,
+        "streak": 4,
+        "dd": 62.77524710907374
+      }
+    },
+    {
+      "name": "H_1.3-1.45_ev_mc3",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.3,
+        "cote_max": 1.45,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 3
+      },
+      "result": {
+        "pnl": 126.0958114540353,
+        "br_final": 226.0958114540353,
+        "ng": 47,
+        "nr": 29,
+        "n_combos": 157,
+        "n_wins": 122,
+        "streak": 4,
+        "dd": 66.42881178922967
+      }
+    },
+    {
+      "name": "H_1.3-1.45_ev_mc4",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.3,
+        "cote_max": 1.45,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 4
+      },
+      "result": {
+        "pnl": 147.3076288634903,
+        "br_final": 247.30762886349024,
+        "ng": 51,
+        "nr": 25,
+        "n_combos": 180,
+        "n_wins": 140,
+        "streak": 3,
+        "dd": 101.2122653334928
+      }
+    },
+    {
+      "name": "H_1.3-1.45_ev_mc5",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.3,
+        "cote_max": 1.45,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 5
+      },
+      "result": {
+        "pnl": 231.33250323573225,
+        "br_final": 331.3325032357322,
+        "ng": 51,
+        "nr": 25,
+        "n_combos": 188,
+        "n_wins": 148,
+        "streak": 3,
+        "dd": 95.25384351090898
+      }
+    },
+    {
+      "name": "H_1.4-1.55_wr_mc1",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.4,
+        "cote_max": 1.55,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 1
+      },
+      "result": {
+        "pnl": 46.98491374866453,
+        "br_final": 146.98491374866447,
+        "ng": 68,
+        "nr": 26,
+        "n_combos": 94,
+        "n_wins": 68,
+        "streak": 3,
+        "dd": 89.95886602151022
+      }
+    },
+    {
+      "name": "H_1.4-1.55_wr_mc2",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.4,
+        "cote_max": 1.55,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 2
+      },
+      "result": {
+        "pnl": 143.40925676413556,
+        "br_final": 243.40925676413542,
+        "ng": 56,
+        "nr": 38,
+        "n_combos": 161,
+        "n_wins": 118,
+        "streak": 5,
+        "dd": 133.34821107938666
+      }
+    },
+    {
+      "name": "H_1.4-1.55_wr_mc3",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.4,
+        "cote_max": 1.55,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 3
+      },
+      "result": {
+        "pnl": 195.2648083034535,
+        "br_final": 295.26480830345366,
+        "ng": 50,
+        "nr": 43,
+        "n_combos": 210,
+        "n_wins": 153,
+        "streak": 5,
+        "dd": 261.9694405432491
+      }
+    },
+    {
+      "name": "H_1.4-1.55_wr_mc4",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.4,
+        "cote_max": 1.55,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 4
+      },
+      "result": {
+        "pnl": 138.90769077495588,
+        "br_final": 238.9076907749559,
+        "ng": 59,
+        "nr": 35,
+        "n_combos": 243,
+        "n_wins": 174,
+        "streak": 4,
+        "dd": 204.66021434856066
+      }
+    },
+    {
+      "name": "H_1.4-1.55_wr_mc5",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.4,
+        "cote_max": 1.55,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 5
+      },
+      "result": {
+        "pnl": 191.33172312463762,
+        "br_final": 291.3317231246377,
+        "ng": 56,
+        "nr": 38,
+        "n_combos": 263,
+        "n_wins": 189,
+        "streak": 4,
+        "dd": 259.31698031211903
+      }
+    },
+    {
+      "name": "H_1.4-1.55_ev_mc1",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.4,
+        "cote_max": 1.55,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 1
+      },
+      "result": {
+        "pnl": 38.48289471042776,
+        "br_final": 138.48289471042787,
+        "ng": 67,
+        "nr": 27,
+        "n_combos": 94,
+        "n_wins": 67,
+        "streak": 3,
+        "dd": 80.57633911888776
+      }
+    },
+    {
+      "name": "H_1.4-1.55_ev_mc2",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.4,
+        "cote_max": 1.55,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 2
+      },
+      "result": {
+        "pnl": 29.250510376506902,
+        "br_final": 129.25051037650692,
+        "ng": 52,
+        "nr": 42,
+        "n_combos": 161,
+        "n_wins": 113,
+        "streak": 6,
+        "dd": 115.9129936022161
+      }
+    },
+    {
+      "name": "H_1.4-1.55_ev_mc3",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.4,
+        "cote_max": 1.55,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 3
+      },
+      "result": {
+        "pnl": 221.32259463851787,
+        "br_final": 321.3225946385177,
+        "ng": 51,
+        "nr": 42,
+        "n_combos": 210,
+        "n_wins": 153,
+        "streak": 4,
+        "dd": 273.4443031988991
+      }
+    },
+    {
+      "name": "H_1.4-1.55_ev_mc4",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.4,
+        "cote_max": 1.55,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 4
+      },
+      "result": {
+        "pnl": 124.66773303516612,
+        "br_final": 224.66773303516612,
+        "ng": 58,
+        "nr": 36,
+        "n_combos": 243,
+        "n_wins": 173,
+        "streak": 4,
+        "dd": 188.5193134837973
+      }
+    },
+    {
+      "name": "H_1.4-1.55_ev_mc5",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.4,
+        "cote_max": 1.55,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 5
+      },
+      "result": {
+        "pnl": 132.88105954517377,
+        "br_final": 232.88105954517374,
+        "ng": 54,
+        "nr": 40,
+        "n_combos": 263,
+        "n_wins": 187,
+        "streak": 4,
+        "dd": 201.31712369580418
+      }
+    },
+    {
+      "name": "H_1.5-1.65_wr_mc1",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.5,
+        "cote_max": 1.65,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 1
+      },
+      "result": {
+        "pnl": -6.152002894240209,
+        "br_final": 93.8479971057598,
+        "ng": 71,
+        "nr": 37,
+        "n_combos": 108,
+        "n_wins": 71,
+        "streak": 4,
+        "dd": 63.172259161854825
+      }
+    },
+    {
+      "name": "H_1.5-1.65_wr_mc2",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.5,
+        "cote_max": 1.65,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 2
+      },
+      "result": {
+        "pnl": -42.47915055738214,
+        "br_final": 57.520849442617845,
+        "ng": 53,
+        "nr": 55,
+        "n_combos": 194,
+        "n_wins": 125,
+        "streak": 6,
+        "dd": 75.51690299632457
+      }
+    },
+    {
+      "name": "H_1.5-1.65_wr_mc3",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.5,
+        "cote_max": 1.65,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 3
+      },
+      "result": {
+        "pnl": -37.82687337042251,
+        "br_final": 62.17312662957747,
+        "ng": 68,
+        "nr": 38,
+        "n_combos": 252,
+        "n_wins": 164,
+        "streak": 3,
+        "dd": 122.96833855660645
+      }
+    },
+    {
+      "name": "H_1.5-1.65_wr_mc4",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.5,
+        "cote_max": 1.65,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 4
+      },
+      "result": {
+        "pnl": -64.97195796070511,
+        "br_final": 35.028042039294895,
+        "ng": 60,
+        "nr": 48,
+        "n_combos": 292,
+        "n_wins": 187,
+        "streak": 9,
+        "dd": 147.20689253307552
+      }
+    },
+    {
+      "name": "H_1.5-1.65_wr_mc5",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.5,
+        "cote_max": 1.65,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 5
+      },
+      "result": {
+        "pnl": -76.6214604769295,
+        "br_final": 23.37853952307055,
+        "ng": 58,
+        "nr": 50,
+        "n_combos": 323,
+        "n_wins": 205,
+        "streak": 9,
+        "dd": 147.9126917958787
+      }
+    },
+    {
+      "name": "H_1.5-1.65_ev_mc1",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.5,
+        "cote_max": 1.65,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 1
+      },
+      "result": {
+        "pnl": -34.72416735128509,
+        "br_final": 65.27583264871488,
+        "ng": 68,
+        "nr": 40,
+        "n_combos": 108,
+        "n_wins": 68,
+        "streak": 4,
+        "dd": 62.46894814476419
+      }
+    },
+    {
+      "name": "H_1.5-1.65_ev_mc2",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.5,
+        "cote_max": 1.65,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 2
+      },
+      "result": {
+        "pnl": -59.76409785776239,
+        "br_final": 40.23590214223757,
+        "ng": 51,
+        "nr": 57,
+        "n_combos": 194,
+        "n_wins": 122,
+        "streak": 6,
+        "dd": 70.98861892113109
+      }
+    },
+    {
+      "name": "H_1.5-1.65_ev_mc3",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.5,
+        "cote_max": 1.65,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 3
+      },
+      "result": {
+        "pnl": -55.19812137931959,
+        "br_final": 44.80187862068033,
+        "ng": 68,
+        "nr": 39,
+        "n_combos": 252,
+        "n_wins": 162,
+        "streak": 3,
+        "dd": 136.81804524761048
+      }
+    },
+    {
+      "name": "H_1.5-1.65_ev_mc4",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.5,
+        "cote_max": 1.65,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 4
+      },
+      "result": {
+        "pnl": -79.04529147153693,
+        "br_final": 20.954708528463055,
+        "ng": 59,
+        "nr": 49,
+        "n_combos": 292,
+        "n_wins": 184,
+        "streak": 7,
+        "dd": 111.50521835300262
+      }
+    },
+    {
+      "name": "H_1.5-1.65_ev_mc5",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.5,
+        "cote_max": 1.65,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 5
+      },
+      "result": {
+        "pnl": -77.65879922597966,
+        "br_final": 22.341200774020386,
+        "ng": 58,
+        "nr": 50,
+        "n_combos": 323,
+        "n_wins": 204,
+        "streak": 7,
+        "dd": 109.31628077418415
+      }
+    },
+    {
+      "name": "H_1.6-1.8_wr_mc1",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.6,
+        "cote_max": 1.8,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 1
+      },
+      "result": {
+        "pnl": -17.382855111426387,
+        "br_final": 82.61714488857362,
+        "ng": 67,
+        "nr": 43,
+        "n_combos": 110,
+        "n_wins": 67,
+        "streak": 4,
+        "dd": 135.83975217630297
+      }
+    },
+    {
+      "name": "H_1.6-1.8_wr_mc2",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.6,
+        "cote_max": 1.8,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 2
+      },
+      "result": {
+        "pnl": -89.38034254942671,
+        "br_final": 10.61965745057336,
+        "ng": 37,
+        "nr": 73,
+        "n_combos": 206,
+        "n_wins": 114,
+        "streak": 8,
+        "dd": 183.32745830617154
+      }
+    },
+    {
+      "name": "H_1.6-1.8_wr_mc3",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.6,
+        "cote_max": 1.8,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 3
+      },
+      "result": {
+        "pnl": -98.2900256760991,
+        "br_final": 1.7099743239008074,
+        "ng": 57,
+        "nr": 53,
+        "n_combos": 284,
+        "n_wins": 153,
+        "streak": 5,
+        "dd": 214.2384296443896
+      }
+    },
+    {
+      "name": "H_1.6-1.8_wr_mc4",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.6,
+        "cote_max": 1.8,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 4
+      },
+      "result": {
+        "pnl": -96.71254723581987,
+        "br_final": 3.287452764180125,
+        "ng": 43,
+        "nr": 67,
+        "n_combos": 346,
+        "n_wins": 192,
+        "streak": 17,
+        "dd": 310.8029161403014
+      }
+    },
+    {
+      "name": "H_1.6-1.8_wr_mc5",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.6,
+        "cote_max": 1.8,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 5
+      },
+      "result": {
+        "pnl": -95.46254091019154,
+        "br_final": 4.537459089808529,
+        "ng": 50,
+        "nr": 60,
+        "n_combos": 394,
+        "n_wins": 221,
+        "streak": 7,
+        "dd": 245.73620541607573
+      }
+    },
+    {
+      "name": "H_1.6-1.8_ev_mc1",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.6,
+        "cote_max": 1.8,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 1
+      },
+      "result": {
+        "pnl": -78.75470199947776,
+        "br_final": 21.24529800052224,
+        "ng": 58,
+        "nr": 52,
+        "n_combos": 110,
+        "n_wins": 58,
+        "streak": 4,
+        "dd": 105.58318856118579
+      }
+    },
+    {
+      "name": "H_1.6-1.8_ev_mc2",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.6,
+        "cote_max": 1.8,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 2
+      },
+      "result": {
+        "pnl": -95.64987022134997,
+        "br_final": 4.350129778650048,
+        "ng": 35,
+        "nr": 75,
+        "n_combos": 206,
+        "n_wins": 107,
+        "streak": 12,
+        "dd": 181.1200045547119
+      }
+    },
+    {
+      "name": "H_1.6-1.8_ev_mc3",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.6,
+        "cote_max": 1.8,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 3
+      },
+      "result": {
+        "pnl": -101.47937249358627,
+        "br_final": -1.4793724935863222,
+        "ng": 53,
+        "nr": 57,
+        "n_combos": 284,
+        "n_wins": 147,
+        "streak": 7,
+        "dd": 187.35233658802628
+      }
+    },
+    {
+      "name": "H_1.6-1.8_ev_mc4",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.6,
+        "cote_max": 1.8,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 4
+      },
+      "result": {
+        "pnl": -100.277320621416,
+        "br_final": -0.27732062141600744,
+        "ng": 42,
+        "nr": 68,
+        "n_combos": 346,
+        "n_wins": 186,
+        "streak": 8,
+        "dd": 234.03325980745058
+      }
+    },
+    {
+      "name": "H_1.6-1.8_ev_mc5",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.6,
+        "cote_max": 1.8,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 5
+      },
+      "result": {
+        "pnl": -102.08813599231857,
+        "br_final": -2.0881359923185268,
+        "ng": 49,
+        "nr": 61,
+        "n_combos": 394,
+        "n_wins": 212,
+        "streak": 7,
+        "dd": 131.990217084473
+      }
+    },
+    {
+      "name": "H_1.25-1.5_wr_mc1",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.25,
+        "cote_max": 1.5,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 1
+      },
+      "result": {
+        "pnl": 69.56365697382935,
+        "br_final": 169.56365697382935,
+        "ng": 72,
+        "nr": 20,
+        "n_combos": 92,
+        "n_wins": 72,
+        "streak": 3,
+        "dd": 81.95118741619304
+      }
+    },
+    {
+      "name": "H_1.25-1.5_wr_mc2",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.25,
+        "cote_max": 1.5,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 2
+      },
+      "result": {
+        "pnl": 496.2289728154421,
+        "br_final": 596.228972815442,
+        "ng": 66,
+        "nr": 26,
+        "n_combos": 165,
+        "n_wins": 134,
+        "streak": 5,
+        "dd": 180.11254068231398
+      }
+    },
+    {
+      "name": "H_1.25-1.5_wr_mc3",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.25,
+        "cote_max": 1.5,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 3
+      },
+      "result": {
+        "pnl": 835.2106408860418,
+        "br_final": 935.210640886042,
+        "ng": 58,
+        "nr": 33,
+        "n_combos": 217,
+        "n_wins": 175,
+        "streak": 5,
+        "dd": 256.92786721636355
+      }
+    },
+    {
+      "name": "H_1.25-1.5_wr_mc4",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.25,
+        "cote_max": 1.5,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 4
+      },
+      "result": {
+        "pnl": 1171.1958156209969,
+        "br_final": 1271.195815620997,
+        "ng": 66,
+        "nr": 25,
+        "n_combos": 254,
+        "n_wins": 205,
+        "streak": 2,
+        "dd": 319.44040645277335
+      }
+    },
+    {
+      "name": "H_1.25-1.5_wr_mc5",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.25,
+        "cote_max": 1.5,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 5
+      },
+      "result": {
+        "pnl": 1959.5996386307443,
+        "br_final": 2059.5996386307443,
+        "ng": 64,
+        "nr": 27,
+        "n_combos": 283,
+        "n_wins": 229,
+        "streak": 5,
+        "dd": 520.4932915957195
+      }
+    },
+    {
+      "name": "H_1.25-1.5_ev_mc1",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.25,
+        "cote_max": 1.5,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 1
+      },
+      "result": {
+        "pnl": 147.37088146197536,
+        "br_final": 247.37088146197553,
+        "ng": 73,
+        "nr": 19,
+        "n_combos": 92,
+        "n_wins": 73,
+        "streak": 4,
+        "dd": 110.76350901864237
+      }
+    },
+    {
+      "name": "H_1.25-1.5_ev_mc2",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.25,
+        "cote_max": 1.5,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 2
+      },
+      "result": {
+        "pnl": 539.3663404814984,
+        "br_final": 639.3663404814984,
+        "ng": 66,
+        "nr": 26,
+        "n_combos": 165,
+        "n_wins": 133,
+        "streak": 5,
+        "dd": 268.16186327972025
+      }
+    },
+    {
+      "name": "H_1.25-1.5_ev_mc3",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.25,
+        "cote_max": 1.5,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 3
+      },
+      "result": {
+        "pnl": 640.7551630978177,
+        "br_final": 740.7551630978181,
+        "ng": 58,
+        "nr": 33,
+        "n_combos": 217,
+        "n_wins": 172,
+        "streak": 5,
+        "dd": 203.50564446520565
+      }
+    },
+    {
+      "name": "H_1.25-1.5_ev_mc4",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.25,
+        "cote_max": 1.5,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 4
+      },
+      "result": {
+        "pnl": 953.962785284943,
+        "br_final": 1053.9627852849433,
+        "ng": 63,
+        "nr": 28,
+        "n_combos": 254,
+        "n_wins": 202,
+        "streak": 5,
+        "dd": 306.5992023871414
+      }
+    },
+    {
+      "name": "H_1.25-1.5_ev_mc5",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.25,
+        "cote_max": 1.5,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 5
+      },
+      "result": {
+        "pnl": 756.4236900479078,
+        "br_final": 856.4236900479077,
+        "ng": 63,
+        "nr": 28,
+        "n_combos": 283,
+        "n_wins": 222,
+        "streak": 5,
+        "dd": 334.00155458568634
+      }
+    },
+    {
+      "name": "WR0.65_footba_1.4-1.8",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.4,
+        "cote_max": 1.8,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 4,
+        "min_wr": 0.65
+      },
+      "result": {
+        "pnl": 4.26721247331626,
+        "br_final": 104.2672124733163,
+        "ng": 63,
+        "nr": 41,
+        "n_combos": 301,
+        "n_wins": 197,
+        "streak": 4,
+        "dd": 129.18466831262361
+      }
+    },
+    {
+      "name": "WR0.7_footba_1.4-1.8",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.4,
+        "cote_max": 1.8,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 4,
+        "min_wr": 0.7
+      },
+      "result": {
+        "pnl": -59.143148182976944,
+        "br_final": 40.85685181702313,
+        "ng": 51,
+        "nr": 34,
+        "n_combos": 209,
+        "n_wins": 134,
+        "streak": 4,
+        "dd": 139.38414273847815
+      }
+    },
+    {
+      "name": "WR0.75_footba_1.4-1.8",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.4,
+        "cote_max": 1.8,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 4,
+        "min_wr": 0.75
+      },
+      "result": {
+        "pnl": -77.50141456525421,
+        "br_final": 22.498585434745884,
+        "ng": 31,
+        "nr": 29,
+        "n_combos": 99,
+        "n_wins": 58,
+        "streak": 5,
+        "dd": 124.5783094179113
+      }
+    },
+    {
+      "name": "WR0.65_footba_1.5-2.0",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.5,
+        "cote_max": 2.0,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 4,
+        "min_wr": 0.65
+      },
+      "result": {
+        "pnl": -24.082629690895203,
+        "br_final": 75.91737030910481,
+        "ng": 57,
+        "nr": 41,
+        "n_combos": 251,
+        "n_wins": 155,
+        "streak": 4,
+        "dd": 121.37812771169506
+      }
+    },
+    {
+      "name": "WR0.7_footba_1.5-2.0",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.5,
+        "cote_max": 2.0,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 4,
+        "min_wr": 0.7
+      },
+      "result": {
+        "pnl": -61.76972949528628,
+        "br_final": 38.230270504713765,
+        "ng": 44,
+        "nr": 36,
+        "n_combos": 174,
+        "n_wins": 104,
+        "streak": 5,
+        "dd": 89.8151003740531
+      }
+    },
+    {
+      "name": "WR0.75_footba_1.5-2.0",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.5,
+        "cote_max": 2.0,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 4,
+        "min_wr": 0.75
+      },
+      "result": {
+        "pnl": -83.2919504206658,
+        "br_final": 16.708049579334244,
+        "ng": 22,
+        "nr": 27,
+        "n_combos": 83,
+        "n_wins": 41,
+        "streak": 6,
+        "dd": 96.90695993296612
+      }
+    },
+    {
+      "name": "WR0.65_footba_1.8-2.3",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.8,
+        "cote_max": 2.3,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 4,
+        "min_wr": 0.65
+      },
+      "result": {
+        "pnl": -16.774281570557097,
+        "br_final": 83.22571842944292,
+        "ng": 25,
+        "nr": 17,
+        "n_combos": 71,
+        "n_wins": 37,
+        "streak": 4,
+        "dd": 68.14896709422686
+      }
+    },
+    {
+      "name": "WR0.7_footba_1.8-2.3",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.8,
+        "cote_max": 2.3,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 4,
+        "min_wr": 0.7
+      },
+      "result": {
+        "pnl": 23.946170860585298,
+        "br_final": 123.94617086058517,
+        "ng": 19,
+        "nr": 14,
+        "n_combos": 51,
+        "n_wins": 28,
+        "streak": 4,
+        "dd": 71.49030931909795
+      }
+    },
+    {
+      "name": "WR0.75_footba_1.8-2.3",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.8,
+        "cote_max": 2.3,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 4,
+        "min_wr": 0.75
+      },
+      "result": {
+        "pnl": -15.641368714423677,
+        "br_final": 84.35863128557628,
+        "ng": 13,
+        "nr": 12,
+        "n_combos": 38,
+        "n_wins": 19,
+        "streak": 3,
+        "dd": 55.29997768822143
+      }
+    },
+    {
+      "name": "WR0.65_footba_1.5-2.5",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.5,
+        "cote_max": 2.5,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 4,
+        "min_wr": 0.65
+      },
+      "result": {
+        "pnl": -17.64942270314253,
+        "br_final": 82.35057729685742,
+        "ng": 61,
+        "nr": 39,
+        "n_combos": 263,
+        "n_wins": 157,
+        "streak": 4,
+        "dd": 100.2473294823971
+      }
+    },
+    {
+      "name": "WR0.7_footba_1.5-2.5",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.5,
+        "cote_max": 2.5,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 4,
+        "min_wr": 0.7
+      },
+      "result": {
+        "pnl": -44.98842653937161,
+        "br_final": 55.01157346062843,
+        "ng": 48,
+        "nr": 35,
+        "n_combos": 189,
+        "n_wins": 110,
+        "streak": 5,
+        "dd": 125.84547810073354
+      }
+    },
+    {
+      "name": "WR0.75_footba_1.5-2.5",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.5,
+        "cote_max": 2.5,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 4,
+        "min_wr": 0.75
+      },
+      "result": {
+        "pnl": -80.0706866629682,
+        "br_final": 19.929313337031825,
+        "ng": 26,
+        "nr": 29,
+        "n_combos": 100,
+        "n_wins": 49,
+        "streak": 5,
+        "dd": 95.6657013044583
+      }
+    },
+    {
+      "name": "WR0.65_basket_1.4-1.8",
+      "cfg": {
+        "sports_list": [
+          "basketball"
+        ],
+        "market": "1x2",
+        "cote_min": 1.4,
+        "cote_max": 1.8,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 4,
+        "min_wr": 0.65
+      },
+      "result": {
+        "pnl": -94.45977503456568,
+        "br_final": 5.540224965434335,
+        "ng": 47,
+        "nr": 47,
+        "n_combos": 240,
+        "n_wins": 146,
+        "streak": 6,
+        "dd": 104.68329610833555
+      }
+    },
+    {
+      "name": "WR0.7_basket_1.4-1.8",
+      "cfg": {
+        "sports_list": [
+          "basketball"
+        ],
+        "market": "1x2",
+        "cote_min": 1.4,
+        "cote_max": 1.8,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 4,
+        "min_wr": 0.7
+      },
+      "result": {
+        "pnl": -52.54765752727684,
+        "br_final": 47.452342472723174,
+        "ng": 32,
+        "nr": 27,
+        "n_combos": 124,
+        "n_wins": 80,
+        "streak": 4,
+        "dd": 57.07154157377082
+      }
+    },
+    {
+      "name": "WR0.75_basket_1.4-1.8",
+      "cfg": {
+        "sports_list": [
+          "basketball"
+        ],
+        "market": "1x2",
+        "cote_min": 1.4,
+        "cote_max": 1.8,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 4,
+        "min_wr": 0.75
+      },
+      "result": {
+        "pnl": -37.85709457729346,
+        "br_final": 62.14290542270656,
+        "ng": 20,
+        "nr": 18,
+        "n_combos": 57,
+        "n_wins": 35,
+        "streak": 3,
+        "dd": 37.85709457729346
+      }
+    },
+    {
+      "name": "WR0.65_basket_1.5-2.0",
+      "cfg": {
+        "sports_list": [
+          "basketball"
+        ],
+        "market": "1x2",
+        "cote_min": 1.5,
+        "cote_max": 2.0,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 4,
+        "min_wr": 0.65
+      },
+      "result": {
+        "pnl": -89.03161082722927,
+        "br_final": 10.968389172770703,
+        "ng": 30,
+        "nr": 38,
+        "n_combos": 118,
+        "n_wins": 63,
+        "streak": 5,
+        "dd": 95.28029770108083
+      }
+    },
+    {
+      "name": "WR0.7_basket_1.5-2.0",
+      "cfg": {
+        "sports_list": [
+          "basketball"
+        ],
+        "market": "1x2",
+        "cote_min": 1.5,
+        "cote_max": 2.0,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 4,
+        "min_wr": 0.7
+      },
+      "result": {
+        "pnl": -47.981499923694564,
+        "br_final": 52.01850007630546,
+        "ng": 16,
+        "nr": 16,
+        "n_combos": 46,
+        "n_wins": 25,
+        "streak": 4,
+        "dd": 47.981499923694564
+      }
+    },
+    {
+      "name": "WR0.75_basket_1.5-2.0",
+      "cfg": {
+        "sports_list": [
+          "basketball"
+        ],
+        "market": "1x2",
+        "cote_min": 1.5,
+        "cote_max": 2.0,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 4,
+        "min_wr": 0.75
+      },
+      "result": {
+        "pnl": -43.694364152460665,
+        "br_final": 56.30563584753932,
+        "ng": 11,
+        "nr": 14,
+        "n_combos": 36,
+        "n_wins": 19,
+        "streak": 3,
+        "dd": 45.857353002309395
+      }
+    },
+    {
+      "name": "WR0.65_basket_1.8-2.3",
+      "cfg": {
+        "sports_list": [
+          "basketball"
+        ],
+        "market": "1x2",
+        "cote_min": 1.8,
+        "cote_max": 2.3,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 4,
+        "min_wr": 0.65
+      },
+      "result": {
+        "pnl": -19.172853999999997,
+        "br_final": 80.827146,
+        "ng": 2,
+        "nr": 3,
+        "n_combos": 6,
+        "n_wins": 2,
+        "streak": 2,
+        "dd": 20.7577
+      }
+    },
+    {
+      "name": "WR0.7_basket_1.8-2.3",
+      "cfg": {
+        "sports_list": [
+          "basketball"
+        ],
+        "market": "1x2",
+        "cote_min": 1.8,
+        "cote_max": 2.3,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 4,
+        "min_wr": 0.7
+      },
+      "result": {
+        "pnl": -2.169999999999999,
+        "br_final": 97.83,
+        "ng": 1,
+        "nr": 1,
+        "n_combos": 2,
+        "n_wins": 1,
+        "streak": 1,
+        "dd": 10.0
+      }
+    },
+    {
+      "name": "WR0.75_basket_1.8-2.3",
+      "cfg": {
+        "sports_list": [
+          "basketball"
+        ],
+        "market": "1x2",
+        "cote_min": 1.8,
+        "cote_max": 2.3,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 4,
+        "min_wr": 0.75
+      },
+      "result": {
+        "pnl": -2.169999999999999,
+        "br_final": 97.83,
+        "ng": 1,
+        "nr": 1,
+        "n_combos": 2,
+        "n_wins": 1,
+        "streak": 1,
+        "dd": 10.0
+      }
+    },
+    {
+      "name": "WR0.65_basket_1.5-2.5",
+      "cfg": {
+        "sports_list": [
+          "basketball"
+        ],
+        "market": "1x2",
+        "cote_min": 1.5,
+        "cote_max": 2.5,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 4,
+        "min_wr": 0.65
+      },
+      "result": {
+        "pnl": -88.78786884561212,
+        "br_final": 11.212131154387826,
+        "ng": 30,
+        "nr": 38,
+        "n_combos": 120,
+        "n_wins": 64,
+        "streak": 5,
+        "dd": 95.05763764999371
+      }
+    },
+    {
+      "name": "WR0.7_basket_1.5-2.5",
+      "cfg": {
+        "sports_list": [
+          "basketball"
+        ],
+        "market": "1x2",
+        "cote_min": 1.5,
+        "cote_max": 2.5,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 4,
+        "min_wr": 0.7
+      },
+      "result": {
+        "pnl": -47.981499923694564,
+        "br_final": 52.01850007630546,
+        "ng": 16,
+        "nr": 16,
+        "n_combos": 46,
+        "n_wins": 25,
+        "streak": 4,
+        "dd": 47.981499923694564
+      }
+    },
+    {
+      "name": "WR0.75_basket_1.5-2.5",
+      "cfg": {
+        "sports_list": [
+          "basketball"
+        ],
+        "market": "1x2",
+        "cote_min": 1.5,
+        "cote_max": 2.5,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 4,
+        "min_wr": 0.75
+      },
+      "result": {
+        "pnl": -43.694364152460665,
+        "br_final": 56.30563584753932,
+        "ng": 11,
+        "nr": 14,
+        "n_combos": 36,
+        "n_wins": 19,
+        "streak": 3,
+        "dd": 45.857353002309395
+      }
+    },
+    {
+      "name": "WR0.65_ice-ho_1.4-1.8",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.4,
+        "cote_max": 1.8,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 4,
+        "min_wr": 0.65
+      },
+      "result": {
+        "pnl": 5.477544911487819,
+        "br_final": 105.47754491148788,
+        "ng": 64,
+        "nr": 36,
+        "n_combos": 262,
+        "n_wins": 179,
+        "streak": 4,
+        "dd": 231.99434569330947
+      }
+    },
+    {
+      "name": "WR0.7_ice-ho_1.4-1.8",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.4,
+        "cote_max": 1.8,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 4,
+        "min_wr": 0.7
+      },
+      "result": {
+        "pnl": 164.94848905568625,
+        "br_final": 264.9484890556861,
+        "ng": 54,
+        "nr": 25,
+        "n_combos": 160,
+        "n_wins": 117,
+        "streak": 4,
+        "dd": 110.62382997090202
+      }
+    },
+    {
+      "name": "WR0.75_ice-ho_1.4-1.8",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.4,
+        "cote_max": 1.8,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 4,
+        "min_wr": 0.75
+      },
+      "result": {
+        "pnl": 79.2951246513596,
+        "br_final": 179.2951246513597,
+        "ng": 30,
+        "nr": 16,
+        "n_combos": 68,
+        "n_wins": 50,
+        "streak": 3,
+        "dd": 64.49967338698849
+      }
+    },
+    {
+      "name": "WR0.65_ice-ho_1.5-2.0",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.5,
+        "cote_max": 2.0,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 4,
+        "min_wr": 0.65
+      },
+      "result": {
+        "pnl": -24.071516659185313,
+        "br_final": 75.9284833408147,
+        "ng": 52,
+        "nr": 39,
+        "n_combos": 184,
+        "n_wins": 119,
+        "streak": 4,
+        "dd": 52.903434391320204
+      }
+    },
+    {
+      "name": "WR0.7_ice-ho_1.5-2.0",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.5,
+        "cote_max": 2.0,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 4,
+        "min_wr": 0.7
+      },
+      "result": {
+        "pnl": -12.571546563559506,
+        "br_final": 87.42845343644046,
+        "ng": 26,
+        "nr": 18,
+        "n_combos": 62,
+        "n_wins": 40,
+        "streak": 2,
+        "dd": 40.32999568387839
+      }
+    },
+    {
+      "name": "WR0.75_ice-ho_1.5-2.0",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.5,
+        "cote_max": 2.0,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 4,
+        "min_wr": 0.75
+      },
+      "result": {
+        "pnl": 62.492602810438335,
+        "br_final": 162.49260281043837,
+        "ng": 22,
+        "nr": 10,
+        "n_combos": 38,
+        "n_wins": 28,
+        "streak": 3,
+        "dd": 27.693817966867503
+      }
+    },
+    {
+      "name": "WR0.65_ice-ho_1.8-2.3",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.8,
+        "cote_max": 2.3,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 4,
+        "min_wr": 0.65
+      },
+      "result": {
+        "pnl": 24.15250295,
+        "br_final": 124.15250295,
+        "ng": 4,
+        "nr": 1,
+        "n_combos": 5,
+        "n_wins": 4,
+        "streak": 1,
+        "dd": 13.794722550000003
+      }
+    },
+    {
+      "name": "WR0.7_ice-ho_1.8-2.3",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.8,
+        "cote_max": 2.3,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 4,
+        "min_wr": 0.7
+      },
+      "result": {
+        "pnl": -10.0,
+        "br_final": 90.0,
+        "ng": 0,
+        "nr": 1,
+        "n_combos": 1,
+        "n_wins": 0,
+        "streak": 1,
+        "dd": 10.0
+      }
+    },
+    {
+      "name": "WR0.75_ice-ho_1.8-2.3",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.8,
+        "cote_max": 2.3,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 4,
+        "min_wr": 0.75
+      },
+      "result": {
+        "pnl": -10.0,
+        "br_final": 90.0,
+        "ng": 0,
+        "nr": 1,
+        "n_combos": 1,
+        "n_wins": 0,
+        "streak": 1,
+        "dd": 10.0
+      }
+    },
+    {
+      "name": "WR0.65_ice-ho_1.5-2.5",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.5,
+        "cote_max": 2.5,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 4,
+        "min_wr": 0.65
+      },
+      "result": {
+        "pnl": -31.664364993266773,
+        "br_final": 68.33563500673326,
+        "ng": 52,
+        "nr": 40,
+        "n_combos": 185,
+        "n_wins": 119,
+        "streak": 4,
+        "dd": 52.903434391320204
+      }
+    },
+    {
+      "name": "WR0.7_ice-ho_1.5-2.5",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.5,
+        "cote_max": 2.5,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 4,
+        "min_wr": 0.7
+      },
+      "result": {
+        "pnl": -21.31439190720355,
+        "br_final": 78.68560809279641,
+        "ng": 26,
+        "nr": 19,
+        "n_combos": 63,
+        "n_wins": 40,
+        "streak": 2,
+        "dd": 40.32999568387839
+      }
+    },
+    {
+      "name": "WR0.75_ice-ho_1.5-2.5",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.5,
+        "cote_max": 2.5,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 4,
+        "min_wr": 0.75
+      },
+      "result": {
+        "pnl": 46.2433425293945,
+        "br_final": 146.24334252939457,
+        "ng": 22,
+        "nr": 11,
+        "n_combos": 39,
+        "n_wins": 28,
+        "streak": 3,
+        "dd": 35.46007314839617
+      }
+    },
+    {
+      "name": "H2j_1.2-1.5_wr_mc2",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.2,
+        "cote_max": 1.5,
+        "max_legs": 2,
+        "sort_by": "wr",
+        "max_combos": 2
+      },
+      "result": {
+        "pnl": 72.44619511811385,
+        "br_final": 172.446195118114,
+        "ng": 73,
+        "nr": 20,
+        "n_combos": 186,
+        "n_wins": 147,
+        "streak": 2,
+        "dd": 201.6500831262995
+      }
+    },
+    {
+      "name": "H2j_1.2-1.5_wr_mc3",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.2,
+        "cote_max": 1.5,
+        "max_legs": 2,
+        "sort_by": "wr",
+        "max_combos": 3
+      },
+      "result": {
+        "pnl": 305.7362650976663,
+        "br_final": 405.7362650976664,
+        "ng": 66,
+        "nr": 27,
+        "n_combos": 261,
+        "n_wins": 209,
+        "streak": 5,
+        "dd": 523.0243190232911
+      }
+    },
+    {
+      "name": "H2j_1.2-1.5_wr_mc4",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.2,
+        "cote_max": 1.5,
+        "max_legs": 2,
+        "sort_by": "wr",
+        "max_combos": 4
+      },
+      "result": {
+        "pnl": 554.4656306761766,
+        "br_final": 654.4656306761763,
+        "ng": 66,
+        "nr": 27,
+        "n_combos": 336,
+        "n_wins": 270,
+        "streak": 5,
+        "dd": 842.664506942725
+      }
+    },
+    {
+      "name": "H2j_1.2-1.5_ev_mc2",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.2,
+        "cote_max": 1.5,
+        "max_legs": 2,
+        "sort_by": "ev",
+        "max_combos": 2
+      },
+      "result": {
+        "pnl": 339.0646107009589,
+        "br_final": 439.0646107009589,
+        "ng": 74,
+        "nr": 19,
+        "n_combos": 186,
+        "n_wins": 148,
+        "streak": 4,
+        "dd": 429.4302326157204
+      }
+    },
+    {
+      "name": "H2j_1.2-1.5_ev_mc3",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.2,
+        "cote_max": 1.5,
+        "max_legs": 2,
+        "sort_by": "ev",
+        "max_combos": 3
+      },
+      "result": {
+        "pnl": 711.2807732656228,
+        "br_final": 811.2807732656229,
+        "ng": 67,
+        "nr": 26,
+        "n_combos": 261,
+        "n_wins": 209,
+        "streak": 5,
+        "dd": 1051.7021690100714
+      }
+    },
+    {
+      "name": "H2j_1.2-1.5_ev_mc4",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.2,
+        "cote_max": 1.5,
+        "max_legs": 2,
+        "sort_by": "ev",
+        "max_combos": 4
+      },
+      "result": {
+        "pnl": 1343.7101418705574,
+        "br_final": 1443.7101418705568,
+        "ng": 67,
+        "nr": 26,
+        "n_combos": 336,
+        "n_wins": 271,
+        "streak": 5,
+        "dd": 1961.1256290660076
+      }
+    },
+    {
+      "name": "H2j_1.25-1.45_wr_mc2",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.25,
+        "cote_max": 1.45,
+        "max_legs": 2,
+        "sort_by": "wr",
+        "max_combos": 2
+      },
+      "result": {
+        "pnl": 135.8859502266513,
+        "br_final": 235.88595022665143,
+        "ng": 64,
+        "nr": 16,
+        "n_combos": 160,
+        "n_wins": 129,
+        "streak": 2,
+        "dd": 105.07529491553187
+      }
+    },
+    {
+      "name": "H2j_1.25-1.45_wr_mc3",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.25,
+        "cote_max": 1.45,
+        "max_legs": 2,
+        "sort_by": "wr",
+        "max_combos": 3
+      },
+      "result": {
+        "pnl": 304.62365972121955,
+        "br_final": 404.6236597212196,
+        "ng": 58,
+        "nr": 22,
+        "n_combos": 211,
+        "n_wins": 171,
+        "streak": 4,
+        "dd": 171.2093061334745
+      }
+    },
+    {
+      "name": "H2j_1.25-1.45_wr_mc4",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.25,
+        "cote_max": 1.45,
+        "max_legs": 2,
+        "sort_by": "wr",
+        "max_combos": 4
+      },
+      "result": {
+        "pnl": 498.26933650507453,
+        "br_final": 598.2693365050746,
+        "ng": 58,
+        "nr": 22,
+        "n_combos": 262,
+        "n_wins": 213,
+        "streak": 4,
+        "dd": 214.7233726055746
+      }
+    },
+    {
+      "name": "H2j_1.25-1.45_ev_mc2",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.25,
+        "cote_max": 1.45,
+        "max_legs": 2,
+        "sort_by": "ev",
+        "max_combos": 2
+      },
+      "result": {
+        "pnl": 56.088915296753015,
+        "br_final": 156.08891529675293,
+        "ng": 62,
+        "nr": 18,
+        "n_combos": 160,
+        "n_wins": 125,
+        "streak": 4,
+        "dd": 119.43931355018157
+      }
+    },
+    {
+      "name": "H2j_1.25-1.45_ev_mc3",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.25,
+        "cote_max": 1.45,
+        "max_legs": 2,
+        "sort_by": "ev",
+        "max_combos": 3
+      },
+      "result": {
+        "pnl": 121.50202458575096,
+        "br_final": 221.50202458575097,
+        "ng": 56,
+        "nr": 24,
+        "n_combos": 211,
+        "n_wins": 166,
+        "streak": 4,
+        "dd": 124.46887603843591
+      }
+    },
+    {
+      "name": "H2j_1.25-1.45_ev_mc4",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.25,
+        "cote_max": 1.45,
+        "max_legs": 2,
+        "sort_by": "ev",
+        "max_combos": 4
+      },
+      "result": {
+        "pnl": 170.2593294719216,
+        "br_final": 270.2593294719217,
+        "ng": 56,
+        "nr": 24,
+        "n_combos": 262,
+        "n_wins": 207,
+        "streak": 4,
+        "dd": 139.67156236953863
+      }
+    },
+    {
+      "name": "H2j_1.3-1.5_wr_mc2",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.3,
+        "cote_max": 1.5,
+        "max_legs": 2,
+        "sort_by": "wr",
+        "max_combos": 2
+      },
+      "result": {
+        "pnl": 77.40069273677435,
+        "br_final": 177.40069273677446,
+        "ng": 70,
+        "nr": 21,
+        "n_combos": 182,
+        "n_wins": 140,
+        "streak": 3,
+        "dd": 261.14156866933274
+      }
+    },
+    {
+      "name": "H2j_1.3-1.5_wr_mc3",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.3,
+        "cote_max": 1.5,
+        "max_legs": 2,
+        "sort_by": "wr",
+        "max_combos": 3
+      },
+      "result": {
+        "pnl": 458.5899676354195,
+        "br_final": 558.5899676354196,
+        "ng": 64,
+        "nr": 27,
+        "n_combos": 252,
+        "n_wins": 199,
+        "streak": 5,
+        "dd": 595.0555963322566
+      }
+    },
+    {
+      "name": "H2j_1.3-1.5_wr_mc4",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.3,
+        "cote_max": 1.5,
+        "max_legs": 2,
+        "sort_by": "wr",
+        "max_combos": 4
+      },
+      "result": {
+        "pnl": 1528.137161046429,
+        "br_final": 1628.137161046429,
+        "ng": 64,
+        "nr": 27,
+        "n_combos": 322,
+        "n_wins": 259,
+        "streak": 5,
+        "dd": 1181.6219511816496
+      }
+    },
+    {
+      "name": "H2j_1.3-1.5_ev_mc2",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.3,
+        "cote_max": 1.5,
+        "max_legs": 2,
+        "sort_by": "ev",
+        "max_combos": 2
+      },
+      "result": {
+        "pnl": 220.84542166644806,
+        "br_final": 320.8454216664478,
+        "ng": 71,
+        "nr": 20,
+        "n_combos": 182,
+        "n_wins": 142,
+        "streak": 4,
+        "dd": 451.3532138797417
+      }
+    },
+    {
+      "name": "H2j_1.3-1.5_ev_mc3",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.3,
+        "cote_max": 1.5,
+        "max_legs": 2,
+        "sort_by": "ev",
+        "max_combos": 3
+      },
+      "result": {
+        "pnl": 515.2476694472792,
+        "br_final": 615.2476694472792,
+        "ng": 64,
+        "nr": 27,
+        "n_combos": 252,
+        "n_wins": 198,
+        "streak": 5,
+        "dd": 978.8843102101995
+      }
+    },
+    {
+      "name": "H2j_1.3-1.5_ev_mc4",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.3,
+        "cote_max": 1.5,
+        "max_legs": 2,
+        "sort_by": "ev",
+        "max_combos": 4
+      },
+      "result": {
+        "pnl": 1190.2326950591232,
+        "br_final": 1290.2326950591225,
+        "ng": 64,
+        "nr": 27,
+        "n_combos": 322,
+        "n_wins": 256,
+        "streak": 5,
+        "dd": 1826.138661238848
+      }
+    },
+    {
+      "name": "H2j_1.4-1.65_wr_mc2",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.4,
+        "cote_max": 1.65,
+        "max_legs": 2,
+        "sort_by": "wr",
+        "max_combos": 2
+      },
+      "result": {
+        "pnl": 145.4154744783416,
+        "br_final": 245.41547447834165,
+        "ng": 79,
+        "nr": 31,
+        "n_combos": 220,
+        "n_wins": 159,
+        "streak": 3,
+        "dd": 242.91897444378765
+      }
+    },
+    {
+      "name": "H2j_1.4-1.65_wr_mc3",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.4,
+        "cote_max": 1.65,
+        "max_legs": 2,
+        "sort_by": "wr",
+        "max_combos": 3
+      },
+      "result": {
+        "pnl": 112.97676166653665,
+        "br_final": 212.97676166653665,
+        "ng": 68,
+        "nr": 40,
+        "n_combos": 316,
+        "n_wins": 225,
+        "streak": 5,
+        "dd": 186.67347380442916
+      }
+    },
+    {
+      "name": "H2j_1.4-1.65_wr_mc4",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.4,
+        "cote_max": 1.65,
+        "max_legs": 2,
+        "sort_by": "wr",
+        "max_combos": 4
+      },
+      "result": {
+        "pnl": -24.438392880386417,
+        "br_final": 75.56160711961364,
+        "ng": 63,
+        "nr": 47,
+        "n_combos": 412,
+        "n_wins": 288,
+        "streak": 5,
+        "dd": 110.23157236450805
+      }
+    },
+    {
+      "name": "H2j_1.4-1.65_ev_mc2",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.4,
+        "cote_max": 1.65,
+        "max_legs": 2,
+        "sort_by": "ev",
+        "max_combos": 2
+      },
+      "result": {
+        "pnl": -20.17498217556419,
+        "br_final": 79.8250178244358,
+        "ng": 72,
+        "nr": 38,
+        "n_combos": 220,
+        "n_wins": 149,
+        "streak": 4,
+        "dd": 101.12579350449005
+      }
+    },
+    {
+      "name": "H2j_1.4-1.65_ev_mc3",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.4,
+        "cote_max": 1.65,
+        "max_legs": 2,
+        "sort_by": "ev",
+        "max_combos": 3
+      },
+      "result": {
+        "pnl": -57.52777689171537,
+        "br_final": 42.47222310828463,
+        "ng": 67,
+        "nr": 42,
+        "n_combos": 316,
+        "n_wins": 212,
+        "streak": 6,
+        "dd": 99.3595450220558
+      }
+    },
+    {
+      "name": "H2j_1.4-1.65_ev_mc4",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.4,
+        "cote_max": 1.65,
+        "max_legs": 2,
+        "sort_by": "ev",
+        "max_combos": 4
+      },
+      "result": {
+        "pnl": -87.05182431246925,
+        "br_final": 12.948175687530806,
+        "ng": 59,
+        "nr": 51,
+        "n_combos": 412,
+        "n_wins": 275,
+        "streak": 5,
+        "dd": 102.18898452714333
+      }
+    },
+    {
+      "name": "HF_1.3-1.6_wr_mc4",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey",
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.3,
+        "cote_max": 1.6,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 4
+      },
+      "result": {
+        "pnl": 9.264332354621079,
+        "br_final": 109.26433235462108,
+        "ng": 73,
+        "nr": 46,
+        "n_combos": 456,
+        "n_wins": 330,
+        "streak": 4,
+        "dd": 209.48336829490728
+      }
+    },
+    {
+      "name": "HFB_1.3-1.6_wr_mc4",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey",
+          "football",
+          "basketball"
+        ],
+        "market": "1x2",
+        "cote_min": 1.3,
+        "cote_max": 1.6,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 4
+      },
+      "result": {
+        "pnl": 38.31771839211055,
+        "br_final": 138.31771839211055,
+        "ng": 80,
+        "nr": 40,
+        "n_combos": 473,
+        "n_wins": 348,
+        "streak": 6,
+        "dd": 911.4420022195704
+      }
+    },
+    {
+      "name": "HF_1.3-1.6_wr_mc6",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey",
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.3,
+        "cote_max": 1.6,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 6
+      },
+      "result": {
+        "pnl": 2.2364305752255715,
+        "br_final": 102.23643057522558,
+        "ng": 57,
+        "nr": 63,
+        "n_combos": 634,
+        "n_wins": 456,
+        "streak": 5,
+        "dd": 104.44970570108192
+      }
+    },
+    {
+      "name": "HFB_1.3-1.6_wr_mc6",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey",
+          "football",
+          "basketball"
+        ],
+        "market": "1x2",
+        "cote_min": 1.3,
+        "cote_max": 1.6,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 6
+      },
+      "result": {
+        "pnl": -43.24463659670587,
+        "br_final": 56.755363403294204,
+        "ng": 59,
+        "nr": 61,
+        "n_combos": 686,
+        "n_wins": 495,
+        "streak": 6,
+        "dd": 437.5972130464253
+      }
+    },
+    {
+      "name": "HF_1.3-1.6_wr_mc8",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey",
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.3,
+        "cote_max": 1.6,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 8
+      },
+      "result": {
+        "pnl": 74.78645336207252,
+        "br_final": 174.78645336207265,
+        "ng": 68,
+        "nr": 52,
+        "n_combos": 774,
+        "n_wins": 557,
+        "streak": 5,
+        "dd": 293.3774351199523
+      }
+    },
+    {
+      "name": "HFB_1.3-1.6_wr_mc8",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey",
+          "football",
+          "basketball"
+        ],
+        "market": "1x2",
+        "cote_min": 1.3,
+        "cote_max": 1.6,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 8
+      },
+      "result": {
+        "pnl": -68.6721863257853,
+        "br_final": 31.32781367421471,
+        "ng": 65,
+        "nr": 55,
+        "n_combos": 870,
+        "n_wins": 620,
+        "streak": 6,
+        "dd": 138.5525012925474
+      }
+    },
+    {
+      "name": "HF_1.3-1.6_ev_mc4",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey",
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.3,
+        "cote_max": 1.6,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 4
+      },
+      "result": {
+        "pnl": -52.065526737205204,
+        "br_final": 47.93447326279477,
+        "ng": 70,
+        "nr": 50,
+        "n_combos": 456,
+        "n_wins": 317,
+        "streak": 7,
+        "dd": 157.81144933633558
+      }
+    },
+    {
+      "name": "HFB_1.3-1.6_ev_mc4",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey",
+          "football",
+          "basketball"
+        ],
+        "market": "1x2",
+        "cote_min": 1.3,
+        "cote_max": 1.6,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 4
+      },
+      "result": {
+        "pnl": -50.365121135709735,
+        "br_final": 49.634878864290236,
+        "ng": 77,
+        "nr": 43,
+        "n_combos": 473,
+        "n_wins": 331,
+        "streak": 4,
+        "dd": 207.72348052044964
+      }
+    },
+    {
+      "name": "HF_1.3-1.6_ev_mc6",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey",
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.3,
+        "cote_max": 1.6,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 6
+      },
+      "result": {
+        "pnl": 105.47807620045879,
+        "br_final": 205.47807620045867,
+        "ng": 61,
+        "nr": 58,
+        "n_combos": 634,
+        "n_wins": 451,
+        "streak": 8,
+        "dd": 191.95811567193266
+      }
+    },
+    {
+      "name": "HFB_1.3-1.6_ev_mc6",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey",
+          "football",
+          "basketball"
+        ],
+        "market": "1x2",
+        "cote_min": 1.3,
+        "cote_max": 1.6,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 6
+      },
+      "result": {
+        "pnl": -55.573732642474965,
+        "br_final": 44.426267357524935,
+        "ng": 62,
+        "nr": 58,
+        "n_combos": 686,
+        "n_wins": 481,
+        "streak": 6,
+        "dd": 174.2786161825361
+      }
+    },
+    {
+      "name": "HF_1.3-1.6_ev_mc8",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey",
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.3,
+        "cote_max": 1.6,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 8
+      },
+      "result": {
+        "pnl": 169.27024510055125,
+        "br_final": 269.27024510055116,
+        "ng": 64,
+        "nr": 56,
+        "n_combos": 774,
+        "n_wins": 552,
+        "streak": 7,
+        "dd": 377.02900212308424
+      }
+    },
+    {
+      "name": "HFB_1.3-1.6_ev_mc8",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey",
+          "football",
+          "basketball"
+        ],
+        "market": "1x2",
+        "cote_min": 1.3,
+        "cote_max": 1.6,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 8
+      },
+      "result": {
+        "pnl": 17.88957520084275,
+        "br_final": 117.88957520084271,
+        "ng": 65,
+        "nr": 55,
+        "n_combos": 870,
+        "n_wins": 618,
+        "streak": 4,
+        "dd": 286.89030600423814
+      }
+    },
+    {
+      "name": "HF_1.4-1.8_wr_mc4",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey",
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.4,
+        "cote_max": 1.8,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 4
+      },
+      "result": {
+        "pnl": -58.253275587089455,
+        "br_final": 41.74672441291053,
+        "ng": 68,
+        "nr": 52,
+        "n_combos": 479,
+        "n_wins": 317,
+        "streak": 5,
+        "dd": 176.74201282727475
+      }
+    },
+    {
+      "name": "HFB_1.4-1.8_wr_mc4",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey",
+          "football",
+          "basketball"
+        ],
+        "market": "1x2",
+        "cote_min": 1.4,
+        "cote_max": 1.8,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 4
+      },
+      "result": {
+        "pnl": -25.144939371169308,
+        "br_final": 74.85506062883069,
+        "ng": 73,
+        "nr": 47,
+        "n_combos": 480,
+        "n_wins": 322,
+        "streak": 5,
+        "dd": 126.74633372366048
+      }
+    },
+    {
+      "name": "HF_1.4-1.8_wr_mc6",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey",
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.4,
+        "cote_max": 1.8,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 6
+      },
+      "result": {
+        "pnl": -26.10979986428059,
+        "br_final": 73.89020013571948,
+        "ng": 75,
+        "nr": 45,
+        "n_combos": 701,
+        "n_wins": 464,
+        "streak": 3,
+        "dd": 205.77188062818524
+      }
+    },
+    {
+      "name": "HFB_1.4-1.8_wr_mc6",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey",
+          "football",
+          "basketball"
+        ],
+        "market": "1x2",
+        "cote_min": 1.4,
+        "cote_max": 1.8,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 6
+      },
+      "result": {
+        "pnl": -87.69890757065798,
+        "br_final": 12.30109242934199,
+        "ng": 64,
+        "nr": 55,
+        "n_combos": 717,
+        "n_wins": 467,
+        "streak": 6,
+        "dd": 103.81287719204012
+      }
+    },
+    {
+      "name": "HF_1.4-1.8_wr_mc8",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey",
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.4,
+        "cote_max": 1.8,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 8
+      },
+      "result": {
+        "pnl": 53.56881610610101,
+        "br_final": 153.56881610610145,
+        "ng": 70,
+        "nr": 50,
+        "n_combos": 892,
+        "n_wins": 592,
+        "streak": 3,
+        "dd": 738.1073421287584
+      }
+    },
+    {
+      "name": "HFB_1.4-1.8_wr_mc8",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey",
+          "football",
+          "basketball"
+        ],
+        "market": "1x2",
+        "cote_min": 1.4,
+        "cote_max": 1.8,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 8
+      },
+      "result": {
+        "pnl": -97.5851318831556,
+        "br_final": 2.4148681168445165,
+        "ng": 60,
+        "nr": 60,
+        "n_combos": 934,
+        "n_wins": 602,
+        "streak": 6,
+        "dd": 134.96453382892707
+      }
+    },
+    {
+      "name": "HF_1.4-1.8_ev_mc4",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey",
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.4,
+        "cote_max": 1.8,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 4
+      },
+      "result": {
+        "pnl": -87.64763248233432,
+        "br_final": 12.352367517665687,
+        "ng": 62,
+        "nr": 58,
+        "n_combos": 479,
+        "n_wins": 297,
+        "streak": 5,
+        "dd": 249.7165220759622
+      }
+    },
+    {
+      "name": "HFB_1.4-1.8_ev_mc4",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey",
+          "football",
+          "basketball"
+        ],
+        "market": "1x2",
+        "cote_min": 1.4,
+        "cote_max": 1.8,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 4
+      },
+      "result": {
+        "pnl": -66.27575704413181,
+        "br_final": 33.7242429558682,
+        "ng": 61,
+        "nr": 59,
+        "n_combos": 480,
+        "n_wins": 303,
+        "streak": 5,
+        "dd": 441.889836615586
+      }
+    },
+    {
+      "name": "HF_1.4-1.8_ev_mc6",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey",
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.4,
+        "cote_max": 1.8,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 6
+      },
+      "result": {
+        "pnl": -84.417223351167,
+        "br_final": 15.58277664883283,
+        "ng": 64,
+        "nr": 56,
+        "n_combos": 701,
+        "n_wins": 439,
+        "streak": 4,
+        "dd": 330.4505198090264
+      }
+    },
+    {
+      "name": "HFB_1.4-1.8_ev_mc6",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey",
+          "football",
+          "basketball"
+        ],
+        "market": "1x2",
+        "cote_min": 1.4,
+        "cote_max": 1.8,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 6
+      },
+      "result": {
+        "pnl": -78.47917133725176,
+        "br_final": 21.520828662748116,
+        "ng": 72,
+        "nr": 48,
+        "n_combos": 717,
+        "n_wins": 452,
+        "streak": 3,
+        "dd": 436.5683867590202
+      }
+    },
+    {
+      "name": "HF_1.4-1.8_ev_mc8",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey",
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.4,
+        "cote_max": 1.8,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 8
+      },
+      "result": {
+        "pnl": -96.02756531425817,
+        "br_final": 3.9724346857417077,
+        "ng": 65,
+        "nr": 55,
+        "n_combos": 892,
+        "n_wins": 555,
+        "streak": 4,
+        "dd": 560.9621676515607
+      }
+    },
+    {
+      "name": "HFB_1.4-1.8_ev_mc8",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey",
+          "football",
+          "basketball"
+        ],
+        "market": "1x2",
+        "cote_min": 1.4,
+        "cote_max": 1.8,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 8
+      },
+      "result": {
+        "pnl": -97.67794041391303,
+        "br_final": 2.322059586086967,
+        "ng": 65,
+        "nr": 55,
+        "n_combos": 934,
+        "n_wins": 577,
+        "streak": 10,
+        "dd": 217.94117421922476
+      }
+    },
+    {
+      "name": "L_NHL_1.2-1.5_wr",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.2,
+        "cote_max": 1.5,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 3,
+        "league_substr": "NHL"
+      },
+      "result": {
+        "pnl": 34.455926560125064,
+        "br_final": 134.45592656012508,
+        "ng": 26,
+        "nr": 17,
+        "n_combos": 80,
+        "n_wins": 60,
+        "streak": 5,
+        "dd": 62.42878886186651
+      }
+    },
+    {
+      "name": "L_NHL_1.2-1.5_ev",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.2,
+        "cote_max": 1.5,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 3,
+        "league_substr": "NHL"
+      },
+      "result": {
+        "pnl": 18.44344803341925,
+        "br_final": 118.4434480334192,
+        "ng": 25,
+        "nr": 18,
+        "n_combos": 80,
+        "n_wins": 59,
+        "streak": 5,
+        "dd": 54.9940876428624
+      }
+    },
+    {
+      "name": "L_NHL_1.3-1.6_wr",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.3,
+        "cote_max": 1.6,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 3,
+        "league_substr": "NHL"
+      },
+      "result": {
+        "pnl": 1.8558310404106528,
+        "br_final": 101.85583104041064,
+        "ng": 36,
+        "nr": 25,
+        "n_combos": 134,
+        "n_wins": 92,
+        "streak": 4,
+        "dd": 57.730990938558875
+      }
+    },
+    {
+      "name": "L_NHL_1.3-1.6_ev",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.3,
+        "cote_max": 1.6,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 3,
+        "league_substr": "NHL"
+      },
+      "result": {
+        "pnl": -22.00222977965352,
+        "br_final": 77.99777022034651,
+        "ng": 34,
+        "nr": 27,
+        "n_combos": 134,
+        "n_wins": 90,
+        "streak": 4,
+        "dd": 49.561597401973074
+      }
+    },
+    {
+      "name": "L_NHL_1.4-1.8_wr",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.4,
+        "cote_max": 1.8,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 3,
+        "league_substr": "NHL"
+      },
+      "result": {
+        "pnl": -81.53766632412966,
+        "br_final": 18.46233367587036,
+        "ng": 48,
+        "nr": 46,
+        "n_combos": 233,
+        "n_wins": 140,
+        "streak": 6,
+        "dd": 104.07750590315048
+      }
+    },
+    {
+      "name": "L_NHL_1.4-1.8_ev",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.4,
+        "cote_max": 1.8,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 3,
+        "league_substr": "NHL"
+      },
+      "result": {
+        "pnl": -87.23726595772152,
+        "br_final": 12.762734042278495,
+        "ng": 49,
+        "nr": 45,
+        "n_combos": 233,
+        "n_wins": 135,
+        "streak": 5,
+        "dd": 114.91694029036246
+      }
+    },
+    {
+      "name": "L_NHL_1.5-2.0_wr",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.5,
+        "cote_max": 2.0,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 3,
+        "league_substr": "NHL"
+      },
+      "result": {
+        "pnl": -90.85630982168888,
+        "br_final": 9.143690178311125,
+        "ng": 52,
+        "nr": 47,
+        "n_combos": 259,
+        "n_wins": 147,
+        "streak": 6,
+        "dd": 90.85630982168888
+      }
+    },
+    {
+      "name": "L_NHL_1.5-2.0_ev",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.5,
+        "cote_max": 2.0,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 3,
+        "league_substr": "NHL"
+      },
+      "result": {
+        "pnl": -100.63155574311108,
+        "br_final": -0.6315557431110965,
+        "ng": 47,
+        "nr": 52,
+        "n_combos": 259,
+        "n_wins": 132,
+        "streak": 7,
+        "dd": 100.63155574311108
+      }
+    },
+    {
+      "name": "L_KHL_1.2-1.5_wr",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.2,
+        "cote_max": 1.5,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 3,
+        "league_substr": "KHL"
+      },
+      "result": {
+        "pnl": 0,
+        "br_final": 100,
+        "ng": 0,
+        "nr": 0,
+        "n_combos": 0,
+        "n_wins": 0,
+        "streak": 0,
+        "dd": 0
+      }
+    },
+    {
+      "name": "L_KHL_1.2-1.5_ev",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.2,
+        "cote_max": 1.5,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 3,
+        "league_substr": "KHL"
+      },
+      "result": {
+        "pnl": 0,
+        "br_final": 100,
+        "ng": 0,
+        "nr": 0,
+        "n_combos": 0,
+        "n_wins": 0,
+        "streak": 0,
+        "dd": 0
+      }
+    },
+    {
+      "name": "L_KHL_1.3-1.6_wr",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.3,
+        "cote_max": 1.6,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 3,
+        "league_substr": "KHL"
+      },
+      "result": {
+        "pnl": 0,
+        "br_final": 100,
+        "ng": 0,
+        "nr": 0,
+        "n_combos": 0,
+        "n_wins": 0,
+        "streak": 0,
+        "dd": 0
+      }
+    },
+    {
+      "name": "L_KHL_1.3-1.6_ev",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.3,
+        "cote_max": 1.6,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 3,
+        "league_substr": "KHL"
+      },
+      "result": {
+        "pnl": 0,
+        "br_final": 100,
+        "ng": 0,
+        "nr": 0,
+        "n_combos": 0,
+        "n_wins": 0,
+        "streak": 0,
+        "dd": 0
+      }
+    },
+    {
+      "name": "L_KHL_1.4-1.8_wr",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.4,
+        "cote_max": 1.8,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 3,
+        "league_substr": "KHL"
+      },
+      "result": {
+        "pnl": 0,
+        "br_final": 100,
+        "ng": 0,
+        "nr": 0,
+        "n_combos": 0,
+        "n_wins": 0,
+        "streak": 0,
+        "dd": 0
+      }
+    },
+    {
+      "name": "L_KHL_1.4-1.8_ev",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.4,
+        "cote_max": 1.8,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 3,
+        "league_substr": "KHL"
+      },
+      "result": {
+        "pnl": 0,
+        "br_final": 100,
+        "ng": 0,
+        "nr": 0,
+        "n_combos": 0,
+        "n_wins": 0,
+        "streak": 0,
+        "dd": 0
+      }
+    },
+    {
+      "name": "L_KHL_1.5-2.0_wr",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.5,
+        "cote_max": 2.0,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 3,
+        "league_substr": "KHL"
+      },
+      "result": {
+        "pnl": 0,
+        "br_final": 100,
+        "ng": 0,
+        "nr": 0,
+        "n_combos": 0,
+        "n_wins": 0,
+        "streak": 0,
+        "dd": 0
+      }
+    },
+    {
+      "name": "L_KHL_1.5-2.0_ev",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.5,
+        "cote_max": 2.0,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 3,
+        "league_substr": "KHL"
+      },
+      "result": {
+        "pnl": 0,
+        "br_final": 100,
+        "ng": 0,
+        "nr": 0,
+        "n_combos": 0,
+        "n_wins": 0,
+        "streak": 0,
+        "dd": 0
+      }
+    },
+    {
+      "name": "L_SHL_1.2-1.5_wr",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.2,
+        "cote_max": 1.5,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 3,
+        "league_substr": "SHL"
+      },
+      "result": {
+        "pnl": -17.118254064743372,
+        "br_final": 82.88174593525663,
+        "ng": 12,
+        "nr": 11,
+        "n_combos": 39,
+        "n_wins": 27,
+        "streak": 6,
+        "dd": 44.91130727519307
+      }
+    },
+    {
+      "name": "L_SHL_1.2-1.5_ev",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.2,
+        "cote_max": 1.5,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 3,
+        "league_substr": "SHL"
+      },
+      "result": {
+        "pnl": -15.845760524283971,
+        "br_final": 84.15423947571603,
+        "ng": 12,
+        "nr": 11,
+        "n_combos": 39,
+        "n_wins": 27,
+        "streak": 6,
+        "dd": 44.00411137870166
+      }
+    },
+    {
+      "name": "L_SHL_1.3-1.6_wr",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.3,
+        "cote_max": 1.6,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 3,
+        "league_substr": "SHL"
+      },
+      "result": {
+        "pnl": -46.040642491919186,
+        "br_final": 53.95935750808084,
+        "ng": 11,
+        "nr": 18,
+        "n_combos": 59,
+        "n_wins": 37,
+        "streak": 7,
+        "dd": 64.89932356793015
+      }
+    },
+    {
+      "name": "L_SHL_1.3-1.6_ev",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.3,
+        "cote_max": 1.6,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 3,
+        "league_substr": "SHL"
+      },
+      "result": {
+        "pnl": -44.20280134519107,
+        "br_final": 55.79719865480893,
+        "ng": 11,
+        "nr": 18,
+        "n_combos": 59,
+        "n_wins": 37,
+        "streak": 7,
+        "dd": 63.509663545570405
+      }
+    },
+    {
+      "name": "L_SHL_1.4-1.8_wr",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.4,
+        "cote_max": 1.8,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 3,
+        "league_substr": "SHL"
+      },
+      "result": {
+        "pnl": -34.718772960483264,
+        "br_final": 65.28122703951672,
+        "ng": 21,
+        "nr": 19,
+        "n_combos": 76,
+        "n_wins": 47,
+        "streak": 4,
+        "dd": 53.13468072228356
+      }
+    },
+    {
+      "name": "L_SHL_1.4-1.8_ev",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.4,
+        "cote_max": 1.8,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 3,
+        "league_substr": "SHL"
+      },
+      "result": {
+        "pnl": -41.51342650297747,
+        "br_final": 58.48657349702255,
+        "ng": 21,
+        "nr": 19,
+        "n_combos": 76,
+        "n_wins": 46,
+        "streak": 4,
+        "dd": 60.707556715154254
+      }
+    },
+    {
+      "name": "L_SHL_1.5-2.0_wr",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.5,
+        "cote_max": 2.0,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 3,
+        "league_substr": "SHL"
+      },
+      "result": {
+        "pnl": -30.455057019037262,
+        "br_final": 69.54494298096273,
+        "ng": 24,
+        "nr": 16,
+        "n_combos": 79,
+        "n_wins": 47,
+        "streak": 3,
+        "dd": 93.18891770233486
+      }
+    },
+    {
+      "name": "L_SHL_1.5-2.0_ev",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.5,
+        "cote_max": 2.0,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 3,
+        "league_substr": "SHL"
+      },
+      "result": {
+        "pnl": -35.98721562094681,
+        "br_final": 64.01278437905319,
+        "ng": 22,
+        "nr": 18,
+        "n_combos": 79,
+        "n_wins": 46,
+        "streak": 4,
+        "dd": 137.46665269338158
+      }
+    },
+    {
+      "name": "L_NBA_1.2-1.5_wr",
+      "cfg": {
+        "sports_list": [
+          "basketball"
+        ],
+        "market": "1x2",
+        "cote_min": 1.2,
+        "cote_max": 1.5,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 3,
+        "league_substr": "NBA"
+      },
+      "result": {
+        "pnl": 239.65393890935604,
+        "br_final": 339.65393890935627,
+        "ng": 59,
+        "nr": 41,
+        "n_combos": 239,
+        "n_wins": 191,
+        "streak": 4,
+        "dd": 213.8633055706606
+      }
+    },
+    {
+      "name": "L_NBA_1.2-1.5_ev",
+      "cfg": {
+        "sports_list": [
+          "basketball"
+        ],
+        "market": "1x2",
+        "cote_min": 1.2,
+        "cote_max": 1.5,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 3,
+        "league_substr": "NBA"
+      },
+      "result": {
+        "pnl": 149.48540411961724,
+        "br_final": 249.48540411961736,
+        "ng": 57,
+        "nr": 43,
+        "n_combos": 239,
+        "n_wins": 187,
+        "streak": 4,
+        "dd": 219.11542341396756
+      }
+    },
+    {
+      "name": "L_NBA_1.3-1.6_wr",
+      "cfg": {
+        "sports_list": [
+          "basketball"
+        ],
+        "market": "1x2",
+        "cote_min": 1.3,
+        "cote_max": 1.6,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 3,
+        "league_substr": "NBA"
+      },
+      "result": {
+        "pnl": 84.6393633521941,
+        "br_final": 184.63936335219415,
+        "ng": 54,
+        "nr": 39,
+        "n_combos": 211,
+        "n_wins": 157,
+        "streak": 4,
+        "dd": 95.1833266438152
+      }
+    },
+    {
+      "name": "L_NBA_1.3-1.6_ev",
+      "cfg": {
+        "sports_list": [
+          "basketball"
+        ],
+        "market": "1x2",
+        "cote_min": 1.3,
+        "cote_max": 1.6,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 3,
+        "league_substr": "NBA"
+      },
+      "result": {
+        "pnl": 3.2853494466420994,
+        "br_final": 103.28534944664212,
+        "ng": 50,
+        "nr": 43,
+        "n_combos": 211,
+        "n_wins": 152,
+        "streak": 5,
+        "dd": 58.6472477157682
+      }
+    },
+    {
+      "name": "L_NBA_1.4-1.8_wr",
+      "cfg": {
+        "sports_list": [
+          "basketball"
+        ],
+        "market": "1x2",
+        "cote_min": 1.4,
+        "cote_max": 1.8,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 3,
+        "league_substr": "NBA"
+      },
+      "result": {
+        "pnl": -54.07343729332635,
+        "br_final": 45.92656270667365,
+        "ng": 49,
+        "nr": 49,
+        "n_combos": 247,
+        "n_wins": 157,
+        "streak": 4,
+        "dd": 145.10360406852885
+      }
+    },
+    {
+      "name": "L_NBA_1.4-1.8_ev",
+      "cfg": {
+        "sports_list": [
+          "basketball"
+        ],
+        "market": "1x2",
+        "cote_min": 1.4,
+        "cote_max": 1.8,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 3,
+        "league_substr": "NBA"
+      },
+      "result": {
+        "pnl": -55.102667550751036,
+        "br_final": 44.89733244924891,
+        "ng": 53,
+        "nr": 47,
+        "n_combos": 247,
+        "n_wins": 155,
+        "streak": 5,
+        "dd": 202.29170631732103
+      }
+    },
+    {
+      "name": "L_NBA_1.5-2.0_wr",
+      "cfg": {
+        "sports_list": [
+          "basketball"
+        ],
+        "market": "1x2",
+        "cote_min": 1.5,
+        "cote_max": 2.0,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 3,
+        "league_substr": "NBA"
+      },
+      "result": {
+        "pnl": -94.61427574946056,
+        "br_final": 5.385724250539309,
+        "ng": 38,
+        "nr": 56,
+        "n_combos": 224,
+        "n_wins": 120,
+        "streak": 5,
+        "dd": 117.11231852096515
+      }
+    },
+    {
+      "name": "L_NBA_1.5-2.0_ev",
+      "cfg": {
+        "sports_list": [
+          "basketball"
+        ],
+        "market": "1x2",
+        "cote_min": 1.5,
+        "cote_max": 2.0,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 3,
+        "league_substr": "NBA"
+      },
+      "result": {
+        "pnl": -97.91256235073386,
+        "br_final": 2.0874376492660707,
+        "ng": 37,
+        "nr": 57,
+        "n_combos": 224,
+        "n_wins": 115,
+        "streak": 12,
+        "dd": 120.13256235073388
+      }
+    },
+    {
+      "name": "L_Euroleag_1.2-1.5_wr",
+      "cfg": {
+        "sports_list": [
+          "basketball"
+        ],
+        "market": "1x2",
+        "cote_min": 1.2,
+        "cote_max": 1.5,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 3,
+        "league_substr": "Euroleague"
+      },
+      "result": {
+        "pnl": -68.11891150936782,
+        "br_final": 31.881088490632198,
+        "ng": 21,
+        "nr": 22,
+        "n_combos": 82,
+        "n_wins": 55,
+        "streak": 7,
+        "dd": 72.04643568104515
+      }
+    },
+    {
+      "name": "L_Euroleag_1.2-1.5_ev",
+      "cfg": {
+        "sports_list": [
+          "basketball"
+        ],
+        "market": "1x2",
+        "cote_min": 1.2,
+        "cote_max": 1.5,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 3,
+        "league_substr": "Euroleague"
+      },
+      "result": {
+        "pnl": -67.82534715862533,
+        "br_final": 32.17465284137467,
+        "ng": 21,
+        "nr": 22,
+        "n_combos": 82,
+        "n_wins": 55,
+        "streak": 7,
+        "dd": 71.76327045104698
+      }
+    },
+    {
+      "name": "L_Euroleag_1.3-1.6_wr",
+      "cfg": {
+        "sports_list": [
+          "basketball"
+        ],
+        "market": "1x2",
+        "cote_min": 1.3,
+        "cote_max": 1.6,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 3,
+        "league_substr": "Euroleague"
+      },
+      "result": {
+        "pnl": -73.07511208805964,
+        "br_final": 26.92488791194037,
+        "ng": 17,
+        "nr": 19,
+        "n_combos": 61,
+        "n_wins": 36,
+        "streak": 3,
+        "dd": 77.27167723930991
+      }
+    },
+    {
+      "name": "L_Euroleag_1.3-1.6_ev",
+      "cfg": {
+        "sports_list": [
+          "basketball"
+        ],
+        "market": "1x2",
+        "cote_min": 1.3,
+        "cote_max": 1.6,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 3,
+        "league_substr": "Euroleague"
+      },
+      "result": {
+        "pnl": -73.07511208805964,
+        "br_final": 26.92488791194037,
+        "ng": 17,
+        "nr": 19,
+        "n_combos": 61,
+        "n_wins": 36,
+        "streak": 3,
+        "dd": 77.27167723930991
+      }
+    },
+    {
+      "name": "L_Euroleag_1.4-1.8_wr",
+      "cfg": {
+        "sports_list": [
+          "basketball"
+        ],
+        "market": "1x2",
+        "cote_min": 1.4,
+        "cote_max": 1.8,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 3,
+        "league_substr": "Euroleague"
+      },
+      "result": {
+        "pnl": -79.31553547779005,
+        "br_final": 20.68446452220995,
+        "ng": 15,
+        "nr": 17,
+        "n_combos": 55,
+        "n_wins": 26,
+        "streak": 5,
+        "dd": 82.8564658996757
+      }
+    },
+    {
+      "name": "L_Euroleag_1.4-1.8_ev",
+      "cfg": {
+        "sports_list": [
+          "basketball"
+        ],
+        "market": "1x2",
+        "cote_min": 1.4,
+        "cote_max": 1.8,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 3,
+        "league_substr": "Euroleague"
+      },
+      "result": {
+        "pnl": -79.31553547779005,
+        "br_final": 20.68446452220995,
+        "ng": 15,
+        "nr": 17,
+        "n_combos": 55,
+        "n_wins": 26,
+        "streak": 5,
+        "dd": 82.8564658996757
+      }
+    },
+    {
+      "name": "L_Euroleag_1.5-2.0_wr",
+      "cfg": {
+        "sports_list": [
+          "basketball"
+        ],
+        "market": "1x2",
+        "cote_min": 1.5,
+        "cote_max": 2.0,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 3,
+        "league_substr": "Euroleague"
+      },
+      "result": {
+        "pnl": -67.08533015725801,
+        "br_final": 32.91466984274199,
+        "ng": 14,
+        "nr": 15,
+        "n_combos": 51,
+        "n_wins": 25,
+        "streak": 4,
+        "dd": 72.26061378486351
+      }
+    },
+    {
+      "name": "L_Euroleag_1.5-2.0_ev",
+      "cfg": {
+        "sports_list": [
+          "basketball"
+        ],
+        "market": "1x2",
+        "cote_min": 1.5,
+        "cote_max": 2.0,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 3,
+        "league_substr": "Euroleague"
+      },
+      "result": {
+        "pnl": -38.32616350491605,
+        "br_final": 61.67383649508397,
+        "ng": 16,
+        "nr": 13,
+        "n_combos": 51,
+        "n_wins": 28,
+        "streak": 4,
+        "dd": 66.66725057708852
+      }
+    },
+    {
+      "name": "L_Premier _1.2-1.5_wr",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.2,
+        "cote_max": 1.5,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 3,
+        "league_substr": "Premier League"
+      },
+      "result": {
+        "pnl": 120.52470730298865,
+        "br_final": 220.52470730298867,
+        "ng": 50,
+        "nr": 25,
+        "n_combos": 134,
+        "n_wins": 107,
+        "streak": 4,
+        "dd": 56.563943639797515
+      }
+    },
+    {
+      "name": "L_Premier _1.2-1.5_ev",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.2,
+        "cote_max": 1.5,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 3,
+        "league_substr": "Premier League"
+      },
+      "result": {
+        "pnl": 56.450346094077055,
+        "br_final": 156.45034609407708,
+        "ng": 47,
+        "nr": 28,
+        "n_combos": 134,
+        "n_wins": 104,
+        "streak": 4,
+        "dd": 44.81535933699349
+      }
+    },
+    {
+      "name": "L_Premier _1.3-1.6_wr",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.3,
+        "cote_max": 1.6,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 3,
+        "league_substr": "Premier League"
+      },
+      "result": {
+        "pnl": 89.57577151916902,
+        "br_final": 189.5757715191691,
+        "ng": 49,
+        "nr": 25,
+        "n_combos": 143,
+        "n_wins": 106,
+        "streak": 2,
+        "dd": 106.61871557736637
+      }
+    },
+    {
+      "name": "L_Premier _1.3-1.6_ev",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.3,
+        "cote_max": 1.6,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 3,
+        "league_substr": "Premier League"
+      },
+      "result": {
+        "pnl": 136.25501208062465,
+        "br_final": 236.2550120806246,
+        "ng": 50,
+        "nr": 24,
+        "n_combos": 143,
+        "n_wins": 107,
+        "streak": 2,
+        "dd": 127.33445851509983
+      }
+    },
+    {
+      "name": "L_Premier _1.4-1.8_wr",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.4,
+        "cote_max": 1.8,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 3,
+        "league_substr": "Premier League"
+      },
+      "result": {
+        "pnl": 135.18642587024536,
+        "br_final": 235.18642587024533,
+        "ng": 58,
+        "nr": 29,
+        "n_combos": 184,
+        "n_wins": 125,
+        "streak": 4,
+        "dd": 89.57190118928148
+      }
+    },
+    {
+      "name": "L_Premier _1.4-1.8_ev",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.4,
+        "cote_max": 1.8,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 3,
+        "league_substr": "Premier League"
+      },
+      "result": {
+        "pnl": 45.18198729150552,
+        "br_final": 145.18198729150558,
+        "ng": 56,
+        "nr": 31,
+        "n_combos": 184,
+        "n_wins": 119,
+        "streak": 4,
+        "dd": 71.51143198653023
+      }
+    },
+    {
+      "name": "L_Premier _1.5-2.0_wr",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.5,
+        "cote_max": 2.0,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 3,
+        "league_substr": "Premier League"
+      },
+      "result": {
+        "pnl": 180.7951973944736,
+        "br_final": 280.79519739447363,
+        "ng": 52,
+        "nr": 35,
+        "n_combos": 197,
+        "n_wins": 127,
+        "streak": 4,
+        "dd": 98.75847203915849
+      }
+    },
+    {
+      "name": "L_Premier _1.5-2.0_ev",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.5,
+        "cote_max": 2.0,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 3,
+        "league_substr": "Premier League"
+      },
+      "result": {
+        "pnl": 162.6006589777781,
+        "br_final": 262.6006589777782,
+        "ng": 49,
+        "nr": 38,
+        "n_combos": 197,
+        "n_wins": 122,
+        "streak": 4,
+        "dd": 81.61806346584814
+      }
+    },
+    {
+      "name": "L_LaLiga_1.2-1.5_wr",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.2,
+        "cote_max": 1.5,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 3,
+        "league_substr": "LaLiga"
+      },
+      "result": {
+        "pnl": 24.495810860662957,
+        "br_final": 124.49581086066296,
+        "ng": 16,
+        "nr": 3,
+        "n_combos": 19,
+        "n_wins": 16,
+        "streak": 1,
+        "dd": 20.87551269737299
+      }
+    },
+    {
+      "name": "L_LaLiga_1.2-1.5_ev",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.2,
+        "cote_max": 1.5,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 3,
+        "league_substr": "LaLiga"
+      },
+      "result": {
+        "pnl": 24.495810860662957,
+        "br_final": 124.49581086066296,
+        "ng": 16,
+        "nr": 3,
+        "n_combos": 19,
+        "n_wins": 16,
+        "streak": 1,
+        "dd": 20.87551269737299
+      }
+    },
+    {
+      "name": "L_LaLiga_1.3-1.6_wr",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.3,
+        "cote_max": 1.6,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 3,
+        "league_substr": "LaLiga"
+      },
+      "result": {
+        "pnl": -12.22434210797597,
+        "br_final": 87.77565789202404,
+        "ng": 14,
+        "nr": 9,
+        "n_combos": 27,
+        "n_wins": 18,
+        "streak": 3,
+        "dd": 49.08878075719194
+      }
+    },
+    {
+      "name": "L_LaLiga_1.3-1.6_ev",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.3,
+        "cote_max": 1.6,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 3,
+        "league_substr": "LaLiga"
+      },
+      "result": {
+        "pnl": -12.22434210797597,
+        "br_final": 87.77565789202404,
+        "ng": 14,
+        "nr": 9,
+        "n_combos": 27,
+        "n_wins": 18,
+        "streak": 3,
+        "dd": 49.08878075719194
+      }
+    },
+    {
+      "name": "L_LaLiga_1.4-1.8_wr",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.4,
+        "cote_max": 1.8,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 3,
+        "league_substr": "LaLiga"
+      },
+      "result": {
+        "pnl": 108.60610189871292,
+        "br_final": 208.60610189871295,
+        "ng": 22,
+        "nr": 13,
+        "n_combos": 50,
+        "n_wins": 36,
+        "streak": 3,
+        "dd": 43.202582739751165
+      }
+    },
+    {
+      "name": "L_LaLiga_1.4-1.8_ev",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.4,
+        "cote_max": 1.8,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 3,
+        "league_substr": "LaLiga"
+      },
+      "result": {
+        "pnl": 108.60610189871292,
+        "br_final": 208.60610189871295,
+        "ng": 22,
+        "nr": 13,
+        "n_combos": 50,
+        "n_wins": 36,
+        "streak": 3,
+        "dd": 43.202582739751165
+      }
+    },
+    {
+      "name": "L_LaLiga_1.5-2.0_wr",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.5,
+        "cote_max": 2.0,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 3,
+        "league_substr": "LaLiga"
+      },
+      "result": {
+        "pnl": 105.26285025007755,
+        "br_final": 205.26285025007752,
+        "ng": 31,
+        "nr": 21,
+        "n_combos": 97,
+        "n_wins": 61,
+        "streak": 2,
+        "dd": 61.63726626363213
+      }
+    },
+    {
+      "name": "L_LaLiga_1.5-2.0_ev",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.5,
+        "cote_max": 2.0,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 3,
+        "league_substr": "LaLiga"
+      },
+      "result": {
+        "pnl": 117.33713555890563,
+        "br_final": 217.3371355589056,
+        "ng": 31,
+        "nr": 21,
+        "n_combos": 97,
+        "n_wins": 61,
+        "streak": 2,
+        "dd": 65.26298780855167
+      }
+    },
+    {
+      "name": "L_Bundesli_1.2-1.5_wr",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.2,
+        "cote_max": 1.5,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 3,
+        "league_substr": "Bundesliga"
+      },
+      "result": {
+        "pnl": 18.993467919441827,
+        "br_final": 118.99346791944183,
+        "ng": 16,
+        "nr": 6,
+        "n_combos": 29,
+        "n_wins": 23,
+        "streak": 2,
+        "dd": 19.06040436818561
+      }
+    },
+    {
+      "name": "L_Bundesli_1.2-1.5_ev",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.2,
+        "cote_max": 1.5,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 3,
+        "league_substr": "Bundesliga"
+      },
+      "result": {
+        "pnl": 18.993467919441827,
+        "br_final": 118.99346791944183,
+        "ng": 16,
+        "nr": 6,
+        "n_combos": 29,
+        "n_wins": 23,
+        "streak": 2,
+        "dd": 19.06040436818561
+      }
+    },
+    {
+      "name": "L_Bundesli_1.3-1.6_wr",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.3,
+        "cote_max": 1.6,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 3,
+        "league_substr": "Bundesliga"
+      },
+      "result": {
+        "pnl": -22.593865982916455,
+        "br_final": 77.40613401708357,
+        "ng": 19,
+        "nr": 12,
+        "n_combos": 44,
+        "n_wins": 29,
+        "streak": 3,
+        "dd": 54.60669038292984
+      }
+    },
+    {
+      "name": "L_Bundesli_1.3-1.6_ev",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.3,
+        "cote_max": 1.6,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 3,
+        "league_substr": "Bundesliga"
+      },
+      "result": {
+        "pnl": -22.593865982916455,
+        "br_final": 77.40613401708357,
+        "ng": 19,
+        "nr": 12,
+        "n_combos": 44,
+        "n_wins": 29,
+        "streak": 3,
+        "dd": 54.60669038292984
+      }
+    },
+    {
+      "name": "L_Bundesli_1.4-1.8_wr",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.4,
+        "cote_max": 1.8,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 3,
+        "league_substr": "Bundesliga"
+      },
+      "result": {
+        "pnl": 76.39786444455453,
+        "br_final": 176.39786444455456,
+        "ng": 25,
+        "nr": 16,
+        "n_combos": 76,
+        "n_wins": 52,
+        "streak": 3,
+        "dd": 88.63797920212475
+      }
+    },
+    {
+      "name": "L_Bundesli_1.4-1.8_ev",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.4,
+        "cote_max": 1.8,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 3,
+        "league_substr": "Bundesliga"
+      },
+      "result": {
+        "pnl": 84.16507863489356,
+        "br_final": 184.16507863489358,
+        "ng": 26,
+        "nr": 15,
+        "n_combos": 76,
+        "n_wins": 52,
+        "streak": 3,
+        "dd": 90.18894996681635
+      }
+    },
+    {
+      "name": "L_Bundesli_1.5-2.0_wr",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.5,
+        "cote_max": 2.0,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 3,
+        "league_substr": "Bundesliga"
+      },
+      "result": {
+        "pnl": 186.6844646090059,
+        "br_final": 286.68446460900583,
+        "ng": 31,
+        "nr": 15,
+        "n_combos": 104,
+        "n_wins": 68,
+        "streak": 3,
+        "dd": 90.83195092502879
+      }
+    },
+    {
+      "name": "L_Bundesli_1.5-2.0_ev",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.5,
+        "cote_max": 2.0,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 3,
+        "league_substr": "Bundesliga"
+      },
+      "result": {
+        "pnl": 196.17811465849243,
+        "br_final": 296.1781146584924,
+        "ng": 32,
+        "nr": 14,
+        "n_combos": 104,
+        "n_wins": 68,
+        "streak": 3,
+        "dd": 89.49754667683109
+      }
+    },
+    {
+      "name": "L_Serie A_1.2-1.5_wr",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.2,
+        "cote_max": 1.5,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 3,
+        "league_substr": "Serie A"
+      },
+      "result": {
+        "pnl": -7.375260694955953,
+        "br_final": 92.62473930504409,
+        "ng": 21,
+        "nr": 12,
+        "n_combos": 53,
+        "n_wins": 39,
+        "streak": 3,
+        "dd": 40.56391559235007
+      }
+    },
+    {
+      "name": "L_Serie A_1.2-1.5_ev",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.2,
+        "cote_max": 1.5,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 3,
+        "league_substr": "Serie A"
+      },
+      "result": {
+        "pnl": 8.202917719392694,
+        "br_final": 108.20291771939269,
+        "ng": 22,
+        "nr": 11,
+        "n_combos": 53,
+        "n_wins": 40,
+        "streak": 3,
+        "dd": 47.38619567673562
+      }
+    },
+    {
+      "name": "L_Serie A_1.3-1.6_wr",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.3,
+        "cote_max": 1.6,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 3,
+        "league_substr": "Serie A"
+      },
+      "result": {
+        "pnl": 19.314073767735728,
+        "br_final": 119.31407376773569,
+        "ng": 25,
+        "nr": 15,
+        "n_combos": 59,
+        "n_wins": 43,
+        "streak": 4,
+        "dd": 66.43073965141477
+      }
+    },
+    {
+      "name": "L_Serie A_1.3-1.6_ev",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.3,
+        "cote_max": 1.6,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 3,
+        "league_substr": "Serie A"
+      },
+      "result": {
+        "pnl": 19.254882122412674,
+        "br_final": 119.25488212241265,
+        "ng": 25,
+        "nr": 15,
+        "n_combos": 59,
+        "n_wins": 43,
+        "streak": 4,
+        "dd": 66.39778339859544
+      }
+    },
+    {
+      "name": "L_Serie A_1.4-1.8_wr",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.4,
+        "cote_max": 1.8,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 3,
+        "league_substr": "Serie A"
+      },
+      "result": {
+        "pnl": -35.56276599174819,
+        "br_final": 64.4372340082518,
+        "ng": 20,
+        "nr": 23,
+        "n_combos": 65,
+        "n_wins": 40,
+        "streak": 5,
+        "dd": 91.63752984689819
+      }
+    },
+    {
+      "name": "L_Serie A_1.4-1.8_ev",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.4,
+        "cote_max": 1.8,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 3,
+        "league_substr": "Serie A"
+      },
+      "result": {
+        "pnl": -35.56276599174819,
+        "br_final": 64.4372340082518,
+        "ng": 20,
+        "nr": 23,
+        "n_combos": 65,
+        "n_wins": 40,
+        "streak": 5,
+        "dd": 91.63752984689819
+      }
+    },
+    {
+      "name": "L_Serie A_1.5-2.0_wr",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.5,
+        "cote_max": 2.0,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 3,
+        "league_substr": "Serie A"
+      },
+      "result": {
+        "pnl": -4.253459046354731,
+        "br_final": 95.74654095364534,
+        "ng": 23,
+        "nr": 23,
+        "n_combos": 72,
+        "n_wins": 43,
+        "streak": 6,
+        "dd": 61.011783032240025
+      }
+    },
+    {
+      "name": "L_Serie A_1.5-2.0_ev",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.5,
+        "cote_max": 2.0,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 3,
+        "league_substr": "Serie A"
+      },
+      "result": {
+        "pnl": -4.253459046354731,
+        "br_final": 95.74654095364534,
+        "ng": 23,
+        "nr": 23,
+        "n_combos": 72,
+        "n_wins": 43,
+        "streak": 6,
+        "dd": 61.011783032240025
+      }
+    },
+    {
+      "name": "L_Ligue 1_1.2-1.5_wr",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.2,
+        "cote_max": 1.5,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 3,
+        "league_substr": "Ligue 1"
+      },
+      "result": {
+        "pnl": 11.44744852543107,
+        "br_final": 111.44744852543104,
+        "ng": 29,
+        "nr": 11,
+        "n_combos": 54,
+        "n_wins": 41,
+        "streak": 2,
+        "dd": 36.227075744983324
+      }
+    },
+    {
+      "name": "L_Ligue 1_1.2-1.5_ev",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.2,
+        "cote_max": 1.5,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 3,
+        "league_substr": "Ligue 1"
+      },
+      "result": {
+        "pnl": 13.829689525509984,
+        "br_final": 113.82968952550996,
+        "ng": 29,
+        "nr": 11,
+        "n_combos": 54,
+        "n_wins": 41,
+        "streak": 2,
+        "dd": 37.00144632317535
+      }
+    },
+    {
+      "name": "L_Ligue 1_1.3-1.6_wr",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.3,
+        "cote_max": 1.6,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 3,
+        "league_substr": "Ligue 1"
+      },
+      "result": {
+        "pnl": -2.379103368611595,
+        "br_final": 97.62089663138843,
+        "ng": 24,
+        "nr": 14,
+        "n_combos": 61,
+        "n_wins": 43,
+        "streak": 2,
+        "dd": 77.86185556996155
+      }
+    },
+    {
+      "name": "L_Ligue 1_1.3-1.6_ev",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.3,
+        "cote_max": 1.6,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 3,
+        "league_substr": "Ligue 1"
+      },
+      "result": {
+        "pnl": -2.379103368611595,
+        "br_final": 97.62089663138843,
+        "ng": 24,
+        "nr": 14,
+        "n_combos": 61,
+        "n_wins": 43,
+        "streak": 2,
+        "dd": 77.86185556996155
+      }
+    },
+    {
+      "name": "L_Ligue 1_1.4-1.8_wr",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.4,
+        "cote_max": 1.8,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 3,
+        "league_substr": "Ligue 1"
+      },
+      "result": {
+        "pnl": 35.59085511296536,
+        "br_final": 135.59085511296541,
+        "ng": 30,
+        "nr": 22,
+        "n_combos": 91,
+        "n_wins": 61,
+        "streak": 3,
+        "dd": 101.54334687063306
+      }
+    },
+    {
+      "name": "L_Ligue 1_1.4-1.8_ev",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.4,
+        "cote_max": 1.8,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 3,
+        "league_substr": "Ligue 1"
+      },
+      "result": {
+        "pnl": -1.6468835989515114,
+        "br_final": 98.35311640104865,
+        "ng": 28,
+        "nr": 24,
+        "n_combos": 91,
+        "n_wins": 59,
+        "streak": 3,
+        "dd": 138.7810855825499
+      }
+    },
+    {
+      "name": "L_Ligue 1_1.5-2.0_wr",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.5,
+        "cote_max": 2.0,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 3,
+        "league_substr": "Ligue 1"
+      },
+      "result": {
+        "pnl": 9.60494105308218,
+        "br_final": 109.60494105308224,
+        "ng": 30,
+        "nr": 27,
+        "n_combos": 119,
+        "n_wins": 71,
+        "streak": 3,
+        "dd": 186.6993591676517
+      }
+    },
+    {
+      "name": "L_Ligue 1_1.5-2.0_ev",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.5,
+        "cote_max": 2.0,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 3,
+        "league_substr": "Ligue 1"
+      },
+      "result": {
+        "pnl": -0.35835856740837,
+        "br_final": 99.64164143259165,
+        "ng": 30,
+        "nr": 27,
+        "n_combos": 119,
+        "n_wins": 70,
+        "streak": 3,
+        "dd": 163.05792277069375
+      }
+    },
+    {
+      "name": "BO_1.4-1.55_wr_mc2",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "btts",
+        "cote_min": 1.4,
+        "cote_max": 1.55,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 2,
+        "side_filter": "oui"
+      },
+      "result": {
+        "pnl": -9.780645371083143,
+        "br_final": 90.21935462891686,
+        "ng": 47,
+        "nr": 38,
+        "n_combos": 137,
+        "n_wins": 94,
+        "streak": 6,
+        "dd": 77.70418549880762
+      }
+    },
+    {
+      "name": "BO_1.4-1.55_wr_mc3",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "btts",
+        "cote_min": 1.4,
+        "cote_max": 1.55,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 3,
+        "side_filter": "oui"
+      },
+      "result": {
+        "pnl": -23.857297607013106,
+        "br_final": 76.14270239298683,
+        "ng": 50,
+        "nr": 34,
+        "n_combos": 176,
+        "n_wins": 120,
+        "streak": 5,
+        "dd": 76.27600962692108
+      }
+    },
+    {
+      "name": "BO_1.4-1.55_wr_mc4",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "btts",
+        "cote_min": 1.4,
+        "cote_max": 1.55,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 4,
+        "side_filter": "oui"
+      },
+      "result": {
+        "pnl": -9.339116192366374,
+        "br_final": 90.66088380763361,
+        "ng": 54,
+        "nr": 31,
+        "n_combos": 205,
+        "n_wins": 141,
+        "streak": 4,
+        "dd": 88.8450809231031
+      }
+    },
+    {
+      "name": "BO_1.4-1.55_ev_mc2",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "btts",
+        "cote_min": 1.4,
+        "cote_max": 1.55,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 2,
+        "side_filter": "oui"
+      },
+      "result": {
+        "pnl": -34.05354818252814,
+        "br_final": 65.94645181747188,
+        "ng": 48,
+        "nr": 37,
+        "n_combos": 137,
+        "n_wins": 92,
+        "streak": 6,
+        "dd": 88.59013294742479
+      }
+    },
+    {
+      "name": "BO_1.4-1.55_ev_mc3",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "btts",
+        "cote_min": 1.4,
+        "cote_max": 1.55,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 3,
+        "side_filter": "oui"
+      },
+      "result": {
+        "pnl": -18.026021104962435,
+        "br_final": 81.97397889503756,
+        "ng": 53,
+        "nr": 32,
+        "n_combos": 176,
+        "n_wins": 120,
+        "streak": 5,
+        "dd": 73.77356156672954
+      }
+    },
+    {
+      "name": "BO_1.4-1.55_ev_mc4",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "btts",
+        "cote_min": 1.4,
+        "cote_max": 1.55,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 4,
+        "side_filter": "oui"
+      },
+      "result": {
+        "pnl": -5.296890461148742,
+        "br_final": 94.70310953885131,
+        "ng": 55,
+        "nr": 30,
+        "n_combos": 205,
+        "n_wins": 141,
+        "streak": 3,
+        "dd": 68.04396847502989
+      }
+    },
+    {
+      "name": "BO_1.5-1.7_wr_mc2",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "btts",
+        "cote_min": 1.5,
+        "cote_max": 1.7,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 2,
+        "side_filter": "oui"
+      },
+      "result": {
+        "pnl": 2.475497856567987,
+        "br_final": 102.475497856568,
+        "ng": 52,
+        "nr": 59,
+        "n_combos": 206,
+        "n_wins": 134,
+        "streak": 7,
+        "dd": 103.73031494270899
+      }
+    },
+    {
+      "name": "BO_1.5-1.7_wr_mc3",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "btts",
+        "cote_min": 1.5,
+        "cote_max": 1.7,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 3,
+        "side_filter": "oui"
+      },
+      "result": {
+        "pnl": 37.49377646185088,
+        "br_final": 137.49377646185076,
+        "ng": 77,
+        "nr": 34,
+        "n_combos": 287,
+        "n_wins": 188,
+        "streak": 3,
+        "dd": 126.07874274855646
+      }
+    },
+    {
+      "name": "BO_1.5-1.7_wr_mc4",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "btts",
+        "cote_min": 1.5,
+        "cote_max": 1.7,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 4,
+        "side_filter": "oui"
+      },
+      "result": {
+        "pnl": 68.57763188350783,
+        "br_final": 168.57763188350782,
+        "ng": 64,
+        "nr": 47,
+        "n_combos": 358,
+        "n_wins": 235,
+        "streak": 4,
+        "dd": 140.62004768896475
+      }
+    },
+    {
+      "name": "BO_1.5-1.7_ev_mc2",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "btts",
+        "cote_min": 1.5,
+        "cote_max": 1.7,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 2,
+        "side_filter": "oui"
+      },
+      "result": {
+        "pnl": 54.78788691233193,
+        "br_final": 154.7878869123321,
+        "ng": 50,
+        "nr": 61,
+        "n_combos": 206,
+        "n_wins": 134,
+        "streak": 6,
+        "dd": 133.9316382762279
+      }
+    },
+    {
+      "name": "BO_1.5-1.7_ev_mc3",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "btts",
+        "cote_min": 1.5,
+        "cote_max": 1.7,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 3,
+        "side_filter": "oui"
+      },
+      "result": {
+        "pnl": 155.89866905977925,
+        "br_final": 255.8986690597792,
+        "ng": 78,
+        "nr": 33,
+        "n_combos": 287,
+        "n_wins": 188,
+        "streak": 4,
+        "dd": 133.46907243742186
+      }
+    },
+    {
+      "name": "BO_1.5-1.7_ev_mc4",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "btts",
+        "cote_min": 1.5,
+        "cote_max": 1.7,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 4,
+        "side_filter": "oui"
+      },
+      "result": {
+        "pnl": 54.267808436476,
+        "br_final": 154.2678084364759,
+        "ng": 61,
+        "nr": 50,
+        "n_combos": 358,
+        "n_wins": 230,
+        "streak": 4,
+        "dd": 148.98320549349575
+      }
+    },
+    {
+      "name": "BO_1.55-1.75_wr_mc2",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "btts",
+        "cote_min": 1.55,
+        "cote_max": 1.75,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 2,
+        "side_filter": "oui"
+      },
+      "result": {
+        "pnl": -18.363818374083394,
+        "br_final": 81.63618162591654,
+        "ng": 44,
+        "nr": 69,
+        "n_combos": 215,
+        "n_wins": 134,
+        "streak": 7,
+        "dd": 145.27656722940787
+      }
+    },
+    {
+      "name": "BO_1.55-1.75_wr_mc3",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "btts",
+        "cote_min": 1.55,
+        "cote_max": 1.75,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 3,
+        "side_filter": "oui"
+      },
+      "result": {
+        "pnl": 88.91543779097312,
+        "br_final": 188.91543779097304,
+        "ng": 75,
+        "nr": 38,
+        "n_combos": 306,
+        "n_wins": 196,
+        "streak": 4,
+        "dd": 158.1273507333018
+      }
+    },
+    {
+      "name": "BO_1.55-1.75_wr_mc4",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "btts",
+        "cote_min": 1.55,
+        "cote_max": 1.75,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 4,
+        "side_filter": "oui"
+      },
+      "result": {
+        "pnl": 104.09066584144037,
+        "br_final": 204.09066584144057,
+        "ng": 63,
+        "nr": 50,
+        "n_combos": 383,
+        "n_wins": 244,
+        "streak": 4,
+        "dd": 149.67624836613436
+      }
+    },
+    {
+      "name": "BO_1.55-1.75_ev_mc2",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "btts",
+        "cote_min": 1.55,
+        "cote_max": 1.75,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 2,
+        "side_filter": "oui"
+      },
+      "result": {
+        "pnl": -39.362672837587056,
+        "br_final": 60.637327162413044,
+        "ng": 42,
+        "nr": 71,
+        "n_combos": 215,
+        "n_wins": 130,
+        "streak": 7,
+        "dd": 103.0231170027061
+      }
+    },
+    {
+      "name": "BO_1.55-1.75_ev_mc3",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "btts",
+        "cote_min": 1.55,
+        "cote_max": 1.75,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 3,
+        "side_filter": "oui"
+      },
+      "result": {
+        "pnl": 336.4802340720845,
+        "br_final": 436.4802340720846,
+        "ng": 80,
+        "nr": 33,
+        "n_combos": 306,
+        "n_wins": 198,
+        "streak": 4,
+        "dd": 274.5252174631461
+      }
+    },
+    {
+      "name": "BO_1.55-1.75_ev_mc4",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "btts",
+        "cote_min": 1.55,
+        "cote_max": 1.75,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 4,
+        "side_filter": "oui"
+      },
+      "result": {
+        "pnl": 102.12553851181036,
+        "br_final": 202.1255385118105,
+        "ng": 61,
+        "nr": 52,
+        "n_combos": 383,
+        "n_wins": 240,
+        "streak": 4,
+        "dd": 172.46705330738223
+      }
+    },
+    {
+      "name": "BO_1.7-1.9_wr_mc2",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "btts",
+        "cote_min": 1.7,
+        "cote_max": 1.9,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 2,
+        "side_filter": "oui"
+      },
+      "result": {
+        "pnl": -20.526317325812066,
+        "br_final": 79.47368267418804,
+        "ng": 39,
+        "nr": 71,
+        "n_combos": 211,
+        "n_wins": 123,
+        "streak": 6,
+        "dd": 162.25854723979626
+      }
+    },
+    {
+      "name": "BO_1.7-1.9_wr_mc3",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "btts",
+        "cote_min": 1.7,
+        "cote_max": 1.9,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 3,
+        "side_filter": "oui"
+      },
+      "result": {
+        "pnl": -63.043878125903916,
+        "br_final": 36.95612187409604,
+        "ng": 65,
+        "nr": 45,
+        "n_combos": 297,
+        "n_wins": 170,
+        "streak": 6,
+        "dd": 203.7835140123777
+      }
+    },
+    {
+      "name": "BO_1.7-1.9_wr_mc4",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "btts",
+        "cote_min": 1.7,
+        "cote_max": 1.9,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 4,
+        "side_filter": "oui"
+      },
+      "result": {
+        "pnl": -62.104064877584506,
+        "br_final": 37.895935122415594,
+        "ng": 48,
+        "nr": 62,
+        "n_combos": 377,
+        "n_wins": 217,
+        "streak": 6,
+        "dd": 307.2458041748061
+      }
+    },
+    {
+      "name": "BO_1.7-1.9_ev_mc2",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "btts",
+        "cote_min": 1.7,
+        "cote_max": 1.9,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 2,
+        "side_filter": "oui"
+      },
+      "result": {
+        "pnl": -63.19299825737383,
+        "br_final": 36.80700174262617,
+        "ng": 38,
+        "nr": 72,
+        "n_combos": 211,
+        "n_wins": 118,
+        "streak": 7,
+        "dd": 207.70683675862574
+      }
+    },
+    {
+      "name": "BO_1.7-1.9_ev_mc3",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "btts",
+        "cote_min": 1.7,
+        "cote_max": 1.9,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 3,
+        "side_filter": "oui"
+      },
+      "result": {
+        "pnl": -66.07464617979747,
+        "br_final": 33.92535382020244,
+        "ng": 64,
+        "nr": 46,
+        "n_combos": 297,
+        "n_wins": 169,
+        "streak": 6,
+        "dd": 294.13955640285496
+      }
+    },
+    {
+      "name": "BO_1.7-1.9_ev_mc4",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "btts",
+        "cote_min": 1.7,
+        "cote_max": 1.9,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 4,
+        "side_filter": "oui"
+      },
+      "result": {
+        "pnl": -12.855742863130782,
+        "br_final": 87.14425713686916,
+        "ng": 56,
+        "nr": 54,
+        "n_combos": 377,
+        "n_wins": 222,
+        "streak": 8,
+        "dd": 621.9520499475354
+      }
+    },
+    {
+      "name": "BO_1.8-2.0_wr_mc2",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "btts",
+        "cote_min": 1.8,
+        "cote_max": 2.0,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 2,
+        "side_filter": "oui"
+      },
+      "result": {
+        "pnl": -71.65931501924761,
+        "br_final": 28.34068498075244,
+        "ng": 31,
+        "nr": 75,
+        "n_combos": 228,
+        "n_wins": 120,
+        "streak": 19,
+        "dd": 181.8184015327796
+      }
+    },
+    {
+      "name": "BO_1.8-2.0_wr_mc3",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "btts",
+        "cote_min": 1.8,
+        "cote_max": 2.0,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 3,
+        "side_filter": "oui"
+      },
+      "result": {
+        "pnl": -76.59968648287376,
+        "br_final": 23.400313517126182,
+        "ng": 60,
+        "nr": 56,
+        "n_combos": 332,
+        "n_wins": 177,
+        "streak": 7,
+        "dd": 190.1756100907646
+      }
+    },
+    {
+      "name": "BO_1.8-2.0_wr_mc4",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "btts",
+        "cote_min": 1.8,
+        "cote_max": 2.0,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 4,
+        "side_filter": "oui"
+      },
+      "result": {
+        "pnl": -53.5223848108188,
+        "br_final": 46.4776151891811,
+        "ng": 46,
+        "nr": 70,
+        "n_combos": 424,
+        "n_wins": 231,
+        "streak": 9,
+        "dd": 460.5292957874793
+      }
+    },
+    {
+      "name": "BO_1.8-2.0_ev_mc2",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "btts",
+        "cote_min": 1.8,
+        "cote_max": 2.0,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 2,
+        "side_filter": "oui"
+      },
+      "result": {
+        "pnl": 22.556612269049946,
+        "br_final": 122.55661226905004,
+        "ng": 35,
+        "nr": 68,
+        "n_combos": 228,
+        "n_wins": 126,
+        "streak": 13,
+        "dd": 337.6387995492346
+      }
+    },
+    {
+      "name": "BO_1.8-2.0_ev_mc3",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "btts",
+        "cote_min": 1.8,
+        "cote_max": 2.0,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 3,
+        "side_filter": "oui"
+      },
+      "result": {
+        "pnl": -20.030250460100643,
+        "br_final": 79.96974953989917,
+        "ng": 65,
+        "nr": 51,
+        "n_combos": 332,
+        "n_wins": 181,
+        "streak": 6,
+        "dd": 333.93837915164477
+      }
+    },
+    {
+      "name": "BO_1.8-2.0_ev_mc4",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "btts",
+        "cote_min": 1.8,
+        "cote_max": 2.0,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 4,
+        "side_filter": "oui"
+      },
+      "result": {
+        "pnl": 63.03122548274547,
+        "br_final": 163.03122548274555,
+        "ng": 51,
+        "nr": 64,
+        "n_combos": 424,
+        "n_wins": 235,
+        "streak": 6,
+        "dd": 619.2282037887726
+      }
+    }
+  ],
+  "top_full": [
+    {
+      "name": "H_1.25-1.5_wr_mc4",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.25,
+        "cote_max": 1.5,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 4
+      },
+      "monthly": {
+        "Jan26": {
+          "pnl": 170.61421711748187,
+          "br_final": 270.61421711748187,
+          "ng": 21,
+          "nr": 7,
+          "n_combos": 83,
+          "n_wins": 69,
+          "streak": 2,
+          "dd": 110.75354441543581
+        },
+        "Feb26": {
+          "pnl": 177.13604167626207,
+          "br_final": 277.13604167626204,
+          "ng": 20,
+          "nr": 4,
+          "n_combos": 66,
+          "n_wins": 55,
+          "streak": 1,
+          "dd": 13.942416298822081
+        },
+        "Mar26": {
+          "pnl": -7.291292529240176,
+          "br_final": 92.70870747075988,
+          "ng": 15,
+          "nr": 10,
+          "n_combos": 75,
+          "n_wins": 55,
+          "streak": 2,
+          "dd": 42.593784663739484
+        },
+        "Apr26": {
+          "pnl": 82.8303579590767,
+          "br_final": 182.83035795907668,
+          "ng": 10,
+          "nr": 4,
+          "n_combos": 30,
+          "n_wins": 26,
+          "streak": 1,
+          "dd": 14.526757342043098
+        },
+        "TOTAL": {
+          "pnl": 1171.1958156209969,
+          "br_final": 1271.195815620997,
+          "ng": 66,
+          "nr": 25,
+          "n_combos": 254,
+          "n_wins": 205,
+          "streak": 2,
+          "dd": 319.44040645277335
+        }
+      }
+    },
+    {
+      "name": "H_1.25-1.4_wr_mc2",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.25,
+        "cote_max": 1.4,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 2
+      },
+      "monthly": {
+        "Jan26": {
+          "pnl": 72.37913890647313,
+          "br_final": 172.37913890647314,
+          "ng": 19,
+          "nr": 5,
+          "n_combos": 42,
+          "n_wins": 36,
+          "streak": 3,
+          "dd": 46.812373088975434
+        },
+        "Feb26": {
+          "pnl": 45.89588845123244,
+          "br_final": 145.89588845123245,
+          "ng": 15,
+          "nr": 4,
+          "n_combos": 28,
+          "n_wins": 24,
+          "streak": 2,
+          "dd": 20.014876196292988
+        },
+        "Mar26": {
+          "pnl": 10.72933901834023,
+          "br_final": 110.7293390183402,
+          "ng": 15,
+          "nr": 5,
+          "n_combos": 29,
+          "n_wins": 23,
+          "streak": 2,
+          "dd": 25.759999999999998
+        },
+        "Apr26": {
+          "pnl": 25.608553983919162,
+          "br_final": 125.60855398391915,
+          "ng": 6,
+          "nr": 1,
+          "n_combos": 11,
+          "n_wins": 10,
+          "streak": 1,
+          "dd": 13.168130052000002
+        },
+        "TOTAL": {
+          "pnl": 249.79184763469289,
+          "br_final": 349.7918476346928,
+          "ng": 55,
+          "nr": 15,
+          "n_combos": 110,
+          "n_wins": 93,
+          "streak": 3,
+          "dd": 64.78487403225834
+        }
+      }
+    },
+    {
+      "name": "H_1.25-1.4_wr_mc3",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.25,
+        "cote_max": 1.4,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 3
+      },
+      "monthly": {
+        "Jan26": {
+          "pnl": 35.83483361043774,
+          "br_final": 135.83483361043776,
+          "ng": 16,
+          "nr": 8,
+          "n_combos": 56,
+          "n_wins": 45,
+          "streak": 3,
+          "dd": 59.19098518729879
+        },
+        "Feb26": {
+          "pnl": 67.60894465517516,
+          "br_final": 167.60894465517518,
+          "ng": 15,
+          "nr": 4,
+          "n_combos": 32,
+          "n_wins": 28,
+          "streak": 2,
+          "dd": 17.998136421741485
+        },
+        "Mar26": {
+          "pnl": 17.07040029306794,
+          "br_final": 117.07040029306798,
+          "ng": 15,
+          "nr": 5,
+          "n_combos": 35,
+          "n_wins": 28,
+          "streak": 2,
+          "dd": 20.0015
+        },
+        "Apr26": {
+          "pnl": 29.87450487393906,
+          "br_final": 129.87450487393906,
+          "ng": 6,
+          "nr": 1,
+          "n_combos": 12,
+          "n_wins": 11,
+          "streak": 1,
+          "dd": 13.615349563200002
+        },
+        "TOTAL": {
+          "pnl": 246.16197089409889,
+          "br_final": 346.16197089409906,
+          "ng": 52,
+          "nr": 18,
+          "n_combos": 135,
+          "n_wins": 112,
+          "streak": 3,
+          "dd": 59.19098518729879
+        }
+      }
+    },
+    {
+      "name": "H_1.25-1.4_ev_mc5",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.25,
+        "cote_max": 1.4,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 5
+      },
+      "monthly": {
+        "Jan26": {
+          "pnl": 40.87529617983341,
+          "br_final": 140.87529617983336,
+          "ng": 18,
+          "nr": 6,
+          "n_combos": 71,
+          "n_wins": 57,
+          "streak": 3,
+          "dd": 100.40728153225527
+        },
+        "Feb26": {
+          "pnl": 44.86870848864869,
+          "br_final": 144.86870848864868,
+          "ng": 15,
+          "nr": 4,
+          "n_combos": 36,
+          "n_wins": 30,
+          "streak": 2,
+          "dd": 14.686064649425274
+        },
+        "Mar26": {
+          "pnl": 24.42479119412705,
+          "br_final": 124.4247911941271,
+          "ng": 16,
+          "nr": 4,
+          "n_combos": 42,
+          "n_wins": 34,
+          "streak": 1,
+          "dd": 27.1
+        },
+        "Apr26": {
+          "pnl": 33.31096531312176,
+          "br_final": 133.31096531312178,
+          "ng": 6,
+          "nr": 1,
+          "n_combos": 13,
+          "n_wins": 12,
+          "streak": 1,
+          "dd": 13.975609725000002
+        },
+        "TOTAL": {
+          "pnl": 238.5183569496034,
+          "br_final": 338.51835694960334,
+          "ng": 55,
+          "nr": 15,
+          "n_combos": 162,
+          "n_wins": 133,
+          "streak": 3,
+          "dd": 100.40728153225527
+        }
+      }
+    },
+    {
+      "name": "H_1.3-1.45_ev_mc5",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.3,
+        "cote_max": 1.45,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 5
+      },
+      "monthly": {
+        "Jan26": {
+          "pnl": 64.1652819445203,
+          "br_final": 164.16528194452027,
+          "ng": 16,
+          "nr": 9,
+          "n_combos": 76,
+          "n_wins": 60,
+          "streak": 3,
+          "dd": 95.25384351090898
+        },
+        "Feb26": {
+          "pnl": 45.325660983754325,
+          "br_final": 145.32566098375435,
+          "ng": 18,
+          "nr": 6,
+          "n_combos": 48,
+          "n_wins": 38,
+          "streak": 2,
+          "dd": 30.795894437694713
+        },
+        "Mar26": {
+          "pnl": 7.085657675540354,
+          "br_final": 107.08565767554035,
+          "ng": 11,
+          "nr": 8,
+          "n_combos": 49,
+          "n_wins": 37,
+          "streak": 2,
+          "dd": 32.7748
+        },
+        "Apr26": {
+          "pnl": 29.690782176759825,
+          "br_final": 129.6907821767598,
+          "ng": 6,
+          "nr": 2,
+          "n_combos": 15,
+          "n_wins": 13,
+          "streak": 1,
+          "dd": 19.23005362026425
+        },
+        "TOTAL": {
+          "pnl": 231.33250323573225,
+          "br_final": 331.3325032357322,
+          "ng": 51,
+          "nr": 25,
+          "n_combos": 188,
+          "n_wins": 148,
+          "streak": 3,
+          "dd": 95.25384351090898
+        }
+      }
+    },
+    {
+      "name": "H_1.25-1.4_wr_mc5",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.25,
+        "cote_max": 1.4,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 5
+      },
+      "monthly": {
+        "Jan26": {
+          "pnl": 40.87529617983341,
+          "br_final": 140.87529617983336,
+          "ng": 18,
+          "nr": 6,
+          "n_combos": 71,
+          "n_wins": 57,
+          "streak": 3,
+          "dd": 100.40728153225527
+        },
+        "Feb26": {
+          "pnl": 42.998630496110195,
+          "br_final": 142.9986304961102,
+          "ng": 15,
+          "nr": 4,
+          "n_combos": 36,
+          "n_wins": 30,
+          "streak": 2,
+          "dd": 14.686064649425274
+        },
+        "Mar26": {
+          "pnl": 22.61290973204325,
+          "br_final": 122.61290973204326,
+          "ng": 16,
+          "nr": 4,
+          "n_combos": 42,
+          "n_wins": 34,
+          "streak": 1,
+          "dd": 27.1
+        },
+        "Apr26": {
+          "pnl": 33.31096531312176,
+          "br_final": 133.31096531312178,
+          "ng": 6,
+          "nr": 1,
+          "n_combos": 13,
+          "n_wins": 12,
+          "streak": 1,
+          "dd": 13.975609725000002
+        },
+        "TOTAL": {
+          "pnl": 229.28260765237147,
+          "br_final": 329.28260765237144,
+          "ng": 55,
+          "nr": 15,
+          "n_combos": 162,
+          "n_wins": 133,
+          "streak": 3,
+          "dd": 100.40728153225527
+        }
+      }
+    },
+    {
+      "name": "H_1.3-1.45_wr_mc5",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.3,
+        "cote_max": 1.45,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 5
+      },
+      "monthly": {
+        "Jan26": {
+          "pnl": 62.39052213971465,
+          "br_final": 162.39052213971462,
+          "ng": 16,
+          "nr": 9,
+          "n_combos": 76,
+          "n_wins": 60,
+          "streak": 3,
+          "dd": 96.52450156502731
+        },
+        "Feb26": {
+          "pnl": 44.06743015272613,
+          "br_final": 144.0674301527261,
+          "ng": 18,
+          "nr": 6,
+          "n_combos": 48,
+          "n_wins": 38,
+          "streak": 2,
+          "dd": 30.529263317022036
+        },
+        "Mar26": {
+          "pnl": 5.731285951144807,
+          "br_final": 105.73128595114483,
+          "ng": 11,
+          "nr": 8,
+          "n_combos": 49,
+          "n_wins": 37,
+          "streak": 2,
+          "dd": 32.7748
+        },
+        "Apr26": {
+          "pnl": 29.690782176759825,
+          "br_final": 129.6907821767598,
+          "ng": 6,
+          "nr": 2,
+          "n_combos": 15,
+          "n_wins": 13,
+          "streak": 1,
+          "dd": 19.23005362026425
+        },
+        "TOTAL": {
+          "pnl": 220.80351005362286,
+          "br_final": 320.80351005362286,
+          "ng": 51,
+          "nr": 25,
+          "n_combos": 188,
+          "n_wins": 148,
+          "streak": 3,
+          "dd": 96.52450156502731
+        }
+      }
+    },
+    {
+      "name": "H_1.25-1.4_wr_mc4",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.25,
+        "cote_max": 1.4,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 4
+      },
+      "monthly": {
+        "Jan26": {
+          "pnl": 49.18857970958327,
+          "br_final": 149.1885797095832,
+          "ng": 17,
+          "nr": 7,
+          "n_combos": 67,
+          "n_wins": 54,
+          "streak": 3,
+          "dd": 88.01864120798342
+        },
+        "Feb26": {
+          "pnl": 39.88183384187937,
+          "br_final": 139.88183384187937,
+          "ng": 15,
+          "nr": 4,
+          "n_combos": 35,
+          "n_wins": 29,
+          "streak": 2,
+          "dd": 14.686064649425274
+        },
+        "Mar26": {
+          "pnl": 12.228365466485187,
+          "br_final": 112.22836546648519,
+          "ng": 16,
+          "nr": 4,
+          "n_combos": 39,
+          "n_wins": 31,
+          "streak": 1,
+          "dd": 27.1
+        },
+        "Apr26": {
+          "pnl": 33.31096531312176,
+          "br_final": 133.31096531312178,
+          "ng": 6,
+          "nr": 1,
+          "n_combos": 13,
+          "n_wins": 12,
+          "streak": 1,
+          "dd": 13.975609725000002
+        },
+        "TOTAL": {
+          "pnl": 212.22337045157477,
+          "br_final": 312.2233704515748,
+          "ng": 54,
+          "nr": 16,
+          "n_combos": 154,
+          "n_wins": 126,
+          "streak": 3,
+          "dd": 88.01864120798342
+        }
+      }
+    },
+    {
+      "name": "H_1.25-1.4_ev_mc3",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.25,
+        "cote_max": 1.4,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 3
+      },
+      "monthly": {
+        "Jan26": {
+          "pnl": 35.83483361043774,
+          "br_final": 135.83483361043776,
+          "ng": 16,
+          "nr": 8,
+          "n_combos": 56,
+          "n_wins": 45,
+          "streak": 3,
+          "dd": 59.19098518729879
+        },
+        "Feb26": {
+          "pnl": 44.03355921599755,
+          "br_final": 144.03355921599754,
+          "ng": 15,
+          "nr": 4,
+          "n_combos": 32,
+          "n_wins": 27,
+          "streak": 2,
+          "dd": 16.299999999999997
+        },
+        "Mar26": {
+          "pnl": 17.501202134072784,
+          "br_final": 117.50120213407277,
+          "ng": 15,
+          "nr": 5,
+          "n_combos": 35,
+          "n_wins": 28,
+          "streak": 2,
+          "dd": 20.0015
+        },
+        "Apr26": {
+          "pnl": 29.87450487393906,
+          "br_final": 129.87450487393906,
+          "ng": 6,
+          "nr": 1,
+          "n_combos": 12,
+          "n_wins": 11,
+          "streak": 1,
+          "dd": 13.615349563200002
+        },
+        "TOTAL": {
+          "pnl": 198.56648998661768,
+          "br_final": 298.5664899866177,
+          "ng": 52,
+          "nr": 18,
+          "n_combos": 135,
+          "n_wins": 111,
+          "streak": 3,
+          "dd": 59.19098518729879
+        }
+      }
+    },
+    {
+      "name": "L_Bundesli_1.5-2.0_ev",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.5,
+        "cote_max": 2.0,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 3,
+        "league_substr": "Bundesliga"
+      },
+      "monthly": {
+        "Jan26": {
+          "pnl": 5.641560189521924,
+          "br_final": 105.6415601895219,
+          "ng": 6,
+          "nr": 4,
+          "n_combos": 20,
+          "n_wins": 12,
+          "streak": 2,
+          "dd": 63.230707690478084
+        },
+        "Feb26": {
+          "pnl": 12.243980820537512,
+          "br_final": 112.24398082053752,
+          "ng": 6,
+          "nr": 5,
+          "n_combos": 28,
+          "n_wins": 17,
+          "streak": 2,
+          "dd": 28.06099520513438
+        },
+        "Mar26": {
+          "pnl": 89.88471447459781,
+          "br_final": 189.88471447459784,
+          "ng": 11,
+          "nr": 3,
+          "n_combos": 31,
+          "n_wins": 22,
+          "streak": 2,
+          "dd": 66.78169403416706
+        },
+        "Apr26": {
+          "pnl": 31.54219694959687,
+          "br_final": 131.54219694959687,
+          "ng": 9,
+          "nr": 2,
+          "n_combos": 25,
+          "n_wins": 17,
+          "streak": 2,
+          "dd": 39.74873000000001
+        },
+        "TOTAL": {
+          "pnl": 196.17811465849243,
+          "br_final": 296.1781146584924,
+          "ng": 32,
+          "nr": 14,
+          "n_combos": 104,
+          "n_wins": 68,
+          "streak": 3,
+          "dd": 89.49754667683109
+        }
+      }
+    },
+    {
+      "name": "L_Bundesli_1.5-2.0_wr",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.5,
+        "cote_max": 2.0,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 3,
+        "league_substr": "Bundesliga"
+      },
+      "monthly": {
+        "Jan26": {
+          "pnl": 51.51606604564232,
+          "br_final": 151.5160660456423,
+          "ng": 6,
+          "nr": 4,
+          "n_combos": 20,
+          "n_wins": 14,
+          "streak": 2,
+          "dd": 33.453596267028
+        },
+        "Feb26": {
+          "pnl": 10.64452761521552,
+          "br_final": 110.64452761521552,
+          "ng": 6,
+          "nr": 5,
+          "n_combos": 28,
+          "n_wins": 17,
+          "streak": 2,
+          "dd": 27.66113190380388
+        },
+        "Mar26": {
+          "pnl": 32.17425504755185,
+          "br_final": 132.1742550475519,
+          "ng": 10,
+          "nr": 4,
+          "n_combos": 31,
+          "n_wins": 20,
+          "streak": 2,
+          "dd": 54.181374405078955
+        },
+        "Apr26": {
+          "pnl": 29.380451724459697,
+          "br_final": 129.3804517244597,
+          "ng": 9,
+          "nr": 2,
+          "n_combos": 25,
+          "n_wins": 17,
+          "streak": 2,
+          "dd": 39.74873000000001
+        },
+        "TOTAL": {
+          "pnl": 186.6844646090059,
+          "br_final": 286.68446460900583,
+          "ng": 31,
+          "nr": 15,
+          "n_combos": 104,
+          "n_wins": 68,
+          "streak": 3,
+          "dd": 90.83195092502879
+        }
+      }
+    },
+    {
+      "name": "H_1.25-1.4_ev_mc4",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.25,
+        "cote_max": 1.4,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 4
+      },
+      "monthly": {
+        "Jan26": {
+          "pnl": 22.95762063976642,
+          "br_final": 122.95762063976646,
+          "ng": 17,
+          "nr": 7,
+          "n_combos": 67,
+          "n_wins": 53,
+          "streak": 3,
+          "dd": 109.30782057985256
+        },
+        "Feb26": {
+          "pnl": 41.75191183441787,
+          "br_final": 141.75191183441785,
+          "ng": 15,
+          "nr": 4,
+          "n_combos": 35,
+          "n_wins": 29,
+          "streak": 2,
+          "dd": 14.686064649425274
+        },
+        "Mar26": {
+          "pnl": 13.435122084404382,
+          "br_final": 113.4351220844044,
+          "ng": 16,
+          "nr": 4,
+          "n_combos": 39,
+          "n_wins": 31,
+          "streak": 1,
+          "dd": 27.1
+        },
+        "Apr26": {
+          "pnl": 33.31096531312176,
+          "br_final": 133.31096531312178,
+          "ng": 6,
+          "nr": 1,
+          "n_combos": 13,
+          "n_wins": 12,
+          "streak": 1,
+          "dd": 13.975609725000002
+        },
+        "TOTAL": {
+          "pnl": 163.57110147224236,
+          "br_final": 263.57110147224245,
+          "ng": 54,
+          "nr": 16,
+          "n_combos": 154,
+          "n_wins": 125,
+          "streak": 3,
+          "dd": 109.30782057985256
+        }
+      }
+    },
+    {
+      "name": "H_1.3-1.45_ev_mc4",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.3,
+        "cote_max": 1.45,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 4
+      },
+      "monthly": {
+        "Jan26": {
+          "pnl": 41.05958967346748,
+          "br_final": 141.05958967346743,
+          "ng": 16,
+          "nr": 9,
+          "n_combos": 72,
+          "n_wins": 56,
+          "streak": 3,
+          "dd": 101.2122653334928
+        },
+        "Feb26": {
+          "pnl": 34.840579397264094,
+          "br_final": 134.8405793972641,
+          "ng": 18,
+          "nr": 6,
+          "n_combos": 46,
+          "n_wins": 36,
+          "streak": 2,
+          "dd": 29.56272550458356
+        },
+        "Mar26": {
+          "pnl": 0.2548006679230794,
+          "br_final": 100.25480066792312,
+          "ng": 11,
+          "nr": 8,
+          "n_combos": 47,
+          "n_wins": 35,
+          "streak": 2,
+          "dd": 35.1492
+        },
+        "Apr26": {
+          "pnl": 29.690782176759825,
+          "br_final": 129.6907821767598,
+          "ng": 6,
+          "nr": 2,
+          "n_combos": 15,
+          "n_wins": 13,
+          "streak": 1,
+          "dd": 19.23005362026425
+        },
+        "TOTAL": {
+          "pnl": 147.3076288634903,
+          "br_final": 247.30762886349024,
+          "ng": 51,
+          "nr": 25,
+          "n_combos": 180,
+          "n_wins": 140,
+          "streak": 3,
+          "dd": 101.2122653334928
+        }
+      }
+    },
+    {
+      "name": "H2j_1.4-1.65_wr_mc2",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.4,
+        "cote_max": 1.65,
+        "max_legs": 2,
+        "sort_by": "wr",
+        "max_combos": 2
+      },
+      "monthly": {
+        "Jan26": {
+          "pnl": 70.20142017432539,
+          "br_final": 170.20142017432542,
+          "ng": 23,
+          "nr": 8,
+          "n_combos": 62,
+          "n_wins": 47,
+          "streak": 3,
+          "dd": 75.23335542258215
+        },
+        "Feb26": {
+          "pnl": -3.833692075165043,
+          "br_final": 96.16630792483495,
+          "ng": 17,
+          "nr": 7,
+          "n_combos": 48,
+          "n_wins": 34,
+          "streak": 2,
+          "dd": 83.83740008867969
+        },
+        "Mar26": {
+          "pnl": -26.325324630179338,
+          "br_final": 73.67467536982065,
+          "ng": 19,
+          "nr": 10,
+          "n_combos": 58,
+          "n_wins": 38,
+          "streak": 2,
+          "dd": 66.31516726677232
+        },
+        "Apr26": {
+          "pnl": 103.51554638136292,
+          "br_final": 203.51554638136298,
+          "ng": 20,
+          "nr": 6,
+          "n_combos": 52,
+          "n_wins": 40,
+          "streak": 2,
+          "dd": 81.9401392689237
+        },
+        "TOTAL": {
+          "pnl": 145.4154744783416,
+          "br_final": 245.41547447834165,
+          "ng": 79,
+          "nr": 31,
+          "n_combos": 220,
+          "n_wins": 159,
+          "streak": 3,
+          "dd": 242.91897444378765
+        }
+      }
+    },
+    {
+      "name": "L_Premier _1.3-1.6_ev",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.3,
+        "cote_max": 1.6,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 3,
+        "league_substr": "Premier League"
+      },
+      "monthly": {
+        "Jan26": {
+          "pnl": 31.785615340530036,
+          "br_final": 131.7856153405301,
+          "ng": 15,
+          "nr": 3,
+          "n_combos": 28,
+          "n_wins": 22,
+          "streak": 2,
+          "dd": 67.27064223738293
+        },
+        "Feb26": {
+          "pnl": 70.40452821092437,
+          "br_final": 170.40452821092435,
+          "ng": 11,
+          "nr": 7,
+          "n_combos": 41,
+          "n_wins": 32,
+          "streak": 2,
+          "dd": 9.888283909197582
+        },
+        "Mar26": {
+          "pnl": -34.69375532407041,
+          "br_final": 65.3062446759296,
+          "ng": 10,
+          "nr": 9,
+          "n_combos": 40,
+          "n_wins": 26,
+          "streak": 2,
+          "dd": 56.29391295879101
+        },
+        "Apr26": {
+          "pnl": 61.09318927177905,
+          "br_final": 161.093189271779,
+          "ng": 14,
+          "nr": 5,
+          "n_combos": 34,
+          "n_wins": 27,
+          "streak": 1,
+          "dd": 26.9238182824
+        },
+        "TOTAL": {
+          "pnl": 136.25501208062465,
+          "br_final": 236.2550120806246,
+          "ng": 50,
+          "nr": 24,
+          "n_combos": 143,
+          "n_wins": 107,
+          "streak": 2,
+          "dd": 127.33445851509983
+        }
+      }
+    }
+  ],
+  "croustillants": []
+}

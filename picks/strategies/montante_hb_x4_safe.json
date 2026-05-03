@@ -1,0 +1,25 @@
+{
+  "id": "montante_hb_x4_safe",
+  "label": "🪜🏒🏀 MONTANTE Hockey+Basket ×4 — 56% complétion (la plus accessible)",
+  "description": "Hockey + Basket cote 1.25-1.45 sort WR. 4 paliers en mode interday (1/jour). 20 cycles complets sur 36 = 56% completion (le plus haut). 10€ → ~30€ par cycle. ROI +66%. La PLUS fréquemment réussie tout en restant rentable.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["ice-hockey", "basketball"], "market": "1x2",
+    "cote_min": 1.25, "cote_max": 1.45,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+    "min_wr": null, "min_ev": null
+  }],
+  "montante": {"initial_stake": 10, "n_paliers_target": 4, "reset_on_loss": true, "preferred_mode": "interday"},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict)",
+    "n_cycles_complete": 20,
+    "n_cycles_total": 36,
+    "completion_rate": 0.56,
+    "wr_palier": 0.86,
+    "avg_capital_complete": 30,
+    "roi_pct": 66,
+    "note": "Le PLUS HAUT taux de complétion (56%) sur 4 paliers. WR palier 86% — basket+hockey safes complémentaires. Idéal pour qui veut maximiser le nombre de succès."
+  }
+}

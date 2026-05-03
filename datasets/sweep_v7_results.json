@@ -1,0 +1,2454 @@
+{
+  "phase1": [
+    {
+      "name": "2j_foo_1.4-1.7_wr0.6_ev_mc1",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.7639999999999998,
+        "cote_max": 3.179,
+        "max_legs": 2,
+        "sort_by": "ev",
+        "max_combos": 1,
+        "min_wr": 0.6
+      },
+      "r": {
+        "pnl": 22598.91788667837,
+        "br_final": 22698.917886678355,
+        "ng": 200,
+        "nr": 220,
+        "n_combos": 420,
+        "streak": 10,
+        "dd": 30031.969296757416
+      }
+    },
+    {
+      "name": "2j_foo_1.3-1.7_wr0.6_ev_mc1",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.5210000000000001,
+        "cote_max": 3.179,
+        "max_legs": 2,
+        "sort_by": "ev",
+        "max_combos": 1,
+        "min_wr": 0.6
+      },
+      "r": {
+        "pnl": 9150.011979863219,
+        "br_final": 9250.011979863226,
+        "ng": 211,
+        "nr": 231,
+        "n_combos": 442,
+        "streak": 8,
+        "dd": 11253.063502234967
+      }
+    },
+    {
+      "name": "2j_foo_1.5-1.85_wr0.6_ev_mc2",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 2.025,
+        "cote_max": 3.7647500000000007,
+        "max_legs": 2,
+        "sort_by": "ev",
+        "max_combos": 2,
+        "min_wr": 0.6
+      },
+      "r": {
+        "pnl": 4483.478726168307,
+        "br_final": 4583.4787261683105,
+        "ng": 220,
+        "nr": 185,
+        "n_combos": 778,
+        "streak": 8,
+        "dd": 12051.267108508915
+      }
+    },
+    {
+      "name": "2j_foo_1.4-1.7_wr0.6_ev_mc2",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.7639999999999998,
+        "cote_max": 3.179,
+        "max_legs": 2,
+        "sort_by": "ev",
+        "max_combos": 2,
+        "min_wr": 0.6
+      },
+      "r": {
+        "pnl": 3676.5698737004677,
+        "br_final": 3776.5698737004677,
+        "ng": 235,
+        "nr": 185,
+        "n_combos": 808,
+        "streak": 10,
+        "dd": 14072.211049894302
+      }
+    },
+    {
+      "name": "V_foo+ice_1.3-1.6_ev_mc8",
+      "cfg": {
+        "sports_list": [
+          "football",
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.3,
+        "cote_max": 1.6,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 8
+      },
+      "r": {
+        "pnl": 3445.210624853078,
+        "br_final": 3545.210624853078,
+        "ng": 251,
+        "nr": 196,
+        "n_combos": 2682,
+        "streak": 9,
+        "dd": 3732.951715384868
+      }
+    },
+    {
+      "name": "2j_foo_1.3-1.7_wr0.6_ev_mc2",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.5210000000000001,
+        "cote_max": 3.179,
+        "max_legs": 2,
+        "sort_by": "ev",
+        "max_combos": 2,
+        "min_wr": 0.6
+      },
+      "r": {
+        "pnl": 2803.553131830181,
+        "br_final": 2903.553131830181,
+        "ng": 246,
+        "nr": 196,
+        "n_combos": 876,
+        "streak": 7,
+        "dd": 18268.01073919038
+      }
+    },
+    {
+      "name": "2j_foo_1.5-1.85_wr0.6_ev_mc3",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 2.025,
+        "cote_max": 3.7647500000000007,
+        "max_legs": 2,
+        "sort_by": "ev",
+        "max_combos": 3,
+        "min_wr": 0.6
+      },
+      "r": {
+        "pnl": 2163.94934416644,
+        "br_final": 2263.94934416644,
+        "ng": 210,
+        "nr": 195,
+        "n_combos": 1130,
+        "streak": 7,
+        "dd": 60949.886037504024
+      }
+    },
+    {
+      "name": "V_foo+ice_1.3-1.6_ev_mc6",
+      "cfg": {
+        "sports_list": [
+          "football",
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.3,
+        "cote_max": 1.6,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 6
+      },
+      "r": {
+        "pnl": 1932.4702152940358,
+        "br_final": 2032.4702152940354,
+        "ng": 242,
+        "nr": 204,
+        "n_combos": 2203,
+        "streak": 9,
+        "dd": 3229.422369741497
+      }
+    },
+    {
+      "name": "2j_foo_1.6-2.1_wr0.6_ev_mc1",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 2.3040000000000007,
+        "cote_max": 4.851000000000001,
+        "max_legs": 2,
+        "sort_by": "ev",
+        "max_combos": 1,
+        "min_wr": 0.6
+      },
+      "r": {
+        "pnl": 1919.093767598095,
+        "br_final": 2019.0937675980967,
+        "ng": 147,
+        "nr": 238,
+        "n_combos": 385,
+        "streak": 14,
+        "dd": 5570.583341559002
+      }
+    },
+    {
+      "name": "2j_foo_1.5-1.85_wr0.6_ev_mc1",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 2.025,
+        "cote_max": 3.7647500000000007,
+        "max_legs": 2,
+        "sort_by": "ev",
+        "max_combos": 1,
+        "min_wr": 0.6
+      },
+      "r": {
+        "pnl": 1747.6840168267686,
+        "br_final": 1847.6840168267677,
+        "ng": 167,
+        "nr": 238,
+        "n_combos": 405,
+        "streak": 11,
+        "dd": 2633.4388891946273
+      }
+    },
+    {
+      "name": "V_foo+ice_1.3-1.6_wr_mc8",
+      "cfg": {
+        "sports_list": [
+          "football",
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.3,
+        "cote_max": 1.6,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 8
+      },
+      "r": {
+        "pnl": 1087.21008131778,
+        "br_final": 1187.2100813177794,
+        "ng": 256,
+        "nr": 191,
+        "n_combos": 2682,
+        "streak": 6,
+        "dd": 1111.7042404062458
+      }
+    },
+    {
+      "name": "2j_foo_1.4-1.7_wr0.65_ev_mc1",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.7639999999999998,
+        "cote_max": 3.179,
+        "max_legs": 2,
+        "sort_by": "ev",
+        "max_combos": 1,
+        "min_wr": 0.65
+      },
+      "r": {
+        "pnl": 774.5946120406227,
+        "br_final": 874.5946120406222,
+        "ng": 178,
+        "nr": 208,
+        "n_combos": 386,
+        "streak": 9,
+        "dd": 1896.9670877607591
+      }
+    },
+    {
+      "name": "2j_foo_1.5-1.85_wr0.6_wr_mc1",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 2.025,
+        "cote_max": 3.7647500000000007,
+        "max_legs": 2,
+        "sort_by": "wr",
+        "max_combos": 1,
+        "min_wr": 0.6
+      },
+      "r": {
+        "pnl": 527.1958472330382,
+        "br_final": 627.195847233038,
+        "ng": 200,
+        "nr": 205,
+        "n_combos": 405,
+        "streak": 9,
+        "dd": 523.6774115631873
+      }
+    },
+    {
+      "name": "2j_foo_1.3-1.7_wr0.65_ev_mc1",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.5210000000000001,
+        "cote_max": 3.179,
+        "max_legs": 2,
+        "sort_by": "ev",
+        "max_combos": 1,
+        "min_wr": 0.65
+      },
+      "r": {
+        "pnl": 521.2379069263826,
+        "br_final": 621.2379069263841,
+        "ng": 194,
+        "nr": 217,
+        "n_combos": 411,
+        "streak": 8,
+        "dd": 2191.689338166137
+      }
+    },
+    {
+      "name": "2j_foo_1.6-2.1_wr0.6_wr_mc1",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 2.3040000000000007,
+        "cote_max": 4.851000000000001,
+        "max_legs": 2,
+        "sort_by": "wr",
+        "max_combos": 1,
+        "min_wr": 0.6
+      },
+      "r": {
+        "pnl": 450.72223073308027,
+        "br_final": 550.7222307330803,
+        "ng": 170,
+        "nr": 215,
+        "n_combos": 385,
+        "streak": 9,
+        "dd": 724.2293358422776
+      }
+    },
+    {
+      "name": "V_foo+ice_1.3-1.6_ev_mc5",
+      "cfg": {
+        "sports_list": [
+          "football",
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.3,
+        "cote_max": 1.6,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 5
+      },
+      "r": {
+        "pnl": 265.2777963061461,
+        "br_final": 365.2777963061461,
+        "ng": 242,
+        "nr": 206,
+        "n_combos": 1919,
+        "streak": 10,
+        "dd": 913.2482399294947
+      }
+    },
+    {
+      "name": "2j_foo_1.5-2.0_wr0.6_ev_mc1",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 2.025,
+        "cote_max": 4.4,
+        "max_legs": 2,
+        "sort_by": "ev",
+        "max_combos": 1,
+        "min_wr": 0.6
+      },
+      "r": {
+        "pnl": 248.94529933025643,
+        "br_final": 348.9452993302568,
+        "ng": 157,
+        "nr": 248,
+        "n_combos": 405,
+        "streak": 12,
+        "dd": 1129.3122225803077
+      }
+    },
+    {
+      "name": "2j_foo_1.4-1.7_wr0.6_wr_mc1",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.7639999999999998,
+        "cote_max": 3.179,
+        "max_legs": 2,
+        "sort_by": "wr",
+        "max_combos": 1,
+        "min_wr": 0.6
+      },
+      "r": {
+        "pnl": 115.11171432243643,
+        "br_final": 215.11171432243634,
+        "ng": 223,
+        "nr": 197,
+        "n_combos": 420,
+        "streak": 8,
+        "dd": 518.6449959567486
+      }
+    },
+    {
+      "name": "2j_foo_1.4-1.7_wr0.7_ev_mc1",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.7639999999999998,
+        "cote_max": 3.179,
+        "max_legs": 2,
+        "sort_by": "ev",
+        "max_combos": 1,
+        "min_wr": 0.7
+      },
+      "r": {
+        "pnl": 114.62166512145592,
+        "br_final": 214.62166512145654,
+        "ng": 153,
+        "nr": 180,
+        "n_combos": 333,
+        "streak": 7,
+        "dd": 406.39698378553
+      }
+    },
+    {
+      "name": "2j_foo_1.5-2.0_wr0.6_wr_mc1",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 2.025,
+        "cote_max": 4.4,
+        "max_legs": 2,
+        "sort_by": "wr",
+        "max_combos": 1,
+        "min_wr": 0.6
+      },
+      "r": {
+        "pnl": 94.39448258414434,
+        "br_final": 194.39448258414444,
+        "ng": 193,
+        "nr": 212,
+        "n_combos": 405,
+        "streak": 9,
+        "dd": 201.02671469425644
+      }
+    },
+    {
+      "name": "2j_ice_1.4-1.7_wr0.7_wr_mc1",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.7639999999999998,
+        "cote_max": 3.179,
+        "max_legs": 2,
+        "sort_by": "wr",
+        "max_combos": 1,
+        "min_wr": 0.7
+      },
+      "r": {
+        "pnl": 51.89135555974285,
+        "br_final": 151.8913555597429,
+        "ng": 113,
+        "nr": 91,
+        "n_combos": 204,
+        "streak": 6,
+        "dd": 116.36436358308981
+      }
+    },
+    {
+      "name": "2j_ice_1.3-1.7_wr0.7_ev_mc1",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.5210000000000001,
+        "cote_max": 3.179,
+        "max_legs": 2,
+        "sort_by": "ev",
+        "max_combos": 1,
+        "min_wr": 0.7
+      },
+      "r": {
+        "pnl": 44.844544490013924,
+        "br_final": 144.8445444900139,
+        "ng": 125,
+        "nr": 104,
+        "n_combos": 229,
+        "streak": 7,
+        "dd": 100.83322159392975
+      }
+    },
+    {
+      "name": "2j_ice_1.3-1.7_wr0.7_wr_mc1",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.5210000000000001,
+        "cote_max": 3.179,
+        "max_legs": 2,
+        "sort_by": "wr",
+        "max_combos": 1,
+        "min_wr": 0.7
+      },
+      "r": {
+        "pnl": 35.60058092220928,
+        "br_final": 135.60058092220928,
+        "ng": 139,
+        "nr": 90,
+        "n_combos": 229,
+        "streak": 6,
+        "dd": 71.01665065585658
+      }
+    },
+    {
+      "name": "2j_foo+ice_1.5-1.85_wr0.75_wr_mc1",
+      "cfg": {
+        "sports_list": [
+          "football",
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 2.025,
+        "cote_max": 3.7647500000000007,
+        "max_legs": 2,
+        "sort_by": "wr",
+        "max_combos": 1,
+        "min_wr": 0.75
+      },
+      "r": {
+        "pnl": 33.41100091798447,
+        "br_final": 133.41100091798435,
+        "ng": 113,
+        "nr": 121,
+        "n_combos": 234,
+        "streak": 12,
+        "dd": 388.176410529702
+      }
+    },
+    {
+      "name": "2j_ice_1.3-1.7_wr0.65_wr_mc1",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.5210000000000001,
+        "cote_max": 3.179,
+        "max_legs": 2,
+        "sort_by": "wr",
+        "max_combos": 1,
+        "min_wr": 0.65
+      },
+      "r": {
+        "pnl": 25.332387011737815,
+        "br_final": 125.3323870117379,
+        "ng": 193,
+        "nr": 115,
+        "n_combos": 308,
+        "streak": 4,
+        "dd": 160.81751383826375
+      }
+    },
+    {
+      "name": "2j_ice_1.3-1.7_wr0.75_wr_mc1",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.5210000000000001,
+        "cote_max": 3.179,
+        "max_legs": 2,
+        "sort_by": "wr",
+        "max_combos": 1,
+        "min_wr": 0.75
+      },
+      "r": {
+        "pnl": 22.718637052790218,
+        "br_final": 122.7186370527902,
+        "ng": 96,
+        "nr": 60,
+        "n_combos": 156,
+        "streak": 5,
+        "dd": 61.97024602054911
+      }
+    },
+    {
+      "name": "2j_foo+ice_1.6-2.1_wr0.6_wr_mc1",
+      "cfg": {
+        "sports_list": [
+          "football",
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 2.3040000000000007,
+        "cote_max": 4.851000000000001,
+        "max_legs": 2,
+        "sort_by": "wr",
+        "max_combos": 1,
+        "min_wr": 0.6
+      },
+      "r": {
+        "pnl": 20.07605531987138,
+        "br_final": 120.07605531987157,
+        "ng": 188,
+        "nr": 248,
+        "n_combos": 436,
+        "streak": 9,
+        "dd": 211.4822747679321
+      }
+    },
+    {
+      "name": "V_foo+ice_1.3-1.6_wr_mc6",
+      "cfg": {
+        "sports_list": [
+          "football",
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.3,
+        "cote_max": 1.6,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 6
+      },
+      "r": {
+        "pnl": 18.090932500815324,
+        "br_final": 118.09093250081521,
+        "ng": 232,
+        "nr": 215,
+        "n_combos": 2203,
+        "streak": 9,
+        "dd": 142.32573416598893
+      }
+    },
+    {
+      "name": "2j_ice_1.4-1.7_wr0.75_wr_mc1",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.7639999999999998,
+        "cote_max": 3.179,
+        "max_legs": 2,
+        "sort_by": "wr",
+        "max_combos": 1,
+        "min_wr": 0.75
+      },
+      "r": {
+        "pnl": 12.435323842028684,
+        "br_final": 112.43532384202865,
+        "ng": 61,
+        "nr": 49,
+        "n_combos": 110,
+        "streak": 4,
+        "dd": 94.62064230485385
+      }
+    },
+    {
+      "name": "2j_foo+ice_1.5-1.85_wr0.6_wr_mc1",
+      "cfg": {
+        "sports_list": [
+          "football",
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 2.025,
+        "cote_max": 3.7647500000000007,
+        "max_legs": 2,
+        "sort_by": "wr",
+        "max_combos": 1,
+        "min_wr": 0.6
+      },
+      "r": {
+        "pnl": 12.156587647458158,
+        "br_final": 112.15658764745811,
+        "ng": 215,
+        "nr": 235,
+        "n_combos": 450,
+        "streak": 9,
+        "dd": 432.13688253424675
+      }
+    },
+    {
+      "name": "2j_ice_1.4-1.7_wr0.7_wr_mc2",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.7639999999999998,
+        "cote_max": 3.179,
+        "max_legs": 2,
+        "sort_by": "wr",
+        "max_combos": 2,
+        "min_wr": 0.7
+      },
+      "r": {
+        "pnl": 10.557128209787539,
+        "br_final": 110.55712820978758,
+        "ng": 105,
+        "nr": 99,
+        "n_combos": 362,
+        "streak": 6,
+        "dd": 214.71220530079273
+      }
+    },
+    {
+      "name": "2j_foo+ice_1.4-1.7_wr0.7_ev_mc3",
+      "cfg": {
+        "sports_list": [
+          "football",
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.7639999999999998,
+        "cote_max": 3.179,
+        "max_legs": 2,
+        "sort_by": "ev",
+        "max_combos": 3,
+        "min_wr": 0.7
+      },
+      "r": {
+        "pnl": 5.639278024669258,
+        "br_final": 105.6392780246693,
+        "ng": 194,
+        "nr": 202,
+        "n_combos": 1100,
+        "streak": 8,
+        "dd": 203.86485468203392
+      }
+    },
+    {
+      "name": "2j_foo+ice_1.4-1.7_wr0.7_ev_mc2",
+      "cfg": {
+        "sports_list": [
+          "football",
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.7639999999999998,
+        "cote_max": 3.179,
+        "max_legs": 2,
+        "sort_by": "ev",
+        "max_combos": 2,
+        "min_wr": 0.7
+      },
+      "r": {
+        "pnl": 0.9911839430575924,
+        "br_final": 100.9911839430578,
+        "ng": 212,
+        "nr": 184,
+        "n_combos": 759,
+        "streak": 7,
+        "dd": 315.80289293789895
+      }
+    },
+    {
+      "name": "2j_foo_1.5-1.85_wr0.6_wr_mc2",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 2.025,
+        "cote_max": 3.7647500000000007,
+        "max_legs": 2,
+        "sort_by": "wr",
+        "max_combos": 2,
+        "min_wr": 0.6
+      },
+      "r": {
+        "pnl": 0.09093093783417316,
+        "br_final": 100.09093093783494,
+        "ng": 237,
+        "nr": 168,
+        "n_combos": 778,
+        "streak": 9,
+        "dd": 1826.7633397538527
+      }
+    },
+    {
+      "name": "2j_foo_1.4-1.7_wr0.65_wr_mc1",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.7639999999999998,
+        "cote_max": 3.179,
+        "max_legs": 2,
+        "sort_by": "wr",
+        "max_combos": 1,
+        "min_wr": 0.65
+      },
+      "r": {
+        "pnl": -3.703543809552933,
+        "br_final": 96.29645619044689,
+        "ng": 202,
+        "nr": 184,
+        "n_combos": 386,
+        "streak": 6,
+        "dd": 200.82063244586863
+      }
+    },
+    {
+      "name": "2j_foo_1.5-1.85_wr0.65_ev_mc2",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 2.025,
+        "cote_max": 3.7647500000000007,
+        "max_legs": 2,
+        "sort_by": "ev",
+        "max_combos": 2,
+        "min_wr": 0.65
+      },
+      "r": {
+        "pnl": -5.686813232161885,
+        "br_final": 94.31318676783827,
+        "ng": 189,
+        "nr": 158,
+        "n_combos": 643,
+        "streak": 7,
+        "dd": 1395.3918498871446
+      }
+    },
+    {
+      "name": "2j_foo_1.4-1.7_wr0.65_ev_mc2",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.7639999999999998,
+        "cote_max": 3.179,
+        "max_legs": 2,
+        "sort_by": "ev",
+        "max_combos": 2,
+        "min_wr": 0.65
+      },
+      "r": {
+        "pnl": -6.423255184630234,
+        "br_final": 93.57674481537026,
+        "ng": 206,
+        "nr": 180,
+        "n_combos": 725,
+        "streak": 7,
+        "dd": 1756.4228999310085
+      }
+    },
+    {
+      "name": "2j_foo_1.4-1.7_wr0.75_ev_mc2",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.7639999999999998,
+        "cote_max": 3.179,
+        "max_legs": 2,
+        "sort_by": "ev",
+        "max_combos": 2,
+        "min_wr": 0.75
+      },
+      "r": {
+        "pnl": -8.508645328297291,
+        "br_final": 91.49135467170296,
+        "ng": 127,
+        "nr": 115,
+        "n_combos": 440,
+        "streak": 6,
+        "dd": 862.2660379591061
+      }
+    },
+    {
+      "name": "2j_foo+ice_1.5-1.85_wr0.7_wr_mc1",
+      "cfg": {
+        "sports_list": [
+          "football",
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 2.025,
+        "cote_max": 3.7647500000000007,
+        "max_legs": 2,
+        "sort_by": "wr",
+        "max_combos": 1,
+        "min_wr": 0.7
+      },
+      "r": {
+        "pnl": -9.183672367062842,
+        "br_final": 90.8163276329372,
+        "ng": 161,
+        "nr": 177,
+        "n_combos": 338,
+        "streak": 15,
+        "dd": 549.1089153176661
+      }
+    },
+    {
+      "name": "2j_foo_1.3-1.7_wr0.7_ev_mc1",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.5210000000000001,
+        "cote_max": 3.179,
+        "max_legs": 2,
+        "sort_by": "ev",
+        "max_combos": 1,
+        "min_wr": 0.7
+      },
+      "r": {
+        "pnl": -14.588926778966059,
+        "br_final": 85.41107322103382,
+        "ng": 172,
+        "nr": 196,
+        "n_combos": 368,
+        "streak": 7,
+        "dd": 373.98809383802285
+      }
+    },
+    {
+      "name": "2j_foo_1.4-1.7_wr0.7_wr_mc1",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.7639999999999998,
+        "cote_max": 3.179,
+        "max_legs": 2,
+        "sort_by": "wr",
+        "max_combos": 1,
+        "min_wr": 0.7
+      },
+      "r": {
+        "pnl": -16.233581123634195,
+        "br_final": 83.7664188763657,
+        "ng": 174,
+        "nr": 159,
+        "n_combos": 333,
+        "streak": 7,
+        "dd": 174.30081613790594
+      }
+    },
+    {
+      "name": "2j_foo_1.4-1.7_wr0.7_ev_mc2",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.7639999999999998,
+        "cote_max": 3.179,
+        "max_legs": 2,
+        "sort_by": "ev",
+        "max_combos": 2,
+        "min_wr": 0.7
+      },
+      "r": {
+        "pnl": -18.07410721332445,
+        "br_final": 81.9258927866758,
+        "ng": 177,
+        "nr": 156,
+        "n_combos": 623,
+        "streak": 7,
+        "dd": 873.2395945569666
+      }
+    },
+    {
+      "name": "2j_foo_1.4-1.7_wr0.75_wr_mc1",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.7639999999999998,
+        "cote_max": 3.179,
+        "max_legs": 2,
+        "sort_by": "wr",
+        "max_combos": 1,
+        "min_wr": 0.75
+      },
+      "r": {
+        "pnl": -19.386026449413674,
+        "br_final": 80.61397355058635,
+        "ng": 127,
+        "nr": 115,
+        "n_combos": 242,
+        "streak": 9,
+        "dd": 114.79854988468163
+      }
+    },
+    {
+      "name": "2j_foo_1.3-1.7_wr0.65_ev_mc2",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.5210000000000001,
+        "cote_max": 3.179,
+        "max_legs": 2,
+        "sort_by": "ev",
+        "max_combos": 2,
+        "min_wr": 0.65
+      },
+      "r": {
+        "pnl": -20.554371752623105,
+        "br_final": 79.44562824737777,
+        "ng": 219,
+        "nr": 192,
+        "n_combos": 810,
+        "streak": 7,
+        "dd": 3250.6317747520507
+      }
+    },
+    {
+      "name": "2j_ice_1.5-1.85_wr0.7_wr_mc1",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 2.025,
+        "cote_max": 3.7647500000000007,
+        "max_legs": 2,
+        "sort_by": "wr",
+        "max_combos": 1,
+        "min_wr": 0.7
+      },
+      "r": {
+        "pnl": -21.352887604149505,
+        "br_final": 78.64711239585051,
+        "ng": 73,
+        "nr": 78,
+        "n_combos": 151,
+        "streak": 5,
+        "dd": 122.57678897748693
+      }
+    },
+    {
+      "name": "2j_ice_1.5-2.0_wr0.7_wr_mc1",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 2.025,
+        "cote_max": 4.4,
+        "max_legs": 2,
+        "sort_by": "wr",
+        "max_combos": 1,
+        "min_wr": 0.7
+      },
+      "r": {
+        "pnl": -21.352887604149505,
+        "br_final": 78.64711239585051,
+        "ng": 73,
+        "nr": 78,
+        "n_combos": 151,
+        "streak": 5,
+        "dd": 122.57678897748693
+      }
+    },
+    {
+      "name": "V_foo+ice_1.3-1.6_wr_mc5",
+      "cfg": {
+        "sports_list": [
+          "football",
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.3,
+        "cote_max": 1.6,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 5
+      },
+      "r": {
+        "pnl": -23.315411007032257,
+        "br_final": 76.6845889929678,
+        "ng": 243,
+        "nr": 205,
+        "n_combos": 1919,
+        "streak": 6,
+        "dd": 193.78457609079413
+      }
+    },
+    {
+      "name": "2j_foo+ice_1.5-1.85_wr0.65_wr_mc1",
+      "cfg": {
+        "sports_list": [
+          "football",
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 2.025,
+        "cote_max": 3.7647500000000007,
+        "max_legs": 2,
+        "sort_by": "wr",
+        "max_combos": 1,
+        "min_wr": 0.65
+      },
+      "r": {
+        "pnl": -24.40574433269379,
+        "br_final": 75.59425566730621,
+        "ng": 196,
+        "nr": 217,
+        "n_combos": 413,
+        "streak": 11,
+        "dd": 394.9020097101373
+      }
+    },
+    {
+      "name": "2j_ice_1.3-1.7_wr0.75_ev_mc1",
+      "cfg": {
+        "sports_list": [
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.5210000000000001,
+        "cote_max": 3.179,
+        "max_legs": 2,
+        "sort_by": "ev",
+        "max_combos": 1,
+        "min_wr": 0.75
+      },
+      "r": {
+        "pnl": -28.06701529245047,
+        "br_final": 71.93298470754956,
+        "ng": 85,
+        "nr": 71,
+        "n_combos": 156,
+        "streak": 6,
+        "dd": 132.3895592831911
+      }
+    },
+    {
+      "name": "2j_foo_1.3-1.7_wr0.75_ev_mc1",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.5210000000000001,
+        "cote_max": 3.179,
+        "max_legs": 2,
+        "sort_by": "ev",
+        "max_combos": 1,
+        "min_wr": 0.75
+      },
+      "r": {
+        "pnl": -29.50306804253017,
+        "br_final": 70.4969319574699,
+        "ng": 146,
+        "nr": 151,
+        "n_combos": 297,
+        "streak": 7,
+        "dd": 259.9346932217077
+      }
+    }
+  ],
+  "phase2": [
+    {
+      "name": "2j_foo_1.4-1.7_wr0.6_ev_mc1",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.7639999999999998,
+        "cote_max": 3.179,
+        "max_legs": 2,
+        "sort_by": "ev",
+        "max_combos": 1,
+        "min_wr": 0.6
+      },
+      "monthly": {
+        "Jan26": {
+          "pnl": 161.38038091214244,
+          "br_final": 261.38038091214236,
+          "ng": 17,
+          "nr": 12,
+          "n_combos": 29,
+          "streak": 4,
+          "dd": 100.33114026700949
+        },
+        "Feb26": {
+          "pnl": -36.98021839863809,
+          "br_final": 63.01978160136191,
+          "ng": 11,
+          "nr": 17,
+          "n_combos": 28,
+          "streak": 5,
+          "dd": 62.383298004070305
+        },
+        "Mar26": {
+          "pnl": -14.199535130149135,
+          "br_final": 85.80046486985084,
+          "ng": 11,
+          "nr": 16,
+          "n_combos": 27,
+          "streak": 3,
+          "dd": 39.401882216451924
+        },
+        "Apr26": {
+          "pnl": -2.902271287717907,
+          "br_final": 97.09772871228212,
+          "ng": 12,
+          "nr": 17,
+          "n_combos": 29,
+          "streak": 5,
+          "dd": 77.45673926919453
+        }
+      },
+      "total": {
+        "pnl": 37.22985115436172,
+        "br_final": 137.22985115436174,
+        "ng": 51,
+        "nr": 62,
+        "n_combos": 113,
+        "streak": 5,
+        "dd": 169.95516262929112
+      }
+    },
+    {
+      "name": "2j_foo_1.3-1.7_wr0.6_ev_mc1",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.5210000000000001,
+        "cote_max": 3.179,
+        "max_legs": 2,
+        "sort_by": "ev",
+        "max_combos": 1,
+        "min_wr": 0.6
+      },
+      "monthly": {
+        "Jan26": {
+          "pnl": 151.22468840400734,
+          "br_final": 251.22468840400737,
+          "ng": 17,
+          "nr": 12,
+          "n_combos": 29,
+          "streak": 4,
+          "dd": 96.43286677767364
+        },
+        "Feb26": {
+          "pnl": -39.7347021713034,
+          "br_final": 60.265297828696596,
+          "ng": 11,
+          "nr": 17,
+          "n_combos": 28,
+          "streak": 5,
+          "dd": 62.383298004070305
+        },
+        "Mar26": {
+          "pnl": -9.051507237958084,
+          "br_final": 90.9484927620419,
+          "ng": 12,
+          "nr": 16,
+          "n_combos": 28,
+          "streak": 3,
+          "dd": 39.401882216451924
+        },
+        "Apr26": {
+          "pnl": 0.27201212136473707,
+          "br_final": 100.27201212136477,
+          "ng": 13,
+          "nr": 17,
+          "n_combos": 30,
+          "streak": 5,
+          "dd": 79.3040441177052
+        }
+      },
+      "total": {
+        "pnl": 38.07175954518598,
+        "br_final": 138.07175954518596,
+        "ng": 53,
+        "nr": 62,
+        "n_combos": 115,
+        "streak": 5,
+        "dd": 163.35171226392757
+      }
+    },
+    {
+      "name": "2j_foo_1.5-1.85_wr0.6_ev_mc2",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 2.025,
+        "cote_max": 3.7647500000000007,
+        "max_legs": 2,
+        "sort_by": "ev",
+        "max_combos": 2,
+        "min_wr": 0.6
+      },
+      "monthly": {
+        "Jan26": {
+          "pnl": 269.1202114735663,
+          "br_final": 369.1202114735663,
+          "ng": 20,
+          "nr": 9,
+          "n_combos": 57,
+          "streak": 2,
+          "dd": 165.92990022806822
+        },
+        "Feb26": {
+          "pnl": -0.1782311504666474,
+          "br_final": 99.82176884953334,
+          "ng": 16,
+          "nr": 12,
+          "n_combos": 55,
+          "streak": 4,
+          "dd": 71.9871383677922
+        },
+        "Mar26": {
+          "pnl": 6.96909325051638,
+          "br_final": 106.96909325051638,
+          "ng": 14,
+          "nr": 13,
+          "n_combos": 51,
+          "streak": 4,
+          "dd": 73.86711600433794
+        },
+        "Apr26": {
+          "pnl": -27.2746408112789,
+          "br_final": 72.72535918872116,
+          "ng": 12,
+          "nr": 15,
+          "n_combos": 52,
+          "streak": 4,
+          "dd": 180.0032166219417
+        }
+      },
+      "total": {
+        "pnl": 186.64031777878256,
+        "br_final": 286.64031777878273,
+        "ng": 62,
+        "nr": 49,
+        "n_combos": 215,
+        "streak": 4,
+        "dd": 709.4661310620025
+      }
+    },
+    {
+      "name": "2j_foo_1.4-1.7_wr0.6_ev_mc2",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.7639999999999998,
+        "cote_max": 3.179,
+        "max_legs": 2,
+        "sort_by": "ev",
+        "max_combos": 2,
+        "min_wr": 0.6
+      },
+      "monthly": {
+        "Jan26": {
+          "pnl": 412.95034881863364,
+          "br_final": 512.9503488186336,
+          "ng": 21,
+          "nr": 8,
+          "n_combos": 58,
+          "streak": 2,
+          "dd": 148.10640660443212
+        },
+        "Feb26": {
+          "pnl": -55.49278463085298,
+          "br_final": 44.507215369147,
+          "ng": 15,
+          "nr": 13,
+          "n_combos": 55,
+          "streak": 4,
+          "dd": 70.43204369089386
+        },
+        "Mar26": {
+          "pnl": -17.580332794585214,
+          "br_final": 82.4196672054148,
+          "ng": 14,
+          "nr": 13,
+          "n_combos": 53,
+          "streak": 3,
+          "dd": 69.58757345511414
+        },
+        "Apr26": {
+          "pnl": -57.22118570037395,
+          "br_final": 42.77881429962613,
+          "ng": 14,
+          "nr": 15,
+          "n_combos": 55,
+          "streak": 4,
+          "dd": 160.69856066760582
+        }
+      },
+      "total": {
+        "pnl": -19.505658429735274,
+        "br_final": 80.49434157026487,
+        "ng": 64,
+        "nr": 49,
+        "n_combos": 221,
+        "streak": 4,
+        "dd": 432.4560072483689
+      }
+    },
+    {
+      "name": "V_foo+ice_1.3-1.6_ev_mc8",
+      "cfg": {
+        "sports_list": [
+          "football",
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.3,
+        "cote_max": 1.6,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 8
+      },
+      "monthly": {
+        "Jan26": {
+          "pnl": 60.99413531140556,
+          "br_final": 160.99413531140556,
+          "ng": 18,
+          "nr": 13,
+          "n_combos": 210,
+          "streak": 7,
+          "dd": 98.4660719178046
+        },
+        "Feb26": {
+          "pnl": 119.62876594165077,
+          "br_final": 219.6287659416507,
+          "ng": 14,
+          "nr": 14,
+          "n_combos": 189,
+          "streak": 3,
+          "dd": 69.52318220100497
+        },
+        "Mar26": {
+          "pnl": -43.93378333639777,
+          "br_final": 56.066216663602205,
+          "ng": 17,
+          "nr": 14,
+          "n_combos": 209,
+          "streak": 3,
+          "dd": 79.91713967689641
+        },
+        "Apr26": {
+          "pnl": 35.8275407173521,
+          "br_final": 135.82754071735212,
+          "ng": 15,
+          "nr": 15,
+          "n_combos": 166,
+          "streak": 5,
+          "dd": 96.0224212992596
+        }
+      },
+      "total": {
+        "pnl": 169.27024510055125,
+        "br_final": 269.27024510055116,
+        "ng": 64,
+        "nr": 56,
+        "n_combos": 774,
+        "streak": 7,
+        "dd": 377.02900212308424
+      }
+    },
+    {
+      "name": "2j_foo_1.3-1.7_wr0.6_ev_mc2",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.5210000000000001,
+        "cote_max": 3.179,
+        "max_legs": 2,
+        "sort_by": "ev",
+        "max_combos": 2,
+        "min_wr": 0.6
+      },
+      "monthly": {
+        "Jan26": {
+          "pnl": 320.7583690203429,
+          "br_final": 420.75836902034297,
+          "ng": 20,
+          "nr": 9,
+          "n_combos": 58,
+          "streak": 2,
+          "dd": 121.48741145778678
+        },
+        "Feb26": {
+          "pnl": -65.36127261369212,
+          "br_final": 34.63872738630789,
+          "ng": 15,
+          "nr": 13,
+          "n_combos": 56,
+          "streak": 4,
+          "dd": 80.2073721783362
+        },
+        "Mar26": {
+          "pnl": -0.20260385136351822,
+          "br_final": 99.7973961486365,
+          "ng": 15,
+          "nr": 13,
+          "n_combos": 56,
+          "streak": 3,
+          "dd": 75.2318988575845
+        },
+        "Apr26": {
+          "pnl": -67.3563743447587,
+          "br_final": 32.64362565524134,
+          "ng": 14,
+          "nr": 16,
+          "n_combos": 58,
+          "streak": 5,
+          "dd": 150.13659452395524
+        }
+      },
+      "total": {
+        "pnl": -52.519827316410236,
+        "br_final": 47.48017268358992,
+        "ng": 64,
+        "nr": 51,
+        "n_combos": 228,
+        "streak": 5,
+        "dd": 373.2781963367531
+      }
+    },
+    {
+      "name": "2j_foo_1.5-1.85_wr0.6_ev_mc3",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 2.025,
+        "cote_max": 3.7647500000000007,
+        "max_legs": 2,
+        "sort_by": "ev",
+        "max_combos": 3,
+        "min_wr": 0.6
+      },
+      "monthly": {
+        "Jan26": {
+          "pnl": 469.5137761661838,
+          "br_final": 569.5137761661838,
+          "ng": 18,
+          "nr": 11,
+          "n_combos": 83,
+          "streak": 3,
+          "dd": 472.74362393350634
+        },
+        "Feb26": {
+          "pnl": 30.384935496647216,
+          "br_final": 130.38493549664722,
+          "ng": 15,
+          "nr": 13,
+          "n_combos": 80,
+          "streak": 3,
+          "dd": 72.33687775459791
+        },
+        "Mar26": {
+          "pnl": -32.350448651349424,
+          "br_final": 67.64955134865053,
+          "ng": 12,
+          "nr": 15,
+          "n_combos": 75,
+          "streak": 4,
+          "dd": 117.8792038090042
+        },
+        "Apr26": {
+          "pnl": -78.40936203251248,
+          "br_final": 21.590637967487496,
+          "ng": 11,
+          "nr": 16,
+          "n_combos": 76,
+          "streak": 3,
+          "dd": 173.36632003251248
+        }
+      },
+      "total": {
+        "pnl": 8.45811352648765,
+        "br_final": 108.45811352648768,
+        "ng": 56,
+        "nr": 55,
+        "n_combos": 314,
+        "streak": 4,
+        "dd": 927.9331153221252
+      }
+    },
+    {
+      "name": "V_foo+ice_1.3-1.6_ev_mc6",
+      "cfg": {
+        "sports_list": [
+          "football",
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.3,
+        "cote_max": 1.6,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 6
+      },
+      "monthly": {
+        "Jan26": {
+          "pnl": -9.584179125737638,
+          "br_final": 90.41582087426231,
+          "ng": 17,
+          "nr": 14,
+          "n_combos": 169,
+          "streak": 8,
+          "dd": 107.45119311883863
+        },
+        "Feb26": {
+          "pnl": 119.7360616824852,
+          "br_final": 219.73606168248517,
+          "ng": 16,
+          "nr": 12,
+          "n_combos": 157,
+          "streak": 3,
+          "dd": 83.91639916547811
+        },
+        "Mar26": {
+          "pnl": -24.139255096237047,
+          "br_final": 75.86074490376295,
+          "ng": 13,
+          "nr": 18,
+          "n_combos": 165,
+          "streak": 6,
+          "dd": 69.6473972326127
+        },
+        "Apr26": {
+          "pnl": 36.33351189848997,
+          "br_final": 136.33351189848986,
+          "ng": 15,
+          "nr": 15,
+          "n_combos": 143,
+          "streak": 4,
+          "dd": 55.554482899694776
+        }
+      },
+      "total": {
+        "pnl": 105.47807620045879,
+        "br_final": 205.47807620045867,
+        "ng": 61,
+        "nr": 58,
+        "n_combos": 634,
+        "streak": 8,
+        "dd": 191.95811567193266
+      }
+    },
+    {
+      "name": "2j_foo_1.6-2.1_wr0.6_ev_mc1",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 2.3040000000000007,
+        "cote_max": 4.851000000000001,
+        "max_legs": 2,
+        "sort_by": "ev",
+        "max_combos": 1,
+        "min_wr": 0.6
+      },
+      "monthly": {
+        "Jan26": {
+          "pnl": 125.75961383044572,
+          "br_final": 225.7596138304457,
+          "ng": 14,
+          "nr": 14,
+          "n_combos": 28,
+          "streak": 4,
+          "dd": 111.1578954758659
+        },
+        "Feb26": {
+          "pnl": 87.54236177548046,
+          "br_final": 187.54236177548046,
+          "ng": 12,
+          "nr": 14,
+          "n_combos": 26,
+          "streak": 4,
+          "dd": 51.62212213324745
+        },
+        "Mar26": {
+          "pnl": 26.147977044704756,
+          "br_final": 126.14797704470477,
+          "ng": 9,
+          "nr": 16,
+          "n_combos": 25,
+          "streak": 4,
+          "dd": 59.72112127789505
+        },
+        "Apr26": {
+          "pnl": -52.351655515204605,
+          "br_final": 47.64834448479541,
+          "ng": 6,
+          "nr": 19,
+          "n_combos": 25,
+          "streak": 7,
+          "dd": 70.502098205887
+        }
+      },
+      "total": {
+        "pnl": 154.49176911627535,
+        "br_final": 254.49176911627558,
+        "ng": 41,
+        "nr": 63,
+        "n_combos": 104,
+        "streak": 7,
+        "dd": 502.11325742712273
+      }
+    },
+    {
+      "name": "2j_foo_1.5-1.85_wr0.6_ev_mc1",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 2.025,
+        "cote_max": 3.7647500000000007,
+        "max_legs": 2,
+        "sort_by": "ev",
+        "max_combos": 1,
+        "min_wr": 0.6
+      },
+      "monthly": {
+        "Jan26": {
+          "pnl": 73.0152002769356,
+          "br_final": 173.01520027693562,
+          "ng": 14,
+          "nr": 15,
+          "n_combos": 29,
+          "streak": 4,
+          "dd": 98.22893740110237
+        },
+        "Feb26": {
+          "pnl": 15.511588998837572,
+          "br_final": 115.5115889988376,
+          "ng": 12,
+          "nr": 16,
+          "n_combos": 28,
+          "streak": 5,
+          "dd": 57.231749769210246
+        },
+        "Mar26": {
+          "pnl": 32.92908136411815,
+          "br_final": 132.9290813641182,
+          "ng": 11,
+          "nr": 16,
+          "n_combos": 27,
+          "streak": 4,
+          "dd": 46.36659480827393
+        },
+        "Apr26": {
+          "pnl": -9.692804309103307,
+          "br_final": 90.3071956908967,
+          "ng": 10,
+          "nr": 17,
+          "n_combos": 27,
+          "streak": 4,
+          "dd": 73.92367217965634
+        }
+      },
+      "total": {
+        "pnl": 139.9121141068513,
+        "br_final": 239.9121141068512,
+        "ng": 47,
+        "nr": 64,
+        "n_combos": 111,
+        "streak": 5,
+        "dd": 196.3872794352638
+      }
+    },
+    {
+      "name": "V_foo+ice_1.3-1.6_wr_mc8",
+      "cfg": {
+        "sports_list": [
+          "football",
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.3,
+        "cote_max": 1.6,
+        "max_legs": 1,
+        "sort_by": "wr",
+        "max_combos": 8
+      },
+      "monthly": {
+        "Jan26": {
+          "pnl": 76.56119034000552,
+          "br_final": 176.56119034000554,
+          "ng": 21,
+          "nr": 10,
+          "n_combos": 210,
+          "streak": 3,
+          "dd": 144.72909894445615
+        },
+        "Feb26": {
+          "pnl": 66.84065458167383,
+          "br_final": 166.84065458167385,
+          "ng": 16,
+          "nr": 12,
+          "n_combos": 189,
+          "streak": 3,
+          "dd": 57.77155065231556
+        },
+        "Mar26": {
+          "pnl": -13.984018522331029,
+          "br_final": 86.01598147766897,
+          "ng": 17,
+          "nr": 14,
+          "n_combos": 209,
+          "streak": 4,
+          "dd": 71.34954102657767
+        },
+        "Apr26": {
+          "pnl": -31.01868204726174,
+          "br_final": 68.98131795273827,
+          "ng": 14,
+          "nr": 16,
+          "n_combos": 166,
+          "streak": 5,
+          "dd": 74.70847059847736
+        }
+      },
+      "total": {
+        "pnl": 74.78645336207252,
+        "br_final": 174.78645336207265,
+        "ng": 68,
+        "nr": 52,
+        "n_combos": 774,
+        "streak": 5,
+        "dd": 293.3774351199523
+      }
+    },
+    {
+      "name": "2j_foo_1.4-1.7_wr0.65_ev_mc1",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.7639999999999998,
+        "cote_max": 3.179,
+        "max_legs": 2,
+        "sort_by": "ev",
+        "max_combos": 1,
+        "min_wr": 0.65
+      },
+      "monthly": {
+        "Jan26": {
+          "pnl": 58.66235929445405,
+          "br_final": 158.662359294454,
+          "ng": 16,
+          "nr": 13,
+          "n_combos": 29,
+          "streak": 6,
+          "dd": 92.61468777598976
+        },
+        "Feb26": {
+          "pnl": -23.258083327721042,
+          "br_final": 76.74191667227896,
+          "ng": 11,
+          "nr": 14,
+          "n_combos": 25,
+          "streak": 4,
+          "dd": 49.0341744775341
+        },
+        "Mar26": {
+          "pnl": -24.020033989324702,
+          "br_final": 75.9799660106753,
+          "ng": 10,
+          "nr": 15,
+          "n_combos": 25,
+          "streak": 3,
+          "dd": 38.38124937567879
+        },
+        "Apr26": {
+          "pnl": 25.61471336786564,
+          "br_final": 125.61471336786565,
+          "ng": 12,
+          "nr": 15,
+          "n_combos": 27,
+          "streak": 5,
+          "dd": 100.20529038882285
+        }
+      },
+      "total": {
+        "pnl": 16.21071046563337,
+        "br_final": 116.2107104656333,
+        "ng": 49,
+        "nr": 57,
+        "n_combos": 106,
+        "streak": 6,
+        "dd": 116.79495864731169
+      }
+    },
+    {
+      "name": "2j_foo_1.5-1.85_wr0.6_wr_mc1",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 2.025,
+        "cote_max": 3.7647500000000007,
+        "max_legs": 2,
+        "sort_by": "wr",
+        "max_combos": 1,
+        "min_wr": 0.6
+      },
+      "monthly": {
+        "Jan26": {
+          "pnl": 277.2766264443592,
+          "br_final": 377.2766264443591,
+          "ng": 20,
+          "nr": 9,
+          "n_combos": 29,
+          "streak": 2,
+          "dd": 59.04930387051809
+        },
+        "Feb26": {
+          "pnl": -53.293389971058374,
+          "br_final": 46.70661002894164,
+          "ng": 10,
+          "nr": 18,
+          "n_combos": 28,
+          "streak": 6,
+          "dd": 55.23969668983982
+        },
+        "Mar26": {
+          "pnl": -18.856139674336895,
+          "br_final": 81.14386032566311,
+          "ng": 12,
+          "nr": 15,
+          "n_combos": 27,
+          "streak": 3,
+          "dd": 32.021661377314025
+        },
+        "Apr26": {
+          "pnl": -29.453293348007907,
+          "br_final": 70.54670665199205,
+          "ng": 11,
+          "nr": 16,
+          "n_combos": 27,
+          "streak": 3,
+          "dd": 73.33985605470791
+        }
+      },
+      "total": {
+        "pnl": 0.8720057642097903,
+        "br_final": 100.87200576420975,
+        "ng": 53,
+        "nr": 58,
+        "n_combos": 111,
+        "streak": 6,
+        "dd": 276.4046206801494
+      }
+    },
+    {
+      "name": "2j_foo_1.3-1.7_wr0.65_ev_mc1",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.5210000000000001,
+        "cote_max": 3.179,
+        "max_legs": 2,
+        "sort_by": "ev",
+        "max_combos": 1,
+        "min_wr": 0.65
+      },
+      "monthly": {
+        "Jan26": {
+          "pnl": 26.239801605030827,
+          "br_final": 126.23980160503083,
+          "ng": 15,
+          "nr": 14,
+          "n_combos": 29,
+          "streak": 6,
+          "dd": 95.30729871433772
+        },
+        "Feb26": {
+          "pnl": -39.01224288355702,
+          "br_final": 60.98775711644298,
+          "ng": 11,
+          "nr": 16,
+          "n_combos": 27,
+          "streak": 4,
+          "dd": 59.49682360062879
+        },
+        "Mar26": {
+          "pnl": -19.461236028684183,
+          "br_final": 80.53876397131582,
+          "ng": 11,
+          "nr": 15,
+          "n_combos": 26,
+          "streak": 3,
+          "dd": 38.38124937567879
+        },
+        "Apr26": {
+          "pnl": 29.72126360203039,
+          "br_final": 129.72126360203038,
+          "ng": 13,
+          "nr": 15,
+          "n_combos": 28,
+          "streak": 5,
+          "dd": 102.59513690867644
+        }
+      },
+      "total": {
+        "pnl": -19.56314235907236,
+        "br_final": 80.43685764092766,
+        "ng": 50,
+        "nr": 60,
+        "n_combos": 110,
+        "streak": 6,
+        "dd": 127.75437327270437
+      }
+    },
+    {
+      "name": "2j_foo_1.6-2.1_wr0.6_wr_mc1",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 2.3040000000000007,
+        "cote_max": 4.851000000000001,
+        "max_legs": 2,
+        "sort_by": "wr",
+        "max_combos": 1,
+        "min_wr": 0.6
+      },
+      "monthly": {
+        "Jan26": {
+          "pnl": 159.39867176902032,
+          "br_final": 259.3986717690203,
+          "ng": 16,
+          "nr": 12,
+          "n_combos": 28,
+          "streak": 3,
+          "dd": 81.24280345839651
+        },
+        "Feb26": {
+          "pnl": 44.99766200262655,
+          "br_final": 144.99766200262653,
+          "ng": 13,
+          "nr": 13,
+          "n_combos": 26,
+          "streak": 4,
+          "dd": 48.98584943489588
+        },
+        "Mar26": {
+          "pnl": -27.50314081155509,
+          "br_final": 72.49685918844492,
+          "ng": 9,
+          "nr": 16,
+          "n_combos": 25,
+          "streak": 3,
+          "dd": 33.21449328690194
+        },
+        "Apr26": {
+          "pnl": -5.591335732366447,
+          "br_final": 94.40866426763354,
+          "ng": 10,
+          "nr": 15,
+          "n_combos": 25,
+          "streak": 4,
+          "dd": 61.16075290863654
+        }
+      },
+      "total": {
+        "pnl": 157.43037688061264,
+        "br_final": 257.4303768806129,
+        "ng": 48,
+        "nr": 56,
+        "n_combos": 104,
+        "streak": 4,
+        "dd": 166.77108815922674
+      }
+    },
+    {
+      "name": "V_foo+ice_1.3-1.6_ev_mc5",
+      "cfg": {
+        "sports_list": [
+          "football",
+          "ice-hockey"
+        ],
+        "market": "1x2",
+        "cote_min": 1.3,
+        "cote_max": 1.6,
+        "max_legs": 1,
+        "sort_by": "ev",
+        "max_combos": 5
+      },
+      "monthly": {
+        "Jan26": {
+          "pnl": 47.36997563947959,
+          "br_final": 147.3699756394796,
+          "ng": 19,
+          "nr": 12,
+          "n_combos": 147,
+          "streak": 7,
+          "dd": 121.91264356234936
+        },
+        "Feb26": {
+          "pnl": 120.64740851738824,
+          "br_final": 220.64740851738824,
+          "ng": 17,
+          "nr": 11,
+          "n_combos": 133,
+          "streak": 3,
+          "dd": 73.10016147072919
+        },
+        "Mar26": {
+          "pnl": -53.65993830952266,
+          "br_final": 46.340061690477356,
+          "ng": 15,
+          "nr": 16,
+          "n_combos": 142,
+          "streak": 4,
+          "dd": 77.22828147154493
+        },
+        "Apr26": {
+          "pnl": -30.058975985921002,
+          "br_final": 69.94102401407902,
+          "ng": 15,
+          "nr": 15,
+          "n_combos": 126,
+          "streak": 4,
+          "dd": 90.40412301466138
+        }
+      },
+      "total": {
+        "pnl": 5.389279873132789,
+        "br_final": 105.38927987313298,
+        "ng": 66,
+        "nr": 54,
+        "n_combos": 548,
+        "streak": 7,
+        "dd": 336.4963076096552
+      }
+    },
+    {
+      "name": "2j_foo_1.5-2.0_wr0.6_ev_mc1",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 2.025,
+        "cote_max": 4.4,
+        "max_legs": 2,
+        "sort_by": "ev",
+        "max_combos": 1,
+        "min_wr": 0.6
+      },
+      "monthly": {
+        "Jan26": {
+          "pnl": 81.09087440584493,
+          "br_final": 181.0908744058449,
+          "ng": 14,
+          "nr": 15,
+          "n_combos": 29,
+          "streak": 4,
+          "dd": 91.86529345560118
+        },
+        "Feb26": {
+          "pnl": -13.09561305723987,
+          "br_final": 86.90438694276017,
+          "ng": 11,
+          "nr": 17,
+          "n_combos": 28,
+          "streak": 5,
+          "dd": 57.231749769210246
+        },
+        "Mar26": {
+          "pnl": 52.510824613919944,
+          "br_final": 152.51082461392,
+          "ng": 11,
+          "nr": 16,
+          "n_combos": 27,
+          "streak": 4,
+          "dd": 75.00776819547885
+        },
+        "Apr26": {
+          "pnl": -40.93259634405884,
+          "br_final": 59.067403655941156,
+          "ng": 8,
+          "nr": 19,
+          "n_combos": 27,
+          "streak": 7,
+          "dd": 65.38015067482046
+        }
+      },
+      "total": {
+        "pnl": 41.77080874973735,
+        "br_final": 141.7708087497374,
+        "ng": 44,
+        "nr": 67,
+        "n_combos": 111,
+        "streak": 7,
+        "dd": 247.6709599494916
+      }
+    },
+    {
+      "name": "2j_foo_1.4-1.7_wr0.6_wr_mc1",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.7639999999999998,
+        "cote_max": 3.179,
+        "max_legs": 2,
+        "sort_by": "wr",
+        "max_combos": 1,
+        "min_wr": 0.6
+      },
+      "monthly": {
+        "Jan26": {
+          "pnl": 187.1552577539266,
+          "br_final": 287.1552577539266,
+          "ng": 21,
+          "nr": 8,
+          "n_combos": 29,
+          "streak": 2,
+          "dd": 48.80044594610894
+        },
+        "Feb26": {
+          "pnl": 19.61712778384001,
+          "br_final": 119.61712778384002,
+          "ng": 16,
+          "nr": 12,
+          "n_combos": 28,
+          "streak": 3,
+          "dd": 27.1
+        },
+        "Mar26": {
+          "pnl": -54.60773455381395,
+          "br_final": 45.39226544618604,
+          "ng": 10,
+          "nr": 17,
+          "n_combos": 27,
+          "streak": 4,
+          "dd": 54.60773455381395
+        },
+        "Apr26": {
+          "pnl": -4.227467975105328,
+          "br_final": 95.77253202489467,
+          "ng": 15,
+          "nr": 14,
+          "n_combos": 29,
+          "streak": 3,
+          "dd": 50.7708836177991
+        }
+      },
+      "total": {
+        "pnl": 49.32515358777884,
+        "br_final": 149.3251535877787,
+        "ng": 62,
+        "nr": 51,
+        "n_combos": 113,
+        "streak": 4,
+        "dd": 205.9999289090074
+      }
+    },
+    {
+      "name": "2j_foo_1.4-1.7_wr0.7_ev_mc1",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 1.7639999999999998,
+        "cote_max": 3.179,
+        "max_legs": 2,
+        "sort_by": "ev",
+        "max_combos": 1,
+        "min_wr": 0.7
+      },
+      "monthly": {
+        "Jan26": {
+          "pnl": 100.33382528150216,
+          "br_final": 200.3338252815021,
+          "ng": 14,
+          "nr": 7,
+          "n_combos": 21,
+          "streak": 2,
+          "dd": 32.76370046329375
+        },
+        "Feb26": {
+          "pnl": -46.274511891397644,
+          "br_final": 53.72548810860237,
+          "ng": 9,
+          "nr": 15,
+          "n_combos": 24,
+          "streak": 4,
+          "dd": 54.843189710495714
+        },
+        "Mar26": {
+          "pnl": -9.63193537886207,
+          "br_final": 90.36806462113793,
+          "ng": 9,
+          "nr": 12,
+          "n_combos": 21,
+          "streak": 4,
+          "dd": 44.444758990292
+        },
+        "Apr26": {
+          "pnl": -5.8268831080376415,
+          "br_final": 94.17311689196235,
+          "ng": 10,
+          "nr": 14,
+          "n_combos": 24,
+          "streak": 5,
+          "dd": 91.11868440948565
+        }
+      },
+      "total": {
+        "pnl": -8.403984995994954,
+        "br_final": 91.596015004005,
+        "ng": 42,
+        "nr": 48,
+        "n_combos": 90,
+        "streak": 5,
+        "dd": 128.04166613355568
+      }
+    },
+    {
+      "name": "2j_foo_1.5-2.0_wr0.6_wr_mc1",
+      "cfg": {
+        "sports_list": [
+          "football"
+        ],
+        "market": "1x2",
+        "cote_min": 2.025,
+        "cote_max": 4.4,
+        "max_legs": 2,
+        "sort_by": "wr",
+        "max_combos": 1,
+        "min_wr": 0.6
+      },
+      "monthly": {
+        "Jan26": {
+          "pnl": 277.2766264443592,
+          "br_final": 377.2766264443591,
+          "ng": 20,
+          "nr": 9,
+          "n_combos": 29,
+          "streak": 2,
+          "dd": 59.04930387051809
+        },
+        "Feb26": {
+          "pnl": -53.293389971058374,
+          "br_final": 46.70661002894164,
+          "ng": 10,
+          "nr": 18,
+          "n_combos": 28,
+          "streak": 6,
+          "dd": 55.23969668983982
+        },
+        "Mar26": {
+          "pnl": -25.933346635363286,
+          "br_final": 74.06665336463672,
+          "ng": 11,
+          "nr": 16,
+          "n_combos": 27,
+          "streak": 3,
+          "dd": 52.75720320394949
+        },
+        "Apr26": {
+          "pnl": -29.453293348007907,
+          "br_final": 70.54670665199205,
+          "ng": 11,
+          "nr": 16,
+          "n_combos": 27,
+          "streak": 3,
+          "dd": 73.33985605470791
+        }
+      },
+      "total": {
+        "pnl": -7.925851011423326,
+        "br_final": 92.07414898857667,
+        "ng": 52,
+        "nr": 59,
+        "n_combos": 111,
+        "streak": 6,
+        "dd": 285.2024774557825
+      }
+    }
+  ],
+  "crous": []
+}

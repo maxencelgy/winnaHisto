@@ -1,0 +1,25 @@
+{
+  "id": "montante_foot_ultrafav_x3",
+  "label": "🪜⚽👑 MONTANTE Foot ULTRA-FAVORIS ×3 — 94% COMPLÉTION (record stabilité)",
+  "description": "RECORD STABILITÉ : Foot cote 1.05-1.15 (énormes favoris type Real/Bayern/PSG vs équipe relégation). 3 paliers intraday. 15 cycles complets / 16 = 94% completion. WR par palier 98%. 10€ → ~14€ par cycle. ROI +27%. La stratégie la plus consistante : tu réussis presque toujours.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football"], "market": "1x2",
+    "cote_min": 1.05, "cote_max": 1.15,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+    "min_wr": null, "min_ev": null
+  }],
+  "montante": {"initial_stake": 10, "n_paliers_target": 3, "reset_on_loss": true, "preferred_mode": "intraday"},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict)",
+    "n_cycles_complete": 15,
+    "n_cycles_total": 16,
+    "completion_rate": 0.94,
+    "wr_palier": 0.98,
+    "avg_capital_complete": 14,
+    "roi_pct": 27,
+    "note": "RECORD ABSOLU de complétion 94%. 1 seul cycle perdu sur 16 ! WR palier 98% — les énormes favoris foot. Capital final 14€ (cote^3 ≈ 1.4×). ROI +27% net. Le profil 'gagne quasi tous les jours' avec petit gain régulier."
+  }
+}

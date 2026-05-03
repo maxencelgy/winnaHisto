@@ -1,0 +1,27 @@
+{
+  "id": "montante_hockey_combo2j_x7p_BOSS",
+  "label": "🪜🏒💥👑 BOSS Hockey COMBO2j ×7P — ROI +799% (RECORD ABSOLU)",
+  "description": "RECORD ABSOLU lib. Hockey-only cote 1.20-1.40 par jambe. Combo 2 jambes par palier (cote totale ~1.45 par palier). 7 paliers d'affilée intraday. WR par palier 74%. Capital final 469€/cycle. ROI +799% sur S1-26 OOS strict. 4 cycles complets sur 20 — quand ça passe, gain énorme.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["ice-hockey"], "market": "1x2",
+    "cote_min": 1.20, "cote_max": 1.40,
+    "sort_by": "wr", "max_legs": 2, "max_combos": 1,
+    "min_wr": null, "min_ev": null,
+    "legs_per_palier": 2
+  }],
+  "montante": {"initial_stake": 10, "n_paliers_target": 7, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 2},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict)",
+    "n_cycles_complete": 4,
+    "n_cycles_total": 20,
+    "completion_rate": 0.20,
+    "wr_palier_combo": 0.74,
+    "avg_capital_complete": 469,
+    "roi_pct": 799,
+    "note": "RECORD ABSOLU ROI +799%. Combo 2j hockey safe par palier × 7 paliers = capital final 469€. 4 succès sur 20 cycles tentés. Net +1600€+ sur 4 mois pour 10€ initial."
+  }
+}

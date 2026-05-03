@@ -1,0 +1,75 @@
+{
+  "id": "mega_safe_diversified_pct25",
+  "label": "🌟 MEGA Diversifié 2.5% — BR ×3.6 ratio 6.5×",
+  "description": "Variante du MEGA Diversifié avec sizing 2.5% au lieu de 1.5%. PnL S1-26 +261€ (×2 vs version 1.5%) avec DD 40€ et ratio 6.5× — meilleur compromis gain/risque pour bankroll moyenne.",
+  "components": [
+    {
+      "sport": "football",
+      "market": "1x2",
+      "cote_min": 1.9,
+      "cote_max": 2.4,
+      "sort_by": "ev",
+      "max_legs": 1,
+      "max_combos": 1,
+      "min_wr": null,
+      "min_ev": null,
+      "label": "Single foot value"
+    },
+    {
+      "sport": "ice-hockey",
+      "market": "1x2",
+      "cote_min": 1.25,
+      "cote_max": 1.5,
+      "sort_by": "wr",
+      "max_legs": 1,
+      "max_combos": 3,
+      "min_wr": null,
+      "min_ev": null,
+      "label": "Singles hockey safe"
+    },
+    {
+      "sport": "ice-hockey",
+      "market": "1x2",
+      "cote_min": 1.7,
+      "cote_max": 2.0,
+      "sort_by": "wr",
+      "max_legs": 2,
+      "max_combos": 3,
+      "min_wr": 0.65,
+      "min_ev": null,
+      "label": "Combos 2j hockey safe"
+    },
+    {
+      "sports": [
+        "football",
+        "ice-hockey"
+      ],
+      "market": "1x2",
+      "cote_min": 2.5,
+      "cote_max": 4.0,
+      "sort_by": "ev",
+      "max_legs": 2,
+      "max_combos": 1,
+      "min_wr": 0.55,
+      "min_ev": null,
+      "label": "Combo 2j multi-sport value"
+    }
+  ],
+  "dedup": "max1",
+  "sizing": {
+    "mode": "flat_pct",
+    "pct": 0.025,
+    "min_stake": 0.5
+  },
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict)",
+    "source": "test multi-strat lourd diversifié",
+    "pnl_per_100br": 261,
+    "streak_max": 5,
+    "dd_per_100": 40,
+    "ratio_pnl_dd": 6.5,
+    "n_combos": 498,
+    "wr_combos": 0.62,
+    "note": "Compromis sizing : +261€ (vs +124€ version 1.5%) avec DD 40€ (vs 17€). Le ratio reste excellent (6.5× — top 3 de la lib) avec un PnL plus substantiel. Recommandé pour bankroll 200-1000€."
+  }
+}

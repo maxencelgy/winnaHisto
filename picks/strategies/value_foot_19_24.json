@@ -1,0 +1,35 @@
+{
+  "id": "value_foot_19_24",
+  "label": "⚽ Foot Value Élargi — Singles 1.9-2.4 EV",
+  "description": "Singles foot 1x2 avec cotes plus généreuses (1.9-2.4) triées par EV. 2 picks/jour. WR combos ~50% mais payoff > 2× compense.",
+  "components": [
+    {
+      "sport": "football",
+      "market": "1x2",
+      "cote_min": 1.9,
+      "cote_max": 2.4,
+      "sort_by": "ev",
+      "max_legs": 1,
+      "max_combos": 2,
+      "min_wr": null,
+      "min_ev": null
+    }
+  ],
+  "dedup": "max1",
+  "sizing": {
+    "mode": "flat_pct",
+    "pct": 0.1,
+    "min_stake": 0.5
+  },
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, magic prod)",
+    "source": "find_strategies sweep v1",
+    "pnl_per_100br": 255,
+    "streak_max": 3,
+    "dd_per_100": 146,
+    "n_combos": 230,
+    "wr_combos": 0.5,
+    "note": "Aussi 5/6 trimestres positifs sur sweep recalibré 2025. WR 50% sur cote 2x = break-even, le PnL vient des gains > pertes en valeur. Plus de variance que le safe foot.",
+    "ratio_pnl_dd": 1.7
+  }
+}

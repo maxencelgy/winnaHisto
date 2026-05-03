@@ -1,0 +1,63 @@
+{
+  "id": "hybrid_singles_combo2j_aggro",
+  "label": "🔀⚡ Hybride AGGRO — BR ×6 ratio 4.9× streak 4j",
+  "description": "Variante aggressive du Hybride Singles + Combo 2j multi-sport. Sizing 6% au lieu de 4%. Gain S1-26 +499€ (vs +281€ version safe), DD 102€, streak 4j conservé. À utiliser quand tu veux maximiser le PnL absolu en gardant un ratio gain/risque solide.",
+  "components": [
+    {
+      "sport": "football",
+      "market": "1x2",
+      "cote_min": 1.9,
+      "cote_max": 2.4,
+      "sort_by": "ev",
+      "max_legs": 1,
+      "max_combos": 1,
+      "min_wr": null,
+      "min_ev": null,
+      "label": "Foot value single"
+    },
+    {
+      "sport": "ice-hockey",
+      "market": "1x2",
+      "cote_min": 1.25,
+      "cote_max": 1.5,
+      "sort_by": "wr",
+      "max_legs": 1,
+      "max_combos": 1,
+      "min_wr": null,
+      "min_ev": null,
+      "label": "Hockey safe single"
+    },
+    {
+      "sports": [
+        "football",
+        "ice-hockey"
+      ],
+      "market": "1x2",
+      "cote_min": 2.5,
+      "cote_max": 4.0,
+      "sort_by": "ev",
+      "max_legs": 2,
+      "max_combos": 1,
+      "min_wr": 0.55,
+      "min_ev": null,
+      "label": "Combo 2j multi-sport value"
+    }
+  ],
+  "dedup": "max1",
+  "sizing": {
+    "mode": "flat_pct",
+    "pct": 0.06,
+    "min_stake": 0.5
+  },
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict)",
+    "source": "find_strategies_v4 sweep — variante aggro",
+    "pnl_per_100br": 499,
+    "streak_max": 4,
+    "dd_per_100": 102,
+    "ratio_pnl_dd": 4.9,
+    "wr_combos": 0.56,
+    "trimestres_oos_pur": "6/6 positifs en walk-forward strict",
+    "note": "Sizing 6% pour amplifier les gains. Comparaison vs multi_foot_hockey (sizing 5%, +598€, DD 128€, streak 5j) : moins de PnL absolu mais streak plus court (4j vs 5j) et meilleur ratio (4.9 vs 4.7). Le combo 2j multi-sport ajoute du payoff sans dégrader la consistance."
+  }
+}

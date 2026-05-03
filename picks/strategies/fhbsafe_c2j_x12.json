@@ -1,0 +1,77 @@
+{
+  "id": "fhbsafe_c2j_x12",
+  "label": "💎 FHB-Safe + 2 Combos 2j — BR ×12 ratio 9.9× streak 3j",
+  "description": "Le combo de OUF : FHB Basket Safe (foot value + 5 hockey safe + 2 basket safe) AMPLIFIÉ par 2 combos 2j multi-sport (foot+hockey+basket) cote totale 2.5-4.0. Sizing 4%. Le mix singles ultra-safe + combos 2j value = compounding optimal. BR ×12.4 avec ratio 9.9× et STREAK 3J — 50% plus de gain que fhb_basket_safe_max au même profil de risque.",
+  "components": [
+    {
+      "sport": "football",
+      "market": "1x2",
+      "cote_min": 1.9,
+      "cote_max": 2.4,
+      "sort_by": "ev",
+      "max_legs": 1,
+      "max_combos": 1,
+      "min_wr": null,
+      "min_ev": null,
+      "label": "Foot value high (single)"
+    },
+    {
+      "sport": "ice-hockey",
+      "market": "1x2",
+      "cote_min": 1.25,
+      "cote_max": 1.5,
+      "sort_by": "wr",
+      "max_legs": 1,
+      "max_combos": 5,
+      "min_wr": null,
+      "min_ev": null,
+      "label": "Hockey safe (5 singles)"
+    },
+    {
+      "sport": "basketball",
+      "market": "1x2",
+      "cote_min": 1.2,
+      "cote_max": 1.4,
+      "sort_by": "wr",
+      "max_legs": 1,
+      "max_combos": 2,
+      "min_wr": null,
+      "min_ev": null,
+      "label": "Basket safe (2 singles)"
+    },
+    {
+      "sports": [
+        "football",
+        "ice-hockey",
+        "basketball"
+      ],
+      "market": "1x2",
+      "cote_min": 2.5,
+      "cote_max": 4.0,
+      "sort_by": "ev",
+      "max_legs": 2,
+      "max_combos": 2,
+      "min_wr": 0.65,
+      "min_ev": null,
+      "label": "2 combos 2j multi-sport value"
+    }
+  ],
+  "dedup": "max1",
+  "sizing": {
+    "mode": "flat_pct",
+    "pct": 0.04,
+    "min_stake": 0.5
+  },
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict)",
+    "source": "Combos de ouf 2026-05-03",
+    "pnl_per_100br": 1143,
+    "bankroll_multiplier": 12.4,
+    "streak_max": 3,
+    "dd_per_100": 115,
+    "ratio_pnl_dd": 9.9,
+    "n_combos": 737,
+    "wr_combos": 0.69,
+    "note": "PEPITE. 10 picks/jour : 8 singles ultra-safe (smoothing PnL) + 2 combos 2j multi-sport (booster payoff). BR 100€ → 1243€. Sur BR 1000€ → 12430€. Ratio quasi 10× avec STREAK 3J — la stabilité psychologique parfaite."
+  }
+}

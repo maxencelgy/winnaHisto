@@ -1,0 +1,26 @@
+{
+  "id": "montante_meta_april2026",
+  "label": "🪜🏒💎🎰 META AVRIL 2026 — Hockey COMBO3j ×5P (capital 2399€/cycle)",
+  "description": "META Avril 2026 : Hockey-only cote 1.30-1.55. Combo 3 jambes par palier (cote totale ~3.0). 5 paliers d'affilée intraday. Capital 2399€ par cycle réussi (cote^5 ≈ 240×). Sur Avril 2026 : 1 cycle complet sur 3 → ROI +5922%. Pour les playoffs NHL/KHL où la magic excelle.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["ice-hockey"], "market": "1x2",
+    "cote_min": 1.30, "cote_max": 1.55,
+    "sort_by": "wr", "max_legs": 3, "max_combos": 1,
+    "min_wr": null, "min_ev": null,
+    "legs_per_palier": 3
+  }],
+  "montante": {"initial_stake": 10, "n_paliers_target": 5, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 3},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "validated": {
+    "period": "Avril 2026 (1 mois OOS)",
+    "n_cycles_complete": 1,
+    "n_cycles_total": 3,
+    "completion_rate": 0.33,
+    "avg_capital_complete": 2399,
+    "roi_pct": 5922,
+    "note": "META AVRIL : 10€ → 2399€ par cycle. NHL playoffs créent des matchs ultra-prédictibles cote 1.30-1.55 où la magic prédit WR 75-80% par jambe. Combo 3j de ces favoris = cote totale par palier ~3, en 5 paliers = 240×. ROI Avril +5922%."
+  }
+}

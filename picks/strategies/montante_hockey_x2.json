@@ -1,0 +1,29 @@
+{
+  "id": "montante_hockey_x2",
+  "label": "🪜 MONTANTE Hockey ×2 SAFE — 1 palier (ROI +15% S1-26)",
+  "description": "MONTANTE BABY : 1 seul palier hockey safe (cote 1.25-1.45 sort WR). 10€ → ~14€ par succès (cote ~1.4). ~80% de chance par cycle. ROI +15% S1-26 — la moins risquée des montantes.",
+  "mode": "montante",
+  "components": [{
+    "sport": "ice-hockey", "market": "1x2",
+    "cote_min": 1.25, "cote_max": 1.45,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+    "min_wr": null, "min_ev": null
+  }],
+  "montante": {
+    "initial_stake": 10,
+    "target_multiplier": 2,
+    "n_paliers_target": 2,
+    "reset_on_loss": true
+  },
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict)",
+    "source": "Montante backtest",
+    "n_cycles": 33,
+    "wr_palier": 0.80,
+    "pnl_per_10br_cycle": 50,
+    "roi_pct": 15,
+    "note": "La PLUS SAFE des montantes : 2 paliers cote ~1.35 chacun. 1 cycle réussi = 10€ → ~18-20€. ~64% chance par cycle. Sur 4 mois → ~21 succès × 8€ = 168€ - 12 ratés × 10€ = -120€ = +50€. ROI 15%."
+  }
+}

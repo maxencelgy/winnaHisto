@@ -1,0 +1,76 @@
+{
+  "id": "fhb_c2j_ratio_max",
+  "label": "💎 FHB-Safe + Combos 2j RATIO MAX — ratio 10.4× streak 3j",
+  "description": "Variante safer de fhbsafe_c2j_x12. Sizing 3% au lieu de 4%. Conserve le pattern combo (8 singles + 2 combos 2j multi-sport) avec ratio meilleur (10.4× vs 9.9×) et DD plus bas (59€ vs 115€).",
+  "components": [
+    {
+      "sport": "football",
+      "market": "1x2",
+      "cote_min": 1.9,
+      "cote_max": 2.4,
+      "sort_by": "ev",
+      "max_legs": 1,
+      "max_combos": 1,
+      "min_wr": null,
+      "min_ev": null,
+      "label": "Foot value"
+    },
+    {
+      "sport": "ice-hockey",
+      "market": "1x2",
+      "cote_min": 1.25,
+      "cote_max": 1.5,
+      "sort_by": "wr",
+      "max_legs": 1,
+      "max_combos": 5,
+      "min_wr": null,
+      "min_ev": null,
+      "label": "Hockey safe (5)"
+    },
+    {
+      "sport": "basketball",
+      "market": "1x2",
+      "cote_min": 1.2,
+      "cote_max": 1.4,
+      "sort_by": "wr",
+      "max_legs": 1,
+      "max_combos": 2,
+      "min_wr": null,
+      "min_ev": null,
+      "label": "Basket safe (2)"
+    },
+    {
+      "sports": [
+        "football",
+        "ice-hockey",
+        "basketball"
+      ],
+      "market": "1x2",
+      "cote_min": 2.5,
+      "cote_max": 4.0,
+      "sort_by": "ev",
+      "max_legs": 2,
+      "max_combos": 2,
+      "min_wr": 0.65,
+      "min_ev": null,
+      "label": "Combos 2j multi-sport"
+    }
+  ],
+  "dedup": "max1",
+  "sizing": {
+    "mode": "flat_pct",
+    "pct": 0.03,
+    "min_stake": 0.5
+  },
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict)",
+    "source": "FHB tuning combos 2j",
+    "pnl_per_100br": 612,
+    "bankroll_multiplier": 7.1,
+    "streak_max": 3,
+    "dd_per_100": 59,
+    "ratio_pnl_dd": 10.4,
+    "wr_combos": 0.69,
+    "note": "Sizing 3% rend la stratégie plus stable que fhbsafe_c2j_x12 (sizing 4%, ratio 9.9× DD 115€). Le compromis sécurité-payoff via combos 2j."
+  }
+}

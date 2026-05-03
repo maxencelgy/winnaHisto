@@ -1,0 +1,40 @@
+{
+  "id": "multi_safe_volume",
+  "label": "🌐 Triple Safe Volume — Foot+Hockey+Basket",
+  "description": "Volume haut multi-sports : foot + hockey safe en parallèle. 6 picks/jour répartis. Hockey 1.25-1.50 (4) + foot 1.40-1.70 (2). Vise consistance par diversification.",
+  "components": [
+    {
+      "sport": "ice-hockey",
+      "market": "1x2",
+      "cote_min": 1.25,
+      "cote_max": 1.5,
+      "sort_by": "wr",
+      "max_legs": 1,
+      "max_combos": 4,
+      "min_wr": null,
+      "min_ev": null
+    },
+    {
+      "sport": "football",
+      "market": "1x2",
+      "cote_min": 1.4,
+      "cote_max": 1.7,
+      "sort_by": "wr",
+      "max_legs": 1,
+      "max_combos": 2,
+      "min_wr": null,
+      "min_ev": null
+    }
+  ],
+  "dedup": "max1",
+  "sizing": {
+    "mode": "flat_pct",
+    "pct": 0.05,
+    "min_stake": 0.5
+  },
+  "validated": {
+    "period": "non testé en walk-forward — composition manuelle",
+    "source": "combinaison de safe_hockey + safe_foot validés individuellement",
+    "note": "Sizing réduit à 5% car 6 picks/jour vs 3-4 en single-strat. Tester avant de l'utiliser en prod."
+  }
+}

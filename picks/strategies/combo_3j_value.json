@@ -1,0 +1,29 @@
+{
+  "id": "combo_3j_value",
+  "label": "🎲 Combo 3j Foot Value — cote 3-7 (lottery)",
+  "description": "Combos 3 jambes foot 1x2, cote totale 3-7 (≈ chacune 1.5-1.9). Tri par EV. 2 combos/jour. Sizing Kelly fractional (1/4) — stake auto-ajusté par EV+WR.",
+  "components": [
+    {
+      "sport": "football",
+      "market": "1x2",
+      "cote_min": 3.0,
+      "cote_max": 7.0,
+      "sort_by": "ev",
+      "max_legs": 3,
+      "max_combos": 2,
+      "min_wr": 0.55,
+      "min_ev": null
+    }
+  ],
+  "dedup": "max1",
+  "sizing": {
+    "mode": "kelly_fraction",
+    "min_stake": 0.5,
+    "kelly_div": 4.0,
+    "cap_pct": 0.1
+  },
+  "validated": {
+    "period": "non testé en walk-forward",
+    "note": "Combos 3j volatiles. Kelly/4 limite l'exposition. À tester."
+  }
+}

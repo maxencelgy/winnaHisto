@@ -1,0 +1,49 @@
+{
+  "id": "multi_foot_hockey_safe",
+  "label": "🥈 Foot+Hockey SAFER — BR ×4 ratio 5.2×",
+  "description": "Variante SAFE du multi_foot_hockey : même composition (Foot 1.9-2.4 EV + Hockey 1.25-1.50 WR) mais sizing flat_pct 4% au lieu de 5%. Meilleur ratio PnL/DD du sweep v3 (5.2×) avec gain S1-26 +391€ et DD seulement 75€.",
+  "components": [
+    {
+      "sport": "football",
+      "market": "1x2",
+      "cote_min": 1.9,
+      "cote_max": 2.4,
+      "sort_by": "ev",
+      "max_legs": 1,
+      "max_combos": 1,
+      "min_wr": null,
+      "min_ev": null,
+      "label": "Foot value high"
+    },
+    {
+      "sport": "ice-hockey",
+      "market": "1x2",
+      "cote_min": 1.25,
+      "cote_max": 1.5,
+      "sort_by": "wr",
+      "max_legs": 1,
+      "max_combos": 1,
+      "min_wr": null,
+      "min_ev": null,
+      "label": "Hockey safe"
+    }
+  ],
+  "dedup": "max1",
+  "sizing": {
+    "mode": "flat_pct",
+    "pct": 0.04,
+    "min_stake": 0.5
+  },
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict)",
+    "source": "find_strategies_v3 sweep — top ratio PnL/DD",
+    "pnl_per_100br": 391,
+    "streak_max": 5,
+    "dd_per_100": 75,
+    "ratio_pnl_dd": 5.2,
+    "n_combos": 208,
+    "wr_combos": 0.68,
+    "trimestres_oos_pur": "6/6 positifs en walk-forward",
+    "note": "Le compromis optimal : 65% du gain de la version 5% (+598€) avec 58% du DD (128€). Le ratio gain/risque est meilleur (5.2× vs 4.7×). À privilégier si tu veux maximiser le rendement par unité de risque."
+  }
+}

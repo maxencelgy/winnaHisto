@@ -1,0 +1,949 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Winna Picks · Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-deep:#080a0f; --bg:#0d1117; --panel:#161b22; --panel-2:#1c2128;
+      --bord:#30363d; --bord-soft:#21262d;
+      --fg:#e6edf3; --muted:#8b949e; --dim:#6e7681;
+      --green:#3fb950; --green-soft:#2ea043;
+      --orange:#d29922; --red:#f85149; --blue:#58a6ff; --purple:#a371f7;
+      --shadow: 0 4px 16px rgba(0,0,0,0.4);
+    }
+    * { box-sizing: border-box; }
+    html, body { margin:0; padding:0; }
+    body { background:var(--bg-deep); color:var(--fg); font-family:'Inter', -apple-system, system-ui, sans-serif; min-height:100vh; }
+    h1, h2, h3 { margin:0; font-weight:600; letter-spacing:-0.01em; }
+
+    /* ── HEADER ── */
+    header {
+      background: linear-gradient(180deg, var(--panel) 0%, var(--bg-deep) 100%);
+      border-bottom:1px solid var(--bord);
+      padding:14px 24px;
+      position: sticky; top:0; z-index:50;
+      backdrop-filter: blur(8px);
+    }
+    .head-row { display:flex; align-items:center; gap:18px; flex-wrap:wrap; }
+    .brand { display:flex; align-items:center; gap:10px; font-size:18px; font-weight:700; color:var(--fg); }
+    .brand .logo { font-size:22px; }
+    nav { display:flex; gap:4px; }
+    nav button {
+      background:transparent; color:var(--muted); border:0;
+      padding:8px 14px; font-size:13px; font-weight:500;
+      cursor:pointer; border-radius:6px; transition:all .15s;
+    }
+    nav button:hover { background:var(--panel-2); color:var(--fg); }
+    nav button.active { background:var(--panel-2); color:var(--green); }
+
+    .br-pill { display:flex; align-items:center; gap:8px; background:var(--panel-2); padding:6px 12px; border-radius:8px; border:1px solid var(--bord); margin-left:auto; }
+    .br-pill label { font-size:11px; color:var(--muted); text-transform:uppercase; letter-spacing:0.05em; }
+    .br-pill input { background:transparent; color:var(--fg); border:0; outline:0; font-size:14px; font-weight:600; width:80px; }
+
+    /* ── MAIN ── */
+    main { padding:20px 24px; max-width:1400px; margin:0 auto; }
+    .tab { display:none; }
+    .tab.active { display:block; }
+    section + section { margin-top:24px; }
+
+    /* ── STATUS ── */
+    .status {
+      padding:12px 16px; background:var(--panel); border-left:3px solid var(--green);
+      border-radius:6px; margin-bottom:16px; font-size:13px;
+      display:flex; align-items:center; gap:10px; box-shadow:var(--shadow);
+    }
+    .status.warn { border-color:var(--orange); }
+    .status.err { border-color:var(--red); }
+    .status .dot { width:8px; height:8px; border-radius:50%; background:var(--green); }
+    .status.warn .dot { background:var(--orange); }
+    .status.err .dot { background:var(--red); }
+
+    /* ── BUTTONS ── */
+    button.btn {
+      background:var(--green-soft); color:#fff; border:0;
+      padding:9px 16px; border-radius:6px; cursor:pointer;
+      font-size:13px; font-weight:500; transition:all .12s;
+      display:inline-flex; align-items:center; gap:6px;
+    }
+    button.btn:hover { background:var(--green); }
+    button.btn:disabled { background:#444; cursor:not-allowed; }
+    button.btn.ghost { background:transparent; color:var(--fg); border:1px solid var(--bord); }
+    button.btn.ghost:hover { background:var(--panel-2); border-color:var(--green); }
+
+    /* ── INPUTS ── */
+    input[type="text"], input[type="number"], input[type="date"], select {
+      background:var(--bg); color:var(--fg); border:1px solid var(--bord);
+      padding:7px 10px; border-radius:5px; font-size:13px; outline:none;
+      transition:border .12s; font-family:inherit;
+    }
+    input:focus, select:focus { border-color:var(--green); }
+    input[type="number"] { width:90px; }
+
+    .field { display:flex; flex-direction:column; gap:4px; }
+    .field label { font-size:10px; color:var(--muted); text-transform:uppercase; letter-spacing:0.05em; font-weight:500; }
+
+    /* ── FILTERS BAR ── */
+    .toolbar {
+      display:flex; gap:14px; flex-wrap:wrap; align-items:flex-end;
+      padding:14px 16px; background:var(--panel); border:1px solid var(--bord);
+      border-radius:8px; margin-bottom:16px; box-shadow:var(--shadow);
+    }
+
+    /* ── TABLE ── */
+    .tbl-wrap { background:var(--panel); border:1px solid var(--bord); border-radius:8px; overflow:hidden; box-shadow:var(--shadow); }
+    table { width:100%; border-collapse:collapse; }
+    th, td { padding:10px 12px; text-align:left; font-size:13px; border-bottom:1px solid var(--bord-soft); }
+    th { background:var(--panel-2); color:var(--muted); font-size:11px; text-transform:uppercase; letter-spacing:0.05em; font-weight:600; }
+    tr:last-child td { border-bottom:0; }
+    tr:hover { background:var(--panel-2); }
+
+    .wr-h { color:var(--green); font-weight:600; }
+    .wr-m { color:var(--orange); }
+    .wr-l { color:var(--muted); }
+    .ev-pos { color:var(--green); font-weight:500; }
+    .ev-neg { color:var(--red); }
+
+    .badge { display:inline-block; padding:2px 7px; border-radius:4px; font-size:11px; font-weight:500; background:var(--panel-2); color:var(--muted); border:1px solid var(--bord); }
+    .badge.foot { color:var(--blue); border-color:rgba(88,166,255,0.3); }
+    .badge.basket { color:var(--orange); border-color:rgba(210,153,34,0.3); }
+    .badge.hockey { color:var(--purple); border-color:rgba(163,113,247,0.3); }
+    .badge.baseball { color:var(--green); border-color:rgba(63,185,80,0.3); }
+    .badge.market { background:rgba(88,166,255,0.1); color:var(--blue); border:0; }
+
+    /* ── CARDS GRID ── */
+    .grid { display:grid; gap:14px; }
+    .grid.k4 { grid-template-columns:repeat(auto-fill, minmax(280px, 1fr)); }
+    .grid.k3 { grid-template-columns:repeat(auto-fill, minmax(360px, 1fr)); }
+
+    .card { background:var(--panel); border:1px solid var(--bord); border-radius:10px; padding:16px; transition:all .15s; cursor:pointer; box-shadow:var(--shadow); }
+    .card:hover, .card.selected { border-color:var(--green); transform:translateY(-1px); }
+    .card h3 { font-size:14px; color:var(--fg); margin-bottom:6px; }
+    .card .desc { font-size:12px; color:var(--muted); line-height:1.45; min-height:42px; }
+    .card .perf { margin-top:10px; padding:8px 10px; background:var(--bg); border-radius:5px; font-size:11px; color:var(--fg); }
+    .card .perf .v { color:var(--green); font-weight:600; }
+    .card .perf .badge { margin-left:6px; }
+
+    /* ── COMBOS ── */
+    .combo { background:var(--panel); border:1px solid var(--bord); border-radius:10px; padding:14px 16px; margin-bottom:10px; box-shadow:var(--shadow); }
+    .combo-head { display:flex; justify-content:space-between; align-items:center; gap:14px; flex-wrap:wrap; }
+    .combo-meta { display:flex; gap:14px; align-items:center; flex-wrap:wrap; font-size:12px; }
+    .combo-meta .item { display:flex; flex-direction:column; gap:2px; }
+    .combo-meta .item .lbl { color:var(--muted); font-size:10px; text-transform:uppercase; letter-spacing:0.05em; }
+    .combo-meta .item .v { color:var(--fg); font-weight:600; font-size:14px; }
+    .combo-meta .item .v.ok { color:var(--green); }
+    .combo-meta .item .v.warn { color:var(--orange); }
+    .combo-stake { background:var(--bg); padding:8px 12px; border-radius:6px; border:1px solid var(--bord); }
+    .combo-stake .lbl { font-size:10px; color:var(--muted); text-transform:uppercase; }
+    .combo-stake .val { font-size:18px; font-weight:700; color:var(--green); }
+
+    .legs { margin-top:10px; padding-top:10px; border-top:1px solid var(--bord-soft); display:flex; flex-direction:column; gap:6px; }
+    .leg { display:flex; justify-content:space-between; align-items:center; padding:6px 8px; background:var(--bg); border-radius:5px; font-size:12px; }
+    .leg .match { color:var(--fg); flex:1; }
+    .leg .sel { color:var(--blue); font-weight:500; }
+    .leg .cote { font-weight:600; color:var(--fg); margin-left:8px; }
+    .leg .wr-tag { font-size:11px; padding:2px 6px; border-radius:3px; background:var(--panel-2); margin-left:6px; }
+
+    /* ── STATS ── */
+    .summary { display:grid; grid-template-columns:repeat(auto-fill, minmax(150px, 1fr)); gap:10px; margin-bottom:16px; }
+    .stat { background:var(--panel); padding:12px 14px; border-radius:8px; border:1px solid var(--bord); }
+    .stat .lbl { font-size:10px; color:var(--muted); text-transform:uppercase; letter-spacing:0.05em; margin-bottom:4px; font-weight:500; }
+    .stat .val { font-size:20px; font-weight:700; color:var(--fg); }
+    .stat .val.ok { color:var(--green); }
+    .stat .val.bad { color:var(--red); }
+    .stat .val.warn { color:var(--orange); }
+    .stat .sub { font-size:11px; color:var(--muted); margin-top:2px; }
+
+    /* ── CHART ── */
+    .chart-box { background:var(--panel); border:1px solid var(--bord); border-radius:8px; padding:14px; margin-bottom:14px; box-shadow:var(--shadow); }
+    canvas { display:block; max-width:100%; height:auto; }
+
+    /* ── LOG ── */
+    .log { background:#000; color:var(--green); font-family:'SF Mono', Menlo, monospace; font-size:11px; padding:10px; border-radius:5px; max-height:140px; overflow-y:auto; white-space:pre-wrap; margin-top:8px; }
+
+    /* ── EMPTY ── */
+    .empty { padding:48px 20px; text-align:center; color:var(--muted); font-size:13px; }
+
+    /* ── MODAL ── */
+    .modal-bg { position:fixed; inset:0; background:rgba(0,0,0,0.7); z-index:100; display:none; align-items:flex-start; justify-content:center; padding:60px 20px; overflow-y:auto; }
+    .modal-bg.active { display:flex; }
+    .modal { background:var(--panel); border:1px solid var(--bord); border-radius:10px; padding:20px; max-width:900px; width:100%; box-shadow:var(--shadow); }
+    .modal h3 { font-size:15px; color:var(--green); margin-bottom:10px; }
+    .modal-close { float:right; background:transparent; color:var(--muted); border:0; font-size:18px; cursor:pointer; }
+    .modal-close:hover { color:var(--fg); }
+
+    .clickable { cursor:pointer; }
+    .clickable:hover { background:var(--panel-2); }
+
+    .legrow { padding:6px 10px; background:var(--bg); border-radius:5px; font-size:12px; display:flex; justify-content:space-between; gap:8px; margin-bottom:4px; }
+    .legrow .ok { color:var(--green); }
+    .legrow .ko { color:var(--red); }
+
+    /* ── BR INPUTS DOUBLE ── */
+    .br-double { display:flex; align-items:center; gap:10px; background:var(--panel-2); padding:6px 12px; border-radius:8px; border:1px solid var(--bord); margin-left:auto; }
+    .br-double .pair { display:flex; flex-direction:column; gap:2px; }
+    .br-double label { font-size:9px; color:var(--muted); text-transform:uppercase; letter-spacing:0.05em; }
+    .br-double input { background:transparent; color:var(--fg); border:0; outline:0; font-size:13px; font-weight:600; width:65px; padding:0; }
+
+    /* ── COPY BUTTON ── */
+    .copy-row { display:flex; gap:10px; align-items:center; margin:14px 0 8px; }
+    .copy-row textarea { flex:1; min-height:80px; background:var(--bg); color:var(--fg); border:1px solid var(--bord); border-radius:5px; padding:10px; font-family:'SF Mono', Menlo, monospace; font-size:11px; resize:vertical; }
+    .toast { position:fixed; bottom:20px; right:20px; padding:10px 16px; background:var(--green-soft); color:#fff; border-radius:6px; font-size:13px; box-shadow:var(--shadow); display:none; z-index:200; }
+    .toast.show { display:block; animation: fadeOut 2s forwards; }
+    @keyframes fadeOut { 0%, 50% { opacity:1; } 100% { opacity:0; } }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="head-row">
+    <div class="brand"><span class="logo">🎯</span><span>Winna Picks</span></div>
+    <nav>
+      <button data-tab="live" class="active">📊 Live</button>
+      <button data-tab="strats">⚡ Stratégies</button>
+      <button data-tab="bt">📈 Backtest</button>
+      <button data-tab="mt">🪜 Montantes</button>
+    </nav>
+    <div class="br-double">
+      <div class="pair">
+        <label>BR initial</label>
+        <input id="br_init" type="number" value="100" step="10">
+      </div>
+      <span style="color:var(--muted);">·</span>
+      <div class="pair">
+        <label>BR actuel</label>
+        <input id="br_current" type="number" value="100" step="10">
+      </div>
+      <span style="color:var(--muted);">€</span>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<!-- ─── LIVE ─── -->
+<section id="tab-live" class="tab active">
+  <div id="status" class="status"><span class="dot"></span>Chargement…</div>
+
+  <div class="toolbar">
+    <button id="btn_scrape" class="btn">🔄 Scraper aujourd'hui</button>
+    <div class="field"><label>Date</label><input id="day_input" type="date"></div>
+    <button id="btn_refresh" class="btn ghost">📊 Recharger picks</button>
+    <button id="btn_recal" class="btn ghost" title="Recalibre la magic LIVE avec tous les matchs jusqu'à aujourd'hui (à faire 1×/semaine)">🧠 Recalibrer magic</button>
+  </div>
+
+  <div class="toolbar">
+    <div class="field"><label>Sport</label><select id="f_sport">
+      <option value="">Tous</option><option value="football">Foot</option>
+      <option value="basketball">Basket</option><option value="ice-hockey">Hockey</option>
+      <option value="baseball">Baseball</option>
+    </select></div>
+    <div class="field"><label>Marché</label><select id="f_market">
+      <option value="">Tous</option><option value="1x2">1x2</option>
+      <option value="btts">BTTS</option><option value="over_1_5">Over/U 1.5</option>
+      <option value="over_2_5">Over/U 2.5</option>
+    </select></div>
+    <div class="field"><label>Tri</label><select id="f_sort">
+      <option value="wr">WR</option><option value="ev">EV</option>
+      <option value="cote">Cote</option><option value="time">Heure</option>
+    </select></div>
+    <div class="field"><label>Min WR %</label><input id="f_min_wr" type="number" min="0" max="100" value="55"></div>
+    <div class="field"><label>Min EV</label><input id="f_min_ev" type="number" step="0.01" value="1.00"></div>
+    <div class="field"><label>Cote min</label><input id="f_cote_min" type="number" step="0.05" value="1.40"></div>
+    <div class="field"><label>Cote max</label><input id="f_cote_max" type="number" step="0.05" value="2.50"></div>
+    <div class="field"><label>Top</label><input id="f_top" type="number" min="1" max="500" value="50"></div>
+  </div>
+
+  <div id="logbox" style="display:none;"><div class="log" id="log"></div></div>
+
+  <div class="tbl-wrap">
+    <table id="picks_tbl">
+      <thead><tr>
+        <th>Match</th><th>Sport</th><th>Marché</th><th>Sélection</th>
+        <th>Cote</th><th>WR magic</th><th>EV</th><th>Heure</th>
+      </tr></thead>
+      <tbody id="picks_body">
+        <tr><td colspan="8" class="empty">Cliquer sur "Recharger picks"</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ─── STRATEGIES ─── -->
+<section id="tab-strats" class="tab">
+  <h2 style="font-size:16px; color:var(--fg); margin-bottom:10px;">Bibliothèque de stratégies</h2>
+  <p style="color:var(--muted); font-size:13px; margin-bottom:14px;">Choisis une stratégie pour voir les combos suggérés aujourd'hui avec stakes calculés selon ta bankroll et le sizing configuré.</p>
+  <div id="strats_grid" class="grid k4"></div>
+
+  <div id="strat_detail" style="display:none; margin-top:24px;">
+    <div style="display:flex; justify-content:space-between; align-items:flex-start; gap:14px; margin-bottom:14px;">
+      <div>
+        <h2 id="sd_label" style="font-size:18px; color:var(--green);">…</h2>
+        <p id="sd_desc" style="color:var(--muted); font-size:13px; margin-top:4px;"></p>
+      </div>
+      <button id="sd_close" class="btn ghost">✕ Fermer</button>
+    </div>
+
+    <div class="summary" id="sd_summary"></div>
+
+    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
+      <h3 style="font-size:14px; color:var(--muted);">Combos à parier aujourd'hui</h3>
+      <button id="btn_copy_telegram" class="btn ghost">📋 Copier message Telegram</button>
+    </div>
+    <div id="sd_combos"></div>
+  </div>
+</section>
+
+<!-- ─── BACKTEST ─── -->
+<section id="tab-bt" class="tab">
+  <div class="toolbar">
+    <div class="field"><label>Stratégie</label><select id="bt_strat" style="min-width:240px;"></select></div>
+    <div class="field"><label>Du</label><input id="bt_start" type="date" value="2026-01-01"></div>
+    <div class="field"><label>Au</label><input id="bt_end" type="date" value="2026-04-30"></div>
+    <div class="field"><label>Bankroll initiale</label><input id="bt_bankroll" type="number" value="100" step="10"></div>
+    <button id="bt_run" class="btn">▶ Lancer backtest</button>
+  </div>
+
+  <div id="bt_status" class="status warn" style="display:none;"><span class="dot"></span><span></span></div>
+  <div id="bt_summary" class="summary" style="display:none;"></div>
+
+  <div id="bt_chart" class="chart-box" style="display:none;">
+    <h3 style="font-size:13px; color:var(--muted); margin-bottom:8px;">Évolution bankroll</h3>
+    <canvas id="bt_canvas" width="1200" height="240"></canvas>
+  </div>
+
+  <div id="bt_table_wrap" class="tbl-wrap" style="display:none;">
+    <table>
+      <thead><tr>
+        <th>Date</th><th>Combos</th><th>Gagnés</th><th>Mise</th><th>PnL</th><th>BR fin</th><th></th>
+      </tr></thead>
+      <tbody id="bt_body"></tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ─── MONTANTES ─── -->
+<section id="tab-mt" class="tab">
+  <h2 style="font-size:16px; color:var(--fg); margin-bottom:10px;">🪜 Stratégies Montantes</h2>
+  <p style="color:var(--muted); font-size:13px; margin-bottom:14px;">
+    Une montante : tu pars de 10€, all-in sur un palier safe, si gagne tu remets tout sur le palier suivant.
+    But : enchaîner N paliers d'affilée. Mode <b>interday</b> (1 palier/jour, plus safe) ou <b>intraday</b>
+    (N paliers en 1 journée, plus de cycles).
+  </p>
+
+  <div class="toolbar">
+    <div class="field"><label>Stratégie</label><select id="mt_strat" style="min-width:280px;"></select></div>
+    <div class="field"><label>Mode</label><select id="mt_mode">
+      <option value="intraday">Intraday (N paliers/jour)</option>
+      <option value="interday">Interday (1 palier/jour)</option>
+    </select></div>
+    <div class="field"><label>Mise initiale</label><input id="mt_stake" type="number" value="10" step="1"></div>
+    <div class="field"><label>Paliers cible</label><input id="mt_paliers" type="number" value="5" min="2" max="10"></div>
+    <div class="field"><label>Du</label><input id="mt_start" type="date" value="2026-01-01"></div>
+    <div class="field"><label>Au</label><input id="mt_end" type="date" value="2026-04-30"></div>
+    <button id="mt_run" class="btn">▶ Simuler montante</button>
+  </div>
+
+  <div id="mt_status" class="status warn" style="display:none;"><span class="dot"></span><span></span></div>
+  <div id="mt_summary" class="summary" style="display:none;"></div>
+
+  <h3 id="mt_cycles_title" style="font-size:14px; color:var(--muted); margin:14px 0 8px; display:none;">Derniers cycles (clique pour détails)</h3>
+  <div id="mt_cycles"></div>
+</section>
+
+</main>
+
+<!-- ─── MODALES ─── -->
+<div id="modal_bg" class="modal-bg" onclick="if(event.target===this) closeModal()">
+  <div class="modal" id="modal_inner"></div>
+</div>
+
+<div id="toast" class="toast">✓ Copié !</div>
+
+<script>
+const $ = id => document.getElementById(id);
+
+// ── Tabs ──
+document.querySelectorAll("nav button").forEach(b => {
+  b.onclick = () => {
+    document.querySelectorAll("nav button").forEach(x => x.classList.remove("active"));
+    document.querySelectorAll(".tab").forEach(x => x.classList.remove("active"));
+    b.classList.add("active");
+    $("tab-"+b.dataset.tab).classList.add("active");
+  };
+});
+
+// Bankroll : initial (info) vs actuel (utilisé pour stake)
+$("br_current").addEventListener("change", () => {
+  const sel = document.querySelector(".card.selected");
+  if (sel) selectStrategy(sel.dataset.sid);
+  $("bt_bankroll").value = $("br_init").value;
+});
+$("br_init").addEventListener("change", () => {
+  $("bt_bankroll").value = $("br_init").value;
+});
+$("bt_bankroll").value = $("br_init").value;
+
+function getCurrentBankroll() { return parseFloat($("br_current").value) || 100; }
+function getInitBankroll() { return parseFloat($("br_init").value) || 100; }
+
+function showToast(msg) {
+  const t = $("toast");
+  t.textContent = msg;
+  t.className = "toast show";
+  setTimeout(() => t.className = "toast", 2200);
+}
+function closeModal() { $("modal_bg").classList.remove("active"); }
+function openModal(html) { $("modal_inner").innerHTML = html; $("modal_bg").classList.add("active"); }
+
+// ── LIVE ──
+$("day_input").value = new Date().toISOString().slice(0,10);
+
+async function refreshStatus() {
+  try {
+    const r = await fetch("/api/scrape-status");
+    const d = await r.json();
+    const sb = $("status");
+    if (d.running) {
+      const elapsed = Math.round((Date.now()/1000) - d.start_time);
+      sb.className = "status warn";
+      sb.innerHTML = `<span class="dot"></span>⏳ Scrape en cours depuis ${elapsed}s — ${(d.log_tail||[]).slice(-1)[0]||""}`;
+      $("logbox").style.display = "block";
+      $("log").textContent = (d.log_tail||[]).slice(-15).join("\n");
+      $("btn_scrape").disabled = true;
+      setTimeout(refreshStatus, 2000);
+    } else {
+      $("btn_scrape").disabled = false;
+      $("logbox").style.display = "none";
+      if (d.last_scrape_day) {
+        const at = new Date((d.last_scrape_at||0)*1000).toLocaleString("fr-FR");
+        sb.className = "status";
+        sb.innerHTML = `<span class="dot"></span>Dernier scrape: <b style="margin-left:6px;">${d.last_scrape_day}</b> · ${d.last_scrape_n_events} events · <span style="color:var(--muted);margin-left:6px;">${at}</span>`;
+      } else {
+        sb.className = "status warn";
+        sb.innerHTML = `<span class="dot"></span>Aucun scrape encore. Clique sur "Scraper aujourd'hui".`;
+      }
+    }
+  } catch(e) { console.error(e); }
+}
+
+function sportBadge(sport) {
+  const s = sport.replace("ice-hockey","hockey");
+  const map = {football:"foot", basketball:"basket", hockey:"hockey", baseball:"baseball"};
+  return `<span class="badge ${map[s]||""}">${s}</span>`;
+}
+
+async function loadPicks() {
+  const params = new URLSearchParams({
+    sort: $("f_sort").value,
+    min_wr: ($("f_min_wr").value/100).toString(),
+    min_ev: $("f_min_ev").value,
+    cote_min: $("f_cote_min").value,
+    cote_max: $("f_cote_max").value,
+    top: $("f_top").value,
+  });
+  if ($("f_sport").value) params.set("sport", $("f_sport").value);
+  if ($("f_market").value) params.set("market", $("f_market").value);
+  try {
+    const r = await fetch("/api/picks?"+params);
+    if (!r.ok) {
+      const e = await r.json();
+      $("picks_body").innerHTML = `<tr><td colspan="8" class="empty" style="color:var(--red);">${e.error}</td></tr>`;
+      return;
+    }
+    const d = await r.json();
+    if (!d.picks?.length) {
+      $("picks_body").innerHTML = `<tr><td colspan="8" class="empty">Aucun pick (${d.n_total} picks total avant filtres)</td></tr>`;
+      return;
+    }
+    $("picks_body").innerHTML = d.picks.map(p => {
+      const wrCls = p.wr>=0.65 ? "wr-h" : p.wr>=0.55 ? "wr-m" : "wr-l";
+      const evCls = p.ev>=1.05 ? "ev-pos" : p.ev<1.0 ? "ev-neg" : "";
+      const t = p.start_time ? new Date(p.start_time*1000).toLocaleTimeString("fr-FR",{hour:"2-digit",minute:"2-digit"}) : "";
+      return `<tr>
+        <td>${p.match}</td><td>${sportBadge(p.sport)}</td>
+        <td><span class="badge market">${p.market}</span></td>
+        <td><b>${p.selection}</b></td>
+        <td><b>${p.cote.toFixed(2)}</b></td>
+        <td class="${wrCls}">${(p.wr*100).toFixed(0)}%</td>
+        <td class="${evCls}">${p.ev.toFixed(2)}</td>
+        <td style="color:var(--muted);">${t}</td>
+      </tr>`;
+    }).join("");
+  } catch(e) {
+    $("picks_body").innerHTML = `<tr><td colspan="8" class="empty" style="color:var(--red);">Erreur: ${e.message}</td></tr>`;
+  }
+}
+
+$("btn_scrape").onclick = async () => {
+  const day = $("day_input").value;
+  const r = await fetch(`/api/scrape?day=${day}`, {method:"POST"});
+  if (r.ok) refreshStatus();
+};
+$("btn_refresh").onclick = loadPicks;
+
+$("btn_recal").onclick = async () => {
+  if (!confirm("Recalibrer la magic LIVE avec tous les matchs jusqu'à aujourd'hui ? (~30 sec)")) return;
+  $("btn_recal").disabled = true;
+  $("btn_recal").textContent = "⏳ Recalibration…";
+  const r = await fetch("/api/recalibrate", {method:"POST"});
+  if (!r.ok) { showToast("⚠️ Erreur"); $("btn_recal").disabled = false; return; }
+  // Poll status
+  const poll = setInterval(async () => {
+    const s = await (await fetch("/api/recalibrate-status")).json();
+    if (!s.running) {
+      clearInterval(poll);
+      $("btn_recal").disabled = false;
+      $("btn_recal").textContent = "🧠 Recalibrer magic";
+      showToast("✓ Magic recalibrée");
+      loadPicks();
+    }
+  }, 2000);
+};
+["f_sport","f_market","f_sort","f_min_wr","f_min_ev","f_cote_min","f_cote_max","f_top"].forEach(id=>{
+  $(id).addEventListener("change", loadPicks);
+});
+
+// ── STRATEGIES ──
+let _strategies = {};
+async function loadStrategies() {
+  const r = await fetch("/api/strategies");
+  _strategies = await r.json();
+  const grid = $("strats_grid");
+  grid.innerHTML = Object.values(_strategies).map(s => {
+    const v = s.validated || {};
+    const sizingMode = (s.sizing && s.sizing.mode) || "flat_pct";
+    const ratio = v.ratio_pnl_dd || (v.pnl_per_100br && v.dd_per_100 ? (v.pnl_per_100br/v.dd_per_100) : null);
+    const ratioCls = ratio >= 4 ? "ok" : ratio >= 2 ? "" : ratio ? "muted" : "muted";
+    const ratioBadge = ratio ? `<span class="badge" style="color:${ratio>=4?'var(--green)':ratio>=2?'var(--orange)':'var(--muted)'};">${ratio.toFixed(1)}× ratio</span>` : "";
+    const perfLine = v.pnl_per_100br
+      ? `<span class="v">+${v.pnl_per_100br}€/100€</span>${ratioBadge ? " "+ratioBadge : ""}${v.streak_max ? ` <span class="badge">streak ${v.streak_max}j</span>` : ""}`
+      : `<span style="color:var(--muted);">À tester</span>`;
+    const nLegs = (s.components||[]).map(c => c.max_legs||1).join(",");
+    return `<div class="card" data-sid="${s.id}">
+      <h3>${s.label}</h3>
+      <div class="desc">${s.description}</div>
+      <div class="perf">
+        ${perfLine}
+        <div style="margin-top:6px; color:var(--muted); font-size:10px;">Sizing: <b>${sizingMode}</b> · Jambes: ${nLegs}</div>
+      </div>
+    </div>`;
+  }).join("");
+  grid.querySelectorAll(".card").forEach(el => {
+    el.onclick = () => selectStrategy(el.dataset.sid);
+  });
+  $("bt_strat").innerHTML = Object.values(_strategies).map(s =>
+    `<option value="${s.id}">${s.label}</option>`).join("");
+}
+
+function legsHtml(combo) {
+  return combo.legs.map(l => {
+    const wrCls = l.wr>=0.65 ? "wr-h" : l.wr>=0.55 ? "wr-m" : "wr-l";
+    return `<div class="leg">
+      <div>
+        <span class="match">${l.match}</span>
+        ${sportBadge(l.sport)}
+        <span class="badge market">${l.market}</span>
+        — <span class="sel">${l.selection}</span>
+      </div>
+      <div>
+        <span class="cote">@${l.cote.toFixed(2)}</span>
+        <span class="wr-tag ${wrCls}">${(l.wr*100).toFixed(0)}%</span>
+      </div>
+    </div>`;
+  }).join("");
+}
+
+let _last_strategy_response = null;
+
+async function selectStrategy(sid) {
+  document.querySelectorAll(".card").forEach(e => e.classList.toggle("selected", e.dataset.sid===sid));
+  const bk = getCurrentBankroll();
+  const r = await fetch(`/api/strategies/${sid}/today?bankroll=${bk}`);
+  const d = await r.json();
+  _last_strategy_response = d;
+  if (d.error) {
+    $("strat_detail").style.display = "block";
+    $("sd_combos").innerHTML = `<div class="empty" style="color:var(--red);">${d.error}</div>`;
+    $("sd_summary").innerHTML = "";
+    return;
+  }
+  $("strat_detail").style.display = "block";
+  $("sd_label").textContent = d.strategy_label || sid;
+  $("sd_desc").textContent = (_strategies[sid]||{}).description||"";
+  const initBR = getInitBankroll();
+  const evolPct = ((d.bankroll - initBR) / initBR * 100).toFixed(1);
+  $("sd_summary").innerHTML = [
+    ["BR initial", `${initBR}€`, ""],
+    ["BR actuel", `${d.bankroll}€`, d.bankroll >= initBR ? "ok" : "bad", `${evolPct >= 0 ? "+" : ""}${evolPct}%`],
+    ["Combos suggérés", d.n_combos, ""],
+    ["Stake total", `${d.total_stake}€`, ""],
+    ["% BR actuel", `${d.stake_pct_bankroll}%`, d.stake_pct_bankroll>20?"warn":""],
+    ["Sizing", d.sizing_mode, ""],
+    ["Si tout perd", `${d.bankroll_all_lose}€`, "bad"],
+    ["Si tout gagne", `${d.bankroll_all_win}€`, "ok"],
+  ].map(([l,v,c,sub])=>`<div class="stat"><div class="lbl">${l}</div><div class="val ${c||""}">${v}</div>${sub?`<div class="sub">${sub}</div>`:""}</div>`).join("");
+
+  if (!d.combos?.length) {
+    $("sd_combos").innerHTML = `<div class="empty">Aucun combo correspondant aux filtres aujourd'hui.</div>`;
+    return;
+  }
+  $("sd_combos").innerHTML = d.combos.map(c => {
+    const wrCls = c.wr_combo>=0.65 ? "ok" : c.wr_combo>=0.45 ? "warn" : "";
+    const evCls = c.ev_combo>=1.20 ? "ok" : c.ev_combo>=1.0 ? "" : "warn";
+    return `<div class="combo">
+      <div class="combo-head">
+        <div class="combo-meta">
+          <div class="item"><span class="lbl">Type</span><span class="v">${c.n_legs}j ${c.n_legs===1?'(single)':'(combo)'}</span></div>
+          <div class="item"><span class="lbl">Cote totale</span><span class="v">${c.cote_totale.toFixed(2)}</span></div>
+          <div class="item"><span class="lbl">WR combo</span><span class="v ${wrCls}">${(c.wr_combo*100).toFixed(0)}%</span></div>
+          <div class="item"><span class="lbl">EV</span><span class="v ${evCls}">${c.ev_combo.toFixed(2)}</span></div>
+          <div class="item"><span class="lbl">Composante</span><span class="v" style="font-size:11px; color:var(--muted);">${c.component_label||"C"+(c.component_index+1)}</span></div>
+        </div>
+        <div style="display:flex; gap:8px; align-items:center;">
+          <div class="combo-stake">
+            <div class="lbl">Mise</div>
+            <div class="val">${c.stake}€</div>
+          </div>
+          <div class="combo-stake">
+            <div class="lbl">Gain pot.</div>
+            <div class="val" style="color:var(--blue);">+${c.potential_gain}€</div>
+          </div>
+        </div>
+      </div>
+      <div class="legs">${legsHtml(c)}</div>
+    </div>`;
+  }).join("");
+}
+
+$("sd_close").onclick = () => {
+  $("strat_detail").style.display = "none";
+  document.querySelectorAll(".card").forEach(e => e.classList.remove("selected"));
+};
+
+function formatTelegram(d) {
+  const date = new Date().toLocaleDateString("fr-FR");
+  let txt = `🎯 *Picks du jour — ${d.strategy_label}*\n`;
+  txt += `📅 ${d.scrape_day || date} · BR ${d.bankroll}€ · Sizing ${d.sizing_mode}\n\n`;
+  d.combos.forEach((c, i) => {
+    const typ = c.n_legs === 1 ? "Single" : `Combo ${c.n_legs}j`;
+    txt += `📌 *${typ}* — cote ${c.cote_totale.toFixed(2)} · WR ${(c.wr_combo*100).toFixed(0)}% · EV ${c.ev_combo.toFixed(2)}\n`;
+    c.legs.forEach(l => {
+      const sportEmo = {football:"⚽", basketball:"🏀", "ice-hockey":"🏒", baseball:"⚾"}[l.sport] || "🎯";
+      txt += `   ${sportEmo} ${l.match}\n      ✅ ${l.selection} @ ${l.cote.toFixed(2)} (WR ${(l.wr*100).toFixed(0)}%)\n`;
+    });
+    txt += `   💰 Mise: *${c.stake}€*  →  Gain: *+${c.potential_gain}€*\n\n`;
+  });
+  txt += `📊 *Total* : ${d.total_stake}€ misés (${d.stake_pct_bankroll}% BR)\n`;
+  txt += `   • Si tout gagne: ${d.bankroll_all_win}€ (+${(d.bankroll_all_win - d.bankroll).toFixed(2)}€)\n`;
+  txt += `   • Si tout perd: ${d.bankroll_all_lose}€\n`;
+  return txt;
+}
+
+$("btn_copy_telegram").onclick = async () => {
+  if (!_last_strategy_response || !_last_strategy_response.combos?.length) {
+    showToast("⚠️ Aucun combo à copier"); return;
+  }
+  const txt = formatTelegram(_last_strategy_response);
+  // Affiche modal avec textarea + bouton copier
+  openModal(`
+    <button class="modal-close" onclick="closeModal()">✕</button>
+    <h3>📱 Message Telegram</h3>
+    <p style="color:var(--muted); font-size:12px; margin-bottom:10px;">Format Markdown compatible Telegram. Modifie si besoin avant de copier.</p>
+    <div class="copy-row">
+      <textarea id="tg_text">${txt.replace(/</g,"&lt;")}</textarea>
+    </div>
+    <div style="display:flex; gap:8px; justify-content:flex-end;">
+      <button class="btn ghost" onclick="closeModal()">Annuler</button>
+      <button class="btn" id="tg_copy_btn">📋 Copier</button>
+    </div>
+  `);
+  setTimeout(() => {
+    $("tg_copy_btn").onclick = async () => {
+      const t = $("tg_text").value;
+      try {
+        await navigator.clipboard.writeText(t);
+        showToast("✓ Copié dans le presse-papier");
+        closeModal();
+      } catch(e) {
+        $("tg_text").select();
+        document.execCommand("copy");
+        showToast("✓ Copié");
+        closeModal();
+      }
+    };
+  }, 50);
+};
+
+// ── BACKTEST ──
+$("bt_run").onclick = async () => {
+  const sid = $("bt_strat").value;
+  const start = $("bt_start").value;
+  const end = $("bt_end").value;
+  const bk = parseFloat($("bt_bankroll").value)||100;
+  $("bt_status").style.display = "flex";
+  $("bt_status").className = "status warn";
+  $("bt_status").querySelector("span:last-child").textContent = "⏳ Backtest en cours…";
+  $("bt_summary").style.display = "none";
+  $("bt_table_wrap").style.display = "none";
+  $("bt_chart").style.display = "none";
+  try {
+    const r = await fetch(`/api/backtest?strategy=${sid}&start=${start}&end=${end}&bankroll=${bk}`);
+    if (!r.ok) {
+      const e = await r.json();
+      $("bt_status").className = "status err";
+      $("bt_status").querySelector("span:last-child").textContent = "❌ "+e.error;
+      return;
+    }
+    const d = await r.json();
+    $("bt_status").style.display = "none";
+    const s = d.summary;
+    $("bt_summary").style.display = "grid";
+    const ratio = s.dd_max > 0 ? (s.pnl / s.dd_max) : 0;
+    const ratioCls = ratio >= 4 ? "ok" : ratio >= 2 ? "warn" : ratio < 0 ? "bad" : "";
+    const mult = s.bankroll_initial > 0 ? (s.bankroll_final / s.bankroll_initial) : 1;
+    const multCls = mult >= 10 ? "ok" : mult >= 2 ? "warn" : mult < 1 ? "bad" : "";
+    $("bt_summary").innerHTML = [
+      ["× Multiplicateur BR", `${mult.toFixed(1)}×`, multCls, `${s.bankroll_initial}€ → ${s.bankroll_final.toFixed(0)}€`],
+      ["PnL", `${s.pnl>=0?"+":""}${s.pnl.toFixed(0)}€`, s.pnl>=0?"ok":"bad"],
+      ["Ratio PnL/DD", ratio>0?`${ratio.toFixed(1)}×`:"—", ratioCls, "gain par € de risque"],
+      ["ROI", `${s.roi.toFixed(1)}%`, s.roi>=0?"ok":"bad"],
+      ["Jours +/-", `${s.n_days_positive}/${s.n_days_negative}`, ""],
+      ["Streak rouge max", `${s.streak_red_max}j`, s.streak_red_max<=3?"ok":"bad"],
+      ["Drawdown max", `${s.dd_max.toFixed(0)}€`, ""],
+      ["Combos joués", `${s.n_combos}`, ""],
+      ["WR combos", `${(s.wr_combos*100).toFixed(0)}%`, s.wr_combos>=0.55?"ok":""],
+    ].map(([l,v,c,sub])=>`<div class="stat"><div class="lbl">${l}</div><div class="val ${c||""}">${v}</div>${sub?`<div class="sub">${sub}</div>`:""}</div>`).join("");
+
+    $("bt_table_wrap").style.display = "block";
+    _last_bt_daily = d.daily;
+    $("bt_body").innerHTML = d.daily.map((x, i) => {
+      const cls = x.pnl>0 ? "ev-pos" : x.pnl<0 ? "ev-neg" : "";
+      const hasCombos = x.combos && x.combos.length;
+      return `<tr class="${hasCombos?'clickable':''}" data-day-idx="${i}">
+        <td>${x.date}</td><td>${x.n_combos}</td><td>${x.n_won}</td>
+        <td>${x.stake.toFixed(2)}€</td>
+        <td class="${cls}">${x.pnl>=0?"+":""}${x.pnl.toFixed(2)}€</td>
+        <td>${x.bankroll_end.toFixed(2)}€</td>
+        <td style="color:var(--muted);">${hasCombos?"👁 voir":""}</td>
+      </tr>`;
+    }).join("");
+    document.querySelectorAll("#bt_body tr.clickable").forEach(tr => {
+      tr.onclick = () => showBacktestDay(parseInt(tr.dataset.dayIdx));
+    });
+    drawChart(d.daily, s.bankroll_initial);
+  } catch(e) {
+    $("bt_status").className = "status err";
+    $("bt_status").querySelector("span:last-child").textContent = "❌ "+e.message;
+  }
+};
+
+let _last_bt_daily = [];
+
+function showBacktestDay(idx) {
+  const day = _last_bt_daily[idx];
+  if (!day || !day.combos?.length) return;
+  const dayCls = day.pnl > 0 ? "ok" : day.pnl < 0 ? "bad" : "";
+  let html = `<button class="modal-close" onclick="closeModal()">✕</button>
+    <h3>${day.date} — ${day.n_combos} combos · ${day.n_won} gagnés · PnL <span class="${dayCls==='ok'?'ev-pos':dayCls==='bad'?'ev-neg':''}">${day.pnl>=0?"+":""}${day.pnl.toFixed(2)}€</span></h3>
+    <div class="summary" style="margin-bottom:14px;">
+      <div class="stat"><div class="lbl">Mise totale</div><div class="val">${day.stake.toFixed(2)}€</div></div>
+      <div class="stat"><div class="lbl">PnL</div><div class="val ${dayCls}">${day.pnl>=0?"+":""}${day.pnl.toFixed(2)}€</div></div>
+      <div class="stat"><div class="lbl">BR fin de jour</div><div class="val">${day.bankroll_end.toFixed(2)}€</div></div>
+    </div>`;
+  day.combos.forEach((c, i) => {
+    const wonCls = c.won ? "ev-pos" : "ev-neg";
+    const wonTxt = c.won ? "✅ GAGNÉ" : "❌ Perdu";
+    html += `<div class="combo">
+      <div class="combo-head">
+        <div class="combo-meta">
+          <div class="item"><span class="lbl">Combo #${i+1}</span><span class="v">${c.legs.length}j</span></div>
+          <div class="item"><span class="lbl">Cote totale</span><span class="v">${(c.cote_t||0).toFixed(2)}</span></div>
+          <div class="item"><span class="lbl">Mise</span><span class="v">${c.stake}€</span></div>
+          <div class="item"><span class="lbl">Résultat</span><span class="v ${wonCls}">${wonTxt}</span></div>
+          <div class="item"><span class="lbl">Gain net</span><span class="v ${wonCls}">${c.gain>=0?"+":""}${c.gain}€</span></div>
+        </div>
+      </div>
+      <div class="legs">${c.legs.map(l => {
+        const lwon = l.won === true;
+        const lwonCls = lwon ? "ok" : l.won === false ? "ko" : "";
+        const lwonStr = lwon ? "✅" : l.won === false ? "❌" : "—";
+        const sportBadgeHtml = l.sport ? sportBadge(l.sport) : "";
+        const leagueHtml = l.league ? `<span style="color:var(--muted); font-size:11px;"> · ${l.league}</span>` : "";
+        return `<div class="legrow">
+          <span>${sportBadgeHtml} <b>${l.match}</b>${leagueHtml} · <span style="color:var(--blue);">${l.selection || "?"}</span></span>
+          <span><b>@${(l.cote||0).toFixed(2)}</b> <span class="${lwonCls}">${lwonStr}</span></span>
+        </div>`;
+      }).join("")}</div>
+    </div>`;
+  });
+  openModal(html);
+}
+
+function drawChart(daily, br0) {
+  const cv = $("bt_canvas");
+  $("bt_chart").style.display = "block";
+  const ctx = cv.getContext("2d");
+  ctx.clearRect(0,0,cv.width,cv.height);
+  if (!daily.length) return;
+  const ys = daily.map(d => d.bankroll_end);
+  const yMin = Math.min(br0, ...ys);
+  const yMax = Math.max(br0, ...ys);
+  const yRange = Math.max(1, yMax - yMin);
+  const xs = daily.length;
+  const w = cv.width, h = cv.height;
+  const xPad = 50, yPad = 18;
+
+  // grille horizontale
+  ctx.strokeStyle = "#21262d"; ctx.lineWidth = 1;
+  for (let i=0; i<=4; i++) {
+    const y = yPad + i*(h-2*yPad)/4;
+    ctx.beginPath(); ctx.moveTo(xPad, y); ctx.lineTo(w-15, y); ctx.stroke();
+    const v = yMax - i*yRange/4;
+    ctx.fillStyle = "#6e7681"; ctx.font = "10px Inter, system-ui";
+    ctx.fillText(v.toFixed(0)+"€", 5, y+3);
+  }
+
+  // ligne BR0
+  const y0 = yPad + (yMax - br0)/yRange * (h - 2*yPad);
+  ctx.strokeStyle = "#d29922"; ctx.lineWidth = 1; ctx.setLineDash([4,3]);
+  ctx.beginPath(); ctx.moveTo(xPad, y0); ctx.lineTo(w-15, y0); ctx.stroke();
+  ctx.setLineDash([]);
+
+  // remplissage entre courbe et BR0
+  ctx.beginPath();
+  daily.forEach((d, i) => {
+    const x = xPad + i/(Math.max(1,xs-1)) * (w - xPad - 15);
+    const y = yPad + (yMax - d.bankroll_end)/yRange * (h - 2*yPad);
+    if (i===0) ctx.moveTo(x, y0);
+    ctx.lineTo(x, y);
+    if (i===daily.length-1) {
+      ctx.lineTo(x, y0);
+      ctx.closePath();
+    }
+  });
+  const grad = ctx.createLinearGradient(0, yPad, 0, h-yPad);
+  grad.addColorStop(0, "rgba(63,185,80,0.20)");
+  grad.addColorStop(1, "rgba(63,185,80,0.02)");
+  ctx.fillStyle = grad;
+  ctx.fill();
+
+  // courbe
+  ctx.strokeStyle = "#3fb950"; ctx.lineWidth = 2;
+  ctx.beginPath();
+  daily.forEach((d, i) => {
+    const x = xPad + i/(Math.max(1,xs-1)) * (w - xPad - 15);
+    const y = yPad + (yMax - d.bankroll_end)/yRange * (h - 2*yPad);
+    if (i===0) ctx.moveTo(x, y); else ctx.lineTo(x, y);
+  });
+  ctx.stroke();
+}
+
+// ── MONTANTES ──
+async function loadMontanteStrategies() {
+  try {
+    const r = await fetch("/api/montante-strategies");
+    const d = await r.json();
+    const sel = $("mt_strat");
+    sel.innerHTML = Object.values(d).map(s =>
+      `<option value="${s.id}">${s.label}</option>`).join("");
+    if (Object.keys(d).length === 0) {
+      sel.innerHTML = '<option value="">Aucune montante</option>';
+    } else {
+      // Set defaut sur n_paliers de la stratégie
+      sel.addEventListener("change", () => {
+        const sid = sel.value;
+        const s = d[sid];
+        if (s && s.montante?.n_paliers_target) {
+          $("mt_paliers").value = s.montante.n_paliers_target;
+        }
+      });
+    }
+  } catch(e) { console.error(e); }
+}
+
+$("mt_run").onclick = async () => {
+  const sid = $("mt_strat").value;
+  const mode = $("mt_mode").value;
+  const stake = parseFloat($("mt_stake").value) || 10;
+  const paliers = parseInt($("mt_paliers").value) || 5;
+  const start = $("mt_start").value;
+  const end = $("mt_end").value;
+  $("mt_status").style.display = "flex";
+  $("mt_status").className = "status warn";
+  $("mt_status").querySelector("span:last-child").textContent = "⏳ Simulation montante en cours...";
+  $("mt_summary").style.display = "none";
+  $("mt_cycles").innerHTML = "";
+  $("mt_cycles_title").style.display = "none";
+  try {
+    const url = `/api/montante-simulate?strategy=${sid}&mode=${mode}&initial_stake=${stake}&n_paliers=${paliers}&start=${start}&end=${end}`;
+    const r = await fetch(url);
+    if (!r.ok) {
+      const e = await r.json();
+      $("mt_status").className = "status err";
+      $("mt_status").querySelector("span:last-child").textContent = "❌ "+e.error;
+      return;
+    }
+    const d = await r.json();
+    $("mt_status").style.display = "none";
+    $("mt_summary").style.display = "grid";
+    const ratio = d.completion_rate;
+    const ratioCls = ratio >= 0.5 ? "ok" : ratio >= 0.3 ? "warn" : "bad";
+    const roiCls = d.roi >= 30 ? "ok" : d.roi >= 0 ? "warn" : "bad";
+    $("mt_summary").innerHTML = [
+      ["Cycles complétés", `${d.n_cycles_complete}/${d.n_cycles_total}`, "ok"],
+      ["% Complétion", `${(ratio*100).toFixed(0)}%`, ratioCls],
+      ["WR par palier", `${(d.wr_palier*100).toFixed(0)}%`, d.wr_palier>=0.75?"ok":""],
+      ["Capital final moyen", `${d.avg_capital_complete}€`, "ok"],
+      ["PnL total", `${d.final_pnl>=0?"+":""}${d.final_pnl}€`, d.final_pnl>=0?"ok":"bad"],
+      ["ROI net", `${d.roi.toFixed(1)}%`, roiCls],
+      ["Mode", d.mode, ""],
+      ["Paliers cible", d.n_paliers_target, ""],
+    ].map(([l,v,c])=>`<div class="stat"><div class="lbl">${l}</div><div class="val ${c||""}">${v}</div></div>`).join("");
+
+    // Cycles
+    if (d.cycles?.length) {
+      $("mt_cycles_title").style.display = "block";
+      $("mt_cycles").innerHTML = d.cycles.slice().reverse().map((c,i) => {
+        const cls = c.outcome === "complete" ? "ok" : "ko";
+        const icon = c.outcome === "complete" ? "✅" : "❌";
+        const final = c.outcome === "complete" ? `→ ${c.final_capital.toFixed(0)}€` : "→ 0€";
+        return `<div class="combo" data-cycle-idx="${i}" style="cursor:pointer;">
+          <div class="combo-head">
+            <div class="combo-meta">
+              <div class="item"><span class="lbl">Cycle</span><span class="v">#${d.cycles.length-i}</span></div>
+              <div class="item"><span class="lbl">Résultat</span><span class="v ${cls}">${icon} ${c.outcome.toUpperCase()}</span></div>
+              <div class="item"><span class="lbl">Paliers gagnés</span><span class="v">${c.n_paliers_won}</span></div>
+              <div class="item"><span class="lbl">Capital final</span><span class="v ${cls}">${final}</span></div>
+            </div>
+          </div>
+          <div class="legs">${(c.legs||[]).map((l, pi) => {
+            const lwon = l.won === true;
+            const lcls = lwon ? "ok" : l.won === false ? "ko" : "";
+            const licon = lwon ? "✅" : l.won === false ? "❌" : "—";
+            const sb = l.match ? "" : "";
+            return `<div class="legrow">
+              <span><b>Palier ${pi+1}</b> · ${l.date} · <b>${l.match}</b> · <span style="color:var(--blue);">${l.selection}</span> @ ${l.odds.toFixed(2)} <span style="color:var(--muted); font-size:11px;">(WR ${(l.wr*100).toFixed(0)}%)</span></span>
+              <span class="${lcls}">${licon}</span>
+            </div>`;
+          }).join("")}</div>
+        </div>`;
+      }).join("");
+    }
+  } catch(e) {
+    $("mt_status").className = "status err";
+    $("mt_status").querySelector("span:last-child").textContent = "❌ "+e.message;
+  }
+};
+
+// ── Init ──
+refreshStatus();
+loadPicks();
+loadStrategies();
+loadMontanteStrategies();
+</script>
+</body>
+</html>

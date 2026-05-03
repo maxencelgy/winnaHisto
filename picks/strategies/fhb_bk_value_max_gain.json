@@ -1,0 +1,60 @@
+{
+  "id": "fhb_bk_value_max_gain",
+  "label": "💎 FHB Basket 1.25-1.45 — BR ×9 ratio 10.8× streak 3j ★",
+  "description": "Le compromis BR×ratio idéal : basket cote 1.25-1.45 (WR ~85%) avec BR ×9.1 ET ratio 10.8× ET streak 3j. Gain absolu plus élevé que fhb_bk_ultra_safe (810€ vs 640€) avec ratio quasi-identique.",
+  "components": [
+    {
+      "sport": "football",
+      "market": "1x2",
+      "cote_min": 1.9,
+      "cote_max": 2.4,
+      "sort_by": "ev",
+      "max_legs": 1,
+      "max_combos": 1,
+      "min_wr": null,
+      "min_ev": null,
+      "label": "Foot value high"
+    },
+    {
+      "sport": "ice-hockey",
+      "market": "1x2",
+      "cote_min": 1.25,
+      "cote_max": 1.5,
+      "sort_by": "wr",
+      "max_legs": 1,
+      "max_combos": 5,
+      "min_wr": null,
+      "min_ev": null,
+      "label": "Hockey safe (5)"
+    },
+    {
+      "sport": "basketball",
+      "market": "1x2",
+      "cote_min": 1.25,
+      "cote_max": 1.45,
+      "sort_by": "wr",
+      "max_legs": 1,
+      "max_combos": 2,
+      "min_wr": null,
+      "min_ev": null,
+      "label": "Basket safe (2)"
+    }
+  ],
+  "dedup": "max1",
+  "sizing": {
+    "mode": "flat_pct",
+    "pct": 0.03,
+    "min_stake": 0.5
+  },
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict)",
+    "source": "FHB tuning ultime — basket 1.25-1.45",
+    "pnl_per_100br": 810,
+    "bankroll_multiplier": 9.1,
+    "streak_max": 3,
+    "dd_per_100": 75,
+    "ratio_pnl_dd": 10.8,
+    "wr_combos": 0.75,
+    "note": "Le sweet spot : BR ×9.1 + ratio 10.8× + streak 3J. Gain absolu plus haut que la version 1.10-1.30 (×9.1 vs ×7.4) avec ratio quasi-identique. Sur BR 1000€ → 9100€."
+  }
+}

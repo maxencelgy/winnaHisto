@@ -1,0 +1,28 @@
+{
+  "id": "montante_combo2j_x3p",
+  "label": "🪜⚽🔗 MONTANTE Combo2j Foot ×3P — 50% complétion ROI +19%",
+  "description": "Version courte : combo 2j foot favoris cote 1.10-1.20 par palier × 3 paliers d'affilée. 50% complétion (7/14 cycles), ROI +19%. Le compromis stable entre combo amplifié et nombre de paliers raisonnable.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football"],
+    "market": "1x2",
+    "cote_min": 1.10, "cote_max": 1.20,
+    "sort_by": "wr", "max_legs": 2, "max_combos": 1,
+    "min_wr": null, "min_ev": null,
+    "legs_per_palier": 2
+  }],
+  "montante": {"initial_stake": 10, "n_paliers_target": 3, "reset_on_loss": true,
+                "preferred_mode": "interday", "combo_legs_per_palier": 2},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict)",
+    "n_cycles_complete": 7,
+    "n_cycles_total": 14,
+    "completion_rate": 0.50,
+    "wr_combo_palier": 0.77,
+    "avg_capital_complete": 14,
+    "roi_pct": 19,
+    "note": "50% complétion sur 3 paliers de combos 2j. 7 succès sur 14 cycles. Capital final 14€ par cycle. ROI +19% — moins que les singles ultra-fav (+27%) mais avec pattern combo."
+  }
+}

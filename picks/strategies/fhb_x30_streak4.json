@@ -1,0 +1,61 @@
+{
+  "id": "fhb_x30_streak4",
+  "label": "🚀🚀 FHB BR×30 Streak 4j — meilleur ×30",
+  "description": "BR ×29 avec STREAK 4 JOURS (le seul ×30 de la lib avec streak <5j !). 7 picks/j : 1 foot value + 5 hockey safe + 1 basket value. Sizing flat_pct 8%. Détruit multi_foot_hockey_kelly sur tous les axes : ratio meilleur (3.3 vs 3.0), DD plus bas (848 vs 989), streak plus court (4 vs 5).",
+  "components": [
+    {
+      "sport": "football",
+      "market": "1x2",
+      "cote_min": 1.9,
+      "cote_max": 2.4,
+      "sort_by": "ev",
+      "max_legs": 1,
+      "max_combos": 1,
+      "min_wr": null,
+      "min_ev": null,
+      "label": "Foot value high"
+    },
+    {
+      "sport": "ice-hockey",
+      "market": "1x2",
+      "cote_min": 1.25,
+      "cote_max": 1.5,
+      "sort_by": "wr",
+      "max_legs": 1,
+      "max_combos": 5,
+      "min_wr": null,
+      "min_ev": null,
+      "label": "Hockey safe (5 picks)"
+    },
+    {
+      "sport": "basketball",
+      "market": "1x2",
+      "cote_min": 1.4,
+      "cote_max": 1.8,
+      "sort_by": "wr",
+      "max_legs": 1,
+      "max_combos": 1,
+      "min_wr": null,
+      "min_ev": null,
+      "label": "Basket value"
+    }
+  ],
+  "dedup": "max1",
+  "sizing": {
+    "mode": "flat_pct",
+    "pct": 0.08,
+    "min_stake": 0.5
+  },
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict)",
+    "source": "FHB sizing tuning post-v6",
+    "pnl_per_100br": 2705,
+    "bankroll_multiplier": 29.1,
+    "streak_max": 4,
+    "dd_per_100": 848,
+    "ratio_pnl_dd": 3.3,
+    "n_combos": 510,
+    "wr_combos": 0.7,
+    "note": "RECORD ×30 STREAK 4J. BR 100€ → 2905€ en 4 mois OOS strict. DD 848€ = 29% du peak final. WR 70%. Le meilleur compromis ×30 : remplace multi_foot_hockey_kelly (qui était ×30.9 mais streak 5j ratio 3.0)."
+  }
+}

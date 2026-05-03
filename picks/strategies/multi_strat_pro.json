@@ -1,0 +1,43 @@
+{
+  "id": "multi_strat_pro",
+  "label": "🎯 Multi-Strat Pro — singles + combo 2j EV-prop",
+  "description": "Composition pro : 2 singles foot safe (cote 1.4-1.7 sort WR) + 2 combos 2j foot (cote totale 2.0-3.0). Mixte exposition stable + value modérée.",
+  "components": [
+    {
+      "sport": "football",
+      "market": "1x2",
+      "cote_min": 1.4,
+      "cote_max": 1.7,
+      "sort_by": "wr",
+      "max_legs": 1,
+      "max_combos": 2,
+      "min_wr": null,
+      "min_ev": null,
+      "label": "Singles safe foot"
+    },
+    {
+      "sport": "football",
+      "market": "1x2",
+      "cote_min": 2.0,
+      "cote_max": 3.0,
+      "sort_by": "ev",
+      "max_legs": 2,
+      "max_combos": 2,
+      "min_wr": 0.6,
+      "min_ev": null,
+      "label": "Combos 2j value"
+    }
+  ],
+  "dedup": "max1",
+  "sizing": {
+    "mode": "ev_proportional",
+    "min_stake": 1.0,
+    "base_pct": 0.05,
+    "ev_factor": 0.3,
+    "cap_pct": 0.12
+  },
+  "validated": {
+    "period": "non testé en walk-forward",
+    "note": "Composition manuelle à valider via backtest."
+  }
+}

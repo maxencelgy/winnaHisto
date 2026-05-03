@@ -1,0 +1,27 @@
+{
+  "id": "montante_4sports_combo3j_x5p_jackpot",
+  "label": "🪜🌐💥🎰 JACKPOT 4 SPORTS COMBO3j ×5P — capital 1410€/cycle ROI +324%",
+  "description": "JACKPOT CAPITAL : 4 sports (foot+hockey+basket+tennis) cote 1.30-1.55. Combo 3 jambes par palier (cote totale ~3.0 par palier !). 5 paliers d'affilée intraday. Capital final 1410€/cycle. ROI +324%. Très rare (3 cycles ✓ sur 99) mais gain énorme par succès.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football", "ice-hockey", "basketball", "tennis"], "market": "1x2",
+    "cote_min": 1.30, "cote_max": 1.55,
+    "sort_by": "wr", "max_legs": 3, "max_combos": 1,
+    "min_wr": null, "min_ev": null,
+    "legs_per_palier": 3
+  }],
+  "montante": {"initial_stake": 10, "n_paliers_target": 5, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 3},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict)",
+    "n_cycles_complete": 3,
+    "n_cycles_total": 99,
+    "completion_rate": 0.03,
+    "wr_palier_combo": 0.45,
+    "avg_capital_complete": 1410,
+    "roi_pct": 324,
+    "note": "CAPITAL MAX de toute la lib : 1410€ par cycle complet. 10€ → 1410€ ! Très rare (3% completion) mais ROI +324% net."
+  }
+}

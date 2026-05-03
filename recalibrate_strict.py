@@ -8,8 +8,8 @@ sys.path.insert(0, "/Users/maxenceleguay/Sites/winnaHisto")
 from morning_live import CATEGORIZERS
 
 DATASETS = "/Users/maxenceleguay/Sites/winnaHisto/datasets/sofascore_unified"
-SMART_OUT = "/Users/maxenceleguay/Sites/winnaHisto/datasets/magic_cotes_smart.json"
-EXT_OUT = "/Users/maxenceleguay/Sites/winnaHisto/datasets/magic_cotes_extended.json"
+SMART_OUT = "/Users/maxenceleguay/Sites/winnaHisto/datasets/magic_cotes_smart_oos.json"
+EXT_OUT = "/Users/maxenceleguay/Sites/winnaHisto/datasets/magic_cotes_extended_oos.json"
 TRAIN_END = "2026-01-01"
 MIN_N = 15
 

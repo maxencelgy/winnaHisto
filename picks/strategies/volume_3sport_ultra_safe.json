@@ -1,0 +1,61 @@
+{
+  "id": "volume_3sport_ultra_safe",
+  "label": "🛡️ 3-Sports ULTRA-SAFE — 8 picks/j cote 1.20-1.50",
+  "description": "Volume haut multi-sport ultra-safe. 3 picks foot 1.30-1.50 + 3 picks hockey 1.25-1.50 + 2 picks basket 1.20-1.40, tri WR. Sizing 3% car 8 picks/j = exposition 24%. WR combos 78% — la diversification + cotes très basses = streak rouge max 3j.",
+  "components": [
+    {
+      "sport": "football",
+      "market": "1x2",
+      "cote_min": 1.3,
+      "cote_max": 1.5,
+      "sort_by": "wr",
+      "max_legs": 1,
+      "max_combos": 3,
+      "min_wr": null,
+      "min_ev": null,
+      "label": "Foot ultra-safe"
+    },
+    {
+      "sport": "ice-hockey",
+      "market": "1x2",
+      "cote_min": 1.25,
+      "cote_max": 1.5,
+      "sort_by": "wr",
+      "max_legs": 1,
+      "max_combos": 3,
+      "min_wr": null,
+      "min_ev": null,
+      "label": "Hockey safe"
+    },
+    {
+      "sport": "basketball",
+      "market": "1x2",
+      "cote_min": 1.2,
+      "cote_max": 1.4,
+      "sort_by": "wr",
+      "max_legs": 1,
+      "max_combos": 2,
+      "min_wr": null,
+      "min_ev": null,
+      "label": "Basket ultra-safe"
+    }
+  ],
+  "dedup": "max1",
+  "sizing": {
+    "mode": "flat_pct",
+    "pct": 0.03,
+    "min_stake": 0.5
+  },
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict)",
+    "source": "find_strategies_v3 sweep",
+    "pnl_per_100br": 184,
+    "streak_max": 3,
+    "dd_per_100": 71,
+    "ratio_pnl_dd": 2.6,
+    "n_combos_estimated": 600,
+    "wr_combos": 0.78,
+    "trimestres_oos_pur": "5/6 positifs",
+    "note": "Streak max 3j = profil très consistant. Gain modéré +184€ S1-26 mais permet de garder une exposition diversifiée multi-sport. Bon choix si la psychologie de jouer (regarder les jours rouges) compte plus que le PnL absolu."
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "combo_2j_safe",
+  "label": "🔗 Combo 2j Foot Safe — cote 2-3",
+  "description": "Combos 2 jambes foot 1x2, chaque jambe issue d'un match différent. Cote totale 2.0-3.0 (= chacune ~1.4-1.7). Tri par EV. 3 combos/jour. Sizing risk-tiered (stake plus faible si cote totale haute).",
+  "components": [
+    {
+      "sport": "football",
+      "market": "1x2",
+      "cote_min": 2.0,
+      "cote_max": 3.0,
+      "sort_by": "ev",
+      "max_legs": 2,
+      "max_combos": 3,
+      "min_wr": 0.6,
+      "min_ev": null
+    }
+  ],
+  "dedup": "max1",
+  "sizing": {
+    "mode": "risk_tiered",
+    "min_stake": 0.5,
+    "tiers": [
+      {
+        "cote_max": 2.5,
+        "pct": 0.08
+      },
+      {
+        "cote_max": 3.5,
+        "pct": 0.05
+      },
+      {
+        "cote_max": 999,
+        "pct": 0.03
+      }
+    ]
+  },
+  "validated": {
+    "period": "non testé en walk-forward",
+    "note": "Stratégie composée à valider via backtest dans l'UI."
+  }
+}
