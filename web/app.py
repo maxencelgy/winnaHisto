@@ -298,6 +298,38 @@ HYBRID_PRESETS = {
         ],
         "dedup": "max1",
     },
+    "Survivor_basket_minwr50": {
+        "label": "Survivor_basket_minwr50 — 4 singles basket cote 2.10-2.50 + filtre WR≥50% [+524€ OOS strict 8 ans, série 4j ⭐⭐⭐ best ROI/risque]",
+        "components": [
+            {"max_legs": 1, "cote_min": 2.10, "cote_max": 2.50, "sort_by": "ev",
+             "sports": ["basketball"], "max_combos": 4, "min_wr": 0.50},
+        ],
+        "dedup": "max1",
+    },
+    "Survivor_basket_safe_2j": {
+        "label": "Survivor_basket_safe_2j — 2 singles basket cote 2.10-2.50 sort WR [+382€ OOS, série 3j SAFE]",
+        "components": [
+            {"max_legs": 1, "cote_min": 2.10, "cote_max": 2.50, "sort_by": "wr",
+             "sports": ["basketball"], "max_combos": 2},
+        ],
+        "dedup": "max1",
+    },
+    "Survivor_MEGA_v2": {
+        "label": "Survivor_MEGA_v2 — basket WR50% + hockey safe + Over 2.5 + BTTS + foot single [edges 8 ans confirmées OOS]",
+        "components": [
+            {"max_legs": 1, "cote_min": 2.10, "cote_max": 2.50, "sort_by": "ev",
+             "sports": ["basketball"], "max_combos": 3, "min_wr": 0.50},
+            {"max_legs": 1, "cote_min": 1.25, "cote_max": 1.50, "sort_by": "wr",
+             "sports": ["ice-hockey"], "max_combos": 3},
+            {"max_legs": 1, "cote_min": 2.20, "cote_max": 3.00, "sort_by": "ev",
+             "sports": ["football"], "max_combos": 2, "market": "over_2_5+plus"},
+            {"max_legs": 1, "cote_min": 1.30, "cote_max": 1.55, "sort_by": "ev",
+             "sports": ["football"], "max_combos": 2, "market": "over_1_5+plus"},
+            {"max_legs": 1, "cote_min": 1.55, "cote_max": 1.80, "sort_by": "ev",
+             "sports": ["football"], "max_combos": 2, "market": "btts+oui"},
+        ],
+        "dedup": "max1",
+    },
     "Survivor_MEGA": {
         "label": "Survivor_MEGA — 6 stratégies combinées (Over 1.5/2.5 + basket + hockey + BTTS) dedup max1 [théorique +2100€ OOS si pas de chevauchement combos]",
         "components": [
@@ -888,9 +920,17 @@ def _validate_components(comps):
             sm = 1.0
         if sm <= 0 or sm > 5:
             return None, f"composante #{i+1}: stake_multiplier ∈ ]0, 5], reçu {sm}"
+        # Filtres optionnels min_wr / min_ev
+        try:
+            min_wr = c.get("min_wr"); min_ev = c.get("min_ev")
+            min_wr = float(min_wr) if min_wr is not None else None
+            min_ev = float(min_ev) if min_ev is not None else None
+        except (TypeError, ValueError):
+            return None, f"composante #{i+1}: min_wr/min_ev invalides"
         cleaned.append({"max_legs": ml, "cote_min": cmin, "cote_max": cmax,
                         "sort_by": sb, "sports": list(sp), "max_combos": mc,
-                        "market": market, "stake_multiplier": sm})
+                        "market": market, "stake_multiplier": sm,
+                        "min_wr": min_wr, "min_ev": min_ev})
     return cleaned, None
 
 
@@ -1015,7 +1055,8 @@ def api_backtest_hybrid():
                       sports_filter=comp["sports"],
                       max_combos=comp["max_combos"] * candidate_pool_size,
                       stake=base_stake, league_filter=league_filter,
-                      market=comp_market, bucket_fn=bucket_fn_arg)
+                      market=comp_market, bucket_fn=bucket_fn_arg,
+                      min_wr=comp.get("min_wr"), min_ev=comp.get("min_ev"))
         for d in days:
             r = run_backtest(d, comp_magic, **kwargs)
             cand_by_day_comp[(d, i + 1)] = r["combos"]
