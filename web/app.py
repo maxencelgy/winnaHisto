@@ -258,6 +258,64 @@ HYBRID_PRESETS = {
         ],
         "dedup": "max1",
     },
+    "Survivor_over25_22_30": {
+        "label": "Survivor_over25_22_30 — 4 singles Over 2.5 buts foot cote 2.2-3.0 [walk-forward S1-26 OOS strict 8 ans : +472€, série 4j ⭐⭐]",
+        "components": [
+            {"max_legs": 1, "cote_min": 2.20, "cote_max": 3.00, "sort_by": "ev",
+             "sports": ["football"], "max_combos": 4, "market": "over_2_5+plus"},
+        ],
+        "dedup": "max1",
+    },
+    "Survivor_over15_13_155": {
+        "label": "Survivor_over15_13_155 — 4 singles Over 1.5 buts foot cote 1.30-1.55 [+397€ OOS strict 8 ans, série 4j ⭐]",
+        "components": [
+            {"max_legs": 1, "cote_min": 1.30, "cote_max": 1.55, "sort_by": "ev",
+             "sports": ["football"], "max_combos": 4, "market": "over_1_5+plus"},
+        ],
+        "dedup": "max1",
+    },
+    "Survivor_basket_21_25": {
+        "label": "Survivor_basket_21_25 — 4 singles basket 1x2 cote 2.10-2.50 [+318€ OOS strict 8 ans, série 4j]",
+        "components": [
+            {"max_legs": 1, "cote_min": 2.10, "cote_max": 2.50, "sort_by": "ev",
+             "sports": ["basketball"], "max_combos": 4},
+        ],
+        "dedup": "max1",
+    },
+    "Survivor_hockey_125_15": {
+        "label": "Survivor_hockey_125_15 — 4 singles hockey 1x2 cote 1.25-1.50 sort WR [+304€ OOS strict, série 2j ⭐⭐⭐ DD réduit]",
+        "components": [
+            {"max_legs": 1, "cote_min": 1.25, "cote_max": 1.50, "sort_by": "wr",
+             "sports": ["ice-hockey"], "max_combos": 4},
+        ],
+        "dedup": "max1",
+    },
+    "Survivor_btts_oui": {
+        "label": "Survivor_btts_oui — 4 singles BTTS Oui foot cote 1.90-2.30 [+292€ OOS strict 8 ans, série 4j]",
+        "components": [
+            {"max_legs": 1, "cote_min": 1.90, "cote_max": 2.30, "sort_by": "ev",
+             "sports": ["football"], "max_combos": 4, "market": "btts+oui"},
+        ],
+        "dedup": "max1",
+    },
+    "Survivor_MEGA": {
+        "label": "Survivor_MEGA — 6 stratégies combinées (Over 1.5/2.5 + basket + hockey + BTTS) dedup max1 [théorique +2100€ OOS si pas de chevauchement combos]",
+        "components": [
+            {"max_legs": 1, "cote_min": 1.25, "cote_max": 1.50, "sort_by": "wr",
+             "sports": ["ice-hockey"], "max_combos": 4},
+            {"max_legs": 1, "cote_min": 2.20, "cote_max": 3.00, "sort_by": "ev",
+             "sports": ["football"], "max_combos": 3, "market": "over_2_5+plus"},
+            {"max_legs": 1, "cote_min": 1.30, "cote_max": 1.55, "sort_by": "ev",
+             "sports": ["football"], "max_combos": 3, "market": "over_1_5+plus"},
+            {"max_legs": 1, "cote_min": 2.10, "cote_max": 2.50, "sort_by": "ev",
+             "sports": ["basketball"], "max_combos": 3},
+            {"max_legs": 1, "cote_min": 1.85, "cote_max": 2.20, "sort_by": "ev",
+             "sports": ["football"], "max_combos": 2, "market": "over_2_5+plus"},
+            {"max_legs": 1, "cote_min": 1.90, "cote_max": 2.30, "sort_by": "ev",
+             "sports": ["football"], "max_combos": 2, "market": "btts+oui"},
+        ],
+        "dedup": "max1",
+    },
     "Foot_mix_3j_over15": {
         "label": "Foot_mix_3j_over15 — 3 combos 3j MIX (Over 1.5 + 1x2 safe Home/Away) cote totale 2.5-5.0 [walk-forward OOS : +4423€/+3166€ sem, série rouge 3j max ⭐⭐⭐⭐]",
         "components": [
