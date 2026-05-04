@@ -1,0 +1,30 @@
+{
+  "id": "CHALLENGE_100_TO_200_OU25_FAST",
+  "label": "🪜⚡ CHALLENGE 100€ → 200€ FAST — 2 paliers Foot OU 2.5 cote 1.40-1.60 WR≥70% — 36 cycles",
+  "description": "★★★★ STRATÉGIE 100→200 ULTRA-COURTE : seulement 2 paliers Foot Over 2.5 buts cote 1.40-1.60 WR≥70%. Completion **50% sur 36 cycles testés**. Cap 213€. P5=96.9%, P10=99.9%. Meilleur compromis simplicité/probabilité : seulement **2 paris** par cycle au lieu de 3+ pour les autres challenges 100→200.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football"], "market": "over_2_5",
+    "cote_min": 1.40, "cote_max": 1.60,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+    "min_wr": 0.70, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 100, "n_paliers_target": 2, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "challenge_target": {"start": 100, "end": 200, "expected_cap": 213},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.50,
+    "n_cycles_complete": 18,
+    "n_cycles_total": 36,
+    "avg_capital_complete": 213,
+    "prob_target_5_cycles": 96.9,
+    "prob_target_10_cycles": 99.9,
+    "winamax_fr": true,
+    "source": "find_fixed_all (sweep angle OU 2.5 pure)",
+    "note": "★★★★ NOUVEAU PATTERN — 2 paliers single-market OU 2.5. Plus rapide que FOOT_GOAT (2 paris vs 3) au prix d'une légère baisse de completion (50% vs 73%). 36 cycles seulement → moins robuste statistiquement que FOOT_GOAT mais P5≥96% reste très bon."
+  }
+}

@@ -40,7 +40,8 @@ def extract_event_picks(ev, magic: Magic):
         if not c:
             continue
         cote = float(c)
-        cm, wr = magic.lookup(sport, league, market_key, cote, category=cat)
+        # Matching strict round_cote ±0.01 (équivalent au backtest_engine.extract_picks)
+        cm, wr = magic.lookup_strict(sport, league, market_key, cote, category=cat)
         if wr is None:
             continue
         out.append({

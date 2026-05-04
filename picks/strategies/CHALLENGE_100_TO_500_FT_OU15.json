@@ -1,0 +1,32 @@
+{
+  "id": "CHALLENGE_100_TO_500_FT_OU15",
+  "label": "🏆🪜 CHALLENGE 100€ → 500€ FT OU 1.5 — 5 paliers Foot+Tennis cote 1.35-1.48 WR≥55% — 72 cycles",
+  "description": "★★★★★ NOUVEAU CHALLENGE 100→500 : 5 paliers Foot+Tennis Over 1.5 buts cote 1.35-1.48 WR≥55%. Completion **33.3% sur 72 cycles testés**. Cap **518€** (dépasse réellement 500€, contrairement au ROBUST qui plafonne à 438€). P3=70.4%, P5=86.8%, P10=98.3%. Single-market OU 1.5 → plus simple à parier que le xmkt.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football", "tennis"],
+    "market": "over_1_5",
+    "cote_min": 1.35, "cote_max": 1.48,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+    "min_wr": 0.55, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 100, "n_paliers_target": 5, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "challenge_target": {"start": 100, "end": 500, "expected_cap": 518},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.333,
+    "n_cycles_complete": 24,
+    "n_cycles_total": 72,
+    "avg_capital_complete": 518,
+    "prob_target_3_cycles": 70.4,
+    "prob_target_5_cycles": 86.8,
+    "prob_target_10_cycles": 98.3,
+    "winamax_fr": true,
+    "source": "find_xmkt_5p (sweep multi-sport étendu)",
+    "note": "★★★★★ Foot+Tennis OU 1.5 cote 1.35-1.48 5 paliers. Cap 518€ → atteint vraiment 500€ (vs ROBUST qui plafonne à 438€). 72 cycles validés. 1 paris de moins que ROBUST (5p vs 6p)."
+  }
+}

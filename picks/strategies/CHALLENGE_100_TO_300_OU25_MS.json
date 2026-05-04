@@ -1,0 +1,54 @@
+{
+  "id": "CHALLENGE_100_TO_300_OU25_MS",
+  "label": "🪜🌐 CHALLENGE 100€ → 300€ OU 2.5 MULTI-SPORT — 3 paliers cote 1.40-1.60 WR≥65% — 73 cycles",
+  "description": "★★★★ STRATÉGIE 100→300 ROBUSTE single-cycle : 3 paliers Over 2.5 buts MULTI-SPORT (foot+hockey+tennis+basket) cote 1.40-1.60 WR≥65%. Completion **24.7% sur 73 cycles testés** (très robuste). Cap 321€ (dépasse 300€). P5=76.6%, P10=94.5%. Seulement 3 paris par cycle pour atteindre 300€.",
+  "mode": "montante",
+  "components": [
+    {
+      "sports": [
+        "football",
+        "ice-hockey",
+        "tennis",
+        "basketball"
+      ],
+      "market": "over_2_5",
+      "cote_min": 1.4,
+      "cote_max": 1.6,
+      "sort_by": "wr",
+      "max_legs": 1,
+      "max_combos": 1,
+      "min_wr": 0.65,
+      "min_ev": null,
+      "legs_per_palier": 1
+    }
+  ],
+  "montante": {
+    "initial_stake": 100,
+    "n_paliers_target": 3,
+    "reset_on_loss": true,
+    "preferred_mode": "intraday",
+    "combo_legs_per_palier": 1
+  },
+  "dedup": "max1",
+  "sizing": {
+    "mode": "all_in",
+    "min_stake": 0.5
+  },
+  "challenge_target": {
+    "start": 100,
+    "end": 300,
+    "expected_cap": 321
+  },
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.247,
+    "n_cycles_complete": 18,
+    "n_cycles_total": 73,
+    "avg_capital_complete": 321,
+    "prob_target_5_cycles": 76.6,
+    "prob_target_10_cycles": 94.5,
+    "winamax_fr": true,
+    "source": "find_ou25_extended",
+    "note": "★★★★ MULTI-SPORT 3p OU 2.5 cote 1.40-1.60. 73 cycles validés. Plus rapide que CHALLENGE_100_TO_300_ROBUST (3 paris vs 4) au prix d'une completion plus basse (24.7% vs 48% — mais P10 reste 94.5%)."
+  }
+}

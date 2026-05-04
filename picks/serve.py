@@ -195,9 +195,12 @@ def api_strategy_today(sid):
     bankroll = float(request.args.get("bankroll", 100))
     excluded = request.args.get("excluded_leagues", "")
     excluded_list = [x.strip() for x in excluded.split(",") if x.strip()] if excluded else None
+    upcoming = request.args.get("upcoming", "1") not in ("0", "false", "False", "")
     data = load_picks_file(PICKS_FILE)
-    r = apply_strategy(s, data, bankroll, magic=get_magic(), excluded_leagues=excluded_list)
+    r = apply_strategy(s, data, bankroll, magic=get_magic(),
+                       excluded_leagues=excluded_list, upcoming_only=upcoming)
     r["excluded_leagues"] = excluded_list or []
+    r["upcoming_only"] = upcoming
     return jsonify(r)
 
 

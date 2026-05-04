@@ -1,0 +1,53 @@
+{
+  "id": "CHALLENGE_100_TO_300_FH_XMKT_VOL",
+  "label": "🏆🪜 CHALLENGE 100€ → 300€ VOLUME RECORD — FOOT+HOCKEY xmkt 4 paliers cote 1.30-1.40 WR≥60% — 101 cycles",
+  "description": "★★★★★ RECORD ABSOLU DE VOLUME : **101 cycles testés** (le plus haut de toute la lib). Foot+Hockey xmkt 4 paliers cote 1.30-1.40 WR≥60%. Completion **43.6%**. Cap 329€. P3=82.0%, P5=94.3%, P10=99.7%. Le challenge 100→300 LE PLUS ROBUSTE STATISTIQUEMENT.",
+  "mode": "montante",
+  "components": [
+    {
+      "sports": [
+        "football",
+        "ice-hockey"
+      ],
+      "market": "1x2,over_1_5,over_2_5,btts",
+      "cote_min": 1.3,
+      "cote_max": 1.4,
+      "sort_by": "wr",
+      "max_legs": 1,
+      "max_combos": 1,
+      "min_wr": 0.6,
+      "min_ev": null,
+      "legs_per_palier": 1
+    }
+  ],
+  "montante": {
+    "initial_stake": 100,
+    "n_paliers_target": 4,
+    "reset_on_loss": true,
+    "preferred_mode": "intraday",
+    "combo_legs_per_palier": 1
+  },
+  "dedup": "max1",
+  "sizing": {
+    "mode": "all_in",
+    "min_stake": 0.5
+  },
+  "challenge_target": {
+    "start": 100,
+    "end": 300,
+    "expected_cap": 329
+  },
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.436,
+    "n_cycles_complete": 44,
+    "n_cycles_total": 101,
+    "avg_capital_complete": 329,
+    "prob_target_3_cycles": 82.0,
+    "prob_target_5_cycles": 94.3,
+    "prob_target_10_cycles": 99.7,
+    "winamax_fr": true,
+    "source": "find_xmkt_ms_3p",
+    "note": "★★★★★ RECORD VOLUME 101 cycles validés. Foot+Hockey xmkt 4p cote 1.30-1.40. 43.6% comp avec cap 329€ → utility = 143 (légèrement < CHALLENGE_100_TO_300_ROBUST utility=144 à 48%/89/299€). Préférer pour : meilleure proba long terme grâce au volume statistique."
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "id": "CHALLENGE_100_TO_600_FH_XMKT",
+  "label": "🪜🏔️ CHALLENGE 100€ → 600€ FOOT+HOCKEY xmkt — 6 paliers cote 1.30-1.45 WR≥70% — 92 cycles",
+  "description": "★★★★ STRATÉGIE 100→600 ROBUSTE single-cycle : 6 paliers Foot+Hockey xmkt (1x2+OU+BTTS) cote 1.30-1.45 WR≥70%. Completion **30.4% sur 92 cycles testés** (excellente robustesse). Cap **625€** (dépasse 600€). P3=66.3%, P5=83.5%, P10=97.3%. NOUVEAU TARGET — premier challenge 100→600 validé.",
+  "mode": "montante",
+  "components": [
+    {
+      "sports": [
+        "football",
+        "ice-hockey"
+      ],
+      "market": "1x2,over_1_5,over_2_5,btts",
+      "cote_min": 1.3,
+      "cote_max": 1.45,
+      "sort_by": "wr",
+      "max_legs": 1,
+      "max_combos": 1,
+      "min_wr": 0.7,
+      "min_ev": null,
+      "legs_per_palier": 1
+    }
+  ],
+  "montante": {
+    "initial_stake": 100,
+    "n_paliers_target": 6,
+    "reset_on_loss": true,
+    "preferred_mode": "intraday",
+    "combo_legs_per_palier": 1
+  },
+  "dedup": "max1",
+  "sizing": {
+    "mode": "all_in",
+    "min_stake": 0.5
+  },
+  "challenge_target": {
+    "start": 100,
+    "end": 600,
+    "expected_cap": 625
+  },
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.304,
+    "n_cycles_complete": 28,
+    "n_cycles_total": 92,
+    "avg_capital_complete": 625,
+    "prob_target_3_cycles": 66.3,
+    "prob_target_5_cycles": 83.5,
+    "prob_target_10_cycles": 97.3,
+    "winamax_fr": true,
+    "source": "find_xmkt_ms_long (sweep corrigé)",
+    "note": "★★★★ NOUVEAU TARGET 100→600. Foot+Hockey xmkt 6p cote 1.30-1.45 WR≥70%. 92 cycles validés (excellent). Plus haut cap qu'aucune strat single-cycle existante."
+  }
+}

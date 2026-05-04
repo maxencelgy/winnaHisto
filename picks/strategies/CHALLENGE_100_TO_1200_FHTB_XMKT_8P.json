@@ -1,0 +1,55 @@
+{
+  "id": "CHALLENGE_100_TO_1200_FHTB_XMKT_8P",
+  "label": "🏔️🏆 CHALLENGE 100€ → 1200€ MULTI-SPORT xmkt — 8 paliers cote 1.32-1.45 WR≥70% — 98 cycles",
+  "description": "★★★★★ NOUVEAU TARGET 100→1200 single-cycle : 8 paliers MULTI-SPORT (foot+hockey+tennis+basket) xmkt (1x2+OU+BTTS) cote 1.32-1.45 WR≥70%. Completion **17.3% sur 98 cycles testés** (record volume sur targets ≥1000€). Cap **1272€**. P3=43.0%, P5=60.5%, P10=84.4%.",
+  "mode": "montante",
+  "components": [
+    {
+      "sports": [
+        "football",
+        "ice-hockey",
+        "tennis",
+        "basketball"
+      ],
+      "market": "1x2,over_1_5,over_2_5,btts",
+      "cote_min": 1.32,
+      "cote_max": 1.45,
+      "sort_by": "wr",
+      "max_legs": 1,
+      "max_combos": 1,
+      "min_wr": 0.7,
+      "min_ev": null,
+      "legs_per_palier": 1
+    }
+  ],
+  "montante": {
+    "initial_stake": 100,
+    "n_paliers_target": 8,
+    "reset_on_loss": true,
+    "preferred_mode": "intraday",
+    "combo_legs_per_palier": 1
+  },
+  "dedup": "max1",
+  "sizing": {
+    "mode": "all_in",
+    "min_stake": 0.5
+  },
+  "challenge_target": {
+    "start": 100,
+    "end": 1200,
+    "expected_cap": 1272
+  },
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.173,
+    "n_cycles_complete": 17,
+    "n_cycles_total": 98,
+    "avg_capital_complete": 1272,
+    "prob_target_3_cycles": 43.0,
+    "prob_target_5_cycles": 60.5,
+    "prob_target_10_cycles": 84.4,
+    "winamax_fr": true,
+    "source": "find_ou15_6p (sweep 6-8p multi-sport)",
+    "note": "★★★★★ NOUVEAU TARGET 100→1200. Multi-sport xmkt 8p cote 1.32-1.45 WR≥70%. 98 cycles validés (record absolu volume sur cap >1000€)."
+  }
+}

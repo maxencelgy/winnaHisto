@@ -332,7 +332,7 @@
 <section id="tab-strats" class="tab">
   <div class="page-head">
     <h2>⚡ Stratégies · Bibliothèque</h2>
-    <p>Choisis une stratégie pour voir les combos suggérés aujourd'hui — stakes calculés selon ta bankroll et le sizing configuré.</p>
+    <p>Choisis une stratégie pour voir les prochains combos à parier (matchs à venir, classés du plus proche au plus lointain) — stakes calculés selon ta bankroll et le sizing configuré.</p>
   </div>
 
   <div class="presets-bloc">
@@ -360,7 +360,7 @@
 
   <div class="toolbar">
     <div class="field"><label>Stratégie</label><select id="strat_select" style="min-width:520px;"></select></div>
-    <button id="strat_view" class="btn">⚡ Voir combos du jour</button>
+    <button id="strat_view" class="btn">⚡ Voir prochains combos</button>
     <span id="strat_count" class="count" style="margin-left:auto; color:var(--muted); font-size:11px;"></span>
   </div>
   <div id="strats_grid" class="grid k4" style="display:none;"></div>
@@ -377,7 +377,7 @@
     <div class="summary" id="sd_summary"></div>
 
     <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
-      <h3 style="font-size:14px; color:var(--muted);">Combos à parier aujourd'hui</h3>
+      <h3 style="font-size:14px; color:var(--muted);">Prochains combos à parier (chronologique)</h3>
       <button id="btn_copy_telegram" class="btn ghost">📋 Copier message Telegram</button>
     </div>
     <div id="sd_combos"></div>
@@ -1028,7 +1028,7 @@ async function selectStrategy(sid) {
   ].map(([l,v,c,sub])=>`<div class="stat"><div class="lbl">${l}</div><div class="val ${c||""}">${v}</div>${sub?`<div class="sub">${sub}</div>`:""}</div>`).join("");
 
   if (!d.combos?.length) {
-    $("sd_combos").innerHTML = `<div class="empty">Aucun combo correspondant aux filtres aujourd'hui.</div>`;
+    $("sd_combos").innerHTML = `<div class="empty">Aucun match à venir ne correspond aux filtres pour cette stratégie. Essaie de scraper à nouveau ou choisis une autre stratégie.</div>`;
     return;
   }
   $("sd_combos").innerHTML = d.combos.map(c => {

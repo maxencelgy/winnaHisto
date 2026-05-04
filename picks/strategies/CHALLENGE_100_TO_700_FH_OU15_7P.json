@@ -1,0 +1,53 @@
+{
+  "id": "CHALLENGE_100_TO_700_FH_OU15_7P",
+  "label": "🏔️ CHALLENGE 100€ → 700€ FOOT+HOCKEY OU 1.5 — 7 paliers cote 1.28-1.40 WR≥55% — 87 cycles",
+  "description": "★★★★★ NOUVEAU TARGET 100→700 single-cycle : 7 paliers Foot+Hockey Over 1.5 buts cote 1.28-1.40 WR≥55%. Completion **27.6% sur 87 cycles testés**. Cap **733€**. P3=62.0%, P5=80.2%, P10=96.1%. Comble la lacune entre 100→600 (FH xmkt 6p) et 100→900 (FH OU15 8p).",
+  "mode": "montante",
+  "components": [
+    {
+      "sports": [
+        "football",
+        "ice-hockey"
+      ],
+      "market": "over_1_5",
+      "cote_min": 1.28,
+      "cote_max": 1.4,
+      "sort_by": "wr",
+      "max_legs": 1,
+      "max_combos": 1,
+      "min_wr": 0.55,
+      "min_ev": null,
+      "legs_per_palier": 1
+    }
+  ],
+  "montante": {
+    "initial_stake": 100,
+    "n_paliers_target": 7,
+    "reset_on_loss": true,
+    "preferred_mode": "intraday",
+    "combo_legs_per_palier": 1
+  },
+  "dedup": "max1",
+  "sizing": {
+    "mode": "all_in",
+    "min_stake": 0.5
+  },
+  "challenge_target": {
+    "start": 100,
+    "end": 700,
+    "expected_cap": 733
+  },
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.276,
+    "n_cycles_complete": 24,
+    "n_cycles_total": 87,
+    "avg_capital_complete": 733,
+    "prob_target_3_cycles": 62.0,
+    "prob_target_5_cycles": 80.2,
+    "prob_target_10_cycles": 96.1,
+    "winamax_fr": true,
+    "source": "find_7p (sweep 7p single-cycle)",
+    "note": "★★★★★ NOUVEAU TARGET 100→700 single-cycle. 7 paliers OU 1.5 cote 1.28-1.40 WR≥55%. Foot+Hockey single-market simple. 87 cycles validés."
+  }
+}

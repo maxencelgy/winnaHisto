@@ -1,0 +1,53 @@
+{
+  "id": "CHALLENGE_100_TO_200_COMBO2J_1SHOT",
+  "label": "🪜🎯 CHALLENGE 100€ → 200€ 1-SHOT — combo 2j Foot+Hockey OU 2.5 cote 1.90-2.30 WR≥55% — 52 cycles",
+  "description": "★★★★ STRATÉGIE 100→200 EN UN SEUL TICKET : 1 combo 2 jambes Foot+Hockey Over 2.5 buts cote totale 1.90-2.30 WR≥55%. Completion **40.4% sur 52 cycles testés**. Cap 391€ (cycles compoundés intraday). **UN SEUL PARI par cycle** (combo 2 jambes dans 1 ticket). P3=78.8%, P5=92.2%, P10=99.4%. Pour ceux qui préfèrent miser une fois et attendre.",
+  "mode": "montante",
+  "components": [
+    {
+      "sports": [
+        "football",
+        "ice-hockey"
+      ],
+      "market": "over_2_5",
+      "cote_min": 1.9,
+      "cote_max": 2.3,
+      "sort_by": "wr",
+      "max_legs": 2,
+      "max_combos": 1,
+      "min_wr": 0.55,
+      "min_ev": null,
+      "legs_per_palier": 2
+    }
+  ],
+  "montante": {
+    "initial_stake": 100,
+    "n_paliers_target": 1,
+    "reset_on_loss": true,
+    "preferred_mode": "intraday",
+    "combo_legs_per_palier": 2
+  },
+  "dedup": "max1",
+  "sizing": {
+    "mode": "all_in",
+    "min_stake": 0.5
+  },
+  "challenge_target": {
+    "start": 100,
+    "end": 200,
+    "expected_cap": 200
+  },
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.404,
+    "n_cycles_complete": 21,
+    "n_cycles_total": 52,
+    "avg_capital_complete": 391,
+    "prob_target_3_cycles": 78.8,
+    "prob_target_5_cycles": 92.2,
+    "prob_target_10_cycles": 99.4,
+    "winamax_fr": true,
+    "source": "find_combo2j (sweep multi-sport combos)",
+    "note": "★★★★ 1 SEUL PARI : combo 2 jambes Foot+Hockey OU 2.5 cote totale ~2.1. Avantage : exécution simple (1 ticket). Inconvénient : completion 40% < 49% du OU25_MS qui demande 2 paris séparés. À choisir selon préférence : 1 ticket vs 2 paliers."
+  }
+}

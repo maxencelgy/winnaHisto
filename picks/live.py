@@ -129,10 +129,15 @@ def build_combos(picks, max_legs, cote_min, cote_max, max_count=20, sort_by="ev"
 
 
 # ── Apply strategy ──────────────────────────────────────────────────────
-def apply_strategy(strategy, picks_data, bankroll, magic=None, excluded_leagues=None):
+def apply_strategy(strategy, picks_data, bankroll, magic=None, excluded_leagues=None,
+                   upcoming_only=False, now_ts=None):
     """Retourne dict avec combos sélectionnés + stakes.
     excluded_leagues : list de substrings (lowercase) — exclut tout pick dont la ligue contient un de ces patterns.
+    upcoming_only    : si True, ne garde que les picks dont start_time > now_ts et trie les combos
+                       sélectionnés du plus proche au plus lointain (chronologique).
+    now_ts           : timestamp de référence (default time.time()).
     """
+    import time as _time
     magic = magic or Magic()
     sizing = strategy.get("sizing", {"mode": "flat_pct", "pct": 0.10, "min_stake": 0.5})
     dedup = strategy.get("dedup", "none")
@@ -150,6 +155,12 @@ def apply_strategy(strategy, picks_data, bankroll, magic=None, excluded_leagues=
         all_picks = [p for p in all_picks
                      if not any(e in (p.get("league","").lower()) for e in excl)]
 
+    # Filtrage prochains matchs uniquement (start_time > now)
+    if upcoming_only:
+        now_ref = now_ts if now_ts is not None else _time.time()
+        all_picks = [p for p in all_picks
+                     if p.get("start_time") and p["start_time"] > now_ref]
+
     used_pick_keys = Counter()
     used_matches = set()
     selected = []
@@ -157,8 +168,12 @@ def apply_strategy(strategy, picks_data, bankroll, magic=None, excluded_leagues=
     for ci, comp in enumerate(components):
         # Support `sport` (single) ou `sports` (list, pour combos multi-sport)
         sports_allowed = comp.get("sports") or [comp.get("sport")] if comp.get("sport") else comp.get("sports") or []
+        # Alias rétrocompatibilité : "hockey" → "ice-hockey" (nom standard du scrape Sofascore)
+        sports_allowed = ["ice-hockey" if s == "hockey" else s for s in sports_allowed]
         sport = sports_allowed[0] if sports_allowed else None
         market = comp.get("market", "1x2")
+        # Support market multi-séparé virgule (ex "btts,over_1_5,over_2_5")
+        markets_allowed = [m.strip() for m in market.split(",") if m.strip()]
         cote_min = comp["cote_min"]
         cote_max = comp["cote_max"]
         sort_by = comp.get("sort_by", "wr")
@@ -167,10 +182,10 @@ def apply_strategy(strategy, picks_data, bankroll, magic=None, excluded_leagues=
         min_ev = comp.get("min_ev")
         max_legs = comp.get("max_legs", 1)
 
-        # Filtrer picks pour cette composante (peut accepter plusieurs sports)
+        # Filtrer picks pour cette composante (peut accepter plusieurs sports + plusieurs markets)
         candidates = [p for p in all_picks
                       if p["sport"] in sports_allowed
-                      and p["market"] == market
+                      and p["market"] in markets_allowed
                       and (min_wr is None or p["wr"] >= min_wr)
                       and (min_ev is None or p["ev"] >= min_ev)]
 
@@ -209,6 +224,13 @@ def apply_strategy(strategy, picks_data, bankroll, magic=None, excluded_leagues=
                 "component_label": comp.get("label", f"C{ci+1}: {sport} {market} {cote_min}-{cote_max} {max_legs}j"),
             })
             chosen += 1
+
+    # Si upcoming_only, trie les combos sélectionnés par start_time du leg le plus proche
+    if upcoming_only:
+        def _combo_st(c):
+            sts = [l.get("start_time") for l in c["legs"] if l.get("start_time")]
+            return min(sts) if sts else float("inf")
+        selected.sort(key=_combo_st)
 
     total_stake = sum(c["stake"] for c in selected)
     total_potential_gain = sum(c["potential_gain"] for c in selected)

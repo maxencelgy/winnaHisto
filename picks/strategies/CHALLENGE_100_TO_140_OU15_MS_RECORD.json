@@ -1,0 +1,54 @@
+{
+  "id": "CHALLENGE_100_TO_140_OU15_MS_RECORD",
+  "label": "🏆⚡ CHALLENGE 100€ → 140€ RECORD COMPLETION 77.6% — OU 1.5 MULTI-SPORT 2 paliers cote 1.18-1.28 WR≥65% — 98 cycles",
+  "description": "★★★★★ NOUVEAU RECORD DE COMPLETION : **77.6% sur 98 cycles testés**, bat FOOT_GOAT (73%). 2 paliers Over 1.5 buts MULTI-SPORT (foot+hockey+tennis+basket) cote 1.18-1.28 WR≥65%. Cap 147€. **Seulement 2 paris**. P3=98.9%, P5=99.9%. Le challenge le plus FIABLE de la lib. Idéal pour grossir BR rapidement et sûrement (+47%/cycle).",
+  "mode": "montante",
+  "components": [
+    {
+      "sports": [
+        "football",
+        "ice-hockey",
+        "tennis",
+        "basketball"
+      ],
+      "market": "over_1_5",
+      "cote_min": 1.18,
+      "cote_max": 1.28,
+      "sort_by": "wr",
+      "max_legs": 1,
+      "max_combos": 1,
+      "min_wr": 0.65,
+      "min_ev": null,
+      "legs_per_palier": 1
+    }
+  ],
+  "montante": {
+    "initial_stake": 100,
+    "n_paliers_target": 2,
+    "reset_on_loss": true,
+    "preferred_mode": "intraday",
+    "combo_legs_per_palier": 1
+  },
+  "dedup": "max1",
+  "sizing": {
+    "mode": "all_in",
+    "min_stake": 0.5
+  },
+  "challenge_target": {
+    "start": 100,
+    "end": 140,
+    "expected_cap": 147
+  },
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.776,
+    "n_cycles_complete": 76,
+    "n_cycles_total": 98,
+    "avg_capital_complete": 147,
+    "prob_target_3_cycles": 98.9,
+    "prob_target_5_cycles": 99.9,
+    "winamax_fr": true,
+    "source": "find_xmkt_ms_3p (sweep OU 1.5 multi-sport)",
+    "note": "★★★★★ RECORD COMPLETION ABSOLU 77.6% / 98 cycles. Multi-sport OU 1.5 cote basse 1.18-1.28 → WR très haut (foot+hockey+tennis+basket). Pas le plus rentable en cap (147€) mais le plus FIABLE. Parfait pour grossir BR sans stress avant de switcher sur stratégies plus aggressives."
+  }
+}

@@ -55,6 +55,28 @@ class Magic:
             return None, None
         return best, cotes_dict[best]
 
+    def lookup_strict(self, sport, league, market_key, cote, category=""):
+        """Matching identique au backtest (round_cote ±0.01).
+        Retourne (cote_magic, wr) ou (None, None).
+        Utilisé pour garantir équivalence stricte live ⇄ backtest."""
+        bucket = self.bucket_for(sport, league, category)
+        cotes_dict = None
+        if market_key == "1x2":
+            cotes_dict = self.smart.get(sport, {}).get(bucket)
+        else:
+            ext_bucket = self.ext.get(sport, {}).get(bucket, {})
+            sub = ext_bucket.get(market_key)
+            if sub:
+                cotes_dict = {float(k): _wr_of(v) for k, v in sub.items()}
+        if not cotes_dict:
+            return None, None
+        # round_cote backtest : round(round(o/0.01)*0.01, 2)
+        c_round = round(round(float(cote) / 0.01) * 0.01, 2)
+        for mc, wr in cotes_dict.items():
+            if abs(c_round - mc) <= 0.01:
+                return mc, wr
+        return None, None
+
     def has_market(self, sport, league, market_key, category=""):
         cm, wr = self.lookup(sport, league, market_key, 2.0, tol=10.0, category=category)
         return wr is not None
