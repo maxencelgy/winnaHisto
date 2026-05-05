@@ -231,6 +231,11 @@ def api_montante_simulate():
     mode = request.args.get("mode", "interday")
     initial_stake = float(request.args.get("initial_stake", 10))
     n_paliers_target = request.args.get("n_paliers")
+    
+    excluded = request.args.get("excluded_leagues", "")
+    sep = "|" if "|" in excluded else ","
+    excluded_list = [x.strip() for x in excluded.split(sep) if x.strip()] if excluded else None
+
     if not (sid and start and end):
         return jsonify({"error": "params requis: strategy, start, end"}), 400
     s = load_strategy(sid)
@@ -247,7 +252,7 @@ def api_montante_simulate():
 
     try:
         from picks.montante_engine import simulate
-        r = simulate(s, start, end, mode=mode, initial_stake=initial_stake)
+        r = simulate(s, start, end, mode=mode, initial_stake=initial_stake, excluded_leagues=excluded_list)
         r["strategy"] = {"id": sid, "label": s.get("label")}
         return jsonify(r)
     except Exception as e:
@@ -295,6 +300,7 @@ def api_montante_live():
         markets = [m.strip() for m in market_str.split(",")]
 
         # Extract picks from all events
+        from picks.league_filter import is_league_ok
         magic = get_magic()
         all_picks = []
         for ev in events:
@@ -303,10 +309,12 @@ def api_montante_live():
             ev_picks = extract_event_picks(ev, magic)
             all_picks.extend(ev_picks)
 
-        # Filter ligues exclues
-        if excluded_list:
-            all_picks = [p for p in all_picks
-                         if not any(e in (p.get("league","").lower()) for e in excluded_list)]
+        # Filter ligues : même filtre centralisé que le backtest (whitelist + blocage pays)
+        # + exclusions utilisateur additionnelles
+        all_picks = [p for p in all_picks
+                     if is_league_ok(p["sport"], p.get("league",""),
+                                     category=p.get("category",""),
+                                     excluded_user_leagues=excluded_list or None)]
 
         # Filter by market, cote, wr, ev
         market_map = {"1x2": "1x2", "btts": "btts", "btts_y": "btts",

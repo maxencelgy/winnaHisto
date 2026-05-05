@@ -10,22 +10,7 @@ from backtest_engine import _get_index, extract_picks
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-WHITELIST = {
-    "football": ["premier league","laliga","la liga","serie a","bundesliga","ligue 1","championship","laliga 2","serie b","ligue 2","champions league","europa league","conference","eredivisie","liga portugal","pro league","süper lig","trendyol süper","mls","liga mx","brasileirão","brasileirao","coupe","fa cup","primeira liga","primera división"],
-    "basketball": ["nba","wnba","euroleague","eurocup","betclic élite","pro a","acb","liga endesa","lega basket","serie a","bbl","champions league"],
-    "ice-hockey": ["nhl","khl","shl","liiga","ligue magnus","del","national league","extraliga","swiss"],
-    "baseball": ["mlb"],
-    "tennis": ["atp","wta","grand slam","masters","australian open","roland garros","wimbledon","us open","miami","indian wells","monte carlo","madrid","rome","cincinnati","shanghai","paris masters"],
-}
-REJECT = ["doubles","qualifying","u23","u21","u19","u18","reserve","youth","next pro","regionalliga","série c","i-league","exhibition"]
-
-
-def _lok(sport, lg, excluded=None):
-    if not lg: return False
-    l = lg.lower()
-    if any(r in l for r in REJECT): return False
-    if excluded and any(e in l for e in excluded): return False
-    return any(p in l for p in WHITELIST.get(sport, []))
+from picks.league_filter import is_league_ok
 
 
 def _load_magic(use_oos=True):
@@ -83,6 +68,7 @@ def simulate(strategy, start_date, end_date, mode="interday", initial_stake=10,
             ext_path = os.path.join(ROOT, "datasets", "magic_cotes_extended.json")
         with open(ext_path) as f:
             magic_ext = json.load(f)
+        magic_ext["_smart"] = True
 
     days = list(_gen_days(start_date, end_date))
     capital = initial_stake
@@ -115,7 +101,7 @@ def simulate(strategy, start_date, end_date, mode="interday", initial_stake=10,
     for d in days:
         idx = _get_index()
         ms = idx.get(d, [])
-        ms = [m for m in ms if m["sport"] in sports and _lok(m["sport"], m.get("league",""), excluded=excl)]
+        ms = [m for m in ms if m["sport"] in sports and is_league_ok(m["sport"], m.get("league",""), category=m.get("category",""), excluded_user_leagues=excl)]
         if not ms:
             continue
         picks = []

@@ -16,10 +16,10 @@ from datetime import date, datetime
 sys.path.insert(0, "/Users/maxenceleguay/Sites/winnaHisto")
 from morning_live import CATEGORIZERS
 
-DATASETS = "/Users/maxenceleguay/Sites/winnaHisto/datasets/sofascore_unified"
-SMART_OUT = "/Users/maxenceleguay/Sites/winnaHisto/datasets/magic_cotes_smart.json"
-EXT_OUT = "/Users/maxenceleguay/Sites/winnaHisto/datasets/magic_cotes_extended.json"
-VERSIONS_DIR = "/Users/maxenceleguay/Sites/winnaHisto/datasets/magic_versions"
+DATASETS = "/Users/maxence/Sites/winnaHisto/datasets/sofascore_unified"
+SMART_OUT = "/Users/maxence/Sites/winnaHisto/datasets/magic_cotes_smart.json"
+EXT_OUT = "/Users/maxence/Sites/winnaHisto/datasets/magic_cotes_extended.json"
+VERSIONS_DIR = "/Users/maxence/Sites/winnaHisto/datasets/magic_versions"
 
 # TRAIN_END = today (inclus tous les matchs jusqu'à hier inclus)
 TRAIN_END = date.today().isoformat()

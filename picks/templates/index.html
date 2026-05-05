@@ -1446,7 +1446,8 @@ $("mt_run").onclick = async () => {
   $("mt_cycles").innerHTML = "";
   $("mt_cycles_title").style.display = "none";
   try {
-    const url = `/api/montante-simulate?strategy=${sid}&mode=${mode}&initial_stake=${stake}&n_paliers=${paliers}&start=${start}&end=${end}`;
+    const excluded = encodeURIComponent($("excluded_leagues").value.trim());
+    const url = `/api/montante-simulate?strategy=${sid}&mode=${mode}&initial_stake=${stake}&n_paliers=${paliers}&start=${start}&end=${end}&excluded_leagues=${excluded}`;
     const r = await fetch(url);
     if (!r.ok) {
       const e = await r.json();
@@ -2261,7 +2262,8 @@ async function showBtChallengeHistory() {
     }
     const m = s.montante || {};
     const n_p = m.n_paliers_target || 6;
-    const url = `/api/montante-simulate?strategy=${sid}&mode=intraday&initial_stake=${initial}&n_paliers=${n_p}&start=2026-01-01&end=2026-04-30`;
+    const excluded = encodeURIComponent($("excluded_leagues").value.trim());
+    const url = `/api/montante-simulate?strategy=${sid}&mode=intraday&initial_stake=${initial}&n_paliers=${n_p}&start=2026-01-01&end=2026-04-30&excluded_leagues=${excluded}`;
     const r = await fetch(url);
     if (!r.ok) {
       const e = await r.json();

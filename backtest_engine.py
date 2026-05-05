@@ -11,7 +11,8 @@ from collections import defaultdict
 from itertools import combinations
 from pathlib import Path
 
-DATASETS_DIR = "/Users/maxenceleguay/Sites/winnaHisto/datasets/sofascore_unified"
+ROOT = os.path.dirname(os.path.abspath(__file__))
+DATASETS_DIR = os.path.join(ROOT, "datasets", "sofascore_unified")
 
 
 def fnum(s):
@@ -277,7 +278,7 @@ def run_backtest(target_date, magic_table, max_legs=3, cote_min=2.0,
     if sports_filter:
         matches = [m for m in matches if m["sport"] in sports_filter]
     if league_filter:
-        matches = [m for m in matches if league_filter(m["sport"], m.get("league", ""))]
+        matches = [m for m in matches if league_filter(m["sport"], m.get("league", ""), m.get("category", ""))]
     picks = extract_picks(matches, magic_table, market=market, bucket_fn=bucket_fn)
     if min_wr is not None:
         picks = [p for p in picks if p["wr"] >= min_wr]

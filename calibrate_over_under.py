@@ -7,8 +7,8 @@ import sys
 sys.path.insert(0, "/Users/maxenceleguay/Sites/winnaHisto")
 from morning_live import categorize_foot
 
-CSV_PATH = "/Users/maxenceleguay/Sites/winnaHisto/datasets/sofascore_unified/football.csv"
-EXT_PATH = "/Users/maxenceleguay/Sites/winnaHisto/datasets/magic_cotes_extended.json"
+CSV_PATH = "/Users/maxence/Sites/winnaHisto/datasets/sofascore_unified/football.csv"
+EXT_PATH = "/Users/maxence/Sites/winnaHisto/datasets/magic_cotes_extended.json"
 
 # Date de coupure : on calibre sur 2024-2025, on garde 2026 OOS pour validation
 TRAIN_END = "2026-01-01"

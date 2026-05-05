@@ -1,0 +1,19 @@
+{
+  "recalibrated_at": "2026-05-05T10:50:30.100945",
+  "train_end": "2026-05-05",
+  "min_n": 15,
+  "smart_buckets": {
+    "football": 158,
+    "basketball": 41,
+    "ice-hockey": 22,
+    "baseball": 4,
+    "tennis": 8
+  },
+  "ext_buckets": {
+    "football": 168,
+    "basketball": 41,
+    "ice-hockey": 22,
+    "baseball": 4,
+    "tennis": 8
+  }
+}

@@ -62,9 +62,13 @@ def extract_event_picks(ev, magic: Magic):
 def rank_picks(events, magic, sort="wr", min_wr=0.50, min_ev=1.0,
                cote_min=1.0, cote_max=999, sports=None, markets=None, top=None):
     """Extrait + filtre + trie picks de tous events."""
+    from picks.league_filter import is_league_ok
     all_picks = []
     for ev in events:
         if sports and ev["sport"] not in sports:
+            continue
+        # Filtre centralisé Winamax FR (whitelist + pays + reject)
+        if not is_league_ok(ev["sport"], ev.get("league", ""), category=ev.get("category", "")):
             continue
         all_picks.extend(extract_event_picks(ev, magic))
 

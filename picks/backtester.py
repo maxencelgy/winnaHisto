@@ -15,33 +15,10 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from backtest_engine import run_backtest as bt_run_backtest, _get_index
 from morning_live import CATEGORIZERS
 
-# Whitelist Winamax FR (identique scraper.py)
-WINAMAX_LEAGUES = {
-    "football": ["premier league", "laliga", "la liga", "serie a", "bundesliga", "ligue 1",
-                 "championship", "laliga 2", "serie b", "ligue 2", "champions league",
-                 "europa league", "conference", "eredivisie", "liga portugal", "pro league",
-                 "süper lig", "trendyol süper", "mls", "liga mx", "brasileirão", "brasileirao",
-                 "coupe", "fa cup", "primeira liga", "primera división"],
-    "basketball": ["nba", "wnba", "euroleague", "eurocup", "betclic élite", "pro a", "acb",
-                   "liga endesa", "lega basket", "serie a", "bbl", "champions league"],
-    "ice-hockey": ["nhl", "khl", "shl", "liiga", "ligue magnus", "del", "national league",
-                   "extraliga", "swiss"],
-    "baseball": ["mlb"],
-    "tennis": ["atp", "wta", "grand slam", "masters", "australian open", "roland garros",
-               "wimbledon", "us open", "miami", "indian wells", "monte carlo", "madrid",
-               "rome", "cincinnati", "shanghai", "paris masters"],
-}
-REJECT = ["doubles", "qualifying", "u23", "u21", "u19", "u18", "reserve", "youth",
-          "next pro", "regionalliga", "série c", "i-league", "exhibition"]
+from picks.league_filter import is_league_ok
 
-
-def _is_league_allowed(sport, league):
-    if not league:
-        return False
-    l = league.lower()
-    if any(r in l for r in REJECT):
-        return False
-    return any(p in l for p in WINAMAX_LEAGUES.get(sport, []))
+def _is_league_allowed(sport, league, category="", excluded_user_leagues=None):
+    return is_league_ok(sport, league, category=category, excluded_user_leagues=excluded_user_leagues)
 
 
 def _gen_days(start, end):
@@ -92,20 +69,12 @@ def backtest(strategy, start_date, end_date, bankroll0=100,
     dedup = strategy.get("dedup", "none")
     components = strategy["components"]
 
-    excl = [e.lower() for e in (excluded_leagues or []) if e and e.strip()]
-    base_filter = _is_league_allowed if bookmaker == "winamax_fr" else None
-    if excl:
-        def league_filter(sport, league):
-            if base_filter and not base_filter(sport, league):
-                return False
-            if not league:
-                return True
-            ll = league.lower()
-            if any(e in ll for e in excl):
-                return False
-            return True
+    excl = [e.lower() for e in (excluded_leagues or []) if e and e.strip()] or None
+    if bookmaker == "winamax_fr":
+        def league_filter(sport, league, category=""):
+            return is_league_ok(sport, league, category=category, excluded_user_leagues=excl)
     else:
-        league_filter = base_filter
+        league_filter = None
     days = list(_gen_days(start_date, end_date))
 
     # Magic ref : utilise version OOS (train<2026-01-01) pour backtest si dispo,
@@ -127,6 +96,7 @@ def backtest(strategy, start_date, end_date, bankroll0=100,
                            for b, cotes in buckets.items()}
     with open(ext_path) as f:
         magic_ext = json.load(f)
+    magic_ext["_smart"] = True
 
     # Pré-fetch candidats par (jour, composante). Plus large si dedup actif.
     candidate_pool_size = 12 if dedup != "none" else 3

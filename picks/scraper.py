@@ -15,47 +15,10 @@ from datetime import date
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from sofascore_massive import fetch as ss_fetch
 
-# ── Whitelist Winamax FR (élargie : couvre toutes les ligues affichées sur Winamax) ──
-WINAMAX_LEAGUES = {
-    "football": ["premier league", "laliga", "la liga", "serie a", "bundesliga", "ligue 1",
-                 "championship", "laliga 2", "serie b", "ligue 2", "champions league",
-                 "europa league", "conference", "eredivisie", "liga portugal", "pro league",
-                 "süper lig", "trendyol süper", "mls", "liga mx", "brasileirão", "brasileirao",
-                 "coupe", "fa cup", "primeira liga", "primera división",
-                 # Élargissement pour couvrir Winamax FR
-                 "k league", "k-league", "j1 league", "j league",
-                 "super league",  # Suisse, Grèce, Chine, etc.
-                 "saudi pro", "pro league",  # Saudi & UAE
-                 "uefa nations league", "nations league",
-                 "extraliga", "fortuna liga", "niké liga",  # Czech / Slovakia
-                 "veikkausliiga",  # Finland
-                 "a lyga",  # Lithuania
-                 "parva liga",  # Bulgaria
-                 "erovnuli",  # Georgia
-                 "ligat ha", "ligat haal",  # Israel
-                 "premiership",  # Scotland (déjà capté par premier league)
-                 "championship round", "championship", "championship play-off"],
-    "basketball": ["nba", "wnba", "euroleague", "eurocup", "betclic élite", "pro a", "acb",
-                   "liga endesa", "lega basket", "serie a", "bbl", "champions league",
-                   "champions league asia"],
-    "ice-hockey": ["nhl", "khl", "shl", "liiga", "ligue magnus", "del", "national league",
-                   "extraliga", "swiss"],
-    "baseball": ["mlb", "npb"],  # NPB Japon
-    "tennis": ["atp", "wta", "grand slam", "masters", "australian open", "roland garros",
-               "wimbledon", "us open", "miami", "indian wells", "monte carlo", "madrid",
-               "rome", "cincinnati", "shanghai", "paris masters"],
-}
-REJECT = ["doubles", "qualifying", "u23", "u21", "u19", "u18", "reserve", "youth",
-          "next pro", "regionalliga", "série c", "i-league", "exhibition"]
+from picks.league_filter import is_league_ok
 
-
-def league_ok(sport, lg):
-    if not lg:
-        return False
-    l = lg.lower()
-    if any(r in l for r in REJECT):
-        return False
-    return any(p in l for p in WINAMAX_LEAGUES.get(sport, []))
+def league_ok(sport, lg, category=""):
+    return is_league_ok(sport, lg, category=category)
 
 
 def frac_to_dec(s):
@@ -79,13 +42,14 @@ def list_events(sport, day_str):
         if status not in ("notstarted", "inprogress"):
             continue
         league = e.get("tournament", {}).get("name", "")
-        if not league_ok(sport, league):
+        category = e.get("tournament", {}).get("category", {}).get("name", "")
+        if not league_ok(sport, league, category=category):
             continue
         out.append({
             "id": e["id"],
             "sport": sport,
             "league": league,
-            "category": e.get("tournament", {}).get("category", {}).get("name", ""),
+            "category": category,
             "home": e["homeTeam"]["name"],
             "away": e["awayTeam"]["name"],
             "start_time": e.get("startTimestamp"),

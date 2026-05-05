@@ -163,16 +163,17 @@ def apply_strategy(strategy, picks_data, bankroll, magic=None, excluded_leagues=
     for ev in events:
         all_picks.extend(extract_event_picks(ev, magic))
 
-    # Filtrage par ligues exclues
-    # Si excluded_leagues=None → applique WFR_EXCL_DEFAULT (alignement backtest)
-    # Si excluded_leagues=[] (liste vide explicite) → aucune exclusion
-    # Si excluded_leagues=[...] → use the provided list
+    # Filtrage par ligues : filtre centralisé (whitelist + pays) + exclusions user
+    from picks.league_filter import is_league_ok
+    user_excl = None
     if excluded_leagues is None:
-        excluded_leagues = WFR_EXCL_DEFAULT
-    if excluded_leagues:
-        excl = [e.lower() for e in excluded_leagues if e.strip()]
-        all_picks = [p for p in all_picks
-                     if not any(e in (p.get("league","").lower()) for e in excl)]
+        user_excl = [e.lower() for e in WFR_EXCL_DEFAULT]
+    elif excluded_leagues:
+        user_excl = [e.lower() for e in excluded_leagues if e.strip()]
+    all_picks = [p for p in all_picks
+                 if is_league_ok(p["sport"], p.get("league",""),
+                                 category=p.get("category",""),
+                                 excluded_user_leagues=user_excl)]
 
     # Filtrage prochains matchs uniquement (start_time > now)
     if upcoming_only:
