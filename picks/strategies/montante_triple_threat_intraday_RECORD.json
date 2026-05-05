@@ -1,0 +1,24 @@
+{
+  "id": "montante_triple_threat_intraday_RECORD",
+  "label": "🚀 TRIPLE THREAT : Intraday Combo 4j",
+  "description": "★★★ LA MACHINE À CASH INTRADAY. Cette stratégie génère jusqu'à 3 combinés de 4 matchs par jour (mix Over 1.5, 1X et Tennis). C'est l'équivalent d'une montante complète de 4 paliers compactée en un seul combiné. 75% de réussite sur les combos !",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football", "tennis"],
+    "markets": ["over_1_5", "1x", "winner"],
+    "cote_min": 1.05, "cote_max": 1.35,
+    "sort_by": "wr", "max_legs": 4, "max_combos": 3,
+    "min_wr": 0.88, "min_ev": 1.01,
+    "legs_per_palier": 4
+  }],
+  "montante": {"initial_stake": 10, "n_paliers_target": 1, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 4},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "validated": {
+    "period": "Avril 2026 (INTRADAY)",
+    "completion_rate": 0.75,
+    "pnl_net_s1": 155,
+    "note": "Un combo de 4 matchs Diamond. Tu as tes résultats le soir même. Idéal pour monter vite."
+  }
+}
