@@ -14,6 +14,20 @@ from picks.magic import Magic
 from picks.extractor import extract_event_picks
 
 
+# Liste WFR par défaut : ligues douteuses exclues dans tous les sweeps backtest
+# (alignement live ⇄ backtest). Source : sweep WFR_EXCL identique dans find_*.py
+WFR_EXCL_DEFAULT = [
+    "liga mx", "egyptian", "cyprus", "ligapro", "primera división, clausura",
+    "brasileirão série d", "brasileirão série b", "scottish premiership",
+    "first professional league", "danish superliga", "superliga", "niké liga",
+    "swiss super league", "austrian bundesliga", "stoiximan super league",
+    "czech first league", "canadian premier", "usl championship", "copa de la liga",
+    "frauen-bundesliga", "serie a femminile", "uefa champions league, women",
+    "liga acb", "germany bbl", "wnba preseason", "serie a2", "del, playoffs",
+    "relegation round",
+]
+
+
 # ── Sizing ──────────────────────────────────────────────────────────────
 def compute_stake(combo, bankroll, sizing):
     """combo : {legs:[{cote, wr}], cote_totale, wr_combo, ev_combo}.
@@ -150,6 +164,11 @@ def apply_strategy(strategy, picks_data, bankroll, magic=None, excluded_leagues=
         all_picks.extend(extract_event_picks(ev, magic))
 
     # Filtrage par ligues exclues
+    # Si excluded_leagues=None → applique WFR_EXCL_DEFAULT (alignement backtest)
+    # Si excluded_leagues=[] (liste vide explicite) → aucune exclusion
+    # Si excluded_leagues=[...] → use the provided list
+    if excluded_leagues is None:
+        excluded_leagues = WFR_EXCL_DEFAULT
     if excluded_leagues:
         excl = [e.lower() for e in excluded_leagues if e.strip()]
         all_picks = [p for p in all_picks

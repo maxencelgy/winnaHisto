@@ -66,11 +66,21 @@ def categorize_foot(league, category):
     league_l = league.lower()
     cat_l = (category or "").lower()
     suffix = "_W" if any(w in (league_l + " " + cat_l) for w in ("women", "féminine", "femenine", "femini", "kvinner", "frauen")) else ""
-    if league in ("Premier League", "LaLiga", "Bundesliga", "Serie A", "Ligue 1"):
-        return f"TOP5_{league.replace(' ','')}{suffix}"
-    if "ucl" in league_l or "champions" in league_l:
+    # TOP5 strict : nom de ligue ET pays correspondant
+    TOP5_COUNTRIES = {
+        "premier league": "england",
+        "laliga": "spain", "la liga": "spain",
+        "bundesliga": "germany",
+        "serie a": "italy",
+        "ligue 1": "france",
+    }
+    for top_name, country in TOP5_COUNTRIES.items():
+        if league_l == top_name and country in cat_l:
+            return f"TOP5_{league.replace(' ','')}{suffix}"
+    # UCL/Europa : strict UEFA spécifique (pas de match sur "championship round")
+    if league_l == "uefa champions league" or league_l.startswith("uefa champions league,") or league_l == "ucl":
         return "UEFA_Champions" + suffix
-    if "europa" in league_l:
+    if league_l == "uefa europa league" or league_l.startswith("uefa europa league,"):
         return "UEFA_Europa" + suffix
     if "international" in cat_l or "world cup" in league_l or "uefa euro" in league_l:
         return "Intl" + suffix

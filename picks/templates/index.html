@@ -1824,7 +1824,8 @@ if (_exclInput) {
   });
 }
 if (_exclWinamax) _exclWinamax.onclick = () => {
-  _exclInput.value = WINAMAX_FR_EXCLUDED.join(", ");
+  // Séparateur "|" (pipe) car certaines exclusions contiennent une virgule (ex "del, playoffs")
+  _exclInput.value = WINAMAX_FR_EXCLUDED.join(" | ");
   localStorage.setItem("excluded_leagues", _exclInput.value);
   // Refresh affichage si stratégie sélectionnée
   const sel = document.querySelector(".card.selected");

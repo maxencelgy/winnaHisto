@@ -115,7 +115,7 @@ def scrape_status():
 @app.route("/api/scrape", methods=["POST"])
 def trigger_scrape():
     day = request.args.get("day", date.today().isoformat())
-    sports = request.args.get("sports", "football,basketball,ice-hockey,baseball")
+    sports = request.args.get("sports", "football,basketball,ice-hockey,baseball,tennis")
     if _scrape_state["running"]:
         return jsonify({"error": "Scrape déjà en cours", "started_at": _scrape_state["start_time"]}), 409
 
@@ -194,12 +194,18 @@ def api_strategy_today(sid):
 
     bankroll = float(request.args.get("bankroll", 100))
     excluded = request.args.get("excluded_leagues", "")
-    excluded_list = [x.strip() for x in excluded.split(",") if x.strip()] if excluded else None
+    # excluded_list = None → applique WFR_EXCL_DEFAULT (alignement backtest)
+    # excluded_list = [...] (param URL fourni) → use this list
+    # Séparateur "|" (pipe) car certaines exclusions contiennent une virgule (ex "del, playoffs")
+    sep = "|" if "|" in excluded else ","
+    excluded_list = [x.strip() for x in excluded.split(sep) if x.strip()] if excluded else None
     upcoming = request.args.get("upcoming", "1") not in ("0", "false", "False", "")
     data = load_picks_file(PICKS_FILE)
     r = apply_strategy(s, data, bankroll, magic=get_magic(),
                        excluded_leagues=excluded_list, upcoming_only=upcoming)
-    r["excluded_leagues"] = excluded_list or []
+    # Reflète ce qui a été effectivement appliqué (default WFR si None)
+    from picks.live import WFR_EXCL_DEFAULT
+    r["excluded_leagues"] = excluded_list if excluded_list is not None else WFR_EXCL_DEFAULT
     r["upcoming_only"] = upcoming
     return jsonify(r)
 
@@ -260,7 +266,9 @@ def api_montante_live():
     palier = int(request.args.get("palier", 1))
     capital = float(request.args.get("capital", 10))
     excluded = request.args.get("excluded_leagues", "")
-    excluded_list = [x.strip().lower() for x in excluded.split(",") if x.strip()] if excluded else []
+    # Séparateur "|" (pipe) car certaines exclusions contiennent une virgule
+    sep = "|" if "|" in excluded else ","
+    excluded_list = [x.strip().lower() for x in excluded.split(sep) if x.strip()] if excluded else []
     if not sid:
         return jsonify({"error": "param 'strategy' requis"}), 400
     s = load_strategy(sid)

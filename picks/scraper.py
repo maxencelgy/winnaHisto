@@ -15,18 +15,32 @@ from datetime import date
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from sofascore_massive import fetch as ss_fetch
 
-# ── Whitelist Winamax FR ──
+# ── Whitelist Winamax FR (élargie : couvre toutes les ligues affichées sur Winamax) ──
 WINAMAX_LEAGUES = {
     "football": ["premier league", "laliga", "la liga", "serie a", "bundesliga", "ligue 1",
                  "championship", "laliga 2", "serie b", "ligue 2", "champions league",
                  "europa league", "conference", "eredivisie", "liga portugal", "pro league",
                  "süper lig", "trendyol süper", "mls", "liga mx", "brasileirão", "brasileirao",
-                 "coupe", "fa cup", "primeira liga", "primera división"],
+                 "coupe", "fa cup", "primeira liga", "primera división",
+                 # Élargissement pour couvrir Winamax FR
+                 "k league", "k-league", "j1 league", "j league",
+                 "super league",  # Suisse, Grèce, Chine, etc.
+                 "saudi pro", "pro league",  # Saudi & UAE
+                 "uefa nations league", "nations league",
+                 "extraliga", "fortuna liga", "niké liga",  # Czech / Slovakia
+                 "veikkausliiga",  # Finland
+                 "a lyga",  # Lithuania
+                 "parva liga",  # Bulgaria
+                 "erovnuli",  # Georgia
+                 "ligat ha", "ligat haal",  # Israel
+                 "premiership",  # Scotland (déjà capté par premier league)
+                 "championship round", "championship", "championship play-off"],
     "basketball": ["nba", "wnba", "euroleague", "eurocup", "betclic élite", "pro a", "acb",
-                   "liga endesa", "lega basket", "serie a", "bbl", "champions league"],
+                   "liga endesa", "lega basket", "serie a", "bbl", "champions league",
+                   "champions league asia"],
     "ice-hockey": ["nhl", "khl", "shl", "liiga", "ligue magnus", "del", "national league",
                    "extraliga", "swiss"],
-    "baseball": ["mlb"],
+    "baseball": ["mlb", "npb"],  # NPB Japon
     "tennis": ["atp", "wta", "grand slam", "masters", "australian open", "roland garros",
                "wimbledon", "us open", "miami", "indian wells", "monte carlo", "madrid",
                "rome", "cincinnati", "shanghai", "paris masters"],
