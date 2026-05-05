@@ -454,12 +454,17 @@
   <div class="presets-bloc">
     <div class="presets-head">
       <span class="ptitle">Top complétion</span>
-      <button class="ptab active" data-color="n3" data-target="ppanel_mt_n3">🌸 Records WR strict</button>
+      <button class="ptab active" data-color="top" data-target="ppanel_mt_records">💎 Nouveaux Records</button>
+      <button class="ptab" data-color="n3" data-target="ppanel_mt_n3">🌸 Records WR strict</button>
       <button class="ptab" data-color="n2" data-target="ppanel_mt_n2">⭐ New xmkt OU/BTTS</button>
       <button class="ptab" data-color="top" data-target="ppanel_mt_top">🏆 Top 3 profils</button>
     </div>
     <div class="presets-content">
-      <div class="ppanel active" id="ppanel_mt_n3">
+      <div class="ppanel active" id="ppanel_mt_records">
+        <div class="ppanel-sub">Dernières pépites détectées le 05/05 (Interday 81% + Combos).</div>
+        <div class="grid k3" id="session_records_mt"></div>
+      </div>
+      <div class="ppanel" id="ppanel_mt_n3">
         <div class="ppanel-sub">WR strict ≥70% — EV 359 sur la #3.</div>
         <div class="grid k3" id="session_n3_mt"></div>
       </div>
@@ -508,12 +513,17 @@
   <div class="presets-bloc">
     <div class="presets-head">
       <span class="ptitle">Quick start</span>
-      <button class="ptab active" data-color="n3" data-target="ppanel_mtl_n3">🌸 Records WR strict</button>
+      <button class="ptab active" data-color="top" data-target="ppanel_mtl_records">💎 Nouveaux Records</button>
+      <button class="ptab" data-color="n3" data-target="ppanel_mtl_n3">🌸 Records WR strict</button>
       <button class="ptab" data-color="n2" data-target="ppanel_mtl_n2">⭐ New xmkt OU/BTTS</button>
       <button class="ptab" data-color="top" data-target="ppanel_mtl_top">🏆 Top 3 profils</button>
     </div>
     <div class="presets-content">
-      <div class="ppanel active" id="ppanel_mtl_n3">
+      <div class="ppanel active" id="ppanel_mtl_records">
+        <div class="ppanel-sub">Derniers records (Interday 81% + Combos), click pour pré-remplir.</div>
+        <div class="grid k3" id="session_records_mtlive"></div>
+      </div>
+      <div class="ppanel" id="ppanel_mtl_n3">
         <div class="ppanel-sub">WR strict ≥70%, click pour pré-remplir palier 1 + capital 10€.</div>
         <div class="grid k3" id="session_n3_mtlive"></div>
       </div>
@@ -1334,6 +1344,36 @@ async function loadMontanteStrategies() {
       });
     }
 
+    // 🆕 NOUVEAUX RECORDS — 05/05
+    const NEW_RECORDS_MT = ["montante_interday_o15_x3p_81pct_NEW_RECORD", "montante_combo_2j_x4p_50pct", "montante_combo_3j_x2p_60pct"];
+    const NEW_RECORDS_MT_BADGES = ["🏆 RECORD 81% WR", "💰 COMBO +250€", "⚡ EXPRESS 60%"];
+    const srecordsmtEl = $("session_records_mt");
+    if (srecordsmtEl) {
+      srecordsmtEl.innerHTML = NEW_RECORDS_MT.map((sid, i) => {
+        const s = d[sid];
+        if (!s) return "";
+        const v = s.validated || {};
+        const compl = v.completion_rate ? `${(v.completion_rate*100).toFixed(0)}% comp` : "";
+        const pnl = v.pnl_net_s1 ? `+${v.pnl_net_s1}€ S1` : "";
+        return `<div class="card" data-sid="${sid}" style="border:2px solid var(--blue); cursor:pointer;">
+          <div style="font-size:10px; color:var(--blue); margin-bottom:4px; font-weight:600;">${NEW_RECORDS_MT_BADGES[i]}</div>
+          <h3>${s.label}</h3>
+          <div class="desc">${(s.description||'').slice(0,140)}...</div>
+          <div class="perf">
+            ${pnl ? `<span class="v" style="color:var(--blue);">${pnl}</span>` : ""}
+            ${compl ? ` <span class="badge">${compl}</span>` : ""}
+          </div>
+        </div>`;
+      }).join("");
+      srecordsmtEl.querySelectorAll(".card").forEach(el => {
+        el.onclick = () => {
+          sel.value = el.dataset.sid;
+          sel.dispatchEvent(new Event("change"));
+          $("mt_run").scrollIntoView({behavior: "smooth", block: "center"});
+        };
+      });
+    }
+
     // 🆕 SESSION N3 onglet Montantes — TOP COMPLETION
     const SESSION_N3_MT = ["montante_interday_o15_x3p_77pct", "montante_xmkt_BTTSO_x3p_71pct_RECORD", "MWS_OU_x4p_wr70_NEW_TOP_EV_359"];
     const SESSION_N3_MT_BADGES = ["#1 77% completion ★ INTERDAY", "#2 71% completion BTTS+OU", "#3 60% completion +603€"];
@@ -1595,6 +1635,37 @@ async function loadMontanteLive() {
         </div>`;
       }).join("");
       sn2El.querySelectorAll(".card").forEach(el => {
+        el.onclick = () => {
+          sel.value = el.dataset.sid;
+          $("mtl_palier").value = 1;
+          $("mtl_capital").value = 10;
+          $("mtl_run").scrollIntoView({behavior: "smooth", block: "center"});
+        };
+      });
+    }
+
+    // 🆕 NOUVEAUX RECORDS — 05/05 LIVE
+    const NEW_RECORDS_MTL = ["montante_interday_o15_x3p_81pct_NEW_RECORD", "montante_combo_2j_x4p_50pct", "montante_combo_3j_x2p_60pct"];
+    const NEW_RECORDS_MTL_BADGES = ["🏆 RECORD 81% WR", "💰 COMBO +250€", "⚡ EXPRESS 60%"];
+    const srecordsmtlEl = $("session_records_mtlive");
+    if (srecordsmtlEl) {
+      srecordsmtlEl.innerHTML = NEW_RECORDS_MTL.map((sid, i) => {
+        const s = _mtlStrategies[sid];
+        if (!s) return "";
+        const v = s.validated || {};
+        const compl = v.completion_rate ? `${(v.completion_rate*100).toFixed(0)}% comp` : "";
+        const pnl = v.pnl_net_s1 ? `+${v.pnl_net_s1}€ S1` : "";
+        return `<div class="card" data-sid="${sid}" style="border:2px solid var(--blue); cursor:pointer;">
+          <div style="font-size:10px; color:var(--blue); margin-bottom:4px; font-weight:600;">${NEW_RECORDS_MTL_BADGES[i]}</div>
+          <h3>${s.label}</h3>
+          <div class="desc">${(s.description||'').slice(0,140)}...</div>
+          <div class="perf">
+            ${pnl ? `<span class="v" style="color:var(--blue);">${pnl}</span>` : ""}
+            ${compl ? ` <span class="badge">${compl}</span>` : ""}
+          </div>
+        </div>`;
+      }).join("");
+      srecordsmtlEl.querySelectorAll(".card").forEach(el => {
         el.onclick = () => {
           sel.value = el.dataset.sid;
           $("mtl_palier").value = 1;
