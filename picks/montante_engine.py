@@ -39,15 +39,17 @@ def _gen_days(start, end):
 
 
 def simulate(strategy, start_date, end_date, mode="interday", initial_stake=10,
-              use_oos_magic=True, excluded_leagues=None):
+              use_oos_magic=True, excluded_leagues=None, included_leagues=None):
     """Simule une montante.
     strategy : dict avec components[0] = {sports, market, cote_min, cote_max, sort_by, min_wr}
                 + montante = {n_paliers_target, ...}
     mode : "interday" (1 palier/jour) ou "intraday" (N paliers/jour)
     initial_stake : € de départ par cycle
     excluded_leagues : list de substrings (lowercase) — exclut les ligues correspondantes.
+    included_leagues : list de substrings (lowercase) — UNIQUEMENT ces ligues.
     """
     excl = [e.lower() for e in (excluded_leagues or []) if e and e.strip()]
+    incl = [i.lower() for i in (included_leagues or []) if i and i.strip()]
     magic = _load_magic(use_oos=use_oos_magic)
     comp = strategy["components"][0]
     montante_cfg = strategy.get("montante", {})
@@ -102,6 +104,8 @@ def simulate(strategy, start_date, end_date, mode="interday", initial_stake=10,
         idx = _get_index()
         ms = idx.get(d, [])
         ms = [m for m in ms if m["sport"] in sports and is_league_ok(m["sport"], m.get("league",""), category=m.get("category",""), excluded_user_leagues=excl)]
+        if incl:
+            ms = [m for m in ms if any(i in m.get("league","").lower() for i in incl)]
         if not ms:
             continue
         picks = []

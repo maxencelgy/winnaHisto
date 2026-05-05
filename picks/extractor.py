@@ -97,6 +97,12 @@ def rank_picks(events, magic, sort="wr", min_wr=0.50, min_ev=1.0,
         
         filtered = [p for p in filtered if is_validated(p)]
 
+    # Nouveau : Filtrage par ligues incluses
+    included_leagues = strategy_cfg.get("included_leagues")
+    if included_leagues:
+        included_leagues = [l.lower() for l in included_leagues]
+        filtered = [p for p in filtered if any(i in p["league"].lower() for i in included_leagues)]
+
     if sort == "wr":
         filtered.sort(key=lambda p: -p["wr"])
     elif sort == "ev":
