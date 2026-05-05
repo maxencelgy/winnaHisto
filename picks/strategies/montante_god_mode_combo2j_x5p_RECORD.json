@@ -1,0 +1,23 @@
+{
+  "id": "montante_god_mode_combo2j_x5p_RECORD",
+  "label": "🪜⚽🔥 GOD MODE : Combo 2j ×5P — +538€ PnL",
+  "description": "★★★ LA STRATÉGIE LA PLUS RENTABLE DÉTECTÉE. Mode Intraday ultra agressif : Combo de 2 matchs Over 1.5 par palier, sur 5 paliers. PnL stratosphérique de **+538€** sur S1-26 (mise 10€). Complétion de 22% compensée par des gains massifs.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football"], "market": "over_1_5",
+    "cote_min": 1.01, "cote_max": 1.40,
+    "sort_by": "wr", "max_legs": 2, "max_combos": 1,
+    "min_wr": 0.80, "min_ev": 1.05,
+    "legs_per_palier": 2
+  }],
+  "montante": {"initial_stake": 10, "n_paliers_target": 5, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 2},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (INTRADAY)",
+    "completion_rate": 0.22,
+    "pnl_net_s1": 538,
+    "note": "Pour ceux qui cherchent le profit maximum. 1 cycle gagnant sur 5 suffit à être largement rentable."
+  }
+}
