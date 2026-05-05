@@ -60,8 +60,9 @@ def extract_event_picks(ev, magic: Magic):
 
 
 def rank_picks(events, magic, sort="wr", min_wr=0.50, min_ev=1.0,
-               cote_min=1.0, cote_max=999, sports=None, markets=None, top=None):
+               cote_min=1.0, cote_max=999, sports=None, markets=None, top=None, strategy_cfg=None):
     """Extrait + filtre + trie picks de tous events."""
+    if strategy_cfg is None: strategy_cfg = {}
     from picks.league_filter import is_league_ok
     all_picks = []
     for ev in events:
@@ -78,6 +79,23 @@ def rank_picks(events, magic, sort="wr", min_wr=0.50, min_ev=1.0,
                 and cote_min <= p["cote"] <= cote_max]
     if markets:
         filtered = [p for p in filtered if p["market"] in markets]
+
+    # Nouveau : Validation Croisée (Double Check)
+    validation_market = strategy_cfg.get("validation_market")
+    validation_min_wr = strategy_cfg.get("validation_min_wr")
+    if validation_market and validation_min_wr:
+        # On regroupe tous les picks par match pour vérifier les corrélations
+        by_match = {}
+        for p in all_picks:
+            if p["match"] not in by_match: by_match[p["match"]] = []
+            by_match[p["match"]].append(p)
+        
+        def is_validated(pick):
+            others = by_match.get(pick["match"], [])
+            # On cherche si un pick du validation_market sur le même match a un WR suffisant
+            return any(o["market"] == validation_market and o["wr"] >= validation_min_wr for o in others)
+        
+        filtered = [p for p in filtered if is_validated(p)]
 
     if sort == "wr":
         filtered.sort(key=lambda p: -p["wr"])

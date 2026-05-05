@@ -114,6 +114,16 @@ def simulate(strategy, start_date, end_date, mode="interday", initial_stake=10,
             picks = [p for p in picks if p["wr"] >= min_wr]
         if min_ev is not None:
             picks = [p for p in picks if p["wr"]*p["odds"] >= min_ev]
+
+        # Nouveau : Cross-Validation
+        val_mkt = comp.get("validation_market")
+        val_wr = comp.get("validation_min_wr")
+        if val_mkt and val_wr:
+            # On charge le marché de validation pour les mêmes matchs
+            ref_val = magic_ext if val_mkt in ("btts","over_1_5","over_2_5") else magic
+            v_picks = extract_picks(ms, ref_val, market=val_mkt)
+            v_by_m = {vp["match"]: vp["wr"] for vp in v_picks if vp["selection"] in ("Plus de 2.5 buts", "Plus de 1.5 buts", "BTTS Oui", "Oui")}
+            picks = [p for p in picks if v_by_m.get(p["match"], 0) >= val_wr]
         # Dédup par (match, selection) pour éviter doubles
         seen_ms = set()
         unique = []

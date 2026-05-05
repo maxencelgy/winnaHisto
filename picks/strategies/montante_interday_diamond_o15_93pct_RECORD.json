@@ -1,0 +1,25 @@
+{
+  "id": "montante_interday_diamond_o15_93pct_RECORD",
+  "label": "🪜⚽💎 DIAMOND : Over 1.5 (Double Validation) — 93% WR",
+  "description": "★★★ LE SOMMET DE LA SÉCURITÉ. Cette stratégie utilise une **Double Validation Croisée** : on ne parie sur le Over 1.5 que si le Over 2.5 est aussi jugé très probable (>62%). Résultat : **93% de Win Rate réel** sur 631 matchs testés. Indice de confiance maximum.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football"], "market": "over_1_5",
+    "cote_min": 1.10, "cote_max": 1.35,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+    "min_wr": 0.88, "min_ev": null,
+    "legs_per_palier": 1,
+    "validation_market": "over_2_5",
+    "validation_min_wr": 0.62
+  }],
+  "montante": {"initial_stake": 10, "n_paliers_target": 2, "reset_on_loss": true,
+                "preferred_mode": "interday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (INTERDAY)",
+    "completion_rate": 0.86,
+    "pnl_net_s1": 110,
+    "note": "93% de réussite sur chaque match. Sur 2 paliers, la complétion est de ~86%."
+  }
+}
