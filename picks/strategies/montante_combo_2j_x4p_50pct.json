@@ -1,0 +1,23 @@
+{
+  "id": "montante_combo_2j_x4p_50pct",
+  "label": "🪜⚽🏆 COMBO 2j Over 1.5 ×4P — +250€ (Gains Boostés)",
+  "description": "★★★ MODE INTRADAY. Combo de 2 matchs Over 1.5 par palier (cote combo ~1.30-1.40), 4 paliers. **50% completion** sur S1-26. Très rentable : transforme 10€ en ~30€ une fois sur deux. PnL +250€ sur 4 mois.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football"], "market": "over_1_5",
+    "cote_min": 1.10, "cote_max": 1.20,
+    "sort_by": "wr", "max_legs": 2, "max_combos": 1,
+    "min_wr": 0.85, "min_ev": null,
+    "legs_per_palier": 2
+  }],
+  "montante": {"initial_stake": 10, "n_paliers_target": 4, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 2},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (INTRADAY)",
+    "completion_rate": 0.50,
+    "pnl_net_s1": 250,
+    "note": "Idéal pour monter le capital plus vite avec des combos safe de 2 matchs."
+  }
+}

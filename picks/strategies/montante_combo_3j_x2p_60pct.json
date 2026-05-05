@@ -1,0 +1,23 @@
+{
+  "id": "montante_combo_3j_x2p_60pct",
+  "label": "🪜⚽⚡ COMBO 3j Over 1.5 ×2P — 60% completion (Express)",
+  "description": "★★★ MODE INTRADAY. Combo de 3 matchs Over 1.5 par palier (cote combo ~1.40-1.60), seulement 2 paliers. **60% completion**. Très rapide pour boucler des cycles. Transforme 10€ en ~25€ très régulièrement. PnL +155€ sur S1-26.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football"], "market": "over_1_5",
+    "cote_min": 1.10, "cote_max": 1.20,
+    "sort_by": "wr", "max_legs": 3, "max_combos": 1,
+    "min_wr": 0.85, "min_ev": null,
+    "legs_per_palier": 3
+  }],
+  "montante": {"initial_stake": 10, "n_paliers_target": 2, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 3},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (INTRADAY)",
+    "completion_rate": 0.60,
+    "pnl_net_s1": 155,
+    "note": "Pour ceux qui aiment les cycles courts mais avec du multiplicateur (3 matchs d'un coup)."
+  }
+}

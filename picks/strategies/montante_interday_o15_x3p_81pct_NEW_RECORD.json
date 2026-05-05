@@ -1,0 +1,23 @@
+{
+  "id": "montante_interday_o15_x3p_81pct_NEW_RECORD",
+  "label": "🪜📅⚽👑 NEW RECORD : INTERDAY Over 1.5 ×3P — 81% completion",
+  "description": "★★★ NOUVEAU RECORD ABSOLU INTERDAY. Version encore plus sélective que la 77%. Odds 1.05-1.15 avec filtre WR strict 90%. **81.1% completion** sur 4 mois. PnL +89€. La stabilité ultime pour une montante tranquille.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football"], "market": "over_1_5",
+    "cote_min": 1.05, "cote_max": 1.15,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+    "min_wr": 0.90, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 10, "n_paliers_target": 3, "reset_on_loss": true,
+                "preferred_mode": "interday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (INTERDAY)",
+    "completion_rate": 0.81,
+    "pnl_net_s1": 89,
+    "note": "81% de cycles réussis. C'est du jamais vu sur 4 mois de data."
+  }
+}
