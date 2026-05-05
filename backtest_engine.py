@@ -145,6 +145,12 @@ def extract_picks(matches, magic_table, market="1x2", bucket_fn=None):
             ("Over 2.5", "OV25", "odds_over_2_5", lambda m: m.get("over_2_5", False), "over_2_5"),
             ("Under 2.5", "UN25", "odds_under_2_5", lambda m: not m.get("over_2_5", False), "under_2_5"),
         ]
+    elif market == "1x":
+        # Double Chance 1X
+        sides = [("1X", "1X", ("odds_1", "odds_x"), lambda m: m["home_won"] or m["is_draw"], "1x2")]
+    elif market == "x2":
+        # Double Chance X2
+        sides = [("X2", "X2", ("odds_2", "odds_x"), lambda m: not m["home_won"], "1x2")]
     else:
         sides = [
             ("Home", "1", "odds_1", lambda m: m["home_won"], "1x2"),
@@ -171,37 +177,58 @@ def extract_picks(matches, magic_table, market="1x2", bucket_fn=None):
             if not magic:
                 continue
             won = won_fn(m)
-            cote = m.get(cote_field)
-            if not cote or cote <= 1:
-                continue
-            c_round = round_cote(cote)
-            for mc, val in magic.items():
-                mc = float(mc)
-                if abs(c_round - mc) <= 0.01:
-                    wr = val["wr"] if isinstance(val, dict) else val
-                    if side == "1": selection = m["home"]
-                    elif side == "2": selection = m["away"]
-                    elif side == "X": selection = "Match nul"
-                    elif side == "BTTS_Y": selection = "Les 2 marquent (Oui)"
-                    elif side == "BTTS_N": selection = "Les 2 marquent (Non)"
-                    elif side == "OV15": selection = "Plus de 1.5 buts"
-                    elif side == "UN15": selection = "Moins de 1.5 buts"
-                    elif side == "OV25": selection = "Plus de 2.5 buts"
-                    elif side == "UN25": selection = "Moins de 2.5 buts"
-                    else: selection = side
-                    picks.append({
-                        "sport": m["sport"],
-                        "league": m["league"],
-                        "match": f'{m["home"]} vs {m["away"]}',
-                        "selection": selection,
-                        "side": side,
-                        "odds": cote,
-                        "wr": wr,
-                        "ev": wr * cote - 1,
-                        "won": won,
-                        "score": f'{m["hs"]}-{m["as"]}',
-                    })
-                    break
+            if isinstance(cote_field, tuple):
+                # Double Chance 1X ou X2
+                o1 = fnum(m.get(cote_field[0]))
+                o2 = fnum(m.get(cote_field[1]))
+                if not o1 or not o2: continue
+                cote = round_cote(0.95 / ((1.0/o1) + (1.0/o2)))
+                c_round = round_cote(cote)
+                # On additionne les probabilités du modèle
+                wr1 = 0; wr2 = 0
+                for mc, val in magic.items():
+                    p_wr = val["wr"] if isinstance(val, dict) else val
+                    if abs(float(mc) - round_cote(o1)) <= 0.01: wr1 = p_wr
+                    if abs(float(mc) - round_cote(o2)) <= 0.01: wr2 = p_wr
+                wr = wr1 + wr2
+                if wr == 0: continue
+            else:
+                cote = m.get(cote_field)
+                if not cote or cote <= 1: continue
+                c_round = round_cote(cote)
+                wr = 0
+                for mc, val in magic.items():
+                    if abs(c_round - float(mc)) <= 0.01:
+                        wr = val["wr"] if isinstance(val, dict) else val
+                        break
+                if wr == 0: continue
+
+            # On a le WR et la Cote, on peut créer le pick
+            if side == "1": selection = m["home"]
+            elif side == "2": selection = m["away"]
+            elif side == "X": selection = "Match nul"
+            elif side == "BTTS_Y": selection = "Les 2 marquent (Oui)"
+            elif side == "BTTS_N": selection = "Les 2 marquent (Non)"
+            elif side == "OV15": selection = "Plus de 1.5 buts"
+            elif side == "UN15": selection = "Moins de 1.5 buts"
+            elif side == "OV25": selection = "Plus de 2.5 buts"
+            elif side == "UN25": selection = "Moins de 2.5 buts"
+            elif side == "1X": selection = f"{m['home']} ou Nul"
+            elif side == "X2": selection = f"{m['away']} ou Nul"
+            else: selection = side
+            picks.append({
+                "sport": m["sport"],
+                "league": m["league"],
+                "match": f'{m["home"]} vs {m["away"]}',
+                "selection": selection,
+                "side": side,
+                "odds": cote,
+                "wr": wr,
+                "ev": wr * cote - 1,
+                "won": won,
+                "score": f'{m["hs"]}-{m["as"]}',
+            })
+            break
     return picks
 
 

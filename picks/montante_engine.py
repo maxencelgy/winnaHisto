@@ -110,7 +110,7 @@ def simulate(strategy, start_date, end_date, mode="interday", initial_stake=10,
             continue
         picks = []
         for mkt in markets:
-            ref = magic_ext if mkt in ("btts","over_1_5","over_2_5") else magic
+            ref = magic_ext if mkt in ("btts","over_1_5","over_2_5","over_0_5","1x","x2") else magic
             ps = extract_picks(ms, ref, market=mkt)
             picks.extend(ps)
         picks = [p for p in picks if cmin <= p["odds"] <= cmax]

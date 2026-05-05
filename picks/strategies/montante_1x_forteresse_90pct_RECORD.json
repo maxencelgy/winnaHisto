@@ -1,0 +1,24 @@
+{
+  "id": "montante_1x_forteresse_90pct_RECORD",
+  "label": "🪜⚽🧱 LA FORTERESSE : Double Chance 1X — 90% WR",
+  "description": "★★★ LE MUR INFRANCHISSABLE. Cette stratégie parie uniquement sur la Double Chance (Victoire Domicile ou Nul) dans les ligues Meta. Avec un taux de réussite de **90.3%**, c'est la montante la plus stable pour protéger son capital tout en grimpant sereinement.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football"], "market": "1x",
+    "cote_min": 1.05, "cote_max": 1.25,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+    "min_wr": 0.92, "min_ev": 1.01,
+    "legs_per_palier": 1,
+    "included_leagues": ["vriendenloterij eredivisie", "liga mx", "mls", "la liga", "premier league", "bundesliga", "serie a", "ligue 1", "fa cup", "copa del rey"]
+  }],
+  "montante": {"initial_stake": 10, "n_paliers_target": 3, "reset_on_loss": true,
+                "preferred_mode": "interday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "validated": {
+    "period": "Historique 2025-2026",
+    "completion_rate": 0.73,
+    "pnl_net_s1": 85,
+    "note": "90% de succès par match. Sur 3 paliers, on finit le cycle 3 fois sur 4."
+  }
+}
