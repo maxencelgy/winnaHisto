@@ -1,0 +1,23 @@
+{
+  "id": "montante_intraday_o15_x5p_52pct_ULTIMATE",
+  "label": "🪜⚽💎 ULTIMATE INTRADAY : Over 1.5 ×5P — +452€ PnL",
+  "description": "★★★ LA MEILLEURE STRATÉGIE INTRADAY DÉTECTÉE. Un équilibre parfait : **52% de complétion** sur 5 paliers. PnL massif de +452€ sur S1-26 (mise 10€). On gagne un cycle sur deux. Cotes 1.15-1.30 triées par EV.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football"], "market": "over_1_5",
+    "cote_min": 1.15, "cote_max": 1.30,
+    "sort_by": "ev", "max_legs": 1, "max_combos": 1,
+    "min_wr": 0.80, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 10, "n_paliers_target": 5, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (INTRADAY)",
+    "completion_rate": 0.52,
+    "pnl_net_s1": 452,
+    "note": "Le roi de l'intraday. Volume élevé (~80 cycles en 4 mois), rentabilité exceptionnelle."
+  }
+}
