@@ -140,6 +140,11 @@ def extract_picks(matches, magic_table, market="1x2", bucket_fn=None):
             ("Over 1.5", "OV15", "odds_over_1_5", lambda m: m.get("over_1_5", False), "over_1_5"),
             ("Under 1.5", "UN15", "odds_under_1_5", lambda m: not m.get("over_1_5", False), "under_1_5"),
         ]
+    elif market == "over_0_5":
+        sides = [
+            ("Over 0.5", "OV05", "odds_over_0_5", lambda m: m.get("over_0_5", False), "over_0_5"),
+            ("Under 0.5", "UN05", "odds_under_0_5", lambda m: not m.get("over_0_5", False), "under_0_5"),
+        ]
     elif market == "over_2_5":
         sides = [
             ("Over 2.5", "OV25", "odds_over_2_5", lambda m: m.get("over_2_5", False), "over_2_5"),
@@ -209,6 +214,8 @@ def extract_picks(matches, magic_table, market="1x2", bucket_fn=None):
             elif side == "X": selection = "Match nul"
             elif side == "BTTS_Y": selection = "Les 2 marquent (Oui)"
             elif side == "BTTS_N": selection = "Les 2 marquent (Non)"
+            elif side == "OV05": selection = "Plus de 0.5 buts"
+            elif side == "UN05": selection = "Moins de 0.5 buts"
             elif side == "OV15": selection = "Plus de 1.5 buts"
             elif side == "UN15": selection = "Moins de 1.5 buts"
             elif side == "OV25": selection = "Plus de 2.5 buts"

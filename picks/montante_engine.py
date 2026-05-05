@@ -63,7 +63,7 @@ def simulate(strategy, start_date, end_date, mode="interday", initial_stake=10,
     legs_per_palier = montante_cfg.get("combo_legs_per_palier") or comp.get("legs_per_palier") or comp.get("max_legs", 1)
     # Charger magic extended si on a des markets non-1x2
     magic_ext = None
-    if any(m in ("btts","over_1_5","over_2_5") for m in markets):
+    if any(m in ("btts","over_1_5","over_2_5","over_0_5","1x","x2") for m in markets):
         ext_path = os.path.join(ROOT, "datasets",
             "magic_cotes_extended_oos.json" if use_oos_magic else "magic_cotes_extended.json")
         if not os.path.exists(ext_path):
