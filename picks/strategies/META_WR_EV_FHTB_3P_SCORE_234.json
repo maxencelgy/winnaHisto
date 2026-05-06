@@ -1,0 +1,30 @@
+{
+  "id": "META_WR_EV_FHTB_3P_SCORE_234",
+  "label": "🏆🆕 META WR+EV FHTB 3P 1.30-1.50 — 94 cycles cap 1950€ +13999€ ★ BEST SCORE 234",
+  "description": "★★★★★ NOUVEAU BEST SCORE LIB 234 : 4 sports xmkt cote 1.30-1.50 **double filtre WR≥65 + EV≥1.00** sort=ev legs=3 3 paliers. **12.8% completion sur 94 cycles testés**. Cap 1950€ (×19.5 BR). PnL +13999€ S1-26.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football", "ice-hockey", "tennis", "basketball"],
+    "market": "1x2,btts,over_1_5,over_2_5",
+    "cote_min": 1.30, "cote_max": 1.50,
+    "sort_by": "ev", "max_legs": 1, "max_combos": 1,
+    "min_wr": 0.65, "min_ev": 1.00,
+    "legs_per_palier": 3
+  }],
+  "montante": {"initial_stake": 100, "n_paliers_target": 3, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 3},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "challenge_target": {"start": 100, "end": 1900, "expected_cap": 1950},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.128,
+    "n_cycles_complete": 12,
+    "n_cycles_total": 94,
+    "avg_capital_complete": 1950,
+    "final_pnl": 13999,
+    "winamax_fr": true,
+    "source": "find_wr_and_ev (WE_FHTB_1.3-1.5_wr65_ev100_l3_p3_ev)",
+    "note": "★★★★★ Double filtre = WR≥65 (pick reliable) ET EV≥1.00 (positive edge). Combo legs=3 cote 1.30-1.50 → cap 1950€."
+  }
+}

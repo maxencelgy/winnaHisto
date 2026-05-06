@@ -1,0 +1,31 @@
+{
+  "id": "META_3P_85PCT_COMP",
+  "label": "🟢🛡️ META 3P COMP 85% — FH xmkt cote 1.05-1.15 WR≥88% — 40 cycles cap 138€",
+  "description": "★★★★★ COMPLETION 85% sur 3 paliers : Foot+Hockey xmkt cote 1.05-1.15 WR magic ≥88%. Best-of-9 selection per match. **85.0% completion sur 40 cycles testés**. Cap 138€. P3=99.7%, P5≈100%. Pour qui veut quasi-garantir l'aboutissement par cycle (15% d'échec seulement par tentative).",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football", "ice-hockey"],
+    "market": "1x2,btts,over_1_5,over_2_5",
+    "cote_min": 1.05, "cote_max": 1.15,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+    "min_wr": 0.88, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 100, "n_paliers_target": 3, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "challenge_target": {"start": 100, "end": 130, "expected_cap": 138},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.85,
+    "n_cycles_complete": 34,
+    "n_cycles_total": 40,
+    "avg_capital_complete": 138,
+    "prob_target_3_cycles": 99.7,
+    "prob_target_5_cycles": 99.99,
+    "winamax_fr": true,
+    "source": "sweep_80pct_comp (META 85% completion 3p)",
+    "note": "★★★★★ 85% completion = quasi-garantie d'aboutir. 40 cycles validés. Cap modeste (138€) car cote ultra-basse 1.05-1.15. Trade-off : moins de PnL mais ultra-safe."
+  }
+}

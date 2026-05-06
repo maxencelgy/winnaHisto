@@ -1,0 +1,31 @@
+{
+  "id": "META_BTTS_BUND_SINGLE_RECORD",
+  "label": "🏆🆕 META BTTS BUND 1-SHOT — 82.9% completion 35 cycles +1756€ RECORD SINGLE",
+  "description": "★★★★★ NOUVEAU RECORD COMPLETION SINGLE-SHOT : BTTS Yes Bundesliga cote 1.70-2.00 sort=wr — **82.9% completion sur 35 cycles testés** (record absolu sur 1 palier). 1 pari par cycle, cap 181€. PnL +1756€ S1-26 OOS. Issu de la recherche tipsters (Bundesliga BTTS-friendly 55-65% historique).",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football"],
+    "market": "btts",
+    "cote_min": 1.70, "cote_max": 2.00,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+    "min_wr": null, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 100, "n_paliers_target": 1, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "included_leagues": ["bundesliga"],
+  "challenge_target": {"start": 100, "end": 180, "expected_cap": 181},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.829,
+    "n_cycles_complete": 29,
+    "n_cycles_total": 35,
+    "avg_capital_complete": 181,
+    "final_pnl": 1756,
+    "winamax_fr": true,
+    "source": "find_web_research_angles (G_BTTS_BUND_1.7-2.0_p1_wrNone_wr)",
+    "note": "★★★★★ 82.9% completion = quasi quotidien gagnant. 1 seul pari Bundesliga BTTS Yes. Edge Bundesliga: ligue à fort scoring, BTTS Yes systématiquement payant. Sweet spot cote 1.70-2.00."
+  }
+}

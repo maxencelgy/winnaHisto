@@ -1,0 +1,30 @@
+{
+  "id": "META_AGGRO_FHTB_4P_10K",
+  "label": "🏆🆕 META AGGRO FHTB 4P 1.30-1.50 WR≥60% — 13.5% comp 111 cycles +10097€",
+  "description": "★★★★★ Variante RÉALISTE du LOTTERY : 4-sports xmkt cote 1.30-1.50 WR magic ≥60% sort=ev 4 paliers combo 2 jambes. **13.5% completion sur 111 cycles testés**. Cap 1413€. PnL **+10097€** S1-26 — meilleur PnL réaliste (comp ≥10%) de la lib.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football", "ice-hockey", "tennis", "basketball"],
+    "market": "1x2,btts,over_1_5,over_2_5",
+    "cote_min": 1.30, "cote_max": 1.50,
+    "sort_by": "ev", "max_legs": 1, "max_combos": 1,
+    "min_wr": 0.60, "min_ev": null,
+    "legs_per_palier": 2
+  }],
+  "montante": {"initial_stake": 100, "n_paliers_target": 4, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 2},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "challenge_target": {"start": 100, "end": 1300, "expected_cap": 1413},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.135,
+    "n_cycles_complete": 15,
+    "n_cycles_total": 111,
+    "avg_capital_complete": 1413,
+    "final_pnl": 10097,
+    "winamax_fr": true,
+    "source": "find_aggro_pnl_hunt (A_FHTB_1.3-1.5_wr0.6_p4_legs2_ev)",
+    "note": "★★★★★ 4 paliers × combo 2j cote 1.3-1.5 → cap 1413€ (×14 BR). 15 succès sur 111 cycles. Plus réaliste que LOTTERY 5P, comp 13.5% atteignable. PnL +10097€."
+  }
+}

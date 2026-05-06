@@ -1,0 +1,30 @@
+{
+  "id": "META_COMBO7_F_3P_58K",
+  "label": "🏆🆕💎 META COMBO7 FOOT 3P 1.30-1.40 WR≥65% — cap 62842€ +58642€",
+  "description": "★★★★★💎 Football pure xmkt cote 1.30-1.40 WR magic ≥65% sort=ev 3 paliers combo 7 jambes. **2.38% completion sur 42 cycles testés**. Cap 62842€ (×628 BR). PnL **+58642€** S1-26 OOS — 2nd record PnL absolu lib (après MEGA_LOTTERY +106201€).",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football"],
+    "market": "1x2,btts,over_1_5,over_2_5",
+    "cote_min": 1.30, "cote_max": 1.40,
+    "sort_by": "ev", "max_legs": 1, "max_combos": 1,
+    "min_wr": 0.65, "min_ev": null,
+    "legs_per_palier": 7
+  }],
+  "montante": {"initial_stake": 100, "n_paliers_target": 3, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 7},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "challenge_target": {"start": 100, "end": 60000, "expected_cap": 62842},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.0238,
+    "n_cycles_complete": 1,
+    "n_cycles_total": 42,
+    "avg_capital_complete": 62842,
+    "final_pnl": 58642,
+    "winamax_fr": true,
+    "source": "find_legs67_extreme (L7_F_1.3-1.4_wr0.65_p3_ev)",
+    "note": "★★★★★💎 21 picks par cycle (7 legs × 3 paliers) Foot pure cote 1.30-1.40 WR≥65%. Cote totale ~6.4 par palier × 3 = ×260 BR théorique. PnL +58642€ via 1 cycle gagnant sur 42."
+  }
+}

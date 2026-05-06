@@ -1,0 +1,31 @@
+{
+  "id": "META_EU_HOCKEY_2P_66PCT",
+  "label": "🏆🆕🏒 META EU HOCKEY 2P 1.30-1.55 WR≥65% — 66% comp 50 cycles +1554€",
+  "description": "★★★★★ Hockey européen (SHL+DEL+Liiga+National League) 1x2 cote 1.30-1.55 WR≥65% sort=wr 2 paliers. **66.0% completion sur 50 cycles testés** (high comp hockey). Cap 199€. PnL +1554€.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["ice-hockey"],
+    "market": "1x2",
+    "cote_min": 1.30, "cote_max": 1.55,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+    "min_wr": 0.65, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 100, "n_paliers_target": 2, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "included_leagues": ["shl", "del", "liiga", "national league"],
+  "challenge_target": {"start": 100, "end": 195, "expected_cap": 199},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.660,
+    "n_cycles_complete": 33,
+    "n_cycles_total": 50,
+    "avg_capital_complete": 199,
+    "final_pnl": 1554,
+    "winamax_fr": true,
+    "source": "find_hockey_tennis_advanced (H_EU_HOCKEY_1.3-1.55_wr0.65_p2_wr)",
+    "note": "★★★★★ Hockey européen seul (sans NHL ni KHL) — 66% comp + 50 cycles. Sans bias volume NHL."
+  }
+}

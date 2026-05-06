@@ -1,0 +1,30 @@
+{
+  "id": "META_HIGHCOTE_F_XMKT_3P_RECORD_PNL",
+  "label": "🏆🆕 META HIGHCOTE F XMKT 3P cote 1.70-2.00 WR≥60% — 96 cycles +4125€ RECORD PnL 3P",
+  "description": "★★★★★ NOUVEAU RECORD PnL ABSOLU 3P : Foot xmkt (1x2,btts,over_1_5,over_2_5) cote 1.70-2.00 WR magic ≥60% sort=ev 3 paliers. **25.0% completion sur 96 cycles testés** (record volume 3p). Cap 572€. PnL **+4125€** S1-26 OOS — meilleur PnL absolu sur 3 paliers de la lib.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football"],
+    "market": "1x2,btts,over_1_5,over_2_5",
+    "cote_min": 1.70, "cote_max": 2.00,
+    "sort_by": "ev", "max_legs": 1, "max_combos": 1,
+    "min_wr": 0.60, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 100, "n_paliers_target": 3, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "challenge_target": {"start": 100, "end": 500, "expected_cap": 572},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.250,
+    "n_cycles_complete": 24,
+    "n_cycles_total": 96,
+    "avg_capital_complete": 572,
+    "final_pnl": 4125,
+    "winamax_fr": true,
+    "source": "find_new_records_v2 (NR2_0416)",
+    "note": "★★★★★ Foot xmkt sort=ev cote 1.70-2.00 — best-of-9 selection per match × 3 paliers ×1.85. 96 cycles validés. ROI +42.5%. Record PnL absolu 3P."
+  }
+}

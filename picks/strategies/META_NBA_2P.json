@@ -1,0 +1,31 @@
+{
+  "id": "META_NBA_2P",
+  "label": "🏆🆕 META NBA 2P 1x2 cote 1.30-1.50 WR≥65% — 41 cycles 70.7% comp +1421€",
+  "description": "★★★★★ NBA basketball 1x2 cote 1.30-1.50 WR magic ≥65% sort=ev 2 paliers. **70.7% completion sur 41 cycles testés**. Cap 190€. PnL +1421€ S1-26 — première stratégie NBA filtrée league de la lib.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["basketball"],
+    "market": "1x2",
+    "cote_min": 1.30, "cote_max": 1.50,
+    "sort_by": "ev", "max_legs": 1, "max_combos": 1,
+    "min_wr": 0.65, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 100, "n_paliers_target": 2, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "included_leagues": ["nba"],
+  "challenge_target": {"start": 100, "end": 180, "expected_cap": 190},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.707,
+    "n_cycles_complete": 29,
+    "n_cycles_total": 41,
+    "avg_capital_complete": 190,
+    "final_pnl": 1421,
+    "winamax_fr": true,
+    "source": "find_more_angles_v5 (O_BASKET_NBA_1.3-1.5_p2_wr0.65_ev)",
+    "note": "★★★★★ NBA cote 1.30-1.50 = favoris modérés. 70.7% comp + 41 cycles = solide. Couvre le gap basket dans la lib."
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "META_NBA_3P",
+  "label": "🏆🆕 META NBA 3P 1x2 cote 1.30-1.50 WR≥65% — 30 cycles 60% comp +1690€",
+  "description": "★★★★★ NBA basketball 1x2 cote 1.30-1.50 WR magic ≥65% sort=wr 3 paliers. **60.0% completion sur 30 cycles testés**. Cap 261€. PnL +1690€ S1-26.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["basketball"],
+    "market": "1x2",
+    "cote_min": 1.30, "cote_max": 1.50,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+    "min_wr": 0.65, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 100, "n_paliers_target": 3, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "included_leagues": ["nba"],
+  "challenge_target": {"start": 100, "end": 250, "expected_cap": 261},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.600,
+    "n_cycles_complete": 18,
+    "n_cycles_total": 30,
+    "avg_capital_complete": 261,
+    "final_pnl": 1690,
+    "winamax_fr": true,
+    "source": "find_more_angles_v5 (O_BASKET_NBA_1.3-1.5_p3_wr0.65_wr)",
+    "note": "★★★★★ Variante 3P de META_NBA_2P — 60% comp + cap 261€. Top PnL basketball lib."
+  }
+}

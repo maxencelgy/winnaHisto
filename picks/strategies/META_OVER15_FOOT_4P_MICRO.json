@@ -1,0 +1,30 @@
+{
+  "id": "META_OVER15_FOOT_4P_MICRO",
+  "label": "🏆🆕 META OVER 1.5 FOOT 4P MICRO 1.15-1.25 WR≥80% — 82 cycles 62% comp +3000€",
+  "description": "★★★★★ Football Over 1.5 cote 1.15-1.25 WR≥80% sort=ev 4 paliers MICRO. **62.2% completion sur 82 cycles testés**. Cap 220€. PnL +3000€ — micro-cote ultra-sûre 4 paliers.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football"],
+    "market": "over_1_5",
+    "cote_min": 1.15, "cote_max": 1.25,
+    "sort_by": "ev", "max_legs": 1, "max_combos": 1,
+    "min_wr": 0.80, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 100, "n_paliers_target": 4, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "challenge_target": {"start": 100, "end": 215, "expected_cap": 220},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.622,
+    "n_cycles_complete": 51,
+    "n_cycles_total": 82,
+    "avg_capital_complete": 220,
+    "final_pnl": 3000,
+    "winamax_fr": true,
+    "source": "find_btts_strict (B_o15_1.15-1.25_wr0.8_p4_ev)",
+    "note": "★★★★★ Micro-cote Over 1.5 + WR≥80% = ultra-safe 4P. 62% comp = 5/8 cycles aboutissent. 82 cycles validés."
+  }
+}

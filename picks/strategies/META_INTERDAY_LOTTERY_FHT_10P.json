@@ -1,0 +1,30 @@
+{
+  "id": "META_INTERDAY_LOTTERY_FHT_10P",
+  "label": "🏆🆕💎 META INTERDAY LOTTERY FHT 10P 1x2 1.60-2.00 WR≥70% — +14601€",
+  "description": "★★★★★💎 INTERDAY LOTTERY : FHT 1x2 cote 1.60-2.00 WR magic ≥70% sort=ev 10 paliers (1 palier/jour). **5.3% completion sur 19 cycles testés** (1 succès sur 19 = lottery extrême). Cap **16501€** (×165 BR). PnL +14601€ S1-26 OOS.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football", "ice-hockey", "tennis"],
+    "market": "1x2",
+    "cote_min": 1.60, "cote_max": 2.00,
+    "sort_by": "ev", "max_legs": 1, "max_combos": 1,
+    "min_wr": 0.70, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 100, "n_paliers_target": 10, "reset_on_loss": true,
+                "preferred_mode": "interday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "challenge_target": {"start": 100, "end": 15000, "expected_cap": 16501},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.053,
+    "n_cycles_complete": 1,
+    "n_cycles_total": 19,
+    "avg_capital_complete": 16501,
+    "final_pnl": 14601,
+    "winamax_fr": true,
+    "source": "find_interday_winners (I_FHT_1.6-2.0_wr0.7_p10_ev)",
+    "note": "★★★★★💎 LOTTERY INTERDAY 10 paliers — 1 pari/jour pendant 10 jours. 5.3% comp = 1/19 cycles aboutit. Cap ×165 BR. PnL +14601€."
+  }
+}

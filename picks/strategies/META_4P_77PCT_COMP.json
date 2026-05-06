@@ -1,0 +1,31 @@
+{
+  "id": "META_4P_77PCT_COMP",
+  "label": "🟢🛡️ META 4P COMP 77% — FH xmkt cote 1.05-1.15 WR≥88% — 31 cycles cap 154€",
+  "description": "★★★★ COMPLETION 77.4% sur 4 paliers : Foot+Hockey xmkt cote 1.05-1.15 WR magic ≥88%. **77.4% completion sur 31 cycles testés** (le mieux atteignable sur 4p — 80% strict mathématiquement difficile à dépasser). Cap 154€. P3=98.8%, P5=99.94%. Variante 4p du META_3P_85PCT_COMP pour cap légèrement supérieur.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football", "ice-hockey"],
+    "market": "1x2,btts,over_1_5,over_2_5",
+    "cote_min": 1.05, "cote_max": 1.15,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+    "min_wr": 0.88, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 100, "n_paliers_target": 4, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "challenge_target": {"start": 100, "end": 150, "expected_cap": 154},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.774,
+    "n_cycles_complete": 24,
+    "n_cycles_total": 31,
+    "avg_capital_complete": 154,
+    "prob_target_3_cycles": 98.8,
+    "prob_target_5_cycles": 99.94,
+    "winamax_fr": true,
+    "source": "sweep_80pct_comp (META 77% completion 4p)",
+    "note": "★★★★ Le mieux possible sur 4p en s'approchant de 80%. 4 paliers ×1.10 → cap 154€. Pour 80% strict il faudrait WR≥95% ce qui filtre quasi tout."
+  }
+}

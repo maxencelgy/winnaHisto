@@ -458,6 +458,7 @@
       <button class="ptab" data-color="n3" data-target="ppanel_mt_n3">🌸 Records WR strict</button>
       <button class="ptab" data-color="n2" data-target="ppanel_mt_n2">⭐ New xmkt OU/BTTS</button>
       <button class="ptab" data-color="top" data-target="ppanel_mt_top">🏆 Top 3 profils</button>
+      <button class="ptab" data-color="top" data-target="ppanel_mt_topcomp">🏆 Top complétion</button>
     </div>
     <div class="presets-content">
       <div class="ppanel active" id="ppanel_mt_records">
@@ -475,6 +476,10 @@
       <div class="ppanel" id="ppanel_mt_top">
         <div class="ppanel-sub">3 profils trié par % complétion.</div>
         <div class="grid k3" id="top3_montantes"></div>
+      </div>
+      <div class="ppanel" id="ppanel_mt_topcomp">
+        <div class="ppanel-sub">Les meilleures montantes par taux de complétion validées sur ≥25 cycles S1-26 OOS.</div>
+        <div class="grid k3" id="topcomp_mt"></div>
       </div>
     </div>
   </div>
@@ -517,6 +522,7 @@
       <button class="ptab" data-color="n3" data-target="ppanel_mtl_n3">🌸 Records WR strict</button>
       <button class="ptab" data-color="n2" data-target="ppanel_mtl_n2">⭐ New xmkt OU/BTTS</button>
       <button class="ptab" data-color="top" data-target="ppanel_mtl_top">🏆 Top 3 profils</button>
+      <button class="ptab" data-color="top" data-target="ppanel_mtl_topcomp">🏆 Top complétion</button>
     </div>
     <div class="presets-content">
       <div class="ppanel active" id="ppanel_mtl_records">
@@ -534,6 +540,10 @@
       <div class="ppanel" id="ppanel_mtl_top">
         <div class="ppanel-sub">3 profils trié par % complétion.</div>
         <div class="grid k3" id="top3_mtlive"></div>
+      </div>
+      <div class="ppanel" id="ppanel_mtl_topcomp">
+        <div class="ppanel-sub">Les meilleures montantes par taux de complétion validées sur ≥25 cycles S1-26 OOS — click pour pré-remplir.</div>
+        <div class="grid k3" id="topcomp_mtlive"></div>
       </div>
     </div>
   </div>
@@ -1345,8 +1355,8 @@ async function loadMontanteStrategies() {
     }
 
     // 🆕 NOUVEAUX RECORDS — 05/05
-    const NEW_RECORDS_MT = ["montante_meta_invincible_leagues_RECORD", "montante_1x_forteresse_90pct_RECORD", "montante_triple_threat_intraday_RECORD"];
-    const NEW_RECORDS_MT_BADGES = ["🪜 THE META (83% COMP)", "🧱 1X FORTERESSE (90% WR)", "🚀 TRIPLE THREAT (INTRADAY)"];
+    const NEW_RECORDS_MT = ["META_MEGA_INTERDAY_FHT_12P_640K", "META_MEGA_LOTTERY_FH_7P_106K", "META_INTERDAY_COMBO3_FH_7P_88K", "META_BALANCED_FHTB_3P_BEST_SCORE"];
+    const NEW_RECORDS_MT_BADGES = ["💎💎💎 MEGA INTERDAY +640518€ ★★★ GRAND RECORD", "💎💎 MEGA LOTTERY +106201€ ★★", "💎 INTERDAY COMBO3 +88291€", "🏆 BEST SCORE 209 / +11384€"];
     const srecordsmtEl = $("session_records_mt");
     if (srecordsmtEl) {
       srecordsmtEl.innerHTML = NEW_RECORDS_MT.map((sid, i) => {
@@ -1444,6 +1454,50 @@ async function loadMontanteStrategies() {
         };
       });
     }
+
+    // TOP COMPLETION — top 3 par taux de complétion + le favori MIDCOTE_FH_2P_RECORD
+    const topcompEl = $("topcomp_mt");
+    if (topcompEl) {
+      const cands = Object.values(d).filter(s => {
+        const v = s.validated || {};
+        const nt = v.n_cycles_total || 0;
+        const cr = v.completion_rate || 0;
+        return nt >= 25 && cr >= 0.55;
+      });
+      cands.sort((a, b) => (b.validated.completion_rate || 0) - (a.validated.completion_rate || 0));
+      const top3 = cands.slice(0, 3);
+      const fav = d["META_MIDCOTE_FH_2P_RECORD"];
+      const top = fav && !top3.includes(fav) ? [...top3, fav] : top3;
+      topcompEl.innerHTML = top.map((s, i) => {
+        const v = s.validated || {};
+        const compl = `${(v.completion_rate*100).toFixed(1)}%`;
+        const cyc = `${v.n_cycles_complete}/${v.n_cycles_total}`;
+        const cap = v.avg_capital_complete ? `cap ${Math.round(v.avg_capital_complete)}€` : "";
+        const pnl = v.final_pnl != null ? `${v.final_pnl >= 0 ? '+' : ''}${Math.round(v.final_pnl)}€` : (v.pnl_net_s1 ? `+${v.pnl_net_s1}€` : "");
+        const isFav = i >= 3;
+        const rank = isFav ? `★ FAVORI · ${compl} comp · ${cyc} cyc` : `#${i+1} ${compl} comp · ${cyc} cyc`;
+        const borderCol = isFav ? "#ffc850" : "var(--green)";
+        const labelCol = isFav ? "#ffc850" : "var(--green)";
+        return `<div class="card" data-sid="${s.id}" style="border:2px solid ${borderCol}; cursor:pointer;">
+          <div style="font-size:10px; color:${labelCol}; margin-bottom:4px; font-weight:600;">${rank}</div>
+          <h3>${s.label}</h3>
+          <div class="desc">${(s.description||'').slice(0,140)}...</div>
+          <div class="perf">
+            ${pnl ? `<span class="v" style="color:var(--green);">${pnl}</span>` : ''}
+            <span class="badge">${cap}</span>
+            <span class="badge" style="color:var(--green);">${compl} comp</span>
+          </div>
+        </div>`;
+      }).join("");
+      topcompEl.querySelectorAll(".card").forEach(el => {
+        el.onclick = () => {
+          sel.value = el.dataset.sid;
+          sel.dispatchEvent(new Event("change"));
+          $("mt_run").scrollIntoView({behavior: "smooth", block: "center"});
+        };
+      });
+    }
+
     // Recherche live
     const searchInput = $("mt_search");
     const countEl = $("mt_count");
@@ -1651,8 +1705,8 @@ async function loadMontanteLive() {
     }
 
     // 🆕 NOUVEAUX RECORDS — 05/05 LIVE
-    const NEW_RECORDS_MTL = ["montante_meta_invincible_leagues_RECORD", "montante_1x_forteresse_90pct_RECORD", "montante_triple_threat_intraday_RECORD"];
-    const NEW_RECORDS_MTL_BADGES = ["🪜 THE META (83% COMP)", "🧱 1X FORTERESSE (90% WR)", "🚀 TRIPLE THREAT (INTRADAY)"];
+    const NEW_RECORDS_MTL = ["META_MEGA_INTERDAY_FHT_12P_640K", "META_INTERDAY_COMBO3_FH_7P_88K", "META_COMBO5_FHTB_2P_REALISTIC", "META_BALANCED_FHTB_3P_BEST_SCORE"];
+    const NEW_RECORDS_MTL_BADGES = ["💎💎💎 MEGA INTERDAY +640518€ ★★★ GRAND RECORD", "💎 INTERDAY COMBO3 +88291€ / 7P", "⚡ COMBO5 2P +17508€ / 15.6%", "🏆 BEST SCORE 209 / +11384€"];
     const srecordsmtlEl = $("session_records_mtlive");
     if (srecordsmtlEl) {
       srecordsmtlEl.innerHTML = NEW_RECORDS_MTL.map((sid, i) => {
@@ -1733,6 +1787,50 @@ async function loadMontanteLive() {
         </div>`;
       }).join("");
       top3el.querySelectorAll(".card").forEach(el => {
+        el.onclick = () => {
+          sel.value = el.dataset.sid;
+          $("mtl_palier").value = 1;
+          $("mtl_capital").value = 10;
+          $("mtl_run").scrollIntoView({behavior: "smooth", block: "center"});
+        };
+      });
+    }
+
+    // TOP COMPLETION (mtlive) — top 3 + favori
+    const topcompMtlEl = $("topcomp_mtlive");
+    if (topcompMtlEl) {
+      const cands = Object.values(_mtlStrategies).filter(s => {
+        const v = s.validated || {};
+        const nt = v.n_cycles_total || 0;
+        const cr = v.completion_rate || 0;
+        return nt >= 25 && cr >= 0.55;
+      });
+      cands.sort((a, b) => (b.validated.completion_rate || 0) - (a.validated.completion_rate || 0));
+      const top3 = cands.slice(0, 3);
+      const fav = _mtlStrategies["META_MIDCOTE_FH_2P_RECORD"];
+      const top = fav && !top3.includes(fav) ? [...top3, fav] : top3;
+      topcompMtlEl.innerHTML = top.map((s, i) => {
+        const v = s.validated || {};
+        const compl = `${(v.completion_rate*100).toFixed(1)}%`;
+        const cyc = `${v.n_cycles_complete}/${v.n_cycles_total}`;
+        const cap = v.avg_capital_complete ? `cap ${Math.round(v.avg_capital_complete)}€` : "";
+        const pnl = v.final_pnl != null ? `${v.final_pnl >= 0 ? '+' : ''}${Math.round(v.final_pnl)}€` : (v.pnl_net_s1 ? `+${v.pnl_net_s1}€` : "");
+        const isFav = i >= 3;
+        const rank = isFav ? `★ FAVORI · ${compl} comp · ${cyc} cyc` : `#${i+1} ${compl} comp · ${cyc} cyc`;
+        const borderCol = isFav ? "#ffc850" : "var(--green)";
+        const labelCol = isFav ? "#ffc850" : "var(--green)";
+        return `<div class="card" data-sid="${s.id}" style="border:2px solid ${borderCol}; cursor:pointer;">
+          <div style="font-size:10px; color:${labelCol}; margin-bottom:4px; font-weight:600;">${rank}</div>
+          <h3>${s.label}</h3>
+          <div class="desc">${(s.description||'').slice(0,110)}...</div>
+          <div class="perf">
+            ${pnl ? `<span class="v" style="color:var(--green);">${pnl}</span>` : ''}
+            <span class="badge">${cap}</span>
+            <span class="badge" style="color:var(--green);">${compl} comp</span>
+          </div>
+        </div>`;
+      }).join("");
+      topcompMtlEl.querySelectorAll(".card").forEach(el => {
         el.onclick = () => {
           sel.value = el.dataset.sid;
           $("mtl_palier").value = 1;

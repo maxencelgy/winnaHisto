@@ -1,0 +1,30 @@
+{
+  "id": "META_BALANCED_FH_2P_25PCT",
+  "label": "🏆🆕 META BALANCED FH 2P 1.22-1.38 WR≥55% legs=4 — 25.3% comp 83 cycles +9468€",
+  "description": "★★★★★ FH xmkt cote 1.22-1.38 WR≥55% sort=ev 2 paliers combo 4 jambes. **25.3% completion sur 83 cycles testés** (plus haut comp en zone réaliste >+9k). Cap 846€. PnL +9468€.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football", "ice-hockey"],
+    "market": "1x2,btts,over_1_5,over_2_5",
+    "cote_min": 1.22, "cote_max": 1.38,
+    "sort_by": "ev", "max_legs": 1, "max_combos": 1,
+    "min_wr": 0.55, "min_ev": null,
+    "legs_per_palier": 4
+  }],
+  "montante": {"initial_stake": 100, "n_paliers_target": 2, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 4},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "challenge_target": {"start": 100, "end": 800, "expected_cap": 846},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.253,
+    "n_cycles_complete": 21,
+    "n_cycles_total": 83,
+    "avg_capital_complete": 846,
+    "final_pnl": 9468,
+    "winamax_fr": true,
+    "source": "find_best_balanced (BAL_FH_1.22-1.38_wr55_l4_p2_ev)",
+    "note": "★★★★★ 25% comp réaliste + cap 846€ + 83 cycles + +9468€ PnL — best balance comp/PnL avec cap raisonnable."
+  }
+}

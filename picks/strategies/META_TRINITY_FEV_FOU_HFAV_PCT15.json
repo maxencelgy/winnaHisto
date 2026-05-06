@@ -1,0 +1,43 @@
+{
+  "id": "META_TRINITY_FEV_FOU_HFAV_PCT15",
+  "label": "🏆🚀🚀 META TRINITY F_EV+F_OU+H_fav pct15 — RECORD ABSOLU +185012€ BR×1851",
+  "description": "★★★★★★★ NOUVEAU RECORD ABSOLU LIB : 3 components Foot xmkt sort=EV + Foot OU 1.5 sort=WR + Hockey 1x2 sort=WR. Sizing 15%. PnL **+185012€** sur S1-26 (3.2× le record MCA JACKPOT). BR×1851. ROI 10.1%, ratio PnL/DD 10.5×, DD max 17617€. 724 combos.",
+  "components": [
+    {
+      "sports": ["football"],
+      "market": "1x2,btts,over_1_5,over_2_5",
+      "cote_min": 1.20, "cote_max": 1.40,
+      "sort_by": "ev", "max_legs": 1, "max_combos": 3,
+      "min_wr": 0.65, "min_ev": null
+    },
+    {
+      "sports": ["football"],
+      "market": "over_1_5",
+      "cote_min": 1.20, "cote_max": 1.40,
+      "sort_by": "wr", "max_legs": 1, "max_combos": 2,
+      "min_wr": 0.70, "min_ev": null
+    },
+    {
+      "sports": ["ice-hockey"],
+      "market": "1x2",
+      "cote_min": 1.20, "cote_max": 1.50,
+      "sort_by": "wr", "max_legs": 1, "max_combos": 2,
+      "min_wr": 0.65, "min_ev": null
+    }
+  ],
+  "dedup": "max1",
+  "sizing": {"mode": "flat_pct", "pct": 0.15, "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "pnl_net_s1": 185012,
+    "pnl": 185012,
+    "roi": 10.1,
+    "n_combos": 724,
+    "bankroll_multiplier": 1851.12,
+    "dd_max": 17617,
+    "ratio_pnl_dd": 10.5,
+    "winamax_fr": true,
+    "source": "sweep_3comp_classic (META TRINITY pct15)",
+    "note": "★★★★★★★ RECORD ABSOLU PnL/BR de la lib. 3 components : foot xmkt-EV (best-of-9) + foot OU 1.5 (favori) + hockey 1x2 (favori). DD 17617€ sur 724 combos. Sizing 15% all-in nécessite tolérance haute volatilité — variante PCT10 (+25k€/BR×260/ratio 9.3×) plus safe."
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "META_NBA_1SHOT_DAILY",
+  "label": "🏆🆕 META NBA 1-SHOT DAILY 1x2 1.20-1.40 — 83.1% comp 77 cycles +485€",
+  "description": "★★★★★ NBA 1x2 cote 1.20-1.40 sort=wr 1 palier. **83.1% completion sur 77 cycles testés** — high comp NBA quotidien. Cap 128€. PnL +485€ S1-26.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["basketball"],
+    "market": "1x2",
+    "cote_min": 1.20, "cote_max": 1.40,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+    "min_wr": null, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 100, "n_paliers_target": 1, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "included_leagues": ["nba"],
+  "challenge_target": {"start": 100, "end": 125, "expected_cap": 128},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.831,
+    "n_cycles_complete": 64,
+    "n_cycles_total": 77,
+    "avg_capital_complete": 128,
+    "final_pnl": 485,
+    "winamax_fr": true,
+    "source": "find_niche_specific (B_NBA_1.2-1.4_wrNone_p1_wr)",
+    "note": "★★★★★ NBA favoris cote 1.20-1.40 = 83% jours verts. Single shot quotidien sur la NBA."
+  }
+}

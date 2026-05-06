@@ -1,0 +1,30 @@
+{
+  "id": "META_VALUE_FH_1X2_1SHOT",
+  "label": "🏆🆕 META VALUE FH 1x2 1.70-1.95 WR≥60% — 72.6% comp 73 cycles +2255€ (SINGLE)",
+  "description": "★★★★★ VALUE high-cote single-shot : Foot+Hockey 1x2 cote 1.70-1.95 WR magic ≥60% sort=ev 1 palier. **72.6% completion sur 73 cycles testés** — record completion sur cote ≥1.70 single shot. Cap 180€. PnL +2255€ S1-26.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football", "ice-hockey"],
+    "market": "1x2",
+    "cote_min": 1.70, "cote_max": 1.95,
+    "sort_by": "ev", "max_legs": 1, "max_combos": 1,
+    "min_wr": 0.60, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 100, "n_paliers_target": 1, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "challenge_target": {"start": 100, "end": 175, "expected_cap": 180},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.726,
+    "n_cycles_complete": 53,
+    "n_cycles_total": 73,
+    "avg_capital_complete": 180,
+    "final_pnl": 2255,
+    "winamax_fr": true,
+    "source": "find_value_highcote (V_FH_1x2_1.7-1.95_wr0.6_ev)",
+    "note": "★★★★★ Cote 1.70-1.95 = mid-high value, WR≥60% magic filter garde la qualité. 72.6% comp = 1 cycle sur 4 fail. 73 cycles validés."
+  }
+}

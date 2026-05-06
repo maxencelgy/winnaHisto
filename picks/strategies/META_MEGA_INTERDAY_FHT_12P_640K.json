@@ -1,0 +1,30 @@
+{
+  "id": "META_MEGA_INTERDAY_FHT_12P_640K",
+  "label": "🏆🆕💎💎💎 META MEGA INTERDAY FHT 12P combo4 — +640518€ ABSOLUTE GRAND RECORD",
+  "description": "★★★★★💎💎💎 NOUVEAU GRAND RECORD ABSOLU LIB : Foot+Hockey+Tennis xmkt cote 1.20-1.35 WR magic ≥70% sort=wr 12 paliers INTERDAY combo 4 jambes. **2.17% completion sur 46 cycles testés**. Cap **645118€** (×6451 BR). PnL **+640518€** S1-26 OOS — 6× MEGA_LOTTERY (+106k€).",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football", "ice-hockey", "tennis"],
+    "market": "1x2,btts,over_1_5,over_2_5",
+    "cote_min": 1.20, "cote_max": 1.35,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+    "min_wr": 0.70, "min_ev": null,
+    "legs_per_palier": 4
+  }],
+  "montante": {"initial_stake": 100, "n_paliers_target": 12, "reset_on_loss": true,
+                "preferred_mode": "interday", "combo_legs_per_palier": 4},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "challenge_target": {"start": 100, "end": 600000, "expected_cap": 645118},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.0217,
+    "n_cycles_complete": 1,
+    "n_cycles_total": 46,
+    "avg_capital_complete": 645118,
+    "final_pnl": 640518,
+    "winamax_fr": true,
+    "source": "find_interday_extreme (IX_FHT_1.2-1.35_wr70_l4_p12_wr)",
+    "note": "★★★★★💎💎💎 GRAND RECORD ABSOLU : 12 paliers interday × combo 4 jambes = 48 picks sur 12 jours par cycle. WR≥70% strict. Cap ×6451 BR. PnL +640518€ via 1 seul succès sur 46. Pour profil ULTIMATE risk-reward."
+  }
+}

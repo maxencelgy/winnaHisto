@@ -1,0 +1,30 @@
+{
+  "id": "META_ALL5_SPORTS_2P_70PCT",
+  "label": "🏆🆕 META ALL-5-SPORTS 2P 1x2 cote 1.25-1.45 — 70.2% comp 114 cycles +3378€",
+  "description": "★★★★★ Foot+Hockey+Tennis+Basketball+Baseball 1x2 cote 1.25-1.45 sort=ev 2 paliers. **70.2% completion sur 114 cycles testés** (haut volume + haut comp). Cap 185€. PnL +3378€ S1-26.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football", "ice-hockey", "tennis", "basketball", "baseball"],
+    "market": "1x2",
+    "cote_min": 1.25, "cote_max": 1.45,
+    "sort_by": "ev", "max_legs": 1, "max_combos": 1,
+    "min_wr": null, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 100, "n_paliers_target": 2, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "challenge_target": {"start": 100, "end": 180, "expected_cap": 185},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.702,
+    "n_cycles_complete": 80,
+    "n_cycles_total": 114,
+    "avg_capital_complete": 185,
+    "final_pnl": 3378,
+    "winamax_fr": true,
+    "source": "find_exotic_sport_mix (E_ALL5_1x2_1.25-1.45_wrNone_p2_ev)",
+    "note": "★★★★★ 5-sports 2P — 70.2% comp = 4 cycles sur 5 réussis. 114 cycles validés. PnL +3378€."
+  }
+}

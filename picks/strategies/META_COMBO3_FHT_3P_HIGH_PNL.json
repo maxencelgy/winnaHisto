@@ -1,0 +1,30 @@
+{
+  "id": "META_COMBO3_FHT_3P_HIGH_PNL",
+  "label": "🏆🆕 META COMBO3 FHT 3P xmkt 1.12-1.25 WR≥78% — 63 cycles cap 515€ +4515€",
+  "description": "★★★★★ NOUVEAU TYPE : Combo 3 jambes par palier (jamais utilisé) FHT xmkt cote 1.12-1.25 WR magic ≥78% sort=ev 3 paliers. **33.3% completion sur 63 cycles testés**. Cap 515€. PnL **+4515€** S1-26 OOS.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football", "ice-hockey", "tennis"],
+    "market": "1x2,btts,over_1_5,over_2_5",
+    "cote_min": 1.12, "cote_max": 1.25,
+    "sort_by": "ev", "max_legs": 1, "max_combos": 1,
+    "min_wr": 0.78, "min_ev": null,
+    "legs_per_palier": 3
+  }],
+  "montante": {"initial_stake": 100, "n_paliers_target": 3, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 3},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "challenge_target": {"start": 100, "end": 500, "expected_cap": 515},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.333,
+    "n_cycles_complete": 21,
+    "n_cycles_total": 63,
+    "avg_capital_complete": 515,
+    "final_pnl": 4515,
+    "winamax_fr": true,
+    "source": "find_combos_3legs (C3_FHT_1.12-1.25_wr78_p3_ev)",
+    "note": "★★★★★ 3 jambes par palier × 3 paliers = 9 picks/cycle. Cote totale combo ~1.7 par palier × 3 = ×4.9 BR. WR≥78% strict garde la qualité. 33% comp + cap 515€ + 63 cycles."
+  }
+}

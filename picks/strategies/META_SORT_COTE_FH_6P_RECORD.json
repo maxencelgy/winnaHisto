@@ -1,0 +1,30 @@
+{
+  "id": "META_SORT_COTE_FH_6P_RECORD",
+  "label": "🏆🆕 META SORT=COTE FH 6P xmkt 1.08-1.25 WR≥85% — 58 cycles 55% comp +2770€",
+  "description": "★★★★★ NOUVEAU SORT MODE : Foot+Hockey xmkt cote 1.08-1.25 WR magic ≥85% **sort=cote** (cote la plus basse first) 6 paliers. **55.2% completion sur 58 cycles testés**. Cap 268€. PnL +2770€ S1-26 — premier exemple de sort=cote validé sur 6 paliers.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football", "ice-hockey"],
+    "market": "1x2,btts,over_1_5,over_2_5",
+    "cote_min": 1.08, "cote_max": 1.25,
+    "sort_by": "cote", "max_legs": 1, "max_combos": 1,
+    "min_wr": 0.85, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 100, "n_paliers_target": 6, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "challenge_target": {"start": 100, "end": 250, "expected_cap": 268},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.552,
+    "n_cycles_complete": 32,
+    "n_cycles_total": 58,
+    "avg_capital_complete": 268,
+    "final_pnl": 2770,
+    "winamax_fr": true,
+    "source": "find_more_angles_v5 (Q_COTE_FH_1.08-1.25_p6_wr85)",
+    "note": "★★★★★ sort=cote = on prend la cote la plus basse parmi les xmkt picks WR≥85%. Effet 'safest pick of 9 selections per match'. 55% comp sur 6 paliers + 58 cycles."
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "META_BEST_EV_2P_FH_VOL",
+  "label": "🏆🆕 META BEST-EV 2P FH cote 1.40-1.55 — sort=EV WR≥60% — 115 cycles RECORD VOL 2p",
+  "description": "★★★★★ NOUVEAU RECORD VOLUME 2P : 2 paliers Foot+Hockey xmkt sort=EV cote 1.40-1.55 WR≥60%. Best-of-9 selection per match. Completion **50.4% sur 115 cycles testés** (record absolu volume sur 2 paliers, dépasse META_BTTS_MIXED à 106). Cap 212€. **Seulement 2 paris**. P3=87.8%, P5=96.9%, P10=99.9%.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football", "ice-hockey"],
+    "market": "1x2,btts,over_1_5,over_2_5",
+    "cote_min": 1.40, "cote_max": 1.55,
+    "sort_by": "ev", "max_legs": 1, "max_combos": 1,
+    "min_wr": 0.60, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 100, "n_paliers_target": 2, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "challenge_target": {"start": 100, "end": 200, "expected_cap": 212},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.504,
+    "n_cycles_complete": 58,
+    "n_cycles_total": 115,
+    "avg_capital_complete": 212,
+    "prob_target_3_cycles": 87.8,
+    "prob_target_5_cycles": 96.9,
+    "prob_target_10_cycles": 99.9,
+    "winamax_fr": true,
+    "source": "sweep_more_montantes (2p sort=ev mid-cote)",
+    "note": "★★★★★ RECORD VOLUME 115 cycles sur 2p. FH xmkt sort=EV cote 1.40-1.55 — cote mid permet 50% comp avec seulement 2 paliers."
+  }
+}

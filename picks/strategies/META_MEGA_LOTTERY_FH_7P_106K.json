@@ -1,0 +1,30 @@
+{
+  "id": "META_MEGA_LOTTERY_FH_7P_106K",
+  "label": "🏆🆕💎 META MEGA LOTTERY FH 7P combo 3j cote 1.30-1.50 — +106201€ MEGA RECORD ABSOLU",
+  "description": "★★★★★💎 MEGA RECORD ABSOLU LIB : Foot+Hockey xmkt cote 1.30-1.50 sort=wr 7 paliers combo 3 jambes. **0.99% completion sur 101 cycles testés** (1 succès / 101 — extrême lottery). Cap **116301€** (×1163 BR). PnL **+106201€** S1-26 OOS — 4× le précédent record (LOTTERY 5P à +25k€).",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football", "ice-hockey"],
+    "market": "1x2,btts,over_1_5,over_2_5",
+    "cote_min": 1.30, "cote_max": 1.50,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+    "min_wr": null, "min_ev": null,
+    "legs_per_palier": 3
+  }],
+  "montante": {"initial_stake": 100, "n_paliers_target": 7, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 3},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "challenge_target": {"start": 100, "end": 100000, "expected_cap": 116301},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.0099,
+    "n_cycles_complete": 1,
+    "n_cycles_total": 101,
+    "avg_capital_complete": 116301,
+    "final_pnl": 106201,
+    "winamax_fr": true,
+    "source": "find_mega_lottery (M_FH_1.3-1.5_wrNone_p7_legs3_wr)",
+    "note": "★★★★★💎 EXTRÊME LOTTERY : 7 paliers × combo 3 jambes cote 1.30-1.50. Cote totale par palier ~2.5 → cap ×1163 BR. 1 cycle gagnant sur 101 = 0.99% comp. PnL absolu record S1-26 = +106201€. 21 picks par cycle. Pour profil joueur acceptant ~99% d'échec mais cherchant le jackpot extrême."
+  }
+}

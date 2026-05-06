@@ -1,0 +1,30 @@
+{
+  "id": "META_ULTRA_LONG_9P_FH",
+  "label": "🏆🆕 META ULTRA-LONG 9P FH 1x2 cote 1.05-1.15 WR≥85% — 22 cycles 59% comp",
+  "description": "★★★★ NOUVEAU RECORD LONGUEUR : 9 paliers Foot+Hockey 1x2 cote 1.05-1.15 WR magic ≥85% sort=wr. **59.1% completion sur 22 cycles testés**. Cap 269€. PnL +1291€ S1-26.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football", "ice-hockey"],
+    "market": "1x2",
+    "cote_min": 1.05, "cote_max": 1.15,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+    "min_wr": 0.85, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 100, "n_paliers_target": 9, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "challenge_target": {"start": 100, "end": 250, "expected_cap": 269},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.591,
+    "n_cycles_complete": 13,
+    "n_cycles_total": 22,
+    "avg_capital_complete": 269,
+    "final_pnl": 1291,
+    "winamax_fr": true,
+    "source": "find_more_angles_v5 (N_ULTRA_FH_1.05-1.15_p9_wr85_wr)",
+    "note": "★★★★ 9 paliers ×1.10 → cap 269€. 59% completion sur 9 paliers = exceptionnel. Demande 9 picks WR≥85% par cycle."
+  }
+}

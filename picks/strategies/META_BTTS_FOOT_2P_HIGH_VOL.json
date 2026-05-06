@@ -1,0 +1,30 @@
+{
+  "id": "META_BTTS_FOOT_2P_HIGH_VOL",
+  "label": "🏆🆕 META BTTS FOOT 2P 1.60-1.80 — 102 cycles 45% comp +2748€",
+  "description": "★★★★★ Football BTTS Yes cote 1.60-1.80 WR≥55% sort=wr 2 paliers. **45.1% completion sur 102 cycles testés**. Cap 281€. PnL +2748€.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football"],
+    "market": "btts",
+    "cote_min": 1.60, "cote_max": 1.80,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+    "min_wr": 0.55, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 100, "n_paliers_target": 2, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "challenge_target": {"start": 100, "end": 270, "expected_cap": 281},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.451,
+    "n_cycles_complete": 46,
+    "n_cycles_total": 102,
+    "avg_capital_complete": 281,
+    "final_pnl": 2748,
+    "winamax_fr": true,
+    "source": "find_btts_strict (B_btts_1.6-1.8_wr0.55_p2_wr)",
+    "note": "★★★★★ Variante 2P plus haut comp. 102 cycles validés."
+  }
+}

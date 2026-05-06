@@ -1,0 +1,30 @@
+{
+  "id": "META_FH_OVER25_HIGHCOTE_1SHOT",
+  "label": "🏆🆕 META FH OVER 2.5 1.80-2.10 — 62.2% comp 111 cycles +2299€ RECORD VOLUME",
+  "description": "★★★★★ NOUVEAU RECORD VOLUME single-shot high-cote : Foot+Hockey Over 2.5 cote 1.80-2.10 sort=ev 1 palier. **62.2% completion sur 111 cycles testés**. Cap 194€. PnL +2299€ S1-26.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football", "ice-hockey"],
+    "market": "over_2_5",
+    "cote_min": 1.80, "cote_max": 2.10,
+    "sort_by": "ev", "max_legs": 1, "max_combos": 1,
+    "min_wr": null, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 100, "n_paliers_target": 1, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "challenge_target": {"start": 100, "end": 190, "expected_cap": 194},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.622,
+    "n_cycles_complete": 69,
+    "n_cycles_total": 111,
+    "avg_capital_complete": 194,
+    "final_pnl": 2299,
+    "winamax_fr": true,
+    "source": "find_value_highcote (V_FH_ove_1.8-2.1_wrNone_ev)",
+    "note": "★★★★★ Over 2.5 cote 1.80-2.10 sort=ev = best-of-9 value sur Over 2.5 high-cote. 111 cycles = record volume single-shot Over."
+  }
+}

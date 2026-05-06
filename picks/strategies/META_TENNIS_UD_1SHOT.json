@@ -1,0 +1,30 @@
+{
+  "id": "META_TENNIS_UD_1SHOT",
+  "label": "🏆🆕 META TENNIS UD 1-SHOT — cote 2.20-3.20 47.7% comp 44 cycles +497€",
+  "description": "★★★★ Tennis underdog cote 2.20-3.20 sort=wr 1 palier. **47.7% completion sur 44 cycles testés** — niche peu exploitée car Tennis sous-représenté dans la lib. Cap 233€. PnL +497€ S1-26. Issu de la recherche académique (ITF/Challenger sous-pricé).",
+  "mode": "montante",
+  "components": [{
+    "sports": ["tennis"],
+    "market": "1x2",
+    "cote_min": 2.20, "cote_max": 3.20,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+    "min_wr": null, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 100, "n_paliers_target": 1, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "challenge_target": {"start": 100, "end": 230, "expected_cap": 233},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.477,
+    "n_cycles_complete": 21,
+    "n_cycles_total": 44,
+    "avg_capital_complete": 233,
+    "final_pnl": 497,
+    "winamax_fr": true,
+    "source": "find_web_research_angles (F_TENNIS_UD_2.2-3.2_p1_wrNone_wr)",
+    "note": "★★★★ Tennis underdog single — niche structurellement inefficiente (modèles bookies pauvres en tennis). 44 cycles, ROI ~53%."
+  }
+}

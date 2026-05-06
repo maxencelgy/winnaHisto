@@ -1,0 +1,31 @@
+{
+  "id": "META_UNDER25_OR_OVER",
+  "label": "🆕📊 META OU 2.5 mid-cote 1.60-2.00 — 2 paliers foot WR≥55% — 96 cycles",
+  "description": "★★★★ NOUVELLE META : exploite Over 2.5 ET Under 2.5 selon le meilleur WR magic par match (le moteur prend la selection avec WR le plus élevé). Cote 1.60-2.00 = matchs équilibrés où l'EV est maximal. 2 paliers seulement. Completion **44.8% sur 96 cycles testés** (très robuste). Cap 311€ (atteint 100→300€).",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football"],
+    "market": "over_2_5",
+    "cote_min": 1.60, "cote_max": 2.00,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+    "min_wr": 0.55, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 100, "n_paliers_target": 2, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "challenge_target": {"start": 100, "end": 300, "expected_cap": 311},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.448,
+    "n_cycles_complete": 43,
+    "n_cycles_total": 96,
+    "avg_capital_complete": 311,
+    "prob_target_5_cycles": 94.7,
+    "prob_target_10_cycles": 99.7,
+    "winamax_fr": true,
+    "source": "sweep_meta_selections (META OU 2.5 mid-cote)",
+    "note": "★★★★ Le market over_2_5 extrait both Over et Under. Le moteur prend la selection avec meilleur WR magic à cette cote. Mix Over (matchs équilibrés) + Under (matchs offensifs) selon ce qui maximise WR. 96 cycles validés."
+  }
+}

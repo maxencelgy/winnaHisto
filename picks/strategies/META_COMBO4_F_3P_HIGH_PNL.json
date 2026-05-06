@@ -1,0 +1,30 @@
+{
+  "id": "META_COMBO4_F_3P_HIGH_PNL",
+  "label": "🏆🆕 META COMBO4 FOOT 3P 1.25-1.40 — 10.1% comp 79 cycles cap 3187€ +17596€",
+  "description": "★★★★★ Football xmkt cote 1.25-1.40 sort=wr 3 paliers combo 4 jambes. **10.13% completion sur 79 cycles testés**. Cap 3187€ (×31.9 BR). PnL +17596€ S1-26.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football"],
+    "market": "1x2,btts,over_1_5,over_2_5",
+    "cote_min": 1.25, "cote_max": 1.40,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+    "min_wr": null, "min_ev": null,
+    "legs_per_palier": 4
+  }],
+  "montante": {"initial_stake": 100, "n_paliers_target": 3, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 4},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "challenge_target": {"start": 100, "end": 3000, "expected_cap": 3187},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.101,
+    "n_cycles_complete": 8,
+    "n_cycles_total": 79,
+    "avg_capital_complete": 3187,
+    "final_pnl": 17596,
+    "winamax_fr": true,
+    "source": "find_legs45_midcote (L4MC_F_1.25-1.4_wrNone_p3_wr)",
+    "note": "★★★★★ Combo 4 jambes Foot pure × 3 paliers — 12 picks/cycle. Cap 3187€. PnL +17596€."
+  }
+}

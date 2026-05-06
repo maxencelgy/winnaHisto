@@ -1,0 +1,30 @@
+{
+  "id": "META_MIDCOTE_FH_3P_RECORD",
+  "label": "🏆🆕 META MIDCOTE 3P FH cote 1.40-1.55 WR≥60% — 84 cycles cap 321€ +3490€ RECORD PnL",
+  "description": "★★★★★ NOUVEAU RECORD PnL 3P : Foot+Hockey 1x2 cote 1.40-1.55 WR magic ≥60% sort=wr 3 paliers. **44.0% completion sur 84 cycles testés**. Cap 321€ (3.21× BR). PnL +3490€ S1-26 OOS strict — meilleur PnL absolu sur 3 paliers de toute la lib.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football", "ice-hockey"],
+    "market": "1x2",
+    "cote_min": 1.40, "cote_max": 1.55,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+    "min_wr": 0.60, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 100, "n_paliers_target": 3, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "challenge_target": {"start": 100, "end": 300, "expected_cap": 321},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.440,
+    "n_cycles_complete": 37,
+    "n_cycles_total": 84,
+    "avg_capital_complete": 321,
+    "final_pnl": 3490,
+    "winamax_fr": true,
+    "source": "find_new_angles_v3 (D_MID_FH_1.4-1.55_wr60_p3_wr)",
+    "note": "★★★★★ Mid-cote 1x2 sort=wr — 1.40-1.55 = sweet spot où WR magic ≥60% est encore atteignable. 3 paliers ×1.475 → 100→322€."
+  }
+}

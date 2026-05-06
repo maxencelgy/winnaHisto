@@ -1,0 +1,31 @@
+{
+  "id": "META_BTTS_BUND_2P",
+  "label": "🏆🆕 META BTTS BUND 2P — 73.3% comp WR≥55% cap 320€ +2021€",
+  "description": "★★★★★ BTTS Yes Bundesliga cote 1.70-2.00 WR magic ≥55% sort=wr 2 paliers. **73.3% completion sur 15 cycles testés**. Cap 320€ (3.2× BR). PnL +2021€ S1-26.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football"],
+    "market": "btts",
+    "cote_min": 1.70, "cote_max": 2.00,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+    "min_wr": 0.55, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 100, "n_paliers_target": 2, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "included_leagues": ["bundesliga"],
+  "challenge_target": {"start": 100, "end": 300, "expected_cap": 320},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.733,
+    "n_cycles_complete": 11,
+    "n_cycles_total": 15,
+    "avg_capital_complete": 320,
+    "final_pnl": 2021,
+    "winamax_fr": true,
+    "source": "find_web_research_angles (G_BTTS_BUND_1.7-2.0_p2_wr0.55_wr)",
+    "note": "★★★★★ 2P BTTS Bund WR filter — 73% completion, cap 320€. Volume modeste (15 cycles) mais ratio comp×cap excellent."
+  }
+}

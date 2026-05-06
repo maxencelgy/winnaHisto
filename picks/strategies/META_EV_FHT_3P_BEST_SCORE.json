@@ -1,0 +1,30 @@
+{
+  "id": "META_EV_FHT_3P_BEST_SCORE",
+  "label": "🏆🆕 META EV-FILTER FHT 3P 1.20-1.40 EV≥1.00 — 97 cycles 32% comp +6425€",
+  "description": "★★★★★ Foot+Hockey+Tennis xmkt cote 1.20-1.40 **EV magic ≥1.00** (breakeven) sort=ev 3 paliers combo 2 jambes. **32.0% completion sur 97 cycles testés** (best volume EV-filter). Cap 520€. PnL +6425€. Score 161.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football", "ice-hockey", "tennis"],
+    "market": "1x2,btts,over_1_5,over_2_5",
+    "cote_min": 1.20, "cote_max": 1.40,
+    "sort_by": "ev", "max_legs": 1, "max_combos": 1,
+    "min_wr": null, "min_ev": 1.00,
+    "legs_per_palier": 2
+  }],
+  "montante": {"initial_stake": 100, "n_paliers_target": 3, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 2},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "challenge_target": {"start": 100, "end": 510, "expected_cap": 520},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.320,
+    "n_cycles_complete": 31,
+    "n_cycles_total": 97,
+    "avg_capital_complete": 520,
+    "final_pnl": 6425,
+    "winamax_fr": true,
+    "source": "find_ev_threshold (EV_FHT_1.2-1.4_ev100_l2_p3_ev)",
+    "note": "★★★★★ Filter EV≥1.00 (breakeven mathématique) = on garde tout ce qui a au moins 0% edge. 97 cycles validés."
+  }
+}

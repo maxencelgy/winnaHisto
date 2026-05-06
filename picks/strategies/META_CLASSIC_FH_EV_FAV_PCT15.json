@@ -1,0 +1,37 @@
+{
+  "id": "META_CLASSIC_FH_EV_FAV_PCT15",
+  "label": "🏆🚀 META CLASSIC FH best-EV + favori HK pct15 AGRO — +30571€ BR×307",
+  "description": "★★★★★★ VARIANTE AGRO du META_CLASSIC_FH_EV_FAV : sizing 15% par combo (au lieu de 10%). PnL **+30571€** sur S1-26, BR×306.71, ratio PnL/DD 4.6×, DD max 6632€. Deuxième-meilleur PnL absolu de la lib après MCA_xmkt JACKPOT. Pour qui veut maximiser le profit théorique (BR initial 100€ → 30671€).",
+  "components": [
+    {
+      "sports": ["football"],
+      "market": "1x2,btts,over_1_5,over_2_5",
+      "cote_min": 1.20, "cote_max": 1.40,
+      "sort_by": "ev", "max_legs": 1, "max_combos": 3,
+      "min_wr": 0.65, "min_ev": null
+    },
+    {
+      "sports": ["ice-hockey"],
+      "market": "1x2",
+      "cote_min": 1.20, "cote_max": 1.50,
+      "sort_by": "wr", "max_legs": 1, "max_combos": 3,
+      "min_wr": 0.65, "min_ev": null
+    }
+  ],
+  "dedup": "max1",
+  "sizing": {"mode": "flat_pct", "pct": 0.15, "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "pnl_net_s1": 30571,
+    "pnl": 30571,
+    "roi": 7.6,
+    "wr_combos": 0.824,
+    "n_combos": 521,
+    "bankroll_multiplier": 306.71,
+    "dd_max": 6632,
+    "ratio_pnl_dd": 4.6,
+    "winamax_fr": true,
+    "source": "sweep_sizing_meta_classic (variante pct15 aggro)",
+    "note": "★★★★★★ Variante AGRO sizing 15%. BR×307 = ~60% du JACKPOT BR×517. Ratio 4.6× — moins safe que SWR Records (ratio 24×) mais PnL absolu énorme."
+  }
+}

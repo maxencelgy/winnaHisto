@@ -1,0 +1,30 @@
+{
+  "id": "META_COMBO3_FH_3P_15K_RECORD",
+  "label": "🏆🆕💎 META COMBO3 FH 3P 1.25-1.40 WR≥70% — 85 cycles cap 1314€ +15153€ RECORD PnL",
+  "description": "★★★★★💎 NOUVEAU RECORD PnL ABSOLU LIB (montante <5p) : Foot+Hockey xmkt cote 1.25-1.40 WR magic ≥70% sort=ev 3 paliers combo 3 jambes. **21.2% completion sur 85 cycles testés**. Cap 1314€ (×13 BR). PnL **+15153€** S1-26 OOS — bat META_COMBO2_FH_3P_RECORD_v2 (+8053€) de +88%.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football", "ice-hockey"],
+    "market": "1x2,btts,over_1_5,over_2_5",
+    "cote_min": 1.25, "cote_max": 1.40,
+    "sort_by": "ev", "max_legs": 1, "max_combos": 1,
+    "min_wr": 0.70, "min_ev": null,
+    "legs_per_palier": 3
+  }],
+  "montante": {"initial_stake": 100, "n_paliers_target": 3, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 3},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "challenge_target": {"start": 100, "end": 1300, "expected_cap": 1314},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.212,
+    "n_cycles_complete": 18,
+    "n_cycles_total": 85,
+    "avg_capital_complete": 1314,
+    "final_pnl": 15153,
+    "winamax_fr": true,
+    "source": "find_legs2_highcote_singleshot (L3MC_FH_1.25-1.4_wr0.7_p3_ev)",
+    "note": "★★★★★💎 9 picks par cycle (3 legs × 3 paliers) cote individuelle 1.25-1.40 → cote totale ~2.0 par palier × 3 = ×8 BR. WR≥70% strict. 85 cycles validés. PnL record +15153€."
+  }
+}

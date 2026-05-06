@@ -1,0 +1,30 @@
+{
+  "id": "META_HIGHCOTE_F_2P_PNL",
+  "label": "🏆🆕 META HIGHCOTE F 2P cote 1.70-2.00 WR≥60% — 47 cycles +3414€",
+  "description": "★★★★★ Foot 1x2 cote 1.70-2.00 WR magic ≥60% sort=ev 2 paliers. **51.1% completion sur 47 cycles testés**. Cap 338€. PnL **+3414€** S1-26 OOS — angle high-cote single shot WR-filtré, distinct du plateau existant.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football"],
+    "market": "1x2",
+    "cote_min": 1.70, "cote_max": 2.00,
+    "sort_by": "ev", "max_legs": 1, "max_combos": 1,
+    "min_wr": 0.60, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 100, "n_paliers_target": 2, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "challenge_target": {"start": 100, "end": 320, "expected_cap": 338},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.511,
+    "n_cycles_complete": 24,
+    "n_cycles_total": 47,
+    "avg_capital_complete": 338,
+    "final_pnl": 3414,
+    "winamax_fr": true,
+    "source": "find_new_records_v2 (NR2_0082)",
+    "note": "★★★★★ High-cote 1x2 foot WR≥60% : sweet spot où WR magic distingue les vrais favoris des outsiders. 51% comp + cap 338€ = excellent ratio. PnL +3414€ sur 47 cycles."
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": "META_TRINITY_RISK_TIERED",
+  "label": "🛡️🏆 META TRINITY risk_tiered — DD réduit 7× — +43907€ BR×440 ratio 11.5×",
+  "description": "★★★★★ VARIANTE SAFE du META TRINITY : sizing risk_tiered (12% si cote ≤1.30, 8% si ≤1.50, 5% si ≤2.0, 2% au-delà). PnL **+43907€** sur S1-26, BR×440, ratio PnL/DD **11.5×**, DD max **3833€** (vs 26713€ pour pct15 = 7× moins). 724 combos. Réduit drastiquement les jours rouges consécutifs en limitant les paris sur cotes hautes.",
+  "components": [
+    {
+      "sports": ["football"],
+      "market": "1x2,btts,over_1_5,over_2_5",
+      "cote_min": 1.20, "cote_max": 1.40,
+      "sort_by": "ev", "max_legs": 1, "max_combos": 3,
+      "min_wr": 0.65, "min_ev": null
+    },
+    {
+      "sports": ["football"],
+      "market": "over_1_5",
+      "cote_min": 1.20, "cote_max": 1.40,
+      "sort_by": "wr", "max_legs": 1, "max_combos": 3,
+      "min_wr": 0.70, "min_ev": null
+    },
+    {
+      "sports": ["ice-hockey"],
+      "market": "1x2",
+      "cote_min": 1.20, "cote_max": 1.50,
+      "sort_by": "wr", "max_legs": 1, "max_combos": 3,
+      "min_wr": 0.65, "min_ev": null
+    }
+  ],
+  "dedup": "max1",
+  "sizing": {
+    "mode": "risk_tiered",
+    "min_stake": 0.5,
+    "tiers": [
+      {"cote_max": 1.30, "pct": 0.12},
+      {"cote_max": 1.50, "pct": 0.08},
+      {"cote_max": 2.00, "pct": 0.05},
+      {"cote_max": 999, "pct": 0.02}
+    ]
+  },
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "pnl_net_s1": 43907,
+    "pnl": 43907,
+    "n_combos": 724,
+    "bankroll_multiplier": 440.07,
+    "dd_max": 3833,
+    "ratio_pnl_dd": 11.5,
+    "winamax_fr": true,
+    "source": "sweep_trinity_safe (variante risk_tiered)",
+    "note": "★★★★★ RECOMMANDÉE : DD 7× plus bas que pct15 grâce à risk_tiered. PnL toujours massif (+43k€). Pour user qui voit trop de jours rouges sur pct15."
+  }
+}

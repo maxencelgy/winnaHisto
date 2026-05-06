@@ -1,0 +1,30 @@
+{
+  "id": "META_INTERDAY_FH_10P_236K",
+  "label": "🏆🆕 META INTERDAY FHT 10P combo4 1.20-1.35 — +236371€",
+  "description": "★★★★★ Foot+Hockey+Tennis xmkt cote 1.20-1.35 WR≥60% sort=wr 10 paliers INTERDAY combo 4 jambes. **2.08% completion sur 48 cycles**. Cap 241171€. PnL +236371€.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football", "ice-hockey", "tennis"],
+    "market": "1x2,btts,over_1_5,over_2_5",
+    "cote_min": 1.20, "cote_max": 1.35,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+    "min_wr": 0.60, "min_ev": null,
+    "legs_per_palier": 4
+  }],
+  "montante": {"initial_stake": 100, "n_paliers_target": 10, "reset_on_loss": true,
+                "preferred_mode": "interday", "combo_legs_per_palier": 4},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "challenge_target": {"start": 100, "end": 230000, "expected_cap": 241171},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.0208,
+    "n_cycles_complete": 1,
+    "n_cycles_total": 48,
+    "avg_capital_complete": 241171,
+    "final_pnl": 236371,
+    "winamax_fr": true,
+    "source": "find_interday_extreme (IX_FHT_1.2-1.35_wr60_l4_p10_wr)",
+    "note": "★★★★★ Version 10p (vs 12p MEGA). PnL +236371€."
+  }
+}

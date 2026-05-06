@@ -1,0 +1,31 @@
+{
+  "id": "META_FAV_ULTRA_LOW_6P",
+  "label": "🆕💎 META Favori ÉCRASANT 6P cote 1.05-1.15 — multi-sport WR≥80% — 33 cycles",
+  "description": "★★★★ NOUVELLE META variante 6 paliers : favoris écrasants (cote 1.05-1.15) avec WR magic 80%+. Multi-sport (foot+hockey+tennis+basket). 6 paliers ×1.10 → cap ×1.77. Completion **57.6% sur 33 cycles testés**. Cap 183€. Variante longue du META_FAV_ULTRA_LOW_5P pour atteindre cap plus élevé.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football", "ice-hockey", "tennis", "basketball"],
+    "market": "1x2",
+    "cote_min": 1.05, "cote_max": 1.15,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+    "min_wr": 0.80, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 100, "n_paliers_target": 6, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "challenge_target": {"start": 100, "end": 180, "expected_cap": 183},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.576,
+    "n_cycles_complete": 19,
+    "n_cycles_total": 33,
+    "avg_capital_complete": 183,
+    "prob_target_3_cycles": 92.4,
+    "prob_target_5_cycles": 98.7,
+    "winamax_fr": true,
+    "source": "sweep_combo_defensive (variante 6p)",
+    "note": "★★★★ Variante 6p du META_FAV_ULTRA_LOW_5P. Cap plus élevé (183€ vs 161€) au prix d'un 6e palier qui réduit la completion."
+  }
+}

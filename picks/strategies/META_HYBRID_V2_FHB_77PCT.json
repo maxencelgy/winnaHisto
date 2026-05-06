@@ -1,0 +1,30 @@
+{
+  "id": "META_HYBRID_V2_FHB_77PCT",
+  "label": "🏆🆕 META HYBRID v2 FHB 1x2 1.15-1.35 WR≥75% — 77.6% comp 116 cycles +3098€",
+  "description": "★★★★★ NOUVEAU HYBRID v2 (beats HYBRID v1) : Foot+Hockey+**Basketball** 1x2 cote 1.15-1.35 WR magic ≥75% sort=ev 2 paliers. **77.6% completion sur 116 cycles testés**. Cap 164€. PnL +3098€ S1-26 OOS — bat strictement META_HYBRID_SAFE_VOLUME (76.7% comp / +2901€).",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football", "ice-hockey", "basketball"],
+    "market": "1x2",
+    "cote_min": 1.15, "cote_max": 1.35,
+    "sort_by": "ev", "max_legs": 1, "max_combos": 1,
+    "min_wr": 0.75, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 100, "n_paliers_target": 2, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "challenge_target": {"start": 100, "end": 160, "expected_cap": 164},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.776,
+    "n_cycles_complete": 90,
+    "n_cycles_total": 116,
+    "avg_capital_complete": 164,
+    "final_pnl": 3098,
+    "winamax_fr": true,
+    "source": "find_hybrid_v2_beat (R_FINE_FHB_1.15-1.35_wr75_ev)",
+    "note": "★★★★★ Variante FHB (incluant Basketball à la place de Tennis). 77.6% comp = +0.9% vs HYBRID v1, +200€ PnL. Tranche cote 1.15-1.35 plus serrée que 1.20-1.40."
+  }
+}

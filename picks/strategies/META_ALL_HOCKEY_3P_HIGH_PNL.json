@@ -1,0 +1,31 @@
+{
+  "id": "META_ALL_HOCKEY_3P_HIGH_PNL",
+  "label": "🏆🆕🏒 META ALL HOCKEY 3P 1.30-1.55 WR≥60% — 48% comp 64 cycles +2594€",
+  "description": "★★★★★ Toutes ligues hockey (NHL+KHL+SHL+DEL+NL+Liiga) 1x2 cote 1.30-1.55 WR magic ≥60% sort=wr 3 paliers. **48.4% completion sur 64 cycles testés** (record volume hockey multi-leagues). Cap 290€. PnL +2594€ S1-26.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["ice-hockey"],
+    "market": "1x2",
+    "cote_min": 1.30, "cote_max": 1.55,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+    "min_wr": 0.60, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 100, "n_paliers_target": 3, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "included_leagues": ["nhl", "khl", "shl", "del", "national league", "liiga"],
+  "challenge_target": {"start": 100, "end": 280, "expected_cap": 290},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.484,
+    "n_cycles_complete": 31,
+    "n_cycles_total": 64,
+    "avg_capital_complete": 290,
+    "final_pnl": 2594,
+    "winamax_fr": true,
+    "source": "find_hockey_tennis_advanced (H_ALL_HOCKEY_1.3-1.55_wr0.6_p3_wr)",
+    "note": "★★★★★ Pool de matchs hockey maximal — toutes ligues élites. 64 cycles validés. PnL +2594€."
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "META_TRINITY_PCT8_MWR70",
+  "label": "💎🆕 META TRINITY pct8 mwr0.70 — DD ULTRA-BAS — +14535€ BR×146 ratio 10.6×",
+  "description": "★★★★ VARIANTE ULTRA-SAFE du META TRINITY : sizing flat 8% + min_wr 0.70 (plus strict). PnL **+14535€** sur S1-26, BR×146, ratio PnL/DD **10.6×**, DD max seulement **1374€**. Idéal pour user qui veut maximiser ratio sans trop de stress (DD 19× plus bas que pct15).",
+  "components": [
+    {
+      "sports": ["football"],
+      "market": "1x2,btts,over_1_5,over_2_5",
+      "cote_min": 1.20, "cote_max": 1.40,
+      "sort_by": "ev", "max_legs": 1, "max_combos": 3,
+      "min_wr": 0.70, "min_ev": null
+    },
+    {
+      "sports": ["football"],
+      "market": "over_1_5",
+      "cote_min": 1.20, "cote_max": 1.40,
+      "sort_by": "wr", "max_legs": 1, "max_combos": 3,
+      "min_wr": 0.70, "min_ev": null
+    },
+    {
+      "sports": ["ice-hockey"],
+      "market": "1x2",
+      "cote_min": 1.20, "cote_max": 1.50,
+      "sort_by": "wr", "max_legs": 1, "max_combos": 3,
+      "min_wr": 0.70, "min_ev": null
+    }
+  ],
+  "dedup": "max1",
+  "sizing": {"mode": "flat_pct", "pct": 0.08, "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "pnl_net_s1": 14535,
+    "pnl": 14535,
+    "bankroll_multiplier": 146.4,
+    "dd_max": 1374,
+    "ratio_pnl_dd": 10.6,
+    "winamax_fr": true,
+    "source": "sweep_trinity_safe (variante pct8 mwr0.70)",
+    "note": "★★★★ Variante ULTRA-SAFE. DD 1374€ seulement. Pour qui veut le ratio max et un sommeil tranquille."
+  }
+}

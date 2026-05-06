@@ -1,0 +1,31 @@
+{
+  "id": "META_MLS_3P_HIGH_PNL",
+  "label": "🏆🆕 META MLS 3P xmkt 1.50-1.80 WR≥65% — 12 cycles cap 373€ +1410€",
+  "description": "★★★★ MLS xmkt cote 1.50-1.80 WR magic ≥65% sort=wr 3 paliers. **58.3% completion sur 12 cycles testés**. Cap 373€ (×3.7 BR). PnL +1410€ S1-26.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football"],
+    "market": "1x2,btts,over_1_5,over_2_5",
+    "cote_min": 1.50, "cote_max": 1.80,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+    "min_wr": 0.65, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 100, "n_paliers_target": 3, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "included_leagues": ["mls"],
+  "challenge_target": {"start": 100, "end": 350, "expected_cap": 373},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.583,
+    "n_cycles_complete": 7,
+    "n_cycles_total": 12,
+    "avg_capital_complete": 373,
+    "final_pnl": 1410,
+    "winamax_fr": true,
+    "source": "find_specific_leagues (L_MLS_1.5-1.8_wr0.65_p3_wr)",
+    "note": "★★★★ MLS ligue américaine — magic dict captée. Volume modeste (12 cyc) car saison MLS limitée S1-26. PnL +1410€."
+  }
+}

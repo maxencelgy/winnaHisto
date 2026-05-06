@@ -1,0 +1,30 @@
+{
+  "id": "META_OVER15_FOOT_3P_HIGH_PNL",
+  "label": "🏆🆕 META OVER 1.5 FOOT 3P 1.30-1.45 — 95 cycles 56.8% comp +3820€",
+  "description": "★★★★★ Football Over 1.5 cote 1.30-1.45 sort=wr 3 paliers. **56.8% completion sur 95 cycles testés**. Cap 247€. PnL +3820€ S1-26.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football"],
+    "market": "over_1_5",
+    "cote_min": 1.30, "cote_max": 1.45,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+    "min_wr": null, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 100, "n_paliers_target": 3, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "challenge_target": {"start": 100, "end": 240, "expected_cap": 247},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.568,
+    "n_cycles_complete": 54,
+    "n_cycles_total": 95,
+    "avg_capital_complete": 247,
+    "final_pnl": 3820,
+    "winamax_fr": true,
+    "source": "find_btts_strict (B_o15_1.3-1.45_wrNone_p3_wr)",
+    "note": "★★★★★ Over 1.5 cote 1.30-1.45 = match avec ≥2 buts attendus. Magic dict très précise sur Over 1.5. 56.8% comp + 95 cycles."
+  }
+}

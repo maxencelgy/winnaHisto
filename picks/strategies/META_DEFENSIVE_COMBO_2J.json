@@ -1,0 +1,32 @@
+{
+  "id": "META_DEFENSIVE_COMBO_2J",
+  "label": "🆕🛡️ META Combo DÉFENSIF 2j BTTS+OU 2.5 — cote totale 2.0-3.0 WR≥55% — 42 cycles",
+  "description": "★★★★ NOUVELLE META : combo 2 jambes mixant BTTS et Over 2.5 (le moteur prend la combinaison avec le meilleur WR à cette cote totale). 1 palier = 1 SEUL ticket combo pour passer 100→400€. Completion **31% sur 42 cycles testés**. Cap 446€. P3=67%, P5=84%.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football", "ice-hockey"],
+    "market": "btts,over_2_5",
+    "cote_min": 2.0, "cote_max": 3.0,
+    "sort_by": "wr", "max_legs": 2, "max_combos": 1,
+    "min_wr": 0.55, "min_ev": null,
+    "legs_per_palier": 2
+  }],
+  "montante": {"initial_stake": 100, "n_paliers_target": 1, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 2},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "challenge_target": {"start": 100, "end": 400, "expected_cap": 446},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.31,
+    "n_cycles_complete": 13,
+    "n_cycles_total": 42,
+    "avg_capital_complete": 446,
+    "prob_target_3_cycles": 67.1,
+    "prob_target_5_cycles": 84.4,
+    "prob_target_10_cycles": 97.6,
+    "winamax_fr": true,
+    "source": "sweep_combo_defensive (META combo 2j défensif)",
+    "note": "★★★★ Combo 2 jambes BTTS + OU 2.5 cote totale 2.0-3.0. Le moteur choisit la meilleure combinaison de selections (BTTS Y/N et Over/Under). 1 SEUL ticket combo pour 100→400€."
+  }
+}

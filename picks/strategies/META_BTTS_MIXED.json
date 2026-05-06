@@ -1,0 +1,31 @@
+{
+  "id": "META_BTTS_MIXED",
+  "label": "🆕⚖️ META BTTS Y/N mid-cote 1.50-1.80 — 2 paliers foot WR≥50% — 106 cycles",
+  "description": "★★★★★ NOUVELLE META : exploite BTTS Y et BTTS N selon le meilleur WR magic par match. Cote 1.50-1.80 = matchs équilibrés. 2 paliers seulement. Completion **49.1% sur 106 cycles testés** (record absolu de volume sur 2 paliers !). Cap 261€ (atteint 100→250€).",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football"],
+    "market": "btts",
+    "cote_min": 1.50, "cote_max": 1.80,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+    "min_wr": 0.50, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 100, "n_paliers_target": 2, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "challenge_target": {"start": 100, "end": 250, "expected_cap": 261},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.491,
+    "n_cycles_complete": 52,
+    "n_cycles_total": 106,
+    "avg_capital_complete": 261,
+    "prob_target_5_cycles": 96.7,
+    "prob_target_10_cycles": 99.9,
+    "winamax_fr": true,
+    "source": "sweep_meta_selections (META BTTS mixed)",
+    "note": "★★★★★ Le market btts extrait both BTTS_Y et BTTS_N. Le moteur prend la selection avec meilleur WR magic. 106 cycles testés (record volume sur 2p). Variante BTTS du META OU 2.5."
+  }
+}

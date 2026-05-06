@@ -209,6 +209,13 @@ def apply_strategy(strategy, picks_data, bankroll, magic=None, excluded_leagues=
                       and (min_wr is None or p["wr"] >= min_wr)
                       and (min_ev is None or p["ev"] >= min_ev)]
 
+        # Filtre included_leagues (substring match lowercase) — opt-in via strategy JSON
+        included_leagues = strategy.get("included_leagues") or comp.get("included_leagues")
+        if included_leagues:
+            incl_low = [l.lower() for l in included_leagues if l and l.strip()]
+            candidates = [p for p in candidates
+                          if any(i in (p.get("league") or "").lower() for i in incl_low)]
+
         # Pour singles, filtrer cote sur le pick. Pour combos, on filtre cote totale plus bas.
         if max_legs == 1:
             candidates = [p for p in candidates if cote_min <= p["cote"] <= cote_max]

@@ -1,0 +1,31 @@
+{
+  "id": "META_NHL_3P",
+  "label": "🏆🆕 META NHL 3P 1x2 1.30-1.55 — 42.9% comp 28 cycles cap 309€ +908€",
+  "description": "★★★★ NHL 1x2 cote 1.30-1.55 sort=ev 3 paliers. **42.9% completion sur 28 cycles testés**. Cap 309€. PnL +908€.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["ice-hockey"],
+    "market": "1x2",
+    "cote_min": 1.30, "cote_max": 1.55,
+    "sort_by": "ev", "max_legs": 1, "max_combos": 1,
+    "min_wr": null, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 100, "n_paliers_target": 3, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "included_leagues": ["nhl"],
+  "challenge_target": {"start": 100, "end": 295, "expected_cap": 309},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.429,
+    "n_cycles_complete": 12,
+    "n_cycles_total": 28,
+    "avg_capital_complete": 309,
+    "final_pnl": 908,
+    "winamax_fr": true,
+    "source": "find_niche_specific (H_NHL_1.3-1.55_wrNone_p3_ev)",
+    "note": "★★★★ NHL 3P cote 1.30-1.55 — 43% comp + cap 309€."
+  }
+}

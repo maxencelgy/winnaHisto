@@ -1,0 +1,31 @@
+{
+  "id": "META_PL_1X2_2P",
+  "label": "🏆🆕🇬🇧 META PREMIER LEAGUE 1x2 2P 1.60-2.00 — 47.6% comp 42 cycles +2272€",
+  "description": "★★★★★ Premier League 1x2 cote 1.60-2.00 sort=ev 2 paliers. **47.6% completion sur 42 cycles testés**. Cap 324€. PnL +2272€.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football"],
+    "market": "1x2",
+    "cote_min": 1.60, "cote_max": 2.00,
+    "sort_by": "ev", "max_legs": 1, "max_combos": 1,
+    "min_wr": null, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 100, "n_paliers_target": 2, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "included_leagues": ["premier league"],
+  "challenge_target": {"start": 100, "end": 320, "expected_cap": 324},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.476,
+    "n_cycles_complete": 20,
+    "n_cycles_total": 42,
+    "avg_capital_complete": 324,
+    "final_pnl": 2272,
+    "winamax_fr": true,
+    "source": "find_top5_isolated (T5_PL_1x2_1.6-2.0_wrNone_p2_ev)",
+    "note": "★★★★★ Variante 2P de PL_1X2_3P. 42 cycles validés. Cap 324€."
+  }
+}

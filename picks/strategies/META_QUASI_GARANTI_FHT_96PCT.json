@@ -1,0 +1,30 @@
+{
+  "id": "META_QUASI_GARANTI_FHT_96PCT",
+  "label": "🏆🆕 META QUASI-GARANTI FHT 96.6% COMP — 29 cycles WR≥90%",
+  "description": "★★★★★ Foot+Hockey+Tennis 1x2 cote 1.03-1.07 WR magic ≥90% sort=wr 1 palier. **96.6% completion sur 29 cycles testés** (1/29 fail). Cap 105€. PnL +40€.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football", "ice-hockey", "tennis"],
+    "market": "1x2",
+    "cote_min": 1.03, "cote_max": 1.07,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+    "min_wr": 0.90, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 100, "n_paliers_target": 1, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "challenge_target": {"start": 100, "end": 105, "expected_cap": 105},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.966,
+    "n_cycles_complete": 28,
+    "n_cycles_total": 29,
+    "avg_capital_complete": 105,
+    "final_pnl": 40,
+    "winamax_fr": true,
+    "source": "find_quasi_garanti (QG_FHT_1x2_1.03-1.07_wr90_wr)",
+    "note": "★★★★★ 96.6% comp / 29 cycles validés (more volume than PERFECT 100%). Variante moins restrictive (WR≥90 vs 97)."
+  }
+}

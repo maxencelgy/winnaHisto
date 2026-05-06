@@ -1,0 +1,32 @@
+{
+  "id": "META_CV_BTTS_2P_VALIDATED",
+  "label": "🏆🆕 META CROSS-VAL BTTS 2P 1.50-1.80 — validé par Over 2.5 — 50% comp 66 cycles +1630€",
+  "description": "★★★★★ NOUVEAU FEATURE : Cross-validation. Football BTTS Yes cote 1.50-1.80 WR≥60% sort=wr 2 paliers, **validé UNIQUEMENT si Over 2.5 sur même match a WR magic ≥65%**. **50.0% completion sur 66 cycles testés**. Cap 249€. PnL +1630€. Filtre supplémentaire qui exploite la corrélation BTTS+Over.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football"],
+    "market": "btts",
+    "cote_min": 1.50, "cote_max": 1.80,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+    "min_wr": 0.60, "min_ev": null,
+    "legs_per_palier": 1,
+    "validation_market": "over_2_5",
+    "validation_min_wr": 0.65
+  }],
+  "montante": {"initial_stake": 100, "n_paliers_target": 2, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "challenge_target": {"start": 100, "end": 240, "expected_cap": 249},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.500,
+    "n_cycles_complete": 33,
+    "n_cycles_total": 66,
+    "avg_capital_complete": 249,
+    "final_pnl": 1630,
+    "winamax_fr": true,
+    "source": "find_cross_validation (CV_F_btt_vove_65_1.5-1.8_wr0.6_p2_wr)",
+    "note": "★★★★★ Première strat avec CROSS-VALIDATION : prend BTTS Yes seulement si Over 2.5 même match a WR≥65% magic. Réduit picks mais augmente fiabilité. Corrélation BTTS+Over = +0.55-0.70 (recherche web)."
+  }
+}

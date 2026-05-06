@@ -1,0 +1,30 @@
+{
+  "id": "META_COMBO2_FHT_3P_VOLUME_113",
+  "label": "🏆🆕 META COMBO2 FHT 3P HIGH-COTE 1.55-1.75 — 113 cycles cap 1960€ +8303€",
+  "description": "★★★★★ NOUVEAU RECORD VOLUME haute cote : Foot+Hockey+Tennis xmkt cote 1.55-1.75 sort=wr legs=2 3 paliers. **8.8% completion sur 113 cycles testés** (record volume 3P combo high-cote). Cap 1960€ (×19.6 BR). PnL +8303€.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football", "ice-hockey", "tennis"],
+    "market": "1x2,btts,over_1_5,over_2_5",
+    "cote_min": 1.55, "cote_max": 1.75,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+    "min_wr": null, "min_ev": null,
+    "legs_per_palier": 2
+  }],
+  "montante": {"initial_stake": 100, "n_paliers_target": 3, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 2},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "challenge_target": {"start": 100, "end": 1900, "expected_cap": 1960},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.088,
+    "n_cycles_complete": 10,
+    "n_cycles_total": 113,
+    "avg_capital_complete": 1960,
+    "final_pnl": 8303,
+    "winamax_fr": true,
+    "source": "find_legs2_highcote_singleshot (L2HC_FHT_1.55-1.75_p3_wr)",
+    "note": "★★★★★ High-cote 1.55-1.75 combo 2j → cote totale ~2.7 par palier × 3 = cap 1960€. 113 cycles validés."
+  }
+}

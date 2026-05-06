@@ -1,0 +1,31 @@
+{
+  "id": "META_EREDIVISIE_2P_HIGH_PNL",
+  "label": "🏆🆕 META EREDIVISIE 2P xmkt 1.50-1.80 — 58% comp 31 cycles cap 256€ +1516€",
+  "description": "★★★★★ Eredivisie xmkt cote 1.50-1.80 sort=wr 2 paliers. **58.1% completion sur 31 cycles testés**. Cap 256€. PnL +1516€ S1-26.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football"],
+    "market": "1x2,btts,over_1_5,over_2_5",
+    "cote_min": 1.50, "cote_max": 1.80,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+    "min_wr": null, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 100, "n_paliers_target": 2, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "included_leagues": ["eredivisie"],
+  "challenge_target": {"start": 100, "end": 250, "expected_cap": 256},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.581,
+    "n_cycles_complete": 18,
+    "n_cycles_total": 31,
+    "avg_capital_complete": 256,
+    "final_pnl": 1516,
+    "winamax_fr": true,
+    "source": "find_specific_leagues (L_ERED_1.5-1.8_wrNone_p2_wr)",
+    "note": "★★★★★ Variante 2P de EREDIVISIE_1SHOT — 58% comp + cap 256€ (×2.5 BR). PnL +1516€."
+  }
+}

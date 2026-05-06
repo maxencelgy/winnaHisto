@@ -1,0 +1,30 @@
+{
+  "id": "META_COMBO5_FHTB_2P_REALISTIC",
+  "label": "🏆🆕 META COMBO5 FHTB 2P 1.25-1.40 WR≥65% — 15.6% comp 96 cycles +17508€ ★ BEST SCORE",
+  "description": "★★★★★ MEILLEUR SCORE LIB : 4 sports xmkt cote 1.25-1.40 WR magic ≥65% sort=ev 2 paliers combo 5 jambes. **15.62% completion sur 96 cycles testés**. Cap 1807€. PnL **+17508€** S1-26 OOS — score 271 (record absolu).",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football", "ice-hockey", "tennis", "basketball"],
+    "market": "1x2,btts,over_1_5,over_2_5",
+    "cote_min": 1.25, "cote_max": 1.40,
+    "sort_by": "ev", "max_legs": 1, "max_combos": 1,
+    "min_wr": 0.65, "min_ev": null,
+    "legs_per_palier": 5
+  }],
+  "montante": {"initial_stake": 100, "n_paliers_target": 2, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 5},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "challenge_target": {"start": 100, "end": 1700, "expected_cap": 1807},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.156,
+    "n_cycles_complete": 15,
+    "n_cycles_total": 96,
+    "avg_capital_complete": 1807,
+    "final_pnl": 17508,
+    "winamax_fr": true,
+    "source": "find_legs45_midcote (L5MC_FHTB_1.25-1.4_wr0.65_p2_ev)",
+    "note": "★★★★★ Compromis IDEAL entre PnL et comp réalistique : 15.6% comp + 96 cycles + cap 1807€ + +17508€ PnL. 4 sports = pool max. 10 picks par cycle (5 legs × 2 paliers)."
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "META_BTTS_BL2_2P",
+  "label": "🏆🆕 META BTTS BL2 2P cote 1.55-1.75 — 56% comp 32 cycles +1590€",
+  "description": "★★★★ BTTS Yes 2.Bundesliga cote 1.55-1.75 sort=ev 2 paliers. **56.2% completion sur 32 cycles testés**. Cap 266€. PnL +1590€.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football"],
+    "market": "btts",
+    "cote_min": 1.55, "cote_max": 1.75,
+    "sort_by": "ev", "max_legs": 1, "max_combos": 1,
+    "min_wr": null, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 100, "n_paliers_target": 2, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "included_leagues": ["bundesliga 2", "2 bundesliga", "2. bundesliga"],
+  "challenge_target": {"start": 100, "end": 250, "expected_cap": 266},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.562,
+    "n_cycles_complete": 18,
+    "n_cycles_total": 32,
+    "avg_capital_complete": 266,
+    "final_pnl": 1590,
+    "winamax_fr": true,
+    "source": "find_more_angles_v4 (K_BTTS_BL2_1.55-1.75_p2_wrNone_ev)",
+    "note": "★★★★ 2.Bundesliga BTTS 2P — 56% completion + 32 cycles = solidité. Variante 2p de BL2_3P_HIGH_PNL."
+  }
+}

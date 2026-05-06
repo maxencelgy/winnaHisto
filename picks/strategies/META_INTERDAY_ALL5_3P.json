@@ -1,0 +1,30 @@
+{
+  "id": "META_INTERDAY_ALL5_3P",
+  "label": "🏆🆕 META INTERDAY ALL5 3P 1x2 1.20-1.40 WR≥75% — 69.8% comp 43 cycles +2348€",
+  "description": "★★★★★ MODE INTERDAY (1 palier/jour) : 5 sports 1x2 cote 1.20-1.40 WR magic ≥75% sort=ev 3 paliers. **69.8% completion sur 43 cycles testés**. Cap 222€. PnL +2348€ S1-26 OOS — meilleur INTERDAY de la lib (cycle dure 3 jours).",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football", "ice-hockey", "tennis", "basketball", "baseball"],
+    "market": "1x2",
+    "cote_min": 1.20, "cote_max": 1.40,
+    "sort_by": "ev", "max_legs": 1, "max_combos": 1,
+    "min_wr": 0.75, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 100, "n_paliers_target": 3, "reset_on_loss": true,
+                "preferred_mode": "interday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "challenge_target": {"start": 100, "end": 215, "expected_cap": 222},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.698,
+    "n_cycles_complete": 30,
+    "n_cycles_total": 43,
+    "avg_capital_complete": 222,
+    "final_pnl": 2348,
+    "winamax_fr": true,
+    "source": "find_interday_winners (I_ALL5_1.2-1.4_wr0.75_p3_ev)",
+    "note": "★★★★★ MODE INTERDAY = 1 pari par jour. Cycle dure 3 jours. 70% comp + cap 222€. Plus posé que intraday."
+  }
+}

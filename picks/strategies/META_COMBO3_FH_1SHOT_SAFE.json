@@ -1,0 +1,30 @@
+{
+  "id": "META_COMBO3_FH_1SHOT_SAFE",
+  "label": "🏆🆕 META COMBO3 FH 1-SHOT xmkt 1.15-1.30 WR≥78% — 70% comp 83 cycles +2481€",
+  "description": "★★★★★ Combo 3 jambes single-shot daily : Foot+Hockey xmkt cote 1.15-1.30 WR magic ≥78% sort=wr 1 palier. **69.9% completion sur 83 cycles testés**. Cap 185€. PnL +2481€ S1-26 — combo 3j safe avec très haut volume (83 cycles).",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football", "ice-hockey"],
+    "market": "1x2,btts,over_1_5,over_2_5",
+    "cote_min": 1.15, "cote_max": 1.30,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+    "min_wr": 0.78, "min_ev": null,
+    "legs_per_palier": 3
+  }],
+  "montante": {"initial_stake": 100, "n_paliers_target": 1, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 3},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "challenge_target": {"start": 100, "end": 180, "expected_cap": 185},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.699,
+    "n_cycles_complete": 58,
+    "n_cycles_total": 83,
+    "avg_capital_complete": 185,
+    "final_pnl": 2481,
+    "winamax_fr": true,
+    "source": "find_combos_3legs (C3_FH_1.15-1.3_wr78_p1_wr)",
+    "note": "★★★★★ 3 jambes par cycle (combo cote ~1.85) × 1 palier = ticket combo daily. 70% jours verts. 83 cycles validés. Différent des combos 2j car 3 picks par jour."
+  }
+}

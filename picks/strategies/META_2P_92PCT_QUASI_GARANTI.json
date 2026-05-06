@@ -1,0 +1,30 @@
+{
+  "id": "META_2P_92PCT_QUASI_GARANTI",
+  "label": "🟢🛡️ META 2P 92% COMP QUASI-GARANTI — Foot+Tennis 1x2 cote 1.03-1.08 WR≥88%",
+  "description": "★★★★ COMPLETION 92% sur 2 paliers : Foot+Tennis 1x2 cote 1.03-1.08 WR magic ≥88% sort=wr. **92.0% completion sur 25 cycles testés** (record absolu completion 2p, seul 2/25 fail). Cap 113€. PnL modeste +92€ mais ULTRA-SAFE — pour qui veut quasi-garantir l'aboutissement de chaque cycle.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football", "tennis"],
+    "market": "1x2",
+    "cote_min": 1.03, "cote_max": 1.08,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+    "min_wr": 0.88, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 100, "n_paliers_target": 2, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "challenge_target": {"start": 100, "end": 110, "expected_cap": 113},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.92,
+    "n_cycles_complete": 23,
+    "n_cycles_total": 25,
+    "avg_capital_complete": 113,
+    "final_pnl": 92,
+    "winamax_fr": true,
+    "source": "find_new_angles_v3 (A_2P_FT_1.03-1.08_wr88_wr)",
+    "note": "★★★★ 92% completion = quasi-garantie d'aboutir chaque cycle. Trade-off : cap modeste 113€ (cote ultra-basse 1.03-1.08). Pour psychologie : 92% de jours verts."
+  }
+}

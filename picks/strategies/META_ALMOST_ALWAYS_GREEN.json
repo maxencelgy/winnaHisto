@@ -1,0 +1,29 @@
+{
+  "id": "META_ALMOST_ALWAYS_GREEN",
+  "label": "💚🛡️ META ALMOST ALWAYS GREEN — 93.9% jours verts — 1 pick/jour WR≥92% cote 1.05-1.12",
+  "description": "★★★★ STRATÉGIE ZÉRO STRESS : 1 seul pick par jour, multi-sport (foot+hockey+tennis+basket), cote ultra-basse 1.05-1.12, WR magic ≥92%. **93.9% des jours sont verts** (4 jours rouges sur 66 joués sur S1-26). PnL modeste +29€ avec sizing 20%. ⚠️ 100% jours verts est mathématiquement impossible — c'est le plafond statistique atteignable.",
+  "components": [
+    {
+      "sports": ["football", "ice-hockey", "tennis", "basketball"],
+      "market": "1x2,btts,over_1_5,over_2_5",
+      "cote_min": 1.05, "cote_max": 1.12,
+      "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+      "min_wr": 0.92, "min_ev": null
+    }
+  ],
+  "dedup": "max1",
+  "sizing": {"mode": "flat_pct", "pct": 0.20, "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "pnl_net_s1": 29,
+    "pnl": 29,
+    "wr_combos": 0.939,
+    "n_days_played": 66,
+    "n_days_positive": 62,
+    "n_days_negative": 4,
+    "pct_green_days": 93.9,
+    "winamax_fr": true,
+    "source": "sweep_max_green_days",
+    "note": "★★★★ Le moins de jours rouges possible (4/66 = 6%). PnL faible mais variance ultra-basse. Trade-off : pour gagner plus il faut accepter des jours rouges. 100% impossible (loi des grands nombres)."
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "META_MIDCOTE_FH_2P_RECORD",
+  "label": "🏆🆕 META MIDCOTE 2P FH cote 1.40-1.55 WR≥60% — 91 cycles +3388€ RECORD VOLUME",
+  "description": "★★★★★ NOUVEAU RECORD VOLUME 2P : Foot+Hockey 1x2 cote 1.40-1.55 WR magic ≥60% sort=wr. **63.7% completion sur 91 cycles testés** (record absolu volume 2p, dépasse META_BEST_EV_2P_FH_VOL à 115@50%). Cap 215€. **Seulement 2 paris**. PnL +3388€ S1-26 OOS.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football", "ice-hockey"],
+    "market": "1x2",
+    "cote_min": 1.40, "cote_max": 1.55,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+    "min_wr": 0.60, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 100, "n_paliers_target": 2, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "challenge_target": {"start": 100, "end": 200, "expected_cap": 215},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.637,
+    "n_cycles_complete": 58,
+    "n_cycles_total": 91,
+    "avg_capital_complete": 215,
+    "final_pnl": 3388,
+    "winamax_fr": true,
+    "source": "find_new_angles_v3 (D_MID_FH_1.4-1.55_wr60_p2_wr)",
+    "note": "★★★★★ Combo gagnant : completion 63.7% (très haute pour 2p) × 91 cycles validés × cap 215€. Ratio comp×cap = 137. PnL +3388€ S1-26."
+  }
+}

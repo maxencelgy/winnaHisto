@@ -1,0 +1,30 @@
+{
+  "id": "META_COMBO2_FHTB_3P_HIGH_VOL",
+  "label": "🏆🆕 META COMBO2 FHTB 3P 1.25-1.40 — 111 cycles RECORD VOLUME 3P combo +6796€",
+  "description": "★★★★★ NOUVEAU RECORD VOLUME 3P combo : 4 sports xmkt cote 1.25-1.40 sort=ev 3 paliers combo 2 jambes. **28.8% completion sur 111 cycles testés** (record volume 3P combo). Cap 559€. PnL +6796€.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football", "ice-hockey", "tennis", "basketball"],
+    "market": "1x2,btts,over_1_5,over_2_5",
+    "cote_min": 1.25, "cote_max": 1.40,
+    "sort_by": "ev", "max_legs": 1, "max_combos": 1,
+    "min_wr": null, "min_ev": null,
+    "legs_per_palier": 2
+  }],
+  "montante": {"initial_stake": 100, "n_paliers_target": 3, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 2},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "challenge_target": {"start": 100, "end": 540, "expected_cap": 559},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.288,
+    "n_cycles_complete": 32,
+    "n_cycles_total": 111,
+    "avg_capital_complete": 559,
+    "final_pnl": 6796,
+    "winamax_fr": true,
+    "source": "find_legs2_midcote_ultra (L2M_FHTB_1.25-1.4_wrNone_p3_ev)",
+    "note": "★★★★★ 4 sports → 111 cycles validés (RECORD volume 3P combo). Comp 28.8% + cap 559€."
+  }
+}

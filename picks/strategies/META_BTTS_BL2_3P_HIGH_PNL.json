@@ -1,0 +1,31 @@
+{
+  "id": "META_BTTS_BL2_3P_HIGH_PNL",
+  "label": "🏆🆕 META BTTS 2.BUNDESLIGA 3P cote 1.60-1.85 — 21 cycles cap 469€ +2590€",
+  "description": "★★★★★ BTTS Yes 2.Bundesliga (BL2) cote 1.60-1.85 sort=ev 3 paliers. **47.6% completion sur 21 cycles testés**. Cap 469€ (×4.7 BR). PnL +2590€ S1-26 OOS. Confirme l'edge ligue allemande secondaire BTTS-friendly.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football"],
+    "market": "btts",
+    "cote_min": 1.60, "cote_max": 1.85,
+    "sort_by": "ev", "max_legs": 1, "max_combos": 1,
+    "min_wr": null, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 100, "n_paliers_target": 3, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "included_leagues": ["bundesliga 2", "2 bundesliga", "2. bundesliga"],
+  "challenge_target": {"start": 100, "end": 400, "expected_cap": 469},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.476,
+    "n_cycles_complete": 10,
+    "n_cycles_total": 21,
+    "avg_capital_complete": 469,
+    "final_pnl": 2590,
+    "winamax_fr": true,
+    "source": "find_more_angles_v4 (K_BTTS_BL2_1.6-1.85_p3_wrNone_ev)",
+    "note": "★★★★★ 2.Bundesliga BTTS Yes 3 paliers — 47.6% comp avec cap 469€. Sweet spot ligue allemande secondaire (defensive equilibrée mais BTTS systématique)."
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "META_SA_OVER25_2P_80PCT",
+  "label": "🏆🆕🇮🇹 META SERIE A OVER 2.5 2P 1.50-1.80 — 80% comp 15 cycles +1299€",
+  "description": "★★★★★ Serie A Over 2.5 cote 1.50-1.80 sort=wr 2 paliers. **80.0% completion sur 15 cycles testés** (record completion TOP5 ligue isolée). Cap 233€. PnL +1299€.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football"],
+    "market": "over_2_5",
+    "cote_min": 1.50, "cote_max": 1.80,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+    "min_wr": null, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 100, "n_paliers_target": 2, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "included_leagues": ["serie a"],
+  "challenge_target": {"start": 100, "end": 230, "expected_cap": 233},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.800,
+    "n_cycles_complete": 12,
+    "n_cycles_total": 15,
+    "avg_capital_complete": 233,
+    "final_pnl": 1299,
+    "winamax_fr": true,
+    "source": "find_top5_isolated (T5_SA_ove_1.5-1.8_wrNone_p2_wr)",
+    "note": "★★★★★ Serie A Over 2.5 — 80% comp surprenant pour ligue défensive. Volume modeste (15 cyc) car cote 1.50-1.80 sur SA filtré."
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "META_COMBO2J_FT_XMKT_2P",
+  "label": "🏆🆕 META COMBO2J FT XMKT 2P cote 1.05-1.20 WR≥85% — 58 cycles 74% comp +1494€",
+  "description": "★★★★ Combos 2 jambes (legs_per_palier=2) Foot+Tennis xmkt cote 1.05-1.20 WR magic ≥85% sort=ev 2 paliers. **74.1% completion sur 58 cycles testés**. Cap 170€. PnL +1494€ S1-26.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football", "tennis"],
+    "market": "1x2,btts,over_1_5,over_2_5",
+    "cote_min": 1.05, "cote_max": 1.20,
+    "sort_by": "ev", "max_legs": 1, "max_combos": 1,
+    "min_wr": 0.85, "min_ev": null,
+    "legs_per_palier": 2
+  }],
+  "montante": {"initial_stake": 100, "n_paliers_target": 2, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 2},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "challenge_target": {"start": 100, "end": 165, "expected_cap": 170},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.741,
+    "n_cycles_complete": 43,
+    "n_cycles_total": 58,
+    "avg_capital_complete": 170,
+    "final_pnl": 1494,
+    "winamax_fr": true,
+    "source": "find_new_records_v2 (NR2_1012)",
+    "note": "★★★★ Combo 2j Foot+Tennis xmkt — 74% completion + 58 cycles = solidité. Cote totale combo ~1.30 par palier × 2 = ×1.69. PnL +1494€."
+  }
+}

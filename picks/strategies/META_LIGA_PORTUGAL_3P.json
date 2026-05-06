@@ -1,0 +1,31 @@
+{
+  "id": "META_LIGA_PORTUGAL_3P",
+  "label": "🏆🆕 META LIGA PORTUGAL 3P xmkt 1.20-1.40 — 45 cycles 51% comp +871€",
+  "description": "★★★★ Liga Portugal (Primeira Liga) xmkt cote 1.20-1.40 sort=ev 3 paliers. **51.1% completion sur 45 cycles testés**. Cap 234€. PnL +871€.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football"],
+    "market": "1x2,btts,over_1_5,over_2_5",
+    "cote_min": 1.20, "cote_max": 1.40,
+    "sort_by": "ev", "max_legs": 1, "max_combos": 1,
+    "min_wr": null, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 100, "n_paliers_target": 3, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "included_leagues": ["primeira liga", "liga portugal"],
+  "challenge_target": {"start": 100, "end": 230, "expected_cap": 234},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.511,
+    "n_cycles_complete": 23,
+    "n_cycles_total": 45,
+    "avg_capital_complete": 234,
+    "final_pnl": 871,
+    "winamax_fr": true,
+    "source": "find_specific_leagues (L_POR_1.2-1.4_wrNone_p3_ev)",
+    "note": "★★★★ Liga Portugal 3P micro-cote — 51% comp + 45 cycles validés."
+  }
+}

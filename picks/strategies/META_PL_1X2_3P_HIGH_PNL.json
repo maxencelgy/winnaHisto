@@ -1,0 +1,31 @@
+{
+  "id": "META_PL_1X2_3P_HIGH_PNL",
+  "label": "🏆🆕🇬🇧 META PREMIER LEAGUE 1x2 3P 1.60-2.00 WR≥55% — +4733€ RECORD TOP5",
+  "description": "★★★★★ RECORD TOP5 LIGUE INDIVIDUELLE : Premier League 1x2 cote 1.60-2.00 WR≥55% sort=ev 3 paliers. **41.2% completion sur 34 cycles testés**. Cap 581€. PnL **+4733€** S1-26 OOS — meilleur PnL absolu sur ligue isolée.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football"],
+    "market": "1x2",
+    "cote_min": 1.60, "cote_max": 2.00,
+    "sort_by": "ev", "max_legs": 1, "max_combos": 1,
+    "min_wr": 0.55, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 100, "n_paliers_target": 3, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "included_leagues": ["premier league"],
+  "challenge_target": {"start": 100, "end": 550, "expected_cap": 581},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.412,
+    "n_cycles_complete": 14,
+    "n_cycles_total": 34,
+    "avg_capital_complete": 581,
+    "final_pnl": 4733,
+    "winamax_fr": true,
+    "source": "find_top5_isolated (T5_PL_1x2_1.6-2.0_wr0.55_p3_ev)",
+    "note": "★★★★★ Premier League 3 paliers cote 1.60-2.00 = vrais favoris en EPL. WR≥55% magic filter. Cap 581€. PnL record TOP5 ligue isolée."
+  }
+}

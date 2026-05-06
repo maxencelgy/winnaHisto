@@ -1,0 +1,35 @@
+{
+  "id": "META_CLASSIC_FH_EV_FAV",
+  "label": "🏆🆕 META CLASSIC FH best-EV foot + favori hockey — pct10 — +7127€ BR×72",
+  "description": "★★★★★ NOUVELLE META CLASSIQUE multi-component : 1 component Foot xmkt sort=EV (best-of-9 selections) + 1 component Hockey 1x2 sort=WR (favori). Sizing 10% par combo. PnL **+7127€** sur S1-26 (ROI 8.2%, WR combos 82.4%, 521 combos). BR×72.27. Plus défensif que les MCA (BR×517) mais robuste — combine EV foot et favori hockey.",
+  "components": [
+    {
+      "sports": ["football"],
+      "market": "1x2,btts,over_1_5,over_2_5",
+      "cote_min": 1.20, "cote_max": 1.40,
+      "sort_by": "ev", "max_legs": 1, "max_combos": 3,
+      "min_wr": 0.65, "min_ev": null
+    },
+    {
+      "sports": ["ice-hockey"],
+      "market": "1x2",
+      "cote_min": 1.20, "cote_max": 1.50,
+      "sort_by": "wr", "max_legs": 1, "max_combos": 3,
+      "min_wr": 0.65, "min_ev": null
+    }
+  ],
+  "dedup": "max1",
+  "sizing": {"mode": "flat_pct", "pct": 0.10, "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "pnl_net_s1": 7127,
+    "pnl": 7127,
+    "roi": 8.2,
+    "wr_combos": 0.824,
+    "n_combos": 521,
+    "bankroll_multiplier": 72.27,
+    "winamax_fr": true,
+    "source": "sweep_multicomp_ev (META classique multi-component)",
+    "note": "★★★★★ 2 components : foot xmkt sort=ev + hockey 1x2 sort=wr. Pattern jamais isolé dans la lib classique. Sizing 10% all-in. WR 82.4% sur 521 combos."
+  }
+}

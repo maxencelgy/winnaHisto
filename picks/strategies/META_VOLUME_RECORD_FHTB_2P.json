@@ -1,0 +1,30 @@
+{
+  "id": "META_VOLUME_RECORD_FHTB_2P",
+  "label": "🏆🆕 META VOLUME RECORD FHTB 2P 1x2 1.20-1.45 — 118 cycles RECORD VOLUME ABSOLU 2P",
+  "description": "★★★★★ NOUVEAU RECORD VOLUME ABSOLU 2P : Foot+Hockey+Tennis+Basketball 1x2 cote 1.20-1.45 sort=wr 2 paliers. **76.3% completion sur 118 cycles testés** — record volume absolu 2P (dépasse HYBRID v1 à 116, META_BEST_EV_2P_FH_VOL à 115). Cap 163€. PnL +2843€.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football", "ice-hockey", "tennis", "basketball"],
+    "market": "1x2",
+    "cote_min": 1.20, "cote_max": 1.45,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+    "min_wr": null, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 100, "n_paliers_target": 2, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "challenge_target": {"start": 100, "end": 160, "expected_cap": 163},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.763,
+    "n_cycles_complete": 90,
+    "n_cycles_total": 118,
+    "avg_capital_complete": 163,
+    "final_pnl": 2843,
+    "winamax_fr": true,
+    "source": "find_hybrid_v2_beat (R_FINE_FHTB_1.2-1.45_wr65_wr)",
+    "note": "★★★★★ 4 sports = pool de matchs maximal → 118 cycles testés sur 4 mois. Pas de filtre WR (None) — toutes cotes 1.20-1.45 prises, magic dict trie via sort=wr. 76.3% comp solide."
+  }
+}

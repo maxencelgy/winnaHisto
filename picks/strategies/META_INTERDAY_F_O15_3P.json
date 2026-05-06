@@ -1,0 +1,30 @@
+{
+  "id": "META_INTERDAY_F_O15_3P",
+  "label": "🏆🆕 META INTERDAY F OVER 1.5 3P MICRO — 73.8% comp 42 cycles cap 154€ +587€",
+  "description": "★★★★ MODE INTERDAY : Football Over 1.5 cote 1.10-1.25 sort=wr 3 paliers (1 palier/jour). **73.8% completion sur 42 cycles testés**. Cap 154€. PnL +587€.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football"],
+    "market": "over_1_5",
+    "cote_min": 1.10, "cote_max": 1.25,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+    "min_wr": null, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 100, "n_paliers_target": 3, "reset_on_loss": true,
+                "preferred_mode": "interday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "challenge_target": {"start": 100, "end": 150, "expected_cap": 154},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.738,
+    "n_cycles_complete": 31,
+    "n_cycles_total": 42,
+    "avg_capital_complete": 154,
+    "final_pnl": 587,
+    "winamax_fr": true,
+    "source": "find_interday_winners (I_F_o15_1.1-1.25_wrNone_p3_wr)",
+    "note": "★★★★ INTERDAY Over 1.5 micro-cote — 73.8% comp + 42 cycles. Cycle dure 3 jours."
+  }
+}

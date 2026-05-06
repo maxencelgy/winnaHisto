@@ -1,0 +1,30 @@
+{
+  "id": "META_BTTS_FOOT_3P_HIGH_PNL",
+  "label": "🏆🆕 META BTTS FOOT 3P 1.60-1.80 — 103 cycles cap 482€ +4635€ RECORD VOLUME BTTS",
+  "description": "★★★★★ NOUVEAU RECORD VOLUME BTTS isolé : Football BTTS Yes cote 1.60-1.80 sort=wr 3 paliers, toutes ligues. **30.1% completion sur 103 cycles testés**. Cap 482€ (×4.8 BR). PnL +4635€ S1-26 OOS — meilleur BTTS isolé toutes ligues confondues.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football"],
+    "market": "btts",
+    "cote_min": 1.60, "cote_max": 1.80,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+    "min_wr": null, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 100, "n_paliers_target": 3, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "challenge_target": {"start": 100, "end": 460, "expected_cap": 482},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.301,
+    "n_cycles_complete": 31,
+    "n_cycles_total": 103,
+    "avg_capital_complete": 482,
+    "final_pnl": 4635,
+    "winamax_fr": true,
+    "source": "find_btts_strict (B_btts_1.6-1.8_wrNone_p3_wr)",
+    "note": "★★★★★ BTTS Yes cote 1.60-1.80 — sweet spot où la magic dict capte le mieux. 3 paliers ×1.70 → cap 482€. 103 cycles validés."
+  }
+}

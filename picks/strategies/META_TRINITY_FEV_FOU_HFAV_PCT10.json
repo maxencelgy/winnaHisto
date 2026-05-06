@@ -1,0 +1,43 @@
+{
+  "id": "META_TRINITY_FEV_FOU_HFAV_PCT10",
+  "label": "🏆💎 META TRINITY F_EV+F_OU+H_fav pct10 BALANCED — +25911€ BR×260 ratio 9.3×",
+  "description": "★★★★★★ Variante BALANCED du META TRINITY (sizing 10% au lieu de 15%). PnL **+25911€** sur S1-26, BR×260, ratio PnL/DD 9.3× (DD 2799€), ROI 9.6%. Compromis safe/aggressive — DD 6× plus bas que pct15 au prix de 7× moins de PnL.",
+  "components": [
+    {
+      "sports": ["football"],
+      "market": "1x2,btts,over_1_5,over_2_5",
+      "cote_min": 1.20, "cote_max": 1.40,
+      "sort_by": "ev", "max_legs": 1, "max_combos": 3,
+      "min_wr": 0.65, "min_ev": null
+    },
+    {
+      "sports": ["football"],
+      "market": "over_1_5",
+      "cote_min": 1.20, "cote_max": 1.40,
+      "sort_by": "wr", "max_legs": 1, "max_combos": 2,
+      "min_wr": 0.70, "min_ev": null
+    },
+    {
+      "sports": ["ice-hockey"],
+      "market": "1x2",
+      "cote_min": 1.20, "cote_max": 1.50,
+      "sort_by": "wr", "max_legs": 1, "max_combos": 2,
+      "min_wr": 0.65, "min_ev": null
+    }
+  ],
+  "dedup": "max1",
+  "sizing": {"mode": "flat_pct", "pct": 0.10, "min_stake": 0.5},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "pnl_net_s1": 25911,
+    "pnl": 25911,
+    "roi": 9.6,
+    "n_combos": 724,
+    "bankroll_multiplier": 260.11,
+    "dd_max": 2799,
+    "ratio_pnl_dd": 9.3,
+    "winamax_fr": true,
+    "source": "sweep_3comp_classic (META TRINITY pct10)",
+    "note": "★★★★★★ Version balanced du TRINITY. À privilégier sur PCT15 si on veut un DD plus bas (2799€ vs 17617€)."
+  }
+}

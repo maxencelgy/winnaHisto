@@ -1,0 +1,31 @@
+{
+  "id": "META_FAV_ULTRA_LOW_5P",
+  "label": "🆕💎 META Favori ÉCRASANT cote 1.05-1.15 — 5 paliers multi-sport WR≥85% — 30 cycles",
+  "description": "★★★★ NOUVELLE META : exploite les favoris écrasants (cote 1.05-1.15) avec WR magic 85%+. Multi-sport (foot+hockey+tennis+basket) pour volume. 5 paliers ×1.10 → cap ×1.61. Completion **63.3% sur 30 cycles testés**. Cap 161€. Pour qui veut grossir BR sans stress avec des cotes ultra-safes.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football", "ice-hockey", "tennis", "basketball"],
+    "market": "1x2",
+    "cote_min": 1.05, "cote_max": 1.15,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+    "min_wr": 0.85, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 100, "n_paliers_target": 5, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "challenge_target": {"start": 100, "end": 160, "expected_cap": 161},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.633,
+    "n_cycles_complete": 19,
+    "n_cycles_total": 30,
+    "avg_capital_complete": 161,
+    "prob_target_3_cycles": 95.1,
+    "prob_target_5_cycles": 99.3,
+    "winamax_fr": true,
+    "source": "sweep_meta_selections (META Favori ultra-low)",
+    "note": "★★★★ NOUVELLE META — favoris écrasants cote 1.05-1.15 WR≥85% multi-sport. 5 paliers ×1.10. Completion 63% sur 30 cycles seulement (volume limité par filtre cote très bas). Pour user qui veut grossir BR très progressivement avec quasi-100% de chance par palier."
+  }
+}

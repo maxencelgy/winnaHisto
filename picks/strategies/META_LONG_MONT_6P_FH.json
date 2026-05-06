@@ -1,0 +1,30 @@
+{
+  "id": "META_LONG_MONT_6P_FH",
+  "label": "🏆🆕 META LONG MONT 6P FH cote 1.08-1.15 WR≥85% — 27 cycles 66.7% comp",
+  "description": "★★★★★ NOUVEAU RECORD LONG MONTANTE : 6 paliers Foot+Hockey 1x2 cote 1.08-1.15 WR magic ≥85% sort=ev. **66.7% completion sur 27 cycles testés** — completion record sur 6 paliers. Cap 198€. PnL +867€ S1-26.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football", "ice-hockey"],
+    "market": "1x2",
+    "cote_min": 1.08, "cote_max": 1.15,
+    "sort_by": "ev", "max_legs": 1, "max_combos": 1,
+    "min_wr": 0.85, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 100, "n_paliers_target": 6, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "challenge_target": {"start": 100, "end": 195, "expected_cap": 198},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.667,
+    "n_cycles_complete": 18,
+    "n_cycles_total": 27,
+    "avg_capital_complete": 198,
+    "final_pnl": 867,
+    "winamax_fr": true,
+    "source": "find_more_angles_v4 (L_LONG_FH_1.08-1.15_p6_wr85_ev)",
+    "note": "★★★★★ 6 paliers ×1.115 → cap 198€. 66.7% completion sur 6 paliers = exceptionnel. Demande 6 picks WR≥85% par jour mais réalisable sur xmkt FH."
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "META_BEST_EV_6P_FH",
+  "label": "🏆🏔️ META BEST-EV 6P FH cote 1.30-1.45 — sort=EV WR≥70% — 91 cycles cap 657€",
+  "description": "★★★★★ NOUVEAU RECORD 100→600 : 6 paliers Foot+Hockey xmkt sort=EV WR≥70% cote 1.30-1.45. Best-of-9 selection per match. Completion **30.8% sur 91 cycles testés**. Cap **657€** (atteint réellement 600€). P3=66.8%, P5=84.2%, P10=97.5%. Compétitif avec CHALLENGE_100_TO_600_FH_XMKT (30.4%/92 cycles/625€) — légèrement supérieur en cap grâce au tri EV.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football", "ice-hockey"],
+    "market": "1x2,btts,over_1_5,over_2_5",
+    "cote_min": 1.30, "cote_max": 1.45,
+    "sort_by": "ev", "max_legs": 1, "max_combos": 1,
+    "min_wr": 0.70, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 100, "n_paliers_target": 6, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "challenge_target": {"start": 100, "end": 600, "expected_cap": 657},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.308,
+    "n_cycles_complete": 28,
+    "n_cycles_total": 91,
+    "avg_capital_complete": 657,
+    "prob_target_3_cycles": 66.8,
+    "prob_target_5_cycles": 84.2,
+    "prob_target_10_cycles": 97.5,
+    "winamax_fr": true,
+    "source": "sweep_best_ev_extended (6 paliers étendus)",
+    "note": "★★★★★ Variante 6 paliers du META_BEST_EV_FH ciblant 100→600€. Cap supérieur de 32€ au CHALLENGE_100_TO_600_FH_XMKT existant grâce au sort=EV (best-of-9 selections)."
+  }
+}

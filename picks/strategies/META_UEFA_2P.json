@@ -1,0 +1,31 @@
+{
+  "id": "META_UEFA_2P",
+  "label": "🏆🆕 META UEFA 2P (UCL+UEL+UECL) 1x2 1.50-1.80 — 23 cycles 47.8% comp +676€",
+  "description": "★★★★ UEFA Champions/Europa/Conference League 1x2 cote 1.50-1.80 WR≥55% sort=ev 2 paliers. **47.8% completion sur 23 cycles testés**. Cap 271€. PnL +676€.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football"],
+    "market": "1x2",
+    "cote_min": 1.50, "cote_max": 1.80,
+    "sort_by": "ev", "max_legs": 1, "max_combos": 1,
+    "min_wr": 0.55, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 100, "n_paliers_target": 2, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "included_leagues": ["uefa champions", "uefa europa", "conference league"],
+  "challenge_target": {"start": 100, "end": 260, "expected_cap": 271},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.478,
+    "n_cycles_complete": 11,
+    "n_cycles_total": 23,
+    "avg_capital_complete": 271,
+    "final_pnl": 676,
+    "winamax_fr": true,
+    "source": "find_uel_ucl_cups (C_UEFA_ALL_1x2_1.5-1.8_wr0.55_p2_ev)",
+    "note": "★★★★ Coupes européennes (UCL+UEL+UECL) — volume modeste (23 cyc) car phase finale uniquement."
+  }
+}

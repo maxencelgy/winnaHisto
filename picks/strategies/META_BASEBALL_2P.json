@@ -1,0 +1,30 @@
+{
+  "id": "META_BASEBALL_2P",
+  "label": "🏆🆕 META BASEBALL 2P cote 1.40-1.55 — 1ère strat baseball lib 61% comp +690€",
+  "description": "★★★★ PREMIÈRE STRATÉGIE BASEBALL DE LA LIB : Baseball 1x2 cote 1.40-1.55 sort=ev 2 paliers. **61.1% completion sur 18 cycles testés**. Cap 226€. PnL +690€ S1-26 — sport quasi-ignoré jusqu'ici, magic dict baseball avait du signal.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["baseball"],
+    "market": "1x2",
+    "cote_min": 1.40, "cote_max": 1.55,
+    "sort_by": "ev", "max_legs": 1, "max_combos": 1,
+    "min_wr": null, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 100, "n_paliers_target": 2, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "challenge_target": {"start": 100, "end": 220, "expected_cap": 226},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.611,
+    "n_cycles_complete": 11,
+    "n_cycles_total": 18,
+    "avg_capital_complete": 226,
+    "final_pnl": 690,
+    "winamax_fr": true,
+    "source": "find_more_angles_v4 (J_BASE_1.4-1.55_p2_wrNone_ev)",
+    "note": "★★★★ MLB ML cote 1.40-1.55 = favoris modérés. Audit data avait identifié 17 gems baseball ; cette strat les exploite. ROI ~38%."
+  }
+}

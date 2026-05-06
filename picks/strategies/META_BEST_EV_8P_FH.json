@@ -1,0 +1,32 @@
+{
+  "id": "META_BEST_EV_8P_FH",
+  "label": "🏆🏔️ META BEST-EV 8P FH cote 1.28-1.42 — sort=EV WR≥75% — 71 cycles cap 1035€",
+  "description": "★★★★★ NOUVEAU TARGET 100→1000 single-cycle : 8 paliers Foot+Hockey xmkt sort=EV WR≥75% cote 1.28-1.42. Best-of-9 selection. Completion **28.2% sur 71 cycles testés**. Cap **1035€** (atteint réellement 1000€). P3=63%, P5=80%, P10=96%.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football", "ice-hockey"],
+    "market": "1x2,btts,over_1_5,over_2_5",
+    "cote_min": 1.28, "cote_max": 1.42,
+    "sort_by": "ev", "max_legs": 1, "max_combos": 1,
+    "min_wr": 0.75, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 100, "n_paliers_target": 8, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "challenge_target": {"start": 100, "end": 1000, "expected_cap": 1035},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.282,
+    "n_cycles_complete": 20,
+    "n_cycles_total": 71,
+    "avg_capital_complete": 1035,
+    "prob_target_3_cycles": 63.0,
+    "prob_target_5_cycles": 80.5,
+    "prob_target_10_cycles": 96.2,
+    "winamax_fr": true,
+    "source": "sweep_best_ev_long (META 8p)",
+    "note": "★★★★★ Variante 8p du META_BEST_EV pour cap 1000€. 28% comp sur 71 cycles — meilleure utility que 9p mais cap inférieur."
+  }
+}

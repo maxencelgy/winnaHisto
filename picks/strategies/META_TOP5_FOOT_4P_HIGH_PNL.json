@@ -1,0 +1,31 @@
+{
+  "id": "META_TOP5_FOOT_4P_HIGH_PNL",
+  "label": "🏆🆕 META TOP5 FOOT 4P 1x2 cote 1.50-1.75 — 59 cycles cap 731€ +2869€",
+  "description": "★★★★★ Foot TOP5 (Premier League, La Liga, Serie A, Bundesliga, Ligue 1) 1x2 cote 1.50-1.75 sort=ev 4 paliers. **20.3% completion sur 59 cycles testés**. Cap 731€ (×7.3 BR). PnL +2869€ S1-26.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football"],
+    "market": "1x2",
+    "cote_min": 1.50, "cote_max": 1.75,
+    "sort_by": "ev", "max_legs": 1, "max_combos": 1,
+    "min_wr": null, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 100, "n_paliers_target": 4, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "included_leagues": ["premier league", "la liga", "serie a", "bundesliga", "ligue 1"],
+  "challenge_target": {"start": 100, "end": 700, "expected_cap": 731},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.203,
+    "n_cycles_complete": 12,
+    "n_cycles_total": 59,
+    "avg_capital_complete": 731,
+    "final_pnl": 2869,
+    "winamax_fr": true,
+    "source": "find_more_angles_v5 (P_TOP5_TOP5_1x2_1.5-1.75_p4_wrNone_ev)",
+    "note": "★★★★★ Top 5 ligues européennes 4 paliers ×1.625 → cap 731€. Bas comp (20%) compensé par cap énorme. 59 cycles."
+  }
+}

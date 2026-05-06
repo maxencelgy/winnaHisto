@@ -1,0 +1,30 @@
+{
+  "id": "META_LOTTERY_FHTB_5P_25K",
+  "label": "🏆🆕💎 META LOTTERY FHTB 5P 1.50-1.75 WR≥55% — +25233€ RECORD PnL ABSOLU",
+  "description": "★★★★★💎 NOUVEAU RECORD PnL ABSOLU LIB : 4-sports xmkt cote 1.50-1.75 WR magic ≥55% sort=wr 5 paliers combo 2 jambes. **2.6% completion sur 114 cycles testés** (lottery — 3 succès / 114). Cap **12211€** (×122 BR). PnL **+25233€** S1-26 OOS — 3.5× le précédent record (META_COMBO2_FHT_3P à +7112€).",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football", "ice-hockey", "tennis", "basketball"],
+    "market": "1x2,btts,over_1_5,over_2_5",
+    "cote_min": 1.50, "cote_max": 1.75,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+    "min_wr": 0.55, "min_ev": null,
+    "legs_per_palier": 2
+  }],
+  "montante": {"initial_stake": 100, "n_paliers_target": 5, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 2},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "challenge_target": {"start": 100, "end": 10000, "expected_cap": 12211},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.026,
+    "n_cycles_complete": 3,
+    "n_cycles_total": 114,
+    "avg_capital_complete": 12211,
+    "final_pnl": 25233,
+    "winamax_fr": true,
+    "source": "find_aggro_pnl_hunt (A_FHTB_1.5-1.75_wr0.55_p5_legs2_wr)",
+    "note": "★★★★★💎 LOTTERY ABSOLU : 5 paliers × combo 2 jambes (cote totale ~2.7 par palier) → cap théorique ×120 BR. 3 succès sur 114 cycles = 2.6%, mais chaque succès fait ×122 le BR initial. PnL +25233€ S1-26 OOS = nouveau record absolu PnL/cycle de la lib. Volume 114 cycles validés."
+  }
+}

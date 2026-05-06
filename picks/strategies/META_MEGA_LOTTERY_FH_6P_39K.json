@@ -1,0 +1,30 @@
+{
+  "id": "META_MEGA_LOTTERY_FH_6P_39K",
+  "label": "🏆🆕 META MEGA LOTTERY FH 6P combo 3j cote 1.30-1.50 — +39359€",
+  "description": "★★★★★ Foot+Hockey xmkt cote 1.30-1.50 sort=ev 6 paliers combo 3 jambes. **0.99% completion sur 101 cycles testés**. Cap 49459€ (×495 BR). PnL **+39359€** S1-26 OOS — version moins extrême du LOTTERY 7P.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football", "ice-hockey"],
+    "market": "1x2,btts,over_1_5,over_2_5",
+    "cote_min": 1.30, "cote_max": 1.50,
+    "sort_by": "ev", "max_legs": 1, "max_combos": 1,
+    "min_wr": null, "min_ev": null,
+    "legs_per_palier": 3
+  }],
+  "montante": {"initial_stake": 100, "n_paliers_target": 6, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 3},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "challenge_target": {"start": 100, "end": 40000, "expected_cap": 49459},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.0099,
+    "n_cycles_complete": 1,
+    "n_cycles_total": 101,
+    "avg_capital_complete": 49459,
+    "final_pnl": 39359,
+    "winamax_fr": true,
+    "source": "find_mega_lottery (M_FH_1.3-1.5_wrNone_p6_legs3_ev)",
+    "note": "★★★★★ Lottery 6P version réduite : cap ×495 (vs ×1163 sur 7P). 18 picks/cycle. Plus accessible que MEGA 7P en exposition."
+  }
+}

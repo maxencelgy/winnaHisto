@@ -1,0 +1,30 @@
+{
+  "id": "META_COMBO3_FH_3P_HIGH_CAP_1762",
+  "label": "🏆🆕💎 META COMBO3 FH 3P 1.30-1.45 WR≥65% — cap 1762€ +10382€",
+  "description": "★★★★★ Combo 3 jambes Foot+Hockey xmkt cote 1.30-1.45 WR≥65% sort=ev 3 paliers. **12.2% completion sur 90 cycles testés**. Cap 1762€ (×17.6 BR — record cap 3P combo). PnL +10382€.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football", "ice-hockey"],
+    "market": "1x2,btts,over_1_5,over_2_5",
+    "cote_min": 1.30, "cote_max": 1.45,
+    "sort_by": "ev", "max_legs": 1, "max_combos": 1,
+    "min_wr": 0.65, "min_ev": null,
+    "legs_per_palier": 3
+  }],
+  "montante": {"initial_stake": 100, "n_paliers_target": 3, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 3},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "challenge_target": {"start": 100, "end": 1700, "expected_cap": 1762},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.122,
+    "n_cycles_complete": 11,
+    "n_cycles_total": 90,
+    "avg_capital_complete": 1762,
+    "final_pnl": 10382,
+    "winamax_fr": true,
+    "source": "find_legs2_highcote_singleshot (L3MC_FH_1.3-1.45_wr0.65_p3_ev)",
+    "note": "★★★★★ Cote slightly higher 1.30-1.45 → cap 1762€. Combo 3j × 3p = 9 picks. PnL +10382€."
+  }
+}

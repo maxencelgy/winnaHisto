@@ -1,0 +1,30 @@
+{
+  "id": "META_BALANCED_FHTB_3P_BEST_SCORE",
+  "label": "🏆🆕 META BALANCED FHTB 3P 1.22-1.38 WR≥70% — 95 cycles cap 1099€ +11384€ ★ BEST SCORE 209",
+  "description": "★★★★★ NOUVEAU BEST SCORE LIB : 4 sports xmkt cote 1.22-1.38 WR magic ≥70% sort=ev 3 paliers combo 3 jambes. **20.0% completion sur 95 cycles testés**. Cap 1099€. PnL +11384€ S1-26 OOS. Score 209 (record absolu lib).",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football", "ice-hockey", "tennis", "basketball"],
+    "market": "1x2,btts,over_1_5,over_2_5",
+    "cote_min": 1.22, "cote_max": 1.38,
+    "sort_by": "ev", "max_legs": 1, "max_combos": 1,
+    "min_wr": 0.70, "min_ev": null,
+    "legs_per_palier": 3
+  }],
+  "montante": {"initial_stake": 100, "n_paliers_target": 3, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 3},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "challenge_target": {"start": 100, "end": 1050, "expected_cap": 1099},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.200,
+    "n_cycles_complete": 19,
+    "n_cycles_total": 95,
+    "avg_capital_complete": 1099,
+    "final_pnl": 11384,
+    "winamax_fr": true,
+    "source": "find_best_balanced (BAL_FHTB_1.22-1.38_wr70_l3_p3_ev)",
+    "note": "★★★★★ Sweet spot trouvé : cote 1.22-1.38 + WR≥70 + legs=3 + 3 paliers + 4 sports. 9 picks/cycle. 95 cycles validés. PnL +11384€."
+  }
+}

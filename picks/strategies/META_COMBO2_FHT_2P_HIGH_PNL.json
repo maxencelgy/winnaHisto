@@ -1,0 +1,30 @@
+{
+  "id": "META_COMBO2_FHT_2P_HIGH_PNL",
+  "label": "🏆🆕 META COMBO2 FHT 2P xmkt 1.20-1.40 WR≥70% — 110 cycles cap 268€ +4554€",
+  "description": "★★★★★ Combo 2 jambes daily Foot+Hockey+Tennis xmkt cote 1.20-1.40 WR magic ≥70% sort=wr 2 paliers. **52.7% completion sur 110 cycles testés**. Cap 268€. PnL **+4554€** S1-26 OOS — meilleur PnL 2 paliers de la lib.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football", "ice-hockey", "tennis"],
+    "market": "1x2,btts,over_1_5,over_2_5",
+    "cote_min": 1.20, "cote_max": 1.40,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+    "min_wr": 0.70, "min_ev": null,
+    "legs_per_palier": 2
+  }],
+  "montante": {"initial_stake": 100, "n_paliers_target": 2, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 2},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "challenge_target": {"start": 100, "end": 250, "expected_cap": 268},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.527,
+    "n_cycles_complete": 58,
+    "n_cycles_total": 110,
+    "avg_capital_complete": 268,
+    "final_pnl": 4554,
+    "winamax_fr": true,
+    "source": "find_hybrid_v2_beat (S_COMBO2_FHT_1.2-1.4_wr70_p2_wr)",
+    "note": "★★★★★ Combo 2 picks par palier × 2 paliers — cote totale ~1.65 par palier × 2 = ×2.7 BR. 52.7% comp + 110 cycles + cap 268€ = équilibre exceptionnel. PnL record 2P."
+  }
+}

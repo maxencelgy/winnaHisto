@@ -1,0 +1,30 @@
+{
+  "id": "META_PERFECT_FHT_HIGH_CAP",
+  "label": "🏆🆕✨ META PERFECT FHT HIGH CAP — 17/17 cycles cap 107€ +123€ BEST PnL 100%",
+  "description": "★★★★★✨ Foot+Hockey+Tennis 1x2 cote 1.05-1.10 WR magic ≥92% sort=wr 1 palier. **100.0% completion sur 17 cycles testés**. Cap 107€ (cote slightly higher). PnL **+123€** — meilleur PnL des 100% completion.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football", "ice-hockey", "tennis"],
+    "market": "1x2",
+    "cote_min": 1.05, "cote_max": 1.10,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+    "min_wr": 0.92, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 100, "n_paliers_target": 1, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "challenge_target": {"start": 100, "end": 105, "expected_cap": 107},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 1.000,
+    "n_cycles_complete": 17,
+    "n_cycles_total": 17,
+    "avg_capital_complete": 107,
+    "final_pnl": 123,
+    "winamax_fr": true,
+    "source": "find_perfect_extended (PE_FHT_1.05-1.1_wr92_p1_wr)",
+    "note": "★★★★★✨ Cote 1.05-1.10 (vs 1.03-1.07) → +2€ cap par cycle. WR≥92 (vs 96) → magic dict moins restrictif. 17 cycles parfaits."
+  }
+}

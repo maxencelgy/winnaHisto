@@ -1,0 +1,30 @@
+{
+  "id": "META_BASEBALL_3P",
+  "label": "🏆🆕 META BASEBALL 3P cote 1.40-1.55 — 17 cycles cap 342€ +695€",
+  "description": "★★★★ Baseball 1x2 cote 1.40-1.55 sort=wr 3 paliers. **41.2% completion sur 17 cycles testés**. Cap 342€. PnL +695€ S1-26.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["baseball"],
+    "market": "1x2",
+    "cote_min": 1.40, "cote_max": 1.55,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+    "min_wr": null, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 100, "n_paliers_target": 3, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "challenge_target": {"start": 100, "end": 320, "expected_cap": 342},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.412,
+    "n_cycles_complete": 7,
+    "n_cycles_total": 17,
+    "avg_capital_complete": 342,
+    "final_pnl": 695,
+    "winamax_fr": true,
+    "source": "find_more_angles_v4 (J_BASE_1.4-1.55_p3_wrNone_wr)",
+    "note": "★★★★ Baseball 3P — variante 3p de BASEBALL_2P. Cap 342€ = ×3.4 BR initial."
+  }
+}

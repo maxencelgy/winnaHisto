@@ -1,0 +1,30 @@
+{
+  "id": "META_HYBRID_SAFE_VOLUME",
+  "label": "🏆🆕 META HYBRID SAFE+VOLUME — FHT 1x2 1.20-1.40 WR≥72% — 76.7% comp / 116 cycles / +2901€",
+  "description": "★★★★★ HYBRIDE PARFAIT entre MIDCOTE_FH_2P (volume+gain) et 2P_92PCT (sécurité) : Foot+Hockey+Tennis 1x2 cote 1.20-1.40 WR magic ≥72% sort=wr 2 paliers. **76.7% completion sur 116 cycles testés** (RECORD volume absolu 2 paliers). Cap 163€. PnL **+2901€** S1-26 OOS — meilleur compromis comp×volume×PnL de la lib.",
+  "mode": "montante",
+  "components": [{
+    "sports": ["football", "ice-hockey", "tennis"],
+    "market": "1x2",
+    "cote_min": 1.20, "cote_max": 1.40,
+    "sort_by": "wr", "max_legs": 1, "max_combos": 1,
+    "min_wr": 0.72, "min_ev": null,
+    "legs_per_palier": 1
+  }],
+  "montante": {"initial_stake": 100, "n_paliers_target": 2, "reset_on_loss": true,
+                "preferred_mode": "intraday", "combo_legs_per_palier": 1},
+  "dedup": "max1",
+  "sizing": {"mode": "all_in", "min_stake": 0.5},
+  "challenge_target": {"start": 100, "end": 160, "expected_cap": 163},
+  "validated": {
+    "period": "S1-26 (4 mois OOS strict, Winamax FR)",
+    "completion_rate": 0.767,
+    "n_cycles_complete": 89,
+    "n_cycles_total": 116,
+    "avg_capital_complete": 163,
+    "final_pnl": 2901,
+    "winamax_fr": true,
+    "source": "find_hybrid_safe_volume (H_FHT_1x2_1.2-1.4_wr72_wr)",
+    "note": "★★★★★ Sweet spot ENTRE MIDCOTE_FH_2P (63.7%/91/+3388€) et 2P_92PCT (92%/25/+92€). 76.7% comp = 1 cycle sur 4 fail. 116 cycles validés = RECORD VOLUME absolu 2P (dépasse META_BEST_EV_2P_FH_VOL à 115). Cote 1.20-1.40 WR≥72% = la zone où la magic dict est la plus fiable + volume scrape max. Foot+Hockey+Tennis pour pool de matchs."
+  }
+}
